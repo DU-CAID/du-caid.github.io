@@ -1,3 +1,3 @@
-# DU CAID Projects Site
+# DU CAID Projects
 
 Website for the University of Denver's Daniels College of Business CAID projects.
