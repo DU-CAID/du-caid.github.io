@@ -157,3 +157,13 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:
   margin-bottom: 0.25rem;
 }
 
+.mission-list {
+  margin: 1rem 0 2rem 1.25rem;
+  padding: 0;
+  list-style: disc;
+}
+
+.mission-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
