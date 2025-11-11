@@ -71,3 +71,67 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:
   width: auto;
 }
 
+
+/* --- Hero logo + text layout --- */
+.hero {
+  background: linear-gradient(135deg, var(--du-crimson), #8c0a24);
+  color: #fff;
+}
+
+.hero-inner {
+  padding: 4rem 0;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-logo img {
+  width: 280px;       /* adjust to make it larger or smaller */
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.hero-text {
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 2.25rem;
+  margin: 0 0 0.75rem;
+  line-height: 1.15;
+}
+
+.hero-text p {
+  margin: 0 0 1.25rem;
+  color: #ffe7ea;
+  max-width: 55ch;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+/* Mobile stacking */
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-logo img {
+    margin: 0 auto 1rem;
+    width: 220px;
+  }
+
+  .hero-ctas {
+    justify-content: center;
+  }
+}
