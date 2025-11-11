@@ -135,17 +135,25 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:
   }
 }
 
-.footer-brandline{
-  display:flex;
-  align-items:center;
-  justify-content:center;   
-  gap:.5rem;
-  flex-wrap:wrap;
+.footer-centered {
+  display: flex;
+  flex-direction: column;     
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  gap: 0.25rem;
+  text-align: center;
 }
-.footer-du{
-  height:22px;              
-  width:auto;
-  display:block;
-  opacity:0.95;
+
+.footer-centered small {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.footer-du {
+  height: 28px;              
+  width: auto;
+  opacity: 0.95;
+  margin-bottom: 0.25rem;
 }
 
