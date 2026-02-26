@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About · DU CAID</title>
+  <meta name="description" content="Center for Analytics and Innovation with Data (CAID) at the University of Denver">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container head-inner">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true">◆</span>
+      <span class="brand-text">DU CAID</span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container prose">
+    <h1>About the Center</h1>
+    <p>The Center for Analytics and Innovation with Data (CAID) advances evidence‑based policymaking and public‑interest technology through open data, rigorous methods, and collaborative research.</p>
+    <h2>What we do</h2>
+    <ul>
+      <li>Publish open datasets and dashboards for civic transparency</li>
+      <li>Develop reproducible research pipelines</li>
+      <li>Create applied teaching materials and workshops</li>
+      <li>Partner with public agencies and non‑profits</li>
+    </ul>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark" aria-hidden="true">◆</span> DU CAID
+    </div>
+    <div class="footer-meta">
+      <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
