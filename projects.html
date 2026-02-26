@@ -14,8 +14,8 @@
 <header class="site-header">
   <div class="container head-inner">
     <a class="brand" href="/">
-      <span class="brand-mark" aria-hidden="true">◆</span>
-      <span class="brand-text">DU CAID</span>
+      <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+      <span class="brand-text"></span>
     </a>
     <nav class="nav">
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
@@ -36,24 +36,22 @@
     <p>State‑level AI legislation tracking across the U.S., with a public dashboard and research use‑cases.</p>
     <p><a class="btn btn-primary" href="/tracker/" style="font-size:.9rem;padding:.5rem .9rem">Open Dashboard →</a></p>
 
-    <h2 id="ebp">Evidence‑Based Policy Scoring</h2>
-    <p>Rubric‑based scoring of policy documents using open‑source models; reproducible datasets for analysis.</p>
+    <h2 id="housing">State Housing Market Reporting</h2>
+    <p>In partnership with the University of Denver's <a href="https://daniels.du.edu/burns-school/" target="_blank" rel="noopener">Franklin L. Burns School of Real Estate and Construction Management</a>. Analysis and reporting capturing a number of metrics and trends across residential and commercial housing sales in Colorado.</p>
 
     <h2 id="teaching">Teaching & Training</h2>
-    <p>Graduate programming, data engineering, and AI governance modules and materials.</p>
+    <p>Information coming soon.</p>
   </div>
 </main>
 
 <footer class="site-footer">
-  <div class="container footer-inner">
-    <div class="footer-brand">
-      <span class="brand-mark" aria-hidden="true">◆</span> DU CAID
-    </div>
-    <div class="footer-meta">
-      <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
-    </div>
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
   </div>
 </footer>
-<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
