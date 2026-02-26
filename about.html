@@ -13,10 +13,10 @@
 
 <header class="site-header">
   <div class="container head-inner">
-    <a class="brand" href="/">
-      <span class="brand-mark" aria-hidden="true">◆</span>
-      <span class="brand-text">DU CAID</span>
-    </a>
+<a class="brand" href="/">
+  <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+  <span class="brand-text"></span>
+</a>
     <nav class="nav">
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
       <ul id="nav-links" class="nav-links">
@@ -32,27 +32,35 @@
 <main class="page">
   <div class="container prose">
     <h1>About the Center</h1>
-    <p>The Center for Analytics and Innovation with Data (CAID) advances evidence‑based policymaking and public‑interest technology through open data, rigorous methods, and collaborative research.</p>
-    <h2>What we do</h2>
-    <ul>
-      <li>Publish open datasets and dashboards for civic transparency</li>
-      <li>Develop reproducible research pipelines</li>
-      <li>Create applied teaching materials and workshops</li>
-      <li>Partner with public agencies and non‑profits</li>
-    </ul>
+    <p>The Center for Analytics and Innovation with Data (CAID) advances applied research and experiential learning at the intersection of data, technology, and decision-making. 
+  We connect students, faculty, and industry partners to turn data into actionable insights that create value across sectors - from business and education to public and social impact.
+</p>
+<h2>Mission</h2>
+
+<ul class="mission-list">
+  <li>
+    <strong>Innovation for Research & Learning:</strong>
+    Advancing cutting-edge research in data analytics and AI, expanding knowledge while integrating students into transformative educational experiences.
+  </li>
+  <li>
+    <strong>Collaborative Impact & Industry Engagement:</strong>
+    By fostering partnerships with industry and the Denver community, CAID helps bridge the gap between research and application. 
+  We empower students to work alongside faculty and external partners, producing data-driven insights that enhance business performance, drive innovation, and strengthen the analytics ecosystem across sectors.
+</p>
+  </li>
+</ul>
+
   </div>
 </main>
 
 <footer class="site-footer">
-  <div class="container footer-inner">
-    <div class="footer-brand">
-      <span class="brand-mark" aria-hidden="true">◆</span> DU CAID
-    </div>
-    <div class="footer-meta">
-      <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
-    </div>
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
   </div>
 </footer>
-<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>

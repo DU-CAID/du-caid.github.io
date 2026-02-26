@@ -13,10 +13,10 @@
 
 <header class="site-header">
   <div class="container head-inner">
-    <a class="brand" href="/">
-      <span class="brand-mark" aria-hidden="true">◆</span>
-      <span class="brand-text">DU CAID</span>
-    </a>
+<a class="brand" href="/">
+  <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+  <span class="brand-text"></span>
+</a>
     <nav class="nav">
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
       <ul id="nav-links" class="nav-links">
@@ -32,21 +32,19 @@
 <main class="page">
   <div class="container prose">
     <h1>Contact</h1>
-    <p>Email: <a href="mailto:caid@du.edu">caid@du.edu</a></p>
-    <p>Follow our work on GitHub: <a href="https://github.com/">github.com</a></p>
+    <p>Email: <a href="mailto:caid@du.edu">stefani.langehennig@du.edu</a></p>
+    <p>Follow our work: <a href="https://du-caid.github.io/">https://du-caid.github.io/</a></p>
   </div>
 </main>
 
 <footer class="site-footer">
-  <div class="container footer-inner">
-    <div class="footer-brand">
-      <span class="brand-mark" aria-hidden="true">◆</span> DU CAID
-    </div>
-    <div class="footer-meta">
-      <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
-    </div>
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
   </div>
 </footer>
-<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
