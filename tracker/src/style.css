@@ -1,0 +1,74 @@
+/* DU CAID brand overrides for Observable Framework */
+:root {
+  --theme-foreground-focus: #BA0C2F;
+  --theme-blue: #BA0C2F;
+}
+
+/* Metric cards */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.metric-card {
+  background: var(--theme-background-alt, #f8fafc);
+  border: 1px solid var(--theme-foreground-faintest, #e5e7eb);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #BA0C2F;
+  line-height: 1.1;
+}
+
+.metric-label {
+  font-size: 0.85rem;
+  color: var(--theme-foreground-muted, #6b7280);
+  margin-top: 0.3rem;
+}
+
+/* Bill browser filter bar */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: var(--theme-background-alt, #f8fafc);
+  border-radius: 0.5rem;
+  border: 1px solid var(--theme-foreground-faintest, #e5e7eb);
+}
+
+/* NCSL badge */
+.ncsl-badge {
+  display: inline-block;
+  background: #BA0C2F;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.4rem;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+
+/* Result count label */
+.result-count {
+  font-size: 0.9rem;
+  color: var(--theme-foreground-muted, #6b7280);
+  margin-bottom: 0.5rem;
+}
+
+/* Section headers */
+.section-header {
+  border-bottom: 2px solid #BA0C2F;
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
