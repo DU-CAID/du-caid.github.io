@@ -11,61 +11,36 @@ using a two-tier regex pipeline validated against the
 [NCSL AI Legislation Database](https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database).
 
 ```js
-import {DuckDBClient} from "npm:@observablehq/duckdb";
+import * as Plot from "npm:@observablehq/plot";
+import * as topojson from "npm:topojson-client";
 
-const db = await DuckDBClient.of({
-  bills: FileAttachment("data/ai_flagged_bills.parquet"),
-});
-```
-
-```js
-// Headline metrics
-const [{total, core_ai, ncsl_matched, states_count}] = await db.sql`
-  SELECT
-    COUNT(*)                                              AS total,
-    COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)         AS core_ai,
-    COUNT(CASE WHEN in_ncsl THEN 1 END)                  AS ncsl_matched,
-    COUNT(DISTINCT state)                                 AS states_count
-  FROM bills
-`;
+const metrics   = await FileAttachment("data/metrics.json").json();
+const stateCounts  = await FileAttachment("data/state_counts.json").json();
+const breakdown    = await FileAttachment("data/state_breakdown.json").json();
 ```
 
 ```js
 html`<div class="metrics-grid">
   <div class="metric-card">
-    <div class="metric-value">${Number(total).toLocaleString()}</div>
+    <div class="metric-value">${Number(metrics.total).toLocaleString()}</div>
     <div class="metric-label">Total Flagged Bills</div>
   </div>
   <div class="metric-card">
-    <div class="metric-value">${Number(core_ai).toLocaleString()}</div>
+    <div class="metric-value">${Number(metrics.core_ai).toLocaleString()}</div>
     <div class="metric-label">Core AI Bills</div>
   </div>
   <div class="metric-card">
-    <div class="metric-value">${Number(ncsl_matched).toLocaleString()}</div>
+    <div class="metric-value">${Number(metrics.ncsl_matched).toLocaleString()}</div>
     <div class="metric-label">NCSL Matched</div>
   </div>
   <div class="metric-card">
-    <div class="metric-value">${Number(states_count)}</div>
+    <div class="metric-value">${Number(metrics.states_count)}</div>
     <div class="metric-label">States &amp; Territories</div>
   </div>
 </div>`
 ```
 
 ## Bills by State
-
-```js
-import * as Plot from "npm:@observablehq/plot";
-import * as topojson from "npm:topojson-client";
-
-const stateCounts = await db.sql`
-  SELECT state, COUNT(*) AS count
-  FROM bills
-  GROUP BY state
-  ORDER BY count DESC
-`;
-const stateCountsArr = [...stateCounts];
-const countByState = new Map(stateCountsArr.map(d => [d.state, Number(d.count)]));
-```
 
 ```js
 // US choropleth map — data prep
@@ -84,13 +59,15 @@ const FIPS = {
   "55":"WI","56":"WY","72":"PR"
 };
 
+const countByState = new Map(stateCounts.map(d => [d.state, d.count]));
+
 stateFeatures.features.forEach(f => {
   const abbr = FIPS[String(f.id).padStart(2, "0")];
   f.properties.abbr  = abbr;
   f.properties.count = countByState.get(abbr) ?? 0;
 });
 
-const maxCount = Math.max(...stateCountsArr.map(d => Number(d.count)));
+const maxCount = Math.max(...stateCounts.map(d => d.count));
 ```
 
 ```js
@@ -120,23 +97,10 @@ Plot.plot({
 ## Top 15 States — Core AI vs. Adjacent AI
 
 ```js
-const breakdown = await db.sql`
-  SELECT
-    state,
-    COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)                              AS core_ai,
-    COUNT(CASE WHEN core_ai_hits = 0 AND source_bucket != 'ncsl_only' THEN 1 END) AS adjacent_ai,
-    COUNT(*) AS total
-  FROM bills
-  GROUP BY state
-  ORDER BY total DESC
-  LIMIT 15
-`;
-const breakdownArr = [...breakdown];
-
 // Reshape for stacked bars
 const stackData = [
-  ...breakdownArr.map(d => ({state: d.state, count: Number(d.core_ai),    tier: "Core AI"})),
-  ...breakdownArr.map(d => ({state: d.state, count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
+  ...breakdown.map(d => ({state: d.state, count: d.core_ai,    tier: "Core AI"})),
+  ...breakdown.map(d => ({state: d.state, count: d.adjacent_ai, tier: "Adjacent AI"})),
 ];
 ```
 
@@ -150,7 +114,7 @@ Plot.plot({
     legend: true,
   },
   x: {label: "Number of bills", grid: true},
-  y: {label: null, domain: breakdownArr.map(d => d.state)},
+  y: {label: null, domain: breakdown.map(d => d.state)},
   marks: [
     Plot.barX(stackData, Plot.stackX({
       y: "state",

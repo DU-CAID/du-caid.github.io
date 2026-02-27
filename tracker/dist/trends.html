@@ -7,22 +7,16 @@
 <title>Trends | AI Policy Tracker</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.a4eb15f4.css">
+<link rel="preload" as="style" href="./_import/style.e5fe8f0a.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.a4eb15f4.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.e5fe8f0a.css">
 <link rel="modulepreload" href="./_observablehq/client.d92ed2ff.js">
 <link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.43270668.js">
-<link rel="modulepreload" href="./_observablehq/stdlib/duckdb.20461150.js">
 <link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/7c43807f.js">
-<link rel="modulepreload" href="./_npm/apache-arrow@21.1.0/63de76cd.js">
-<link rel="modulepreload" href="./_npm/parquet-wasm@0.7.1/68d81b68.js">
-<link rel="modulepreload" href="./_npm/@duckdb/duckdb-wasm@1.29.0/d1cf3c5a.js">
 <link rel="modulepreload" href="./_npm/d3@7.9.0/e324157d.js">
 <link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
 <link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
-<link rel="modulepreload" href="./_npm/tslib@2.8.1/b62a9c4a.js">
-<link rel="modulepreload" href="./_npm/flatbuffers@25.9.23/c82700c2.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
 <link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
@@ -57,43 +51,44 @@
 <link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
 <link rel="modulepreload" href="./_npm/delaunator@5.0.1/02d43215.js">
 <link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/aa00730b.js">
+<style>
+  :root {
+    --sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    --serif:      system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  *, *::before, *::after {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+    animation-duration:   0.001ms !important;
+    animation-delay:      0s      !important;
+    transition-duration:  0.001ms !important;
+    transition-delay:     0s      !important;
+  }
+</style>
 <script type="module">
 
 import {define} from "./_observablehq/client.d92ed2ff.js";
 import {registerFile} from "./_observablehq/stdlib.43270668.js";
 
-registerFile("./data/ai_flagged_bills.parquet", {"name":"./data/ai_flagged_bills.parquet","path":"./_file/data/ai_flagged_bills.33e7b7da.parquet","lastModified":1772141513819,"size":48048659});
+registerFile("./data/by_year.json", {"name":"./data/by_year.json","mimeType":"application/json","path":"./_file/data/by_year.f5b2229b.json","lastModified":1772224606300,"size":378});
+registerFile("./data/concepts.json", {"name":"./data/concepts.json","mimeType":"application/json","path":"./_file/data/concepts.0685a3b4.json","lastModified":1772224606715,"size":1173});
+registerFile("./data/sources.json", {"name":"./data/sources.json","mimeType":"application/json","path":"./_file/data/sources.6a20ba87.json","lastModified":1772224606798,"size":246});
 
-define({id: "f8e3b4ae", inputs: ["FileAttachment"], outputs: ["DuckDBClient","Plot","db"], body: async (FileAttachment) => {
-const [{DuckDBClient}, Plot] = await Promise.all([import("./_observablehq/stdlib/duckdb.20461150.js"), import("./_npm/@observablehq/plot@0.6.17/7c43807f.js")]);
+define({id: "79478d06", inputs: ["FileAttachment"], outputs: ["Plot","byYear","concepts","sources"], body: async (FileAttachment) => {
+const Plot = await import("./_npm/@observablehq/plot@0.6.17/7c43807f.js");
 
-const db = await DuckDBClient.of({
-  bills: FileAttachment("./data/ai_flagged_bills.parquet"),
-});
-return {DuckDBClient,Plot,db};
+const byYear   = await FileAttachment("./data/by_year.json").json();
+const concepts = await FileAttachment("./data/concepts.json").json();
+const sources  = await FileAttachment("./data/sources.json").json();
+return {Plot,byYear,concepts,sources};
 }});
 
-define({id: "a4e7060e", inputs: ["db"], outputs: ["byYear","byYearArr","lineData"], body: async (db) => {
-const byYear = await db.sql`
-  SELECT
-    YEAR(TRY_CAST(latest_action_date AS DATE))                   AS year,
-    COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)                AS core_ai,
-    COUNT(CASE WHEN core_ai_hits = 0 AND source_bucket != 'ncsl_only' THEN 1 END) AS adjacent_ai,
-    COUNT(*)                                                     AS total
-  FROM bills
-  WHERE latest_action_date IS NOT NULL
-    AND YEAR(TRY_CAST(latest_action_date AS DATE)) BETWEEN 2019 AND 2025
-  GROUP BY year
-  ORDER BY year
-`;
-const byYearArr = [...byYear];
-
+define({id: "30c867c0", inputs: ["byYear"], outputs: ["lineData"], body: (byYear) => {
 // Reshape for multi-series line chart
 const lineData = [
-  ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.core_ai),    tier: "Core AI"})),
-  ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
+  ...byYear.map(d => ({year: d.year, count: d.core_ai,    tier: "Core AI"})),
+  ...byYear.map(d => ({year: d.year, count: d.adjacent_ai, tier: "Adjacent AI"})),
 ];
-return {byYear,byYearArr,lineData};
+return {lineData};
 }});
 
 define({id: "1bcc8260", inputs: ["Plot","lineData","display"], body: async (Plot,lineData,display) => {
@@ -130,23 +125,7 @@ Plot.plot({
 ))
 }});
 
-define({id: "4a31d975", inputs: ["db"], outputs: ["concepts","conceptsArr"], body: async (db) => {
-const concepts = await db.sql`
-  SELECT concept, COUNT(*) AS count
-  FROM (
-    SELECT UNNEST(matched_concepts) AS concept
-    FROM bills
-    WHERE matched_concepts IS NOT NULL
-  )
-  GROUP BY concept
-  ORDER BY count DESC
-  LIMIT 25
-`;
-const conceptsArr = [...concepts].map(d => ({concept: d.concept, count: Number(d.count)}));
-return {concepts,conceptsArr};
-}});
-
-define({id: "4d71dcfb", inputs: ["Plot","conceptsArr","display"], body: async (Plot,conceptsArr,display) => {
+define({id: "300b9272", inputs: ["Plot","concepts","display"], body: async (Plot,concepts,display) => {
 display(await(
 Plot.plot({
   height: 560,
@@ -154,7 +133,7 @@ Plot.plot({
   x: {label: "Bills matched", grid: true},
   y: {label: null},
   marks: [
-    Plot.barX(conceptsArr, {
+    Plot.barX(concepts, {
       y: "concept",
       x: "count",
       fill: "#BA0C2F",
@@ -168,26 +147,7 @@ Plot.plot({
 ))
 }});
 
-define({id: "da351767", inputs: ["db"], outputs: ["sources","sourcesArr"], body: async (db) => {
-const sources = await db.sql`
-  SELECT
-    CASE
-      WHEN source_bucket = 'ncsl_only' THEN 'NCSL only (not caught by regex)'
-      WHEN in_ncsl AND core_ai_hits > 0 THEN 'Regex + NCSL confirmed (Core AI)'
-      WHEN in_ncsl THEN 'Regex + NCSL confirmed (Adjacent AI)'
-      WHEN core_ai_hits > 0 THEN 'Regex flagged (Core AI)'
-      ELSE 'Regex flagged (Adjacent AI)'
-    END AS source,
-    COUNT(*) AS count
-  FROM bills
-  GROUP BY source
-  ORDER BY count DESC
-`;
-const sourcesArr = [...sources].map(d => ({source: d.source, count: Number(d.count)}));
-return {sources,sourcesArr};
-}});
-
-define({id: "43873656", inputs: ["Plot","sourcesArr","display"], body: async (Plot,sourcesArr,display) => {
+define({id: "b44e6129", inputs: ["Plot","sources","display"], body: async (Plot,sources,display) => {
 display(await(
 Plot.plot({
   height: 240,
@@ -198,7 +158,7 @@ Plot.plot({
     range: ["#BA0C2F", "#c94b68", "#A89968", "#c4b48a", "#6b7280"],
   },
   marks: [
-    Plot.barX(sourcesArr, {
+    Plot.barX(sources, {
       y: "source",
       x: "count",
       fill: "source",
@@ -290,17 +250,15 @@ Plot.plot({
 <main id="observablehq-main" class="observablehq">
 <h1 id="trends" tabindex="-1"><a class="observablehq-header-anchor" href="#trends">Trends</a></h1>
 <p>How AI-related legislation has grown over time, and what topics dominate the landscape.</p>
-<div class="observablehq observablehq--block"><!--:f8e3b4ae:--></div>
+<div class="observablehq observablehq--block"><!--:79478d06:--></div>
 <h2 id="bills-per-year" tabindex="-1"><a class="observablehq-header-anchor" href="#bills-per-year">Bills Per Year</a></h2>
-<div class="observablehq observablehq--block"><!--:a4e7060e:--></div>
+<div class="observablehq observablehq--block"><!--:30c867c0:--></div>
 <div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:1bcc8260:--></div>
 <h2 id="top-25-matched-concepts" tabindex="-1"><a class="observablehq-header-anchor" href="#top-25-matched-concepts">Top 25 Matched Concepts</a></h2>
 <p>Concepts matched most frequently across all flagged bills (bills can match multiple concepts).</p>
-<div class="observablehq observablehq--block"><!--:4a31d975:--></div>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:4d71dcfb:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:300b9272:--></div>
 <h2 id="source-breakdown" tabindex="-1"><a class="observablehq-header-anchor" href="#source-breakdown">Source Breakdown</a></h2>
-<div class="observablehq observablehq--block"><!--:da351767:--></div>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:43873656:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:b44e6129:--></div>
 <h2 id="ncsl-ground-truth-coverage" tabindex="-1"><a class="observablehq-header-anchor" href="#ncsl-ground-truth-coverage">NCSL Ground-Truth Coverage</a></h2>
 <p>The <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>
 serves as our validation benchmark. Of the 1,597 NCSL-curated bills, 1,466 matched to bills
@@ -312,7 +270,7 @@ across the 1.45M-bill dataset.</p>
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="prev" href="./bills"><span>Bill Browser</span></a></nav>
-<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:22:47">Feb 27, 2026</a>.</div>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:41:04">Feb 27, 2026</a>.</div>
 </footer>
 </div>
 </body>

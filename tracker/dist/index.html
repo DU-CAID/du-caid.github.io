@@ -7,24 +7,18 @@
 <title>Overview | AI Policy Tracker</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.a4eb15f4.css">
+<link rel="preload" as="style" href="./_import/style.e5fe8f0a.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.a4eb15f4.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.e5fe8f0a.css">
 <link rel="modulepreload" href="./_observablehq/client.d92ed2ff.js">
 <link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.43270668.js">
-<link rel="modulepreload" href="./_observablehq/stdlib/duckdb.20461150.js">
 <link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/7c43807f.js">
 <link rel="modulepreload" href="./_npm/topojson-client@3.1.0/edd9ee95.js">
 <link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
-<link rel="modulepreload" href="./_npm/apache-arrow@21.1.0/63de76cd.js">
-<link rel="modulepreload" href="./_npm/parquet-wasm@0.7.1/68d81b68.js">
-<link rel="modulepreload" href="./_npm/@duckdb/duckdb-wasm@1.29.0/d1cf3c5a.js">
 <link rel="modulepreload" href="./_npm/d3@7.9.0/e324157d.js">
 <link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
 <link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
-<link rel="modulepreload" href="./_npm/tslib@2.8.1/b62a9c4a.js">
-<link rel="modulepreload" href="./_npm/flatbuffers@25.9.23/c82700c2.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
 <link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
@@ -59,73 +53,61 @@
 <link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
 <link rel="modulepreload" href="./_npm/delaunator@5.0.1/02d43215.js">
 <link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/aa00730b.js">
+<style>
+  :root {
+    --sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    --serif:      system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  *, *::before, *::after {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+    animation-duration:   0.001ms !important;
+    animation-delay:      0s      !important;
+    transition-duration:  0.001ms !important;
+    transition-delay:     0s      !important;
+  }
+</style>
 <script type="module">
 
 import {define} from "./_observablehq/client.d92ed2ff.js";
 import {registerFile} from "./_observablehq/stdlib.43270668.js";
 
-registerFile("./data/ai_flagged_bills.parquet", {"name":"./data/ai_flagged_bills.parquet","path":"./_file/data/ai_flagged_bills.33e7b7da.parquet","lastModified":1772141513819,"size":48048659});
+registerFile("./data/metrics.json", {"name":"./data/metrics.json","mimeType":"application/json","path":"./_file/data/metrics.5647e4b3.json","lastModified":1772224606115,"size":76});
+registerFile("./data/state_breakdown.json", {"name":"./data/state_breakdown.json","mimeType":"application/json","path":"./_file/data/state_breakdown.4ab4b6c0.json","lastModified":1772224606212,"size":1031});
+registerFile("./data/state_counts.json", {"name":"./data/state_counts.json","mimeType":"application/json","path":"./_file/data/state_counts.4808d02c.json","lastModified":1772224606150,"size":1715});
 
-define({id: "d81cfb9e", inputs: ["FileAttachment"], outputs: ["DuckDBClient","db"], body: async (FileAttachment) => {
-const {DuckDBClient} = await import("./_observablehq/stdlib/duckdb.20461150.js");
+define({id: "decf7e87", inputs: ["FileAttachment"], outputs: ["Plot","topojson","metrics","stateCounts","breakdown"], body: async (FileAttachment) => {
+const [Plot, topojson] = await Promise.all([import("./_npm/@observablehq/plot@0.6.17/7c43807f.js"), import("./_npm/topojson-client@3.1.0/edd9ee95.js")]);
 
-const db = await DuckDBClient.of({
-  bills: FileAttachment("./data/ai_flagged_bills.parquet"),
-});
-return {DuckDBClient,db};
+const metrics   = await FileAttachment("./data/metrics.json").json();
+const stateCounts  = await FileAttachment("./data/state_counts.json").json();
+const breakdown    = await FileAttachment("./data/state_breakdown.json").json();
+return {Plot,topojson,metrics,stateCounts,breakdown};
 }});
 
-define({id: "17194816", inputs: ["db"], outputs: ["total","core_ai","ncsl_matched","states_count"], body: async (db) => {
-// Headline metrics
-const [{total, core_ai, ncsl_matched, states_count}] = await db.sql`
-  SELECT
-    COUNT(*)                                              AS total,
-    COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)         AS core_ai,
-    COUNT(CASE WHEN in_ncsl THEN 1 END)                  AS ncsl_matched,
-    COUNT(DISTINCT state)                                 AS states_count
-  FROM bills
-`;
-return {total,core_ai,ncsl_matched,states_count};
-}});
-
-define({id: "c9d06f83", inputs: ["html","total","core_ai","ncsl_matched","states_count","display"], body: async (html,total,core_ai,ncsl_matched,states_count,display) => {
+define({id: "34595f9d", inputs: ["html","metrics","display"], body: async (html,metrics,display) => {
 display(await(
 html`<div class="metrics-grid">
   <div class="metric-card">
-    <div class="metric-value">${Number(total).toLocaleString()}</div>
+    <div class="metric-value">${Number(metrics.total).toLocaleString()}</div>
     <div class="metric-label">Total Flagged Bills</div>
   </div>
   <div class="metric-card">
-    <div class="metric-value">${Number(core_ai).toLocaleString()}</div>
+    <div class="metric-value">${Number(metrics.core_ai).toLocaleString()}</div>
     <div class="metric-label">Core AI Bills</div>
   </div>
   <div class="metric-card">
-    <div class="metric-value">${Number(ncsl_matched).toLocaleString()}</div>
+    <div class="metric-value">${Number(metrics.ncsl_matched).toLocaleString()}</div>
     <div class="metric-label">NCSL Matched</div>
   </div>
   <div class="metric-card">
-    <div class="metric-value">${Number(states_count)}</div>
+    <div class="metric-value">${Number(metrics.states_count)}</div>
     <div class="metric-label">States &amp; Territories</div>
   </div>
 </div>`
 ))
 }});
 
-define({id: "eb015216", inputs: ["db"], outputs: ["Plot","topojson","stateCounts","stateCountsArr","countByState"], body: async (db) => {
-const [Plot, topojson] = await Promise.all([import("./_npm/@observablehq/plot@0.6.17/7c43807f.js"), import("./_npm/topojson-client@3.1.0/edd9ee95.js")]);
-
-const stateCounts = await db.sql`
-  SELECT state, COUNT(*) AS count
-  FROM bills
-  GROUP BY state
-  ORDER BY count DESC
-`;
-const stateCountsArr = [...stateCounts];
-const countByState = new Map(stateCountsArr.map(d => [d.state, Number(d.count)]));
-return {Plot,topojson,stateCounts,stateCountsArr,countByState};
-}});
-
-define({id: "598d72fe", inputs: ["topojson","countByState","stateCountsArr"], outputs: ["us","stateFeatures","stateMesh","FIPS","maxCount"], body: async (topojson,countByState,stateCountsArr) => {
+define({id: "3e1b43a9", inputs: ["topojson","stateCounts"], outputs: ["us","stateFeatures","stateMesh","FIPS","countByState","maxCount"], body: async (topojson,stateCounts) => {
 // US choropleth map — data prep
 const us = await fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json").then(r => r.json());
 const stateFeatures = topojson.feature(us, us.objects.states);
@@ -142,14 +124,16 @@ const FIPS = {
   "55":"WI","56":"WY","72":"PR"
 };
 
+const countByState = new Map(stateCounts.map(d => [d.state, d.count]));
+
 stateFeatures.features.forEach(f => {
   const abbr = FIPS[String(f.id).padStart(2, "0")];
   f.properties.abbr  = abbr;
   f.properties.count = countByState.get(abbr) ?? 0;
 });
 
-const maxCount = Math.max(...stateCountsArr.map(d => Number(d.count)));
-return {us,stateFeatures,stateMesh,FIPS,maxCount};
+const maxCount = Math.max(...stateCounts.map(d => d.count));
+return {us,stateFeatures,stateMesh,FIPS,countByState,maxCount};
 }});
 
 define({id: "310135a8", inputs: ["Plot","maxCount","stateFeatures","stateMesh","display"], body: async (Plot,maxCount,stateFeatures,stateMesh,display) => {
@@ -178,29 +162,16 @@ Plot.plot({
 ))
 }});
 
-define({id: "ccad2df5", inputs: ["db"], outputs: ["breakdown","breakdownArr","stackData"], body: async (db) => {
-const breakdown = await db.sql`
-  SELECT
-    state,
-    COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)                              AS core_ai,
-    COUNT(CASE WHEN core_ai_hits = 0 AND source_bucket != 'ncsl_only' THEN 1 END) AS adjacent_ai,
-    COUNT(*) AS total
-  FROM bills
-  GROUP BY state
-  ORDER BY total DESC
-  LIMIT 15
-`;
-const breakdownArr = [...breakdown];
-
+define({id: "d15f24e8", inputs: ["breakdown"], outputs: ["stackData"], body: (breakdown) => {
 // Reshape for stacked bars
 const stackData = [
-  ...breakdownArr.map(d => ({state: d.state, count: Number(d.core_ai),    tier: "Core AI"})),
-  ...breakdownArr.map(d => ({state: d.state, count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
+  ...breakdown.map(d => ({state: d.state, count: d.core_ai,    tier: "Core AI"})),
+  ...breakdown.map(d => ({state: d.state, count: d.adjacent_ai, tier: "Adjacent AI"})),
 ];
-return {breakdown,breakdownArr,stackData};
+return {stackData};
 }});
 
-define({id: "3545484a", inputs: ["Plot","breakdownArr","stackData","display"], body: async (Plot,breakdownArr,stackData,display) => {
+define({id: "4a36ff5c", inputs: ["Plot","breakdown","stackData","display"], body: async (Plot,breakdown,stackData,display) => {
 display(await(
 Plot.plot({
   height: 420,
@@ -211,7 +182,7 @@ Plot.plot({
     legend: true,
   },
   x: {label: "Number of bills", grid: true},
-  y: {label: null, domain: breakdownArr.map(d => d.state)},
+  y: {label: null, domain: breakdown.map(d => d.state)},
   marks: [
     Plot.barX(stackData, Plot.stackX({
       y: "state",
@@ -274,16 +245,14 @@ Plot.plot({
 Bills are drawn from the <a href="https://pluralpolicy.com/" target="_blank" rel="noopener noreferrer">OpenStates/Plural</a> database and flagged
 using a two-tier regex pipeline validated against the
 <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>.</p>
-<div class="observablehq observablehq--block"><!--:d81cfb9e:--></div>
-<div class="observablehq observablehq--block"><!--:17194816:--></div>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:c9d06f83:--></div>
+<div class="observablehq observablehq--block"><!--:decf7e87:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:34595f9d:--></div>
 <h2 id="bills-by-state" tabindex="-1"><a class="observablehq-header-anchor" href="#bills-by-state">Bills by State</a></h2>
-<div class="observablehq observablehq--block"><!--:eb015216:--></div>
-<div class="observablehq observablehq--block"><!--:598d72fe:--></div>
+<div class="observablehq observablehq--block"><!--:3e1b43a9:--></div>
 <div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:310135a8:--></div>
 <h2 id="top-15-states-core-ai-vs-adjacent-ai" tabindex="-1"><a class="observablehq-header-anchor" href="#top-15-states-core-ai-vs-adjacent-ai">Top 15 States — Core AI vs. Adjacent AI</a></h2>
-<div class="observablehq observablehq--block"><!--:ccad2df5:--></div>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:3545484a:--></div>
+<div class="observablehq observablehq--block"><!--:d15f24e8:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:4a36ff5c:--></div>
 <hr>
 <p><em>Data sourced from <a href="https://pluralpolicy.com/" target="_blank" rel="noopener noreferrer">OpenStates/Plural</a> · Validated against the
 <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>
@@ -291,7 +260,7 @@ using a two-tier regex pipeline validated against the
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="next" href="./bills"><span>Bill Browser</span></a></nav>
-<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:22:47">Feb 27, 2026</a>.</div>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:41:04">Feb 27, 2026</a>.</div>
 </footer>
 </div>
 </body>

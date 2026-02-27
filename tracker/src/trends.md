@@ -7,35 +7,20 @@ title: Trends
 How AI-related legislation has grown over time, and what topics dominate the landscape.
 
 ```js
-import {DuckDBClient} from "npm:@observablehq/duckdb";
 import * as Plot from "npm:@observablehq/plot";
 
-const db = await DuckDBClient.of({
-  bills: FileAttachment("data/ai_flagged_bills.parquet"),
-});
+const byYear   = await FileAttachment("data/by_year.json").json();
+const concepts = await FileAttachment("data/concepts.json").json();
+const sources  = await FileAttachment("data/sources.json").json();
 ```
 
 ## Bills Per Year
 
 ```js
-const byYear = await db.sql`
-  SELECT
-    YEAR(TRY_CAST(latest_action_date AS DATE))                   AS year,
-    COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)                AS core_ai,
-    COUNT(CASE WHEN core_ai_hits = 0 AND source_bucket != 'ncsl_only' THEN 1 END) AS adjacent_ai,
-    COUNT(*)                                                     AS total
-  FROM bills
-  WHERE latest_action_date IS NOT NULL
-    AND YEAR(TRY_CAST(latest_action_date AS DATE)) BETWEEN 2019 AND 2025
-  GROUP BY year
-  ORDER BY year
-`;
-const byYearArr = [...byYear];
-
 // Reshape for multi-series line chart
 const lineData = [
-  ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.core_ai),    tier: "Core AI"})),
-  ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
+  ...byYear.map(d => ({year: d.year, count: d.core_ai,    tier: "Core AI"})),
+  ...byYear.map(d => ({year: d.year, count: d.adjacent_ai, tier: "Adjacent AI"})),
 ];
 ```
 
@@ -76,28 +61,13 @@ Plot.plot({
 Concepts matched most frequently across all flagged bills (bills can match multiple concepts).
 
 ```js
-const concepts = await db.sql`
-  SELECT concept, COUNT(*) AS count
-  FROM (
-    SELECT UNNEST(matched_concepts) AS concept
-    FROM bills
-    WHERE matched_concepts IS NOT NULL
-  )
-  GROUP BY concept
-  ORDER BY count DESC
-  LIMIT 25
-`;
-const conceptsArr = [...concepts].map(d => ({concept: d.concept, count: Number(d.count)}));
-```
-
-```js
 Plot.plot({
   height: 560,
   marginLeft: 200,
   x: {label: "Bills matched", grid: true},
   y: {label: null},
   marks: [
-    Plot.barX(conceptsArr, {
+    Plot.barX(concepts, {
       y: "concept",
       x: "count",
       fill: "#BA0C2F",
@@ -113,24 +83,6 @@ Plot.plot({
 ## Source Breakdown
 
 ```js
-const sources = await db.sql`
-  SELECT
-    CASE
-      WHEN source_bucket = 'ncsl_only' THEN 'NCSL only (not caught by regex)'
-      WHEN in_ncsl AND core_ai_hits > 0 THEN 'Regex + NCSL confirmed (Core AI)'
-      WHEN in_ncsl THEN 'Regex + NCSL confirmed (Adjacent AI)'
-      WHEN core_ai_hits > 0 THEN 'Regex flagged (Core AI)'
-      ELSE 'Regex flagged (Adjacent AI)'
-    END AS source,
-    COUNT(*) AS count
-  FROM bills
-  GROUP BY source
-  ORDER BY count DESC
-`;
-const sourcesArr = [...sources].map(d => ({source: d.source, count: Number(d.count)}));
-```
-
-```js
 Plot.plot({
   height: 240,
   marginLeft: 300,
@@ -140,7 +92,7 @@ Plot.plot({
     range: ["#BA0C2F", "#c94b68", "#A89968", "#c4b48a", "#6b7280"],
   },
   marks: [
-    Plot.barX(sourcesArr, {
+    Plot.barX(sources, {
       y: "source",
       x: "count",
       fill: "source",
