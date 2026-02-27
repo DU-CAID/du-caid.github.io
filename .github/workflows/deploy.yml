@@ -18,9 +18,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build Observable Framework dashboard
+        run: |
+          cd tracker
+          npm ci
+          npm run build
+
+      - name: Assemble deployment directory
+        run: |
+          mkdir -p staging/tracker
+          cp index.html about.html contact.html people.html projects.html staging/
+          cp README.md staging/ 2>/dev/null || true
+          cp -r assets/ staging/assets/
+          cp -r tracker/dist/. staging/tracker/
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: staging/
 
   deploy:
     environment:
