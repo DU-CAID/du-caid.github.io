@@ -1,10 +1,89 @@
-/* DU CAID brand overrides for Observable Framework */
+/* ============================================================
+   DU CAID — Observable Framework theme overrides
+   ============================================================ */
+
 :root {
-  --theme-foreground-focus: #BA0C2F;
-  --theme-blue: #BA0C2F;
+  --du-crimson: #BA0C2F;
+  --du-gold:    #A89968;
+
+  /* Wire DU Crimson into Observable's accent variables */
+  --theme-foreground-focus: var(--du-crimson);
+  --theme-blue:             var(--du-crimson);
 }
 
-/* Metric cards */
+/* ── Sidebar: DU Crimson background ──────────────────────── */
+#observablehq-sidebar {
+  background: var(--du-crimson) !important;
+}
+
+#observablehq-sidebar a,
+#observablehq-sidebar summary {
+  color: rgba(255,255,255,0.88) !important;
+}
+
+#observablehq-sidebar a:hover {
+  color: white !important;
+  background: rgba(255,255,255,0.12) !important;
+}
+
+#observablehq-sidebar .observablehq-link-active a {
+  color: white !important;
+  font-weight: 700 !important;
+  background: rgba(255,255,255,0.20) !important;
+}
+
+#observablehq-sidebar ol {
+  border-top-color: rgba(255,255,255,0.20) !important;
+}
+
+/* Mobile sidebar toggle button colour */
+#observablehq-sidebar-toggle + label {
+  color: var(--du-crimson) !important;
+}
+
+/* ── CAID topbar (injected via header config) ─────────────── */
+.caid-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0 0.8rem;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1.5rem;
+}
+
+.caid-topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.caid-topbar-brand img {
+  border-radius: 4px;
+}
+
+.caid-topbar-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.caid-topbar-nav a {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.caid-topbar-nav a:hover {
+  color: var(--du-crimson);
+}
+
+@media (max-width: 640px) {
+  .caid-topbar-nav { display: none; }
+}
+
+/* ── Metric cards ─────────────────────────────────────────── */
 .metrics-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -13,8 +92,8 @@
 }
 
 .metric-card {
-  background: var(--theme-background-alt, #f8fafc);
-  border: 1px solid var(--theme-foreground-faintest, #e5e7eb);
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
   border-radius: 0.75rem;
   padding: 1.25rem 1.5rem;
   text-align: center;
@@ -23,33 +102,27 @@
 .metric-value {
   font-size: 2rem;
   font-weight: 700;
-  color: #BA0C2F;
+  color: var(--du-crimson);
   line-height: 1.1;
 }
 
 .metric-label {
   font-size: 0.85rem;
-  color: var(--theme-foreground-muted, #6b7280);
+  color: #6b7280;
   margin-top: 0.3rem;
 }
 
-/* Bill browser filter bar */
-.filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  align-items: flex-end;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  background: var(--theme-background-alt, #f8fafc);
-  border-radius: 0.5rem;
-  border: 1px solid var(--theme-foreground-faintest, #e5e7eb);
+/* ── Bill browser ─────────────────────────────────────────── */
+.result-count {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
 }
 
-/* NCSL badge */
+/* ── NCSL badge ───────────────────────────────────────────── */
 .ncsl-badge {
   display: inline-block;
-  background: #BA0C2F;
+  background: var(--du-crimson);
   color: white;
   font-size: 0.7rem;
   font-weight: 600;
@@ -58,16 +131,9 @@
   vertical-align: middle;
 }
 
-/* Result count label */
-.result-count {
-  font-size: 0.9rem;
-  color: var(--theme-foreground-muted, #6b7280);
-  margin-bottom: 0.5rem;
-}
-
-/* Section headers */
+/* ── Section headers ──────────────────────────────────────── */
 .section-header {
-  border-bottom: 2px solid #BA0C2F;
+  border-bottom: 2px solid var(--du-crimson);
   padding-bottom: 0.25rem;
   margin-top: 2rem;
   margin-bottom: 1rem;

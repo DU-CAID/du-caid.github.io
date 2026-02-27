@@ -20,13 +20,13 @@ const db = await DuckDBClient.of({
 ```js
 const byYear = await db.sql`
   SELECT
-    YEAR(latest_action_date)                                     AS year,
+    YEAR(TRY_CAST(latest_action_date AS DATE))                   AS year,
     COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)                AS core_ai,
     COUNT(CASE WHEN core_ai_hits = 0 AND source_bucket != 'ncsl_only' THEN 1 END) AS adjacent_ai,
     COUNT(*)                                                     AS total
   FROM bills
   WHERE latest_action_date IS NOT NULL
-    AND YEAR(latest_action_date) BETWEEN 2019 AND 2025
+    AND YEAR(TRY_CAST(latest_action_date AS DATE)) BETWEEN 2019 AND 2025
   GROUP BY year
   ORDER BY year
 `;
