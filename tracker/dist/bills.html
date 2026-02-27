@@ -7,10 +7,10 @@
 <title>Bill Browser | AI Policy Tracker</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/style.93c361d5.css">
+<link rel="preload" as="style" href="./_import/style.1eb6309a.css">
 <link rel="preload" as="style" href="./_observablehq/stdlib/inputs.ea9fd553.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/style.93c361d5.css">
+<link rel="stylesheet" type="text/css" href="./_import/style.1eb6309a.css">
 <link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.ea9fd553.css">
 <link rel="modulepreload" href="./_observablehq/client.d92ed2ff.js">
 <link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
@@ -40,13 +40,13 @@ const db = await DuckDBClient.of({
 return {DuckDBClient,db};
 }});
 
-define({id: "597a0082", inputs: ["db"], outputs: ["allStates","stateOpts","allSessions","sessionOpts"], body: async (db) => {
+define({id: "b902b9b4", inputs: ["db"], outputs: ["allStates","stateOpts","allSessions","sessionOpts"], body: async (db) => {
 // Populate filter option lists from the data
 const allStates  = await db.sql`SELECT DISTINCT state FROM bills ORDER BY state`;
-const stateOpts  = ["All", ...allStates.map(d => d.state)];
+const stateOpts  = ["All", ...[...allStates].map(d => d.state)];
 
 const allSessions = await db.sql`SELECT DISTINCT session FROM bills WHERE session IS NOT NULL ORDER BY session DESC`;
-const sessionOpts = ["All", ...allSessions.map(d => d.session)];
+const sessionOpts = ["All", ...[...allSessions].map(d => d.session)];
 return {allStates,stateOpts,allSessions,sessionOpts};
 }});
 
@@ -194,6 +194,20 @@ if (selected) {
 </nav>
 <script>{const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
 <div id="observablehq-center">
+<header id="observablehq-header">
+<div class="caid-topbar">
+  <a class="caid-topbar-brand" href="https://du-caid.github.io/" target="_blank" rel="noopener noreferrer">
+    <img src="https://du-caid.github.io/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="32" height="32">
+    <span>DU CAID</span>
+  </a>
+  <nav class="caid-topbar-nav">
+    <a href="https://du-caid.github.io/about.html" target="_blank" rel="noopener noreferrer">About</a>
+    <a href="https://du-caid.github.io/projects.html" target="_blank" rel="noopener noreferrer">Projects</a>
+    <a href="https://du-caid.github.io/people.html" target="_blank" rel="noopener noreferrer">People</a>
+    <a href="https://du-caid.github.io/contact.html" target="_blank" rel="noopener noreferrer">Contact</a>
+  </nav>
+</div>
+</header>
 <aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
 <nav>
 <div>Contents</div>
@@ -206,7 +220,7 @@ if (selected) {
 <h1 id="bill-browser" tabindex="-1"><a class="observablehq-header-anchor" href="#bill-browser">Bill Browser</a></h1>
 <p>Search and filter all flagged AI-related bills. Click any row to see match details.</p>
 <div class="observablehq observablehq--block"><!--:d81cfb9e:--></div>
-<div class="observablehq observablehq--block"><!--:597a0082:--></div>
+<div class="observablehq observablehq--block"><!--:b902b9b4:--></div>
 <div class="observablehq observablehq--block"><!--:e2ddfd93:--></div>
 <div class="observablehq observablehq--block"><!--:e2feeb4a:--></div>
 <div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:a6a7c7ab:--></div>
@@ -217,7 +231,7 @@ if (selected) {
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="prev" href="./"><span>AI Policy Tracker</span></a><a rel="next" href="./trends"><span>Trends</span></a></nav>
-<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:03:37">Feb 27, 2026</a>.</div>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:15:15">Feb 27, 2026</a>.</div>
 </footer>
 </div>
 </body>
