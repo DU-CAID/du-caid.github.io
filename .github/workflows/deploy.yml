@@ -19,16 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Build Observable Framework dashboard
-        run: |
-          cd tracker
-          npm ci
-          npm run build
-
       - name: Assemble deployment directory
         run: |
           mkdir -p staging/tracker

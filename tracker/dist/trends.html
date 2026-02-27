@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.3">
+<title>Trends | AI Policy Tracker</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/style.93c361d5.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/style.93c361d5.css">
+<link rel="modulepreload" href="./_observablehq/client.d92ed2ff.js">
+<link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.43270668.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/duckdb.20461150.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/7c43807f.js">
+<link rel="modulepreload" href="./_npm/apache-arrow@21.1.0/63de76cd.js">
+<link rel="modulepreload" href="./_npm/parquet-wasm@0.7.1/68d81b68.js">
+<link rel="modulepreload" href="./_npm/@duckdb/duckdb-wasm@1.29.0/d1cf3c5a.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/e324157d.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
+<link rel="modulepreload" href="./_npm/tslib@2.8.1/b62a9c4a.js">
+<link rel="modulepreload" href="./_npm/flatbuffers@25.9.23/c82700c2.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/5ced1d52.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.2/3785bf2d.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/720b7f0a.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/02d43215.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/aa00730b.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.d92ed2ff.js";
+import {registerFile} from "./_observablehq/stdlib.43270668.js";
+
+registerFile("./data/ai_flagged_bills.parquet", {"name":"./data/ai_flagged_bills.parquet","path":"./_file/data/ai_flagged_bills.33e7b7da.parquet","lastModified":1772141513819,"size":48048659});
+
+define({id: "f8e3b4ae", inputs: ["FileAttachment"], outputs: ["DuckDBClient","Plot","db"], body: async (FileAttachment) => {
+const [{DuckDBClient}, Plot] = await Promise.all([import("./_observablehq/stdlib/duckdb.20461150.js"), import("./_npm/@observablehq/plot@0.6.17/7c43807f.js")]);
+
+const db = await DuckDBClient.of({
+  bills: FileAttachment("./data/ai_flagged_bills.parquet"),
+});
+return {DuckDBClient,Plot,db};
+}});
+
+define({id: "ef5a3c53", inputs: ["db","Plot"], outputs: ["byYear","byYearArr","lineData"], body: async (db,Plot) => {
+const byYear = await db.sql`
+  SELECT
+    YEAR(latest_action_date)                                     AS year,
+    COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)                AS core_ai,
+    COUNT(CASE WHEN core_ai_hits = 0 AND source_bucket != 'ncsl_only' THEN 1 END) AS adjacent_ai,
+    COUNT(*)                                                     AS total
+  FROM bills
+  WHERE latest_action_date IS NOT NULL
+    AND YEAR(latest_action_date) BETWEEN 2019 AND 2025
+  GROUP BY year
+  ORDER BY year
+`;
+const byYearArr = [...byYear];
+
+// Reshape for multi-series line chart
+const lineData = [
+  ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.core_ai),    tier: "Core AI"})),
+  ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
+];
+
+Plot.plot({
+  height: 340,
+  marginLeft: 55,
+  color: {
+    domain: ["Core AI", "Adjacent AI"],
+    range: ["#BA0C2F", "#A89968"],
+    legend: true,
+  },
+  x: {label: "Year", tickFormat: "d", grid: true},
+  y: {label: "Number of bills", grid: true},
+  marks: [
+    Plot.line(lineData, {
+      x: "year",
+      y: "count",
+      stroke: "tier",
+      strokeWidth: 2.5,
+      curve: "monotone-x",
+    }),
+    Plot.dot(lineData, {
+      x: "year",
+      y: "count",
+      fill: "tier",
+      r: 4,
+      tip: true,
+      title: d => `${d.tier} · ${d.year}: ${d.count.toLocaleString()} bills`,
+    }),
+    Plot.ruleY([0]),
+  ],
+})
+return {byYear,byYearArr,lineData};
+}});
+
+define({id: "0bf4c0b0", inputs: ["db","Plot"], outputs: ["concepts","conceptsArr"], body: async (db,Plot) => {
+const concepts = await db.sql`
+  SELECT concept, COUNT(*) AS count
+  FROM (
+    SELECT UNNEST(matched_concepts) AS concept
+    FROM bills
+    WHERE matched_concepts IS NOT NULL
+  )
+  GROUP BY concept
+  ORDER BY count DESC
+  LIMIT 25
+`;
+const conceptsArr = [...concepts].map(d => ({concept: d.concept, count: Number(d.count)}));
+
+Plot.plot({
+  height: 560,
+  marginLeft: 200,
+  x: {label: "Bills matched", grid: true},
+  y: {label: null},
+  marks: [
+    Plot.barX(conceptsArr, {
+      y: "concept",
+      x: "count",
+      fill: "#BA0C2F",
+      sort: {y: "-x"},
+      tip: true,
+      title: d => `${d.concept}: ${d.count.toLocaleString()}`,
+    }),
+    Plot.ruleX([0]),
+  ],
+})
+return {concepts,conceptsArr};
+}});
+
+define({id: "69bf6508", inputs: ["db","Plot"], outputs: ["sources","sourcesArr"], body: async (db,Plot) => {
+const sources = await db.sql`
+  SELECT
+    CASE
+      WHEN source_bucket = 'ncsl_only' THEN 'NCSL only (not caught by regex)'
+      WHEN in_ncsl AND core_ai_hits > 0 THEN 'Regex + NCSL confirmed (Core AI)'
+      WHEN in_ncsl THEN 'Regex + NCSL confirmed (Adjacent AI)'
+      WHEN core_ai_hits > 0 THEN 'Regex flagged (Core AI)'
+      ELSE 'Regex flagged (Adjacent AI)'
+    END AS source,
+    COUNT(*) AS count
+  FROM bills
+  GROUP BY source
+  ORDER BY count DESC
+`;
+const sourcesArr = [...sources].map(d => ({source: d.source, count: Number(d.count)}));
+
+Plot.plot({
+  height: 240,
+  marginLeft: 300,
+  x: {label: "Number of bills", grid: true},
+  y: {label: null},
+  color: {
+    range: ["#BA0C2F", "#c94b68", "#A89968", "#c4b48a", "#6b7280"],
+  },
+  marks: [
+    Plot.barX(sourcesArr, {
+      y: "source",
+      x: "count",
+      fill: "source",
+      sort: {y: "-x"},
+      tip: true,
+      title: d => `${d.source}: ${d.count.toLocaleString()}`,
+    }),
+    Plot.ruleX([0]),
+  ],
+})
+return {sources,sourcesArr};
+}});
+
+define({id: "1dfe51d0", inputs: ["Plot"], outputs: ["ncslCoverage"], body: (Plot) => {
+const ncslCoverage = [
+  {category: "Caught by regex (Core AI)",    count: 168},
+  {category: "Caught by regex (Adjacent AI only)", count: 22},
+  {category: "NCSL-only (not caught by regex)",    count: 49},
+];
+
+Plot.plot({
+  height: 180,
+  marginLeft: 260,
+  x: {label: "NCSL-matched bills", grid: true},
+  y: {label: null},
+  color: {
+    domain: ["Caught by regex (Core AI)", "Caught by regex (Adjacent AI only)", "NCSL-only (not caught by regex)"],
+    range: ["#BA0C2F", "#A89968", "#d1d5db"],
+  },
+  marks: [
+    Plot.barX(ncslCoverage, {
+      y: "category",
+      x: "count",
+      fill: "category",
+      tip: true,
+      title: d => `${d.category}: ${d.count}`,
+    }),
+    Plot.ruleX([0]),
+  ],
+})
+return {ncslCoverage};
+}});
+
+</script>
+</head>
+<body>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">AI Policy Tracker</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./">Overview</a></li>
+    <li class="observablehq-link"><a href="./bills">Bill Browser</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./trends">Trends</a></li>
+  </ol>
+</nav>
+<script>{const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+<div>Contents</div>
+<ol>
+<li class="observablehq-secondary-link"><a href="#bills-per-year">Bills Per Year</a></li>
+<li class="observablehq-secondary-link"><a href="#top-25-matched-concepts">Top 25 Matched Concepts</a></li>
+<li class="observablehq-secondary-link"><a href="#source-breakdown">Source Breakdown</a></li>
+<li class="observablehq-secondary-link"><a href="#ncsl-ground-truth-coverage">NCSL Ground-Truth Coverage</a></li>
+</ol>
+</nav>
+</aside>
+<main id="observablehq-main" class="observablehq">
+<h1 id="trends" tabindex="-1"><a class="observablehq-header-anchor" href="#trends">Trends</a></h1>
+<p>How AI-related legislation has grown over time, and what topics dominate the landscape.</p>
+<div class="observablehq observablehq--block"><!--:f8e3b4ae:--></div>
+<h2 id="bills-per-year" tabindex="-1"><a class="observablehq-header-anchor" href="#bills-per-year">Bills Per Year</a></h2>
+<div class="observablehq observablehq--block"><!--:ef5a3c53:--></div>
+<h2 id="top-25-matched-concepts" tabindex="-1"><a class="observablehq-header-anchor" href="#top-25-matched-concepts">Top 25 Matched Concepts</a></h2>
+<p>Concepts matched most frequently across all flagged bills (bills can match multiple concepts).</p>
+<div class="observablehq observablehq--block"><!--:0bf4c0b0:--></div>
+<h2 id="source-breakdown" tabindex="-1"><a class="observablehq-header-anchor" href="#source-breakdown">Source Breakdown</a></h2>
+<div class="observablehq observablehq--block"><!--:69bf6508:--></div>
+<h2 id="ncsl-ground-truth-coverage" tabindex="-1"><a class="observablehq-header-anchor" href="#ncsl-ground-truth-coverage">NCSL Ground-Truth Coverage</a></h2>
+<p>The <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>
+serves as our validation benchmark. Of the 1,597 NCSL-curated bills, 1,466 matched to bills
+in our database. Of those 239 matched to a specific session year, our regex pipeline catches <strong>79.5%</strong>
+(190 of 239). The remaining ~20% are intentional non-catches — bills NCSL classified as AI-related
+but containing no AI-specific terms that can be targeted without creating significant false positives
+across the 1.45M-bill dataset.</p>
+<div class="observablehq observablehq--block"><!--:1dfe51d0:--></div>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./bills"><span>Bill Browser</span></a></nav>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T09:35:47">Feb 27, 2026</a>.</div>
+</footer>
+</div>
+</body>
+</html>

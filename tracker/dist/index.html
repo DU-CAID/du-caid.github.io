@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.3">
+<title>Overview | AI Policy Tracker</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/style.93c361d5.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/style.93c361d5.css">
+<link rel="modulepreload" href="./_observablehq/client.d92ed2ff.js">
+<link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.43270668.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/duckdb.20461150.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/7c43807f.js">
+<link rel="modulepreload" href="./_npm/topojson-client@3.1.0/edd9ee95.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
+<link rel="modulepreload" href="./_npm/apache-arrow@21.1.0/63de76cd.js">
+<link rel="modulepreload" href="./_npm/parquet-wasm@0.7.1/68d81b68.js">
+<link rel="modulepreload" href="./_npm/@duckdb/duckdb-wasm@1.29.0/d1cf3c5a.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/e324157d.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
+<link rel="modulepreload" href="./_npm/tslib@2.8.1/b62a9c4a.js">
+<link rel="modulepreload" href="./_npm/flatbuffers@25.9.23/c82700c2.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/5ced1d52.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.2/3785bf2d.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/720b7f0a.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/02d43215.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/aa00730b.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.d92ed2ff.js";
+import {registerFile} from "./_observablehq/stdlib.43270668.js";
+
+registerFile("./data/ai_flagged_bills.parquet", {"name":"./data/ai_flagged_bills.parquet","path":"./_file/data/ai_flagged_bills.33e7b7da.parquet","lastModified":1772141513819,"size":48048659});
+
+define({id: "d81cfb9e", inputs: ["FileAttachment"], outputs: ["DuckDBClient","db"], body: async (FileAttachment) => {
+const {DuckDBClient} = await import("./_observablehq/stdlib/duckdb.20461150.js");
+
+const db = await DuckDBClient.of({
+  bills: FileAttachment("./data/ai_flagged_bills.parquet"),
+});
+return {DuckDBClient,db};
+}});
+
+define({id: "17194816", inputs: ["db"], outputs: ["total","core_ai","ncsl_matched","states_count"], body: async (db) => {
+// Headline metrics
+const [{total, core_ai, ncsl_matched, states_count}] = await db.sql`
+  SELECT
+    COUNT(*)                                              AS total,
+    COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)         AS core_ai,
+    COUNT(CASE WHEN in_ncsl THEN 1 END)                  AS ncsl_matched,
+    COUNT(DISTINCT state)                                 AS states_count
+  FROM bills
+`;
+return {total,core_ai,ncsl_matched,states_count};
+}});
+
+define({id: "c9d06f83", inputs: ["html","total","core_ai","ncsl_matched","states_count","display"], body: async (html,total,core_ai,ncsl_matched,states_count,display) => {
+display(await(
+html`<div class="metrics-grid">
+  <div class="metric-card">
+    <div class="metric-value">${Number(total).toLocaleString()}</div>
+    <div class="metric-label">Total Flagged Bills</div>
+  </div>
+  <div class="metric-card">
+    <div class="metric-value">${Number(core_ai).toLocaleString()}</div>
+    <div class="metric-label">Core AI Bills</div>
+  </div>
+  <div class="metric-card">
+    <div class="metric-value">${Number(ncsl_matched).toLocaleString()}</div>
+    <div class="metric-label">NCSL Matched</div>
+  </div>
+  <div class="metric-card">
+    <div class="metric-value">${Number(states_count)}</div>
+    <div class="metric-label">States &amp; Territories</div>
+  </div>
+</div>`
+))
+}});
+
+define({id: "eb015216", inputs: ["db"], outputs: ["Plot","topojson","stateCounts","stateCountsArr","countByState"], body: async (db) => {
+const [Plot, topojson] = await Promise.all([import("./_npm/@observablehq/plot@0.6.17/7c43807f.js"), import("./_npm/topojson-client@3.1.0/edd9ee95.js")]);
+
+const stateCounts = await db.sql`
+  SELECT state, COUNT(*) AS count
+  FROM bills
+  GROUP BY state
+  ORDER BY count DESC
+`;
+const stateCountsArr = [...stateCounts];
+const countByState = new Map(stateCountsArr.map(d => [d.state, Number(d.count)]));
+return {Plot,topojson,stateCounts,stateCountsArr,countByState};
+}});
+
+define({id: "6d0ae9be", inputs: ["topojson","countByState","stateCountsArr","Plot"], outputs: ["us","stateFeatures","stateMesh","FIPS","maxCount"], body: async (topojson,countByState,stateCountsArr,Plot) => {
+// US choropleth map
+const us = await fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json").then(r => r.json());
+const stateFeatures = topojson.feature(us, us.objects.states);
+const stateMesh    = topojson.mesh(us, us.objects.states, (a, b) => a !== b);
+
+const FIPS = {
+  "01":"AL","02":"AK","04":"AZ","05":"AR","06":"CA","08":"CO","09":"CT",
+  "10":"DE","11":"DC","12":"FL","13":"GA","15":"HI","16":"ID","17":"IL",
+  "18":"IN","19":"IA","20":"KS","21":"KY","22":"LA","23":"ME","24":"MD",
+  "25":"MA","26":"MI","27":"MN","28":"MS","29":"MO","30":"MT","31":"NE",
+  "32":"NV","33":"NH","34":"NJ","35":"NM","36":"NY","37":"NC","38":"ND",
+  "39":"OH","40":"OK","41":"OR","42":"PA","44":"RI","45":"SC","46":"SD",
+  "47":"TN","48":"TX","49":"UT","50":"VT","51":"VA","53":"WA","54":"WV",
+  "55":"WI","56":"WY","72":"PR"
+};
+
+stateFeatures.features.forEach(f => {
+  const abbr = FIPS[String(f.id).padStart(2, "0")];
+  f.properties.abbr  = abbr;
+  f.properties.count = countByState.get(abbr) ?? 0;
+});
+
+const maxCount = Math.max(...stateCountsArr.map(d => Number(d.count)));
+
+Plot.plot({
+  projection: "albers-usa",
+  width: 900,
+  marginBottom: 40,
+  color: {
+    scheme: "reds",
+    domain: [0, maxCount],
+    legend: true,
+    label: "Flagged bills",
+  },
+  marks: [
+    Plot.geo(stateFeatures, {
+      fill: d => d.properties.count,
+      title: d => `${d.properties.abbr ?? "—"}: ${(d.properties.count ?? 0).toLocaleString()} bills`,
+      tip: true,
+      stroke: "white",
+      strokeWidth: 0.5,
+    }),
+    Plot.geo(stateMesh, {stroke: "white", strokeWidth: 0.5}),
+  ],
+})
+return {us,stateFeatures,stateMesh,FIPS,maxCount};
+}});
+
+define({id: "c1b20907", inputs: ["db","Plot"], outputs: ["breakdown","breakdownArr","stackData"], body: async (db,Plot) => {
+const breakdown = await db.sql`
+  SELECT
+    state,
+    COUNT(CASE WHEN core_ai_hits > 0 THEN 1 END)                              AS core_ai,
+    COUNT(CASE WHEN core_ai_hits = 0 AND source_bucket != 'ncsl_only' THEN 1 END) AS adjacent_ai,
+    COUNT(*) AS total
+  FROM bills
+  GROUP BY state
+  ORDER BY total DESC
+  LIMIT 15
+`;
+const breakdownArr = [...breakdown];
+
+// Reshape for stacked bars
+const stackData = [
+  ...breakdownArr.map(d => ({state: d.state, count: Number(d.core_ai),    tier: "Core AI"})),
+  ...breakdownArr.map(d => ({state: d.state, count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
+];
+
+Plot.plot({
+  height: 420,
+  marginLeft: 50,
+  color: {
+    domain: ["Core AI", "Adjacent AI"],
+    range: ["#BA0C2F", "#A89968"],
+    legend: true,
+  },
+  x: {label: "Number of bills", grid: true},
+  y: {label: null, domain: breakdownArr.map(d => d.state)},
+  marks: [
+    Plot.barX(stackData, Plot.stackX({
+      y: "state",
+      x: "count",
+      fill: "tier",
+      tip: true,
+      title: d => `${d.tier}: ${d.count.toLocaleString()}`,
+    })),
+    Plot.ruleX([0]),
+  ],
+})
+return {breakdown,breakdownArr,stackData};
+}});
+
+</script>
+</head>
+<body>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link observablehq-link-active"><a href="./">AI Policy Tracker</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link observablehq-link-active"><a href="./">Overview</a></li>
+    <li class="observablehq-link"><a href="./bills">Bill Browser</a></li>
+    <li class="observablehq-link"><a href="./trends">Trends</a></li>
+  </ol>
+</nav>
+<script>{const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+<div>Contents</div>
+<ol>
+<li class="observablehq-secondary-link"><a href="#bills-by-state">Bills by State</a></li>
+<li class="observablehq-secondary-link"><a href="#top-15-states-core-ai-vs-adjacent-ai">Top 15 States — Core AI vs. Adjacent AI</a></li>
+</ol>
+</nav>
+</aside>
+<main id="observablehq-main" class="observablehq">
+<h1 id="ai-policy-tracker" tabindex="-1"><a class="observablehq-header-anchor" href="#ai-policy-tracker">AI Policy Tracker</a></h1>
+<p>State-level AI legislation across the United States, tracked by the
+<a href="https://du-caid.github.io/" target="_blank" rel="noopener noreferrer">DU Center for Analytics and Innovation with Data (CAID)</a>.
+Bills are drawn from the <a href="https://pluralpolicy.com/" target="_blank" rel="noopener noreferrer">OpenStates/Plural</a> database and flagged
+using a two-tier regex pipeline validated against the
+<a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>.</p>
+<div class="observablehq observablehq--block"><!--:d81cfb9e:--></div>
+<div class="observablehq observablehq--block"><!--:17194816:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:c9d06f83:--></div>
+<h2 id="bills-by-state" tabindex="-1"><a class="observablehq-header-anchor" href="#bills-by-state">Bills by State</a></h2>
+<div class="observablehq observablehq--block"><!--:eb015216:--></div>
+<div class="observablehq observablehq--block"><!--:6d0ae9be:--></div>
+<h2 id="top-15-states-core-ai-vs-adjacent-ai" tabindex="-1"><a class="observablehq-header-anchor" href="#top-15-states-core-ai-vs-adjacent-ai">Top 15 States — Core AI vs. Adjacent AI</a></h2>
+<div class="observablehq observablehq--block"><!--:c1b20907:--></div>
+<hr>
+<p><em>Data sourced from <a href="https://pluralpolicy.com/" target="_blank" rel="noopener noreferrer">OpenStates/Plural</a> · Validated against the
+<a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>
+· Last pipeline run: February 2026</em></p>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="next" href="./bills"><span>Bill Browser</span></a></nav>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T09:35:47">Feb 27, 2026</a>.</div>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.3">
+<title>Bill Browser | AI Policy Tracker</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_import/style.93c361d5.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_import/style.93c361d5.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="modulepreload" href="./_observablehq/client.d92ed2ff.js">
+<link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.43270668.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/duckdb.20461150.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.7f302853.js">
+<link rel="modulepreload" href="./_npm/apache-arrow@21.1.0/63de76cd.js">
+<link rel="modulepreload" href="./_npm/parquet-wasm@0.7.1/68d81b68.js">
+<link rel="modulepreload" href="./_npm/@duckdb/duckdb-wasm@1.29.0/d1cf3c5a.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
+<link rel="modulepreload" href="./_npm/tslib@2.8.1/b62a9c4a.js">
+<link rel="modulepreload" href="./_npm/flatbuffers@25.9.23/c82700c2.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.d92ed2ff.js";
+import {registerFile} from "./_observablehq/stdlib.43270668.js";
+
+registerFile("./data/ai_flagged_bills.parquet", {"name":"./data/ai_flagged_bills.parquet","path":"./_file/data/ai_flagged_bills.33e7b7da.parquet","lastModified":1772141513819,"size":48048659});
+
+define({id: "d81cfb9e", inputs: ["FileAttachment"], outputs: ["DuckDBClient","db"], body: async (FileAttachment) => {
+const {DuckDBClient} = await import("./_observablehq/stdlib/duckdb.20461150.js");
+
+const db = await DuckDBClient.of({
+  bills: FileAttachment("./data/ai_flagged_bills.parquet"),
+});
+return {DuckDBClient,db};
+}});
+
+define({id: "597a0082", inputs: ["db"], outputs: ["allStates","stateOpts","allSessions","sessionOpts"], body: async (db) => {
+// Populate filter option lists from the data
+const allStates  = await db.sql`SELECT DISTINCT state FROM bills ORDER BY state`;
+const stateOpts  = ["All", ...allStates.map(d => d.state)];
+
+const allSessions = await db.sql`SELECT DISTINCT session FROM bills WHERE session IS NOT NULL ORDER BY session DESC`;
+const sessionOpts = ["All", ...allSessions.map(d => d.session)];
+return {allStates,stateOpts,allSessions,sessionOpts};
+}});
+
+define({id: "e2ddfd93", inputs: ["view","Inputs","stateOpts","sessionOpts"], outputs: ["stateInput","sessionInput","tierInput","ncslInput","titleInput"], body: (view,Inputs,stateOpts,sessionOpts) => {
+// Filter inputs
+const stateInput   = view(Inputs.select(stateOpts,  {label: "State"}));
+const sessionInput = view(Inputs.select(sessionOpts, {label: "Session"}));
+const tierInput    = view(Inputs.select(
+  ["All", "Core AI", "Adjacent AI", "NCSL Only"],
+  {label: "Tier"}
+));
+const ncslInput    = view(Inputs.toggle({label: "In NCSL only"}));
+const titleInput   = view(Inputs.text({label: "Search title", placeholder: "e.g. deepfake, facial recognition…"}));
+return {stateInput,sessionInput,tierInput,ncslInput,titleInput};
+}});
+
+define({id: "e2feeb4a", inputs: ["stateInput","sessionInput","tierInput","ncslInput","titleInput","db"], outputs: ["esc","where","results","rows","n"], body: async (stateInput,sessionInput,tierInput,ncslInput,titleInput,db) => {
+// Build and run the filtered query
+function esc(s) { return String(s).replace(/'/g, "''"); }
+
+let where = "1=1";
+if (stateInput   !== "All") where += ` AND state = '${esc(stateInput)}'`;
+if (sessionInput !== "All") where += ` AND session = '${esc(sessionInput)}'`;
+if (tierInput === "Core AI")     where += " AND core_ai_hits > 0";
+if (tierInput === "Adjacent AI") where += " AND core_ai_hits = 0 AND source_bucket != 'ncsl_only'";
+if (tierInput === "NCSL Only")   where += " AND source_bucket = 'ncsl_only'";
+if (ncslInput)                   where += " AND in_ncsl = true";
+if (titleInput.trim())           where += ` AND CONTAINS(LOWER(title), '${esc(titleInput.trim().toLowerCase())}')`;
+
+const results = await db.query(`
+  SELECT
+    bill_id,
+    state,
+    identifier,
+    session,
+    title,
+    core_ai_hits,
+    adjacent_ai_hits,
+    latest_action_date,
+    in_ncsl,
+    source_bucket,
+    matched_concepts,
+    match_snippets
+  FROM bills
+  WHERE ${where}
+  ORDER BY latest_action_date DESC NULLS LAST
+  LIMIT 200
+`);
+const rows = [...results];
+const [{n}] = await db.query(`SELECT COUNT(*) AS n FROM bills WHERE ${where}`);
+return {esc,where,results,rows,n};
+}});
+
+define({id: "a6a7c7ab", inputs: ["html","rows","n","display"], body: async (html,rows,n,display) => {
+display(await(
+html`<p class="result-count">Showing ${Math.min(rows.length, 200).toLocaleString()} of ${Number(n).toLocaleString()} matching bills
+  ${Number(n) > 200 ? html`<span style="color:#BA0C2F"> — narrow your filters to see more</span>` : ""}
+</p>`
+))
+}});
+
+define({id: "98097567", inputs: ["view","Inputs","rows"], outputs: ["selected"], body: (view,Inputs,rows) => {
+// Display table with single-row selection
+const selected = view(Inputs.table(rows, {
+  columns: ["state", "identifier", "session", "title", "core_ai_hits", "adjacent_ai_hits", "latest_action_date", "in_ncsl"],
+  header: {
+    state:              "State",
+    identifier:         "Bill ID",
+    session:            "Session",
+    title:              "Title",
+    core_ai_hits:       "Core AI",
+    adjacent_ai_hits:   "Adj. AI",
+    latest_action_date: "Last Action",
+    in_ncsl:            "NCSL",
+  },
+  format: {
+    in_ncsl: v => v ? "✓" : "",
+    core_ai_hits: v => Number(v),
+    adjacent_ai_hits: v => Number(v),
+  },
+  multiple: false,
+  width: {title: 380, state: 55, identifier: 90, session: 110, core_ai_hits: 75, adjacent_ai_hits: 75, latest_action_date: 110, in_ncsl: 55},
+}));
+return {selected};
+}});
+
+define({id: "26008734", inputs: ["selected","display","html"], body: (selected,display,html) => {
+if (selected) {
+  const concepts = Array.isArray(selected.matched_concepts)
+    ? selected.matched_concepts.join(", ")
+    : (selected.matched_concepts ?? "—");
+
+  // match_snippets may be an array of strings
+  const snippets = Array.isArray(selected.match_snippets)
+    ? selected.match_snippets
+    : selected.match_snippets
+      ? [selected.match_snippets]
+      : [];
+
+  display(html`
+    <div style="background:#f8fafc;border:1px solid #e5e7eb;border-radius:.75rem;padding:1.25rem 1.5rem;margin-top:.5rem">
+      <h3 style="margin-top:0;color:#1f2937">${selected.identifier} · ${selected.state} · ${selected.session}</h3>
+      <p style="font-size:1.05rem;margin:.25rem 0 1rem">${selected.title ?? "(no title)"}</p>
+      <table style="border-collapse:collapse;font-size:.875rem;width:100%">
+        <tr><td style="padding:.3rem .6rem;color:#6b7280;width:160px">Core AI hits</td>
+            <td style="padding:.3rem .6rem">${Number(selected.core_ai_hits)}</td></tr>
+        <tr><td style="padding:.3rem .6rem;color:#6b7280">Adjacent AI hits</td>
+            <td style="padding:.3rem .6rem">${Number(selected.adjacent_ai_hits)}</td></tr>
+        <tr><td style="padding:.3rem .6rem;color:#6b7280">Matched concepts</td>
+            <td style="padding:.3rem .6rem">${concepts}</td></tr>
+        <tr><td style="padding:.3rem .6rem;color:#6b7280">In NCSL</td>
+            <td style="padding:.3rem .6rem">${selected.in_ncsl ? "Yes" : "No"}</td></tr>
+        <tr><td style="padding:.3rem .6rem;color:#6b7280">Last action</td>
+            <td style="padding:.3rem .6rem">${selected.latest_action_date ?? "—"}</td></tr>
+        <tr><td style="padding:.3rem .6rem;color:#6b7280">Source</td>
+            <td style="padding:.3rem .6rem">${selected.source_bucket}</td></tr>
+      </table>
+      ${snippets.length > 0 ? html`
+        <h4 style="margin:.75rem 0 .4rem;color:#6b7280;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em">Match Snippets</h4>
+        <ul style="margin:0;padding-left:1.2rem;font-size:.875rem;line-height:1.6">
+          ${snippets.map(s => html`<li>${s}</li>`)}
+        </ul>` : ""}
+    </div>
+  `);
+} else {
+  display(html`<p style="color:#6b7280;font-style:italic">Click a row above to see bill details and match snippets.</p>`);
+}
+}});
+
+</script>
+</head>
+<body>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">AI Policy Tracker</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./">Overview</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./bills">Bill Browser</a></li>
+    <li class="observablehq-link"><a href="./trends">Trends</a></li>
+  </ol>
+</nav>
+<script>{const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+<div>Contents</div>
+<ol>
+<li class="observablehq-secondary-link"><a href="#selected-bill-details">Selected Bill Details</a></li>
+</ol>
+</nav>
+</aside>
+<main id="observablehq-main" class="observablehq">
+<h1 id="bill-browser" tabindex="-1"><a class="observablehq-header-anchor" href="#bill-browser">Bill Browser</a></h1>
+<p>Search and filter all flagged AI-related bills. Click any row to see match details.</p>
+<div class="observablehq observablehq--block"><!--:d81cfb9e:--></div>
+<div class="observablehq observablehq--block"><!--:597a0082:--></div>
+<div class="observablehq observablehq--block"><!--:e2ddfd93:--></div>
+<div class="observablehq observablehq--block"><!--:e2feeb4a:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:a6a7c7ab:--></div>
+<div class="observablehq observablehq--block"><!--:98097567:--></div>
+<hr>
+<h2 id="selected-bill-details" tabindex="-1"><a class="observablehq-header-anchor" href="#selected-bill-details">Selected Bill Details</a></h2>
+<div class="observablehq observablehq--block"><!--:26008734:--></div>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./"><span>AI Policy Tracker</span></a><a rel="next" href="./trends"><span>Trends</span></a></nav>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T09:35:47">Feb 27, 2026</a>.</div>
+</footer>
+</div>
+</body>
+</html>
