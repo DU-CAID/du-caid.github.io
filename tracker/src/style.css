@@ -1,68 +1,88 @@
 /* ============================================================
-   DU CAID — Observable Framework theme overrides
+   DU CAID AI Policy Tracker — theme for Observable Framework
+   Matches du-caid.github.io brand: system fonts, DU Crimson,
+   DU Gold, clean white backgrounds.
    ============================================================ */
 
+/* ── Brand tokens ─────────────────────────────────────────── */
 :root {
   --du-crimson: #BA0C2F;
   --du-gold:    #A89968;
+  --du-text:    #1f2937;
+  --du-muted:   #6b7280;
+  --du-surface: #f8fafc;
+  --du-border:  #e5e7eb;
 
-  /* Wire DU Crimson into Observable's accent variables */
+  /* Wire into Observable Framework's accent variables */
   --theme-foreground-focus: var(--du-crimson);
   --theme-blue:             var(--du-crimson);
+  --theme-foreground:       var(--du-text);
+  --theme-foreground-muted: var(--du-muted);
+  --theme-background-alt:   var(--du-surface);
+  --theme-border-color:     var(--du-border);
 }
 
-/* ── Sidebar: DU Crimson background ──────────────────────── */
+/* ── Sidebar: DU Crimson ──────────────────────────────────── */
 #observablehq-sidebar {
   background: var(--du-crimson) !important;
+  border-right: none !important;
 }
 
 #observablehq-sidebar a,
-#observablehq-sidebar summary {
+#observablehq-sidebar summary,
+#observablehq-sidebar label {
   color: rgba(255,255,255,0.88) !important;
 }
 
 #observablehq-sidebar a:hover {
-  color: white !important;
+  color: #fff !important;
   background: rgba(255,255,255,0.12) !important;
 }
 
 #observablehq-sidebar .observablehq-link-active a {
-  color: white !important;
+  color: #fff !important;
   font-weight: 700 !important;
-  background: rgba(255,255,255,0.20) !important;
+  background: rgba(255,255,255,0.22) !important;
+  border-left: 3px solid var(--du-gold) !important;
 }
 
 #observablehq-sidebar ol {
-  border-top-color: rgba(255,255,255,0.20) !important;
+  border-top-color: rgba(255,255,255,0.22) !important;
 }
 
-/* Mobile sidebar toggle button colour */
-#observablehq-sidebar-toggle + label {
+/* The "AI Policy Tracker" title link at top of sidebar */
+#observablehq-sidebar > ol:first-child a {
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  color: #fff !important;
+}
+
+/* Mobile sidebar toggle colour */
+label[for="observablehq-sidebar-toggle"] {
   color: var(--du-crimson) !important;
 }
 
-/* ── CAID topbar (injected via header config) ─────────────── */
+/* ── CAID topbar (header config) ──────────────────────────── */
 .caid-topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 0 0.8rem;
-  border-bottom: 1px solid #e5e7eb;
-  margin-bottom: 1.5rem;
+  padding: 0.6rem 0 0.85rem;
+  border-bottom: 2px solid var(--du-crimson);
+  margin-bottom: 2rem;
 }
 
 .caid-topbar-brand {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.55rem;
   text-decoration: none;
-  color: #1f2937;
+  color: var(--du-text);
   font-weight: 700;
+  font-size: 1rem;
 }
 
-.caid-topbar-brand img {
-  border-radius: 4px;
-}
+.caid-topbar-brand img { border-radius: 4px; }
 
 .caid-topbar-nav {
   display: flex;
@@ -70,71 +90,102 @@
 }
 
 .caid-topbar-nav a {
-  color: #4b5563;
+  color: var(--du-muted);
   text-decoration: none;
   font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.2rem 0.35rem;
+  border-radius: 4px;
 }
 
 .caid-topbar-nav a:hover {
   color: var(--du-crimson);
+  background: #fef2f2;
 }
 
 @media (max-width: 640px) {
   .caid-topbar-nav { display: none; }
 }
 
+/* ── Page heading style ───────────────────────────────────── */
+.observablehq h1 {
+  color: var(--du-crimson);
+  border-bottom: 2px solid var(--du-border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 /* ── Metric cards ─────────────────────────────────────────── */
 .metrics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
-  margin: 1.5rem 0;
+  margin: 1.25rem 0 2rem;
 }
 
 .metric-card {
-  background: #f8fafc;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.75rem;
-  padding: 1.25rem 1.5rem;
+  background: var(--du-surface);
+  border: 1px solid var(--du-border);
+  border-top: 3px solid var(--du-crimson);
+  border-radius: 0.5rem;
+  padding: 1.1rem 1.25rem;
   text-align: center;
 }
 
 .metric-value {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--du-crimson);
   line-height: 1.1;
 }
 
 .metric-label {
-  font-size: 0.85rem;
-  color: #6b7280;
+  font-size: 0.8rem;
+  color: var(--du-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   margin-top: 0.3rem;
 }
 
 /* ── Bill browser ─────────────────────────────────────────── */
 .result-count {
-  font-size: 0.9rem;
-  color: #6b7280;
-  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--du-muted);
+  margin: 0.5rem 0 0.75rem;
 }
 
 /* ── NCSL badge ───────────────────────────────────────────── */
 .ncsl-badge {
   display: inline-block;
   background: var(--du-crimson);
-  color: white;
-  font-size: 0.7rem;
-  font-weight: 600;
-  padding: 0.15rem 0.4rem;
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
   border-radius: 999px;
+  letter-spacing: 0.03em;
   vertical-align: middle;
 }
 
-/* ── Section headers ──────────────────────────────────────── */
+/* ── Section dividers ─────────────────────────────────────── */
 .section-header {
   border-bottom: 2px solid var(--du-crimson);
   padding-bottom: 0.25rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin: 2rem 0 1rem;
+}
+
+/* ── Reserve height for loading cells to reduce layout shift ─ */
+.observablehq--block:has(observablehq-loading) {
+  min-height: 120px;
+}
+
+/* ── Footer: DU branding ──────────────────────────────────── */
+#observablehq-footer {
+  border-top: 1px solid var(--du-border);
+  color: var(--du-muted);
+  font-size: 0.8rem;
+}
+
+#observablehq-footer a {
+  color: var(--du-crimson);
 }

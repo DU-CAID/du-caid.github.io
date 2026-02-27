@@ -8,6 +8,26 @@ export default {
   base: "/tracker/",
   style: "style.css",
   theme: "light",
+
+  // Injected into <head> — runs before any external stylesheet.
+  // Overrides Observable's CSS font variables so Source Serif 4 is
+  // never applied (prevents the font-swap flash entirely).
+  // Also kills all CSS transitions/animations that cause the shaky
+  // reflow when DuckDB cells render.
+  head: `<style>
+  :root {
+    --sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    --serif:      system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  *, *::before, *::after {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
+    animation-duration:   0.001ms !important;
+    animation-delay:      0s      !important;
+    transition-duration:  0.001ms !important;
+    transition-delay:     0s      !important;
+  }
+</style>`,
+
   header: `<div class="caid-topbar">
   <a class="caid-topbar-brand" href="https://du-caid.github.io/">
     <img src="https://du-caid.github.io/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="32" height="32">

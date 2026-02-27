@@ -17,10 +17,10 @@ const db = await DuckDBClient.of({
 ```js
 // Populate filter option lists from the data
 const allStates  = await db.sql`SELECT DISTINCT state FROM bills ORDER BY state`;
-const stateOpts  = ["All", ...allStates.map(d => d.state)];
+const stateOpts  = ["All", ...[...allStates].map(d => d.state)];
 
 const allSessions = await db.sql`SELECT DISTINCT session FROM bills WHERE session IS NOT NULL ORDER BY session DESC`;
-const sessionOpts = ["All", ...allSessions.map(d => d.session)];
+const sessionOpts = ["All", ...[...allSessions].map(d => d.session)];
 ```
 
 ```js
