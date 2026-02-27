@@ -125,8 +125,8 @@ const countByState = new Map(stateCountsArr.map(d => [d.state, Number(d.count)])
 return {Plot,topojson,stateCounts,stateCountsArr,countByState};
 }});
 
-define({id: "6d0ae9be", inputs: ["topojson","countByState","stateCountsArr","Plot"], outputs: ["us","stateFeatures","stateMesh","FIPS","maxCount"], body: async (topojson,countByState,stateCountsArr,Plot) => {
-// US choropleth map
+define({id: "598d72fe", inputs: ["topojson","countByState","stateCountsArr"], outputs: ["us","stateFeatures","stateMesh","FIPS","maxCount"], body: async (topojson,countByState,stateCountsArr) => {
+// US choropleth map — data prep
 const us = await fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json").then(r => r.json());
 const stateFeatures = topojson.feature(us, us.objects.states);
 const stateMesh    = topojson.mesh(us, us.objects.states, (a, b) => a !== b);
@@ -149,7 +149,11 @@ stateFeatures.features.forEach(f => {
 });
 
 const maxCount = Math.max(...stateCountsArr.map(d => Number(d.count)));
+return {us,stateFeatures,stateMesh,FIPS,maxCount};
+}});
 
+define({id: "310135a8", inputs: ["Plot","maxCount","stateFeatures","stateMesh","display"], body: async (Plot,maxCount,stateFeatures,stateMesh,display) => {
+display(await(
 Plot.plot({
   projection: "albers-usa",
   width: 900,
@@ -171,10 +175,10 @@ Plot.plot({
     Plot.geo(stateMesh, {stroke: "white", strokeWidth: 0.5}),
   ],
 })
-return {us,stateFeatures,stateMesh,FIPS,maxCount};
+))
 }});
 
-define({id: "c1b20907", inputs: ["db","Plot"], outputs: ["breakdown","breakdownArr","stackData"], body: async (db,Plot) => {
+define({id: "ccad2df5", inputs: ["db"], outputs: ["breakdown","breakdownArr","stackData"], body: async (db) => {
 const breakdown = await db.sql`
   SELECT
     state,
@@ -193,7 +197,11 @@ const stackData = [
   ...breakdownArr.map(d => ({state: d.state, count: Number(d.core_ai),    tier: "Core AI"})),
   ...breakdownArr.map(d => ({state: d.state, count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
 ];
+return {breakdown,breakdownArr,stackData};
+}});
 
+define({id: "3545484a", inputs: ["Plot","breakdownArr","stackData","display"], body: async (Plot,breakdownArr,stackData,display) => {
+display(await(
 Plot.plot({
   height: 420,
   marginLeft: 50,
@@ -215,7 +223,7 @@ Plot.plot({
     Plot.ruleX([0]),
   ],
 })
-return {breakdown,breakdownArr,stackData};
+))
 }});
 
 </script>
@@ -257,9 +265,11 @@ using a two-tier regex pipeline validated against the
 <div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:c9d06f83:--></div>
 <h2 id="bills-by-state" tabindex="-1"><a class="observablehq-header-anchor" href="#bills-by-state">Bills by State</a></h2>
 <div class="observablehq observablehq--block"><!--:eb015216:--></div>
-<div class="observablehq observablehq--block"><!--:6d0ae9be:--></div>
+<div class="observablehq observablehq--block"><!--:598d72fe:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:310135a8:--></div>
 <h2 id="top-15-states-core-ai-vs-adjacent-ai" tabindex="-1"><a class="observablehq-header-anchor" href="#top-15-states-core-ai-vs-adjacent-ai">Top 15 States — Core AI vs. Adjacent AI</a></h2>
-<div class="observablehq observablehq--block"><!--:c1b20907:--></div>
+<div class="observablehq observablehq--block"><!--:ccad2df5:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:3545484a:--></div>
 <hr>
 <p><em>Data sourced from <a href="https://pluralpolicy.com/" target="_blank" rel="noopener noreferrer">OpenStates/Plural</a> · Validated against the
 <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>
@@ -267,7 +277,7 @@ using a two-tier regex pipeline validated against the
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="next" href="./bills"><span>Bill Browser</span></a></nav>
-<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T09:35:47">Feb 27, 2026</a>.</div>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:03:37">Feb 27, 2026</a>.</div>
 </footer>
 </div>
 </body>

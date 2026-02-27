@@ -73,7 +73,7 @@ const db = await DuckDBClient.of({
 return {DuckDBClient,Plot,db};
 }});
 
-define({id: "ef5a3c53", inputs: ["db","Plot"], outputs: ["byYear","byYearArr","lineData"], body: async (db,Plot) => {
+define({id: "9e665e65", inputs: ["db"], outputs: ["byYear","byYearArr","lineData"], body: async (db) => {
 const byYear = await db.sql`
   SELECT
     YEAR(latest_action_date)                                     AS year,
@@ -93,7 +93,11 @@ const lineData = [
   ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.core_ai),    tier: "Core AI"})),
   ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
 ];
+return {byYear,byYearArr,lineData};
+}});
 
+define({id: "1bcc8260", inputs: ["Plot","lineData","display"], body: async (Plot,lineData,display) => {
+display(await(
 Plot.plot({
   height: 340,
   marginLeft: 55,
@@ -123,10 +127,10 @@ Plot.plot({
     Plot.ruleY([0]),
   ],
 })
-return {byYear,byYearArr,lineData};
+))
 }});
 
-define({id: "0bf4c0b0", inputs: ["db","Plot"], outputs: ["concepts","conceptsArr"], body: async (db,Plot) => {
+define({id: "4a31d975", inputs: ["db"], outputs: ["concepts","conceptsArr"], body: async (db) => {
 const concepts = await db.sql`
   SELECT concept, COUNT(*) AS count
   FROM (
@@ -139,7 +143,11 @@ const concepts = await db.sql`
   LIMIT 25
 `;
 const conceptsArr = [...concepts].map(d => ({concept: d.concept, count: Number(d.count)}));
+return {concepts,conceptsArr};
+}});
 
+define({id: "4d71dcfb", inputs: ["Plot","conceptsArr","display"], body: async (Plot,conceptsArr,display) => {
+display(await(
 Plot.plot({
   height: 560,
   marginLeft: 200,
@@ -157,10 +165,10 @@ Plot.plot({
     Plot.ruleX([0]),
   ],
 })
-return {concepts,conceptsArr};
+))
 }});
 
-define({id: "69bf6508", inputs: ["db","Plot"], outputs: ["sources","sourcesArr"], body: async (db,Plot) => {
+define({id: "da351767", inputs: ["db"], outputs: ["sources","sourcesArr"], body: async (db) => {
 const sources = await db.sql`
   SELECT
     CASE
@@ -176,7 +184,11 @@ const sources = await db.sql`
   ORDER BY count DESC
 `;
 const sourcesArr = [...sources].map(d => ({source: d.source, count: Number(d.count)}));
+return {sources,sourcesArr};
+}});
 
+define({id: "43873656", inputs: ["Plot","sourcesArr","display"], body: async (Plot,sourcesArr,display) => {
+display(await(
 Plot.plot({
   height: 240,
   marginLeft: 300,
@@ -197,16 +209,11 @@ Plot.plot({
     Plot.ruleX([0]),
   ],
 })
-return {sources,sourcesArr};
+))
 }});
 
-define({id: "1dfe51d0", inputs: ["Plot"], outputs: ["ncslCoverage"], body: (Plot) => {
-const ncslCoverage = [
-  {category: "Caught by regex (Core AI)",    count: 168},
-  {category: "Caught by regex (Adjacent AI only)", count: 22},
-  {category: "NCSL-only (not caught by regex)",    count: 49},
-];
-
+define({id: "92b11588", inputs: ["Plot","display"], body: async (Plot,display) => {
+display(await(
 Plot.plot({
   height: 180,
   marginLeft: 260,
@@ -217,17 +224,24 @@ Plot.plot({
     range: ["#BA0C2F", "#A89968", "#d1d5db"],
   },
   marks: [
-    Plot.barX(ncslCoverage, {
-      y: "category",
-      x: "count",
-      fill: "category",
-      tip: true,
-      title: d => `${d.category}: ${d.count}`,
-    }),
+    Plot.barX(
+      [
+        {category: "Caught by regex (Core AI)",         count: 168},
+        {category: "Caught by regex (Adjacent AI only)", count: 22},
+        {category: "NCSL-only (not caught by regex)",    count: 49},
+      ],
+      {
+        y: "category",
+        x: "count",
+        fill: "category",
+        tip: true,
+        title: d => `${d.category}: ${d.count}`,
+      }
+    ),
     Plot.ruleX([0]),
   ],
 })
-return {ncslCoverage};
+))
 }});
 
 </script>
@@ -264,12 +278,15 @@ return {ncslCoverage};
 <p>How AI-related legislation has grown over time, and what topics dominate the landscape.</p>
 <div class="observablehq observablehq--block"><!--:f8e3b4ae:--></div>
 <h2 id="bills-per-year" tabindex="-1"><a class="observablehq-header-anchor" href="#bills-per-year">Bills Per Year</a></h2>
-<div class="observablehq observablehq--block"><!--:ef5a3c53:--></div>
+<div class="observablehq observablehq--block"><!--:9e665e65:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:1bcc8260:--></div>
 <h2 id="top-25-matched-concepts" tabindex="-1"><a class="observablehq-header-anchor" href="#top-25-matched-concepts">Top 25 Matched Concepts</a></h2>
 <p>Concepts matched most frequently across all flagged bills (bills can match multiple concepts).</p>
-<div class="observablehq observablehq--block"><!--:0bf4c0b0:--></div>
+<div class="observablehq observablehq--block"><!--:4a31d975:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:4d71dcfb:--></div>
 <h2 id="source-breakdown" tabindex="-1"><a class="observablehq-header-anchor" href="#source-breakdown">Source Breakdown</a></h2>
-<div class="observablehq observablehq--block"><!--:69bf6508:--></div>
+<div class="observablehq observablehq--block"><!--:da351767:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:43873656:--></div>
 <h2 id="ncsl-ground-truth-coverage" tabindex="-1"><a class="observablehq-header-anchor" href="#ncsl-ground-truth-coverage">NCSL Ground-Truth Coverage</a></h2>
 <p>The <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>
 serves as our validation benchmark. Of the 1,597 NCSL-curated bills, 1,466 matched to bills
@@ -277,11 +294,11 @@ in our database. Of those 239 matched to a specific session year, our regex pipe
 (190 of 239). The remaining ~20% are intentional non-catches — bills NCSL classified as AI-related
 but containing no AI-specific terms that can be targeted without creating significant false positives
 across the 1.45M-bill dataset.</p>
-<div class="observablehq observablehq--block"><!--:1dfe51d0:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:92b11588:--></div>
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="prev" href="./bills"><span>Bill Browser</span></a></nav>
-<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T09:35:47">Feb 27, 2026</a>.</div>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:03:37">Feb 27, 2026</a>.</div>
 </footer>
 </div>
 </body>

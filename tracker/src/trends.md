@@ -37,7 +37,9 @@ const lineData = [
   ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.core_ai),    tier: "Core AI"})),
   ...byYearArr.map(d => ({year: Number(d.year), count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
 ];
+```
 
+```js
 Plot.plot({
   height: 340,
   marginLeft: 55,
@@ -86,7 +88,9 @@ const concepts = await db.sql`
   LIMIT 25
 `;
 const conceptsArr = [...concepts].map(d => ({concept: d.concept, count: Number(d.count)}));
+```
 
+```js
 Plot.plot({
   height: 560,
   marginLeft: 200,
@@ -124,7 +128,9 @@ const sources = await db.sql`
   ORDER BY count DESC
 `;
 const sourcesArr = [...sources].map(d => ({source: d.source, count: Number(d.count)}));
+```
 
+```js
 Plot.plot({
   height: 240,
   marginLeft: 300,
@@ -157,12 +163,6 @@ but containing no AI-specific terms that can be targeted without creating signif
 across the 1.45M-bill dataset.
 
 ```js
-const ncslCoverage = [
-  {category: "Caught by regex (Core AI)",    count: 168},
-  {category: "Caught by regex (Adjacent AI only)", count: 22},
-  {category: "NCSL-only (not caught by regex)",    count: 49},
-];
-
 Plot.plot({
   height: 180,
   marginLeft: 260,
@@ -173,13 +173,20 @@ Plot.plot({
     range: ["#BA0C2F", "#A89968", "#d1d5db"],
   },
   marks: [
-    Plot.barX(ncslCoverage, {
-      y: "category",
-      x: "count",
-      fill: "category",
-      tip: true,
-      title: d => `${d.category}: ${d.count}`,
-    }),
+    Plot.barX(
+      [
+        {category: "Caught by regex (Core AI)",         count: 168},
+        {category: "Caught by regex (Adjacent AI only)", count: 22},
+        {category: "NCSL-only (not caught by regex)",    count: 49},
+      ],
+      {
+        y: "category",
+        x: "count",
+        fill: "category",
+        tip: true,
+        title: d => `${d.category}: ${d.count}`,
+      }
+    ),
     Plot.ruleX([0]),
   ],
 })

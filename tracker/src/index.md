@@ -68,7 +68,7 @@ const countByState = new Map(stateCountsArr.map(d => [d.state, Number(d.count)])
 ```
 
 ```js
-// US choropleth map
+// US choropleth map — data prep
 const us = await fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json").then(r => r.json());
 const stateFeatures = topojson.feature(us, us.objects.states);
 const stateMesh    = topojson.mesh(us, us.objects.states, (a, b) => a !== b);
@@ -91,7 +91,9 @@ stateFeatures.features.forEach(f => {
 });
 
 const maxCount = Math.max(...stateCountsArr.map(d => Number(d.count)));
+```
 
+```js
 Plot.plot({
   projection: "albers-usa",
   width: 900,
@@ -136,7 +138,9 @@ const stackData = [
   ...breakdownArr.map(d => ({state: d.state, count: Number(d.core_ai),    tier: "Core AI"})),
   ...breakdownArr.map(d => ({state: d.state, count: Number(d.adjacent_ai), tier: "Adjacent AI"})),
 ];
+```
 
+```js
 Plot.plot({
   height: 420,
   marginLeft: 50,
