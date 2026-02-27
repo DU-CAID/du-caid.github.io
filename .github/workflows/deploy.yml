@@ -19,13 +19,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Verify checkout
+        run: |
+          echo "=== Root files ==="
+          ls -la
+          echo "=== tracker/ contents ==="
+          ls -la tracker/
+          echo "=== tracker/dist/ contents ==="
+          ls -la tracker/dist/ 2>/dev/null || echo "ERROR: tracker/dist/ does not exist!"
+          echo "=== tracker/dist/index.html exists: $(test -f tracker/dist/index.html && echo YES || echo NO) ==="
+
       - name: Assemble deployment directory
         run: |
+          set -euo pipefail
           mkdir -p staging/tracker
           cp index.html about.html contact.html people.html projects.html staging/
           cp README.md staging/ 2>/dev/null || true
           cp -r assets/ staging/assets/
           cp -r tracker/dist/. staging/tracker/
+          echo "=== staging/tracker/ after copy ==="
+          ls -la staging/tracker/
+          echo "=== staging/tracker/index.html exists: $(test -f staging/tracker/index.html && echo YES || echo NO) ==="
+          echo "=== Total staging size ==="
+          du -sh staging/
 
       - uses: actions/upload-pages-artifact@v3
         with:
