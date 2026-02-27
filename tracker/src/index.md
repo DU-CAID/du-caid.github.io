@@ -71,27 +71,29 @@ const maxCount = Math.max(...stateCounts.map(d => d.count));
 ```
 
 ```js
-Plot.plot({
-  projection: "albers-usa",
-  width: 900,
-  marginBottom: 40,
-  color: {
-    scheme: "reds",
-    domain: [0, maxCount],
-    legend: true,
-    label: "Flagged bills",
-  },
-  marks: [
-    Plot.geo(stateFeatures, {
-      fill: d => d.properties.count,
-      title: d => `${d.properties.abbr ?? "—"}: ${(d.properties.count ?? 0).toLocaleString()} bills`,
-      tip: true,
-      stroke: "white",
-      strokeWidth: 0.5,
-    }),
-    Plot.geo(stateMesh, {stroke: "white", strokeWidth: 0.5}),
-  ],
-})
+html`<div style="min-height:480px">${
+  Plot.plot({
+    projection: "albers-usa",
+    width: 900,
+    marginBottom: 40,
+    color: {
+      scheme: "reds",
+      domain: [0, maxCount],
+      legend: true,
+      label: "Flagged bills",
+    },
+    marks: [
+      Plot.geo(stateFeatures, {
+        fill: d => d.properties.count,
+        title: d => `${d.properties.abbr ?? "—"}: ${(d.properties.count ?? 0).toLocaleString()} bills`,
+        tip: true,
+        stroke: "white",
+        strokeWidth: 0.5,
+      }),
+      Plot.geo(stateMesh, {stroke: "white", strokeWidth: 0.5}),
+    ],
+  })
+}`
 ```
 
 ## Top 15 States — Core AI vs. Adjacent AI
@@ -105,27 +107,29 @@ const stackData = [
 ```
 
 ```js
-Plot.plot({
-  height: 420,
-  marginLeft: 50,
-  color: {
-    domain: ["Core AI", "Adjacent AI"],
-    range: ["#BA0C2F", "#A89968"],
-    legend: true,
-  },
-  x: {label: "Number of bills", grid: true},
-  y: {label: null, domain: breakdown.map(d => d.state)},
-  marks: [
-    Plot.barX(stackData, Plot.stackX({
-      y: "state",
-      x: "count",
-      fill: "tier",
-      tip: true,
-      title: d => `${d.tier}: ${d.count.toLocaleString()}`,
-    })),
-    Plot.ruleX([0]),
-  ],
-})
+html`<div style="min-height:420px">${
+  Plot.plot({
+    height: 420,
+    marginLeft: 50,
+    color: {
+      domain: ["Core AI", "Adjacent AI"],
+      range: ["#BA0C2F", "#A89968"],
+      legend: true,
+    },
+    x: {label: "Number of bills", grid: true},
+    y: {label: null, domain: breakdown.map(d => d.state)},
+    marks: [
+      Plot.barX(stackData, Plot.stackX({
+        y: "state",
+        x: "count",
+        fill: "tier",
+        tip: true,
+        title: d => `${d.tier}: ${d.count.toLocaleString()}`,
+      })),
+      Plot.ruleX([0]),
+    ],
+  })
+}`
 ```
 
 ---

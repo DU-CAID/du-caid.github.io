@@ -136,29 +136,31 @@ const maxCount = Math.max(...stateCounts.map(d => d.count));
 return {us,stateFeatures,stateMesh,FIPS,countByState,maxCount};
 }});
 
-define({id: "310135a8", inputs: ["Plot","maxCount","stateFeatures","stateMesh","display"], body: async (Plot,maxCount,stateFeatures,stateMesh,display) => {
+define({id: "275ed49a", inputs: ["html","Plot","maxCount","stateFeatures","stateMesh","display"], body: async (html,Plot,maxCount,stateFeatures,stateMesh,display) => {
 display(await(
-Plot.plot({
-  projection: "albers-usa",
-  width: 900,
-  marginBottom: 40,
-  color: {
-    scheme: "reds",
-    domain: [0, maxCount],
-    legend: true,
-    label: "Flagged bills",
-  },
-  marks: [
-    Plot.geo(stateFeatures, {
-      fill: d => d.properties.count,
-      title: d => `${d.properties.abbr ?? "—"}: ${(d.properties.count ?? 0).toLocaleString()} bills`,
-      tip: true,
-      stroke: "white",
-      strokeWidth: 0.5,
-    }),
-    Plot.geo(stateMesh, {stroke: "white", strokeWidth: 0.5}),
-  ],
-})
+html`<div style="min-height:480px">${
+  Plot.plot({
+    projection: "albers-usa",
+    width: 900,
+    marginBottom: 40,
+    color: {
+      scheme: "reds",
+      domain: [0, maxCount],
+      legend: true,
+      label: "Flagged bills",
+    },
+    marks: [
+      Plot.geo(stateFeatures, {
+        fill: d => d.properties.count,
+        title: d => `${d.properties.abbr ?? "—"}: ${(d.properties.count ?? 0).toLocaleString()} bills`,
+        tip: true,
+        stroke: "white",
+        strokeWidth: 0.5,
+      }),
+      Plot.geo(stateMesh, {stroke: "white", strokeWidth: 0.5}),
+    ],
+  })
+}`
 ))
 }});
 
@@ -171,29 +173,31 @@ const stackData = [
 return {stackData};
 }});
 
-define({id: "4a36ff5c", inputs: ["Plot","breakdown","stackData","display"], body: async (Plot,breakdown,stackData,display) => {
+define({id: "074e7e68", inputs: ["html","Plot","breakdown","stackData","display"], body: async (html,Plot,breakdown,stackData,display) => {
 display(await(
-Plot.plot({
-  height: 420,
-  marginLeft: 50,
-  color: {
-    domain: ["Core AI", "Adjacent AI"],
-    range: ["#BA0C2F", "#A89968"],
-    legend: true,
-  },
-  x: {label: "Number of bills", grid: true},
-  y: {label: null, domain: breakdown.map(d => d.state)},
-  marks: [
-    Plot.barX(stackData, Plot.stackX({
-      y: "state",
-      x: "count",
-      fill: "tier",
-      tip: true,
-      title: d => `${d.tier}: ${d.count.toLocaleString()}`,
-    })),
-    Plot.ruleX([0]),
-  ],
-})
+html`<div style="min-height:420px">${
+  Plot.plot({
+    height: 420,
+    marginLeft: 50,
+    color: {
+      domain: ["Core AI", "Adjacent AI"],
+      range: ["#BA0C2F", "#A89968"],
+      legend: true,
+    },
+    x: {label: "Number of bills", grid: true},
+    y: {label: null, domain: breakdown.map(d => d.state)},
+    marks: [
+      Plot.barX(stackData, Plot.stackX({
+        y: "state",
+        x: "count",
+        fill: "tier",
+        tip: true,
+        title: d => `${d.tier}: ${d.count.toLocaleString()}`,
+      })),
+      Plot.ruleX([0]),
+    ],
+  })
+}`
 ))
 }});
 
@@ -249,10 +253,10 @@ using a two-tier regex pipeline validated against the
 <div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:34595f9d:--></div>
 <h2 id="bills-by-state" tabindex="-1"><a class="observablehq-header-anchor" href="#bills-by-state">Bills by State</a></h2>
 <div class="observablehq observablehq--block"><!--:3e1b43a9:--></div>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:310135a8:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:275ed49a:--></div>
 <h2 id="top-15-states-core-ai-vs-adjacent-ai" tabindex="-1"><a class="observablehq-header-anchor" href="#top-15-states-core-ai-vs-adjacent-ai">Top 15 States — Core AI vs. Adjacent AI</a></h2>
 <div class="observablehq observablehq--block"><!--:d15f24e8:--></div>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:4a36ff5c:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:074e7e68:--></div>
 <hr>
 <p><em>Data sourced from <a href="https://pluralpolicy.com/" target="_blank" rel="noopener noreferrer">OpenStates/Plural</a> · Validated against the
 <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>
@@ -260,7 +264,7 @@ using a two-tier regex pipeline validated against the
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="next" href="./bills"><span>Bill Browser</span></a></nav>
-<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:41:04">Feb 27, 2026</a>.</div>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:48:26">Feb 27, 2026</a>.</div>
 </footer>
 </div>
 </body>

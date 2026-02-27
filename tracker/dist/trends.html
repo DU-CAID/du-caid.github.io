@@ -14,6 +14,7 @@
 <link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.43270668.js">
 <link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/7c43807f.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
 <link rel="modulepreload" href="./_npm/d3@7.9.0/e324157d.js">
 <link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
 <link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
@@ -82,125 +83,128 @@ const sources  = await FileAttachment("./data/sources.json").json();
 return {Plot,byYear,concepts,sources};
 }});
 
-define({id: "30c867c0", inputs: ["byYear"], outputs: ["lineData"], body: (byYear) => {
-// Reshape for multi-series line chart
+define({id: "555e81df", inputs: ["byYear","html","Plot"], outputs: ["lineData"], body: (byYear,html,Plot) => {
 const lineData = [
   ...byYear.map(d => ({year: d.year, count: d.core_ai,    tier: "Core AI"})),
   ...byYear.map(d => ({year: d.year, count: d.adjacent_ai, tier: "Adjacent AI"})),
 ];
+
+html`<div style="min-height:340px">${
+  Plot.plot({
+    height: 340,
+    marginLeft: 55,
+    color: {
+      domain: ["Core AI", "Adjacent AI"],
+      range: ["#BA0C2F", "#A89968"],
+      legend: true,
+    },
+    x: {label: "Year", tickFormat: "d", grid: true},
+    y: {label: "Number of bills", grid: true},
+    marks: [
+      Plot.line(lineData, {
+        x: "year",
+        y: "count",
+        stroke: "tier",
+        strokeWidth: 2.5,
+        curve: "monotone-x",
+      }),
+      Plot.dot(lineData, {
+        x: "year",
+        y: "count",
+        fill: "tier",
+        r: 4,
+        tip: true,
+        title: d => `${d.tier} · ${d.year}: ${d.count.toLocaleString()} bills`,
+      }),
+      Plot.ruleY([0]),
+    ],
+  })
+}`
 return {lineData};
 }});
 
-define({id: "1bcc8260", inputs: ["Plot","lineData","display"], body: async (Plot,lineData,display) => {
+define({id: "052f6066", inputs: ["html","Plot","concepts","display"], body: async (html,Plot,concepts,display) => {
 display(await(
-Plot.plot({
-  height: 340,
-  marginLeft: 55,
-  color: {
-    domain: ["Core AI", "Adjacent AI"],
-    range: ["#BA0C2F", "#A89968"],
-    legend: true,
-  },
-  x: {label: "Year", tickFormat: "d", grid: true},
-  y: {label: "Number of bills", grid: true},
-  marks: [
-    Plot.line(lineData, {
-      x: "year",
-      y: "count",
-      stroke: "tier",
-      strokeWidth: 2.5,
-      curve: "monotone-x",
-    }),
-    Plot.dot(lineData, {
-      x: "year",
-      y: "count",
-      fill: "tier",
-      r: 4,
-      tip: true,
-      title: d => `${d.tier} · ${d.year}: ${d.count.toLocaleString()} bills`,
-    }),
-    Plot.ruleY([0]),
-  ],
-})
-))
-}});
-
-define({id: "300b9272", inputs: ["Plot","concepts","display"], body: async (Plot,concepts,display) => {
-display(await(
-Plot.plot({
-  height: 560,
-  marginLeft: 200,
-  x: {label: "Bills matched", grid: true},
-  y: {label: null},
-  marks: [
-    Plot.barX(concepts, {
-      y: "concept",
-      x: "count",
-      fill: "#BA0C2F",
-      sort: {y: "-x"},
-      tip: true,
-      title: d => `${d.concept}: ${d.count.toLocaleString()}`,
-    }),
-    Plot.ruleX([0]),
-  ],
-})
-))
-}});
-
-define({id: "b44e6129", inputs: ["Plot","sources","display"], body: async (Plot,sources,display) => {
-display(await(
-Plot.plot({
-  height: 240,
-  marginLeft: 300,
-  x: {label: "Number of bills", grid: true},
-  y: {label: null},
-  color: {
-    range: ["#BA0C2F", "#c94b68", "#A89968", "#c4b48a", "#6b7280"],
-  },
-  marks: [
-    Plot.barX(sources, {
-      y: "source",
-      x: "count",
-      fill: "source",
-      sort: {y: "-x"},
-      tip: true,
-      title: d => `${d.source}: ${d.count.toLocaleString()}`,
-    }),
-    Plot.ruleX([0]),
-  ],
-})
-))
-}});
-
-define({id: "92b11588", inputs: ["Plot","display"], body: async (Plot,display) => {
-display(await(
-Plot.plot({
-  height: 180,
-  marginLeft: 260,
-  x: {label: "NCSL-matched bills", grid: true},
-  y: {label: null},
-  color: {
-    domain: ["Caught by regex (Core AI)", "Caught by regex (Adjacent AI only)", "NCSL-only (not caught by regex)"],
-    range: ["#BA0C2F", "#A89968", "#d1d5db"],
-  },
-  marks: [
-    Plot.barX(
-      [
-        {category: "Caught by regex (Core AI)",         count: 168},
-        {category: "Caught by regex (Adjacent AI only)", count: 22},
-        {category: "NCSL-only (not caught by regex)",    count: 49},
-      ],
-      {
-        y: "category",
+html`<div style="min-height:560px">${
+  Plot.plot({
+    height: 560,
+    marginLeft: 200,
+    x: {label: "Bills matched", grid: true},
+    y: {label: null},
+    marks: [
+      Plot.barX(concepts, {
+        y: "concept",
         x: "count",
-        fill: "category",
+        fill: "#BA0C2F",
+        sort: {y: "-x"},
         tip: true,
-        title: d => `${d.category}: ${d.count}`,
-      }
-    ),
-    Plot.ruleX([0]),
-  ],
-})
+        title: d => `${d.concept}: ${d.count.toLocaleString()}`,
+      }),
+      Plot.ruleX([0]),
+    ],
+  })
+}`
+))
+}});
+
+define({id: "2523ffc9", inputs: ["html","Plot","sources","display"], body: async (html,Plot,sources,display) => {
+display(await(
+html`<div style="min-height:240px">${
+  Plot.plot({
+    height: 240,
+    marginLeft: 300,
+    x: {label: "Number of bills", grid: true},
+    y: {label: null},
+    color: {
+      range: ["#BA0C2F", "#c94b68", "#A89968", "#c4b48a", "#6b7280"],
+    },
+    marks: [
+      Plot.barX(sources, {
+        y: "source",
+        x: "count",
+        fill: "source",
+        sort: {y: "-x"},
+        tip: true,
+        title: d => `${d.source}: ${d.count.toLocaleString()}`,
+      }),
+      Plot.ruleX([0]),
+    ],
+  })
+}`
+))
+}});
+
+define({id: "180f535e", inputs: ["html","Plot","display"], body: async (html,Plot,display) => {
+display(await(
+html`<div style="min-height:180px">${
+  Plot.plot({
+    height: 180,
+    marginLeft: 260,
+    x: {label: "NCSL-matched bills", grid: true},
+    y: {label: null},
+    color: {
+      domain: ["Caught by regex (Core AI)", "Caught by regex (Adjacent AI only)", "NCSL-only (not caught by regex)"],
+      range: ["#BA0C2F", "#A89968", "#d1d5db"],
+    },
+    marks: [
+      Plot.barX(
+        [
+          {category: "Caught by regex (Core AI)",         count: 168},
+          {category: "Caught by regex (Adjacent AI only)", count: 22},
+          {category: "NCSL-only (not caught by regex)",    count: 49},
+        ],
+        {
+          y: "category",
+          x: "count",
+          fill: "category",
+          tip: true,
+          title: d => `${d.category}: ${d.count}`,
+        }
+      ),
+      Plot.ruleX([0]),
+    ],
+  })
+}`
 ))
 }});
 
@@ -252,13 +256,12 @@ Plot.plot({
 <p>How AI-related legislation has grown over time, and what topics dominate the landscape.</p>
 <div class="observablehq observablehq--block"><!--:79478d06:--></div>
 <h2 id="bills-per-year" tabindex="-1"><a class="observablehq-header-anchor" href="#bills-per-year">Bills Per Year</a></h2>
-<div class="observablehq observablehq--block"><!--:30c867c0:--></div>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:1bcc8260:--></div>
+<div class="observablehq observablehq--block"><!--:555e81df:--></div>
 <h2 id="top-25-matched-concepts" tabindex="-1"><a class="observablehq-header-anchor" href="#top-25-matched-concepts">Top 25 Matched Concepts</a></h2>
 <p>Concepts matched most frequently across all flagged bills (bills can match multiple concepts).</p>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:300b9272:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:052f6066:--></div>
 <h2 id="source-breakdown" tabindex="-1"><a class="observablehq-header-anchor" href="#source-breakdown">Source Breakdown</a></h2>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:b44e6129:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:2523ffc9:--></div>
 <h2 id="ncsl-ground-truth-coverage" tabindex="-1"><a class="observablehq-header-anchor" href="#ncsl-ground-truth-coverage">NCSL Ground-Truth Coverage</a></h2>
 <p>The <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener noreferrer">NCSL AI Legislation Database</a>
 serves as our validation benchmark. Of the 1,597 NCSL-curated bills, 1,466 matched to bills
@@ -266,11 +269,11 @@ in our database. Of those 239 matched to a specific session year, our regex pipe
 (190 of 239). The remaining ~20% are intentional non-catches — bills NCSL classified as AI-related
 but containing no AI-specific terms that can be targeted without creating significant false positives
 across the 1.45M-bill dataset.</p>
-<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:92b11588:--></div>
+<div class="observablehq observablehq--block"><observablehq-loading></observablehq-loading><!--:180f535e:--></div>
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="prev" href="./bills"><span>Bill Browser</span></a></nav>
-<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:41:04">Feb 27, 2026</a>.</div>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2026-02-27T13:48:26">Feb 27, 2026</a>.</div>
 </footer>
 </div>
 </body>
