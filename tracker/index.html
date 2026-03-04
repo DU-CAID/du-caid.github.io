@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>U.S. State AI Policy Tracker · CAID</title>
+  <meta name="description" content="Track state-level AI legislation across all 50 U.S. states. Data from OpenStates/Plural, validated against the NCSL AI legislation database." />
+  <link rel="icon" href="https://du-caid.github.io/assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Chart.js for bar and line charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <!-- D3 + TopoJSON for the choropleth map -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+</head>
+<body>
+
+<!-- ── Site header ───────────────────────────────────────── -->
+<header class="site-header">
+  <div class="container head-inner">
+    <a class="brand" href="https://du-caid.github.io/">
+      <img src="https://du-caid.github.io/assets/img/CAID_logo_square_compressed.png"
+           alt="CAID logo" width="36" height="36"
+           style="border-radius:6px;vertical-align:middle" />
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="https://du-caid.github.io/about.html">About</a></li>
+        <li><a href="https://du-caid.github.io/projects.html">Projects</a></li>
+        <li><a href="https://du-caid.github.io/people.html">People</a></li>
+        <li><a href="https://du-caid.github.io/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ── Hero ──────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="container">
+    <h1>U.S. State AI Policy Tracker</h1>
+    <p>State-level AI legislation data and analytics across all 50 states and territories.
+       Data from OpenStates/Plural, validated against the NCSL AI legislation database.</p>
+    <p class="hero-meta" id="heroMeta">Loading data…</p>
+  </div>
+</section>
+
+<!-- ── Tab navigation ────────────────────────────────────── -->
+<nav class="tab-nav" aria-label="Dashboard sections">
+  <div class="container tab-nav-inner">
+    <button class="tab-btn active" data-tab="overview">Overview</button>
+    <button class="tab-btn"        data-tab="bills">Bill Browser</button>
+    <button class="tab-btn"        data-tab="trends">Trends</button>
+  </div>
+</nav>
+
+<!-- ── OVERVIEW TAB ──────────────────────────────────────── -->
+<div id="tab-overview" class="tab-panel">
+  <div class="container">
+
+    <!-- Metric cards -->
+    <div class="metrics-grid" id="metricsGrid">
+      <div class="metric-card"><div class="label">Flagged Bills</div><div class="value" id="m-total">—</div></div>
+      <div class="metric-card"><div class="label">Core AI Bills</div><div class="value" id="m-core">—</div></div>
+      <div class="metric-card"><div class="label">NCSL Matched</div><div class="value" id="m-ncsl">—</div></div>
+      <div class="metric-card"><div class="label">States &amp; Territories</div><div class="value" id="m-states">—</div></div>
+    </div>
+
+    <!-- Choropleth map -->
+    <div class="panel">
+      <h2>Bills by State</h2>
+      <div id="map-container"></div>
+      <div class="map-legend">
+        <span>Fewer</span>
+        <div class="legend-gradient"></div>
+        <span>More</span>
+        <span style="margin-left:auto;color:var(--muted);font-size:0.75rem">Total flagged bills (log scale)</span>
+      </div>
+    </div>
+
+    <!-- Top states stacked bar -->
+    <div class="panel">
+      <h2>Top 15 States — Core AI vs. Adjacent AI</h2>
+      <div class="chart-wrap" style="height:340px">
+        <canvas id="topStatesChart"></canvas>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ── BILL BROWSER TAB ───────────────────────────────────── -->
+<div id="tab-bills" class="tab-panel hidden">
+  <div class="container">
+    <div class="panel">
+
+      <!-- Filters -->
+      <div class="filters">
+        <div class="filter-group">
+          <label for="stateFilter">State</label>
+          <select id="stateFilter">
+            <option value="">— Select a state —</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="yearFilter">Session Year</label>
+          <select id="yearFilter">
+            <option value="">All years</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="tierFilter">Tier</label>
+          <select id="tierFilter">
+            <option value="">All tiers</option>
+            <option value="core">Core AI only</option>
+            <option value="adjacent">Adjacent AI only</option>
+          </select>
+        </div>
+        <label class="filter-check">
+          <input type="checkbox" id="ncslFilter" />
+          NCSL only
+        </label>
+        <div class="filter-group" style="flex:1;min-width:200px">
+          <label for="searchInput">Search title / concepts</label>
+          <input type="search" id="searchInput" placeholder="e.g. deepfake, facial recognition…" />
+        </div>
+      </div>
+
+      <p class="results-count" id="resultsCount">Select a state to load bills.</p>
+
+      <!-- Table -->
+      <div class="table-wrap">
+        <table id="billsTable">
+          <thead>
+            <tr>
+              <th>State</th>
+              <th>Bill</th>
+              <th>Session</th>
+              <th>Title &amp; Concepts</th>
+              <th>Core</th>
+              <th>Adjacent</th>
+              <th>NCSL</th>
+            </tr>
+          </thead>
+          <tbody id="billsTbody"></tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ── TRENDS TAB ─────────────────────────────────────────── -->
+<div id="tab-trends" class="tab-panel hidden">
+  <div class="container">
+
+    <!-- Bills per year -->
+    <div class="panel">
+      <h2>Bills per Year</h2>
+      <div class="chart-wrap" style="height:280px">
+        <canvas id="yearChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Top concepts -->
+    <div class="panel">
+      <h2>Top 25 Matched Concepts</h2>
+      <div class="chart-wrap" style="height:500px">
+        <canvas id="conceptsChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Source breakdown -->
+    <div class="panel">
+      <h2>Source Breakdown</h2>
+      <div class="chart-wrap" style="height:160px">
+        <canvas id="sourcesChart"></canvas>
+      </div>
+      <p style="margin:0.75rem 0 0;font-size:0.85rem;color:var(--muted)">
+        <strong>regex_flagged</strong> — bills matched by the keyword pattern pipeline.
+        <strong>ncsl_only</strong> — bills found in the NCSL database but not by regex.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <small>
+      <a href="https://du-caid.github.io/">Center for Analytics and Innovation with Data (CAID)</a>
+      · University of Denver
+    </small>
+    <small>Data: OpenStates/Plural · Validated against <a href="https://www.ncsl.org/technology-and-communication/artificial-intelligence-2024-legislation">NCSL AI Legislation Database</a></small>
+  </div>
+</footer>
+
+<!-- Map tooltip (appended to body so it floats freely) -->
+<div class="map-tooltip" id="mapTooltip"></div>
+
+<script src="./app.js" defer></script>
+</body>
+</html>

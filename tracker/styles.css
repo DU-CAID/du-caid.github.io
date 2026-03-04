@@ -1,0 +1,436 @@
+/* ============================================================
+   U.S. State AI Policy Dashboard
+   Design tokens match du-caid.github.io exactly.
+   ============================================================ */
+
+:root {
+  --du-crimson: #BA0C2F;
+  --du-gold:    #A89968;
+  --text:       #1f2937;
+  --muted:      #6b7280;
+  --bg:         #ffffff;
+  --surface:    #f8fafc;
+  --border:     #e5e7eb;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.55;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* ── Header ─────────────────────────────────────────────── */
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.head-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 700;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: var(--text);
+  text-decoration: none;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover { background: var(--surface); }
+
+/* ── Hero ────────────────────────────────────────────────── */
+.hero {
+  background: linear-gradient(135deg, var(--du-crimson), #8c0a24);
+  color: #fff;
+  padding: 2.5rem 0 2rem;
+}
+
+.hero h1 {
+  margin: 0 0 0.4rem;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.hero p {
+  margin: 0 0 1.25rem;
+  color: #ffe7ea;
+  max-width: 60ch;
+  font-size: 1rem;
+}
+
+.hero-meta {
+  font-size: 0.85rem;
+  color: #ffcdd4;
+  margin: 0;
+}
+
+/* ── Tab Nav ─────────────────────────────────────────────── */
+.tab-nav {
+  border-bottom: 2px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 57px;
+  z-index: 90;
+}
+
+.tab-nav-inner {
+  display: flex;
+  gap: 0;
+}
+
+.tab-btn {
+  padding: 0.8rem 1.25rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-family: inherit;
+  color: var(--muted);
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.tab-btn:hover { color: var(--text); }
+
+.tab-btn.active {
+  color: var(--du-crimson);
+  border-bottom-color: var(--du-crimson);
+  font-weight: 600;
+}
+
+/* ── Main content area ────────────────────────────────────── */
+.tab-panel { padding: 1.5rem 0 3rem; }
+.tab-panel.hidden { display: none; }
+
+/* ── Metric cards ────────────────────────────────────────── */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.metric-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.1rem 1rem;
+}
+
+.metric-card .label {
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.3rem;
+}
+
+.metric-card .value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--du-crimson);
+  line-height: 1;
+}
+
+/* ── Section panels ──────────────────────────────────────── */
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.panel h2 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+/* ── Choropleth map ──────────────────────────────────────── */
+#map-container {
+  width: 100%;
+  position: relative;
+}
+
+#map-container svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#map-container path {
+  stroke: #fff;
+  stroke-width: 0.5px;
+  cursor: pointer;
+  transition: opacity 0.1s;
+}
+
+#map-container path:hover { opacity: 0.75; }
+
+.map-tooltip {
+  position: fixed;
+  background: #1f2937;
+  color: #fff;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s;
+  z-index: 200;
+  white-space: nowrap;
+}
+
+.map-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+}
+
+.legend-gradient {
+  width: 120px;
+  height: 10px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #fce8ec, var(--du-crimson));
+}
+
+/* ── Charts ──────────────────────────────────────────────── */
+.chart-wrap {
+  position: relative;
+  width: 100%;
+}
+
+/* ── Filters row ─────────────────────────────────────────── */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.filter-group label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+select, input[type="search"], input[type="text"] {
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  background: var(--bg);
+  color: var(--text);
+  min-width: 150px;
+}
+
+select:focus, input:focus {
+  outline: 2px solid var(--du-crimson);
+  outline-offset: 1px;
+}
+
+.filter-check {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  padding-bottom: 0.45rem;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.filter-check input[type="checkbox"] {
+  min-width: unset;
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--du-crimson);
+  cursor: pointer;
+}
+
+/* ── Results count ───────────────────────────────────────── */
+.results-count {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+/* ── Table ───────────────────────────────────────────────── */
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 0.55rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+tbody tr.bill-row {
+  cursor: pointer;
+}
+
+tbody tr.bill-row:hover td {
+  background: var(--surface);
+}
+
+tbody tr.detail-row td {
+  background: #fafbfc;
+  padding: 0.75rem 1rem;
+  cursor: default;
+}
+
+tbody tr.bill-row.expanded td {
+  background: var(--surface);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.tag-core     { background: #fee2e2; color: #991b1b; }
+.tag-adjacent { background: #fef3c7; color: #92400e; }
+.tag-ncsl     { background: #d1fae5; color: #065f46; }
+
+/* ── Bill detail panel ───────────────────────────────────── */
+.bill-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.detail-field .field-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 0.15rem;
+}
+
+.detail-field .field-value {
+  font-size: 0.9rem;
+}
+
+.concepts-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.concept-tag {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+/* ── Links ───────────────────────────────────────────────── */
+a { color: var(--du-crimson); }
+a:hover { text-decoration: underline; }
+
+/* ── Footer ──────────────────────────────────────────────── */
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 0;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+.footer-inner small {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .metrics-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .metrics-grid { grid-template-columns: 1fr 1fr; }
+  .hero h1 { font-size: 1.5rem; }
+  .tab-btn { padding: 0.7rem 0.75rem; font-size: 0.85rem; }
+  .bill-detail { grid-template-columns: 1fr; }
+}
