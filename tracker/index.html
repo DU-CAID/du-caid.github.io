@@ -191,7 +191,7 @@
   <div class="container">
 
     <div class="panel">
-      <h2>About This Tracker</h2>
+      <h2>About The Tracker</h2>
       <p>The U.S. State AI Policy Tracker is a research tool developed by the
         <a href="https://du-caid.github.io/">Center for Analytics and Innovation with Data (CAID)</a>
         at the University of Denver. It monitors AI-related legislation introduced across all
@@ -202,21 +202,21 @@
     </div>
 
     <div class="panel">
-      <h2>Step 1 — Data Collection</h2>
+      <h2>Step 1 - Data Collection</h2>
       <p>Legislative data is sourced from <a href="https://pluralpolicy.com/">Plural Policy</a>
         (formerly OpenStates), a nonpartisan organization that aggregates bill text, status,
-        and metadata from all 50 state legislatures. We download bulk session files — structured
-        JSON archives — for every available legislative session.</p>
+        and metadata from all 50 state legislatures. We download bulk session files (structured
+        JSON archives) for every available legislative session.</p>
       <p>Each session file contains bill identifiers, titles, full text where available,
         sponsor information, committee assignments, and action history. Raw files are stored
         locally and never modified after download.</p>
     </div>
 
     <div class="panel">
-      <h2>Step 2 — Ingestion</h2>
+      <h2>Step 2 - Ingestion</h2>
       <p>Raw session files are parsed and loaded into a local
-        <a href="https://duckdb.org/">DuckDB</a> database. DuckDB is a fast analytical database
-        that runs as a single file — no server required. The bills database is treated as
+        <a href="https://duckdb.org/">DuckDB</a> database. We use DuckDB because it is a fast analytical database
+        that runs as a single file, no server required. The bills database is treated as
         append-only: once a bill is written, it is never updated or deleted. Re-running
         ingestion on the same session replaces only the records for that session.</p>
       <p>Each bill record includes the bill identifier, title, full text (where available),
@@ -224,7 +224,7 @@
     </div>
 
     <div class="panel">
-      <h2>Step 3 — AI Flagging</h2>
+      <h2>Step 3 - AI Flagging</h2>
       <p>Bills are scanned against a curated keyword pattern library to identify AI-related
         legislation. Matches are assigned to one of two tiers:</p>
       <div class="methods-tiers">
@@ -237,8 +237,8 @@
         <div class="tier-card">
           <div class="tier-label tag tag-adjacent">Adjacent AI</div>
           <p>Bills that reference broader technologies or concepts commonly associated with
-            AI — such as automated systems, facial recognition, predictive analytics, or
-            data privacy — but may not use the term "artificial intelligence" directly.
+            AI. This includes things like automated systems, facial recognition, predictive analytics, or
+            data privacy, however they may not use the term "artificial intelligence" directly.
             These bills warrant review but require additional judgment.</p>
         </div>
       </div>
@@ -250,7 +250,7 @@
     </div>
 
     <div class="panel">
-      <h2>Step 4 — NCSL Validation</h2>
+      <h2>Step 4 - NCSL Validation</h2>
       <p>Flagged bills are cross-referenced against the
         <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database">NCSL AI Legislation Database</a>,
         an independent tracker maintained by the National Conference of State Legislatures.
@@ -259,13 +259,13 @@
       <p>Matching is performed by state and bill identifier, with normalization to handle
         common formatting differences (e.g., "SB 123" vs "S123"). Bills found in the NCSL
         database are marked <strong>NCSL matched</strong> in this tracker.</p>
-      <p>The NCSL comparison serves two purposes: it provides an independent check on our
+      <p>The NCSL comparison provides an independent check on our
         pipeline's coverage, and it highlights bills that have advanced furthest in the
-        legislative process — a useful signal for researchers focused on enacted policy.</p>
+        legislative process, which is a useful signal for researchers focused on enacted policy.</p>
     </div>
 
     <div class="panel">
-      <h2>Limitations and Caveats</h2>
+      <h2>Limitations</h2>
       <ul class="methods-list">
         <li><strong>Coverage depends on Plural Policy.</strong> If a state legislature is not
           fully covered by Plural Policy, bills from that state may be undercounted. Coverage
