@@ -399,6 +399,68 @@ tbody tr.bill-row.expanded td {
   color: var(--muted);
 }
 
+/* ── Methods tab ─────────────────────────────────────────── */
+.panel p {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.panel p:last-child { margin-bottom: 0; }
+
+.methods-tiers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0.75rem 0;
+}
+
+.tier-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.tier-card .tier-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.tier-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.methods-list {
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+.methods-list li {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin-bottom: 0.6rem;
+  color: var(--text);
+}
+
+.methods-list li:last-child { margin-bottom: 0; }
+
+.methods-citation {
+  background: var(--surface);
+  border-left: 3px solid var(--du-crimson);
+  border-radius: 0 0.5rem 0.5rem 0;
+  margin: 0.75rem 0;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+@media (max-width: 600px) {
+  .methods-tiers { grid-template-columns: 1fr; }
+}
+
 /* ── Links ───────────────────────────────────────────────── */
 a { color: var(--du-crimson); }
 a:hover { text-decoration: underline; }
