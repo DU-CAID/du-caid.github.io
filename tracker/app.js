@@ -92,9 +92,9 @@ async function renderMap(stateData) {
   const container = document.getElementById("map-container");
   const tooltip   = document.getElementById("mapTooltip");
 
-  // Build lookup: state abbrev → total count
+  // Build lookup: state abbrev → core count
   const counts = {};
-  stateData.forEach(s => { counts[s.state] = s.total; });
+  stateData.forEach(s => { counts[s.state] = s.core; });
   const maxVal = Math.max(...Object.values(counts));
 
   // Log scale color — handles the wide range (e.g. NY=17k vs small states=50)
@@ -135,7 +135,7 @@ async function renderMap(stateData) {
       tooltip.style.opacity = "1";
       tooltip.style.left = (event.clientX + 14) + "px";
       tooltip.style.top  = (event.clientY - 32) + "px";
-      tooltip.textContent = `${name} — ${fmt(count)} bills`;
+      tooltip.textContent = `${name} — ${fmt(count)} core AI bills`;
     })
     .on("mouseleave", () => {
       tooltip.style.opacity = "0";
@@ -144,40 +144,39 @@ async function renderMap(stateData) {
 
 /* ── Top 15 states stacked bar ───────────────────────────── */
 function renderTopStates(stateData) {
-  const top15 = stateData.slice(0, 15);
-  const labels = top15.map(s => s.state);
-  const core   = top15.map(s => s.core);
-  const adj    = top15.map(s => s.adjacent_only);
+  const barOptions = (color) => ({
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => fmt(ctx.parsed.y) } },
+    },
+    scales: {
+      x: { grid: { display: false } },
+      y: { ticks: { callback: v => fmt(v) }, grid: { color: "#e5e7eb" } },
+    },
+  });
 
-  new Chart(document.getElementById("topStatesChart"), {
+  // Core AI — sorted by core count
+  const topCore = [...stateData].sort((a, b) => b.core - a.core).slice(0, 15);
+  new Chart(document.getElementById("topStatesCoreChart"), {
     type: "bar",
     data: {
-      labels,
-      datasets: [
-        { label: "Core AI",     data: core, backgroundColor: CRIMSON },
-        { label: "Adjacent AI", data: adj,  backgroundColor: GOLD    },
-      ],
+      labels: topCore.map(s => s.state),
+      datasets: [{ label: "Core AI Bills", data: topCore.map(s => s.core), backgroundColor: CRIMSON }],
     },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { position: "top" },
-        tooltip: {
-          callbacks: {
-            label: ctx => `${ctx.dataset.label}: ${fmt(ctx.parsed.y)}`,
-          },
-        },
-      },
-      scales: {
-        x: { stacked: true, grid: { display: false } },
-        y: {
-          stacked: true,
-          ticks: { callback: v => fmt(v) },
-          grid: { color: "#e5e7eb" },
-        },
-      },
+    options: barOptions(CRIMSON),
+  });
+
+  // Adjacent AI — sorted by adjacent_only count
+  const topAdj = [...stateData].sort((a, b) => b.adjacent_only - a.adjacent_only).slice(0, 15);
+  new Chart(document.getElementById("topStatesAdjChart"), {
+    type: "bar",
+    data: {
+      labels: topAdj.map(s => s.state),
+      datasets: [{ label: "Adjacent AI Bills", data: topAdj.map(s => s.adjacent_only), backgroundColor: GOLD }],
     },
+    options: barOptions(GOLD),
   });
 }
 
@@ -289,7 +288,7 @@ function initBillBrowser(manifest) {
           </span>
           ${ncslBadge}
           <br>
-          <strong>${b.title || "(no title)"}</strong>
+          <strong>${b.title || (b.source_bucket === "ncsl_only" ? '<em style="color:var(--muted);font-weight:400">NCSL record — title not available</em>' : '<em style="color:var(--muted);font-weight:400">(no title)</em>')}</strong>
           ${concepts ? `<br><span style="color:var(--muted);font-size:0.82rem">${concepts}</span>` : ""}
         </td>
         <td style="text-align:center">${b.core_ai_hits || 0}</td>
@@ -379,60 +378,69 @@ function initBillBrowser(manifest) {
 }
 
 /* ── Trends charts ───────────────────────────────────────── */
-function renderTrends(byYear, concepts, sources) {
-
-  // Bills per year — line chart
-  const yearLabels = byYear.map(d => d.year);
-  new Chart(document.getElementById("yearChart"), {
-    type: "line",
-    data: {
-      labels: yearLabels,
-      datasets: [
-        {
-          label: "Core AI",
-          data: byYear.map(d => d.core),
-          borderColor: CRIMSON,
-          backgroundColor: CRIMSON_LIGHT,
-          tension: 0.3,
-          fill: true,
-          pointBackgroundColor: CRIMSON,
-        },
-        {
-          label: "Adjacent AI",
-          data: byYear.map(d => d.adjacent),
-          borderColor: GOLD,
-          backgroundColor: GOLD_LIGHT,
-          tension: 0.3,
-          fill: true,
-          pointBackgroundColor: GOLD,
-        },
-      ],
+function renderTrends(byYear, concepts) {
+  const lineOptions = (color, lightColor) => ({
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => fmt(ctx.parsed.y) } },
     },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { position: "top" },
-        tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${fmt(ctx.parsed.y)}` } },
-      },
-      scales: {
-        x: { grid: { display: false } },
-        y: {
-          ticks: { callback: v => fmt(v) },
-          grid: { color: "#e5e7eb" },
-        },
-      },
+    scales: {
+      x: { grid: { display: false } },
+      y: { ticks: { callback: v => fmt(v) }, grid: { color: "#e5e7eb" } },
     },
   });
 
-  // Top concepts — horizontal bar
+  // Filter to 2019–present, drop unknown
+  const recentYears = byYear.filter(d => d.year >= "2019" && d.year !== "unknown");
+  const yearLabels  = recentYears.map(d => d.year);
+
+  // Core AI line
+  new Chart(document.getElementById("yearCoreChart"), {
+    type: "line",
+    data: {
+      labels: yearLabels,
+      datasets: [{
+        label: "Core AI",
+        data: recentYears.map(d => d.core),
+        borderColor: CRIMSON,
+        backgroundColor: CRIMSON_LIGHT,
+        tension: 0.3,
+        fill: true,
+        pointBackgroundColor: CRIMSON,
+      }],
+    },
+    options: lineOptions(CRIMSON, CRIMSON_LIGHT),
+  });
+
+  // Adjacent AI line
+  new Chart(document.getElementById("yearAdjChart"), {
+    type: "line",
+    data: {
+      labels: yearLabels,
+      datasets: [{
+        label: "Adjacent AI",
+        data: recentYears.map(d => d.adjacent),
+        borderColor: GOLD,
+        backgroundColor: GOLD_LIGHT,
+        tension: 0.3,
+        fill: true,
+        pointBackgroundColor: GOLD,
+      }],
+    },
+    options: lineOptions(GOLD, GOLD_LIGHT),
+  });
+
+  // Core AI concepts — horizontal bar (sorted by core_count desc)
+  const sortedConcepts = [...concepts].sort((a, b) => b.core_count - a.core_count);
   new Chart(document.getElementById("conceptsChart"), {
     type: "bar",
     data: {
-      labels: concepts.map(d => d.concept),
+      labels: sortedConcepts.map(d => d.concept),
       datasets: [{
-        label: "Bills",
-        data: concepts.map(d => d.count),
+        label: "Core AI Bills",
+        data: sortedConcepts.map(d => d.core_count),
         backgroundColor: CRIMSON,
       }],
     },
@@ -445,39 +453,7 @@ function renderTrends(byYear, concepts, sources) {
         tooltip: { callbacks: { label: ctx => fmt(ctx.parsed.x) } },
       },
       scales: {
-        x: {
-          ticks: { callback: v => fmt(v) },
-          grid: { color: "#e5e7eb" },
-        },
-        y: { grid: { display: false } },
-      },
-    },
-  });
-
-  // Source breakdown — horizontal bar
-  new Chart(document.getElementById("sourcesChart"), {
-    type: "bar",
-    data: {
-      labels: sources.map(d => d.source),
-      datasets: [{
-        label: "Bills",
-        data: sources.map(d => d.count),
-        backgroundColor: GOLD,
-      }],
-    },
-    options: {
-      indexAxis: "y",
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: ctx => fmt(ctx.parsed.x) } },
-      },
-      scales: {
-        x: {
-          ticks: { callback: v => fmt(v) },
-          grid: { color: "#e5e7eb" },
-        },
+        x: { ticks: { callback: v => fmt(v) }, grid: { color: "#e5e7eb" } },
         y: { grid: { display: false } },
       },
     },
@@ -490,20 +466,19 @@ async function main() {
 
   try {
     // Load all static JSON files in parallel
-    const [summary, stateData, manifest, byYear, concepts, sources] = await Promise.all([
+    const [summary, stateData, manifest, byYear, concepts] = await Promise.all([
       loadJSON("./data/summary.json"),
       loadJSON("./data/states.json"),
       loadJSON("./data/bills_manifest.json"),
       loadJSON("./data/by_year.json").catch(() => []),
       loadJSON("./data/concepts.json").catch(() => []),
-      loadJSON("./data/sources.json").catch(() => []),
     ]);
 
     renderMetrics(summary);
     renderTopStates(stateData);
     renderMap(stateData);
     initBillBrowser(manifest);
-    renderTrends(byYear, concepts, sources);
+    renderTrends(byYear, concepts);
 
   } catch (err) {
     console.error("Dashboard failed to load:", err);

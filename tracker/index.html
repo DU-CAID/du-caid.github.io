@@ -69,21 +69,28 @@
 
     <!-- Choropleth map -->
     <div class="panel">
-      <h2>Bills by State</h2>
+      <h2>Core AI Bills by State</h2>
       <div id="map-container"></div>
       <div class="map-legend">
         <span>Fewer</span>
         <div class="legend-gradient"></div>
         <span>More</span>
-        <span style="margin-left:auto;color:var(--muted);font-size:0.75rem">Total flagged bills (log scale)</span>
+        <span style="margin-left:auto;color:var(--muted);font-size:0.75rem">Core AI bills (log scale)</span>
       </div>
     </div>
 
-    <!-- Top states stacked bar -->
+    <!-- Top states — side by side -->
     <div class="panel">
-      <h2>Top 15 States — Core AI vs. Adjacent AI</h2>
-      <div class="chart-wrap" style="height:340px">
-        <canvas id="topStatesChart"></canvas>
+      <h2>Top 15 States</h2>
+      <div class="chart-side-by-side">
+        <div>
+          <h3>Core AI Bills</h3>
+          <div class="chart-wrap" style="height:320px"><canvas id="topStatesCoreChart"></canvas></div>
+        </div>
+        <div>
+          <h3>Adjacent AI Bills</h3>
+          <div class="chart-wrap" style="height:320px"><canvas id="topStatesAdjChart"></canvas></div>
+        </div>
       </div>
     </div>
 
@@ -155,32 +162,31 @@
 <div id="tab-trends" class="tab-panel hidden">
   <div class="container">
 
-    <!-- Bills per year -->
+    <!-- Bills introduced per year — side by side -->
     <div class="panel">
-      <h2>Bills per Year</h2>
-      <div class="chart-wrap" style="height:280px">
-        <canvas id="yearChart"></canvas>
+      <h2>Bills Introduced per Year <span style="font-size:0.8rem;font-weight:400;color:var(--muted)">(2019–present)</span></h2>
+      <div class="chart-side-by-side">
+        <div>
+          <h3>Core AI Bills</h3>
+          <div class="chart-wrap" style="height:260px"><canvas id="yearCoreChart"></canvas></div>
+        </div>
+        <div>
+          <h3>Adjacent AI Bills</h3>
+          <div class="chart-wrap" style="height:260px"><canvas id="yearAdjChart"></canvas></div>
+        </div>
       </div>
     </div>
 
-    <!-- Top concepts -->
+    <!-- Top concepts — core AI only -->
     <div class="panel">
-      <h2>Top 25 Matched Concepts</h2>
-      <div class="chart-wrap" style="height:500px">
+      <h2>Top Matched Concepts in Core AI Bills</h2>
+      <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
+        Concepts matched in bills classified as Core AI. The catch-all "adjacent_tech" label
+        is excluded — it marks adjacent-tier bills rather than a specific topic.
+      </p>
+      <div class="chart-wrap" style="height:460px">
         <canvas id="conceptsChart"></canvas>
       </div>
-    </div>
-
-    <!-- Source breakdown -->
-    <div class="panel">
-      <h2>Source Breakdown</h2>
-      <div class="chart-wrap" style="height:160px">
-        <canvas id="sourcesChart"></canvas>
-      </div>
-      <p style="margin:0.75rem 0 0;font-size:0.85rem;color:var(--muted)">
-        <strong>regex_flagged</strong> — bills matched by the keyword pattern pipeline.
-        <strong>ncsl_only</strong> — bills found in the NCSL database but not by regex.
-      </p>
     </div>
 
   </div>

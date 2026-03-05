@@ -461,6 +461,24 @@ tbody tr.bill-row.expanded td {
   .methods-tiers { grid-template-columns: 1fr; }
 }
 
+/* ── Side-by-side chart grid ─────────────────────────────── */
+.chart-side-by-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.chart-side-by-side h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 0.75rem;
+}
+
+@media (max-width: 700px) {
+  .chart-side-by-side { grid-template-columns: 1fr; }
+}
+
 /* ── Links ───────────────────────────────────────────────── */
 a { color: var(--du-crimson); }
 a:hover { text-decoration: underline; }
