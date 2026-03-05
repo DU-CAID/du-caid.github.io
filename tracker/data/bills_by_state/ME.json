@@ -157,6 +157,28 @@
     "bill_id": "",
     "state": "ME",
     "session": "2025",
+    "identifier": "H 1451",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H1451&ciq=urn:user:PA196471263&client_md=358580f0d0a2065ea4971145263be5d0&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "ME",
+    "session": "2025",
     "identifier": "H 153",
     "title": "",
     "updated": "",
@@ -1468,8 +1490,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2445,28 +2467,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0515&item=1&snum=132"
   },
   {
-    "bill_id": "ocd-bill/36c03b77-50e7-4a10-af9d-50070aab590e",
-    "state": "ME",
-    "session": "128",
-    "identifier": "LD 1288",
-    "title": "An Act To Promote Computer Science And Efficient Communication Between Schools And The Department Of Education",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP044001.asp"
-  },
-  {
     "bill_id": "ocd-bill/6de4952b-9a52-4bd8-9321-50e2eb48024a",
     "state": "ME",
     "session": "129",
@@ -2487,6 +2487,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/HP093001.asp"
+  },
+  {
+    "bill_id": "ocd-bill/36c03b77-50e7-4a10-af9d-50070aab590e",
+    "state": "ME",
+    "session": "128",
+    "identifier": "LD 1288",
+    "title": "An Act To Promote Computer Science And Efficient Communication Between Schools And The Department Of Education",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP044001.asp"
   },
   {
     "bill_id": "ocd-bill/0999d440-a92b-4d5b-bd0b-1986c8b7702a",
@@ -2577,28 +2599,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP089401.asp"
   },
   {
-    "bill_id": "ocd-bill/33a1dc76-e5c9-4826-904b-46b918e9dcf5",
-    "state": "ME",
-    "session": "128",
-    "identifier": "LD 1298",
-    "title": "An Act To Update Maine'S Water Quality Standards",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP089501.asp"
-  },
-  {
     "bill_id": "ocd-bill/77573bb3-60de-452b-a58d-63559319556b",
     "state": "ME",
     "session": "129",
@@ -2619,6 +2619,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/chapters/PUBLIC9.asp"
+  },
+  {
+    "bill_id": "ocd-bill/33a1dc76-e5c9-4826-904b-46b918e9dcf5",
+    "state": "ME",
+    "session": "128",
+    "identifier": "LD 1298",
+    "title": "An Act To Update Maine'S Water Quality Standards",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP089501.asp"
   },
   {
     "bill_id": "ocd-bill/34396f07-be61-492c-a00b-e8808a5cf83a",
@@ -3193,28 +3215,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/SP041901.asp"
   },
   {
-    "bill_id": "ocd-bill/765a571e-8e10-418f-b2dc-082cb69fdce1",
-    "state": "ME",
-    "session": "129",
-    "identifier": "LD 1353",
-    "title": "An Act To Establish Transparency In Primary Health Care Spending",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/chapters/PUBLIC244.asp"
-  },
-  {
     "bill_id": "ocd-bill/ded16a4b-91fb-4e42-bdbb-e181438de2d1",
     "state": "ME",
     "session": "128",
@@ -3235,6 +3235,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP046101.asp"
+  },
+  {
+    "bill_id": "ocd-bill/765a571e-8e10-418f-b2dc-082cb69fdce1",
+    "state": "ME",
+    "session": "129",
+    "identifier": "LD 1353",
+    "title": "An Act To Establish Transparency In Primary Health Care Spending",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/chapters/PUBLIC244.asp"
   },
   {
     "bill_id": "ocd-bill/69a2b8b3-72c1-40e8-aac5-6e98ba22d397",
@@ -4249,28 +4271,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP050501.asp"
   },
   {
-    "bill_id": "ocd-bill/a8fd542e-d910-426f-b715-eac76f79db49",
-    "state": "ME",
-    "session": "128",
-    "identifier": "LD 1463",
-    "title": "An Act To Amend The Laws Relating To Motor Vehicle Dealers",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP050901.asp"
-  },
-  {
     "bill_id": "ocd-bill/a2be821f-ad8d-4e27-8aba-3cc4199c1792",
     "state": "ME",
     "session": "129",
@@ -4291,6 +4291,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/chapters/PUBLIC409.asp"
+  },
+  {
+    "bill_id": "ocd-bill/a8fd542e-d910-426f-b715-eac76f79db49",
+    "state": "ME",
+    "session": "128",
+    "identifier": "LD 1463",
+    "title": "An Act To Amend The Laws Relating To Motor Vehicle Dealers",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP050901.asp"
   },
   {
     "bill_id": "ocd-bill/0eed7f9b-13ea-4f5b-b48c-63309ab00288",
@@ -4889,28 +4911,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/HP111402.asp"
   },
   {
-    "bill_id": "ocd-bill/8e2c0bd4-f86f-4b8e-bc9b-86648aca08e6",
-    "state": "ME",
-    "session": "129",
-    "identifier": "LD 1535",
-    "title": "An Act To Correct Errors And Inconsistencies Related To The Maine Uniform Probate Code And To Make Other Substantive Changes",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/chapters/PUBLIC417.asp"
-  },
-  {
     "bill_id": "ocd-bill/48c6ccaa-a1ab-4842-aff2-47331c4d94d9",
     "state": "ME",
     "session": "128",
@@ -4931,6 +4931,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP105501.asp"
+  },
+  {
+    "bill_id": "ocd-bill/8e2c0bd4-f86f-4b8e-bc9b-86648aca08e6",
+    "state": "ME",
+    "session": "129",
+    "identifier": "LD 1535",
+    "title": "An Act To Correct Errors And Inconsistencies Related To The Maine Uniform Probate Code And To Make Other Substantive Changes",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/chapters/PUBLIC417.asp"
   },
   {
     "bill_id": "ocd-bill/1ae1dc8e-1e4e-454a-be69-1a5c682c70d6",
@@ -4955,28 +4977,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/HP112301.asp"
   },
   {
-    "bill_id": "ocd-bill/caa301ee-44ad-4802-b6ba-0eefaa9fbbb1",
-    "state": "ME",
-    "session": "128",
-    "identifier": "LD 1544",
-    "title": "An Act To Update The Maine Insurance Code To Maintain Conformance With Uniform National Standards",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP053901.asp"
-  },
-  {
     "bill_id": "ocd-bill/aa3f495b-8bf3-431c-a4e8-916dd2d8d9d1",
     "state": "ME",
     "session": "129",
@@ -4997,6 +4997,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/SP048103.asp"
+  },
+  {
+    "bill_id": "ocd-bill/caa301ee-44ad-4802-b6ba-0eefaa9fbbb1",
+    "state": "ME",
+    "session": "128",
+    "identifier": "LD 1544",
+    "title": "An Act To Update The Maine Insurance Code To Maintain Conformance With Uniform National Standards",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP053901.asp"
   },
   {
     "bill_id": "ocd-bill/3643fd6e-ac59-436f-b0fe-42d5de621173",
@@ -5595,28 +5617,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/SP051301.asp"
   },
   {
-    "bill_id": "ocd-bill/389cea8a-4eef-4b53-b995-e033294ba14b",
-    "state": "ME",
-    "session": "130",
-    "identifier": "LD 1610",
-    "title": "An Act To Promote Equity In Policy Making By Enhancing The State'S Ability To Collect, Analyze And Apply Data",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1199&item=4&snum=130"
-  },
-  {
     "bill_id": "ocd-bill/c93f071e-121b-4423-a9e5-77116c0458c5",
     "state": "ME",
     "session": "128",
@@ -5637,6 +5637,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP056601.asp"
+  },
+  {
+    "bill_id": "ocd-bill/389cea8a-4eef-4b53-b995-e033294ba14b",
+    "state": "ME",
+    "session": "130",
+    "identifier": "LD 1610",
+    "title": "An Act To Promote Equity In Policy Making By Enhancing The State'S Ability To Collect, Analyze And Apply Data",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1199&item=4&snum=130"
   },
   {
     "bill_id": "ocd-bill/03a9f53d-bd23-4328-8b6c-ca13263ac747",
@@ -6608,6 +6630,29 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/HP013501.asp"
   },
   {
+    "bill_id": "ocd-bill/8ae5f216-35c2-4a23-8405-62b5f813f3a9",
+    "state": "ME",
+    "session": "128",
+    "identifier": "LD 1722",
+    "title": "An Act To Encourage Computer Data Center Development By Providing A Sales Tax Refund Or Exemption",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP120201.asp"
+  },
+  {
     "bill_id": "ocd-bill/9cc0c43a-c754-4b66-b022-8839a4faf42b",
     "state": "ME",
     "session": "129",
@@ -6628,29 +6673,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/SP057101.asp"
-  },
-  {
-    "bill_id": "ocd-bill/8ae5f216-35c2-4a23-8405-62b5f813f3a9",
-    "state": "ME",
-    "session": "128",
-    "identifier": "LD 1722",
-    "title": "An Act To Encourage Computer Data Center Development By Providing A Sales Tax Refund Or Exemption",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP120201.asp"
   },
   {
     "bill_id": "ocd-bill/3843f771-dde7-441a-b004-deba786b1858",
@@ -7690,28 +7712,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP128601.asp"
   },
   {
-    "bill_id": "ocd-bill/4d48a455-d770-4211-8dd5-70ab88c4bf3e",
-    "state": "ME",
-    "session": "129",
-    "identifier": "LD 1850",
-    "title": "An Act To Authorize A General Fund Bond Issue To Improve Highways, Bridges And Multimodal Facilities",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": null
-  },
-  {
     "bill_id": "ocd-bill/d4d99a8a-939a-4ca0-8b47-978f6c6daacb",
     "state": "ME",
     "session": "128",
@@ -7732,6 +7732,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP128701.asp"
+  },
+  {
+    "bill_id": "ocd-bill/4d48a455-d770-4211-8dd5-70ab88c4bf3e",
+    "state": "ME",
+    "session": "129",
+    "identifier": "LD 1850",
+    "title": "An Act To Authorize A General Fund Bond Issue To Improve Highways, Bridges And Multimodal Facilities",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null
   },
   {
     "bill_id": "ocd-bill/cb3b8716-adf2-4956-81ec-317392b63647",
@@ -8020,28 +8042,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP133801.asp"
   },
   {
-    "bill_id": "ocd-bill/3f454952-8dec-44a9-a28b-588d80e2bb55",
-    "state": "ME",
-    "session": "131",
-    "identifier": "LD 1902",
-    "title": "An Act To Protect Personal Health Data",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1217&item=1&snum=131"
-  },
-  {
     "bill_id": "ocd-bill/c5df6725-032f-439d-b039-91f1fb9d90f1",
     "state": "ME",
     "session": "128",
@@ -8062,6 +8062,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP133901.asp"
+  },
+  {
+    "bill_id": "ocd-bill/3f454952-8dec-44a9-a28b-588d80e2bb55",
+    "state": "ME",
+    "session": "131",
+    "identifier": "LD 1902",
+    "title": "An Act To Protect Personal Health Data",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1217&item=1&snum=131"
   },
   {
     "bill_id": "ocd-bill/3ce516ab-37b1-416e-b8fa-6da5796a75d0",
@@ -8395,28 +8417,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/SP067201.asp"
   },
   {
-    "bill_id": "ocd-bill/b110bbd4-c1e2-4ba4-8d81-f2fe6fe31223",
-    "state": "ME",
-    "session": "131",
-    "identifier": "LD 1977",
-    "title": "An Act To Create The Data Privacy And Protection Act",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1270&item=4&snum=131"
-  },
-  {
     "bill_id": "ocd-bill/684d5511-5f5c-47af-9d4d-0dbc8ef7cea8",
     "state": "ME",
     "session": "129",
@@ -8437,6 +8437,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/SP067901.asp"
+  },
+  {
+    "bill_id": "ocd-bill/b110bbd4-c1e2-4ba4-8d81-f2fe6fe31223",
+    "state": "ME",
+    "session": "131",
+    "identifier": "LD 1977",
+    "title": "An Act To Create The Data Privacy And Protection Act",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1270&item=4&snum=131"
   },
   {
     "bill_id": "ocd-bill/e660aa12-9482-4bd5-99a3-57e243644711",
@@ -9378,8 +9400,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9468,8 +9490,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9513,8 +9535,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9653,28 +9675,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP011301.asp"
   },
   {
-    "bill_id": "ocd-bill/8f3a4b7c-0635-47ea-8c96-fbcd8c8e3c5d",
-    "state": "ME",
-    "session": "129",
-    "identifier": "LD 348",
-    "title": "An Act To Prohibit The Providing Of Misleading Or Inaccurate Information Via Caller Identification Services During Telemarketing Calls",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/HP027401.asp"
-  },
-  {
     "bill_id": "ocd-bill/394d92e0-bd13-460b-8cfe-d70cef54cf6a",
     "state": "ME",
     "session": "128",
@@ -9695,6 +9695,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP011401.asp"
+  },
+  {
+    "bill_id": "ocd-bill/8f3a4b7c-0635-47ea-8c96-fbcd8c8e3c5d",
+    "state": "ME",
+    "session": "129",
+    "identifier": "LD 348",
+    "title": "An Act To Prohibit The Providing Of Misleading Or Inaccurate Information Via Caller Identification Services During Telemarketing Calls",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/HP027401.asp"
   },
   {
     "bill_id": "ocd-bill/46b54759-c30d-4e90-8270-32b9b5b45391",
@@ -10049,28 +10071,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP015901.asp"
   },
   {
-    "bill_id": "ocd-bill/07f30e2d-6eda-4e9c-82fa-3d50f26ed82b",
-    "state": "ME",
-    "session": "129",
-    "identifier": "LD 480",
-    "title": "An Act To Ensure Pay Transparency And To Reduce Gender And Racial Wage Inequities",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/SP014501.asp"
-  },
-  {
     "bill_id": "ocd-bill/7b9309cc-1ec4-480c-b8e3-d1a942d9e404",
     "state": "ME",
     "session": "128",
@@ -10091,6 +10091,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP034301.asp"
+  },
+  {
+    "bill_id": "ocd-bill/07f30e2d-6eda-4e9c-82fa-3d50f26ed82b",
+    "state": "ME",
+    "session": "129",
+    "identifier": "LD 480",
+    "title": "An Act To Ensure Pay Transparency And To Reduce Gender And Racial Wage Inequities",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/SP014501.asp"
   },
   {
     "bill_id": "ocd-bill/b183299e-359f-4eff-8f9c-523729f49fb0",
@@ -10555,28 +10577,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/HP040301.asp"
   },
   {
-    "bill_id": "ocd-bill/4dd70087-e174-4bbd-86b8-879439dce947",
-    "state": "ME",
-    "session": "129",
-    "identifier": "LD 566",
-    "title": "An Act To Protect Vulnerable Adults From Financial Exploitation",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/chapters/PUBLIC17.asp"
-  },
-  {
     "bill_id": "ocd-bill/df309e90-25e2-46cb-99b7-bdfb2ebc2a14",
     "state": "ME",
     "session": "128",
@@ -10597,6 +10597,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP018401.asp"
+  },
+  {
+    "bill_id": "ocd-bill/4dd70087-e174-4bbd-86b8-879439dce947",
+    "state": "ME",
+    "session": "129",
+    "identifier": "LD 566",
+    "title": "An Act To Protect Vulnerable Adults From Financial Exploitation",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/chapters/PUBLIC17.asp"
   },
   {
     "bill_id": "ocd-bill/6231b477-79a8-4446-a584-af5cfdd1e77d",
@@ -10703,8 +10725,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11173,28 +11195,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP024301.asp"
   },
   {
-    "bill_id": "ocd-bill/4f61c155-639d-4bc9-a80c-73e5067dbec7",
-    "state": "ME",
-    "session": "128",
-    "identifier": "LD 738",
-    "title": "An Act To Make The School Budgeting Process A Biennial Process",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP051801.asp"
-  },
-  {
     "bill_id": "ocd-bill/fc8d34c7-bd42-4765-a7bd-53ad56ae5ac8",
     "state": "ME",
     "session": "129",
@@ -11215,6 +11215,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/HP054301.asp"
+  },
+  {
+    "bill_id": "ocd-bill/4f61c155-639d-4bc9-a80c-73e5067dbec7",
+    "state": "ME",
+    "session": "128",
+    "identifier": "LD 738",
+    "title": "An Act To Make The School Budgeting Process A Biennial Process",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP051801.asp"
   },
   {
     "bill_id": "ocd-bill/6c71082e-e4ef-406b-b8c7-ed9bd9932e6f",
@@ -11525,28 +11547,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP026201.asp"
   },
   {
-    "bill_id": "ocd-bill/da6d8715-c10c-499d-8ea7-cea585f38281",
-    "state": "ME",
-    "session": "128",
-    "identifier": "LD 818",
-    "title": "An Act To Improve The Quality Of Teachers",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP026301.asp"
-  },
-  {
     "bill_id": "ocd-bill/1c01d070-7adc-4ac2-885e-1b005234d79a",
     "state": "ME",
     "session": "129",
@@ -11567,6 +11567,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_129th/billtexts/SP025401.asp"
+  },
+  {
+    "bill_id": "ocd-bill/da6d8715-c10c-499d-8ea7-cea585f38281",
+    "state": "ME",
+    "session": "128",
+    "identifier": "LD 818",
+    "title": "An Act To Improve The Quality Of Teachers",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/SP026301.asp"
   },
   {
     "bill_id": "ocd-bill/afcbfcd4-1e6c-4644-af30-c4115375697c",
@@ -11849,8 +11871,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11901,28 +11923,6 @@
     "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0402&item=3&snum=132"
   },
   {
-    "bill_id": "ocd-bill/1529f226-fd1f-415c-ae2b-2d5bbfcfcefc",
-    "state": "ME",
-    "session": "130",
-    "identifier": "LD 913",
-    "title": "An Act To Enact The Maine Data Collection Protection Act",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0669&item=4&snum=130"
-  },
-  {
     "bill_id": "ocd-bill/ad3d9861-81bf-4eee-afce-74f9e4c034b4",
     "state": "ME",
     "session": "128",
@@ -11943,6 +11943,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.mainelegislature.org/legis/bills/bills_128th/billtexts/HP064101.asp"
+  },
+  {
+    "bill_id": "ocd-bill/1529f226-fd1f-415c-ae2b-2d5bbfcfcefc",
+    "state": "ME",
+    "session": "130",
+    "identifier": "LD 913",
+    "title": "An Act To Enact The Maine Data Collection Protection Act",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0669&item=4&snum=130"
   },
   {
     "bill_id": "ocd-bill/9697c18b-2645-4885-951f-e8baee1ca43a",
@@ -12224,8 +12246,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",

@@ -47,6 +47,28 @@
     "bill_id": "",
     "state": "AK",
     "session": "2025",
+    "identifier": "H 47",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000H47&ciq=urn:user:PA196471263&client_md=0728afe23c20ccb76a3f175d76f61a87&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "AK",
+    "session": "2025",
     "identifier": "H 53",
     "title": "",
     "updated": "",
@@ -64,28 +86,6 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000H53&ciq=urn:user:PA196471263&client_md=85d6cb4fd70e224ce2270392723fa40b&mode=current_text"
-  },
-  {
-    "bill_id": "ocd-bill/0722ef25-2d84-4a65-8c6f-b40cabae7d1d",
-    "state": "AK",
-    "session": "30",
-    "identifier": "HB 1",
-    "title": "An Act relating to absentee voting, voting, early voting, special needs voting, and voter registration; relating to poll watchers; relating to absentee ballots, questioned ballots, and questioned ballot procedures; relating to which primary election ballot a voter may use; relating to early voting locations at which persons may vote absentee ballots; and relating to qualifications to vote at a municipal election.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0001D"
   },
   {
     "bill_id": "ocd-bill/16d2db55-19a1-4cb6-b2dc-93f59633335e",
@@ -108,6 +108,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0001A"
+  },
+  {
+    "bill_id": "ocd-bill/0722ef25-2d84-4a65-8c6f-b40cabae7d1d",
+    "state": "AK",
+    "session": "30",
+    "identifier": "HB 1",
+    "title": "An Act relating to absentee voting, voting, early voting, special needs voting, and voter registration; relating to poll watchers; relating to absentee ballots, questioned ballots, and questioned ballot procedures; relating to which primary election ballot a voter may use; relating to early voting locations at which persons may vote absentee ballots; and relating to qualifications to vote at a municipal election.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0001D"
   },
   {
     "bill_id": "ocd-bill/d78c6ad5-df03-4626-b383-7c4ae61d44a8",
@@ -220,28 +242,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0101A"
   },
   {
-    "bill_id": "ocd-bill/8953a041-ada6-4fba-b5a1-534c5c275792",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HB 101",
-    "title": "An Act relating to qualifications for a license to practice dentistry; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0101A"
-  },
-  {
     "bill_id": "ocd-bill/f7eb46c3-c4ae-465b-8818-e191a8154021",
     "state": "AK",
     "session": "30",
@@ -262,6 +262,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0101A"
+  },
+  {
+    "bill_id": "ocd-bill/8953a041-ada6-4fba-b5a1-534c5c275792",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HB 101",
+    "title": "An Act relating to qualifications for a license to practice dentistry; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0101A"
   },
   {
     "bill_id": "ocd-bill/c2eaa32c-034d-4584-8fd4-12e3ab38e380",
@@ -352,28 +374,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0107B"
   },
   {
-    "bill_id": "ocd-bill/1bd8b5cf-5281-4df8-8ced-b21b993b651b",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HB 108",
-    "title": "An Act requiring the establishment of a reading program in school districts for grades kindergarten through three; providing for student retention in grade three; and providing for a report on the reading program and on student retention.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0108B"
-  },
-  {
     "bill_id": "ocd-bill/9f253178-3064-4bb3-9de4-262d7a41b22b",
     "state": "AK",
     "session": "30",
@@ -394,6 +394,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0108Z"
+  },
+  {
+    "bill_id": "ocd-bill/1bd8b5cf-5281-4df8-8ced-b21b993b651b",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HB 108",
+    "title": "An Act requiring the establishment of a reading program in school districts for grades kindergarten through three; providing for student retention in grade three; and providing for a report on the reading program and on student retention.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0108B"
   },
   {
     "bill_id": "ocd-bill/12f5a46e-8b4e-4862-831c-6a0250288b3f",
@@ -418,28 +440,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0011A"
   },
   {
-    "bill_id": "ocd-bill/19b6499a-0395-40de-9b46-d6550f60b5fe",
-    "state": "AK",
-    "session": "34",
-    "identifier": "HB 110",
-    "title": "An Act relating to a social work licensure compact; relating to the practice of social work; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0110A"
-  },
-  {
     "bill_id": "ocd-bill/78915b09-e6f4-4c31-bbda-06d70babcf36",
     "state": "AK",
     "session": "33",
@@ -462,11 +462,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0110A"
   },
   {
-    "bill_id": "ocd-bill/ceda01ec-a78d-4ad9-bd45-5f419be1a07e",
+    "bill_id": "ocd-bill/19b6499a-0395-40de-9b46-d6550f60b5fe",
     "state": "AK",
-    "session": "30",
-    "identifier": "HB 111",
-    "title": "An Act relating to credits against the oil and gas production tax; relating to the applicability of certain credits earned under the oil and gas production tax to the tax on corporations; relating to tax credit certificates against the oil and gas production tax and the issuance and assignment of those certificates; relating to interest applicable to delinquent taxes; relating to lease expenditures; relating to the oil and gas tax credit fund; relating to a legislative working group; and providing for an effective date.",
+    "session": "34",
+    "identifier": "HB 110",
+    "title": "An Act relating to a social work licensure compact; relating to the practice of social work; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -481,7 +481,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0111Z"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0110A"
   },
   {
     "bill_id": "ocd-bill/1bc39d06-84b0-49d2-bf7d-3172ea811290",
@@ -506,6 +506,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0111A"
   },
   {
+    "bill_id": "ocd-bill/ceda01ec-a78d-4ad9-bd45-5f419be1a07e",
+    "state": "AK",
+    "session": "30",
+    "identifier": "HB 111",
+    "title": "An Act relating to credits against the oil and gas production tax; relating to the applicability of certain credits earned under the oil and gas production tax to the tax on corporations; relating to tax credit certificates against the oil and gas production tax and the issuance and assignment of those certificates; relating to interest applicable to delinquent taxes; relating to lease expenditures; relating to the oil and gas tax credit fund; relating to a legislative working group; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0111Z"
+  },
+  {
     "bill_id": "ocd-bill/3d724f34-44c7-4c4d-b67a-c335aff587be",
     "state": "AK",
     "session": "32",
@@ -528,28 +550,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0113A"
   },
   {
-    "bill_id": "ocd-bill/ad6f4463-03f3-4884-83a6-fbba54f8d303",
-    "state": "AK",
-    "session": "32",
-    "identifier": "HB 114",
-    "title": "An Act relating to facilities constituting a school; relating to the powers and duties of the Department of Education and Early Development; relating to public schools and school districts; relating to early education programs; relating to funding for early education programs; relating to school age eligibility; relating to reports by the Department of Education and Early Development; relating to reports by school districts; relating to certification and competency of teachers; relating to screening reading deficiencies and providing reading intervention services to public school students enrolled in grades kindergarten through three; relating to textbooks and materials for reading intervention services; establishing a reading program in the Department of Education and Early Development; relating to the definition of 'parent' in education statutes; relating to a virtual education consortium; relating to the education loan program, the Alaska supplemental education loan program, and the teacher education loan program; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0114D"
-  },
-  {
     "bill_id": "ocd-bill/761abe9c-9ac7-47de-949a-942ab0b91abb",
     "state": "AK",
     "session": "31",
@@ -570,6 +570,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0114A"
+  },
+  {
+    "bill_id": "ocd-bill/ad6f4463-03f3-4884-83a6-fbba54f8d303",
+    "state": "AK",
+    "session": "32",
+    "identifier": "HB 114",
+    "title": "An Act relating to facilities constituting a school; relating to the powers and duties of the Department of Education and Early Development; relating to public schools and school districts; relating to early education programs; relating to funding for early education programs; relating to school age eligibility; relating to reports by the Department of Education and Early Development; relating to reports by school districts; relating to certification and competency of teachers; relating to screening reading deficiencies and providing reading intervention services to public school students enrolled in grades kindergarten through three; relating to textbooks and materials for reading intervention services; establishing a reading program in the Department of Education and Early Development; relating to the definition of 'parent' in education statutes; relating to a virtual education consortium; relating to the education loan program, the Alaska supplemental education loan program, and the teacher education loan program; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0114D"
   },
   {
     "bill_id": "ocd-bill/0bfbef3c-7cd4-4c60-bf7e-79b947e1f266",
@@ -824,18 +846,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "artificial_intelligence",
       "deepfake_media",
-      "machine_learning",
-      "synthetic_media"
+      "synthetic_media",
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -908,28 +930,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0131A"
   },
   {
-    "bill_id": "ocd-bill/0c9d29cb-b4c5-4293-9f2f-6cfd7bb84ef3",
-    "state": "AK",
-    "session": "33",
-    "identifier": "HB 132",
-    "title": "An Act relating to election security, voting, and ballots; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0132A"
-  },
-  {
     "bill_id": "ocd-bill/06e1b8d6-bc68-44c1-8ad2-2895595f7671",
     "state": "AK",
     "session": "32",
@@ -950,6 +950,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0132E"
+  },
+  {
+    "bill_id": "ocd-bill/0c9d29cb-b4c5-4293-9f2f-6cfd7bb84ef3",
+    "state": "AK",
+    "session": "33",
+    "identifier": "HB 132",
+    "title": "An Act relating to election security, voting, and ballots; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0132A"
   },
   {
     "bill_id": "ocd-bill/536d90b6-b7a2-4eb3-827d-f29cb2e12f8c",
@@ -974,28 +996,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0133A"
   },
   {
-    "bill_id": "ocd-bill/8d9de35b-ef42-438a-8360-584231b8ad5c",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HB 134",
-    "title": "An Act authorizing the commissioner of natural resources to modify a net profit share lease.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0134A"
-  },
-  {
     "bill_id": "ocd-bill/911cf74e-19e1-46ec-9499-c880cd833338",
     "state": "AK",
     "session": "32",
@@ -1016,6 +1016,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0134A"
+  },
+  {
+    "bill_id": "ocd-bill/8d9de35b-ef42-438a-8360-584231b8ad5c",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HB 134",
+    "title": "An Act authorizing the commissioner of natural resources to modify a net profit share lease.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0134A"
   },
   {
     "bill_id": "ocd-bill/94de5598-3739-4942-9026-cb4c96be8c22",
@@ -1084,28 +1106,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0137A"
   },
   {
-    "bill_id": "ocd-bill/38bd03b2-ab68-47a1-b691-0de06ad6403f",
-    "state": "AK",
-    "session": "33",
-    "identifier": "HB 138",
-    "title": "An Act relating to an audiology and speech-language interstate compact; relating to the practice of audiology and the practice of speech-language pathology; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0138A"
-  },
-  {
     "bill_id": "ocd-bill/3a949be6-5802-4ea6-bbf4-a7c16b663359",
     "state": "AK",
     "session": "30",
@@ -1126,6 +1126,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0138A"
+  },
+  {
+    "bill_id": "ocd-bill/1511f6e6-3583-4ce0-91fc-b7b92f6191eb",
+    "state": "AK",
+    "session": "32",
+    "identifier": "HB 138",
+    "title": "An Act relating to elections; requiring a risk-limiting audit of selected election results; requiring state elections and local elections conducted by the state to be conducted by mail; requiring certain vote-by-mail ballots and election materials to be provided in certain written languages other than English; establishing an online ballot tracking and registration verification system; establishing vote centers, ballot drop boxes, and ballot tabulation centers; eliminating the use of precincts, polling places, absentee ballots, and questioned ballots in certain elections; establishing new elections offenses; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0138A"
   },
   {
     "bill_id": "ocd-bill/e67e83da-743d-48b6-9c9a-9c4136d96c52",
@@ -1150,11 +1172,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0138A"
   },
   {
-    "bill_id": "ocd-bill/1511f6e6-3583-4ce0-91fc-b7b92f6191eb",
+    "bill_id": "ocd-bill/38bd03b2-ab68-47a1-b691-0de06ad6403f",
     "state": "AK",
-    "session": "32",
+    "session": "33",
     "identifier": "HB 138",
-    "title": "An Act relating to elections; requiring a risk-limiting audit of selected election results; requiring state elections and local elections conducted by the state to be conducted by mail; requiring certain vote-by-mail ballots and election materials to be provided in certain written languages other than English; establishing an online ballot tracking and registration verification system; establishing vote centers, ballot drop boxes, and ballot tabulation centers; eliminating the use of precincts, polling places, absentee ballots, and questioned ballots in certain elections; establishing new elections offenses; and providing for an effective date.",
+    "title": "An Act relating to an audiology and speech-language interstate compact; relating to the practice of audiology and the practice of speech-language pathology; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -1169,7 +1191,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0138A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0138A"
   },
   {
     "bill_id": "ocd-bill/3dff921d-254c-44a6-aa73-c93eb5deb47f",
@@ -1282,28 +1304,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0143A"
   },
   {
-    "bill_id": "ocd-bill/221d2469-05c8-4fbe-b94b-326b6a13c68e",
-    "state": "AK",
-    "session": "34",
-    "identifier": "HB 144",
-    "title": "An Act relating to prior authorization requests for medical care covered by a health care insurer; relating to a prior authorization application programming interface; relating to step therapy; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0144A"
-  },
-  {
     "bill_id": "ocd-bill/ad4d9ed3-39dc-422d-87e2-068668318868",
     "state": "AK",
     "session": "32",
@@ -1324,6 +1324,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0144A"
+  },
+  {
+    "bill_id": "ocd-bill/221d2469-05c8-4fbe-b94b-326b6a13c68e",
+    "state": "AK",
+    "session": "34",
+    "identifier": "HB 144",
+    "title": "An Act relating to prior authorization requests for medical care covered by a health care insurer; relating to a prior authorization application programming interface; relating to step therapy; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0144A"
   },
   {
     "bill_id": "ocd-bill/2998e803-617d-43f1-81ce-583b2631175f",
@@ -1370,28 +1392,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0145A"
   },
   {
-    "bill_id": "ocd-bill/33ab5947-e80a-497b-b1f7-f42a673d7995",
-    "state": "AK",
-    "session": "34",
-    "identifier": "HB 148",
-    "title": "An Act relating to insurance; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0148A"
-  },
-  {
     "bill_id": "ocd-bill/ce14979e-0a6d-46f8-90aa-2ae1706e6d61",
     "state": "AK",
     "session": "32",
@@ -1412,6 +1412,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0148B"
+  },
+  {
+    "bill_id": "ocd-bill/33ab5947-e80a-497b-b1f7-f42a673d7995",
+    "state": "AK",
+    "session": "34",
+    "identifier": "HB 148",
+    "title": "An Act relating to insurance; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0148A"
   },
   {
     "bill_id": "ocd-bill/822829f9-733a-4959-936b-e80713dd70af",
@@ -1524,6 +1546,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0155E"
   },
   {
+    "bill_id": "ocd-bill/4920196a-9aa7-4210-87b8-d8fc0c54d6a9",
+    "state": "AK",
+    "session": "32",
+    "identifier": "HB 157",
+    "title": "An Act requiring the disclosure of the identity of certain persons, groups, and nongroup entities that expend money in support of or in opposition to an application filed for a state referendum or recall election; relating to political contributions; relating to the location of offices for the Alaska Public Offices Commission and the locations at which certain statements and reports filed with the commission are made available; clarifying the limits on making, accepting, and reporting certain cash campaign contributions; relating to campaign finance reporting by certain groups; changing the date a legislator is required to report certain campaign contributions and expenditures; increasing the time the Alaska Public Offices Commission has to respond to a request for an advisory opinion; relating to penalties assessed for campaign finance violations; relating to complaints alleging campaign finance violations; repealing a reporting requirement for certain contributions; relating to contribution limits and recall campaigns; relating to campaign signs on private property; relating to the reporting of financial and business interests by municipal officers, former municipal officers, and candidates for municipal office; relating to reporting of contributions made after the date of the election by a candidate for the legislature; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0157C"
+  },
+  {
     "bill_id": "ocd-bill/0d5104c6-93ee-4dbd-b9f7-b34028432043",
     "state": "AK",
     "session": "31",
@@ -1568,28 +1612,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0157A"
   },
   {
-    "bill_id": "ocd-bill/4920196a-9aa7-4210-87b8-d8fc0c54d6a9",
-    "state": "AK",
-    "session": "32",
-    "identifier": "HB 157",
-    "title": "An Act requiring the disclosure of the identity of certain persons, groups, and nongroup entities that expend money in support of or in opposition to an application filed for a state referendum or recall election; relating to political contributions; relating to the location of offices for the Alaska Public Offices Commission and the locations at which certain statements and reports filed with the commission are made available; clarifying the limits on making, accepting, and reporting certain cash campaign contributions; relating to campaign finance reporting by certain groups; changing the date a legislator is required to report certain campaign contributions and expenditures; increasing the time the Alaska Public Offices Commission has to respond to a request for an advisory opinion; relating to penalties assessed for campaign finance violations; relating to complaints alleging campaign finance violations; repealing a reporting requirement for certain contributions; relating to contribution limits and recall campaigns; relating to campaign signs on private property; relating to the reporting of financial and business interests by municipal officers, former municipal officers, and candidates for municipal office; relating to reporting of contributions made after the date of the election by a candidate for the legislature; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0157C"
-  },
-  {
     "bill_id": "ocd-bill/d97e5341-93f0-4942-8b7b-3f2c7b652128",
     "state": "AK",
     "session": "30",
@@ -1610,28 +1632,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0158A"
-  },
-  {
-    "bill_id": "ocd-bill/02fd217b-1bc9-4ee1-bac7-c49540aace38",
-    "state": "AK",
-    "session": "30",
-    "identifier": "HB 159",
-    "title": "An Act relating to the prescription of opioids; relating to voluntary nonopioid directives; relating to the controlled substance prescription database; relating to the practice of dentistry; relating to the practice of pharmacy; relating to the practice of medicine; relating to the practice of podiatry; relating to the practice of osteopathy; relating to the practice of nursing; relating to the practice of optometry; relating to the practice of veterinary medicine; relating to the duties of the Board of Pharmacy; relating to pharmacists; relating to the definition of 'practitioner'; providing for an effective date by repealing the effective date of sec. 73, ch. 25, SLA 2016; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0159Z"
   },
   {
     "bill_id": "ocd-bill/9bf6d8f4-6cf6-4a81-b532-6a30f67b9fa0",
@@ -1677,6 +1677,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0159A"
+  },
+  {
+    "bill_id": "ocd-bill/02fd217b-1bc9-4ee1-bac7-c49540aace38",
+    "state": "AK",
+    "session": "30",
+    "identifier": "HB 159",
+    "title": "An Act relating to the prescription of opioids; relating to voluntary nonopioid directives; relating to the controlled substance prescription database; relating to the practice of dentistry; relating to the practice of pharmacy; relating to the practice of medicine; relating to the practice of podiatry; relating to the practice of osteopathy; relating to the practice of nursing; relating to the practice of optometry; relating to the practice of veterinary medicine; relating to the duties of the Board of Pharmacy; relating to pharmacists; relating to the definition of 'practitioner'; providing for an effective date by repealing the effective date of sec. 73, ch. 25, SLA 2016; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0159Z"
   },
   {
     "bill_id": "ocd-bill/3e2b7ea7-e8fc-4846-8801-3056cffe174c",
@@ -1746,28 +1768,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0161A"
   },
   {
-    "bill_id": "ocd-bill/4ae211d7-96a4-4100-afc0-e943c56844f2",
-    "state": "AK",
-    "session": "33",
-    "identifier": "HB 162",
-    "title": "An Act relating to gun violence protective orders; relating to the crime of violating a protective order; relating to a central registry for protective orders; relating to the powers of district judges and magistrates; amending Rules 4 and 65, Alaska Rules of Civil Procedure, and Rule 9, Alaska Rules of Administration; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0162A"
-  },
-  {
     "bill_id": "ocd-bill/618090e3-6167-4c36-85c5-46630d7729c2",
     "state": "AK",
     "session": "32",
@@ -1788,6 +1788,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0162A"
+  },
+  {
+    "bill_id": "ocd-bill/4ae211d7-96a4-4100-afc0-e943c56844f2",
+    "state": "AK",
+    "session": "33",
+    "identifier": "HB 162",
+    "title": "An Act relating to gun violence protective orders; relating to the crime of violating a protective order; relating to a central registry for protective orders; relating to the powers of district judges and magistrates; amending Rules 4 and 65, Alaska Rules of Civil Procedure, and Rule 9, Alaska Rules of Administration; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0162A"
   },
   {
     "bill_id": "ocd-bill/291bf354-a6a4-4720-bf1f-5decdb551baf",
@@ -2076,28 +2098,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0172F"
   },
   {
-    "bill_id": "ocd-bill/22251dab-e0f9-440f-8718-8307b2e236e0",
-    "state": "AK",
-    "session": "32",
-    "identifier": "HB 173",
-    "title": "An Act relating to state education policy; relating to school climate and connectedness; establishing the School Climate and School Connectedness Improvement Committee; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0173A"
-  },
-  {
     "bill_id": "ocd-bill/ed45a5f9-c03f-4c75-a1bd-056da2875e02",
     "state": "AK",
     "session": "34",
@@ -2118,6 +2118,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0173A"
+  },
+  {
+    "bill_id": "ocd-bill/22251dab-e0f9-440f-8718-8307b2e236e0",
+    "state": "AK",
+    "session": "32",
+    "identifier": "HB 173",
+    "title": "An Act relating to state education policy; relating to school climate and connectedness; establishing the School Climate and School Connectedness Improvement Committee; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0173A"
   },
   {
     "bill_id": "ocd-bill/d58814af-5aa0-4e3d-aac1-323022aee45a",
@@ -2252,6 +2274,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0181A"
   },
   {
+    "bill_id": "ocd-bill/d2e0424a-ad18-46c6-83c0-3d784060f75d",
+    "state": "AK",
+    "session": "30",
+    "identifier": "HB 183",
+    "title": "An Act relating to the state land disposal bank; relating to the state land disposal program; providing for a state program that sells state land to an individual eligible for a permanent fund dividend; allowing an individual to use permanent fund dividends to purchase certain land from the state; requiring the Department of Revenue to confirm the eligibility of an individual to receive a dividend for the purposes of a state land sale program; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0183A"
+  },
+  {
     "bill_id": "ocd-bill/65ece31c-b2e9-4cc5-b5e3-fc41ea6e49b3",
     "state": "AK",
     "session": "32",
@@ -2273,28 +2317,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0183A"
-  },
-  {
-    "bill_id": "ocd-bill/d2e0424a-ad18-46c6-83c0-3d784060f75d",
-    "state": "AK",
-    "session": "30",
-    "identifier": "HB 183",
-    "title": "An Act relating to the state land disposal bank; relating to the state land disposal program; providing for a state program that sells state land to an individual eligible for a permanent fund dividend; allowing an individual to use permanent fund dividends to purchase certain land from the state; requiring the Department of Revenue to confirm the eligibility of an individual to receive a dividend for the purposes of a state land sale program; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0183A"
   },
   {
     "bill_id": "ocd-bill/373062ad-bf34-446b-a164-3400179d325a",
@@ -2407,28 +2429,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0019A"
   },
   {
-    "bill_id": "ocd-bill/9af0ccdb-b2b0-4292-93b9-b3cb1eac48d4",
-    "state": "AK",
-    "session": "33",
-    "identifier": "HB 190",
-    "title": "An Act establishing a violation for hindering the Alaska Sunset Commission; relating to the duties of the legislature; establishing the Alaska Sunset Commission to review and make recommendations on discontinuation of or changes to state entities; relating to the powers and duties of the Alaska Sunset Commission; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0190A"
-  },
-  {
     "bill_id": "ocd-bill/370f21a7-dd9b-44e6-8107-cea9c777ff1e",
     "state": "AK",
     "session": "30",
@@ -2449,6 +2449,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0190A"
+  },
+  {
+    "bill_id": "ocd-bill/9af0ccdb-b2b0-4292-93b9-b3cb1eac48d4",
+    "state": "AK",
+    "session": "33",
+    "identifier": "HB 190",
+    "title": "An Act establishing a violation for hindering the Alaska Sunset Commission; relating to the duties of the legislature; establishing the Alaska Sunset Commission to review and make recommendations on discontinuation of or changes to state entities; relating to the powers and duties of the Alaska Sunset Commission; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0190A"
   },
   {
     "bill_id": "ocd-bill/1f14d4dd-0c84-40ce-bc9b-d5b867277950",
@@ -2576,8 +2598,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2804,28 +2826,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0204A"
   },
   {
-    "bill_id": "ocd-bill/c2d97cd4-5efa-4776-a901-dc9fa7f5afee",
-    "state": "AK",
-    "session": "33",
-    "identifier": "HB 205",
-    "title": "An Act interpreting the right to privacy under art. I, sec. 22, Constitution of the State of Alaska; defining 'abortion,' 'birth,' 'child,' 'conception,' 'natural person,' and 'preborn child'; relating to civil actions and liability under the Act; relating to murder of a child; repealing abortion procedures; amending the definition of 'person' for crimes against a person; repealing murder of an unborn child and penalties and provisions related to that crime; relating to the powers of guardians; relating to powers of attorney for health care decisions; relating to regulation of abortion; relating to medical treatment for minors; relating to relocation of a child; relating to the office of public advocacy; repealing medical assistance payment for abortions; relating to duties of the attorney general; relating to the limitation on the use of assets; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0205A"
-  },
-  {
     "bill_id": "ocd-bill/e5c73de3-ef1e-42d0-afbf-d22cff0fc1c0",
     "state": "AK",
     "session": "31",
@@ -2846,6 +2846,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0205Z"
+  },
+  {
+    "bill_id": "ocd-bill/c2d97cd4-5efa-4776-a901-dc9fa7f5afee",
+    "state": "AK",
+    "session": "33",
+    "identifier": "HB 205",
+    "title": "An Act interpreting the right to privacy under art. I, sec. 22, Constitution of the State of Alaska; defining 'abortion,' 'birth,' 'child,' 'conception,' 'natural person,' and 'preborn child'; relating to civil actions and liability under the Act; relating to murder of a child; repealing abortion procedures; amending the definition of 'person' for crimes against a person; repealing murder of an unborn child and penalties and provisions related to that crime; relating to the powers of guardians; relating to powers of attorney for health care decisions; relating to regulation of abortion; relating to medical treatment for minors; relating to relocation of a child; relating to the office of public advocacy; repealing medical assistance payment for abortions; relating to duties of the attorney general; relating to the limitation on the use of assets; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0205A"
   },
   {
     "bill_id": "ocd-bill/96f68490-0f7f-48a4-bb11-776b4ef4ba26",
@@ -2914,11 +2936,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0209A"
   },
   {
-    "bill_id": "ocd-bill/b6027b69-722e-414e-9114-a33e2417b570",
+    "bill_id": "ocd-bill/bf156573-b717-45e6-b6f4-76d87ccc5bb5",
     "state": "AK",
-    "session": "30",
+    "session": "34",
     "identifier": "HB 213",
-    "title": "An Act creating the education endowment fund and the dividend raffle fund; relating to the definition of 'gambling'; relating to the investment, appropriation, and administration of the public school trust fund; authorizing donations from the permanent fund dividend for educational purposes and to enter the permanent fund dividend raffle; relating to transfers from the dividend raffle fund and the education endowment fund; relating to the duties of the Department of Revenue; and providing for an effective date.",
+    "title": "An Act relating to data sharing by the Department of Administration for driver's license data verification purposes; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -2929,11 +2951,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0213Z"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0213A"
   },
   {
     "bill_id": "ocd-bill/d5cacbe4-2be2-4699-8dac-d490ff760c11",
@@ -2958,11 +2981,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0213A"
   },
   {
-    "bill_id": "ocd-bill/bf156573-b717-45e6-b6f4-76d87ccc5bb5",
+    "bill_id": "ocd-bill/b6027b69-722e-414e-9114-a33e2417b570",
     "state": "AK",
-    "session": "34",
+    "session": "30",
     "identifier": "HB 213",
-    "title": "An Act relating to data sharing by the Department of Administration for driver's license data verification purposes; and providing for an effective date.",
+    "title": "An Act creating the education endowment fund and the dividend raffle fund; relating to the definition of 'gambling'; relating to the investment, appropriation, and administration of the public school trust fund; authorizing donations from the permanent fund dividend for educational purposes and to enter the permanent fund dividend raffle; relating to transfers from the dividend raffle fund and the education endowment fund; relating to the duties of the Department of Revenue; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -2973,12 +2996,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0213A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0213Z"
   },
   {
     "bill_id": "ocd-bill/137cdc9e-eb8c-4421-b7b1-cc75cb665b27",
@@ -3091,28 +3113,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0022A"
   },
   {
-    "bill_id": "ocd-bill/8d14c917-0dcb-41ac-8f21-266b4d28f054",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HB 220",
-    "title": "An Act relating to geothermal resources; relating to the definition of 'geothermal resources'; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0220A"
-  },
-  {
     "bill_id": "ocd-bill/17017429-e602-4ed2-859a-0f1732971f1e",
     "state": "AK",
     "session": "32",
@@ -3133,6 +3133,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0220A"
+  },
+  {
+    "bill_id": "ocd-bill/8d14c917-0dcb-41ac-8f21-266b4d28f054",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HB 220",
+    "title": "An Act relating to geothermal resources; relating to the definition of 'geothermal resources'; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0220A"
   },
   {
     "bill_id": "ocd-bill/df5902e4-32a2-4996-91fc-c1ac35a48368",
@@ -3201,28 +3223,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0222A"
   },
   {
-    "bill_id": "ocd-bill/8d492876-9560-48ed-a77c-5208e95b4e17",
-    "state": "AK",
-    "session": "33",
-    "identifier": "HB 225",
-    "title": "An Act relating to the tabulation of ballots; and requiring the division of elections to provide unofficial election results before the results of an election are certified.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0225A"
-  },
-  {
     "bill_id": "ocd-bill/d574f10b-57a7-45ea-a080-40653807969a",
     "state": "AK",
     "session": "34",
@@ -3243,6 +3243,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0225A"
+  },
+  {
+    "bill_id": "ocd-bill/8d492876-9560-48ed-a77c-5208e95b4e17",
+    "state": "AK",
+    "session": "33",
+    "identifier": "HB 225",
+    "title": "An Act relating to the tabulation of ballots; and requiring the division of elections to provide unofficial election results before the results of an election are certified.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0225A"
   },
   {
     "bill_id": "ocd-bill/8cf9d5fb-9408-42a4-a84d-e756a9cc7176",
@@ -3289,28 +3311,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0227D"
   },
   {
-    "bill_id": "ocd-bill/83d9bbed-78a9-48d7-af27-764155882d4e",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HB 228",
-    "title": "An Act relating to notice provided to victims regarding petitions for removal from a registry that is published on the Internet; relating to the duration of the duty to register as a sex offender or child kidnapper; relating to petitions for removal from a registry that is published on the Internet; relating to the definitions of 'tier I sex offense,' 'tier II sex offense or child kidnapping,' and 'tier III sex offense or child kidnapping'; amending the definition of 'sex offense'; relating to the jurisdiction of the Court of Appeals; establishing Rule 35.3, Alaska Rules of Criminal Procedure; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0228A"
-  },
-  {
     "bill_id": "ocd-bill/9708f634-5307-4a11-9a4f-051bddbf4440",
     "state": "AK",
     "session": "32",
@@ -3331,6 +3331,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0228A"
+  },
+  {
+    "bill_id": "ocd-bill/83d9bbed-78a9-48d7-af27-764155882d4e",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HB 228",
+    "title": "An Act relating to notice provided to victims regarding petitions for removal from a registry that is published on the Internet; relating to the duration of the duty to register as a sex offender or child kidnapper; relating to petitions for removal from a registry that is published on the Internet; relating to the definitions of 'tier I sex offense,' 'tier II sex offense or child kidnapping,' and 'tier III sex offense or child kidnapping'; amending the definition of 'sex offense'; relating to the jurisdiction of the Court of Appeals; establishing Rule 35.3, Alaska Rules of Criminal Procedure; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0228A"
   },
   {
     "bill_id": "ocd-bill/b1561adf-cda4-440c-8f7c-d201b392bb51",
@@ -3487,28 +3509,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0239A"
   },
   {
-    "bill_id": "ocd-bill/ff509d54-f8fb-4fe1-ba49-6c2694636ed4",
-    "state": "AK",
-    "session": "30",
-    "identifier": "HB 240",
-    "title": "An Act relating to prescription prices available to consumers; relating to penalties for certain pharmacy or pharmacist violations; relating to the registration and duties of pharmacy benefits managers; relating to procedures, guidelines, and enforcement mechanisms for pharmacy audits; relating to the cost of multi-source generic drugs and insurance reimbursement procedures; relating to the duties of the director of the division of insurance; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0240Z"
-  },
-  {
     "bill_id": "ocd-bill/897cfc9d-3796-4f60-8388-190863873cf1",
     "state": "AK",
     "session": "32",
@@ -3529,6 +3529,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0240A"
+  },
+  {
+    "bill_id": "ocd-bill/ff509d54-f8fb-4fe1-ba49-6c2694636ed4",
+    "state": "AK",
+    "session": "30",
+    "identifier": "HB 240",
+    "title": "An Act relating to prescription prices available to consumers; relating to penalties for certain pharmacy or pharmacist violations; relating to the registration and duties of pharmacy benefits managers; relating to procedures, guidelines, and enforcement mechanisms for pharmacy audits; relating to the cost of multi-source generic drugs and insurance reimbursement procedures; relating to the duties of the director of the division of insurance; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0240Z"
   },
   {
     "bill_id": "ocd-bill/f4a29637-1507-4d3b-8413-d19d9bbc1a1a",
@@ -3575,28 +3597,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0245A"
   },
   {
-    "bill_id": "ocd-bill/3bacd746-596b-4548-afb9-5071a1da3207",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HB 246",
-    "title": "An Act establishing the Alaska Lottery Corporation; relating to the powers, duties, and laws applicable to the Alaska Lottery Corporation; establishing a lottery profits fund as an account of the general fund; establishing the crime of unlawful sale of a lottery ticket; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0246A"
-  },
-  {
     "bill_id": "ocd-bill/8ce0f415-6aff-4249-9d80-460587666d31",
     "state": "AK",
     "session": "30",
@@ -3617,6 +3617,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0246B"
+  },
+  {
+    "bill_id": "ocd-bill/3bacd746-596b-4548-afb9-5071a1da3207",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HB 246",
+    "title": "An Act establishing the Alaska Lottery Corporation; relating to the powers, duties, and laws applicable to the Alaska Lottery Corporation; establishing a lottery profits fund as an account of the general fund; establishing the crime of unlawful sale of a lottery ticket; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0246A"
   },
   {
     "bill_id": "ocd-bill/aa4ac8cd-6379-4b29-b0d0-8806ae457d63",
@@ -3729,28 +3751,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0253A"
   },
   {
-    "bill_id": "ocd-bill/3e4bdf68-6c16-4615-8563-da67689aed83",
-    "state": "AK",
-    "session": "30",
-    "identifier": "HB 254",
-    "title": "An Act relating to criminal law and procedure; relating to controlled substances; relating to victims of criminal offenses; relating to probation; relating to sentencing; relating to treatment program credit for time spent toward service of a sentence of imprisonment; relating to the Violent Crimes Compensation Board; relating to permanent fund dividends; relating to electronic monitoring; relating to penalties for violating municipal ordinances; relating to parole; relating to community work service; relating to revocation, termination, suspension, cancellation, or restoration of a driver's license; relating to the duties of the commissioner of corrections; relating to the duties of the Department of Health and Social Services; relating to civil in rem forfeiture actions; providing for an effective date by repealing sec. 193, ch. 36, SLA 2016; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0254A"
-  },
-  {
     "bill_id": "ocd-bill/2a8418ea-d28e-408a-91e8-70b3c38bfcca",
     "state": "AK",
     "session": "33",
@@ -3771,6 +3771,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0254D"
+  },
+  {
+    "bill_id": "ocd-bill/3e4bdf68-6c16-4615-8563-da67689aed83",
+    "state": "AK",
+    "session": "30",
+    "identifier": "HB 254",
+    "title": "An Act relating to criminal law and procedure; relating to controlled substances; relating to victims of criminal offenses; relating to probation; relating to sentencing; relating to treatment program credit for time spent toward service of a sentence of imprisonment; relating to the Violent Crimes Compensation Board; relating to permanent fund dividends; relating to electronic monitoring; relating to penalties for violating municipal ordinances; relating to parole; relating to community work service; relating to revocation, termination, suspension, cancellation, or restoration of a driver's license; relating to the duties of the commissioner of corrections; relating to the duties of the Department of Health and Social Services; relating to civil in rem forfeiture actions; providing for an effective date by repealing sec. 193, ch. 36, SLA 2016; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0254A"
   },
   {
     "bill_id": "ocd-bill/5b3b9ff1-a9f2-4430-b783-59875f36feae",
@@ -4025,13 +4047,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
+      "machine_learning",
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4261,28 +4283,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0290B"
   },
   {
-    "bill_id": "ocd-bill/f7961f1c-91ee-4f3d-9c20-1425d85ab030",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HB 291",
-    "title": "An Act relating to commercial interior designers and commercial interior design; establishing registration and other requirements for the practice of professional commercial interior design; relating to the State Board of Registration for Architects, Engineers, and Land Surveyors; relating to liens for labor or materials furnished; relating to the procurement of commercial interior design services; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0291A"
-  },
-  {
     "bill_id": "ocd-bill/538e2ec3-0b9c-4612-aeaf-30dacf6553ad",
     "state": "AK",
     "session": "32",
@@ -4304,6 +4304,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0291D"
+  },
+  {
+    "bill_id": "ocd-bill/f7961f1c-91ee-4f3d-9c20-1425d85ab030",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HB 291",
+    "title": "An Act relating to commercial interior designers and commercial interior design; establishing registration and other requirements for the practice of professional commercial interior design; relating to the State Board of Registration for Architects, Engineers, and Land Surveyors; relating to liens for labor or materials furnished; relating to the procurement of commercial interior design services; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0291A"
   },
   {
     "bill_id": "ocd-bill/8e4dfa80-38a2-4e0c-ac16-e15953553725",
@@ -4460,6 +4482,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB3010A"
   },
   {
+    "bill_id": "ocd-bill/ed652363-20e5-4e96-9abc-39869d93fb9b",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HB 303",
+    "title": "An Act relating to involuntary commitment procedures; relating to protective custody at a correctional facility or jail; relating to transportation of individuals held for involuntary admission for mental health treatment; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0303A"
+  },
+  {
     "bill_id": "ocd-bill/58bb5082-9031-4a80-886e-dc584ac9ae2f",
     "state": "AK",
     "session": "32",
@@ -4502,28 +4546,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0303A"
-  },
-  {
-    "bill_id": "ocd-bill/ed652363-20e5-4e96-9abc-39869d93fb9b",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HB 303",
-    "title": "An Act relating to involuntary commitment procedures; relating to protective custody at a correctional facility or jail; relating to transportation of individuals held for involuntary admission for mental health treatment; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0303A"
   },
   {
     "bill_id": "ocd-bill/44edbfa6-2246-4510-b4b1-dd4649b2ee36",
@@ -4579,14 +4601,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
+      "deepfake_media",
       "machine_learning",
       "adjacent_tech",
-      "deepfake_media"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -4744,8 +4766,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5217,28 +5239,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0373A"
   },
   {
-    "bill_id": "ocd-bill/7d3061b9-175e-48e7-bd66-cdadba17dc5d",
-    "state": "AK",
-    "session": "32",
-    "identifier": "HB 376",
-    "title": "An Act relating to the Executive Budget Act; relating to strategic plans, mission statements, performance plans, and financial plans for executive branch agencies; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0376A"
-  },
-  {
     "bill_id": "ocd-bill/39a860fb-042d-4f09-8eb3-5e93335361b3",
     "state": "AK",
     "session": "30",
@@ -5259,6 +5259,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0376A"
+  },
+  {
+    "bill_id": "ocd-bill/7d3061b9-175e-48e7-bd66-cdadba17dc5d",
+    "state": "AK",
+    "session": "32",
+    "identifier": "HB 376",
+    "title": "An Act relating to the Executive Budget Act; relating to strategic plans, mission statements, performance plans, and financial plans for executive branch agencies; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0376A"
   },
   {
     "bill_id": "ocd-bill/e95de584-7352-43e3-82dc-4eec8811cda4",
@@ -5349,28 +5371,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0385A"
   },
   {
-    "bill_id": "ocd-bill/0082ac57-3740-4d8c-aaae-8f315b7c9b10",
-    "state": "AK",
-    "session": "33",
-    "identifier": "HB 39",
-    "title": "An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; repealing appropriations; amending appropriations; making capital appropriations, supplemental appropriations, and reappropriations; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0039E"
-  },
-  {
     "bill_id": "ocd-bill/d9085ffb-e983-4083-a0ca-a7175fac82e5",
     "state": "AK",
     "session": "31",
@@ -5391,6 +5391,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0039Z"
+  },
+  {
+    "bill_id": "ocd-bill/0082ac57-3740-4d8c-aaae-8f315b7c9b10",
+    "state": "AK",
+    "session": "33",
+    "identifier": "HB 39",
+    "title": "An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; repealing appropriations; amending appropriations; making capital appropriations, supplemental appropriations, and reappropriations; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0039E"
   },
   {
     "bill_id": "ocd-bill/e4bff126-4a2d-4b38-9550-0f825cb0434b",
@@ -6077,28 +6099,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0056B"
   },
   {
-    "bill_id": "ocd-bill/1d0b1985-8749-462e-8424-4be4680b2d7e",
-    "state": "AK",
-    "session": "30",
-    "identifier": "HB 57",
-    "title": "An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; repealing appropriations; making supplemental appropriations and reappropriations; making appropriations under art. IX, sec. 17(c), Constitution of the State of Alaska, from the constitutional budget reserve fund; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0057Z"
-  },
-  {
     "bill_id": "ocd-bill/6a437dca-cb3c-47a9-886c-87ce5697fb1e",
     "state": "AK",
     "session": "34",
@@ -6143,6 +6143,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0057A"
   },
   {
+    "bill_id": "ocd-bill/1d0b1985-8749-462e-8424-4be4680b2d7e",
+    "state": "AK",
+    "session": "30",
+    "identifier": "HB 57",
+    "title": "An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; repealing appropriations; making supplemental appropriations and reappropriations; making appropriations under art. IX, sec. 17(c), Constitution of the State of Alaska, from the constitutional budget reserve fund; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0057Z"
+  },
+  {
     "bill_id": "ocd-bill/b70d42ff-07f1-49d9-9815-634fe195f07b",
     "state": "AK",
     "session": "34",
@@ -6165,28 +6187,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0058A"
   },
   {
-    "bill_id": "ocd-bill/f3850e47-5e78-4a23-a7b9-e648239100a4",
-    "state": "AK",
-    "session": "32",
-    "identifier": "HB 59",
-    "title": "An Act relating to workplace violence protective orders; relating to the crime of violating a protective order; relating to the powers of district judges and magistrates; amending Rules 4 and 65, Alaska Rules of Civil Procedure, and Rule 9, Alaska Rules of Administration; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0059A"
-  },
-  {
     "bill_id": "ocd-bill/12ee84fe-d14e-4874-9e88-1d474e1c9a65",
     "state": "AK",
     "session": "34",
@@ -6207,6 +6207,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0059A"
+  },
+  {
+    "bill_id": "ocd-bill/f3850e47-5e78-4a23-a7b9-e648239100a4",
+    "state": "AK",
+    "session": "32",
+    "identifier": "HB 59",
+    "title": "An Act relating to workplace violence protective orders; relating to the crime of violating a protective order; relating to the powers of district judges and magistrates; amending Rules 4 and 65, Alaska Rules of Civil Procedure, and Rule 9, Alaska Rules of Administration; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0059A"
   },
   {
     "bill_id": "ocd-bill/5246f21f-a980-4ed3-b7cb-00fbc393ea6b",
@@ -6363,6 +6385,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0064Z"
   },
   {
+    "bill_id": "ocd-bill/63bf06c0-4b8a-48e2-bf0f-6b61231f79e9",
+    "state": "AK",
+    "session": "34",
+    "identifier": "HB 66",
+    "title": "An Act relating to pretrial services supervision agreements.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0066A"
+  },
+  {
     "bill_id": "ocd-bill/7c675e9e-6107-4b61-bad8-28b787765698",
     "state": "AK",
     "session": "32",
@@ -6405,28 +6449,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0066E"
-  },
-  {
-    "bill_id": "ocd-bill/63bf06c0-4b8a-48e2-bf0f-6b61231f79e9",
-    "state": "AK",
-    "session": "34",
-    "identifier": "HB 66",
-    "title": "An Act relating to pretrial services supervision agreements.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0066A"
   },
   {
     "bill_id": "ocd-bill/d0e15a91-b77a-4fd1-b373-1f7f86e98d99",
@@ -6495,28 +6517,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0068A"
   },
   {
-    "bill_id": "ocd-bill/28fe3516-e591-4d00-85a1-d57b74a4a459",
-    "state": "AK",
-    "session": "32",
-    "identifier": "HB 69",
-    "title": "An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making capital appropriations, supplemental appropriations, and reappropriations; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0069E"
-  },
-  {
     "bill_id": "ocd-bill/4a2634d9-0274-4ee9-bd5f-afac9be7b37e",
     "state": "AK",
     "session": "31",
@@ -6537,6 +6537,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0069A"
+  },
+  {
+    "bill_id": "ocd-bill/28fe3516-e591-4d00-85a1-d57b74a4a459",
+    "state": "AK",
+    "session": "32",
+    "identifier": "HB 69",
+    "title": "An Act making appropriations for the operating and loan program expenses of state government and for certain programs; capitalizing funds; amending appropriations; making capital appropriations, supplemental appropriations, and reappropriations; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0069E"
   },
   {
     "bill_id": "ocd-bill/c641f442-bd6e-49d7-86f5-bf292d635524",
@@ -6561,28 +6583,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0072A"
   },
   {
-    "bill_id": "ocd-bill/22f701df-2c4f-4d41-9a18-78245742a824",
-    "state": "AK",
-    "session": "33",
-    "identifier": "HB 74",
-    "title": "An Act relating to geothermal resources; relating to the definition of 'geothermal resources'; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0074A"
-  },
-  {
     "bill_id": "ocd-bill/335bbaa1-ed1c-4a7c-857b-f8b6ccff20ef",
     "state": "AK",
     "session": "30",
@@ -6604,6 +6604,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0074D"
+  },
+  {
+    "bill_id": "ocd-bill/22f701df-2c4f-4d41-9a18-78245742a824",
+    "state": "AK",
+    "session": "33",
+    "identifier": "HB 74",
+    "title": "An Act relating to geothermal resources; relating to the definition of 'geothermal resources'; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=HB0074A"
   },
   {
     "bill_id": "ocd-bill/00a3d62d-594d-4c97-b8f9-dda968cdccfd",
@@ -6694,28 +6716,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=HB0077Z"
   },
   {
-    "bill_id": "ocd-bill/d29bd0fe-6748-4386-8506-ce1718b8ddf4",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HB 78",
-    "title": "An Act relating to insurance; relating to an insurer's corporate governance; relating to insurance holding companies and insurance company holding systems; amending Rule 26, Alaska Rules of Civil Procedure, and Rules 402 and 501, Alaska Rules of Evidence; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0078Z"
-  },
-  {
     "bill_id": "ocd-bill/32c1d6d4-4141-4405-9fb5-9f61859eee4e",
     "state": "AK",
     "session": "34",
@@ -6738,11 +6738,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0078A"
   },
   {
-    "bill_id": "ocd-bill/9ff35406-9344-4a86-89f5-9564f97f0ce9",
+    "bill_id": "ocd-bill/d29bd0fe-6748-4386-8506-ce1718b8ddf4",
     "state": "AK",
     "session": "31",
-    "identifier": "HB 79",
-    "title": "An Act relating to participation of certain peace officers and firefighters in the defined benefit and defined contribution plans of the Public Employees' Retirement System of Alaska; relating to eligibility of peace officers and firefighters for medical, disability, and death benefits; relating to liability of the Public Employees' Retirement System of Alaska; and providing for an effective date.",
+    "identifier": "HB 78",
+    "title": "An Act relating to insurance; relating to an insurer's corporate governance; relating to insurance holding companies and insurance company holding systems; amending Rule 26, Alaska Rules of Civil Procedure, and Rules 402 and 501, Alaska Rules of Evidence; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -6757,7 +6757,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0079B"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0078Z"
   },
   {
     "bill_id": "ocd-bill/75bfa8ef-91ee-4465-bb0a-b520ec72b76b",
@@ -6780,6 +6780,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0079D"
+  },
+  {
+    "bill_id": "ocd-bill/9ff35406-9344-4a86-89f5-9564f97f0ce9",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HB 79",
+    "title": "An Act relating to participation of certain peace officers and firefighters in the defined benefit and defined contribution plans of the Public Employees' Retirement System of Alaska; relating to eligibility of peace officers and firefighters for medical, disability, and death benefits; relating to liability of the Public Employees' Retirement System of Alaska; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0079B"
   },
   {
     "bill_id": "ocd-bill/b83dba03-e6af-43be-8ac3-b7cc24e737a1",
@@ -7024,28 +7046,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0009B"
   },
   {
-    "bill_id": "ocd-bill/8186cb08-794d-4620-a761-46b737295562",
-    "state": "AK",
-    "session": "32",
-    "identifier": "HB 91",
-    "title": "An Act exempting veterinarians from the requirements of the controlled substance prescription database.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0091A"
-  },
-  {
     "bill_id": "ocd-bill/513fe4ac-016e-4fc4-88c2-283ea3c1eef6",
     "state": "AK",
     "session": "31",
@@ -7066,6 +7066,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HB0091B"
+  },
+  {
+    "bill_id": "ocd-bill/8186cb08-794d-4620-a761-46b737295562",
+    "state": "AK",
+    "session": "32",
+    "identifier": "HB 91",
+    "title": "An Act exempting veterinarians from the requirements of the controlled substance prescription database.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HB0091A"
   },
   {
     "bill_id": "ocd-bill/a22e5153-0e0b-4f10-b3f4-1f7bddcc1413",
@@ -7261,8 +7283,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7555,28 +7577,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HR0005A"
   },
   {
-    "bill_id": "ocd-bill/0cf075be-5703-4afd-b463-3fbde3aaf2f8",
-    "state": "AK",
-    "session": "31",
-    "identifier": "HR 8",
-    "title": "Recognizing 2019 as the International Year of the Salmon and supporting an associated global initiative identifying the importance of wild salmon.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HR0008Z"
-  },
-  {
     "bill_id": "ocd-bill/e67b523a-f766-49f4-8550-366cef68d7b9",
     "state": "AK",
     "session": "32",
@@ -7597,6 +7597,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=HR0008A"
+  },
+  {
+    "bill_id": "ocd-bill/0cf075be-5703-4afd-b463-3fbde3aaf2f8",
+    "state": "AK",
+    "session": "31",
+    "identifier": "HR 8",
+    "title": "Recognizing 2019 as the International Year of the Salmon and supporting an associated global initiative identifying the importance of wild salmon.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=HR0008Z"
   },
   {
     "bill_id": "ocd-bill/70398368-0efc-4eb6-9ecc-0281be8df49b",
@@ -7841,28 +7863,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0105Z"
   },
   {
-    "bill_id": "ocd-bill/f0add945-1cb4-432b-a34c-312546dd06a6",
-    "state": "AK",
-    "session": "32",
-    "identifier": "SB 107",
-    "title": "An Act relating to the oil and gas production tax; relating to credits against the oil and gas production tax; relating to payments of the oil and gas production tax; relating to lease expenditures and adjustments to lease expenditures; making public certain information related to the oil and gas production tax; relating to the Department of Revenue; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0107A"
-  },
-  {
     "bill_id": "ocd-bill/86ca4472-9f64-430b-b6c7-dfdb1be8aa35",
     "state": "AK",
     "session": "34",
@@ -7883,6 +7883,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0107A"
+  },
+  {
+    "bill_id": "ocd-bill/f0add945-1cb4-432b-a34c-312546dd06a6",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SB 107",
+    "title": "An Act relating to the oil and gas production tax; relating to credits against the oil and gas production tax; relating to payments of the oil and gas production tax; relating to lease expenditures and adjustments to lease expenditures; making public certain information related to the oil and gas production tax; relating to the Department of Revenue; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0107A"
   },
   {
     "bill_id": "ocd-bill/0a1d578a-0e34-49d7-a7b7-467bed25c765",
@@ -7951,11 +7973,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0011A"
   },
   {
-    "bill_id": "ocd-bill/7732ae1e-9959-4be3-9f52-30273d5deed6",
+    "bill_id": "ocd-bill/ba645ef3-6eb2-4037-89f5-2b3aa708a588",
     "state": "AK",
-    "session": "31",
+    "session": "34",
     "identifier": "SB 111",
-    "title": "An Act authorizing the commissioner of natural resources to modify a net profit share lease.",
+    "title": "An Act relating to the diagnosis, maintenance, and repair of products that use digital electronics to operate; adding an unlawful act to the Alaska Unfair Trade Practices and Consumer Protection Act; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -7970,7 +7992,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0111A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0111A"
   },
   {
     "bill_id": "ocd-bill/82419b22-5237-4653-a212-6ef6ab218af7",
@@ -7995,11 +8017,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0111A"
   },
   {
-    "bill_id": "ocd-bill/ba645ef3-6eb2-4037-89f5-2b3aa708a588",
+    "bill_id": "ocd-bill/7732ae1e-9959-4be3-9f52-30273d5deed6",
     "state": "AK",
-    "session": "34",
+    "session": "31",
     "identifier": "SB 111",
-    "title": "An Act relating to the diagnosis, maintenance, and repair of products that use digital electronics to operate; adding an unlawful act to the Alaska Unfair Trade Practices and Consumer Protection Act; and providing for an effective date.",
+    "title": "An Act authorizing the commissioner of natural resources to modify a net profit share lease.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -8014,7 +8036,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0111A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0111A"
   },
   {
     "bill_id": "ocd-bill/89d034cb-c0eb-4d88-8bc0-ae60b2150e42",
@@ -8061,28 +8083,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0113A"
   },
   {
-    "bill_id": "ocd-bill/0da23c95-4517-4c82-b9d8-0c4d54f0582a",
-    "state": "AK",
-    "session": "31",
-    "identifier": "SB 114",
-    "title": "An Act relating to course credit for students; relating to annual reports regarding school district performance and school district employees; relating to cooperative arrangements between school districts; relating to school operating fund reserves; relating to competency examinations for teacher certificates; relating to the duties and powers of the Department of Education and Early Development; relating to the Professional Teaching Practices Commission; relating to a virtual education consortium; establishing a reading intervention program for students in grades kindergarten through three; establishing the Alaska middle college program for public school students; relating to the powers of the University of Alaska; relating to reporting requirements of the Board of Regents of the University of Alaska; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0114A"
-  },
-  {
     "bill_id": "ocd-bill/2884efbd-a255-4002-a091-f125ecb23a40",
     "state": "AK",
     "session": "33",
@@ -8103,6 +8103,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0114A"
+  },
+  {
+    "bill_id": "ocd-bill/0da23c95-4517-4c82-b9d8-0c4d54f0582a",
+    "state": "AK",
+    "session": "31",
+    "identifier": "SB 114",
+    "title": "An Act relating to course credit for students; relating to annual reports regarding school district performance and school district employees; relating to cooperative arrangements between school districts; relating to school operating fund reserves; relating to competency examinations for teacher certificates; relating to the duties and powers of the Department of Education and Early Development; relating to the Professional Teaching Practices Commission; relating to a virtual education consortium; establishing a reading intervention program for students in grades kindergarten through three; establishing the Alaska middle college program for public school students; relating to the powers of the University of Alaska; relating to reporting requirements of the Board of Regents of the University of Alaska; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0114A"
   },
   {
     "bill_id": "ocd-bill/a992ad3b-5911-4b9d-9239-19197be8d263",
@@ -8127,6 +8149,29 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0115A"
   },
   {
+    "bill_id": "ocd-bill/3a083d37-b04b-4165-9fcb-7116f026b65b",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SB 116",
+    "title": "An Act establishing the Consumer Data Privacy Act; establishing data broker registration requirements; making a violation of the Consumer Data Privacy Act an unfair or deceptive trade practice; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0116A"
+  },
+  {
     "bill_id": "ocd-bill/fbdd90e2-bee6-4914-a9b0-bb2a1307d742",
     "state": "AK",
     "session": "31",
@@ -8149,11 +8194,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0116A"
   },
   {
-    "bill_id": "ocd-bill/3a083d37-b04b-4165-9fcb-7116f026b65b",
+    "bill_id": "ocd-bill/408afabe-f949-4ce2-8039-a28c404a71bc",
     "state": "AK",
-    "session": "32",
-    "identifier": "SB 116",
-    "title": "An Act establishing the Consumer Data Privacy Act; establishing data broker registration requirements; making a violation of the Consumer Data Privacy Act an unfair or deceptive trade practice; and providing for an effective date.",
+    "session": "31",
+    "identifier": "SB 117",
+    "title": "An Act relating to disbursement of the permanent fund dividend.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -8164,12 +8209,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0116A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0117B"
   },
   {
     "bill_id": "ocd-bill/cb20858e-c888-4e65-a3dd-11d83688cb36",
@@ -8192,28 +8236,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0117A"
-  },
-  {
-    "bill_id": "ocd-bill/408afabe-f949-4ce2-8039-a28c404a71bc",
-    "state": "AK",
-    "session": "31",
-    "identifier": "SB 117",
-    "title": "An Act relating to disbursement of the permanent fund dividend.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0117B"
   },
   {
     "bill_id": "ocd-bill/9b992136-aed7-429c-9c81-2c5055496f00",
@@ -8414,28 +8436,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0121B"
   },
   {
-    "bill_id": "ocd-bill/cca1e243-274a-4c95-8502-f9c3d9ab1ace",
-    "state": "AK",
-    "session": "33",
-    "identifier": "SB 122",
-    "title": "An Act relating to the Multistate Tax Compact; relating to apportionment of income to the state; relating to highly digitized businesses subject to the Alaska Net Income Tax Act; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0122A"
-  },
-  {
     "bill_id": "ocd-bill/f62ba89f-119d-44cb-bbda-8b5fcedbf978",
     "state": "AK",
     "session": "31",
@@ -8458,11 +8458,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0122A"
   },
   {
-    "bill_id": "ocd-bill/bd3baa76-64e9-41c4-9ae7-01468c008f86",
+    "bill_id": "ocd-bill/cca1e243-274a-4c95-8502-f9c3d9ab1ace",
     "state": "AK",
-    "session": "31",
-    "identifier": "SB 123",
-    "title": "An Act relating to electric and telephone cooperatives; relating to telephone service and related telecommunications services; relating to the creation and regulation of electric reliability organizations; relating to participation of electric utilities in electric reliability organizations; relating to duties of electric reliability organizations; providing for integrated resource planning; requiring project preapproval for certain interconnected large energy facilities; and providing for an effective date.",
+    "session": "33",
+    "identifier": "SB 122",
+    "title": "An Act relating to the Multistate Tax Compact; relating to apportionment of income to the state; relating to highly digitized businesses subject to the Alaska Net Income Tax Act; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -8477,7 +8477,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0123Z"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0122A"
   },
   {
     "bill_id": "ocd-bill/ab9059e5-9310-4c54-9b60-1f4f72a60104",
@@ -8502,11 +8502,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0123A"
   },
   {
-    "bill_id": "ocd-bill/c59716ab-9796-488e-b808-00887ba13dd6",
+    "bill_id": "ocd-bill/bd3baa76-64e9-41c4-9ae7-01468c008f86",
     "state": "AK",
-    "session": "32",
-    "identifier": "SB 124",
-    "title": "An Act relating to admission to and detention at a subacute mental health facility; establishing a definition for 'subacute mental health facility'; establishing a definition for 'crisis residential center'; relating to the definitions for 'crisis stabilization center'; relating to the administration of psychotropic medication in a crisis situation; relating to licensed facilities; and providing for an effective date.",
+    "session": "31",
+    "identifier": "SB 123",
+    "title": "An Act relating to electric and telephone cooperatives; relating to telephone service and related telecommunications services; relating to the creation and regulation of electric reliability organizations; relating to participation of electric utilities in electric reliability organizations; relating to duties of electric reliability organizations; providing for integrated resource planning; requiring project preapproval for certain interconnected large energy facilities; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -8521,7 +8521,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0124A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0123Z"
   },
   {
     "bill_id": "ocd-bill/1a40de04-92fb-494c-b07f-5a6b6433e30a",
@@ -8544,6 +8544,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0124A"
+  },
+  {
+    "bill_id": "ocd-bill/c59716ab-9796-488e-b808-00887ba13dd6",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SB 124",
+    "title": "An Act relating to admission to and detention at a subacute mental health facility; establishing a definition for 'subacute mental health facility'; establishing a definition for 'crisis residential center'; relating to the definitions for 'crisis stabilization center'; relating to the administration of psychotropic medication in a crisis situation; relating to licensed facilities; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0124A"
   },
   {
     "bill_id": "ocd-bill/0fc150da-b3c9-49ee-966e-b90820bea206",
@@ -8678,28 +8700,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0130A"
   },
   {
-    "bill_id": "ocd-bill/8e909bb7-b7b6-403e-a03b-dec7d2d94415",
-    "state": "AK",
-    "session": "32",
-    "identifier": "SB 132",
-    "title": "An Act exempting veterinarians from the requirements of the controlled substance prescription database.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0132A"
-  },
-  {
     "bill_id": "ocd-bill/27b92d77-a21a-4ffc-8ff4-adba3603c04c",
     "state": "AK",
     "session": "34",
@@ -8720,6 +8720,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0132A"
+  },
+  {
+    "bill_id": "ocd-bill/8e909bb7-b7b6-403e-a03b-dec7d2d94415",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SB 132",
+    "title": "An Act exempting veterinarians from the requirements of the controlled substance prescription database.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0132A"
   },
   {
     "bill_id": "ocd-bill/a53a993a-7276-4b0a-8e4f-1f6f15077c7e",
@@ -8744,6 +8766,29 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0133A"
   },
   {
+    "bill_id": "ocd-bill/815c3631-661a-4da7-9546-7ca00cf692ef",
+    "state": "AK",
+    "session": "33",
+    "identifier": "SB 134",
+    "title": "An Act relating to insurance; relating to insurance data security; relating to mammograms; amending Rule 26, Alaska Rules of Civil Procedure, and Rules 402 and 501, Alaska Rules of Evidence; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0134A"
+  },
+  {
     "bill_id": "ocd-bill/5f63afeb-a4cd-40bf-b30b-51a0a55e6b2b",
     "state": "AK",
     "session": "34",
@@ -8764,29 +8809,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0134A"
-  },
-  {
-    "bill_id": "ocd-bill/815c3631-661a-4da7-9546-7ca00cf692ef",
-    "state": "AK",
-    "session": "33",
-    "identifier": "SB 134",
-    "title": "An Act relating to insurance; relating to insurance data security; relating to mammograms; amending Rule 26, Alaska Rules of Civil Procedure, and Rules 402 and 501, Alaska Rules of Evidence; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0134A"
   },
   {
     "bill_id": "ocd-bill/a8f3f54d-a32c-4694-83bf-328229d8578f",
@@ -9053,28 +9075,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0151A"
   },
   {
-    "bill_id": "ocd-bill/b02eb0a6-01bf-4a63-99a5-eb77e692d009",
-    "state": "AK",
-    "session": "32",
-    "identifier": "SB 152",
-    "title": "An Act relating to the convening of the legislature at the capital and in the Municipality of Anchorage; relating to the location of legislative sessions; and relating to the emergency relocation of functions of state government.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0152A"
-  },
-  {
     "bill_id": "ocd-bill/ef46313d-2d49-4091-9161-fd4d62bf41e8",
     "state": "AK",
     "session": "31",
@@ -9095,6 +9095,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0152A"
+  },
+  {
+    "bill_id": "ocd-bill/b02eb0a6-01bf-4a63-99a5-eb77e692d009",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SB 152",
+    "title": "An Act relating to the convening of the legislature at the capital and in the Municipality of Anchorage; relating to the location of legislative sessions; and relating to the emergency relocation of functions of state government.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0152A"
   },
   {
     "bill_id": "ocd-bill/3a62e03c-6181-4d26-be7d-b8ac24943ca8",
@@ -9207,28 +9229,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0159A"
   },
   {
-    "bill_id": "ocd-bill/04a69180-7561-4002-8444-05d18a4afc5b",
-    "state": "AK",
-    "session": "32",
-    "identifier": "SB 16",
-    "title": "An Act relating to the authority and procedures of the State Commission for Human Rights; requiring an annual report concerning the payment of equal pay for comparable work; increasing the minimum wage; relating to and prohibiting wage discrimination based on the sex of an employee; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0016A"
-  },
-  {
     "bill_id": "ocd-bill/125c5919-d523-4c88-ab4e-95466a1642df",
     "state": "AK",
     "session": "30",
@@ -9251,11 +9251,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0016A"
   },
   {
-    "bill_id": "ocd-bill/818970fe-c338-4252-907c-93d2ef41e566",
+    "bill_id": "ocd-bill/04a69180-7561-4002-8444-05d18a4afc5b",
     "state": "AK",
-    "session": "30",
-    "identifier": "SB 160",
-    "title": "An Act relating to the regulation of broadband Internet; and making certain actions by broadband Internet service providers unlawful acts or practices under the Alaska Unfair Trade Practices and Consumer Protection Act.",
+    "session": "32",
+    "identifier": "SB 16",
+    "title": "An Act relating to the authority and procedures of the State Commission for Human Rights; requiring an annual report concerning the payment of equal pay for comparable work; increasing the minimum wage; relating to and prohibiting wage discrimination based on the sex of an employee; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -9270,7 +9270,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0160A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0016A"
   },
   {
     "bill_id": "ocd-bill/7a927742-3b13-44f1-9b42-c6731657f58e",
@@ -9293,6 +9293,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0160A"
+  },
+  {
+    "bill_id": "ocd-bill/818970fe-c338-4252-907c-93d2ef41e566",
+    "state": "AK",
+    "session": "30",
+    "identifier": "SB 160",
+    "title": "An Act relating to the regulation of broadband Internet; and making certain actions by broadband Internet service providers unlawful acts or practices under the Alaska Unfair Trade Practices and Consumer Protection Act.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0160A"
   },
   {
     "bill_id": "ocd-bill/74c62476-b8e2-405c-bc5a-08a5342d7d9c",
@@ -9405,28 +9427,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0168A"
   },
   {
-    "bill_id": "ocd-bill/8a7a31b4-2619-4fa1-b7b6-e95314987165",
-    "state": "AK",
-    "session": "32",
-    "identifier": "SB 170",
-    "title": "An Act relating to the Alaska marine highway system; establishing the Alaska Marine Highway Corporation; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0170A"
-  },
-  {
     "bill_id": "ocd-bill/c8f8c026-11cb-4e9b-b3cc-5ebc23aa04be",
     "state": "AK",
     "session": "34",
@@ -9447,6 +9447,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0170A"
+  },
+  {
+    "bill_id": "ocd-bill/8a7a31b4-2619-4fa1-b7b6-e95314987165",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SB 170",
+    "title": "An Act relating to the Alaska marine highway system; establishing the Alaska Marine Highway Corporation; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0170A"
   },
   {
     "bill_id": "ocd-bill/301cf59a-a529-4b42-902c-a36a20760f83",
@@ -9493,28 +9515,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0173A"
   },
   {
-    "bill_id": "ocd-bill/01890da1-2755-4a3a-82e9-f1a26bd52059",
-    "state": "AK",
-    "session": "33",
-    "identifier": "SB 175",
-    "title": "An Act relating to an electronic product stewardship program; relating to collection, recycling, and disposal of electronic equipment; establishing the electronics recycling advisory council; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0175A"
-  },
-  {
     "bill_id": "ocd-bill/68af0449-ebf2-42e9-be74-9e96ed5118f2",
     "state": "AK",
     "session": "32",
@@ -9535,6 +9535,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0175A"
+  },
+  {
+    "bill_id": "ocd-bill/01890da1-2755-4a3a-82e9-f1a26bd52059",
+    "state": "AK",
+    "session": "33",
+    "identifier": "SB 175",
+    "title": "An Act relating to an electronic product stewardship program; relating to collection, recycling, and disposal of electronic equipment; establishing the electronics recycling advisory council; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0175A"
   },
   {
     "bill_id": "ocd-bill/e78a0e00-a011-4e5c-b5cf-6a4f29185332",
@@ -9581,28 +9603,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0176A"
   },
   {
-    "bill_id": "ocd-bill/877c7f3b-6537-49b0-8a62-75bca023055a",
-    "state": "AK",
-    "session": "34",
-    "identifier": "SB 177",
-    "title": "An Act relating to the elimination or modification of state agency publications that are outdated, duplicative, or excessive.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0177A"
-  },
-  {
     "bill_id": "ocd-bill/0e3344fc-7943-4bcf-95e4-15661f365bb4",
     "state": "AK",
     "session": "33",
@@ -9628,6 +9628,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0177A"
+  },
+  {
+    "bill_id": "ocd-bill/877c7f3b-6537-49b0-8a62-75bca023055a",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 177",
+    "title": "An Act relating to the elimination or modification of state agency publications that are outdated, duplicative, or excessive.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0177A"
   },
   {
     "bill_id": "ocd-bill/ba742621-b93f-442f-94d2-015d6914f268",
@@ -9938,28 +9960,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0189A"
   },
   {
-    "bill_id": "ocd-bill/3f91e977-7ab5-4e4b-893e-20e6efe761a4",
-    "state": "AK",
-    "session": "33",
-    "identifier": "SB 19",
-    "title": "An Act relating to elections; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0019A"
-  },
-  {
     "bill_id": "ocd-bill/bc5e11c1-65e2-43dc-a4cc-ba31c900fe6e",
     "state": "AK",
     "session": "31",
@@ -9980,6 +9980,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0019Z"
+  },
+  {
+    "bill_id": "ocd-bill/3f91e977-7ab5-4e4b-893e-20e6efe761a4",
+    "state": "AK",
+    "session": "33",
+    "identifier": "SB 19",
+    "title": "An Act relating to elections; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0019A"
   },
   {
     "bill_id": "ocd-bill/9edbd764-01d5-4701-a166-02f155ff7374",
@@ -10004,28 +10026,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0190A"
   },
   {
-    "bill_id": "ocd-bill/98e16fd3-1d3b-4fa9-9e06-0ec93fea67b6",
-    "state": "AK",
-    "session": "34",
-    "identifier": "SB 194",
-    "title": "An Act authorizing mobile sports wagering; relating to the regulation of mobile sports wagering; imposing a tax on mobile sports wagering revenue; relating to criminal history record checks for licensure to operate mobile sports wagering; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0194A"
-  },
-  {
     "bill_id": "ocd-bill/ef5ae1f6-5ff7-47e0-a403-9915cb3022d7",
     "state": "AK",
     "session": "32",
@@ -10048,11 +10048,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0194A"
   },
   {
-    "bill_id": "ocd-bill/a80d88b7-232a-49ac-a3af-d0c333b1ea64",
+    "bill_id": "ocd-bill/98e16fd3-1d3b-4fa9-9e06-0ec93fea67b6",
     "state": "AK",
     "session": "34",
-    "identifier": "SB 195",
-    "title": "An Act relating to slow onset disasters; and relating to the Alaska Disaster Act.",
+    "identifier": "SB 194",
+    "title": "An Act authorizing mobile sports wagering; relating to the regulation of mobile sports wagering; imposing a tax on mobile sports wagering revenue; relating to criminal history record checks for licensure to operate mobile sports wagering; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -10067,29 +10067,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0195A"
-  },
-  {
-    "bill_id": "ocd-bill/94f3d037-83a4-472b-9da9-32053118872c",
-    "state": "AK",
-    "session": "33",
-    "identifier": "SB 195",
-    "title": "An Act relating to the office of management and budget; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0195A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0194A"
   },
   {
     "bill_id": "ocd-bill/308642a4-602a-4163-95bd-8f15f77be8f1",
@@ -10114,11 +10092,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0195A"
   },
   {
-    "bill_id": "ocd-bill/333d087c-e6d8-48cb-8229-cbbd76be25f4",
+    "bill_id": "ocd-bill/94f3d037-83a4-472b-9da9-32053118872c",
     "state": "AK",
-    "session": "34",
-    "identifier": "SB 196",
-    "title": "An Act establishing a behavioral health crisis services surcharge; establishing the behavioral health crisis services fund; and providing for an effective date.",
+    "session": "33",
+    "identifier": "SB 195",
+    "title": "An Act relating to the office of management and budget; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -10133,7 +10111,29 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0196A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0195A"
+  },
+  {
+    "bill_id": "ocd-bill/a80d88b7-232a-49ac-a3af-d0c333b1ea64",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 195",
+    "title": "An Act relating to slow onset disasters; and relating to the Alaska Disaster Act.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0195A"
   },
   {
     "bill_id": "ocd-bill/7cc6e76f-b10c-420d-88fb-0c0b1fba52c6",
@@ -10158,6 +10158,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0196A"
   },
   {
+    "bill_id": "ocd-bill/333d087c-e6d8-48cb-8229-cbbd76be25f4",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 196",
+    "title": "An Act establishing a behavioral health crisis services surcharge; establishing the behavioral health crisis services fund; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0196A"
+  },
+  {
     "bill_id": "ocd-bill/7992734b-3b94-4299-a1db-c63fbae2dde7",
     "state": "AK",
     "session": "34",
@@ -10178,28 +10200,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0197A"
-  },
-  {
-    "bill_id": "ocd-bill/25399390-2f91-405c-ac8e-939597217f6a",
-    "state": "AK",
-    "session": "30",
-    "identifier": "SB 198",
-    "title": "An Act relating to a study of the effectiveness and cost of providing long-acting reversible contraception to women with substance abuse disorders.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0198A"
   },
   {
     "bill_id": "ocd-bill/6f48d2bb-8311-4884-9eb6-8c33f3142226",
@@ -10224,6 +10224,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0198A"
   },
   {
+    "bill_id": "ocd-bill/25399390-2f91-405c-ac8e-939597217f6a",
+    "state": "AK",
+    "session": "30",
+    "identifier": "SB 198",
+    "title": "An Act relating to a study of the effectiveness and cost of providing long-acting reversible contraception to women with substance abuse disorders.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0198A"
+  },
+  {
     "bill_id": "ocd-bill/a5abbeca-9047-41e9-93c2-d689d06c5f48",
     "state": "AK",
     "session": "34",
@@ -10240,8 +10262,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -10340,28 +10362,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0201A"
   },
   {
-    "bill_id": "ocd-bill/a632b7ef-8cce-4aa4-90e0-9beed8b2f54c",
-    "state": "AK",
-    "session": "31",
-    "identifier": "SB 201",
-    "title": "An Act establishing the Alaska Health Care Transformation Corporation; relating to an all-payer claims database; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0201A"
-  },
-  {
     "bill_id": "ocd-bill/b1119eb0-b36f-4b5e-95ce-7169d0855f82",
     "state": "AK",
     "session": "33",
@@ -10382,6 +10382,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0201A"
+  },
+  {
+    "bill_id": "ocd-bill/a632b7ef-8cce-4aa4-90e0-9beed8b2f54c",
+    "state": "AK",
+    "session": "31",
+    "identifier": "SB 201",
+    "title": "An Act establishing the Alaska Health Care Transformation Corporation; relating to an all-payer claims database; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0201A"
   },
   {
     "bill_id": "ocd-bill/23d6a114-7dd2-46d7-ad0c-83bb02c370cd",
@@ -10450,11 +10472,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0207A"
   },
   {
-    "bill_id": "ocd-bill/df18c6e1-5de5-49b1-80f6-c7e58cc71247",
+    "bill_id": "ocd-bill/9197e77c-695d-4bbb-89b4-30c177d51675",
     "state": "AK",
-    "session": "30",
+    "session": "33",
     "identifier": "SB 208",
-    "title": "An Act establishing the month of March as Sobriety Awareness Month.",
+    "title": "An Act relating to the registration and titling of vehicles; relating to electronic registration and titling; relating to the powers of the commissioner of administration with respect to motor vehicles; relating to the transfer of vehicles; relating to motor vehicle liability insurance; relating to non-domiciled commercial driver's licenses and non-domiciled commercial learner's permits; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -10469,7 +10491,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0208Z"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0208A"
   },
   {
     "bill_id": "ocd-bill/865b3bf2-ffc0-4845-95fc-03c6fd4cacfa",
@@ -10494,11 +10516,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0208A"
   },
   {
-    "bill_id": "ocd-bill/9197e77c-695d-4bbb-89b4-30c177d51675",
+    "bill_id": "ocd-bill/df18c6e1-5de5-49b1-80f6-c7e58cc71247",
     "state": "AK",
-    "session": "33",
+    "session": "30",
     "identifier": "SB 208",
-    "title": "An Act relating to the registration and titling of vehicles; relating to electronic registration and titling; relating to the powers of the commissioner of administration with respect to motor vehicles; relating to the transfer of vehicles; relating to motor vehicle liability insurance; relating to non-domiciled commercial driver's licenses and non-domiciled commercial learner's permits; and providing for an effective date.",
+    "title": "An Act establishing the month of March as Sobriety Awareness Month.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -10513,7 +10535,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0208A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0208Z"
   },
   {
     "bill_id": "ocd-bill/915f53cf-5923-4f85-8a98-c041eae1a37a",
@@ -10560,6 +10582,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0209A"
   },
   {
+    "bill_id": "ocd-bill/71b899d2-4855-4933-ba5a-97159638af6a",
+    "state": "AK",
+    "session": "33",
+    "identifier": "SB 21",
+    "title": "An Act relating to the Executive Budget Act; relating to strategic plans, mission statements, performance plans, and financial plans for executive branch agencies; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0021A"
+  },
+  {
     "bill_id": "ocd-bill/975429a0-cf3e-48ac-b19d-2174e9fdb76f",
     "state": "AK",
     "session": "34",
@@ -10582,11 +10626,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0021A"
   },
   {
-    "bill_id": "ocd-bill/71b899d2-4855-4933-ba5a-97159638af6a",
+    "bill_id": "ocd-bill/167c18b3-27b7-431e-a080-a5c69d8675b6",
     "state": "AK",
     "session": "33",
-    "identifier": "SB 21",
-    "title": "An Act relating to the Executive Budget Act; relating to strategic plans, mission statements, performance plans, and financial plans for executive branch agencies; and providing for an effective date.",
+    "identifier": "SB 211",
+    "title": "An Act relating to the powers of the board of agriculture and conservation; relating to loans and limitations under the Alaska Agricultural Loan Act; relating to federal crop insurance contributions; relating to municipal and state procurement preferences for agricultural products harvested in the state and fisheries products harvested or processed in the state; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -10601,7 +10645,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0021A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0211A"
   },
   {
     "bill_id": "ocd-bill/a19f693f-af43-4ce6-8a7b-8a8c0e8a3cb7",
@@ -10646,28 +10690,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0211B"
-  },
-  {
-    "bill_id": "ocd-bill/167c18b3-27b7-431e-a080-a5c69d8675b6",
-    "state": "AK",
-    "session": "33",
-    "identifier": "SB 211",
-    "title": "An Act relating to the powers of the board of agriculture and conservation; relating to loans and limitations under the Alaska Agricultural Loan Act; relating to federal crop insurance contributions; relating to municipal and state procurement preferences for agricultural products harvested in the state and fisheries products harvested or processed in the state; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0211A"
   },
   {
     "bill_id": "ocd-bill/4df6c20f-3f5a-4871-a019-5b648d78d42d",
@@ -10979,28 +11001,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0235A"
   },
   {
-    "bill_id": "ocd-bill/caf2cb2a-c538-4527-a046-e3d2d35d8a2c",
-    "state": "AK",
-    "session": "31",
-    "identifier": "SB 238",
-    "title": "An Act relating to involuntary commitment procedures; relating to protective custody at a correctional facility or jail; relating to transportation of individuals held for involuntary admission for mental health treatment; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0238A"
-  },
-  {
     "bill_id": "ocd-bill/d50b905e-ddbb-40f4-affc-13fa2fa6f142",
     "state": "AK",
     "session": "32",
@@ -11021,6 +11021,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0238A"
+  },
+  {
+    "bill_id": "ocd-bill/caf2cb2a-c538-4527-a046-e3d2d35d8a2c",
+    "state": "AK",
+    "session": "31",
+    "identifier": "SB 238",
+    "title": "An Act relating to involuntary commitment procedures; relating to protective custody at a correctional facility or jail; relating to transportation of individuals held for involuntary admission for mental health treatment; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0238A"
   },
   {
     "bill_id": "ocd-bill/5f9a3873-312c-4439-99c7-05cb059c7eb3",
@@ -11355,6 +11377,30 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0031A"
   },
   {
+    "bill_id": "ocd-bill/f18b6868-3454-4cbc-98bb-35e6a97dbea4",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 33",
+    "title": "An Act relating to defamation claims based on the use of synthetic media; relating to the use of synthetic media in electioneering communications; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "synthetic_media",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0033A"
+  },
+  {
     "bill_id": "ocd-bill/f2bc087c-17b0-4edd-9f98-e2e53d3d17d7",
     "state": "AK",
     "session": "31",
@@ -11375,30 +11421,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0033C"
-  },
-  {
-    "bill_id": "ocd-bill/f18b6868-3454-4cbc-98bb-35e6a97dbea4",
-    "state": "AK",
-    "session": "34",
-    "identifier": "SB 33",
-    "title": "An Act relating to defamation claims based on the use of synthetic media; relating to the use of synthetic media in electioneering communications; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0033A"
   },
   {
     "bill_id": "ocd-bill/8e35f733-febf-4ad2-a633-cb94b7cad3f6",
@@ -11489,28 +11511,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0035B"
   },
   {
-    "bill_id": "ocd-bill/6feda2d4-45ed-41fd-a902-1b275c1d705b",
-    "state": "AK",
-    "session": "33",
-    "identifier": "SB 36",
-    "title": "An Act relating to the public defender agency; relating to the office of public advocacy; and establishing the Alaska Public Counsel Commission.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0036A"
-  },
-  {
     "bill_id": "ocd-bill/f4fefa9c-9161-4ae6-bd53-8c37fb98399f",
     "state": "AK",
     "session": "32",
@@ -11533,11 +11533,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0036A"
   },
   {
-    "bill_id": "ocd-bill/98d37c8b-3fa6-4dc9-a5ce-4351589f4af4",
+    "bill_id": "ocd-bill/6feda2d4-45ed-41fd-a902-1b275c1d705b",
     "state": "AK",
-    "session": "34",
-    "identifier": "SB 37",
-    "title": "An Act relating to the Executive Budget Act; relating to strategic plans, mission statements, performance plans, and financial plans for executive branch agencies; and providing for an effective date.",
+    "session": "33",
+    "identifier": "SB 36",
+    "title": "An Act relating to the public defender agency; relating to the office of public advocacy; and establishing the Alaska Public Counsel Commission.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -11552,7 +11552,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0037A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0036A"
   },
   {
     "bill_id": "ocd-bill/fc0a074d-9e05-4926-83f1-068b95afc6ff",
@@ -11577,6 +11577,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0037Z"
   },
   {
+    "bill_id": "ocd-bill/98d37c8b-3fa6-4dc9-a5ce-4351589f4af4",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 37",
+    "title": "An Act relating to the Executive Budget Act; relating to strategic plans, mission statements, performance plans, and financial plans for executive branch agencies; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0037A"
+  },
+  {
     "bill_id": "ocd-bill/5bd1f393-7ba1-4fb1-99c8-7c9cf1694498",
     "state": "AK",
     "session": "32",
@@ -11597,28 +11619,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0038A"
-  },
-  {
-    "bill_id": "ocd-bill/5d6a86e6-e13b-4e5e-9aca-db8713c87f34",
-    "state": "AK",
-    "session": "30",
-    "identifier": "SB 38",
-    "title": "An Act relating to the registration and duties of pharmacy benefits managers; relating to procedures, guidelines, and enforcement mechanisms for pharmacy audits; relating to the cost of multi-source generic drugs and insurance reimbursement procedures; relating to the duties of the director of the division of insurance; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0038B"
   },
   {
     "bill_id": "ocd-bill/b32a3332-4e84-47d2-85cd-7e4d12042b1c",
@@ -11643,11 +11643,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0038A"
   },
   {
-    "bill_id": "ocd-bill/4dee5686-8ce1-4633-8409-e559af866aaa",
+    "bill_id": "ocd-bill/5d6a86e6-e13b-4e5e-9aca-db8713c87f34",
     "state": "AK",
-    "session": "32",
-    "identifier": "SB 39",
-    "title": "An Act relating to elections; relating to voter registration; relating to ballots and a system of tracking and accounting for ballots; establishing an election offense hotline; designating as a class A misdemeanor the collection of ballots from other voters; designating as a class C felony the intentional opening or tampering with a sealed ballot, certificate, or package of ballots without authorization from the director of the division of elections; and providing for an effective date.",
+    "session": "30",
+    "identifier": "SB 38",
+    "title": "An Act relating to the registration and duties of pharmacy benefits managers; relating to procedures, guidelines, and enforcement mechanisms for pharmacy audits; relating to the cost of multi-source generic drugs and insurance reimbursement procedures; relating to the duties of the director of the division of insurance; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -11662,7 +11662,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0039A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0038B"
   },
   {
     "bill_id": "ocd-bill/cc185cfa-58d5-45c1-b69b-fa33731586dd",
@@ -11687,6 +11687,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0039B"
   },
   {
+    "bill_id": "ocd-bill/4dee5686-8ce1-4633-8409-e559af866aaa",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SB 39",
+    "title": "An Act relating to elections; relating to voter registration; relating to ballots and a system of tracking and accounting for ballots; establishing an election offense hotline; designating as a class A misdemeanor the collection of ballots from other voters; designating as a class C felony the intentional opening or tampering with a sealed ballot, certificate, or package of ballots without authorization from the director of the division of elections; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0039A"
+  },
+  {
     "bill_id": "ocd-bill/77b2f9eb-27f6-46b8-8021-d6aa8f2cc4c4",
     "state": "AK",
     "session": "30",
@@ -11709,28 +11731,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0040A"
   },
   {
-    "bill_id": "ocd-bill/055b8f7a-973c-42f6-b274-19d87c59d9fa",
-    "state": "AK",
-    "session": "34",
-    "identifier": "SB 42",
-    "title": "An Act relating to the duties of the Alaska Police Standards Council; relating to municipal correctional officers and municipal correctional employees; making municipal police officers subject to police standards; relating to the duties of the Department of Public Safety; relating to reports of incidents of use of force by state and municipal police, probation, parole, pretrial services, and correctional officers and municipal correctional facility employees; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0042A"
-  },
-  {
     "bill_id": "ocd-bill/4e6f1373-cba2-4516-a5d2-37e036073e20",
     "state": "AK",
     "session": "32",
@@ -11751,6 +11751,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0042A"
+  },
+  {
+    "bill_id": "ocd-bill/055b8f7a-973c-42f6-b274-19d87c59d9fa",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 42",
+    "title": "An Act relating to the duties of the Alaska Police Standards Council; relating to municipal correctional officers and municipal correctional employees; making municipal police officers subject to police standards; relating to the duties of the Department of Public Safety; relating to reports of incidents of use of force by state and municipal police, probation, parole, pretrial services, and correctional officers and municipal correctional facility employees; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0042A"
   },
   {
     "bill_id": "ocd-bill/8b1bae18-5db1-40c8-bbaf-411652420346",
@@ -11841,28 +11863,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0044A"
   },
   {
-    "bill_id": "ocd-bill/04a8e488-16b3-4a2a-982b-9e97794f1e6e",
-    "state": "AK",
-    "session": "31",
-    "identifier": "SB 44",
-    "title": "An Act relating to the prescription of drugs by a physician assistant without physical examination; relating to prescription drugs under the medical assistance program; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0044Z"
-  },
-  {
     "bill_id": "ocd-bill/b912ce78-a85d-4da1-bd50-60f66efee690",
     "state": "AK",
     "session": "33",
@@ -11883,6 +11883,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0044A"
+  },
+  {
+    "bill_id": "ocd-bill/04a8e488-16b3-4a2a-982b-9e97794f1e6e",
+    "state": "AK",
+    "session": "31",
+    "identifier": "SB 44",
+    "title": "An Act relating to the prescription of drugs by a physician assistant without physical examination; relating to prescription drugs under the medical assistance program; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0044Z"
   },
   {
     "bill_id": "ocd-bill/0a0d5201-36a2-41f3-8a0b-2600496c63c3",
@@ -11907,28 +11929,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0046B"
   },
   {
-    "bill_id": "ocd-bill/0078a696-421a-4122-ae0d-6e1b0f06546b",
-    "state": "AK",
-    "session": "34",
-    "identifier": "SB 49",
-    "title": "An Act relating to workplace violence protective orders; relating to the crime of violating a protective order; relating to the powers of district judges and magistrates; amending Rules 4 and 65, Alaska Rules of Civil Procedure, and Rule 9, Alaska Rules of Administration; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0049A"
-  },
-  {
     "bill_id": "ocd-bill/3c653acb-4983-42c4-b839-9e6963e2e18d",
     "state": "AK",
     "session": "33",
@@ -11949,6 +11949,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0049A"
+  },
+  {
+    "bill_id": "ocd-bill/0078a696-421a-4122-ae0d-6e1b0f06546b",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 49",
+    "title": "An Act relating to workplace violence protective orders; relating to the crime of violating a protective order; relating to the powers of district judges and magistrates; amending Rules 4 and 65, Alaska Rules of Civil Procedure, and Rule 9, Alaska Rules of Administration; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0049A"
   },
   {
     "bill_id": "ocd-bill/8afe2b41-fbe8-43b0-a04b-dcd1930e9ea8",
@@ -12083,28 +12105,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0053B"
   },
   {
-    "bill_id": "ocd-bill/78b6db5b-3772-4637-a7a2-5e76a13c3092",
-    "state": "AK",
-    "session": "34",
-    "identifier": "SB 54",
-    "title": "An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating to the State Board of Registration for Architects, Engineers, and Land Surveyors; establishing requirements for the practice of registered interior design; relating to the practice of architecture, engineering, land surveying, landscape architecture, and registered interior design; relating to the scope of the certification requirements for architects, engineers, land surveyors, landscape architects, and registered interior designers; relating to immunity for design professionals; relating to the cost of construction for recreation centers; relating to liens for labor or materials furnished; relating to the procurement of landscape architectural and interior design services; relating to the cost of construction of safe water and hygienic sewage disposal facilities in villages; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0054B"
-  },
-  {
     "bill_id": "ocd-bill/e75273bb-f963-4e01-a831-0a3561f0af3d",
     "state": "AK",
     "session": "30",
@@ -12125,6 +12125,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0054Z"
+  },
+  {
+    "bill_id": "ocd-bill/78b6db5b-3772-4637-a7a2-5e76a13c3092",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 54",
+    "title": "An Act relating to registered interior designers and interior design; relating to project costs for the construction, enlargement, or improvement of airports; extending the termination date of the State Board of Registration for Architects, Engineers, and Land Surveyors; relating to the State Board of Registration for Architects, Engineers, and Land Surveyors; establishing requirements for the practice of registered interior design; relating to the practice of architecture, engineering, land surveying, landscape architecture, and registered interior design; relating to the scope of the certification requirements for architects, engineers, land surveyors, landscape architects, and registered interior designers; relating to immunity for design professionals; relating to the cost of construction for recreation centers; relating to liens for labor or materials furnished; relating to the procurement of landscape architectural and interior design services; relating to the cost of construction of safe water and hygienic sewage disposal facilities in villages; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0054B"
   },
   {
     "bill_id": "ocd-bill/b4a92726-9bf0-44e8-b17d-cff6273c1701",
@@ -12149,28 +12171,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0055Z"
   },
   {
-    "bill_id": "ocd-bill/d5d4942d-878b-40ef-83e7-b42a554e602b",
-    "state": "AK",
-    "session": "32",
-    "identifier": "SB 56",
-    "title": "An Act extending the January 15, 2021, governor's declaration of a public health disaster emergency in response to the novel coronavirus disease (COVID-19) pandemic; providing for a financing plan; making temporary changes to state law in response to the COVID-19 outbreak in the following areas: occupational and professional licensing, practice, and billing; telehealth; fingerprinting requirements for health care providers; charitable gaming and online ticket sales; access to federal stabilization funds; wills; unfair or deceptive trade practices; and meetings of shareholders; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0056A"
-  },
-  {
     "bill_id": "ocd-bill/66fe6388-6247-4df1-ac81-ffcfaa0ce3b9",
     "state": "AK",
     "session": "34",
@@ -12193,11 +12193,11 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0056A"
   },
   {
-    "bill_id": "ocd-bill/c0fa2dd0-b60a-4d38-8e93-3c8c6a6e6cf9",
+    "bill_id": "ocd-bill/d5d4942d-878b-40ef-83e7-b42a554e602b",
     "state": "AK",
     "session": "32",
-    "identifier": "SB 57",
-    "title": "An Act establishing a violation for hindering the Alaska Sunset Commission; relating to the Legislative Budget and Audit Committee; relating to the duties of the legislature; relating to the legislative audit division and the legislative finance division; establishing the Alaska Sunset Commission to review and make recommendations on discontinuation of or changes to state entities; and relating to the powers and duties of the Alaska Sunset Commission.",
+    "identifier": "SB 56",
+    "title": "An Act extending the January 15, 2021, governor's declaration of a public health disaster emergency in response to the novel coronavirus disease (COVID-19) pandemic; providing for a financing plan; making temporary changes to state law in response to the COVID-19 outbreak in the following areas: occupational and professional licensing, practice, and billing; telehealth; fingerprinting requirements for health care providers; charitable gaming and online ticket sales; access to federal stabilization funds; wills; unfair or deceptive trade practices; and meetings of shareholders; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -12212,7 +12212,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0057A"
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0056A"
   },
   {
     "bill_id": "ocd-bill/75ce9889-f249-4eef-a391-15077aff5d55",
@@ -12237,6 +12237,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0057A"
   },
   {
+    "bill_id": "ocd-bill/c0fa2dd0-b60a-4d38-8e93-3c8c6a6e6cf9",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SB 57",
+    "title": "An Act establishing a violation for hindering the Alaska Sunset Commission; relating to the Legislative Budget and Audit Committee; relating to the duties of the legislature; relating to the legislative audit division and the legislative finance division; establishing the Alaska Sunset Commission to review and make recommendations on discontinuation of or changes to state entities; and relating to the powers and duties of the Alaska Sunset Commission.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0057A"
+  },
+  {
     "bill_id": "ocd-bill/17106881-7092-4996-a183-bc44d3d3044a",
     "state": "AK",
     "session": "31",
@@ -12257,6 +12279,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0006C"
+  },
+  {
+    "bill_id": "ocd-bill/f21c5eb4-3cbe-481e-b294-f784819f1ff5",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SB 61",
+    "title": "An Act authorizing the commissioner of natural resources to modify a net profit share lease.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0061A"
   },
   {
     "bill_id": "ocd-bill/a9df48fc-99ad-45b0-a5ad-77641b1ce41a",
@@ -12303,28 +12347,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0061A"
   },
   {
-    "bill_id": "ocd-bill/f21c5eb4-3cbe-481e-b294-f784819f1ff5",
-    "state": "AK",
-    "session": "32",
-    "identifier": "SB 61",
-    "title": "An Act authorizing the commissioner of natural resources to modify a net profit share lease.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0061A"
-  },
-  {
     "bill_id": "ocd-bill/3f84dac3-7c8c-40bf-b70e-8ca643fec330",
     "state": "AK",
     "session": "34",
@@ -12361,8 +12383,8 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -12945,6 +12967,28 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0083Z"
   },
   {
+    "bill_id": "ocd-bill/a3ed7b76-481e-4d2c-ba46-14532aaf94a5",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 84",
+    "title": "An Act making supplemental appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; repealing appropriations; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0084A"
+  },
+  {
     "bill_id": "ocd-bill/d1f95b5d-d842-4afd-8699-b4eadaf2ecd7",
     "state": "AK",
     "session": "32",
@@ -12987,28 +13031,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0084A"
-  },
-  {
-    "bill_id": "ocd-bill/a3ed7b76-481e-4d2c-ba46-14532aaf94a5",
-    "state": "AK",
-    "session": "34",
-    "identifier": "SB 84",
-    "title": "An Act making supplemental appropriations, reappropriations, and other appropriations; amending appropriations; capitalizing funds; repealing appropriations; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0084A"
   },
   {
     "bill_id": "ocd-bill/1f51b81f-8932-4dcf-9688-9c2e4001b658",
@@ -13077,28 +13099,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0086D"
   },
   {
-    "bill_id": "ocd-bill/1bd8ecfb-32e0-4d59-8b9f-38abcf212e2c",
-    "state": "AK",
-    "session": "30",
-    "identifier": "SB 87",
-    "title": "An Act relating to energy efficiency standards and standardized options for building and equipment components for school construction and major maintenance; relating to school construction and major maintenance grants and bond debt reimbursement; establishing a working group to make recommendations relating to energy efficiency and standardized components in schools; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0087B"
-  },
-  {
     "bill_id": "ocd-bill/28f5c97a-a294-4aa8-b514-11b46b9547e2",
     "state": "AK",
     "session": "32",
@@ -13119,6 +13119,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0087A"
+  },
+  {
+    "bill_id": "ocd-bill/1bd8ecfb-32e0-4d59-8b9f-38abcf212e2c",
+    "state": "AK",
+    "session": "30",
+    "identifier": "SB 87",
+    "title": "An Act relating to energy efficiency standards and standardized options for building and equipment components for school construction and major maintenance; relating to school construction and major maintenance grants and bond debt reimbursement; establishing a working group to make recommendations relating to energy efficiency and standardized components in schools; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/30?hsid=SB0087B"
   },
   {
     "bill_id": "ocd-bill/581949bb-f2e1-45c7-856c-89597f39c7dd",
@@ -13209,28 +13231,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0009A"
   },
   {
-    "bill_id": "ocd-bill/8a1882fc-dfd1-4a4e-87d7-775e8b0a097a",
-    "state": "AK",
-    "session": "34",
-    "identifier": "SB 91",
-    "title": "An Act relating to clean energy project development licenses and leases of state land for clean energy projects.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0091A"
-  },
-  {
     "bill_id": "ocd-bill/3de4c308-0f8b-47ba-bc46-dd4f638fefb4",
     "state": "AK",
     "session": "33",
@@ -13251,6 +13251,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0091A"
+  },
+  {
+    "bill_id": "ocd-bill/8a1882fc-dfd1-4a4e-87d7-775e8b0a097a",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 91",
+    "title": "An Act relating to clean energy project development licenses and leases of state land for clean energy projects.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0091A"
   },
   {
     "bill_id": "ocd-bill/4cf4c9b9-6f60-4a22-abaa-3c81fe518e59",
@@ -13275,28 +13297,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SB0092A"
   },
   {
-    "bill_id": "ocd-bill/be32f9d3-806b-43a9-a6e2-1a772a2fbf63",
-    "state": "AK",
-    "session": "31",
-    "identifier": "SB 93",
-    "title": "An Act relating to a workforce enhancement program for health care professionals employed in the state; and providing for an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0093Z"
-  },
-  {
     "bill_id": "ocd-bill/9674cfb9-8d2f-4611-8511-31550b8d560a",
     "state": "AK",
     "session": "32",
@@ -13317,6 +13317,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SB0093A"
+  },
+  {
+    "bill_id": "ocd-bill/be32f9d3-806b-43a9-a6e2-1a772a2fbf63",
+    "state": "AK",
+    "session": "31",
+    "identifier": "SB 93",
+    "title": "An Act relating to a workforce enhancement program for health care professionals employed in the state; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SB0093Z"
   },
   {
     "bill_id": "ocd-bill/d4e96a52-647b-4b23-aa53-7f6fefde487b",
@@ -13400,8 +13422,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13452,28 +13474,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SCR008A"
   },
   {
-    "bill_id": "ocd-bill/adf7c116-43ef-4e35-8651-a6cbb7bdb8ec",
-    "state": "AK",
-    "session": "32",
-    "identifier": "SCR 9",
-    "title": "Proclaiming February 2022 as American Heart Month.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SCR009A"
-  },
-  {
     "bill_id": "ocd-bill/e02fdf05-b651-465f-9af0-018cab423479",
     "state": "AK",
     "session": "31",
@@ -13494,6 +13494,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/31?Hsid=SCR009Z"
+  },
+  {
+    "bill_id": "ocd-bill/adf7c116-43ef-4e35-8651-a6cbb7bdb8ec",
+    "state": "AK",
+    "session": "32",
+    "identifier": "SCR 9",
+    "title": "Proclaiming February 2022 as American Heart Month.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SCR009A"
   },
   {
     "bill_id": "ocd-bill/5499363d-df4d-40ff-8140-6d779e76eb31",
@@ -13564,28 +13586,6 @@
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/32?Hsid=SJR013A"
   },
   {
-    "bill_id": "ocd-bill/1f26b4cb-f949-4b13-8001-cc411d242ab1",
-    "state": "AK",
-    "session": "34",
-    "identifier": "SJR 16",
-    "title": "Urging the United States Congress to pass the Ensuring Lasting Smiles Act; and urging lawmakers to advocate for policies that guarantee equitable access to vital healthcare.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SJR016A"
-  },
-  {
     "bill_id": "ocd-bill/5c391691-f9cb-43bd-acca-d5f3cc44c8e9",
     "state": "AK",
     "session": "33",
@@ -13606,6 +13606,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/33?Hsid=SJR016A"
+  },
+  {
+    "bill_id": "ocd-bill/1f26b4cb-f949-4b13-8001-cc411d242ab1",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SJR 16",
+    "title": "Urging the United States Congress to pass the Ensuring Lasting Smiles Act; and urging lawmakers to advocate for policies that guarantee equitable access to vital healthcare.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SJR016A"
   },
   {
     "bill_id": "ocd-bill/42d90fd9-31a8-473c-80c1-6a9a866ef610",

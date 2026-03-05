@@ -44,28 +44,26 @@
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000H1&ciq=urn:user:PA196471263&client_md=8f2938acfe3841c9c3dc268d72c0cea0&mode=current_text"
   },
   {
-    "bill_id": "ocd-bill/05c0c9ea-96e5-45c0-bfd9-7a7f7aa54d59",
+    "bill_id": "",
     "state": "WY",
-    "session": "2025",
-    "identifier": "HB 1",
-    "title": "General government appropriations-2.",
+    "session": "2026",
+    "identifier": "H 102",
+    "title": "",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "ncsl_curated_ai_law"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "ncsl"
     ],
     "match_fields": [
-      "raw_text"
+      "ncsl_source"
     ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2025/Introduced/HB0001.pdf"
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2026000H102&ciq=urn:user:PA196471263&client_md=67f4d5a965faf60a65866663c19c98df&mode=current_text"
   },
   {
     "bill_id": "ocd-bill/b3c48282-7e07-48e8-a385-037f58ef8d66",
@@ -110,6 +108,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2018/Introduced/HB0001.PDF"
+  },
+  {
+    "bill_id": "ocd-bill/e610bd42-781a-4a38-aaa9-2f960f1e3015",
+    "state": "WY",
+    "session": "2021",
+    "identifier": "HB 1",
+    "title": "General government appropriations-2.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2021/Introduced/HB0001.pdf"
   },
   {
     "bill_id": "ocd-bill/43a9173c-1e72-432a-83ac-d39117a6168c",
@@ -180,48 +200,28 @@
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0001.pdf"
   },
   {
-    "bill_id": "ocd-bill/e610bd42-781a-4a38-aaa9-2f960f1e3015",
+    "bill_id": "ocd-bill/05c0c9ea-96e5-45c0-bfd9-7a7f7aa54d59",
     "state": "WY",
-    "session": "2021",
+    "session": "2025",
     "identifier": "HB 1",
     "title": "General government appropriations-2.",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2021/Introduced/HB0001.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/46f45f6f-3fcd-4523-964e-191725297ea9",
-    "state": "WY",
-    "session": "2022",
-    "identifier": "HB 10",
-    "title": "Tribal reference amendments.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2022/Introduced/HB0010.pdf"
+    "primary_url": "https://wyoleg.gov/2025/Introduced/HB0001.pdf"
   },
   {
     "bill_id": "ocd-bill/96b459e4-9757-4c07-8c15-ca1f9a2f53bd",
@@ -244,6 +244,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2019/Introduced/HB0010.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/46f45f6f-3fcd-4523-964e-191725297ea9",
+    "state": "WY",
+    "session": "2022",
+    "identifier": "HB 10",
+    "title": "Tribal reference amendments.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2022/Introduced/HB0010.pdf"
   },
   {
     "bill_id": "ocd-bill/97bb83d6-b70c-4385-9592-7904eb6fe4fe",
@@ -642,28 +664,6 @@
     "primary_url": "http://wyoleg.gov/2018/Introduced/HB0117.PDF"
   },
   {
-    "bill_id": "ocd-bill/4039dc54-a943-47e5-8033-5af2156b2280",
-    "state": "WY",
-    "session": "2023",
-    "identifier": "HB 118",
-    "title": "Volunteer firefighter pension-funding.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0118.pdf"
-  },
-  {
     "bill_id": "ocd-bill/b779fd23-627f-4a6d-8bb6-e6b040b8c127",
     "state": "WY",
     "session": "2024",
@@ -684,6 +684,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2024/Introduced/HB0118.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/4039dc54-a943-47e5-8033-5af2156b2280",
+    "state": "WY",
+    "session": "2023",
+    "identifier": "HB 118",
+    "title": "Volunteer firefighter pension-funding.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0118.pdf"
   },
   {
     "bill_id": "ocd-bill/69c10b89-1101-4475-831a-1a5092cb2f74",
@@ -730,28 +752,6 @@
     "primary_url": "https://wyoleg.gov/2026/Introduced/HB0012.pdf"
   },
   {
-    "bill_id": "ocd-bill/30617244-c74d-4e80-8ea5-49d2b77e22ae",
-    "state": "WY",
-    "session": "2018",
-    "identifier": "HB 120",
-    "title": "Attorney general-government efficiency and fraud division.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0120.PDF"
-  },
-  {
     "bill_id": "ocd-bill/ee563386-27b1-4ff4-ad2f-bc8ca1b83eb1",
     "state": "WY",
     "session": "2025",
@@ -772,6 +772,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0120.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/30617244-c74d-4e80-8ea5-49d2b77e22ae",
+    "state": "WY",
+    "session": "2018",
+    "identifier": "HB 120",
+    "title": "Attorney general-government efficiency and fraud division.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0120.PDF"
   },
   {
     "bill_id": "ocd-bill/ff738fe0-6985-4e54-ad72-52978825db49",
@@ -862,28 +884,6 @@
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0131.pdf"
   },
   {
-    "bill_id": "ocd-bill/025ade82-fc72-4055-b574-a60b7cc879d9",
-    "state": "WY",
-    "session": "2021",
-    "identifier": "HB 133",
-    "title": "Online sports wagering.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2021/Introduced/HB0133.pdf"
-  },
-  {
     "bill_id": "ocd-bill/973ffa78-e5f7-4046-b8ce-fdd12c248a83",
     "state": "WY",
     "session": "2025",
@@ -904,6 +904,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0133.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/025ade82-fc72-4055-b574-a60b7cc879d9",
+    "state": "WY",
+    "session": "2021",
+    "identifier": "HB 133",
+    "title": "Online sports wagering.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2021/Introduced/HB0133.pdf"
   },
   {
     "bill_id": "ocd-bill/f36549ad-7435-4f4b-a1c6-fb1bc9002b10",
@@ -1229,8 +1251,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1303,6 +1325,29 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/HB0168.pdf"
   },
   {
+    "bill_id": "ocd-bill/ef204f7a-cbd3-4aed-bc32-1695de0ae74d",
+    "state": "WY",
+    "session": "2026",
+    "identifier": "HB 17",
+    "title": "Select Committee on Blockchain and Emerging Technologies.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2026/Introduced/HB0017.pdf"
+  },
+  {
     "bill_id": "ocd-bill/0c7a986b-ad42-4add-8ef7-31507684e50e",
     "state": "WY",
     "session": "2025",
@@ -1323,29 +1368,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0017.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/ef204f7a-cbd3-4aed-bc32-1695de0ae74d",
-    "state": "WY",
-    "session": "2026",
-    "identifier": "HB 17",
-    "title": "Select Committee on Blockchain and Emerging Technologies.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2026/Introduced/HB0017.pdf"
   },
   {
     "bill_id": "ocd-bill/5c790c7f-62b7-4788-9206-a753d2258dd7",
@@ -1370,28 +1392,6 @@
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0171.pdf"
   },
   {
-    "bill_id": "ocd-bill/4adc5157-b519-48a3-b257-55710458a4ea",
-    "state": "WY",
-    "session": "2020",
-    "identifier": "HB 172",
-    "title": "Air ambulance-Medicaid coverage amendments.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0172.pdf"
-  },
-  {
     "bill_id": "ocd-bill/65b3aadf-ab59-48bd-b604-238381f36dfa",
     "state": "WY",
     "session": "2023",
@@ -1412,6 +1412,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2023/Introduced/HB0172.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/4adc5157-b519-48a3-b257-55710458a4ea",
+    "state": "WY",
+    "session": "2020",
+    "identifier": "HB 172",
+    "title": "Air ambulance-Medicaid coverage amendments.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0172.pdf"
   },
   {
     "bill_id": "ocd-bill/9b1c8a02-17a2-4eb3-bdf2-cd441d3bdc3d",
@@ -1715,8 +1737,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1789,28 +1811,6 @@
     "primary_url": "https://wyoleg.gov/2022/Introduced/HB0019.pdf"
   },
   {
-    "bill_id": "ocd-bill/9f4320b8-3851-4b90-b8f2-66291e36dd37",
-    "state": "WY",
-    "session": "2020",
-    "identifier": "HB 190",
-    "title": "School district reporting-certification elimination.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0190.pdf"
-  },
-  {
     "bill_id": "ocd-bill/1da9f881-0c82-4dca-8ea8-d741b277b76c",
     "state": "WY",
     "session": "2024",
@@ -1833,11 +1833,11 @@
     "primary_url": "https://wyoleg.gov/2024/Introduced/HB0190.pdf"
   },
   {
-    "bill_id": "ocd-bill/c817241a-ce48-47d3-bd8b-6d2aa2ee054f",
+    "bill_id": "ocd-bill/9f4320b8-3851-4b90-b8f2-66291e36dd37",
     "state": "WY",
-    "session": "2019",
-    "identifier": "HB 191",
-    "title": "Driver's licenses-medical alert designation.",
+    "session": "2020",
+    "identifier": "HB 190",
+    "title": "School district reporting-certification elimination.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -1852,7 +1852,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0191.pdf"
+    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0190.pdf"
   },
   {
     "bill_id": "ocd-bill/568d8eaf-9e26-496c-890b-a4faf5dafeff",
@@ -1899,6 +1899,28 @@
     "primary_url": "https://wyoleg.gov/2023/Introduced/HB0191.pdf"
   },
   {
+    "bill_id": "ocd-bill/c817241a-ce48-47d3-bd8b-6d2aa2ee054f",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "HB 191",
+    "title": "Driver's licenses-medical alert designation.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0191.pdf"
+  },
+  {
     "bill_id": "ocd-bill/365b9d10-67e1-477d-a084-0fad3a5af367",
     "state": "WY",
     "session": "2017",
@@ -1943,28 +1965,6 @@
     "primary_url": "https://wyoleg.gov/2024/Introduced/HB0193.pdf"
   },
   {
-    "bill_id": "ocd-bill/62f7b77d-9a62-4e99-8cbc-1e57a508d51e",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "HB 194",
-    "title": "Air ambulance coverage-Medicaid.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0194.pdf"
-  },
-  {
     "bill_id": "ocd-bill/2ea80f01-6d2c-4f58-8d8b-9b0ff72211b4",
     "state": "WY",
     "session": "2024",
@@ -1985,6 +1985,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2024/Introduced/HB0194.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/62f7b77d-9a62-4e99-8cbc-1e57a508d51e",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "HB 194",
+    "title": "Air ambulance coverage-Medicaid.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0194.pdf"
   },
   {
     "bill_id": "ocd-bill/f00168a8-e987-4610-b08c-7bb7f3034674",
@@ -2031,28 +2053,6 @@
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0197.pdf"
   },
   {
-    "bill_id": "ocd-bill/da6fa75b-dcb0-4b36-b807-d8b459536bb5",
-    "state": "WY",
-    "session": "2024",
-    "identifier": "HB 198",
-    "title": "Court automation fees-assessment on filings.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2024/Introduced/HB0198.pdf"
-  },
-  {
     "bill_id": "ocd-bill/245ba4a6-64a2-4dfa-b310-709f9224f94e",
     "state": "WY",
     "session": "2019",
@@ -2073,6 +2073,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2019/Introduced/HB0198.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/da6fa75b-dcb0-4b36-b807-d8b459536bb5",
+    "state": "WY",
+    "session": "2024",
+    "identifier": "HB 198",
+    "title": "Court automation fees-assessment on filings.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2024/Introduced/HB0198.pdf"
   },
   {
     "bill_id": "ocd-bill/cd921b76-55e3-43a3-b21c-ed75234b2e3b",
@@ -2339,28 +2361,6 @@
     "primary_url": "http://legisweb.state.wy.us/2017/Introduced/HB0209.pdf"
   },
   {
-    "bill_id": "ocd-bill/1afa84bd-28d9-4758-b77c-5a30dc683aba",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "HB 210",
-    "title": "Collection agency board-members.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0210.pdf"
-  },
-  {
     "bill_id": "ocd-bill/a53a356a-0382-49ff-a287-8053f8e25985",
     "state": "WY",
     "session": "2023",
@@ -2381,6 +2381,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2023/Introduced/HB0210.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/1afa84bd-28d9-4758-b77c-5a30dc683aba",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "HB 210",
+    "title": "Collection agency board-members.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0210.pdf"
   },
   {
     "bill_id": "ocd-bill/3bef9783-cc25-49f6-9f35-bd0dc4e705c7",
@@ -2494,11 +2516,11 @@
     "primary_url": "http://wyoleg.gov/2019/Introduced/HB0022.pdf"
   },
   {
-    "bill_id": "ocd-bill/9d5e8ca3-95a8-4c11-814d-ce21dd7ff9c3",
+    "bill_id": "ocd-bill/d0ebc9b5-f4ff-47fc-bd72-b6eb068095bb",
     "state": "WY",
-    "session": "2019",
+    "session": "2020",
     "identifier": "HB 221",
-    "title": "Family medicine residency program.",
+    "title": "Oil and gas drilling-notice.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -2513,7 +2535,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0221.pdf"
+    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0221.pdf"
   },
   {
     "bill_id": "ocd-bill/d946e909-df5f-400f-9fb7-6800de2d9e6e",
@@ -2538,11 +2560,11 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/HB0221.pdf"
   },
   {
-    "bill_id": "ocd-bill/d0ebc9b5-f4ff-47fc-bd72-b6eb068095bb",
+    "bill_id": "ocd-bill/9d5e8ca3-95a8-4c11-814d-ce21dd7ff9c3",
     "state": "WY",
-    "session": "2020",
+    "session": "2019",
     "identifier": "HB 221",
-    "title": "Oil and gas drilling-notice.",
+    "title": "Family medicine residency program.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -2557,7 +2579,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0221.pdf"
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0221.pdf"
   },
   {
     "bill_id": "ocd-bill/183bd78f-1f65-4cc1-8150-79c78c854839",
@@ -2824,28 +2846,6 @@
     "primary_url": "http://legisweb.state.wy.us/2017/Introduced/HB0238.pdf"
   },
   {
-    "bill_id": "ocd-bill/1127a0b4-39e9-43bf-9361-b3d2e3af9597",
-    "state": "WY",
-    "session": "2023",
-    "identifier": "HB 243",
-    "title": "Perfection of security interest-required information.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0243.pdf"
-  },
-  {
     "bill_id": "ocd-bill/7ee6234f-8867-459d-9141-18ad0a1674c6",
     "state": "WY",
     "session": "2017",
@@ -2866,6 +2866,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legisweb.state.wy.us/2017/Introduced/HB0243.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/1127a0b4-39e9-43bf-9361-b3d2e3af9597",
+    "state": "WY",
+    "session": "2023",
+    "identifier": "HB 243",
+    "title": "Perfection of security interest-required information.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0243.pdf"
   },
   {
     "bill_id": "ocd-bill/af59efb0-db04-445e-a3b8-bb44c991554b",
@@ -3178,6 +3200,28 @@
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0027.pdf"
   },
   {
+    "bill_id": "ocd-bill/ce0b2d70-5698-4b8f-895b-f6bfb99d1bb0",
+    "state": "WY",
+    "session": "2023",
+    "identifier": "HB 27",
+    "title": "School facilities-consolidated remediation schedule.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0027.pdf"
+  },
+  {
     "bill_id": "ocd-bill/e78586e2-b36b-4423-aa0f-d5f129c67382",
     "state": "WY",
     "session": "2021",
@@ -3200,11 +3244,11 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/HB0027.pdf"
   },
   {
-    "bill_id": "ocd-bill/ce0b2d70-5698-4b8f-895b-f6bfb99d1bb0",
+    "bill_id": "ocd-bill/4f5535b0-68cd-4ba5-9d24-8d6b6a440d39",
     "state": "WY",
-    "session": "2023",
-    "identifier": "HB 27",
-    "title": "School facilities-consolidated remediation schedule.",
+    "session": "2019",
+    "identifier": "HB 274",
+    "title": "Electronic Information or Data Privacy Act.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -3215,11 +3259,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0027.pdf"
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0274.pdf"
   },
   {
     "bill_id": "ocd-bill/243c8e75-05b2-4a93-858b-3d067d2d0de9",
@@ -3244,11 +3289,11 @@
     "primary_url": "https://wyoleg.gov/2023/Introduced/HB0274.pdf"
   },
   {
-    "bill_id": "ocd-bill/4f5535b0-68cd-4ba5-9d24-8d6b6a440d39",
+    "bill_id": "ocd-bill/185fb596-3c45-4df5-aef5-4d20034356c4",
     "state": "WY",
-    "session": "2019",
-    "identifier": "HB 274",
-    "title": "Electronic Information or Data Privacy Act.",
+    "session": "2023",
+    "identifier": "HB 275",
+    "title": "Highway maintenance equity-electric vehicle metering.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -3259,12 +3304,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0274.pdf"
+    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0275.pdf"
   },
   {
     "bill_id": "ocd-bill/4dd6ffba-e624-46d4-8a86-5a32c45ac196",
@@ -3287,28 +3331,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0275.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/185fb596-3c45-4df5-aef5-4d20034356c4",
-    "state": "WY",
-    "session": "2023",
-    "identifier": "HB 275",
-    "title": "Highway maintenance equity-electric vehicle metering.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0275.pdf"
   },
   {
     "bill_id": "ocd-bill/62223e75-41d3-41f5-bad1-64bbe4cbfacf",
@@ -3421,28 +3443,6 @@
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0281.pdf"
   },
   {
-    "bill_id": "ocd-bill/4529827c-e5ea-4cfa-bd83-eab3d7ab8617",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "HB 282",
-    "title": "Property tax-acquisition value.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2025/Introduced/HB0282.pdf"
-  },
-  {
     "bill_id": "ocd-bill/c45fe545-1097-4e37-bcd0-cb700d61762f",
     "state": "WY",
     "session": "2023",
@@ -3463,6 +3463,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2023/Introduced/HB0282.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/4529827c-e5ea-4cfa-bd83-eab3d7ab8617",
+    "state": "WY",
+    "session": "2025",
+    "identifier": "HB 282",
+    "title": "Property tax-acquisition value.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2025/Introduced/HB0282.pdf"
   },
   {
     "bill_id": "ocd-bill/7602949e-057f-4dca-a848-e8e1121b9a02",
@@ -3575,28 +3597,6 @@
     "primary_url": "http://legisweb.state.wy.us/2017/Introduced/HB0287.pdf"
   },
   {
-    "bill_id": "ocd-bill/de887a7b-eb17-421c-8206-1601dd3bbe2e",
-    "state": "WY",
-    "session": "2024",
-    "identifier": "HB 29",
-    "title": "Cold case database and investigations.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2024/Introduced/HB0029.pdf"
-  },
-  {
     "bill_id": "ocd-bill/80336aa0-d920-4375-9305-8861c0c2cc03",
     "state": "WY",
     "session": "2020",
@@ -3617,6 +3617,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0029.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/de887a7b-eb17-421c-8206-1601dd3bbe2e",
+    "state": "WY",
+    "session": "2024",
+    "identifier": "HB 29",
+    "title": "Cold case database and investigations.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2024/Introduced/HB0029.pdf"
   },
   {
     "bill_id": "ocd-bill/74b92d32-62a5-4e15-b08f-6b3d20af2593",
@@ -3773,28 +3795,6 @@
     "primary_url": "http://wyoleg.gov/2019/Introduced/HB0030.pdf"
   },
   {
-    "bill_id": "ocd-bill/ba2bf7bf-6c11-4617-a67b-b495b1c50c10",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "HB 308",
-    "title": "Modernizing and balancing Wyoming's school funding streams.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0308.pdf"
-  },
-  {
     "bill_id": "ocd-bill/8d9ddd52-644a-42ad-a139-acb27250b7a9",
     "state": "WY",
     "session": "2025",
@@ -3817,11 +3817,11 @@
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0308.pdf"
   },
   {
-    "bill_id": "ocd-bill/e0c903e4-75f4-415c-a2ca-2a4f91e4394f",
+    "bill_id": "ocd-bill/ba2bf7bf-6c11-4617-a67b-b495b1c50c10",
     "state": "WY",
-    "session": "2022",
-    "identifier": "HB 31",
-    "title": "Wyoming's tomorrow scholarship program.",
+    "session": "2019",
+    "identifier": "HB 308",
+    "title": "Modernizing and balancing Wyoming's school funding streams.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -3836,7 +3836,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2022/Introduced/HB0031.pdf"
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0308.pdf"
   },
   {
     "bill_id": "ocd-bill/0ab6d916-69d9-43fa-944f-074cbbc5ec07",
@@ -3859,6 +3859,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2024/Introduced/HB0031.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/e0c903e4-75f4-415c-a2ca-2a4f91e4394f",
+    "state": "WY",
+    "session": "2022",
+    "identifier": "HB 31",
+    "title": "Wyoming's tomorrow scholarship program.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2022/Introduced/HB0031.pdf"
   },
   {
     "bill_id": "ocd-bill/b61e9d1f-acfc-4e1c-940e-0d814da9f551",
@@ -3905,28 +3927,6 @@
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0312.pdf"
   },
   {
-    "bill_id": "ocd-bill/856c3160-62ad-46d7-8f73-4944b003ea60",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "HB 316",
-    "title": "Civil asset forfeiture reform.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0316.pdf"
-  },
-  {
     "bill_id": "ocd-bill/2806c204-bd07-4891-9a0e-bb026a5e56df",
     "state": "WY",
     "session": "2025",
@@ -3947,6 +3947,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0316.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/856c3160-62ad-46d7-8f73-4944b003ea60",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "HB 316",
+    "title": "Civil asset forfeiture reform.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0316.pdf"
   },
   {
     "bill_id": "ocd-bill/05cb72a2-58fd-4e64-893b-06a13eef1a0b",
@@ -3971,28 +3993,6 @@
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0318.pdf"
   },
   {
-    "bill_id": "ocd-bill/f5d77f76-d2ff-4e41-9277-7ce8faddc13d",
-    "state": "WY",
-    "session": "2018",
-    "identifier": "HB 32",
-    "title": "School finance-major maintenance formula.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0032.PDF"
-  },
-  {
     "bill_id": "ocd-bill/a7c56d74-26eb-492c-ac0a-e28e9715d432",
     "state": "WY",
     "session": "2025",
@@ -4013,6 +4013,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0032.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/f5d77f76-d2ff-4e41-9277-7ce8faddc13d",
+    "state": "WY",
+    "session": "2018",
+    "identifier": "HB 32",
+    "title": "School finance-major maintenance formula.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0032.PDF"
   },
   {
     "bill_id": "ocd-bill/2240f544-f7a8-40ed-a62b-91c0b4735003",
@@ -4250,8 +4272,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4302,28 +4324,6 @@
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0048.pdf"
   },
   {
-    "bill_id": "ocd-bill/5c0dceea-7fd3-48a1-a38e-4d5c2687552d",
-    "state": "WY",
-    "session": "2022",
-    "identifier": "HB 5",
-    "title": "Wild horse and burro management.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2022/Introduced/HB0005.pdf"
-  },
-  {
     "bill_id": "ocd-bill/cac63456-96c4-4d8d-9f61-fb9494627bcf",
     "state": "WY",
     "session": "2020",
@@ -4344,6 +4344,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0005.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/5c0dceea-7fd3-48a1-a38e-4d5c2687552d",
+    "state": "WY",
+    "session": "2022",
+    "identifier": "HB 5",
+    "title": "Wild horse and burro management.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2022/Introduced/HB0005.pdf"
   },
   {
     "bill_id": "ocd-bill/326d847d-7930-4372-b9c3-69def92be0e8",
@@ -4412,28 +4434,6 @@
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0051.pdf"
   },
   {
-    "bill_id": "ocd-bill/398dacec-6264-4c2b-a22a-be29d230f433",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "HB 53",
-    "title": "Probation and parole-incentives and sanctions.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0053.pdf"
-  },
-  {
     "bill_id": "ocd-bill/895711b4-7d66-4eea-b49e-e5bee53d8e64",
     "state": "WY",
     "session": "2021",
@@ -4454,6 +4454,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2021/Introduced/HB0053.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/398dacec-6264-4c2b-a22a-be29d230f433",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "HB 53",
+    "title": "Probation and parole-incentives and sanctions.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0053.pdf"
   },
   {
     "bill_id": "ocd-bill/21314b80-d3f8-484e-82c1-edb893144c48",
@@ -4500,6 +4522,28 @@
     "primary_url": "http://wyoleg.gov/2019/Introduced/HB0057.pdf"
   },
   {
+    "bill_id": "ocd-bill/dac4e8f9-1c5f-419f-a3d4-540475aa014f",
+    "state": "WY",
+    "session": "2020",
+    "identifier": "HB 59",
+    "title": "Reporting of and relief from firearms disqualification.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0059.pdf"
+  },
+  {
     "bill_id": "ocd-bill/aa89eafa-2d96-45e9-b63f-253744a0f364",
     "state": "WY",
     "session": "2024",
@@ -4522,11 +4566,11 @@
     "primary_url": "https://wyoleg.gov/2024/Introduced/HB0059.pdf"
   },
   {
-    "bill_id": "ocd-bill/dac4e8f9-1c5f-419f-a3d4-540475aa014f",
+    "bill_id": "ocd-bill/b16ddd66-a01a-4e59-858d-b228865a1710",
     "state": "WY",
-    "session": "2020",
-    "identifier": "HB 59",
-    "title": "Reporting of and relief from firearms disqualification.",
+    "session": "2023",
+    "identifier": "HB 6",
+    "title": "Specified election records not subject to disclosure.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -4541,7 +4585,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0059.pdf"
+    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0006.pdf"
   },
   {
     "bill_id": "ocd-bill/ed837838-a9da-411f-bca0-857590e97e87",
@@ -4586,28 +4630,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legisweb.state.wy.us/2017/Introduced/HB0006.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/b16ddd66-a01a-4e59-858d-b228865a1710",
-    "state": "WY",
-    "session": "2023",
-    "identifier": "HB 6",
-    "title": "Specified election records not subject to disclosure.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2023/Introduced/HB0006.pdf"
   },
   {
     "bill_id": "ocd-bill/5a3c0dfb-18a5-40ea-9af4-11b74ec5c78c",
@@ -4676,29 +4698,6 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/HB0061.pdf"
   },
   {
-    "bill_id": "ocd-bill/15c7ba49-29e6-442b-9963-3630b7f30092",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "HB 62",
-    "title": "Wyoming Utility Token Act-property amendments.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0062.pdf"
-  },
-  {
     "bill_id": "ocd-bill/77b3d5b3-3644-44c3-8849-f884b214b82e",
     "state": "WY",
     "session": "2023",
@@ -4719,6 +4718,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2023/Introduced/HB0062.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/15c7ba49-29e6-442b-9963-3630b7f30092",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "HB 62",
+    "title": "Wyoming Utility Token Act-property amendments.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0062.pdf"
   },
   {
     "bill_id": "ocd-bill/0722ab52-912c-4e43-b77a-3a9ac5227180",
@@ -4897,6 +4919,29 @@
     "primary_url": "http://legisweb.state.wy.us/2017/Introduced/HB0007.pdf"
   },
   {
+    "bill_id": "ocd-bill/0c462c8c-bf30-4df4-bd96-eb5256800000",
+    "state": "WY",
+    "session": "2018",
+    "identifier": "HB 70",
+    "title": "Open blockchain tokens-exemptions.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0070.PDF"
+  },
+  {
     "bill_id": "ocd-bill/a148676f-61e4-4023-9e00-7a89ddab4c96",
     "state": "WY",
     "session": "2019",
@@ -4919,11 +4964,11 @@
     "primary_url": "http://wyoleg.gov/2019/Introduced/HB0070.pdf"
   },
   {
-    "bill_id": "ocd-bill/0c462c8c-bf30-4df4-bd96-eb5256800000",
+    "bill_id": "ocd-bill/cc8d9bb3-064e-4e14-9cf5-d1ee9c26cfab",
     "state": "WY",
     "session": "2018",
-    "identifier": "HB 70",
-    "title": "Open blockchain tokens-exemptions.",
+    "identifier": "HB 71",
+    "title": "Child custody.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -4934,12 +4979,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0070.PDF"
+    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0071.PDF"
   },
   {
     "bill_id": "ocd-bill/0ab4d789-984f-44e5-8998-dca36bb16fa9",
@@ -4962,28 +5006,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0071.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/cc8d9bb3-064e-4e14-9cf5-d1ee9c26cfab",
-    "state": "WY",
-    "session": "2018",
-    "identifier": "HB 71",
-    "title": "Child custody.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0071.PDF"
   },
   {
     "bill_id": "ocd-bill/a51f22bd-28f3-4ebb-8039-9f4077164b86",
@@ -5230,28 +5252,6 @@
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0084.pdf"
   },
   {
-    "bill_id": "ocd-bill/cc8c2d4f-8057-47a7-ae12-ccb8cda6e115",
-    "state": "WY",
-    "session": "2018",
-    "identifier": "HB 84",
-    "title": "Approval of bridge designs, plans and specifications.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0084.PDF"
-  },
-  {
     "bill_id": "ocd-bill/2b2f8697-87ff-456c-94df-c49e9b885183",
     "state": "WY",
     "session": "2019",
@@ -5274,6 +5274,28 @@
     "primary_url": "http://wyoleg.gov/2019/Introduced/HB0084.pdf"
   },
   {
+    "bill_id": "ocd-bill/cc8c2d4f-8057-47a7-ae12-ccb8cda6e115",
+    "state": "WY",
+    "session": "2018",
+    "identifier": "HB 84",
+    "title": "Approval of bridge designs, plans and specifications.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2018/Introduced/HB0084.PDF"
+  },
+  {
     "bill_id": "ocd-bill/9e297654-82b6-4fe3-b1ba-b733a9f8e634",
     "state": "WY",
     "session": "2020",
@@ -5294,6 +5316,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2020/Introduced/HB0085.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/1e384252-1134-40fb-b3a1-dcf9f325d518",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "HB 85",
+    "title": "State health reinsurance program.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0085.pdf"
   },
   {
     "bill_id": "ocd-bill/18cba9a4-1f2f-4eda-b319-55bceb3d9e47",
@@ -5340,11 +5384,11 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/HB0085.pdf"
   },
   {
-    "bill_id": "ocd-bill/1e384252-1134-40fb-b3a1-dcf9f325d518",
+    "bill_id": "ocd-bill/3b9991be-d7e9-4096-8c06-afdbb7482d47",
     "state": "WY",
-    "session": "2019",
-    "identifier": "HB 85",
-    "title": "State health reinsurance program.",
+    "session": "2022",
+    "identifier": "HB 86",
+    "title": "Genetic data privacy-amendments.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -5355,11 +5399,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/HB0085.pdf"
+    "primary_url": "https://wyoleg.gov/2022/Introduced/HB0086.pdf"
   },
   {
     "bill_id": "ocd-bill/2634afa6-06ee-4d7a-b2a7-5a4911dd179a",
@@ -5404,29 +5449,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2023/Introduced/HB0086.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/3b9991be-d7e9-4096-8c06-afdbb7482d47",
-    "state": "WY",
-    "session": "2022",
-    "identifier": "HB 86",
-    "title": "Genetic data privacy-amendments.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2022/Introduced/HB0086.pdf"
   },
   {
     "bill_id": "ocd-bill/96f301c1-dba7-40e0-bc5d-91344fef1c84",
@@ -5496,28 +5518,6 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/HB0088.pdf"
   },
   {
-    "bill_id": "ocd-bill/b908906a-fe13-4723-a65f-2325d044c1f4",
-    "state": "WY",
-    "session": "2026",
-    "identifier": "HB 9",
-    "title": "Grooming of children-offenses and amendments.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2026/Introduced/HB0009.pdf"
-  },
-  {
     "bill_id": "ocd-bill/90f271dc-243d-4c98-a434-3d3c4151014b",
     "state": "WY",
     "session": "2021",
@@ -5540,11 +5540,11 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/HB0009.pdf"
   },
   {
-    "bill_id": "ocd-bill/676e73b0-4028-48fa-ba5b-b4825f04ee54",
+    "bill_id": "ocd-bill/b908906a-fe13-4723-a65f-2325d044c1f4",
     "state": "WY",
-    "session": "2020",
-    "identifier": "HB 91",
-    "title": "Economic diversification incentives for mineral exploration.",
+    "session": "2026",
+    "identifier": "HB 9",
+    "title": "Grooming of children-offenses and amendments.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -5559,7 +5559,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0091.pdf"
+    "primary_url": "https://wyoleg.gov/2026/Introduced/HB0009.pdf"
   },
   {
     "bill_id": "ocd-bill/a59ec377-72b2-4390-a374-78b89359490f",
@@ -5582,6 +5582,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2018/Introduced/HB0091.PDF"
+  },
+  {
+    "bill_id": "ocd-bill/676e73b0-4028-48fa-ba5b-b4825f04ee54",
+    "state": "WY",
+    "session": "2020",
+    "identifier": "HB 91",
+    "title": "Economic diversification incentives for mineral exploration.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2020/Introduced/HB0091.pdf"
   },
   {
     "bill_id": "ocd-bill/adf4dbed-24ac-4446-9968-902b1c69284f",
@@ -5804,28 +5826,6 @@
     "primary_url": "https://wyoleg.gov/2023/Introduced/HJ0012.pdf"
   },
   {
-    "bill_id": "ocd-bill/92705dc5-9e07-4249-8200-b2fe89faabd5",
-    "state": "WY",
-    "session": "2020",
-    "identifier": "HJ 3",
-    "title": "Supporting federal missing and murdered persons efforts.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/HJ0003.pdf"
-  },
-  {
     "bill_id": "ocd-bill/4bdc7a4a-610a-4cbf-b01a-cfaa96c5c6f3",
     "state": "WY",
     "session": "2022",
@@ -5846,6 +5846,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2022/Introduced/HJ0003.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/92705dc5-9e07-4249-8200-b2fe89faabd5",
+    "state": "WY",
+    "session": "2020",
+    "identifier": "HJ 3",
+    "title": "Supporting federal missing and murdered persons efforts.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2020/Introduced/HJ0003.pdf"
   },
   {
     "bill_id": "ocd-bill/85dc9f7a-5a68-42ac-b205-94ba267636f3",
@@ -5914,55 +5936,9 @@
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000S30&ciq=urn:user:PA196471263&client_md=49d0a777bd72f8aed04926933b8783d2&mode=current_text"
   },
   {
-    "bill_id": "ocd-bill/46456777-3e81-4f35-86b2-2ae9a86cca12",
+    "bill_id": "ocd-bill/0c7d0976-82e4-449e-9bd4-086ef83da56e",
     "state": "WY",
-    "session": "2025",
-    "identifier": "SF 1",
-    "title": "General government appropriations.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0001.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/53a53779-590a-4f20-a4de-246e8276e3fb",
-    "state": "WY",
-    "session": "2020",
-    "identifier": "SF 1",
-    "title": "General government appropriations.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/SF0001.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/557a0d72-6f09-4d2a-9c3a-2a069e966e8c",
-    "state": "WY",
-    "session": "2018",
+    "session": "2019",
     "identifier": "SF 1",
     "title": "General government appropriations-2.",
     "updated": "",
@@ -5979,29 +5955,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legisweb.state.wy.us/2018/Introduced/SF0001.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/e02094df-e222-44de-b611-f5188763ae4a",
-    "state": "WY",
-    "session": "2021",
-    "identifier": "SF 1",
-    "title": "General government appropriations.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2021/Introduced/SF0001.pdf"
+    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0001.pdf"
   },
   {
     "bill_id": "ocd-bill/dbfa9617-5683-4e7f-a5a4-3068b98e8106",
@@ -6048,11 +6002,11 @@
     "primary_url": "https://wyoleg.gov/2023/Introduced/SF0001.pdf"
   },
   {
-    "bill_id": "ocd-bill/0c7d0976-82e4-449e-9bd4-086ef83da56e",
+    "bill_id": "ocd-bill/53a53779-590a-4f20-a4de-246e8276e3fb",
     "state": "WY",
-    "session": "2019",
+    "session": "2020",
     "identifier": "SF 1",
-    "title": "General government appropriations-2.",
+    "title": "General government appropriations.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -6067,7 +6021,53 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0001.pdf"
+    "primary_url": "http://wyoleg.gov/2020/Introduced/SF0001.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/e02094df-e222-44de-b611-f5188763ae4a",
+    "state": "WY",
+    "session": "2021",
+    "identifier": "SF 1",
+    "title": "General government appropriations.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2021/Introduced/SF0001.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/46456777-3e81-4f35-86b2-2ae9a86cca12",
+    "state": "WY",
+    "session": "2025",
+    "identifier": "SF 1",
+    "title": "General government appropriations.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0001.pdf"
   },
   {
     "bill_id": "ocd-bill/ea7dba43-78d0-433f-bb32-1556827b7627",
@@ -6083,8 +6083,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6116,11 +6116,11 @@
     "primary_url": "http://legisweb.state.wy.us/2017/Introduced/SF0001.pdf"
   },
   {
-    "bill_id": "ocd-bill/81d58c3d-cfb7-4bfd-93da-8b429bf72b29",
+    "bill_id": "ocd-bill/557a0d72-6f09-4d2a-9c3a-2a069e966e8c",
     "state": "WY",
-    "session": "2023",
-    "identifier": "SF 10",
-    "title": "Licensed professional counselor compact.",
+    "session": "2018",
+    "identifier": "SF 1",
+    "title": "General government appropriations-2.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -6135,7 +6135,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2023/Introduced/SF0010.pdf"
+    "primary_url": "http://legisweb.state.wy.us/2018/Introduced/SF0001.pdf"
   },
   {
     "bill_id": "ocd-bill/0b9c4545-3a2a-4c54-8e0d-e37011f79459",
@@ -6158,6 +6158,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2020/Introduced/SF0010.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/81d58c3d-cfb7-4bfd-93da-8b429bf72b29",
+    "state": "WY",
+    "session": "2023",
+    "identifier": "SF 10",
+    "title": "Licensed professional counselor compact.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2023/Introduced/SF0010.pdf"
   },
   {
     "bill_id": "ocd-bill/e5b10caa-4202-4e5b-95e9-04a62e56f42d",
@@ -6204,6 +6226,28 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0100.pdf"
   },
   {
+    "bill_id": "ocd-bill/131615fd-7776-45dd-a7d9-1fc8fc5abd8e",
+    "state": "WY",
+    "session": "2017",
+    "identifier": "SF 102",
+    "title": "Board of county commissioners designee-zoning certificates.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legisweb.state.wy.us/2017/Enroll/SF0102.pdf"
+  },
+  {
     "bill_id": "ocd-bill/5fad9d53-2411-4f9f-92c4-d5b9e4677cab",
     "state": "WY",
     "session": "2020",
@@ -6246,28 +6290,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2024/Introduced/SF0102.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/131615fd-7776-45dd-a7d9-1fc8fc5abd8e",
-    "state": "WY",
-    "session": "2017",
-    "identifier": "SF 102",
-    "title": "Board of county commissioners designee-zoning certificates.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legisweb.state.wy.us/2017/Enroll/SF0102.pdf"
   },
   {
     "bill_id": "ocd-bill/c8ed179a-d34d-42e6-a7ff-1d0527ff2a41",
@@ -6381,28 +6403,6 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0108.pdf"
   },
   {
-    "bill_id": "ocd-bill/653ff63c-89b2-4d96-a036-3fa50693b30f",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "SF 109",
-    "title": "Educational attainment executive council.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0109.pdf"
-  },
-  {
     "bill_id": "ocd-bill/d6a408aa-1e24-4d5a-8618-e001505c9c9d",
     "state": "WY",
     "session": "2020",
@@ -6423,6 +6423,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2020/Introduced/SF0109.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/653ff63c-89b2-4d96-a036-3fa50693b30f",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "SF 109",
+    "title": "Educational attainment executive council.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0109.pdf"
   },
   {
     "bill_id": "ocd-bill/0886ac84-2d86-464b-95c7-9581f7af1862",
@@ -6557,28 +6579,6 @@
     "primary_url": "https://wyoleg.gov/2025/Introduced/SF0114.pdf"
   },
   {
-    "bill_id": "ocd-bill/99e92475-6df0-4351-87c2-d87838247196",
-    "state": "WY",
-    "session": "2024",
-    "identifier": "SF 115",
-    "title": "Behavioral health redesign amendments-2.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2024/Introduced/SF0115.pdf"
-  },
-  {
     "bill_id": "ocd-bill/ebe47be4-de87-4678-990a-59d51ea9412e",
     "state": "WY",
     "session": "2018",
@@ -6621,6 +6621,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2020/Introduced/SF0115.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/99e92475-6df0-4351-87c2-d87838247196",
+    "state": "WY",
+    "session": "2024",
+    "identifier": "SF 115",
+    "title": "Behavioral health redesign amendments-2.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2024/Introduced/SF0115.pdf"
   },
   {
     "bill_id": "ocd-bill/3113c9e2-005d-447a-a270-2d37e8948635",
@@ -6821,28 +6843,6 @@
     "primary_url": "https://wyoleg.gov/2025/Introduced/SF0126.pdf"
   },
   {
-    "bill_id": "ocd-bill/f19f706e-9332-49bc-b6cf-3fc3f8e5f987",
-    "state": "WY",
-    "session": "2020",
-    "identifier": "SF 127",
-    "title": "Public funds-lobbying.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/SF0127.pdf"
-  },
-  {
     "bill_id": "ocd-bill/a2ca0a2d-13ca-4546-9383-b26f3a4578cb",
     "state": "WY",
     "session": "2023",
@@ -6864,6 +6864,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2023/Introduced/SF0127.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/f19f706e-9332-49bc-b6cf-3fc3f8e5f987",
+    "state": "WY",
+    "session": "2020",
+    "identifier": "SF 127",
+    "title": "Public funds-lobbying.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2020/Introduced/SF0127.pdf"
   },
   {
     "bill_id": "ocd-bill/56f8a314-61b5-449b-8722-a6cc87fbf039",
@@ -6954,28 +6976,6 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0131.pdf"
   },
   {
-    "bill_id": "ocd-bill/48f1ae12-a6eb-4afd-9f8c-2c71226de07c",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "SF 132",
-    "title": "Wyoming gaming commission.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0132.pdf"
-  },
-  {
     "bill_id": "ocd-bill/ee303c64-89e1-4613-b267-2bb3524c1ade",
     "state": "WY",
     "session": "2024",
@@ -6996,6 +6996,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2024/Introduced/SF0132.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/48f1ae12-a6eb-4afd-9f8c-2c71226de07c",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "SF 132",
+    "title": "Wyoming gaming commission.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0132.pdf"
   },
   {
     "bill_id": "ocd-bill/f921aef1-3db2-4e84-b6c0-3755c54a058e",
@@ -7064,28 +7086,6 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0014.pdf"
   },
   {
-    "bill_id": "ocd-bill/c65e23e9-3ec1-414d-8ebc-0a3f1334b9c8",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "SF 143",
-    "title": "Public monies-deposits in credit unions.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0143.pdf"
-  },
-  {
     "bill_id": "ocd-bill/0825cc89-e2b3-4968-8c3a-1f1f9ead661b",
     "state": "WY",
     "session": "2021",
@@ -7106,6 +7106,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0143.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/c65e23e9-3ec1-414d-8ebc-0a3f1334b9c8",
+    "state": "WY",
+    "session": "2025",
+    "identifier": "SF 143",
+    "title": "Public monies-deposits in credit unions.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0143.pdf"
   },
   {
     "bill_id": "ocd-bill/b21ace4c-61c0-40c4-ba46-690f3160b6df",
@@ -7570,28 +7592,6 @@
     "primary_url": "https://wyoleg.gov/2023/Introduced/SF0171.pdf"
   },
   {
-    "bill_id": "ocd-bill/d999206c-79b5-49e6-a1c3-303314700305",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "SF 172",
-    "title": "Physical therapy licensure compact.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0172.pdf"
-  },
-  {
     "bill_id": "ocd-bill/b9f47614-5ac3-4479-96ff-24c9c90300fc",
     "state": "WY",
     "session": "2023",
@@ -7612,6 +7612,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2023/Introduced/SF0172.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/d999206c-79b5-49e6-a1c3-303314700305",
+    "state": "WY",
+    "session": "2025",
+    "identifier": "SF 172",
+    "title": "Physical therapy licensure compact.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0172.pdf"
   },
   {
     "bill_id": "ocd-bill/453a34e4-e17e-4727-95b9-7aaa052a5111",
@@ -7858,28 +7880,6 @@
     "primary_url": "https://wyoleg.gov/2024/Introduced/SF0024.pdf"
   },
   {
-    "bill_id": "ocd-bill/f12952e2-45d6-4480-a82c-c60e786c28c8",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "SF 25",
-    "title": "Electronic lien and title system.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0025.pdf"
-  },
-  {
     "bill_id": "ocd-bill/c8f19f43-5352-400c-8f6d-c59f15ab785c",
     "state": "WY",
     "session": "2017",
@@ -7902,11 +7902,11 @@
     "primary_url": "http://legisweb.state.wy.us/2017/Substitute/SF0025.pdf"
   },
   {
-    "bill_id": "ocd-bill/3e9faf3c-487c-4503-807b-c0bcbaa83de5",
+    "bill_id": "ocd-bill/f12952e2-45d6-4480-a82c-c60e786c28c8",
     "state": "WY",
-    "session": "2023",
-    "identifier": "SF 26",
-    "title": "Psychology Interjurisdictional Compact.",
+    "session": "2025",
+    "identifier": "SF 25",
+    "title": "Electronic lien and title system.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -7921,7 +7921,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2023/Introduced/SF0026.pdf"
+    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0025.pdf"
   },
   {
     "bill_id": "ocd-bill/58250c02-02ed-40a2-91a1-e59e370a8f08",
@@ -7946,6 +7946,28 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0026.pdf"
   },
   {
+    "bill_id": "ocd-bill/3e9faf3c-487c-4503-807b-c0bcbaa83de5",
+    "state": "WY",
+    "session": "2023",
+    "identifier": "SF 26",
+    "title": "Psychology Interjurisdictional Compact.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2023/Introduced/SF0026.pdf"
+  },
+  {
     "bill_id": "ocd-bill/32b44078-bec6-4ba7-bdac-bc5a2b67f0da",
     "state": "WY",
     "session": "2018",
@@ -7968,28 +7990,6 @@
     "primary_url": "http://legisweb.state.wy.us/2018/Enroll/SF0026.pdf"
   },
   {
-    "bill_id": "ocd-bill/0497a0c0-7eb3-4372-beba-17e51af7611d",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "SF 28",
-    "title": "Banking technology and stock revisions.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0028.pdf"
-  },
-  {
     "bill_id": "ocd-bill/1c796e67-c8aa-4097-b603-380d10af7f45",
     "state": "WY",
     "session": "2021",
@@ -8010,6 +8010,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0028.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/0497a0c0-7eb3-4372-beba-17e51af7611d",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "SF 28",
+    "title": "Banking technology and stock revisions.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0028.pdf"
   },
   {
     "bill_id": "ocd-bill/5aa91d9e-d105-49fa-b970-fe176fd66779",
@@ -8078,28 +8100,6 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0003.pdf"
   },
   {
-    "bill_id": "ocd-bill/3870cefe-4bd0-429f-8f47-e83e0cf91c18",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "SF 31",
-    "title": "Revisor's bill.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0031.pdf"
-  },
-  {
     "bill_id": "ocd-bill/316ce85a-bdb2-49b8-9664-24c373680559",
     "state": "WY",
     "session": "2023",
@@ -8121,6 +8121,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2023/Introduced/SF0031.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/3870cefe-4bd0-429f-8f47-e83e0cf91c18",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "SF 31",
+    "title": "Revisor's bill.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0031.pdf"
   },
   {
     "bill_id": "ocd-bill/a700b4ea-efc9-435b-b2c0-d6d1986a6369",
@@ -8167,28 +8189,6 @@
     "primary_url": "https://wyoleg.gov/2022/Introduced/SF0032.pdf"
   },
   {
-    "bill_id": "ocd-bill/64a6d2b4-5fc0-4943-8d66-da11d9b7e445",
-    "state": "WY",
-    "session": "2017",
-    "identifier": "SF 33",
-    "title": "Computer extortion.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legisweb.state.wy.us/2017/Enroll/SF0033.pdf"
-  },
-  {
     "bill_id": "ocd-bill/31883091-d93d-477e-88fa-7467f585fa3a",
     "state": "WY",
     "session": "2022",
@@ -8211,6 +8211,28 @@
     "primary_url": "https://wyoleg.gov/2022/Introduced/SF0033.pdf"
   },
   {
+    "bill_id": "ocd-bill/64a6d2b4-5fc0-4943-8d66-da11d9b7e445",
+    "state": "WY",
+    "session": "2017",
+    "identifier": "SF 33",
+    "title": "Computer extortion.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legisweb.state.wy.us/2017/Enroll/SF0033.pdf"
+  },
+  {
     "bill_id": "ocd-bill/c17b7391-5252-4694-bf41-176a9158cc07",
     "state": "WY",
     "session": "2017",
@@ -8226,8 +8248,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8300,28 +8322,6 @@
     "primary_url": "http://legisweb.state.wy.us/2017/Enroll/SF0036.pdf"
   },
   {
-    "bill_id": "ocd-bill/58e296de-6b21-495d-8197-5d87de4f360b",
-    "state": "WY",
-    "session": "2022",
-    "identifier": "SF 36",
-    "title": "Pharmacy benefit managers act enhancements.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2022/Introduced/SF0036.pdf"
-  },
-  {
     "bill_id": "ocd-bill/815f2de3-6111-4107-8391-43927f28e4a1",
     "state": "WY",
     "session": "2026",
@@ -8342,6 +8342,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2026/Introduced/SF0036.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/58e296de-6b21-495d-8197-5d87de4f360b",
+    "state": "WY",
+    "session": "2022",
+    "identifier": "SF 36",
+    "title": "Pharmacy benefit managers act enhancements.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2022/Introduced/SF0036.pdf"
   },
   {
     "bill_id": "ocd-bill/db1e8ce3-e472-42ae-be39-e2b8e7626a2a",
@@ -8520,28 +8542,6 @@
     "primary_url": "http://wyoleg.gov/2019/Introduced/SF0043.pdf"
   },
   {
-    "bill_id": "ocd-bill/8412378b-0031-4eef-90e9-ffd39bae4563",
-    "state": "WY",
-    "session": "2026",
-    "identifier": "SF 45",
-    "title": "Local approval for simulcasting.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2026/Introduced/SF0045.pdf"
-  },
-  {
     "bill_id": "ocd-bill/c97e23f6-a7b1-490b-8a05-be8d61210ca1",
     "state": "WY",
     "session": "2017",
@@ -8564,11 +8564,11 @@
     "primary_url": "http://legisweb.state.wy.us/2017/Enroll/SF0045.pdf"
   },
   {
-    "bill_id": "ocd-bill/9d709ec0-0101-4038-8ed2-64f4632023b5",
+    "bill_id": "ocd-bill/8412378b-0031-4eef-90e9-ffd39bae4563",
     "state": "WY",
-    "session": "2020",
-    "identifier": "SF 50",
-    "title": "Nicotine products-lawful age and penalties.",
+    "session": "2026",
+    "identifier": "SF 45",
+    "title": "Local approval for simulcasting.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -8583,7 +8583,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/SF0050.pdf"
+    "primary_url": "https://wyoleg.gov/2026/Introduced/SF0045.pdf"
   },
   {
     "bill_id": "ocd-bill/0d2e9bc2-38fc-4874-bae9-51d5d0c75661",
@@ -8608,6 +8608,50 @@
     "primary_url": "https://wyoleg.gov/2022/Introduced/SF0050.pdf"
   },
   {
+    "bill_id": "ocd-bill/0c9ea23e-91b5-49d7-a9ea-06e10d2a30cc",
+    "state": "WY",
+    "session": "2025",
+    "identifier": "SF 50",
+    "title": "Insurance holding company regulations-amendments.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0050.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/9d709ec0-0101-4038-8ed2-64f4632023b5",
+    "state": "WY",
+    "session": "2020",
+    "identifier": "SF 50",
+    "title": "Nicotine products-lawful age and penalties.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2020/Introduced/SF0050.pdf"
+  },
+  {
     "bill_id": "ocd-bill/75c211ba-cc2a-4a6f-8263-fb4bd489bd0a",
     "state": "WY",
     "session": "2024",
@@ -8630,26 +8674,27 @@
     "primary_url": "https://wyoleg.gov/2024/Introduced/SF0050.pdf"
   },
   {
-    "bill_id": "ocd-bill/0c9ea23e-91b5-49d7-a9ea-06e10d2a30cc",
+    "bill_id": "ocd-bill/0134e9c2-e56f-454c-b5e9-33edb15a2301",
     "state": "WY",
-    "session": "2025",
-    "identifier": "SF 50",
-    "title": "Insurance holding company regulations-amendments.",
+    "session": "2024",
+    "identifier": "SF 51",
+    "title": "Unlawful dissemination of misleading synthetic media.",
     "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "adjacent_tech"
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "adjacent_ai"
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2025/Introduced/SF0050.pdf"
+    "primary_url": "https://wyoleg.gov/2024/Introduced/SF0051.pdf"
   },
   {
     "bill_id": "ocd-bill/2914ae75-1d3b-4285-903c-1253e490ec92",
@@ -8719,28 +8764,6 @@
     "primary_url": "https://wyoleg.gov/2022/Introduced/SF0054.pdf"
   },
   {
-    "bill_id": "ocd-bill/d7d1fa12-3854-440b-a3ac-e7b9440a9427",
-    "state": "WY",
-    "session": "2022",
-    "identifier": "SF 58",
-    "title": "Wyoming council for women's issues-workforce services.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2022/Introduced/SF0058.pdf"
-  },
-  {
     "bill_id": "ocd-bill/5518868a-6695-47ff-88b8-c04f2480a3d3",
     "state": "WY",
     "session": "2018",
@@ -8761,6 +8784,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legisweb.state.wy.us/2018/Enroll/SF0058.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/d7d1fa12-3854-440b-a3ac-e7b9440a9427",
+    "state": "WY",
+    "session": "2022",
+    "identifier": "SF 58",
+    "title": "Wyoming council for women's issues-workforce services.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2022/Introduced/SF0058.pdf"
   },
   {
     "bill_id": "ocd-bill/fd85bea4-6ed6-4acb-87bb-6957c0052623",
@@ -8822,8 +8867,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8940,28 +8985,6 @@
     "primary_url": "http://legisweb.state.wy.us/2017/Enroll/SF0007.pdf"
   },
   {
-    "bill_id": "ocd-bill/848c9fe9-c255-4aeb-b421-f3982489c068",
-    "state": "WY",
-    "session": "2018",
-    "identifier": "SF 7",
-    "title": "Insurance-corporate governance annual disclosure.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legisweb.state.wy.us/2018/Enroll/SF0007.pdf"
-  },
-  {
     "bill_id": "ocd-bill/faae3d46-f8e4-44aa-a005-e36748623d29",
     "state": "WY",
     "session": "2021",
@@ -8982,6 +9005,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0007.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/848c9fe9-c255-4aeb-b421-f3982489c068",
+    "state": "WY",
+    "session": "2018",
+    "identifier": "SF 7",
+    "title": "Insurance-corporate governance annual disclosure.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legisweb.state.wy.us/2018/Enroll/SF0007.pdf"
   },
   {
     "bill_id": "ocd-bill/aa6baedc-a259-4ead-9b80-2973c253b73d",
@@ -9006,28 +9051,6 @@
     "primary_url": "http://wyoleg.gov/2020/Introduced/SF0070.pdf"
   },
   {
-    "bill_id": "ocd-bill/1544532e-2e79-45e5-93c4-cd29e62f2a2a",
-    "state": "WY",
-    "session": "2018",
-    "identifier": "SF 72",
-    "title": "School finance recalibration-transportation.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legisweb.state.wy.us/2018/Enroll/SF0072.pdf"
-  },
-  {
     "bill_id": "ocd-bill/ff53873f-a41d-4d96-a6e0-306ff7b6caa1",
     "state": "WY",
     "session": "2023",
@@ -9048,6 +9071,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2023/Introduced/SF0072.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/1544532e-2e79-45e5-93c4-cd29e62f2a2a",
+    "state": "WY",
+    "session": "2018",
+    "identifier": "SF 72",
+    "title": "School finance recalibration-transportation.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legisweb.state.wy.us/2018/Enroll/SF0072.pdf"
   },
   {
     "bill_id": "ocd-bill/687f52eb-551d-4839-9f39-7bd5fcb36b38",
@@ -9116,6 +9161,28 @@
     "primary_url": "http://wyoleg.gov/2019/Introduced/SF0074.pdf"
   },
   {
+    "bill_id": "ocd-bill/5cddf235-2ffe-4121-8328-4e3c0a695bfd",
+    "state": "WY",
+    "session": "2018",
+    "identifier": "SF 76",
+    "title": "Attorney general-elected official.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legisweb.state.wy.us/2018/Introduced/SF0076.pdf"
+  },
+  {
     "bill_id": "ocd-bill/3870545f-960f-4fb1-9299-dbf02cd675c9",
     "state": "WY",
     "session": "2025",
@@ -9158,28 +9225,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2019/Introduced/SF0076.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/5cddf235-2ffe-4121-8328-4e3c0a695bfd",
-    "state": "WY",
-    "session": "2018",
-    "identifier": "SF 76",
-    "title": "Attorney general-elected official.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legisweb.state.wy.us/2018/Introduced/SF0076.pdf"
   },
   {
     "bill_id": "ocd-bill/d3696d1a-5090-4e08-927b-e074d6e6ff48",
@@ -9248,28 +9293,6 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0079.pdf"
   },
   {
-    "bill_id": "ocd-bill/6de58dd2-7ecb-4aff-8ebd-aab92a8e4aae",
-    "state": "WY",
-    "session": "2020",
-    "identifier": "SF 8",
-    "title": "Missing and murdered indigenous persons-agency cooperation.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2020/Introduced/SF0008.pdf"
-  },
-  {
     "bill_id": "ocd-bill/6470b7f7-f8f3-4840-9b34-f47519902990",
     "state": "WY",
     "session": "2019",
@@ -9314,6 +9337,28 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0008.pdf"
   },
   {
+    "bill_id": "ocd-bill/6de58dd2-7ecb-4aff-8ebd-aab92a8e4aae",
+    "state": "WY",
+    "session": "2020",
+    "identifier": "SF 8",
+    "title": "Missing and murdered indigenous persons-agency cooperation.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2020/Introduced/SF0008.pdf"
+  },
+  {
     "bill_id": "ocd-bill/de5ad000-e509-4530-ac0d-8f7ab9143e5f",
     "state": "WY",
     "session": "2021",
@@ -9336,28 +9381,6 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0081.pdf"
   },
   {
-    "bill_id": "ocd-bill/e7a1c186-d9c2-4c50-8ed2-2916f8a5715e",
-    "state": "WY",
-    "session": "2019",
-    "identifier": "SF 82",
-    "title": "Do not resuscitate directives.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0082.pdf"
-  },
-  {
     "bill_id": "ocd-bill/2864742a-c0f8-4261-8604-3877e7ecfa7e",
     "state": "WY",
     "session": "2020",
@@ -9378,6 +9401,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://wyoleg.gov/2020/Introduced/SF0082.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/e7a1c186-d9c2-4c50-8ed2-2916f8a5715e",
+    "state": "WY",
+    "session": "2019",
+    "identifier": "SF 82",
+    "title": "Do not resuscitate directives.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://wyoleg.gov/2019/Introduced/SF0082.pdf"
   },
   {
     "bill_id": "ocd-bill/773fb57d-2045-4dd6-9506-1359c7192784",
@@ -9534,28 +9579,6 @@
     "primary_url": "http://wyoleg.gov/2021/Introduced/SF0086.pdf"
   },
   {
-    "bill_id": "ocd-bill/37d12638-b576-43f5-b9f1-4e19d5c5dc8f",
-    "state": "WY",
-    "session": "2022",
-    "identifier": "SF 87",
-    "title": "Second Amendment Preservation Act.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2022/Introduced/SF0087.pdf"
-  },
-  {
     "bill_id": "ocd-bill/9de39437-8c6d-4674-abfa-44b9827267c2",
     "state": "WY",
     "session": "2020",
@@ -9578,6 +9601,28 @@
     "primary_url": "http://wyoleg.gov/2020/Introduced/SF0087.pdf"
   },
   {
+    "bill_id": "ocd-bill/37d12638-b576-43f5-b9f1-4e19d5c5dc8f",
+    "state": "WY",
+    "session": "2022",
+    "identifier": "SF 87",
+    "title": "Second Amendment Preservation Act.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2022/Introduced/SF0087.pdf"
+  },
+  {
     "bill_id": "ocd-bill/9487d2d7-2c1d-4cc6-8700-60de64a02740",
     "state": "WY",
     "session": "2018",
@@ -9593,8 +9638,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9733,28 +9778,6 @@
     "primary_url": "https://wyoleg.gov/2024/Introduced/SF0096.pdf"
   },
   {
-    "bill_id": "ocd-bill/7f4e8d7e-7f5a-4c31-beb4-4552e952edb4",
-    "state": "WY",
-    "session": "2018",
-    "identifier": "SF 97",
-    "title": "Medicaid and SNAP-eligibility requirements-2.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legisweb.state.wy.us/2018/Introduced/SF0097.pdf"
-  },
-  {
     "bill_id": "ocd-bill/97b8f35b-fd64-442d-9c8b-1099046fe983",
     "state": "WY",
     "session": "2017",
@@ -9776,6 +9799,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legisweb.state.wy.us/2017/Enroll/SF0097.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/7f4e8d7e-7f5a-4c31-beb4-4552e952edb4",
+    "state": "WY",
+    "session": "2018",
+    "identifier": "SF 97",
+    "title": "Medicaid and SNAP-eligibility requirements-2.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legisweb.state.wy.us/2018/Introduced/SF0097.pdf"
   },
   {
     "bill_id": "ocd-bill/17307316-3d7d-47d6-848b-9271ecd6d766",

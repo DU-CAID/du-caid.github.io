@@ -47,6 +47,28 @@
     "bill_id": "",
     "state": "NH",
     "session": "2025",
+    "identifier": "H 1406",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NH2025000H1406&ciq=urn:user:PA196471263&client_md=a5ae8fa38f5c352991b89e04d30265b1&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "NH",
+    "session": "2025",
     "identifier": "H 143",
     "title": "",
     "updated": "",
@@ -64,6 +86,28 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NH2025000H143&ciq=urn:user:PA196471263&client_md=ee5b9eb07517afbbd02fbd5bf290eb25&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "NH",
+    "session": "2025",
+    "identifier": "H 1725",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NH2025000H1725&ciq=urn:user:PA196471263&client_md=cb20f20eefc0f0f6cb3c237b0bf822b8&mode=current_text"
   },
   {
     "bill_id": "",
@@ -110,28 +154,6 @@
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NH2025000H630&ciq=urn:user:PA196471263&client_md=6def27dfd269c4b5a0fab109b73f8d59&mode=current_text"
   },
   {
-    "bill_id": "ocd-bill/472cf1eb-30b0-407c-8051-cf343e01f93b",
-    "state": "NH",
-    "session": "2024",
-    "identifier": "HB 1005",
-    "title": "relative to judicial training.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1099&txtFormat=pdf&v=current"
-  },
-  {
     "bill_id": "ocd-bill/9ec9dc06-e92d-4643-a02f-f797b3ac1557",
     "state": "NH",
     "session": "2022",
@@ -152,6 +174,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-0445h&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/472cf1eb-30b0-407c-8051-cf343e01f93b",
+    "state": "NH",
+    "session": "2024",
+    "identifier": "HB 1005",
+    "title": "relative to judicial training.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1099&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/37354c62-1ea7-4230-b4f3-6357bc239a96",
@@ -352,28 +396,6 @@
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1153&txtFormat=pdf&v=current"
   },
   {
-    "bill_id": "ocd-bill/24f5c072-9774-463a-a2bb-134fc3c63f90",
-    "state": "NH",
-    "session": "2022",
-    "identifier": "HB 1125",
-    "title": "relative to school emergency plans.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-1511s&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/cd22f16d-396e-41a0-a90d-71e5c025c568",
     "state": "NH",
     "session": "2024",
@@ -394,6 +416,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1681&txtFormat=pdf&v=current"
+  },
+  {
+    "bill_id": "ocd-bill/24f5c072-9774-463a-a2bb-134fc3c63f90",
+    "state": "NH",
+    "session": "2022",
+    "identifier": "HB 1125",
+    "title": "relative to school emergency plans.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-1511s&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/1a9c5bf3-94d3-4709-9cd1-941180ea2cbe",
@@ -793,28 +837,6 @@
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1545&txtFormat=pdf&v=current"
   },
   {
-    "bill_id": "ocd-bill/415b28bc-6537-4286-9508-92cd9b36440a",
-    "state": "NH",
-    "session": "2018",
-    "identifier": "HB 1203",
-    "title": "relative to reports issued by the judicial council.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1027&txtFormat=html"
-  },
-  {
     "bill_id": "ocd-bill/604f624b-3203-4487-ab78-071926fe054f",
     "state": "NH",
     "session": "2022",
@@ -835,6 +857,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-1660s&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/415b28bc-6537-4286-9508-92cd9b36440a",
+    "state": "NH",
+    "session": "2018",
+    "identifier": "HB 1203",
+    "title": "relative to reports issued by the judicial council.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1027&txtFormat=html"
   },
   {
     "bill_id": "ocd-bill/529c486b-47a3-4682-9d00-d97f6d8947da",
@@ -940,8 +984,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1080,28 +1124,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1178&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/d06410f6-4e92-4119-9736-9634189a14e0",
-    "state": "NH",
-    "session": "2022",
-    "identifier": "HB 1236",
-    "title": "relative to the legislative oversight committee for the education improvement and assessment program.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-0923h&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/ce0105a9-67cd-4969-969c-9197deac94ce",
     "state": "NH",
     "session": "2020",
@@ -1122,6 +1144,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=2020-0976h&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/d06410f6-4e92-4119-9736-9634189a14e0",
+    "state": "NH",
+    "session": "2022",
+    "identifier": "HB 1236",
+    "title": "relative to the legislative oversight committee for the education improvement and assessment program.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-0923h&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/e4d737fa-c319-4b3d-89f2-cf70df291cd6",
@@ -1359,34 +1403,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-1775s&txtFormat=amend"
-  },
-  {
-    "bill_id": "ocd-bill/b04d9914-0762-4a80-8619-b5e33e26f0f4",
-    "state": "NH",
-    "session": "2024",
-    "identifier": "HB 1270",
-    "title": "relative to protective custody statutes.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1141&txtFormat=pdf&v=current"
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-1775s&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/af03f8c8-aa26-4cac-8f2c-1ad319c1c559",
@@ -1411,11 +1433,11 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1470&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/aae11f6e-40b0-42fb-a2ca-1c8ed70ed9e1",
+    "bill_id": "ocd-bill/b04d9914-0762-4a80-8619-b5e33e26f0f4",
     "state": "NH",
     "session": "2024",
-    "identifier": "HB 1280",
-    "title": "relative to informed consent and patient rights.",
+    "identifier": "HB 1270",
+    "title": "relative to protective custody statutes.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -1430,7 +1452,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1115&txtFormat=pdf&v=current"
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1141&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/52fc8930-46c6-4819-a2ec-2dbd130326b8",
@@ -1455,6 +1477,28 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-1859s&txtFormat=amend"
   },
   {
+    "bill_id": "ocd-bill/aae11f6e-40b0-42fb-a2ca-1c8ed70ed9e1",
+    "state": "NH",
+    "session": "2024",
+    "identifier": "HB 1280",
+    "title": "relative to informed consent and patient rights.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1115&txtFormat=pdf&v=current"
+  },
+  {
     "bill_id": "ocd-bill/7818ce96-3c1c-4c8c-ae9b-005cc0dd02c8",
     "state": "NH",
     "session": "2024",
@@ -1477,28 +1521,6 @@
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1136&txtFormat=pdf&v=current"
   },
   {
-    "bill_id": "ocd-bill/5c2eed59-439f-4b96-9d41-3900cf9d222d",
-    "state": "NH",
-    "session": "2024",
-    "identifier": "HB 1284",
-    "title": "relative to the quasi-judicial authority of planning boards.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1148&txtFormat=pdf&v=current"
-  },
-  {
     "bill_id": "ocd-bill/4ed96210-e50c-4d3e-9ef8-1ea63c85f1f0",
     "state": "NH",
     "session": "2018",
@@ -1519,6 +1541,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1093&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/5c2eed59-439f-4b96-9d41-3900cf9d222d",
+    "state": "NH",
+    "session": "2024",
+    "identifier": "HB 1284",
+    "title": "relative to the quasi-judicial authority of planning boards.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1148&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/059822ad-1618-436b-b2ce-ea219cbf927d",
@@ -1719,6 +1763,28 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1428&txtFormat=html"
   },
   {
+    "bill_id": "ocd-bill/71630312-0265-487e-99fc-d60e97e1e7fd",
+    "state": "NH",
+    "session": "2024",
+    "identifier": "HB 1319",
+    "title": "relative to prohibiting the nonconsensual dissemination of synthetic sexual images.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "synthetic_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1460&txtFormat=pdf&v=current"
+  },
+  {
     "bill_id": "ocd-bill/18dd7f0b-78ee-4f87-9534-1bdd012c8ab1",
     "state": "NH",
     "session": "2022",
@@ -1829,28 +1895,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=2020-0413h&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/27959f0b-6700-4138-ad30-548f797d01a8",
-    "state": "NH",
-    "session": "2022",
-    "identifier": "HB 1347",
-    "title": "relative to licensing requirements for health care facilities that operate on a membership-based business model.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-0996h&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/cbc51b6d-379f-4eb9-88aa-9606551f131b",
     "state": "NH",
     "session": "2018",
@@ -1871,6 +1915,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1337&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/27959f0b-6700-4138-ad30-548f797d01a8",
+    "state": "NH",
+    "session": "2022",
+    "identifier": "HB 1347",
+    "title": "relative to licensing requirements for health care facilities that operate on a membership-based business model.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-0996h&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/d17fe495-e3a0-4690-a7a1-44833745c444",
@@ -1938,6 +2004,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1381&txtFormat=pdf&v=current"
+  },
+  {
+    "bill_id": "ocd-bill/4eaf556d-721d-437c-bd1a-31938bb87784",
+    "state": "NH",
+    "session": "2024",
+    "identifier": "HB 1368",
+    "title": "prohibiting termination of a tenancy based on a tenant's failure to pay rent that was increased by certain price fixing programs.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1415&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/46c9c0f1-f787-40e0-912b-2c401ff6f0b3",
@@ -2381,28 +2469,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1363&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/5d3f01c4-3fa3-4665-9755-5b66aba0546a",
-    "state": "NH",
-    "session": "2018",
-    "identifier": "HB 1426",
-    "title": "requiring persons convicted of nonconsensual dissemination of private sexual images to register as a sexual offender.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1467&txtFormat=html"
-  },
-  {
     "bill_id": "ocd-bill/5ba2c82e-6cd3-4e24-ac29-e5707fcecaa2",
     "state": "NH",
     "session": "2024",
@@ -2423,6 +2489,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1294&txtFormat=pdf&v=current"
+  },
+  {
+    "bill_id": "ocd-bill/5d3f01c4-3fa3-4665-9755-5b66aba0546a",
+    "state": "NH",
+    "session": "2018",
+    "identifier": "HB 1426",
+    "title": "requiring persons convicted of nonconsensual dissemination of private sexual images to register as a sexual offender.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1467&txtFormat=html"
   },
   {
     "bill_id": "ocd-bill/7b443fff-3071-4e68-b878-e8f76dfac845",
@@ -2616,34 +2704,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1720&txtFormat=pdf&v=current"
-  },
-  {
-    "bill_id": "ocd-bill/94c56e82-99c5-49d6-967a-cee85744cc10",
-    "state": "NH",
-    "session": "2018",
-    "identifier": "HB 1451",
-    "title": "relative to employee work schedules and rest periods.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1233&txtFormat=html"
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1720&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/411d6386-133a-4a18-bb4d-02b82c2740c3",
@@ -2666,6 +2732,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": null
+  },
+  {
+    "bill_id": "ocd-bill/94c56e82-99c5-49d6-967a-cee85744cc10",
+    "state": "NH",
+    "session": "2018",
+    "identifier": "HB 1451",
+    "title": "relative to employee work schedules and rest periods.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1233&txtFormat=html"
   },
   {
     "bill_id": "ocd-bill/a2485094-de9e-4578-a96a-0c4a42eae7c6",
@@ -2712,28 +2800,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1315&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/2f550782-6410-4092-bb07-ac93e3467880",
-    "state": "NH",
-    "session": "2026",
-    "identifier": "HB 1460",
-    "title": "prohibiting the sale of location and other sensitive data regarding children.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": null
-  },
-  {
     "bill_id": "ocd-bill/a3cfbc3c-09d7-46a3-afdd-caaa3d16844e",
     "state": "NH",
     "session": "2018",
@@ -2754,6 +2820,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1347&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/2f550782-6410-4092-bb07-ac93e3467880",
+    "state": "NH",
+    "session": "2026",
+    "identifier": "HB 1460",
+    "title": "prohibiting the sale of location and other sensitive data regarding children.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null
   },
   {
     "bill_id": "ocd-bill/595b6aa2-45a1-4cce-9740-467ba9ff3be1",
@@ -2932,28 +3020,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-0547h&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/8350406b-a2dd-4041-9547-57733f972533",
-    "state": "NH",
-    "session": "2018",
-    "identifier": "HB 1492",
-    "title": "relative to a course of action when a child's attendance at a school has resulted in a manifest educational hardship.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1515&txtFormat=html"
-  },
-  {
     "bill_id": "ocd-bill/bba88eed-d3c6-411e-8cc8-e4def9bc7dca",
     "state": "NH",
     "session": "2024",
@@ -2974,6 +3040,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1849&txtFormat=pdf&v=current"
+  },
+  {
+    "bill_id": "ocd-bill/8350406b-a2dd-4041-9547-57733f972533",
+    "state": "NH",
+    "session": "2018",
+    "identifier": "HB 1492",
+    "title": "relative to a course of action when a child's attendance at a school has resulted in a manifest educational hardship.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1515&txtFormat=html"
   },
   {
     "bill_id": "ocd-bill/985ca17a-f45b-4d3a-8883-383a62020867",
@@ -3108,30 +3196,6 @@
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1844&txtFormat=pdf&v=current"
   },
   {
-    "bill_id": "ocd-bill/5711745c-0725-40f9-8428-0cf53d862a3c",
-    "state": "NH",
-    "session": "2024",
-    "identifier": "HB 1500",
-    "title": "relative to prohibiting the unlawful distribution of misleading synthetic media.",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1830&txtFormat=pdf&v=current"
-  },
-  {
     "bill_id": "ocd-bill/80130a20-d5c4-4a50-a2b4-8123f9019c3a",
     "state": "NH",
     "session": "2020",
@@ -3152,6 +3216,30 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=2020-0980h&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/5711745c-0725-40f9-8428-0cf53d862a3c",
+    "state": "NH",
+    "session": "2024",
+    "identifier": "HB 1500",
+    "title": "relative to prohibiting the unlawful distribution of misleading synthetic media.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "synthetic_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1830&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/b26ac734-ba5e-4c05-8646-ccefd526b4c5",
@@ -3880,6 +3968,28 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1311&txtFormat=html"
   },
   {
+    "bill_id": "ocd-bill/40f4062d-3c75-4156-be33-71b95f981609",
+    "state": "NH",
+    "session": "2024",
+    "identifier": "HB 1577",
+    "title": "relative to digital images of ballots.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1251&txtFormat=pdf&v=current"
+  },
+  {
     "bill_id": "ocd-bill/7a146bc1-90ef-4219-99f9-442eee346a9b",
     "state": "NH",
     "session": "2026",
@@ -3922,28 +4032,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1313&txtFormat=html"
-  },
-  {
-    "bill_id": "ocd-bill/40f4062d-3c75-4156-be33-71b95f981609",
-    "state": "NH",
-    "session": "2024",
-    "identifier": "HB 1577",
-    "title": "relative to digital images of ballots.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1251&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/49f8c8ba-e58c-4f7e-bbc5-804587592d66",
@@ -4089,16 +4177,16 @@
     "matched_concepts": [
       "deepfake_media",
       "generative_ai_variant",
-      "generative_ai",
       "adjacent_tech",
+      "generative_ai",
       "artificial_intelligence",
-      "synthetic_media",
       "ai_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -4146,8 +4234,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4926,6 +5014,28 @@
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1741&txtFormat=pdf&v=current"
   },
   {
+    "bill_id": "ocd-bill/f030100d-6ff1-4204-bd34-37317aedd462",
+    "state": "NH",
+    "session": "2018",
+    "identifier": "HB 1669",
+    "title": "relative to commerce in food in New Hampshire.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1133&txtFormat=html"
+  },
+  {
     "bill_id": "ocd-bill/8de96070-e898-4a47-8fee-0be331f16262",
     "state": "NH",
     "session": "2024",
@@ -4947,28 +5057,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1742&txtFormat=pdf&v=current"
-  },
-  {
-    "bill_id": "ocd-bill/f030100d-6ff1-4204-bd34-37317aedd462",
-    "state": "NH",
-    "session": "2018",
-    "identifier": "HB 1669",
-    "title": "relative to commerce in food in New Hampshire.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1133&txtFormat=html"
   },
   {
     "bill_id": "ocd-bill/2a0804d5-cbcb-4c4a-a855-d9ee6dcf0b04",
@@ -5103,28 +5191,6 @@
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1792&txtFormat=pdf&v=current"
   },
   {
-    "bill_id": "ocd-bill/62fc500a-70ca-4bd0-bcfa-4e7332f086da",
-    "state": "NH",
-    "session": "2024",
-    "identifier": "HB 1685",
-    "title": "redefining \"homestead foods\" as \"artisan foods,\" creating an artisan food operations exemption, establishing artisan food products sales venues, and allowing the production and sale of artisan food products requiring refrigeration.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1525&txtFormat=pdf&v=current"
-  },
-  {
     "bill_id": "ocd-bill/425cd6fc-7aa7-4684-9716-2d433960273c",
     "state": "NH",
     "session": "2018",
@@ -5145,6 +5211,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1448&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/62fc500a-70ca-4bd0-bcfa-4e7332f086da",
+    "state": "NH",
+    "session": "2024",
+    "identifier": "HB 1685",
+    "title": "redefining \"homestead foods\" as \"artisan foods,\" creating an artisan food operations exemption, establishing artisan food products sales venues, and allowing the production and sale of artisan food products requiring refrigeration.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1525&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/be546ddf-aee2-4cf1-9ffb-c3486f7d591a",
@@ -5201,20 +5289,20 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "adjacent_tech",
-      "ai_system",
-      "ai_system_composite",
+      "generative_ai",
       "deepfake_media",
       "generative_ai_variant",
-      "generative_ai"
+      "ai_system_composite",
+      "ai_system",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5457,8 +5545,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6830,29 +6918,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=621&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/64e58c61-b5d0-4245-8b34-92fa06908a28",
-    "state": "NH",
-    "session": "2025",
-    "identifier": "HB 297",
-    "title": "relative to providing self-funded employer health benefit plans access to their claims data.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2025&id=2025-2987h&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/98ccc279-aed8-454c-96a5-bef5025505b3",
     "state": "NH",
     "session": "2026",
@@ -6873,6 +6938,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": null
+  },
+  {
+    "bill_id": "ocd-bill/64e58c61-b5d0-4245-8b34-92fa06908a28",
+    "state": "NH",
+    "session": "2025",
+    "identifier": "HB 297",
+    "title": "relative to providing self-funded employer health benefit plans access to their claims data.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2025&id=2025-2987h&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/765af471-d1b1-45ff-aa0f-7e8abb842b80",
@@ -7315,28 +7403,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-1310h&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/ff0a6be0-2372-4d05-90af-1d865f30f27e",
-    "state": "NH",
-    "session": "2022",
-    "identifier": "HB 481",
-    "title": "establishing the office of the right-to-know ombudsman and making an appropriation therefor.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=665&txtFormat=pdf&v=current"
-  },
-  {
     "bill_id": "ocd-bill/470b8522-5c65-4dc1-acb3-f0dc7b9f2c71",
     "state": "NH",
     "session": "2020",
@@ -7357,6 +7423,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=28&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/ff0a6be0-2372-4d05-90af-1d865f30f27e",
+    "state": "NH",
+    "session": "2022",
+    "identifier": "HB 481",
+    "title": "establishing the office of the right-to-know ombudsman and making an appropriation therefor.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=665&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/e7d72d7f-478a-4ab6-a5e2-d62c784bcd3e",
@@ -7381,28 +7469,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=309&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/b38c707f-f4c5-40cc-a2c3-d31653aa274b",
-    "state": "NH",
-    "session": "2020",
-    "identifier": "HB 487",
-    "title": "establishing a registry for the deaf, hard of hearing, and deaf/blind in the department of health and human services.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=2019-0674h&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/ca0a0b30-b58f-4862-b6fb-dd1f9d5d995f",
     "state": "NH",
     "session": "2019",
@@ -7423,6 +7489,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-0674h&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/b38c707f-f4c5-40cc-a2c3-d31653aa274b",
+    "state": "NH",
+    "session": "2020",
+    "identifier": "HB 487",
+    "title": "establishing a registry for the deaf, hard of hearing, and deaf/blind in the department of health and human services.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=2019-0674h&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/6bae72d4-0c38-494d-99ae-a42b15488292",
@@ -7821,29 +7909,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=323&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/1de1d180-6005-426d-b2ff-1928fa613140",
-    "state": "NH",
-    "session": "2021",
-    "identifier": "HB 582",
-    "title": "relative to prescriptions for the treatment of attention deficit disorder, attention deficit disorder with hyperactivity, or narcolepsy.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2021&id=2021-0408h&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/fcf032f6-f6f1-43c6-9069-c3958106b955",
     "state": "NH",
     "session": "2018",
@@ -7864,6 +7929,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=543&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/1de1d180-6005-426d-b2ff-1928fa613140",
+    "state": "NH",
+    "session": "2021",
+    "identifier": "HB 582",
+    "title": "relative to prescriptions for the treatment of attention deficit disorder, attention deficit disorder with hyperactivity, or narcolepsy.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2021&id=2021-0408h&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/2e28506c-3f17-40a5-8bc0-4cfb9aee258b",
@@ -8108,28 +8196,6 @@
     "primary_url": null
   },
   {
-    "bill_id": "ocd-bill/4cf8fb41-7660-4a4d-a35d-12b1acd79a36",
-    "state": "NH",
-    "session": "2023",
-    "identifier": "HB 630",
-    "title": "establishing a revolving clean energy accelerator fund in the department of energy.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": null
-  },
-  {
     "bill_id": "ocd-bill/09800e00-9f7c-4adf-b723-267545c8b3a0",
     "state": "NH",
     "session": "2018",
@@ -8150,6 +8216,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=592&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/4cf8fb41-7660-4a4d-a35d-12b1acd79a36",
+    "state": "NH",
+    "session": "2023",
+    "identifier": "HB 630",
+    "title": "establishing a revolving clean energy accelerator fund in the department of energy.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null
   },
   {
     "bill_id": "ocd-bill/f89572f1-7038-4847-b39e-1f8a9a6f93a9",
@@ -8218,9 +8306,9 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2017&id=2017-2441h&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/459d56b9-1b05-48b8-ab6f-05736e0075b0",
+    "bill_id": "ocd-bill/b2790655-29f4-4bf9-a612-d7f8fa335488",
     "state": "NH",
-    "session": "2025",
+    "session": "2026",
     "identifier": "HB 639",
     "title": "relative to the use of and disputes over blockchain and digital currencies.",
     "updated": "",
@@ -8240,9 +8328,9 @@
     "primary_url": null
   },
   {
-    "bill_id": "ocd-bill/b2790655-29f4-4bf9-a612-d7f8fa335488",
+    "bill_id": "ocd-bill/459d56b9-1b05-48b8-ab6f-05736e0075b0",
     "state": "NH",
-    "session": "2026",
+    "session": "2025",
     "identifier": "HB 639",
     "title": "relative to the use of and disputes over blockchain and digital currencies.",
     "updated": "",
@@ -8284,28 +8372,6 @@
     "primary_url": null
   },
   {
-    "bill_id": "ocd-bill/33da1766-6cf3-462f-8581-b1396b3e7894",
-    "state": "NH",
-    "session": "2017",
-    "identifier": "HB 641",
-    "title": "relative to high school students participating in New Hampshire's dual and concurrent enrollment program and making an appropriation therefor.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2017&id=2017-0369h&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/e8dadb96-5bbf-44a6-8087-66dd5a86e711",
     "state": "NH",
     "session": "2018",
@@ -8326,6 +8392,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=350&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/33da1766-6cf3-462f-8581-b1396b3e7894",
+    "state": "NH",
+    "session": "2017",
+    "identifier": "HB 641",
+    "title": "relative to high school students participating in New Hampshire's dual and concurrent enrollment program and making an appropriation therefor.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2017&id=2017-0369h&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/ea4e91ac-4bba-4dc3-aa7e-f509f89ad135",
@@ -8945,6 +9033,50 @@
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NH2025000S300&ciq=urn:user:PA196471263&client_md=fabbeff6dee93cd9ae64f34d916aa2c2&mode=current_text"
   },
   {
+    "bill_id": "",
+    "state": "NH",
+    "session": "2025",
+    "identifier": "S 640",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NH2025000S640&ciq=urn:user:PA196471263&client_md=b728dfdba0b79f1221f1391779358838&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "NH",
+    "session": "2025",
+    "identifier": "S 657",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NH2025000S657&ciq=urn:user:PA196471263&client_md=8c4a280113943d2cbab8ab90ab8e82e3&mode=current_text"
+  },
+  {
     "bill_id": "ocd-bill/8f80e37a-2bef-4a73-8090-1fb27bce1784",
     "state": "NH",
     "session": "2021",
@@ -9320,28 +9452,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=607&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/1e2fcd60-edb1-43ab-9ad4-a26f3a015645",
-    "state": "NH",
-    "session": "2023",
-    "identifier": "SB 165",
-    "title": "relative to the online energy data platform.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": null
-  },
-  {
     "bill_id": "ocd-bill/4b07b773-b5a5-4d06-bbc1-8ab9685e1c67",
     "state": "NH",
     "session": "2024",
@@ -9362,6 +9472,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=2023-1138s&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/1e2fcd60-edb1-43ab-9ad4-a26f3a015645",
+    "state": "NH",
+    "session": "2023",
+    "identifier": "SB 165",
+    "title": "relative to the online energy data platform.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null
   },
   {
     "bill_id": "ocd-bill/7625ca59-8f27-4360-a302-22af41ff155c",
@@ -9408,28 +9540,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-2066h&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/f29c062a-f676-460b-84db-166620c6ff8f",
-    "state": "NH",
-    "session": "2018",
-    "identifier": "SB 193",
-    "title": "establishing education freedom savings accounts for students.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=914&txtFormat=html"
-  },
-  {
     "bill_id": "ocd-bill/b0c3e839-2b8a-4494-a7a6-5bc191ad59bc",
     "state": "NH",
     "session": "2019",
@@ -9450,6 +9560,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-1741h&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/f29c062a-f676-460b-84db-166620c6ff8f",
+    "state": "NH",
+    "session": "2018",
+    "identifier": "SB 193",
+    "title": "establishing education freedom savings accounts for students.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=914&txtFormat=html"
   },
   {
     "bill_id": "ocd-bill/858f408a-3dfd-478f-9a3a-b990ffbf749f",
@@ -9474,28 +9606,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-2668e&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/092ef6b2-a7c5-476d-81e3-21d387dc7f95",
-    "state": "NH",
-    "session": "2021",
-    "identifier": "SB 2",
-    "title": "allowing the preprocessing of absentee ballots for certain 2021 elections and allowing for the postponement of annual town meetings in calendar year 2021 where concerns exist during the COVID-19 health emergency.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2021&id=2021-0005s&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/5c574fa4-a14a-4a45-b0f6-8a44039c3495",
     "state": "NH",
     "session": "2022",
@@ -9516,6 +9626,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2021-0005s&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/092ef6b2-a7c5-476d-81e3-21d387dc7f95",
+    "state": "NH",
+    "session": "2021",
+    "identifier": "SB 2",
+    "title": "allowing the preprocessing of absentee ballots for certain 2021 elections and allowing for the postponement of annual town meetings in calendar year 2021 where concerns exist during the COVID-19 health emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2021&id=2021-0005s&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/4f6892a1-177f-4e1f-9285-80e9fbcee51a",
@@ -9584,28 +9716,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=899&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/873fc6cb-9965-4170-b647-35d829a498bb",
-    "state": "NH",
-    "session": "2017",
-    "identifier": "SB 215",
-    "title": "requiring the department of administrative services to assess the costs of allowing the community college system employees to participate in the state health plan.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2017&id=2017-1527h&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/990f1868-c6b5-4bb2-a37b-5b37b9b0fb0c",
     "state": "NH",
     "session": "2018",
@@ -9626,6 +9736,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=964&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/873fc6cb-9965-4170-b647-35d829a498bb",
+    "state": "NH",
+    "session": "2017",
+    "identifier": "SB 215",
+    "title": "requiring the department of administrative services to assess the costs of allowing the community college system employees to participate in the state health plan.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2017&id=2017-1527h&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/c040c18f-9779-4f56-ab99-813c613ae6ae",
@@ -9673,28 +9805,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-1171s&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/cce3d09b-6fdc-4697-8ba4-076139b9fc02",
-    "state": "NH",
-    "session": "2019",
-    "identifier": "SB 223",
-    "title": "increasing the minimum gross business income required for filing a business profits tax return.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-2871s&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/9d919a33-52d2-4462-aaca-b8871a2bb9db",
     "state": "NH",
     "session": "2020",
@@ -9715,6 +9825,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=2019-2871s&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/cce3d09b-6fdc-4697-8ba4-076139b9fc02",
+    "state": "NH",
+    "session": "2019",
+    "identifier": "SB 223",
+    "title": "increasing the minimum gross business income required for filing a business profits tax return.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-2871s&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/1223614a-1e74-40a3-afed-3e187a0fc644",
@@ -9858,8 +9990,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "large_language_model",
       "llm_variant",
+      "large_language_model",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -10051,28 +10183,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2017&id=2017-1775h&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/0536256f-c34e-4190-9383-d1528cd54a7c",
-    "state": "NH",
-    "session": "2018",
-    "identifier": "SB 301",
-    "title": "temporarily reducing the real estate transfer tax for first-time home buyers.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1933&txtFormat=html"
-  },
-  {
     "bill_id": "ocd-bill/e28741a5-8fdb-48ac-ab9f-52d1117e6039",
     "state": "NH",
     "session": "2022",
@@ -10093,6 +10203,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-1526h&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/0536256f-c34e-4190-9383-d1528cd54a7c",
+    "state": "NH",
+    "session": "2018",
+    "identifier": "SB 301",
+    "title": "temporarily reducing the real estate transfer tax for first-time home buyers.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1933&txtFormat=html"
   },
   {
     "bill_id": "ocd-bill/c49a312f-cba9-4df8-a282-0c4367cbe99c",
@@ -10470,28 +10602,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-0654s&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/2494a0ad-722c-40c6-9fd4-628abe9527d5",
-    "state": "NH",
-    "session": "2018",
-    "identifier": "SB 358",
-    "title": "relative to reorganization of the department of education.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1941&txtFormat=html"
-  },
-  {
     "bill_id": "ocd-bill/da7302ac-9aab-40fc-94ad-48b21aa1583f",
     "state": "NH",
     "session": "2022",
@@ -10512,6 +10622,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2022&id=2022-1645h&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/2494a0ad-722c-40c6-9fd4-628abe9527d5",
+    "state": "NH",
+    "session": "2018",
+    "identifier": "SB 358",
+    "title": "relative to reorganization of the department of education.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1941&txtFormat=html"
   },
   {
     "bill_id": "ocd-bill/b39c0b16-ab62-4143-b15e-23466d042db4",
@@ -10947,8 +11079,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11131,28 +11263,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1892&txtFormat=html"
   },
   {
-    "bill_id": "ocd-bill/81e7e5b1-f231-4b63-94ea-39d2385f0355",
-    "state": "NH",
-    "session": "2026",
-    "identifier": "SB 439",
-    "title": "relative to municipal data center zoning.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": null
-  },
-  {
     "bill_id": "ocd-bill/001bbd60-f9c5-4323-b92d-fadedc50d997",
     "state": "NH",
     "session": "2018",
@@ -11174,6 +11284,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1899&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/81e7e5b1-f231-4b63-94ea-39d2385f0355",
+    "state": "NH",
+    "session": "2026",
+    "identifier": "SB 439",
+    "title": "relative to municipal data center zoning.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null
   },
   {
     "bill_id": "ocd-bill/0d44a8c0-4878-46b3-8069-60f1ac76b36d",
@@ -11433,8 +11565,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11904,28 +12036,6 @@
     "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1956&txtFormat=pdf&v=current"
   },
   {
-    "bill_id": "ocd-bill/be4b45e4-da9c-4495-925b-bbfec83c15a6",
-    "state": "NH",
-    "session": "2024",
-    "identifier": "SB 555",
-    "title": "relative to receipt of pharmaceutical rebates by insurers and pharmacy benefits managers.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1961&txtFormat=pdf&v=current"
-  },
-  {
     "bill_id": "ocd-bill/ded0d620-384a-4a9c-89fd-74b2f70999ea",
     "state": "NH",
     "session": "2018",
@@ -11946,6 +12056,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=1948&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/be4b45e4-da9c-4495-925b-bbfec83c15a6",
+    "state": "NH",
+    "session": "2024",
+    "identifier": "SB 555",
+    "title": "relative to receipt of pharmaceutical rebates by insurers and pharmacy benefits managers.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2024&id=1961&txtFormat=pdf&v=current"
   },
   {
     "bill_id": "ocd-bill/1827cf86-6542-417e-9ca2-0f4c65248b45",
@@ -12434,28 +12566,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=2020-1062s&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/ed878916-c8d9-4874-b71d-6966bd098cc5",
-    "state": "NH",
-    "session": "2017",
-    "identifier": "SB 7",
-    "title": "relative to eligibility for food stamps and establishing the Granite Workforce pilot program.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2017&id=2017-1189s&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/6c6b311a-7b1f-48a2-9841-12bb6a0fd10f",
     "state": "NH",
     "session": "2019",
@@ -12498,6 +12608,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=922&txtFormat=html"
+  },
+  {
+    "bill_id": "ocd-bill/ed878916-c8d9-4874-b71d-6966bd098cc5",
+    "state": "NH",
+    "session": "2017",
+    "identifier": "SB 7",
+    "title": "relative to eligibility for food stamps and establishing the Granite Workforce pilot program.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2017&id=2017-1189s&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/e09d191d-4b7c-4fdd-b16f-42c1ebf77920",
@@ -12655,28 +12787,6 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2020&id=2020-0757s&txtFormat=amend"
   },
   {
-    "bill_id": "ocd-bill/4c2aae91-868b-4f3b-80fb-500d49f35b09",
-    "state": "NH",
-    "session": "2021",
-    "identifier": "SB 74",
-    "title": "relative to advance directives for health care decisions.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2021&id=2021-1022s&txtFormat=amend"
-  },
-  {
     "bill_id": "ocd-bill/bc26e9d2-ddb8-415b-84c8-cd5c54354b01",
     "state": "NH",
     "session": "2019",
@@ -12697,6 +12807,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2019&id=2019-2329h&txtFormat=amend"
+  },
+  {
+    "bill_id": "ocd-bill/4c2aae91-868b-4f3b-80fb-500d49f35b09",
+    "state": "NH",
+    "session": "2021",
+    "identifier": "SB 74",
+    "title": "relative to advance directives for health care decisions.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/legacy/bs2016/billText.aspx?sy=2021&id=2021-1022s&txtFormat=amend"
   },
   {
     "bill_id": "ocd-bill/f714f0b3-3514-411f-aa4d-654fd716b6a2",

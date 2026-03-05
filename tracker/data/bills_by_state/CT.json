@@ -90,6 +90,28 @@
   {
     "bill_id": "",
     "state": "CT",
+    "session": "2026",
+    "identifier": "H 5342",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:CT2026000H5342&ciq=urn:user:PA196471263&client_md=6bfdaca6c19ff087c1243e3527d297f7&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "CT",
     "session": "2025",
     "identifier": "H 5587",
     "title": "",
@@ -485,6 +507,28 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05032-R01-HB.htm"
   },
   {
+    "bill_id": "ocd-bill/2bbf20fc-ccb8-4f37-aaa9-0a746680e796",
+    "state": "CT",
+    "session": "2018",
+    "identifier": "HB 5035",
+    "title": "AN ACT ADJUSTING THE STATE BUDGET FOR THE BIENNIUM ENDING JUNE 30, 2019.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05035-R00-HB.htm"
+  },
+  {
     "bill_id": "ocd-bill/0819a1d6-98ba-4bdb-ab2b-1509f1eb2a9e",
     "state": "CT",
     "session": "2017",
@@ -506,28 +550,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/h/2017HB-05035-R00-HB.htm"
-  },
-  {
-    "bill_id": "ocd-bill/2bbf20fc-ccb8-4f37-aaa9-0a746680e796",
-    "state": "CT",
-    "session": "2018",
-    "identifier": "HB 5035",
-    "title": "AN ACT ADJUSTING THE STATE BUDGET FOR THE BIENNIUM ENDING JUNE 30, 2019.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05035-R00-HB.htm"
   },
   {
     "bill_id": "ocd-bill/b7e90dd2-7888-40f4-9fb9-74bdcece4b7e",
@@ -900,8 +922,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -974,28 +996,6 @@
     "primary_url": "https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-05162-R00-HB.PDF"
   },
   {
-    "bill_id": "ocd-bill/35f5f20a-d507-4f95-b3e7-53d9ec95fd84",
-    "state": "CT",
-    "session": "2018",
-    "identifier": "HB 5163",
-    "title": "AN ACT CONCERNING THE DEPARTMENT OF PUBLIC HEALTH'S RECOMMENDATIONS REGARDING VARIOUS REVISIONS TO THE PUBLIC HEALTH STATUTES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05163-R01-HB.htm"
-  },
-  {
     "bill_id": "ocd-bill/83206077-483b-4c61-b6ad-325d5353d2b5",
     "state": "CT",
     "session": "2025",
@@ -1016,6 +1016,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-05163-R00-HB.PDF"
+  },
+  {
+    "bill_id": "ocd-bill/35f5f20a-d507-4f95-b3e7-53d9ec95fd84",
+    "state": "CT",
+    "session": "2018",
+    "identifier": "HB 5163",
+    "title": "AN ACT CONCERNING THE DEPARTMENT OF PUBLIC HEALTH'S RECOMMENDATIONS REGARDING VARIOUS REVISIONS TO THE PUBLIC HEALTH STATUTES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05163-R01-HB.htm"
   },
   {
     "bill_id": "ocd-bill/74bea438-ffb4-4d0c-8696-5bd84723b6c7",
@@ -1151,6 +1173,28 @@
     "primary_url": null
   },
   {
+    "bill_id": "ocd-bill/b9766f73-6abf-4077-874c-2e382143721c",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "HB 5187",
+    "title": "AN ACT ADJUSTING THE FISCAL GUARDRAILS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05187-R00-HB.PDF"
+  },
+  {
     "bill_id": "ocd-bill/b239c4a1-967d-4281-b316-dfef01a12a46",
     "state": "CT",
     "session": "2018",
@@ -1259,6 +1303,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.cga.ct.gov/2020/TOB/H/PDF/2020HB-05210-R00-HB.PDF"
+  },
+  {
+    "bill_id": "ocd-bill/9cdd14db-5e9c-4441-a1fb-ea7cecec5025",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "HB 5210",
+    "title": "AN ACT ESTABLISHING VARIOUS DATA SECURITY REQUIREMENTS APPLICABLE TO CERTAIN FINANCIAL INSTITUTIONS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05210-R00-HB.PDF"
   },
   {
     "bill_id": "ocd-bill/8570fc88-5601-452b-bc3f-5ebeba3e62f7",
@@ -1393,6 +1459,28 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05223-R00-HB.htm"
   },
   {
+    "bill_id": "ocd-bill/19244d4d-f2c1-44cd-a919-2775b85cce61",
+    "state": "CT",
+    "session": "2018",
+    "identifier": "HB 5227",
+    "title": "AN ACT CONCERNING THE INTIMIDATION ON ACCOUNT OF OCCUPATION AS A PUBLIC SAFETY EMPLOYEE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05227-R02-HB.htm"
+  },
+  {
     "bill_id": "ocd-bill/f44bfbfa-b962-457b-b3ea-0f255b97e0d8",
     "state": "CT",
     "session": "2017",
@@ -1414,28 +1502,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/h/2017HB-05227-R00-HB.htm"
-  },
-  {
-    "bill_id": "ocd-bill/19244d4d-f2c1-44cd-a919-2775b85cce61",
-    "state": "CT",
-    "session": "2018",
-    "identifier": "HB 5227",
-    "title": "AN ACT CONCERNING THE INTIMIDATION ON ACCOUNT OF OCCUPATION AS A PUBLIC SAFETY EMPLOYEE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05227-R02-HB.htm"
   },
   {
     "bill_id": "ocd-bill/bbb5da5f-33bc-4f27-9d9b-20a9f13f8ee4",
@@ -1498,8 +1564,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1521,8 +1587,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1677,8 +1743,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1832,8 +1898,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2103,6 +2169,51 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05341-R02-HB.htm"
+  },
+  {
+    "bill_id": "ocd-bill/f39b7307-84e1-464c-8805-e80eafdef1e5",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "HB 5342",
+    "title": "AN ACT CONCERNING THE USE OF ARTIFICIAL INTELLIGENCE AND OTHER MEANS TO GENERATE DECEPTIVE SYNTHETIC MEDIA AND AFFECT ELECTIONS.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "synthetic_media",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05342-R00-HB.PDF"
+  },
+  {
+    "bill_id": "ocd-bill/458e8aa9-f7d6-418b-961d-fd1591789f93",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "HB 5353",
+    "title": "AN ACT REQUIRING DATA TRANSPARENCY FOR SELF-DIRECTED HOME CARE PROGRAMS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05353-R00-HB.PDF"
   },
   {
     "bill_id": "ocd-bill/3b155856-fa31-4bce-813d-0ea78c37aa33",
@@ -2450,8 +2561,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2480,28 +2591,6 @@
     "primary_url": null
   },
   {
-    "bill_id": "ocd-bill/4c133620-af6b-4e37-86b3-c93d06eacc94",
-    "state": "CT",
-    "session": "2018",
-    "identifier": "HB 5421",
-    "title": "AN ACT ADOPTING THE INTERSTATE COMPACT TO ELECT THE PRESIDENT OF THE UNITED STATES BY NATIONAL POPULAR VOTE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05421-R01-HB.htm"
-  },
-  {
     "bill_id": "ocd-bill/d1b71e92-6289-451a-8497-67e7cd96e6b7",
     "state": "CT",
     "session": "2024",
@@ -2522,6 +2611,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.cga.ct.gov/2024/TOB/H/PDF/2024HB-05421-R00-HB.PDF"
+  },
+  {
+    "bill_id": "ocd-bill/4c133620-af6b-4e37-86b3-c93d06eacc94",
+    "state": "CT",
+    "session": "2018",
+    "identifier": "HB 5421",
+    "title": "AN ACT ADOPTING THE INTERSTATE COMPACT TO ELECT THE PRESIDENT OF THE UNITED STATES BY NATIONAL POPULAR VOTE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05421-R01-HB.htm"
   },
   {
     "bill_id": "ocd-bill/ff2b7e91-96dd-483c-b598-15ea39224a33",
@@ -2612,28 +2723,6 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/h/2017HB-05434-R02-HB.htm"
   },
   {
-    "bill_id": "ocd-bill/048756c0-2d76-4b45-84c6-bdbcf3225f62",
-    "state": "CT",
-    "session": "2018",
-    "identifier": "HB 5438",
-    "title": "AN ACT CONCERNING MINOR AND TECHNICAL CHANGES TO COMMERCE-RELATED STATUTES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05438-R01-HB.htm"
-  },
-  {
     "bill_id": "ocd-bill/d960fbea-c008-45ab-b62a-e5ea282a6230",
     "state": "CT",
     "session": "2019",
@@ -2654,6 +2743,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": null
+  },
+  {
+    "bill_id": "ocd-bill/048756c0-2d76-4b45-84c6-bdbcf3225f62",
+    "state": "CT",
+    "session": "2018",
+    "identifier": "HB 5438",
+    "title": "AN ACT CONCERNING MINOR AND TECHNICAL CHANGES TO COMMERCE-RELATED STATUTES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05438-R01-HB.htm"
   },
   {
     "bill_id": "ocd-bill/c8155bad-1e1e-43b7-95dd-5ad39c48a940",
@@ -2701,11 +2812,11 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05444-R01-HB.htm"
   },
   {
-    "bill_id": "ocd-bill/18e2494e-de1e-4ae1-98ba-b4592d6ad8ac",
+    "bill_id": "ocd-bill/f56a927e-daa7-4b0b-ac93-fd6ac2018941",
     "state": "CT",
-    "session": "2021",
+    "session": "2019",
     "identifier": "HB 5445",
-    "title": "AN ACT ESTABLISHING NET ZERO CARBON BUILDING INITIATIVES THROUGH A BUSINESS ACCELERATOR.",
+    "title": "AN ACT ESTABLISHING A REGISTRY OF DATA ON AMNIOTIC FLUID EMBOLISM OCCURRENCES.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -2723,11 +2834,11 @@
     "primary_url": null
   },
   {
-    "bill_id": "ocd-bill/f56a927e-daa7-4b0b-ac93-fd6ac2018941",
+    "bill_id": "ocd-bill/18e2494e-de1e-4ae1-98ba-b4592d6ad8ac",
     "state": "CT",
-    "session": "2019",
+    "session": "2021",
     "identifier": "HB 5445",
-    "title": "AN ACT ESTABLISHING A REGISTRY OF DATA ON AMNIOTIC FLUID EMBOLISM OCCURRENCES.",
+    "title": "AN ACT ESTABLISHING NET ZERO CARBON BUILDING INITIATIVES THROUGH A BUSINESS ACCELERATOR.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -2895,8 +3006,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2947,28 +3058,6 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05485-R01-HB.htm"
   },
   {
-    "bill_id": "ocd-bill/f875d609-da7c-42cd-b175-e8467620f42d",
-    "state": "CT",
-    "session": "2018",
-    "identifier": "HB 5490",
-    "title": "AN ACT CONCERNING CONSUMER CREDIT LICENSES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05490-R01-HB.htm"
-  },
-  {
     "bill_id": "ocd-bill/0d216afb-5b63-47f1-b5fc-86ef961ace6a",
     "state": "CT",
     "session": "2023",
@@ -2989,6 +3078,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.cga.ct.gov/2023/TOB/H/PDF/2023HB-05490-R00-HB.PDF"
+  },
+  {
+    "bill_id": "ocd-bill/f875d609-da7c-42cd-b175-e8467620f42d",
+    "state": "CT",
+    "session": "2018",
+    "identifier": "HB 5490",
+    "title": "AN ACT CONCERNING CONSUMER CREDIT LICENSES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05490-R01-HB.htm"
   },
   {
     "bill_id": "ocd-bill/501dde17-850d-4565-b08e-7293429fa21f",
@@ -3099,6 +3210,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/h/2018HB-05496-R00-HB.htm"
+  },
+  {
+    "bill_id": "ocd-bill/f0656251-c216-4d3b-b4de-6557eb925ea9",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "HB 5497",
+    "title": "AN ACT ESTABLISHING A TASK FORCE TO STUDY THE EFFECTS OF ARTIFICIAL INTELLIGENCE ON THE TRADES INDUSTRY AND REQUIRING A STUDY OF A CERTIFIED NURSING ASSISTANT TRAINING PROGRAM.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/H/PDF/2026HB-05497-R00-HB.PDF"
   },
   {
     "bill_id": "ocd-bill/d72fb1ab-c443-42d6-9790-96949f6e00b3",
@@ -3756,8 +3889,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4272,28 +4405,6 @@
     "primary_url": null
   },
   {
-    "bill_id": "ocd-bill/ed6436f4-56f6-436d-973f-69f3eaefcf7c",
-    "state": "CT",
-    "session": "2025",
-    "identifier": "HB 5955",
-    "title": "AN ACT REQUIRING AN IMPACT EVALUATION CONCERNING LARGE DATA CENTERS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": null
-  },
-  {
     "bill_id": "ocd-bill/750b61dc-94b3-4b65-87d6-b3b0239925ab",
     "state": "CT",
     "session": "2017",
@@ -4314,6 +4425,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/h/2017HB-05955-R00-HB.htm"
+  },
+  {
+    "bill_id": "ocd-bill/ed6436f4-56f6-436d-973f-69f3eaefcf7c",
+    "state": "CT",
+    "session": "2025",
+    "identifier": "HB 5955",
+    "title": "AN ACT REQUIRING AN IMPACT EVALUATION CONCERNING LARGE DATA CENTERS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null
   },
   {
     "bill_id": "ocd-bill/da6fa468-b74a-4dca-8c5a-024c366da7cc",
@@ -4617,8 +4750,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4640,8 +4773,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5176,28 +5309,6 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/h/2017HB-06482-R02-HB.htm"
   },
   {
-    "bill_id": "ocd-bill/e1df8572-31b5-488b-8ee4-81d8bcf83856",
-    "state": "CT",
-    "session": "2023",
-    "identifier": "HB 6497",
-    "title": "AN ACT CONCERNING A STUDY OF ENERGY DATA COLLECTION AND PUBLIC ACCESS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.cga.ct.gov/2023/TOB/H/PDF/2023HB-06497-R00-HB.PDF"
-  },
-  {
     "bill_id": "ocd-bill/84107e10-7e35-4843-b1a0-feaede3887dc",
     "state": "CT",
     "session": "2025",
@@ -5218,6 +5329,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-06497-R00-HB.PDF"
+  },
+  {
+    "bill_id": "ocd-bill/e1df8572-31b5-488b-8ee4-81d8bcf83856",
+    "state": "CT",
+    "session": "2023",
+    "identifier": "HB 6497",
+    "title": "AN ACT CONCERNING A STUDY OF ENERGY DATA COLLECTION AND PUBLIC ACCESS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2023/TOB/H/PDF/2023HB-06497-R00-HB.PDF"
   },
   {
     "bill_id": "ocd-bill/e0642083-68fa-433a-8026-04daa46e9c6f",
@@ -5610,8 +5743,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5699,8 +5832,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5745,8 +5878,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5834,8 +5967,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5946,8 +6079,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6170,8 +6303,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6266,28 +6399,6 @@
     "primary_url": null
   },
   {
-    "bill_id": "ocd-bill/e61d7964-c061-4b93-bd9a-ca1ee7fcb4c0",
-    "state": "CT",
-    "session": "2023",
-    "identifier": "HB 6899",
-    "title": "AN ACT CONCERNING ACCESS BY THE LEGISLATIVE OFFICE OF FISCAL ANALYSIS TO CERTAIN EDUCATION DATA.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.cga.ct.gov/2023/TOB/H/PDF/2023HB-06899-R00-HB.PDF"
-  },
-  {
     "bill_id": "ocd-bill/57f3dea8-5f82-4b2e-8b2b-a578ad908a67",
     "state": "CT",
     "session": "2017",
@@ -6308,6 +6419,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/h/2017HB-06899-R00-HB.htm"
+  },
+  {
+    "bill_id": "ocd-bill/e61d7964-c061-4b93-bd9a-ca1ee7fcb4c0",
+    "state": "CT",
+    "session": "2023",
+    "identifier": "HB 6899",
+    "title": "AN ACT CONCERNING ACCESS BY THE LEGISLATIVE OFFICE OF FISCAL ANALYSIS TO CERTAIN EDUCATION DATA.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2023/TOB/H/PDF/2023HB-06899-R00-HB.PDF"
   },
   {
     "bill_id": "ocd-bill/b52be6a9-265c-435a-8b97-00aae2b0dfa9",
@@ -8513,6 +8646,28 @@
   {
     "bill_id": "",
     "state": "CT",
+    "session": "2026",
+    "identifier": "S 4",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:CT2026000S4&ciq=urn:user:PA196471263&client_md=e3ad3baae5ca762d45280b65aaf455e2&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "CT",
     "session": "2025",
     "identifier": "S 447",
     "title": "",
@@ -9041,6 +9196,31 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/s/2017SB-00011-R01-SB.htm"
   },
   {
+    "bill_id": "ocd-bill/49c125a9-31d6-471a-b115-fd59a24b99d0",
+    "state": "CT",
+    "session": "2023",
+    "identifier": "SB 1103",
+    "title": "AN ACT CONCERNING ARTIFICIAL INTELLIGENCE, AUTOMATED DECISION-MAKING AND PERSONAL DATA PRIVACY.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "automated_decision_system",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2023/TOB/S/PDF/2023SB-01103-R00-SB.PDF"
+  },
+  {
     "bill_id": "ocd-bill/fecd5e48-131d-42b2-aa61-83ee9e286838",
     "state": "CT",
     "session": "2019",
@@ -9061,31 +9241,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": null
-  },
-  {
-    "bill_id": "ocd-bill/49c125a9-31d6-471a-b115-fd59a24b99d0",
-    "state": "CT",
-    "session": "2023",
-    "identifier": "SB 1103",
-    "title": "AN ACT CONCERNING ARTIFICIAL INTELLIGENCE, AUTOMATED DECISION-MAKING AND PERSONAL DATA PRIVACY.",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech",
-      "automated_decision_system"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.cga.ct.gov/2023/TOB/S/PDF/2023SB-01103-R00-SB.PDF"
   },
   {
     "bill_id": "ocd-bill/e682562f-506d-4fde-b9fc-a9457000afee",
@@ -9251,12 +9406,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title"
@@ -9751,6 +9906,28 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/s/2018SB-00170-R01-SB.htm"
   },
   {
+    "bill_id": "ocd-bill/3944a7ce-d068-41ab-857e-f4b2b508641a",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "SB 173",
+    "title": "AN ACT AUTHORIZING BONDS OF THE STATE FOR A MULTIMODAL TRACK ON A PORTION OF CONNECTICUT ROUTE 117.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00173-R00-SB.PDF"
+  },
+  {
     "bill_id": "ocd-bill/83b8961b-5df9-4202-a677-a275359c8a51",
     "state": "CT",
     "session": "2018",
@@ -10037,6 +10214,28 @@
     "primary_url": "https://www.cga.ct.gov/2024/TOB/S/PDF/2024SB-00229-R00-SB.PDF"
   },
   {
+    "bill_id": "ocd-bill/7d47f728-0027-46a3-af1f-ac79176ac869",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "SB 23",
+    "title": "AN ACT CONCERNING FUNDING FOR YOUTH SERVICE BUREAU DATA REPORTING.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00023-R00-SB.PDF"
+  },
+  {
     "bill_id": "ocd-bill/8123f0b4-0127-4c28-9d57-eda322afefe0",
     "state": "CT",
     "session": "2018",
@@ -10079,6 +10278,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/s/2018SB-00243-R01-SB.htm"
+  },
+  {
+    "bill_id": "ocd-bill/d5be8254-753c-4ccf-8969-cc6b243a7b00",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "SB 245",
+    "title": "AN ACT ELIMINATING CERTAIN TAX INCENTIVES FOR DATA CENTERS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00245-R00-SB.PDF"
   },
   {
     "bill_id": "ocd-bill/8881f6e0-7897-4204-af75-7b8bd90a28a7",
@@ -10206,8 +10427,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10454,6 +10675,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/s/2018SB-00287-R01-SB.htm"
+  },
+  {
+    "bill_id": "ocd-bill/b8f2b8b2-37cd-4626-b60e-65ef4de29db4",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "SB 288",
+    "title": "AN ACT CONCERNING THE DEPARTMENT OF SOCIAL SERVICES' RECOMMENDATIONS REGARDING EXCEPTIONS TO THE NURSING HOME BED MORATORIUM, NURSING HOME RESIDENT DATA AND NURSING HOME REIMBURSEMENT RATE CAPS FOR RELATED PARTY EMPLOYEES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00288-R00-SB.PDF"
   },
   {
     "bill_id": "ocd-bill/60c8955f-8843-4512-b841-3ec077ccfa8c",
@@ -11095,6 +11338,28 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/s/2018SB-00364-R02-SB.htm"
   },
   {
+    "bill_id": "ocd-bill/a121538b-6c93-4742-a4e4-b5c77ae514aa",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "SB 375",
+    "title": "AN ACT CONCERNING SCHOOL MAPPING DATA SERVICES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00375-R00-SB.PDF"
+  },
+  {
     "bill_id": "ocd-bill/f422996c-b49a-47c8-88e4-9449b5efdd71",
     "state": "CT",
     "session": "2024",
@@ -11159,6 +11424,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/s/2018SB-00383-R00-SB.htm"
+  },
+  {
+    "bill_id": "ocd-bill/05d97ade-3e69-4219-b07a-ceae62d0fbe5",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "SB 384",
+    "title": "AN ACT CONCERNING DATA GOVERNANCE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00384-R00-SB.PDF"
   },
   {
     "bill_id": "ocd-bill/baed5d49-db4d-4267-9805-21395421df52",
@@ -11331,8 +11618,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11471,6 +11758,28 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/s/2018SB-00417-R01-SB.htm"
   },
   {
+    "bill_id": "ocd-bill/5da4d5ab-31f0-479c-8665-eedae7f4cbf5",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "SB 417",
+    "title": "AN ACT REQUIRING THE DEPARTMENT OF ECONOMIC AND COMMUNITY DEVELOPMENT TO DEVELOP A PLAN TO ESTABLISH AN ARTIFICIAL INTELLIGENCE SMALL BUSINESS PROGRAM.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00417-R00-SB.PDF"
+  },
+  {
     "bill_id": "ocd-bill/6a544071-d04b-4e3e-9a09-edd268496bec",
     "state": "CT",
     "session": "2017",
@@ -11513,6 +11822,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.cga.ct.gov/2025/TOB/S/PDF/2025SB-00043-R00-SB.PDF"
+  },
+  {
+    "bill_id": "ocd-bill/d0adb0a9-b964-4a99-92a0-fd8c98020b11",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "SB 435",
+    "title": "AN ACT CONCERNING AUTOMATED DECISION SYSTEMS PROTECTIONS FOR EMPLOYEES.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00435-R00-SB.PDF"
   },
   {
     "bill_id": "ocd-bill/3a3d498e-e5c2-44a5-9b6b-f99fdaa2adfb",
@@ -11736,28 +12067,6 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/s/2017SB-00447-R02-SB.htm"
   },
   {
-    "bill_id": "ocd-bill/6f30180f-914e-4028-84f3-cf83e8dd8781",
-    "state": "CT",
-    "session": "2021",
-    "identifier": "SB 451",
-    "title": "AN ACT CONCERNING CAPS ON INTERNET DATA USAGE, REGULATING CABLE TELEVISION RATES AND INFORMATION SERVICES, DEVELOPING STANDARD CONTRACTUAL TERMS FOR INFORMATION SERVICES AND AMENDING THE CONNECTICUT ANTITRUST ACT.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": null
-  },
-  {
     "bill_id": "ocd-bill/df298b4b-a9ec-4d47-8948-c23af837e122",
     "state": "CT",
     "session": "2018",
@@ -11778,6 +12087,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/s/2018SB-00451-R00-SB.htm"
+  },
+  {
+    "bill_id": "ocd-bill/6f30180f-914e-4028-84f3-cf83e8dd8781",
+    "state": "CT",
+    "session": "2021",
+    "identifier": "SB 451",
+    "title": "AN ACT CONCERNING CAPS ON INTERNET DATA USAGE, REGULATING CABLE TELEVISION RATES AND INFORMATION SERVICES, DEVELOPING STANDARD CONTRACTUAL TERMS FOR INFORMATION SERVICES AND AMENDING THE CONNECTICUT ANTITRUST ACT.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null
   },
   {
     "bill_id": "ocd-bill/7ab4c2c5-2257-40a2-80b4-4c564e24952d",
@@ -12618,28 +12949,6 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/s/2017SB-00600-R00-SB.htm"
   },
   {
-    "bill_id": "ocd-bill/badb339c-76a2-482c-bbf6-f38251b7a880",
-    "state": "CT",
-    "session": "2023",
-    "identifier": "SB 660",
-    "title": "AN ACT ESTABLISHING A TASK FORCE TO STUDY THE FEASIBILITY OF DEVELOPING A MULTIMODAL TRANSPORTATION CENTER IN THE TOWNS OF STONINGTON AND GROTON.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.cga.ct.gov/2023/TOB/S/PDF/2023SB-00660-R00-SB.PDF"
-  },
-  {
     "bill_id": "ocd-bill/d3b5df07-e74c-461f-a52b-e85951cb5cb7",
     "state": "CT",
     "session": "2017",
@@ -12663,6 +12972,28 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/s/2017SB-00660-R00-SB.htm"
   },
   {
+    "bill_id": "ocd-bill/badb339c-76a2-482c-bbf6-f38251b7a880",
+    "state": "CT",
+    "session": "2023",
+    "identifier": "SB 660",
+    "title": "AN ACT ESTABLISHING A TASK FORCE TO STUDY THE FEASIBILITY OF DEVELOPING A MULTIMODAL TRANSPORTATION CENTER IN THE TOWNS OF STONINGTON AND GROTON.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2023/TOB/S/PDF/2023SB-00660-R00-SB.PDF"
+  },
+  {
     "bill_id": "ocd-bill/e3245544-501e-4fd7-aaaa-fdf85208c1cb",
     "state": "CT",
     "session": "2017",
@@ -12678,8 +13009,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -12746,8 +13077,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13166,8 +13497,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13526,6 +13857,28 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/s/2017SB-00856-R00-SB.htm"
   },
   {
+    "bill_id": "ocd-bill/79a47777-b89a-4a19-9519-a3d4d7616b45",
+    "state": "CT",
+    "session": "2026",
+    "identifier": "SB 86",
+    "title": "AN ACT ADDRESSING INNOVATIONS IN AND THE RESPONSIBLE USE OF ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.cga.ct.gov/2026/TOB/S/PDF/2026SB-00086-R00-SB.PDF"
+  },
+  {
     "bill_id": "ocd-bill/81d6d088-84fa-4184-a8b5-e8a293acfda6",
     "state": "CT",
     "session": "2017",
@@ -13680,28 +14033,6 @@
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/s/2017SB-00895-R02-SB.htm"
   },
   {
-    "bill_id": "ocd-bill/3294f666-5c26-4576-9e6b-7d771fe99608",
-    "state": "CT",
-    "session": "2018",
-    "identifier": "SB 9",
-    "title": "AN ACT CONCERNING CONNECTICUT'S ENERGY FUTURE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/s/2018SB-00009-R01-SB.htm"
-  },
-  {
     "bill_id": "ocd-bill/a2aec008-2d9b-4bf0-b87c-0128efd72278",
     "state": "CT",
     "session": "2017",
@@ -13722,6 +14053,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "ftp://ftp.cga.ct.gov/2017/tob/s/2017SB-00009-R01-SB.htm"
+  },
+  {
+    "bill_id": "ocd-bill/3294f666-5c26-4576-9e6b-7d771fe99608",
+    "state": "CT",
+    "session": "2018",
+    "identifier": "SB 9",
+    "title": "AN ACT CONCERNING CONNECTICUT'S ENERGY FUTURE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "ftp://ftp.cga.ct.gov/2018/tob/s/2018SB-00009-R01-SB.htm"
   },
   {
     "bill_id": "ocd-bill/4ce3dff4-446c-4cad-bdae-0a17e20c2a32",

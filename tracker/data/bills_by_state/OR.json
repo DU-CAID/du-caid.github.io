@@ -245,6 +245,28 @@
     "bill_id": "",
     "state": "OR",
     "session": "2026",
+    "identifier": "H 4054",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OR2026000H4054&ciq=urn:user:PA196471263&client_md=9980ae1bb824bb7da3cd175f2c55af94&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "OR",
+    "session": "2026",
     "identifier": "H 4103",
     "title": "",
     "updated": "",
@@ -286,6 +308,29 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2005/Senate%20Amendments%20to%20B-Engrossed"
   },
   {
+    "bill_id": "ocd-bill/f795bf00-bec8-4836-b963-70841df345ad",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 2008",
+    "title": "Relating to consumer protection.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2008/Senate%20Amendments%20to%20A-Engrossed"
+  },
+  {
     "bill_id": "ocd-bill/77317214-7539-4330-a48d-6a462a6a9a4c",
     "state": "OR",
     "session": "2023R1",
@@ -306,29 +351,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2008/Introduced"
-  },
-  {
-    "bill_id": "ocd-bill/f795bf00-bec8-4836-b963-70841df345ad",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 2008",
-    "title": "Relating to consumer protection.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2008/Senate%20Amendments%20to%20A-Engrossed"
   },
   {
     "bill_id": "ocd-bill/dcfa4d90-4ebf-4b07-aed2-2beaeb95893c",
@@ -434,8 +456,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -508,28 +530,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2033/Introduced"
   },
   {
-    "bill_id": "ocd-bill/9bc95178-7317-4cee-bba9-72b96b79c8b5",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 2041",
-    "title": "Relating to apprenticeship.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2041/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/5c6379e7-daca-4c0f-8cad-ab8eec24a625",
     "state": "OR",
     "session": "2025R1",
@@ -550,6 +550,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2041/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/9bc95178-7317-4cee-bba9-72b96b79c8b5",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 2041",
+    "title": "Relating to apprenticeship.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2041/Introduced"
   },
   {
     "bill_id": "ocd-bill/9eea6781-b16c-4212-aca2-46b94bf968b4",
@@ -596,28 +618,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2047/Introduced"
   },
   {
-    "bill_id": "ocd-bill/93a23e46-42e4-49de-a54d-7d115aeb1da7",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 2051",
-    "title": "Relating to insurance coverage for drivers that are affiliated with transportation network companies; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2051/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/ec51d167-8323-4e71-bec8-139511eef199",
     "state": "OR",
     "session": "2025R1",
@@ -640,6 +640,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2051/Introduced"
   },
   {
+    "bill_id": "ocd-bill/93a23e46-42e4-49de-a54d-7d115aeb1da7",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 2051",
+    "title": "Relating to insurance coverage for drivers that are affiliated with transportation network companies; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2051/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/3751cddf-6c95-4805-a354-92140e1f95b9",
     "state": "OR",
     "session": "2023R1",
@@ -655,8 +677,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
+      "abstract",
       "title"
     ],
     "in_ncsl": false,
@@ -856,8 +878,8 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1827,8 +1849,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2012,28 +2034,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2267/Introduced"
   },
   {
-    "bill_id": "ocd-bill/0a8f8f4a-6304-4edc-b3ce-b31a994dad40",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 2268",
-    "title": "Relating to health care cost sharing arrangements; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2268/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/b242efbb-6e4a-4830-bb82-8a6814884f04",
     "state": "OR",
     "session": "2023R1",
@@ -2054,6 +2054,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2268/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/0a8f8f4a-6304-4edc-b3ce-b31a994dad40",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 2268",
+    "title": "Relating to health care cost sharing arrangements; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2268/Introduced"
   },
   {
     "bill_id": "ocd-bill/d8346ef6-c6e6-4523-9ce1-7871b88fd0a4",
@@ -2489,8 +2511,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3005,28 +3027,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2426/Introduced"
   },
   {
-    "bill_id": "ocd-bill/a1c79667-2565-4f21-95b7-919ff7eb199c",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 2429",
-    "title": "Relating to court-appointed counsel.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2429/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/de449d6c-201b-47cc-abb0-0006058a59db",
     "state": "OR",
     "session": "2025R1",
@@ -3047,6 +3047,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2429/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/a1c79667-2565-4f21-95b7-919ff7eb199c",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 2429",
+    "title": "Relating to court-appointed counsel.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2429/Introduced"
   },
   {
     "bill_id": "ocd-bill/4bc60e42-0c08-41e9-813a-2974dd54a16e",
@@ -3328,8 +3350,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3490,28 +3512,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2473/Introduced"
   },
   {
-    "bill_id": "ocd-bill/78e601c2-4390-4090-8610-da26b47e57c7",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 2481",
-    "title": "Relating to behavioral health.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/ProposedAmendment/29271"
-  },
-  {
     "bill_id": "ocd-bill/ab9b584c-8fba-4b52-97d6-877aa0d79fc1",
     "state": "OR",
     "session": "2023R1",
@@ -3532,6 +3532,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2481/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/78e601c2-4390-4090-8610-da26b47e57c7",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 2481",
+    "title": "Relating to behavioral health.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/ProposedAmendment/29271"
   },
   {
     "bill_id": "ocd-bill/fea940da-f522-48db-927f-e6e3f32904a9",
@@ -3660,8 +3682,8 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3708,8 +3730,8 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4062,8 +4084,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4136,28 +4158,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2573/Introduced"
   },
   {
-    "bill_id": "ocd-bill/c568d9d8-a283-4d0a-baab-48730a9be8a2",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 2583",
-    "title": "Relating to physician assistants.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2583/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/32ab0eb9-a066-490d-a065-0ce6ab774827",
     "state": "OR",
     "session": "2025R1",
@@ -4178,6 +4178,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2583/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/c568d9d8-a283-4d0a-baab-48730a9be8a2",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 2583",
+    "title": "Relating to physician assistants.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2583/Introduced"
   },
   {
     "bill_id": "ocd-bill/9b0ebd5a-90a4-47f5-8b53-b21fa839db60",
@@ -4576,30 +4598,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2636/Introduced"
   },
   {
-    "bill_id": "ocd-bill/ce25e52c-3e6c-44b1-8551-a2d73bda510f",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 2638",
-    "title": "Relating to temperatures in school buildings.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2638/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/9e391a2c-ebd0-46aa-a210-54a108fd2715",
     "state": "OR",
     "session": "2025R1",
@@ -4620,6 +4618,30 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2638/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/ce25e52c-3e6c-44b1-8551-a2d73bda510f",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 2638",
+    "title": "Relating to temperatures in school buildings.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2638/Introduced"
   },
   {
     "bill_id": "ocd-bill/2fbaa3f9-9928-401b-8a2e-88965ed1b4ed",
@@ -4924,8 +4946,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5123,8 +5145,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5549,28 +5571,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2748/Introduced"
   },
   {
-    "bill_id": "ocd-bill/74955c61-f65f-4923-8ee4-59a764b422ff",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 2751",
-    "title": "Relating to community health worker services; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2751/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/0e3dca7c-6bc8-446d-b42a-0c760cd48600",
     "state": "OR",
     "session": "2023R1",
@@ -5592,6 +5592,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2751/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/74955c61-f65f-4923-8ee4-59a764b422ff",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 2751",
+    "title": "Relating to community health worker services; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2751/Introduced"
   },
   {
     "bill_id": "ocd-bill/7e06d77c-beb1-415b-81b2-a311b89de225",
@@ -5653,8 +5675,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5683,28 +5705,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2762/Introduced"
   },
   {
-    "bill_id": "ocd-bill/8827d0c3-5ad9-406e-83b8-29085a625fb4",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 2764",
-    "title": "Relating to programs in the Department of Human Services; declaring an emergency.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2764/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/222f37ff-5982-434f-9207-efaad8474315",
     "state": "OR",
     "session": "2023R1",
@@ -5725,6 +5725,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2764/Senate%20Amendments%20to%20A-Engrossed"
+  },
+  {
+    "bill_id": "ocd-bill/8827d0c3-5ad9-406e-83b8-29085a625fb4",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 2764",
+    "title": "Relating to programs in the Department of Human Services; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2764/Introduced"
   },
   {
     "bill_id": "ocd-bill/680be000-20cf-4295-b58e-ee4e86140a59",
@@ -6116,8 +6138,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6667,8 +6689,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6690,8 +6712,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -7154,34 +7176,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2977/Introduced"
-  },
-  {
-    "bill_id": "ocd-bill/a23e8a63-1bfd-4b35-afc8-aeff0585bfac",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 2978",
-    "title": "Relating to natural resources.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2978/Introduced"
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2977/Introduced"
   },
   {
     "bill_id": "ocd-bill/ef41f6b2-eec0-44ea-8390-889e1331dd28",
@@ -7204,6 +7204,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2978/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/a23e8a63-1bfd-4b35-afc8-aeff0585bfac",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 2978",
+    "title": "Relating to natural resources.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2978/Introduced"
   },
   {
     "bill_id": "ocd-bill/1b3382c7-4701-420b-b0b8-fba68b915793",
@@ -7338,28 +7360,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2998/Introduced"
   },
   {
-    "bill_id": "ocd-bill/82dfe727-c6af-4be5-9f69-9c688c32c73b",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 2999",
-    "title": "Relating to habitat connectivity; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2999/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/1cc10e32-71ff-48fd-8c17-bd568c751f65",
     "state": "OR",
     "session": "2025R1",
@@ -7381,6 +7381,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2999/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/82dfe727-c6af-4be5-9f69-9c688c32c73b",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 2999",
+    "title": "Relating to habitat connectivity; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB2999/Introduced"
   },
   {
     "bill_id": "ocd-bill/b3d73da0-82b2-43d2-92d0-766f60046dec",
@@ -7421,8 +7443,8 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -7708,8 +7730,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -7797,8 +7819,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8064,8 +8086,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8383,28 +8405,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3108/Introduced"
   },
   {
-    "bill_id": "ocd-bill/323703a2-a9eb-4eda-bc7b-b103315d6af1",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 3111",
-    "title": "Relating to evictions; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3111/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/3d843fee-90fb-47d0-aa7f-85c2a49581ad",
     "state": "OR",
     "session": "2023R1",
@@ -8425,6 +8425,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3111/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/323703a2-a9eb-4eda-bc7b-b103315d6af1",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 3111",
+    "title": "Relating to evictions; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3111/Introduced"
   },
   {
     "bill_id": "ocd-bill/cf8de917-f97e-45b6-b0f3-97235f0c1a67",
@@ -8464,8 +8486,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8575,8 +8597,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8796,8 +8818,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8819,8 +8841,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8871,28 +8893,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3174/Introduced"
   },
   {
-    "bill_id": "ocd-bill/e19e5f1b-d41e-4d3d-922f-16a19eff18fe",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 3176",
-    "title": "Relating to support services; declaring an emergency.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3176/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/dcd1d773-4095-46fd-ac8d-8c11cab5ebb5",
     "state": "OR",
     "session": "2025R1",
@@ -8913,6 +8913,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3176/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/e19e5f1b-d41e-4d3d-922f-16a19eff18fe",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 3176",
+    "title": "Relating to support services; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3176/Introduced"
   },
   {
     "bill_id": "ocd-bill/7e7c081e-880f-4eb2-81fe-b882ed51f8e6",
@@ -9025,30 +9047,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3202/Introduced"
   },
   {
-    "bill_id": "ocd-bill/d40a58d9-7e2f-41ad-93a4-1e2ffda683e2",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 3204",
-    "title": "Relating to student attendance data.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3204/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/d5e032c2-fd01-4f0c-a32d-4516f6c56cbb",
     "state": "OR",
     "session": "2023R1",
@@ -9064,12 +9062,36 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3204/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/d40a58d9-7e2f-41ad-93a4-1e2ffda683e2",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 3204",
+    "title": "Relating to student attendance data.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3204/Introduced"
   },
   {
     "bill_id": "ocd-bill/6615d0be-c255-4c6c-8f0c-fb81b488a967",
@@ -9087,8 +9109,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9249,29 +9271,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3215/Introduced"
   },
   {
-    "bill_id": "ocd-bill/0da245f7-56d4-49fe-b0af-28e152e4d994",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 3216",
-    "title": "Relating to redistricting.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3216/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/be9b23d6-4cd1-4c24-b125-5c40467eb59d",
     "state": "OR",
     "session": "2025R1",
@@ -9292,6 +9291,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3216/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/0da245f7-56d4-49fe-b0af-28e152e4d994",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 3216",
+    "title": "Relating to redistricting.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3216/Introduced"
   },
   {
     "bill_id": "ocd-bill/4eeb46e2-a10e-472d-a0ea-aa280a4b6427",
@@ -9595,9 +9617,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9815,8 +9837,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -9870,28 +9892,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3320/Introduced"
   },
   {
-    "bill_id": "ocd-bill/61843cf4-3169-42a8-bbff-92fe5914e77a",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 3325",
-    "title": "Relating to transient lodging taxes; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3325/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/2b80b575-be5e-44b2-8879-412b05f3f39e",
     "state": "OR",
     "session": "2023R1",
@@ -9912,6 +9912,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3325/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/61843cf4-3169-42a8-bbff-92fe5914e77a",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 3325",
+    "title": "Relating to transient lodging taxes; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3325/Introduced"
   },
   {
     "bill_id": "ocd-bill/bfe3b5dd-c208-4de0-a15b-2dd19e40e6c2",
@@ -10018,9 +10040,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10291,28 +10313,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3371/Introduced"
   },
   {
-    "bill_id": "ocd-bill/31e25f6b-ddce-4a91-88a8-548cd26c9c1f",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 3374",
-    "title": "Relating to vehicle crashes.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3374/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/5aedb6e7-2590-4dc6-a9d6-d71a28114057",
     "state": "OR",
     "session": "2025R1",
@@ -10335,6 +10335,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3374/Introduced"
   },
   {
+    "bill_id": "ocd-bill/31e25f6b-ddce-4a91-88a8-548cd26c9c1f",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 3374",
+    "title": "Relating to vehicle crashes.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3374/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/893e0785-5a42-4cd1-ba9a-b77f089a3efe",
     "state": "OR",
     "session": "2023R1",
@@ -10350,8 +10372,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
       "raw_text",
+      "title",
       "abstract"
     ],
     "in_ncsl": false,
@@ -10727,9 +10749,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
+      "abstract",
       "title",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10780,28 +10802,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3444/Introduced"
   },
   {
-    "bill_id": "ocd-bill/668b7633-b2c5-432b-9692-68ab5037dcd7",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 3451",
-    "title": "Relating to the forest products harvest tax; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3451/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/5957a659-f5ff-49c2-a7af-894d8c419d80",
     "state": "OR",
     "session": "2025R1",
@@ -10822,6 +10822,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3451/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/668b7633-b2c5-432b-9692-68ab5037dcd7",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 3451",
+    "title": "Relating to the forest products harvest tax; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3451/Introduced"
   },
   {
     "bill_id": "ocd-bill/1f8c55ca-7222-4a40-9193-f66077d25078",
@@ -10978,28 +11000,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3467/Introduced"
   },
   {
-    "bill_id": "ocd-bill/b865ce60-566b-4229-94af-ac2db23200f8",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 3468",
-    "title": "Relating to updating voter registration information; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3468/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/ea6e4624-e480-4bf3-ba4e-199af87f1301",
     "state": "OR",
     "session": "2023R1",
@@ -11020,6 +11020,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3468/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/b865ce60-566b-4229-94af-ac2db23200f8",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 3468",
+    "title": "Relating to updating voter registration information; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3468/Introduced"
   },
   {
     "bill_id": "ocd-bill/93b08d5e-9119-47e8-adc0-661a4f191962",
@@ -11198,28 +11220,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3489/Introduced"
   },
   {
-    "bill_id": "ocd-bill/2cfe6657-4d0c-400f-9dfb-ac0d1052e074",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "HB 3490",
-    "title": "Relating to natural climate solutions; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3490/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/0723a506-1b74-4561-b948-c74d5fbdad0c",
     "state": "OR",
     "session": "2025R1",
@@ -11240,6 +11240,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3490/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/2cfe6657-4d0c-400f-9dfb-ac0d1052e074",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "HB 3490",
+    "title": "Relating to natural climate solutions; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3490/Introduced"
   },
   {
     "bill_id": "ocd-bill/ba811687-d41d-4030-aff9-6ae278af0bd4",
@@ -11609,8 +11631,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11720,8 +11742,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11971,35 +11993,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3590/Introduced"
   },
   {
-    "bill_id": "ocd-bill/8721fb93-2454-475a-b934-18f66caa796a",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 3592",
-    "title": "Relating to artificial intelligence.",
-    "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "algorithmic_tool",
-      "ai_system_composite",
-      "artificial_intelligence",
-      "adjacent_tech",
-      "ai_model_variant"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/ProposedAmendment/29538"
-  },
-  {
     "bill_id": "ocd-bill/32f859b2-a2cd-48d1-ae61-ee2129344b4a",
     "state": "OR",
     "session": "2023R1",
@@ -12020,6 +12013,35 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3592/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/8721fb93-2454-475a-b934-18f66caa796a",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 3592",
+    "title": "Relating to artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "algorithmic_tool",
+      "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/ProposedAmendment/29538"
   },
   {
     "bill_id": "ocd-bill/f784bd4d-adad-40c7-9d8c-0d4a2f9bf3ec",
@@ -12213,8 +12235,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -12287,28 +12309,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3615/Introduced"
   },
   {
-    "bill_id": "ocd-bill/557d6274-1cef-4ddf-8e26-6356f1fd1715",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HB 3620",
-    "title": "Relating to the public purpose charge.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3620/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/c4f56391-c28f-433a-aa23-7de41cd4803c",
     "state": "OR",
     "session": "2023R1",
@@ -12329,6 +12329,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HB3620/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/557d6274-1cef-4ddf-8e26-6356f1fd1715",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HB 3620",
+    "title": "Relating to the public purpose charge.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3620/Introduced"
   },
   {
     "bill_id": "ocd-bill/8deff148-371d-4eda-83de-921ea4853e4b",
@@ -12833,8 +12855,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13232,9 +13254,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13432,8 +13454,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
       "raw_text",
+      "title",
       "abstract"
     ],
     "in_ncsl": false,
@@ -13456,8 +13478,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13523,9 +13545,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13673,16 +13695,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14035,8 +14057,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14066,6 +14088,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/ProposedAmendment/26135"
   },
   {
+    "bill_id": "ocd-bill/a52abc8a-fd9d-422c-889d-3599dfc64e7b",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4003",
+    "title": "Relating to medical assistance; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4003/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/cd973355-e610-491f-951a-bf645d14c854",
     "state": "OR",
     "session": "2024R1",
@@ -14086,6 +14130,72 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4006/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/8c2ceca4-7898-429d-820c-918eb0275d4a",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4007",
+    "title": "Relating to transportation; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4007/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/d43645ea-b56d-4287-a3cd-46f5af3919f6",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4009",
+    "title": "Relating to transportation; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4009/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/d62e811a-d21f-4eb9-af74-b35e310b7176",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4010",
+    "title": "Relating to required payments for changes to the scope of work on construction contracts; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4010/Introduced"
   },
   {
     "bill_id": "ocd-bill/907932cb-cdc2-4b21-b415-80b4c91e2d5c",
@@ -14132,6 +14242,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4015/Introduced"
   },
   {
+    "bill_id": "ocd-bill/a0693d45-42c6-4e3e-af4a-a98742b1ac5d",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4015",
+    "title": "Relating to connection to federal tax law; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4015/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/1fa43626-df40-44ea-948e-b79f6bbbdecf",
     "state": "OR",
     "session": "2024R1",
@@ -14154,6 +14286,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4016/Introduced"
   },
   {
+    "bill_id": "ocd-bill/21862048-aedf-44ae-ac2c-f769aa13a5c0",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4017",
+    "title": "Relating to use of campaign contributions; and declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4017/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/a6b3894e-ec1b-43da-9747-254e549a5979",
     "state": "OR",
     "session": "2022R1",
@@ -14170,8 +14324,8 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14200,6 +14354,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4023/Introduced"
   },
   {
+    "bill_id": "ocd-bill/d718df3a-f2c7-47db-85f9-9c2243684a47",
+    "state": "OR",
+    "session": "2024R1",
+    "identifier": "HB 4024",
+    "title": "Relating to campaign finance; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4024/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/73751e87-3dbf-4f2c-993f-f4bffd57804c",
     "state": "OR",
     "session": "2022R1",
@@ -14222,11 +14398,11 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4024/Introduced"
   },
   {
-    "bill_id": "ocd-bill/d718df3a-f2c7-47db-85f9-9c2243684a47",
+    "bill_id": "ocd-bill/a0487610-59e9-4d1a-9919-09b1b26ff54d",
     "state": "OR",
-    "session": "2024R1",
-    "identifier": "HB 4024",
-    "title": "Relating to campaign finance; prescribing an effective date.",
+    "session": "2026R1",
+    "identifier": "HB 4028",
+    "title": "Relating to behavioral health.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -14237,11 +14413,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4024/Introduced"
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4028/Introduced"
   },
   {
     "bill_id": "ocd-bill/bf37e1b7-27a8-4cc3-9298-d31caae34df8",
@@ -14266,6 +14442,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4029/Introduced"
   },
   {
+    "bill_id": "ocd-bill/745e1d74-6dc2-42f2-8f91-55d9bbbf7d5d",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4029",
+    "title": "Relating to solar energy systems; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4029/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/40213265-2d56-4685-8b3a-e4ef648ae602",
     "state": "OR",
     "session": "2022R1",
@@ -14286,6 +14484,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/ProposedAmendment/22397"
+  },
+  {
+    "bill_id": "ocd-bill/68d7d567-fa04-4e4a-b00c-40997f17c492",
+    "state": "OR",
+    "session": "2024R1",
+    "identifier": "HB 4031",
+    "title": "Relating to public records; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4031/Introduced"
   },
   {
     "bill_id": "ocd-bill/47d9b444-2fb9-4307-ad8b-acafe583d379",
@@ -14310,11 +14530,11 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4031/Introduced"
   },
   {
-    "bill_id": "ocd-bill/68d7d567-fa04-4e4a-b00c-40997f17c492",
+    "bill_id": "ocd-bill/615b029a-0771-4709-8f8f-76f88dbaf5e9",
     "state": "OR",
     "session": "2024R1",
-    "identifier": "HB 4031",
-    "title": "Relating to public records; declaring an emergency.",
+    "identifier": "HB 4034",
+    "title": "Relating to connection to federal tax law; prescribing an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -14325,11 +14545,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4031/Introduced"
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4034/Introduced"
   },
   {
     "bill_id": "ocd-bill/5a9696b5-7106-4c11-abe7-ee86d9297232",
@@ -14355,28 +14575,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4034/Introduced"
   },
   {
-    "bill_id": "ocd-bill/615b029a-0771-4709-8f8f-76f88dbaf5e9",
-    "state": "OR",
-    "session": "2024R1",
-    "identifier": "HB 4034",
-    "title": "Relating to connection to federal tax law; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4034/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/e48d61f1-0192-4e30-a40c-08826fdcc907",
     "state": "OR",
     "session": "2024R1",
@@ -14399,6 +14597,29 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4036/Introduced"
   },
   {
+    "bill_id": "ocd-bill/8d599008-46d0-4847-a7b9-d85fea03a5cd",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4039",
+    "title": "Relating to medical assistance; and declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4039/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/30fcd93d-c891-4985-965d-aaafd7b020fc",
     "state": "OR",
     "session": "2022R1",
@@ -14419,6 +14640,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4039/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/13161044-14f6-458f-8fdb-23a07869eecc",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4040",
+    "title": "Relating to health care; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4040/Introduced"
   },
   {
     "bill_id": "ocd-bill/477e46cf-109e-4fec-8771-a857f8bd1a68",
@@ -14465,6 +14709,50 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4042/Introduced"
   },
   {
+    "bill_id": "ocd-bill/ac084e4d-8db3-45e9-b1a2-33e452b76c49",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4044",
+    "title": "Relating to emergency management.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4044/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/b6d05ee5-25e5-4ee6-9fc5-0e5984a610a4",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4045",
+    "title": "Relating to search warrant response time limits; and declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4045/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/9f417a2a-5422-4274-82c1-45c068697c8d",
     "state": "OR",
     "session": "2022R1",
@@ -14485,28 +14773,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4045/Introduced"
-  },
-  {
-    "bill_id": "ocd-bill/7e926fdf-a788-4ec5-8ce5-8a7622cb2cce",
-    "state": "OR",
-    "session": "2024R1",
-    "identifier": "HB 4048",
-    "title": "Relating to housing; declaring an emergency.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4048/Introduced"
   },
   {
     "bill_id": "ocd-bill/5730ed0a-1ade-4186-b40c-b479aeda0998",
@@ -14531,6 +14797,95 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4048/Introduced"
   },
   {
+    "bill_id": "ocd-bill/7e926fdf-a788-4ec5-8ce5-8a7622cb2cce",
+    "state": "OR",
+    "session": "2024R1",
+    "identifier": "HB 4048",
+    "title": "Relating to housing; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4048/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/30daa062-4ed1-4b54-a1b9-fc5a7f6ba849",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4049",
+    "title": "Relating to Harney Basin water; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4049/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/446eaa08-50a0-47a5-94e7-a0ee578543fb",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4053",
+    "title": "Relating to emergency medical services; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4053/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/90fbc201-1a4e-446b-a7b6-3168690d8732",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4054",
+    "title": "Relating to downcoding.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4054/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/70047ebd-dae2-48c8-a8a9-0d6efe002fcb",
     "state": "OR",
     "session": "2022R1",
@@ -14546,12 +14901,34 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4055/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/315e1fe6-16e9-479e-82de-634988f1ee42",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4055",
+    "title": "Relating to information security; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4055/Introduced"
   },
   {
     "bill_id": "ocd-bill/f0b28958-558d-4399-a8a6-269e8477fdc2",
@@ -14591,12 +14968,34 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4058/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/b4f0d8e8-05d3-4108-98cf-d2e1e2e6a666",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4059",
+    "title": "Relating to child abuse; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4059/Introduced"
   },
   {
     "bill_id": "ocd-bill/924b37ba-43c1-4b67-8220-53132d3885f2",
@@ -14641,6 +15040,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4062/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/345a6d26-0701-4d56-8744-7ee7819d7b10",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4066",
+    "title": "Relating to education; and declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4066/Introduced"
   },
   {
     "bill_id": "ocd-bill/dfd5189b-6927-480b-9933-a97ada293af3",
@@ -14753,6 +15174,50 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4070/Introduced"
   },
   {
+    "bill_id": "ocd-bill/e17c0450-1bc8-4aba-bf12-c05942c45e5e",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4070",
+    "title": "Relating to health care; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4070/Senate%20Amendments%20to%20A-Engrossed"
+  },
+  {
+    "bill_id": "ocd-bill/eac0d643-7d9e-49c7-b7c9-4fd54bea00ef",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4073",
+    "title": "Relating to administrative law.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4073/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/445dd292-93bf-4c15-b617-b8fab03ddc5d",
     "state": "OR",
     "session": "2024R1",
@@ -14821,6 +15286,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4079/Introduced"
   },
   {
+    "bill_id": "ocd-bill/fc52401c-7019-4f81-bc2b-09fab9d59376",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4081",
+    "title": "Relating to photo radar in highway work zones.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4081/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/b1707cfd-a2ea-4e17-9343-be05261827ad",
     "state": "OR",
     "session": "2024R1",
@@ -14836,8 +15323,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14888,6 +15375,51 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4084/Introduced"
   },
   {
+    "bill_id": "ocd-bill/7f9039ae-0e4b-4975-b555-c84980cdbed8",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4084",
+    "title": "Relating to economic development; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/ProposedAmendment/30789"
+  },
+  {
+    "bill_id": "ocd-bill/58ef7376-d690-42f7-bf20-600cd6a0073e",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4085",
+    "title": "Relating to autonomous vehicles.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4085/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/ce356c57-130c-4016-bef7-a61266ebffa6",
     "state": "OR",
     "session": "2024R1",
@@ -14903,8 +15435,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14931,6 +15463,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4089/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/469afada-408f-462e-bf5a-72905f12a630",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4090",
+    "title": "Relating to county vehicle registration fees; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4090/Introduced"
   },
   {
     "bill_id": "ocd-bill/dccf413f-51d5-4b26-b3b0-eb78cc518269",
@@ -14970,8 +15524,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -15023,6 +15577,50 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4092/Introduced"
   },
   {
+    "bill_id": "ocd-bill/bee1adcc-58ad-4999-932b-15df36055f00",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4092",
+    "title": "Relating to child safety systems.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4092/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/cf7cbeaf-6d0b-40eb-9d21-51e998212ba9",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4095",
+    "title": "Relating to semi-independent state agencies.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4095/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/89183033-d6bf-43e1-adcd-1250f71777c6",
     "state": "OR",
     "session": "2024R1",
@@ -15043,6 +15641,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4095/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/1e34a103-c19f-4430-afe6-f5cd3a8c2af1",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4099",
+    "title": "Relating to a task force on veterans in crisis; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4099/Introduced"
   },
   {
     "bill_id": "ocd-bill/506c6e46-fab5-4fe5-87d9-21cca006ab0a",
@@ -15111,6 +15731,34 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4101/Introduced"
   },
   {
+    "bill_id": "ocd-bill/171245c1-8623-47d0-aad4-2374c3b9f624",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4103",
+    "title": "Relating to artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "algorithmic_tool",
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/ProposedAmendment/30621"
+  },
+  {
     "bill_id": "ocd-bill/1046a7bd-0b18-4ea1-a372-d38e23a6c061",
     "state": "OR",
     "session": "2022R1",
@@ -15133,6 +15781,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4104/Introduced"
   },
   {
+    "bill_id": "ocd-bill/eb7f7821-f0c7-434d-9356-5f846795323f",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4105",
+    "title": "Relating to reliable forest management outcomes; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4105/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/caa91a98-addb-4242-91fb-b2fa31c43f0f",
     "state": "OR",
     "session": "2024R1",
@@ -15153,6 +15823,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4106/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/b3d1a311-a11b-43f6-9cc5-01fd475fad15",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4109",
+    "title": "Relating to unemployment insurance benefits.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4109/Introduced"
   },
   {
     "bill_id": "ocd-bill/ef3d360a-fdfb-4c84-9fd2-70f6b391cc75",
@@ -15221,6 +15913,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4115/Introduced"
   },
   {
+    "bill_id": "ocd-bill/336bcb78-1382-43a5-8ddc-e314f76ea047",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4115",
+    "title": "Relating to health care providers; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4115/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/e011f93f-1ea8-4ef9-9620-e8cf942ac19a",
     "state": "OR",
     "session": "2022R1",
@@ -15244,6 +15958,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4116/Introduced"
   },
   {
+    "bill_id": "ocd-bill/19606d13-59a8-4797-a88d-a8e47a1bee39",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4116",
+    "title": "Relating to consumer finance loans; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4116/Senate%20Minority%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/b1ab5562-d97c-4e1c-96f1-5a6cc50ab218",
     "state": "OR",
     "session": "2024R1",
@@ -15264,6 +16000,50 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4117/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/162c5a54-e574-4ff0-983f-56e14e644e53",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4118",
+    "title": "Relating to food; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4118/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/c97a2633-48fb-4c38-9133-75cbb5045e89",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4119",
+    "title": "Relating to workers' compensation.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4119/Introduced"
   },
   {
     "bill_id": "ocd-bill/a8cb1891-51fb-4bea-b3cd-d296e70e7bbd",
@@ -15310,6 +16090,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4121/Introduced"
   },
   {
+    "bill_id": "ocd-bill/fdde0d97-2ef5-4d31-96da-c780d508276d",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4122",
+    "title": "Relating to student government at public universities.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4122/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/21462318-d25c-481c-a2d0-9953ab41044d",
     "state": "OR",
     "session": "2022R1",
@@ -15347,12 +16149,56 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4125/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/4e88b20b-fb36-4757-8324-30d6925f6fa3",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4125",
+    "title": "Relating to revenue estimates; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4125/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/97af7dd6-c244-4f4d-a7e5-60ca94e650cd",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4126",
+    "title": "Relating to road usage charges; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4126/Introduced"
   },
   {
     "bill_id": "ocd-bill/4bc1b1b0-1192-4f35-86e4-90bef9eb7215",
@@ -15375,6 +16221,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4128/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/f39c2f5a-64cd-42fb-a1bc-88400ccc248d",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4133",
+    "title": "Relating to alignment with federal education law; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4133/Introduced"
   },
   {
     "bill_id": "ocd-bill/f29ea15d-65ac-461a-8103-e225b9a80aea",
@@ -15414,8 +16283,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -15488,6 +16357,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/HB4138/Introduced"
   },
   {
+    "bill_id": "ocd-bill/35441256-e6ce-4c84-93c6-9e4fa6b1bc09",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4139",
+    "title": "Relating to cannabis; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4139/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/a8a45be6-c6ee-4bd1-b9f7-178e91f6e376",
     "state": "OR",
     "session": "2024R1",
@@ -15510,6 +16401,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4139/Introduced"
   },
   {
+    "bill_id": "ocd-bill/413a3df9-1cc3-4616-b947-9345a3fb428b",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4140",
+    "title": "Relating to metal property.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4140/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/7a9cdd34-d544-4f18-b9eb-815e6cbedc6f",
     "state": "OR",
     "session": "2022R1",
@@ -15530,6 +16443,50 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/ProposedAmendment/22242"
+  },
+  {
+    "bill_id": "ocd-bill/42a86dd2-211e-4d23-a1fc-dffff56abd68",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4141",
+    "title": "Relating to debt resolution services; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4141/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/6e798874-dded-4af5-936d-c225fdb79c40",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4142",
+    "title": "Relating to marijuana for medical use; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4142/Introduced"
   },
   {
     "bill_id": "ocd-bill/20a928aa-2643-4fe9-a747-b93d88435bf6",
@@ -15598,6 +16555,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4145/Senate%20Amendments%20to%20A-Engrossed"
   },
   {
+    "bill_id": "ocd-bill/0aad57e1-65f1-427c-a1b4-1f636b6b388b",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4147",
+    "title": "Relating to medical assistance; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4147/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/86f3205d-58f4-4e93-8a40-e37d48ea1882",
     "state": "OR",
     "session": "2024R1",
@@ -15618,6 +16597,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4148/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/ccffa416-38b3-4d44-b1c0-51ff76cebf61",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4149",
+    "title": "Relating to homeless students.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4149/Introduced"
   },
   {
     "bill_id": "ocd-bill/1b57a56c-db2b-4855-804c-d2340955606c",
@@ -15663,6 +16664,74 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/ProposedAmendment/25770"
+  },
+  {
+    "bill_id": "ocd-bill/08b09f38-d27d-494e-b58b-a69d584d0656",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4154",
+    "title": "Relating to student attendance data; and declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4154/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/df8407de-9f17-4b39-aeef-900e7505c34c",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4156",
+    "title": "Relating to medical assistance reimbursement of emergency medical services; and declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4156/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/14ee7d0a-2e20-4761-ac9a-cef40419329d",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4157",
+    "title": "Relating to hearsay; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4157/Introduced"
   },
   {
     "bill_id": "ocd-bill/69000ed4-72dd-4103-8314-93ee3ba02f76",
@@ -15746,12 +16815,34 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/HB4164/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/2f6de0b5-7794-4aa5-87e6-a0daff4a06f1",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 4178",
+    "title": "Relating to rounding procedures in transactions; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4178/Introduced"
   },
   {
     "bill_id": "ocd-bill/e4b66022-76ed-40ed-b420-59b32f043ee0",
@@ -15886,6 +16977,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/ProposedAmendment/22424"
   },
   {
+    "bill_id": "ocd-bill/1699854c-ba81-4468-b92d-978d5eb3221c",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "HB 5204",
+    "title": "Relating to state financial administration; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/ProposedAmendment/30806"
+  },
+  {
     "bill_id": "ocd-bill/e73b2e60-9eac-4f35-8533-ec747133d432",
     "state": "OR",
     "session": "2023R1",
@@ -15952,28 +17065,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HCR2/Introduced"
   },
   {
-    "bill_id": "ocd-bill/f3ce37bd-e9f3-4aef-b583-82ae6f9202c4",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "HCR 20",
-    "title": "Amending Legislative Branch Personnel Rule 27 and adopting Legislative Branch Personnel Rule 27-C.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HCR20/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/02c8f052-e305-439d-8950-122ae357235b",
     "state": "OR",
     "session": "2023R1",
@@ -15994,6 +17085,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/HCR20/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/f3ce37bd-e9f3-4aef-b583-82ae6f9202c4",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "HCR 20",
+    "title": "Amending Legislative Branch Personnel Rule 27 and adopting Legislative Branch Personnel Rule 27-C.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HCR20/Introduced"
   },
   {
     "bill_id": "ocd-bill/0d9be219-4c83-4c2c-aa85-b157af2533c0",
@@ -16218,6 +17331,28 @@
   {
     "bill_id": "",
     "state": "OR",
+    "session": "2026",
+    "identifier": "S 1546",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OR2026000S1546&ciq=urn:user:PA196471263&client_md=21dd8561b1e37efcd8474ee006ad7b1d&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "OR",
     "session": "2025",
     "identifier": "S 414",
     "title": "",
@@ -16341,9 +17476,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -16900,6 +18035,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB1052/Introduced"
   },
   {
+    "bill_id": "ocd-bill/ac3504aa-98de-4b54-b243-5b1ba330633f",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "SB 1057",
+    "title": "Relating to military civil rights.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB1057/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/bfa2ae4b-8553-46c7-8b0d-bf9c56b64d22",
     "state": "OR",
     "session": "2023R1",
@@ -16921,28 +18078,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB1057/Introduced"
-  },
-  {
-    "bill_id": "ocd-bill/ac3504aa-98de-4b54-b243-5b1ba330633f",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "SB 1057",
-    "title": "Relating to military civil rights.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB1057/Introduced"
   },
   {
     "bill_id": "ocd-bill/31604ac9-c315-4493-be09-f24f1a69d3c3",
@@ -16982,8 +18117,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -17093,8 +18228,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
+      "abstract",
       "title"
     ],
     "in_ncsl": false,
@@ -17204,8 +18339,8 @@
       "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -17307,28 +18442,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB1092/Introduced"
   },
   {
-    "bill_id": "ocd-bill/a1f9f6f3-31fd-4eb6-b671-53935afb14fd",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "SB 1096",
-    "title": "Relating to urbanization; declaring an emergency.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB1096/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/ac28befd-e883-496f-b8b2-6a1dbd7b2c2b",
     "state": "OR",
     "session": "2025R1",
@@ -17349,6 +18462,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB1096/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/a1f9f6f3-31fd-4eb6-b671-53935afb14fd",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "SB 1096",
+    "title": "Relating to urbanization; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB1096/Introduced"
   },
   {
     "bill_id": "ocd-bill/f47dd97d-c6e9-4f98-a7c5-77f0b7bacb05",
@@ -17388,8 +18523,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -17565,8 +18700,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -18104,28 +19239,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB139/Senate%20Amendments%20to%20Introduced"
   },
   {
-    "bill_id": "ocd-bill/3d18bfe8-05f9-4583-a5d1-47042500c0c2",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "SB 141",
-    "title": "Relating to connection to federal tax law; and prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB141/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/f1e9f5f0-785d-43d3-a050-f20fe61ade70",
     "state": "OR",
     "session": "2025R1",
@@ -18146,6 +19259,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB141/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/3d18bfe8-05f9-4583-a5d1-47042500c0c2",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "SB 141",
+    "title": "Relating to connection to federal tax law; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB141/Introduced"
   },
   {
     "bill_id": "ocd-bill/aa79572a-49ae-4f9f-babc-89a501e64f30",
@@ -18258,6 +19393,72 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1501/Senate%20Amendments%20to%20Introduced"
   },
   {
+    "bill_id": "ocd-bill/122d0f9c-7d29-46e3-9fe1-0399399f7ab4",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1501",
+    "title": "Relating to the Moda Center; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1501/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/e79c06f8-008e-4b28-83af-4310fcf1456a",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1505",
+    "title": "Relating to the Home and Community-Based Services Workforce Standards Board.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1505/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/7d70623d-e9dc-4664-a233-843cae6baa28",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1507",
+    "title": "Relating to revenue; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1507/Senate%20Minority%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/89e0753e-501a-4214-8030-eefe86dea257",
     "state": "OR",
     "session": "2022R1",
@@ -18295,12 +19496,56 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1510/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/91855ef4-9722-4bbc-a498-5b9c9ea2fc76",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1511",
+    "title": "Relating to the estate tax; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1511/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/ad7583ed-0f18-4f6c-a53d-78259f62c328",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1512",
+    "title": "Relating to workforce development.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1512/Introduced"
   },
   {
     "bill_id": "ocd-bill/58f01b9a-e32a-4363-b525-70345cb01873",
@@ -18347,6 +19592,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1514/Introduced"
   },
   {
+    "bill_id": "ocd-bill/d147857a-6096-4c9e-8500-7f516071c09f",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1515",
+    "title": "Relating to wrongful convictions; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1515/Senate%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/a659c9a4-aced-4d98-a48e-e804ad0dd6b2",
     "state": "OR",
     "session": "2024R1",
@@ -18367,6 +19634,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1515/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/12304292-d533-4842-8943-40be2cde7a58",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1516",
+    "title": "Relating to public safety; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1516/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/bc31d674-287a-4001-affb-bf2aa56b6ac1",
@@ -18411,6 +19701,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1520/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/aba893ee-0881-43bb-b453-6f933db33e7b",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1521",
+    "title": "Relating to local requirements to develop affordable housing.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1521/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/092b412d-799a-4bab-94ff-dc51c8105028",
@@ -18523,6 +19835,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1528/Introduced"
   },
   {
+    "bill_id": "ocd-bill/a71f5e6d-c428-440d-a869-7c7fa854449c",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1532",
+    "title": "Relating to services for vulnerable persons; and declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1532/Senate%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/7851fdfe-71ff-4f92-9cf5-49abc5d9246c",
     "state": "OR",
     "session": "2024R1",
@@ -18567,6 +19901,29 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1534/Senate%20Amendments%20to%20Introduced"
   },
   {
+    "bill_id": "ocd-bill/4763b12a-847f-431a-970c-87563c4dc513",
+    "state": "OR",
+    "session": "2022R1",
+    "identifier": "SB 1536",
+    "title": "Relating to indoor temperature control; and declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1536/Senate%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/ecb4bd64-5563-4a85-b49e-bd82678089d5",
     "state": "OR",
     "session": "2024R1",
@@ -18587,29 +19944,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1536/Introduced"
-  },
-  {
-    "bill_id": "ocd-bill/4763b12a-847f-431a-970c-87563c4dc513",
-    "state": "OR",
-    "session": "2022R1",
-    "identifier": "SB 1536",
-    "title": "Relating to indoor temperature control; and declaring an emergency.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1536/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/9b74da6d-aaf1-44bc-adcd-d3ef66975f07",
@@ -18634,6 +19968,72 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1537/Senate%20Amendments%20to%20Introduced"
   },
   {
+    "bill_id": "ocd-bill/af407ef8-05ac-4815-b008-003906ac9a5c",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1541",
+    "title": "Relating to greenhouse gas emissions; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1541/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/8be23f66-7916-4791-b1a3-2fc611f62587",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1542",
+    "title": "Relating to transportation.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1542/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/95502fa3-b2f7-4079-9ef6-5180909c810c",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1544",
+    "title": "Relating to transportation; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1544/Senate%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/9feb8843-f90f-49a9-9037-63dc3122c185",
     "state": "OR",
     "session": "2022R1",
@@ -18654,6 +20054,33 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1545/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/1b77d689-a3c9-4c47-b2ba-2f6b668c0f87",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1546",
+    "title": "Relating to artificial intelligence companions.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "generative_ai_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1546/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/8d2b849e-e2f8-4713-bb76-34df09b6a676",
@@ -18759,8 +20186,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -18789,6 +20216,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1553/Senate%20Amendments%20to%20Introduced"
   },
   {
+    "bill_id": "ocd-bill/59b86cd6-0450-4fdd-9f82-2f24b2d87240",
+    "state": "OR",
+    "session": "2024R1",
+    "identifier": "SB 1555",
+    "title": "Relating to controlled substances; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1555/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/575a4ad0-fd49-4197-b47c-dde550d9a84a",
     "state": "OR",
     "session": "2022R1",
@@ -18811,11 +20260,11 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1555/Introduced"
   },
   {
-    "bill_id": "ocd-bill/59b86cd6-0450-4fdd-9f82-2f24b2d87240",
+    "bill_id": "ocd-bill/4cb86b16-817e-4073-96b1-f9cbed994383",
     "state": "OR",
-    "session": "2024R1",
+    "session": "2026R1",
     "identifier": "SB 1555",
-    "title": "Relating to controlled substances; declaring an emergency.",
+    "title": "Relating to the constitutional requirements for public education appropriations; declaring an emergency.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -18830,7 +20279,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1555/Introduced"
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1555/Introduced"
   },
   {
     "bill_id": "ocd-bill/a67e94a3-fb9a-4cb9-a5cd-16f9298426a3",
@@ -18877,28 +20326,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1559/Introduced"
   },
   {
-    "bill_id": "ocd-bill/fee0cbfc-3dab-413c-85e6-61051369231d",
-    "state": "OR",
-    "session": "2022R1",
-    "identifier": "SB 1560",
-    "title": "Relating to noncitizens.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1560/Senate%20Amendments%20to%20Introduced"
-  },
-  {
     "bill_id": "ocd-bill/d7e8f321-981b-4a61-84ab-4222b53a326a",
     "state": "OR",
     "session": "2024R1",
@@ -18921,11 +20348,11 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1560/Senate%20Amendments%20to%20Introduced"
   },
   {
-    "bill_id": "ocd-bill/b6430510-f95f-4e94-9450-96e50e57c2df",
+    "bill_id": "ocd-bill/fee0cbfc-3dab-413c-85e6-61051369231d",
     "state": "OR",
-    "session": "2024R1",
-    "identifier": "SB 1561",
-    "title": "Relating to the administration of moneys received from the Monsanto settlement; declaring an emergency.",
+    "session": "2022R1",
+    "identifier": "SB 1560",
+    "title": "Relating to noncitizens.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -18940,7 +20367,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1561/Senate%20Amendments%20to%20Introduced"
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1560/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/93dfc7de-259e-490b-b977-417daa60d88c",
@@ -18965,6 +20392,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1561/Introduced"
   },
   {
+    "bill_id": "ocd-bill/b6430510-f95f-4e94-9450-96e50e57c2df",
+    "state": "OR",
+    "session": "2024R1",
+    "identifier": "SB 1561",
+    "title": "Relating to the administration of moneys received from the Monsanto settlement; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1561/Senate%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/c3eb178c-b0bc-4a7b-830d-a36cec21e741",
     "state": "OR",
     "session": "2022R1",
@@ -18985,28 +20434,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1567/Senate%20Amendments%20to%20Introduced"
-  },
-  {
-    "bill_id": "ocd-bill/ccdf85fd-90d6-4815-a019-5cf28bd87c94",
-    "state": "OR",
-    "session": "2024R1",
-    "identifier": "SB 1568",
-    "title": "Relating to a prevailing rate of wage for electrical workers; and prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1568/Introduced"
   },
   {
     "bill_id": "ocd-bill/b89b6037-91a4-4579-811b-f884421c672f",
@@ -19032,6 +20459,50 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1568/Senate%20Amendments%20to%20Introduced"
   },
   {
+    "bill_id": "ocd-bill/106c2551-608f-4c78-a07c-cf4c6dab277f",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1568",
+    "title": "Relating to perinatal services; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1568/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/ccdf85fd-90d6-4815-a019-5cf28bd87c94",
+    "state": "OR",
+    "session": "2024R1",
+    "identifier": "SB 1568",
+    "title": "Relating to a prevailing rate of wage for electrical workers; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1568/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/04f0a0e1-aeed-495b-ad1d-afbb0ce5809a",
     "state": "OR",
     "session": "2022R1",
@@ -19047,9 +20518,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "raw_text",
-      "abstract",
-      "title"
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -19065,8 +20536,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "artificial_intelligence",
+      "adjacent_tech",
       "synthetic_media"
     ],
     "matched_tiers": [
@@ -19074,13 +20545,35 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1571/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/2178bdfb-c2a5-46b5-9d96-42a4f78e713f",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1572",
+    "title": "Relating to education; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1572/Introduced"
   },
   {
     "bill_id": "ocd-bill/932ad754-10f5-45d1-afc6-4edfdd78934d",
@@ -19098,8 +20591,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -19121,8 +20614,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -19166,8 +20659,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -19240,6 +20733,72 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1580/Senate%20Amendments%20to%20Introduced"
   },
   {
+    "bill_id": "ocd-bill/686ac9b2-e741-4a87-acdf-5aa0d35e090f",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1580",
+    "title": "Relating to compensation for journalism.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1580/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/ee6b0501-7f94-4774-a3a2-ea8fd2058aad",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1582",
+    "title": "Relating to energy; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1582/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/d3bfc6cd-65e4-40cd-a0fb-43b67b19c416",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1583",
+    "title": "Relating to substance use.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1583/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/01c28f03-bc9d-4cc3-8690-d84dd23d4aad",
     "state": "OR",
     "session": "2024R1",
@@ -19262,6 +20821,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1584/Introduced"
   },
   {
+    "bill_id": "ocd-bill/bcf87c56-c4b3-4aa6-8258-7448202b74be",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1585",
+    "title": "Relating to matching grants for cities; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1585/Senate%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/6307484b-983f-4e30-b208-c1e9bed20f24",
     "state": "OR",
     "session": "2022R1",
@@ -19277,19 +20858,19 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1585/Senate%20Amendments%20to%20Introduced"
   },
   {
-    "bill_id": "ocd-bill/72497ecf-d234-4f89-ab85-865b18f18048",
+    "bill_id": "ocd-bill/8de48c3d-b766-4973-a1ae-c243ff588d5e",
     "state": "OR",
-    "session": "2024R1",
-    "identifier": "SB 1588",
-    "title": "Relating to controlled substances.",
+    "session": "2026R1",
+    "identifier": "SB 1586",
+    "title": "Relating to economic development; prescribing an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -19304,7 +20885,31 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1588/Introduced"
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1586/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/156df519-269c-4acd-8002-8d3a3a8900ef",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1587",
+    "title": "Relating to data brokers; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1587/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/21aba7a0-a3f0-4033-b1d5-5cda16fa2df7",
@@ -19329,6 +20934,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1588/Introduced"
   },
   {
+    "bill_id": "ocd-bill/72497ecf-d234-4f89-ab85-865b18f18048",
+    "state": "OR",
+    "session": "2024R1",
+    "identifier": "SB 1588",
+    "title": "Relating to controlled substances.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1588/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/a3e2ac1e-23ba-4843-ba1c-503044cc2048",
     "state": "OR",
     "session": "2024R1",
@@ -19349,6 +20976,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1589/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/208ed4e9-0f2a-46ad-bda6-1ae14479a4bc",
+    "state": "OR",
+    "session": "2024R1",
+    "identifier": "SB 1590",
+    "title": "Relating to boats; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1590/Introduced"
   },
   {
     "bill_id": "ocd-bill/331c668f-f317-4586-9dd3-df4c1749541d",
@@ -19373,11 +21022,11 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2022R1/Downloads/MeasureDocument/SB1590/Senate%20Amendments%20to%20Introduced"
   },
   {
-    "bill_id": "ocd-bill/208ed4e9-0f2a-46ad-bda6-1ae14479a4bc",
+    "bill_id": "ocd-bill/6ba0d4fe-cfe5-49b8-8e09-471f9340ba56",
     "state": "OR",
-    "session": "2024R1",
-    "identifier": "SB 1590",
-    "title": "Relating to boats; prescribing an effective date.",
+    "session": "2026R1",
+    "identifier": "SB 1591",
+    "title": "Relating to an inland port; prescribing an effective date.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -19392,7 +21041,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1590/Introduced"
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1591/Introduced"
   },
   {
     "bill_id": "ocd-bill/d009708a-04e7-4199-a424-ec6fe02fd041",
@@ -19483,6 +21132,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SB1596/Senate%20Amendments%20to%20Introduced"
   },
   {
+    "bill_id": "ocd-bill/8fa5e2f2-702d-49b3-a737-942b33740293",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 1601",
+    "title": "Relating to state financial administration; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1601/Senate%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/29591570-cbaf-4a54-abaf-fd46a0ac75f3",
     "state": "OR",
     "session": "2025R1",
@@ -19527,28 +21198,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB163/Senate%20Amendments%20to%20Introduced"
   },
   {
-    "bill_id": "ocd-bill/d54e3ae2-0bf9-48df-9f61-a622c87638e2",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "SB 167",
-    "title": "Relating to elections; declaring an emergency.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB167/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/4b512789-5008-496a-90bf-18ae307a78d8",
     "state": "OR",
     "session": "2025R1",
@@ -19569,6 +21218,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB167/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/d54e3ae2-0bf9-48df-9f61-a622c87638e2",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "SB 167",
+    "title": "Relating to elections; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB167/Introduced"
   },
   {
     "bill_id": "ocd-bill/1292b941-295a-497a-b08b-3ed4da39dbf2",
@@ -19837,30 +21508,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB215/Introduced"
   },
   {
-    "bill_id": "ocd-bill/be842807-cfb8-43d9-8ff2-908da68b48dd",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "SB 216",
-    "title": "Relating to data collected by the Oregon Health Authority; and prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB216/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/f896671f-bf3b-4a8a-ad12-334f08bcaa8f",
     "state": "OR",
     "session": "2025R1",
@@ -19881,6 +21528,30 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB216/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/be842807-cfb8-43d9-8ff2-908da68b48dd",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "SB 216",
+    "title": "Relating to data collected by the Oregon Health Authority; and prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB216/Introduced"
   },
   {
     "bill_id": "ocd-bill/30d34662-5247-4e95-8256-843d64f97398",
@@ -19986,8 +21657,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -20295,8 +21966,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -20318,34 +21989,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB286/Introduced"
-  },
-  {
-    "bill_id": "ocd-bill/f47bf739-8aba-4e02-9416-a2d6f5d3c0f8",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "SB 289",
-    "title": "Relating to prescription drugs.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB289/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/d3877dc1-c441-4599-b58c-777d03de31d1",
@@ -20368,6 +22017,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB289/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/f47bf739-8aba-4e02-9416-a2d6f5d3c0f8",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "SB 289",
+    "title": "Relating to prescription drugs.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB289/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/6795f964-aee5-4b4c-9691-9a36ea1468a9",
@@ -20539,8 +22210,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -20563,8 +22234,8 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -20615,28 +22286,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB316/Introduced"
   },
   {
-    "bill_id": "ocd-bill/16950771-a326-4f92-8726-af058a91ceb8",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "SB 317",
-    "title": "Relating to state funding for special education; declaring an emergency.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB317/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/e960183b-7b06-4976-9d87-c4f4e188f62f",
     "state": "OR",
     "session": "2023R1",
@@ -20657,6 +22306,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB317/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/16950771-a326-4f92-8726-af058a91ceb8",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "SB 317",
+    "title": "Relating to state funding for special education; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB317/Introduced"
   },
   {
     "bill_id": "ocd-bill/3707a83e-2c07-4796-99e9-e1457b567770",
@@ -20725,28 +22396,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB324/Introduced"
   },
   {
-    "bill_id": "ocd-bill/dd2c1a1c-80f0-454d-af15-4a2ec7c36fc8",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "SB 329",
-    "title": "Relating to Public Defense Services Commission.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB329/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/1770e2b7-41b2-49a1-82b9-307a7f2f2867",
     "state": "OR",
     "session": "2025R1",
@@ -20767,6 +22416,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB329/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/dd2c1a1c-80f0-454d-af15-4a2ec7c36fc8",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "SB 329",
+    "title": "Relating to Public Defense Services Commission.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB329/Introduced"
   },
   {
     "bill_id": "ocd-bill/7f3c65c0-e289-4b8c-bcc6-3b64e5c3a5ab",
@@ -20916,9 +22587,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -21873,6 +23544,29 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB511/Introduced"
   },
   {
+    "bill_id": "ocd-bill/f66deeee-ea87-4caa-8ccc-77db3c273d78",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "SB 512",
+    "title": "Relating to the Rock Creek Hatchery; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB512/Senate%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/2940233b-855c-47f0-afdb-1ef38c2a7391",
     "state": "OR",
     "session": "2023R1",
@@ -21893,29 +23587,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB512/Introduced"
-  },
-  {
-    "bill_id": "ocd-bill/f66deeee-ea87-4caa-8ccc-77db3c273d78",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "SB 512",
-    "title": "Relating to the Rock Creek Hatchery; declaring an emergency.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB512/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/2fd754c1-b726-4be1-a6cc-7dc44e5de038",
@@ -21940,28 +23611,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB513/Introduced"
   },
   {
-    "bill_id": "ocd-bill/28e426e6-6ba6-4205-8c94-6f2d869c4ecb",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "SB 514",
-    "title": "Relating to the impacts of wildfire on water quality.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB514/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/8d3c2ef1-6f72-40b0-a069-0c866dd1d11c",
     "state": "OR",
     "session": "2023R1",
@@ -21982,6 +23631,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB514/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/28e426e6-6ba6-4205-8c94-6f2d869c4ecb",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "SB 514",
+    "title": "Relating to the impacts of wildfire on water quality.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB514/Introduced"
   },
   {
     "bill_id": "ocd-bill/29c25635-0fae-4126-94b0-3de08cca511b",
@@ -22044,8 +23715,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -22199,8 +23870,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -22508,9 +24179,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -22715,6 +24386,28 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB561/Introduced"
   },
   {
+    "bill_id": "ocd-bill/35c6bda2-1f89-4b79-95f0-2785fd8eb1d7",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SB 5701",
+    "title": "Relating to state financial administration; declaring an emergency.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB5701/Senate%20Amendments%20to%20Introduced"
+  },
+  {
     "bill_id": "ocd-bill/3f62ef30-b3de-4b1d-bcfc-bc80de99e183",
     "state": "OR",
     "session": "2024R1",
@@ -22820,8 +24513,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -23019,8 +24712,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -23042,8 +24735,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -23176,9 +24869,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "raw_text",
-      "abstract",
-      "title"
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -23244,8 +24937,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -23362,28 +25055,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB633/Introduced"
   },
   {
-    "bill_id": "ocd-bill/99738e35-cf8b-4ede-8d1c-4cf8c6dfc95d",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "SB 643",
-    "title": "Relating to food establishments in residential dwellings.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB643/Senate%20Amendments%20to%20Introduced"
-  },
-  {
     "bill_id": "ocd-bill/3d160191-0e9e-45ed-82ce-4df4909da9cd",
     "state": "OR",
     "session": "2025R1",
@@ -23404,6 +25075,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB643/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/99738e35-cf8b-4ede-8d1c-4cf8c6dfc95d",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "SB 643",
+    "title": "Relating to food establishments in residential dwellings.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB643/Senate%20Amendments%20to%20Introduced"
   },
   {
     "bill_id": "ocd-bill/9c7fc8a2-0cd7-4350-8696-e2c521962e7f",
@@ -24434,8 +26127,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -24479,8 +26172,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": false,
@@ -24510,28 +26203,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB776/Introduced"
   },
   {
-    "bill_id": "ocd-bill/b59543e2-e0e2-45c9-b305-ce45c027b6bb",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "SB 782",
-    "title": "Relating to behavioral health deflection programs.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB782/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/2316617f-d9ef-4ec1-be45-771181539cdb",
     "state": "OR",
     "session": "2023R1",
@@ -24552,6 +26223,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB782/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/b59543e2-e0e2-45c9-b305-ce45c027b6bb",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "SB 782",
+    "title": "Relating to behavioral health deflection programs.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB782/Introduced"
   },
   {
     "bill_id": "ocd-bill/89150a8b-a37a-4ea3-8117-bf0bdd5795b3",
@@ -24862,28 +26555,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB820/Introduced"
   },
   {
-    "bill_id": "ocd-bill/a0659c75-4660-4012-a133-4ba015447bda",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "SB 821",
-    "title": "Relating to reports on access to instruction by school district students.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB821/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/f25ca9f7-ed31-476b-b81a-6ccd0b1a96fa",
     "state": "OR",
     "session": "2025R1",
@@ -24904,6 +26575,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB821/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/a0659c75-4660-4012-a133-4ba015447bda",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "SB 821",
+    "title": "Relating to reports on access to instruction by school district students.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB821/Introduced"
   },
   {
     "bill_id": "ocd-bill/d82e2f2a-bd26-416e-b920-3a5ca298079b",
@@ -25076,8 +26769,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": false,
@@ -25122,8 +26815,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
+      "abstract",
       "title"
     ],
     "in_ncsl": false,
@@ -25242,28 +26935,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB857/Introduced"
   },
   {
-    "bill_id": "ocd-bill/595b9e66-c486-43b2-ab0a-21abec33f7dc",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "SB 858",
-    "title": "Relating to children's service districts.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB858/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/9132b76f-ad20-4533-b61e-bad08be6333d",
     "state": "OR",
     "session": "2025R1",
@@ -25284,6 +26955,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB858/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/595b9e66-c486-43b2-ab0a-21abec33f7dc",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "SB 858",
+    "title": "Relating to children's service districts.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB858/Introduced"
   },
   {
     "bill_id": "ocd-bill/bc192ce1-b290-4c22-b9cb-d6a7f81004ba",
@@ -25367,8 +27060,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -25390,8 +27083,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -25501,9 +27194,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -25525,8 +27218,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -25996,28 +27689,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB963/Introduced"
   },
   {
-    "bill_id": "ocd-bill/bb3d128c-4292-451a-b05b-288a92dde0c1",
-    "state": "OR",
-    "session": "2025R1",
-    "identifier": "SB 966",
-    "title": "Relating to health professional licensing interstate compacts; prescribing an effective date.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB966/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/eeaad494-f6dd-46be-8201-7a01377ab54d",
     "state": "OR",
     "session": "2023R1",
@@ -26039,6 +27710,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB966/Senate%20Amendments%20to%20Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/bb3d128c-4292-451a-b05b-288a92dde0c1",
+    "state": "OR",
+    "session": "2025R1",
+    "identifier": "SB 966",
+    "title": "Relating to health professional licensing interstate compacts; prescribing an effective date.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB966/Introduced"
   },
   {
     "bill_id": "ocd-bill/7c698a42-3d85-4435-ac26-d5ca9f0335d4",
@@ -26261,6 +27954,50 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2024R1/Downloads/MeasureDocument/SCR204/Introduced"
   },
   {
+    "bill_id": "ocd-bill/b5d92791-88b9-422c-9474-2ed4b13eef76",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SCR 206",
+    "title": "In memoriam: State Senator Aaron Lionel Woods.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SCR206/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/02d1af4f-6fcd-4e1d-a39f-95185c1b6117",
+    "state": "OR",
+    "session": "2026R1",
+    "identifier": "SCR 208",
+    "title": "Amending Legislative Branch Personnel Rule 27 and adopting Legislative Branch Personnel Rule 27-C.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SCR208/Introduced"
+  },
+  {
     "bill_id": "ocd-bill/9259359c-c9fb-4487-afcc-f41c19af5450",
     "state": "OR",
     "session": "2024R1",
@@ -26342,9 +28079,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract",
-      "title",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -26395,28 +28132,6 @@
     "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SJR10/Introduced"
   },
   {
-    "bill_id": "ocd-bill/49428765-0474-41d9-95a7-dbb7745dd52d",
-    "state": "OR",
-    "session": "2023R1",
-    "identifier": "SJR 21",
-    "title": "Proposing amendment to Oregon Constitution relating to legislative review of administrative rules.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SJR21/Introduced"
-  },
-  {
     "bill_id": "ocd-bill/927cfce8-d5ee-4c55-9c7d-b51eb2b47513",
     "state": "OR",
     "session": "2025R1",
@@ -26437,6 +28152,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SJR21/Introduced"
+  },
+  {
+    "bill_id": "ocd-bill/49428765-0474-41d9-95a7-dbb7745dd52d",
+    "state": "OR",
+    "session": "2023R1",
+    "identifier": "SJR 21",
+    "title": "Proposing amendment to Oregon Constitution relating to legislative review of administrative rules.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SJR21/Introduced"
   },
   {
     "bill_id": "ocd-bill/995dd29b-ddbe-4ed6-8cba-194d1669af58",

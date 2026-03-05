@@ -154,6 +154,28 @@
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000A415&ciq=urn:user:PA196471263&client_md=1acc8093a73c2efb27cbe982ddd21bba&mode=current_text"
   },
   {
+    "bill_id": "",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "A 965",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000A965&ciq=urn:user:PA196471263&client_md=8f4983e8108e6378d2ab76e4f16c335e&mode=current_text"
+  },
+  {
     "bill_id": "ocd-bill/5698a9ab-e948-42bc-a85a-bb67bd9b92af",
     "state": "WI",
     "session": "August 2017 Special Session",
@@ -606,8 +628,8 @@
       "generative_ai_variant",
       "adjacent_tech",
       "artificial_intelligence",
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -864,28 +886,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB112.pdf"
   },
   {
-    "bill_id": "ocd-bill/d555fb8b-3ee0-49b8-80d9-74f8afddbf49",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "AB 113",
-    "title": "Relating to: the collection and sharing of information regarding an Indian child relinquished under the safe haven law and restoration of physical custody of an Indian child less than 11 days of age to a parent.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB113.pdf"
-  },
-  {
     "bill_id": "ocd-bill/1783d62b-490b-42c0-9cd6-03d9a677e3e1",
     "state": "WI",
     "session": "2025",
@@ -928,6 +928,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB113.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/d555fb8b-3ee0-49b8-80d9-74f8afddbf49",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "AB 113",
+    "title": "Relating to: the collection and sharing of information regarding an Indian child relinquished under the safe haven law and restoration of physical custody of an Indian child less than 11 days of age to a parent.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB113.pdf"
   },
   {
     "bill_id": "ocd-bill/9d054966-5db7-485a-a3c3-05e74e0dc540",
@@ -974,28 +996,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB1139.pdf"
   },
   {
-    "bill_id": "ocd-bill/b209390a-9e66-4580-866e-618e6b2fd0c5",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "AB 114",
-    "title": "Relating to: registration and regulation of pharmacy benefit managers, drug pricing transparency, granting rule-making authority, and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB114.pdf"
-  },
-  {
     "bill_id": "ocd-bill/e9ed85e6-59d0-44b2-8b34-bfc81763544d",
     "state": "WI",
     "session": "2025",
@@ -1016,6 +1016,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB114.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/b209390a-9e66-4580-866e-618e6b2fd0c5",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "AB 114",
+    "title": "Relating to: registration and regulation of pharmacy benefit managers, drug pricing transparency, granting rule-making authority, and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB114.pdf"
   },
   {
     "bill_id": "ocd-bill/9f477f3c-5f12-4409-86f7-604a9b2735d3",
@@ -1093,8 +1115,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1483,11 +1505,11 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/vetoedenrolledbills/2025/REG/AB146.pdf"
   },
   {
-    "bill_id": "ocd-bill/cac07392-3d26-455e-8152-99356982264e",
+    "bill_id": "ocd-bill/cff44a21-8958-465b-998e-5f1a0a536fbe",
     "state": "WI",
-    "session": "2017 Regular Session",
+    "session": "2021",
     "identifier": "AB 147",
-    "title": "Relating to: industrial hemp, granting rule-making authority, and making an appropriation. (FE)",
+    "title": "Relating to: imposing requirements related to insurance data cybersecurity and granting rule-making authority. (FE)",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -1498,11 +1520,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB147.pdf"
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/AB147"
   },
   {
     "bill_id": "ocd-bill/8a8600d5-bda2-4176-aace-df3fc10b7122",
@@ -1527,11 +1549,11 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB147.pdf"
   },
   {
-    "bill_id": "ocd-bill/cff44a21-8958-465b-998e-5f1a0a536fbe",
+    "bill_id": "ocd-bill/cac07392-3d26-455e-8152-99356982264e",
     "state": "WI",
-    "session": "2021",
+    "session": "2017 Regular Session",
     "identifier": "AB 147",
-    "title": "Relating to: imposing requirements related to insurance data cybersecurity and granting rule-making authority. (FE)",
+    "title": "Relating to: industrial hemp, granting rule-making authority, and making an appropriation. (FE)",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -1542,11 +1564,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/AB147"
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB147.pdf"
   },
   {
     "bill_id": "ocd-bill/85595620-57e4-4d87-be00-7d4ca765de69",
@@ -1593,28 +1615,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/vetoedenrolledbills/2023/REG/AB152.pdf"
   },
   {
-    "bill_id": "ocd-bill/8acfc209-3d24-49ff-ab7b-6abed93f1da1",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "AB 153",
-    "title": "Relating to: the amount of benefits received under the unemployment insurance law. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB153.pdf"
-  },
-  {
     "bill_id": "ocd-bill/b01b3a2b-0152-4e48-b8b3-6f0e41279405",
     "state": "WI",
     "session": "2017 Regular Session",
@@ -1635,6 +1635,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB153.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/8acfc209-3d24-49ff-ab7b-6abed93f1da1",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "AB 153",
+    "title": "Relating to: the amount of benefits received under the unemployment insurance law. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB153.pdf"
   },
   {
     "bill_id": "ocd-bill/d2bb75fe-f3f5-4598-b538-428e0fe1681c",
@@ -1881,28 +1903,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB173.pdf"
   },
   {
-    "bill_id": "ocd-bill/f28594ae-ff9a-4242-a499-a931061655eb",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "AB 174",
-    "title": "Relating to: transmission facilities; installation of large wind energy, large solar energy, and battery energy storage systems; installation of light-mitigating technology systems; and prioritizing nuclear energy resources. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB174.pdf"
-  },
-  {
     "bill_id": "ocd-bill/92e97d36-0582-4017-8294-214ccf4d3dbd",
     "state": "WI",
     "session": "2019",
@@ -1923,6 +1923,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB174.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/f28594ae-ff9a-4242-a499-a931061655eb",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "AB 174",
+    "title": "Relating to: transmission facilities; installation of large wind energy, large solar energy, and battery energy storage systems; installation of light-mitigating technology systems; and prioritizing nuclear energy resources. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB174.pdf"
   },
   {
     "bill_id": "ocd-bill/dd4accb7-8d1e-4a5c-91bb-3eed903694f3",
@@ -2013,28 +2035,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB181.pdf"
   },
   {
-    "bill_id": "ocd-bill/5045be2d-2bf8-4b15-be78-00a7e7693600",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "AB 183",
-    "title": "Relating to: growing and processing industrial hemp, granting rule-making authority, and making an appropriation. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB183.pdf"
-  },
-  {
     "bill_id": "ocd-bill/3eceb8ca-7edd-423b-8529-d013df85595d",
     "state": "WI",
     "session": "2023",
@@ -2055,6 +2055,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB183.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/5045be2d-2bf8-4b15-be78-00a7e7693600",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "AB 183",
+    "title": "Relating to: growing and processing industrial hemp, granting rule-making authority, and making an appropriation. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB183.pdf"
   },
   {
     "bill_id": "ocd-bill/a7cd6a5c-253e-43bc-8810-cfee79cb12b3",
@@ -2123,6 +2145,28 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB187.pdf"
   },
   {
+    "bill_id": "ocd-bill/d0c3cd7c-8880-4295-a80e-662441b7596c",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "AB 188",
+    "title": "Relating to: fatality review teams and granting rule-making authority.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB188.pdf"
+  },
+  {
     "bill_id": "ocd-bill/2527226c-b6e1-4ff9-af95-f2b30baa7155",
     "state": "WI",
     "session": "2019",
@@ -2166,28 +2210,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB188.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/d0c3cd7c-8880-4295-a80e-662441b7596c",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "AB 188",
-    "title": "Relating to: fatality review teams and granting rule-making authority.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB188.pdf"
   },
   {
     "bill_id": "ocd-bill/8ca98450-150a-43a5-abf1-fa12e52e22e8",
@@ -2719,29 +2741,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB24.pdf"
   },
   {
-    "bill_id": "ocd-bill/c8598566-2fd1-4fea-88e5-5cff7f845b4e",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "AB 245",
-    "title": "Relating to: modifying the sales and use tax exemption for qualified data centers. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB245.pdf"
-  },
-  {
     "bill_id": "ocd-bill/4a1fc412-c97b-4ea9-8c9b-c2c1547b8149",
     "state": "WI",
     "session": "2019",
@@ -2764,11 +2763,11 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB245.pdf"
   },
   {
-    "bill_id": "ocd-bill/d50483f4-417d-4e5d-9a92-5842833b48fc",
+    "bill_id": "ocd-bill/c8598566-2fd1-4fea-88e5-5cff7f845b4e",
     "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "AB 247",
-    "title": "Relating to: going armed with a firearm and electric weapons, licenses for carrying a concealed weapon, trespassing while armed with a firearm, and providing criminal penalties. (FE)",
+    "session": "2025",
+    "identifier": "AB 245",
+    "title": "Relating to: modifying the sales and use tax exemption for qualified data centers. (FE)",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -2779,11 +2778,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB247.pdf"
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB245.pdf"
   },
   {
     "bill_id": "ocd-bill/4f4da22e-e634-46dc-9bba-646277c67641",
@@ -2806,6 +2806,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB247.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/d50483f4-417d-4e5d-9a92-5842833b48fc",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "AB 247",
+    "title": "Relating to: going armed with a firearm and electric weapons, licenses for carrying a concealed weapon, trespassing while armed with a firearm, and providing criminal penalties. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB247.pdf"
   },
   {
     "bill_id": "ocd-bill/dcbbd292-5faa-499b-943e-6576b85d8774",
@@ -3243,8 +3265,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3362,28 +3384,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB296.pdf"
   },
   {
-    "bill_id": "ocd-bill/99d3679d-caca-4513-ad62-a61b44eda921",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "AB 297",
-    "title": "Relating to: performance grants based on improving employment rates for individuals on probation, parole, or extended supervision. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB297.pdf"
-  },
-  {
     "bill_id": "ocd-bill/744d5086-61df-46b6-b72b-c353527d2a06",
     "state": "WI",
     "session": "2019",
@@ -3406,6 +3406,28 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB297.pdf"
   },
   {
+    "bill_id": "ocd-bill/99d3679d-caca-4513-ad62-a61b44eda921",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "AB 297",
+    "title": "Relating to: performance grants based on improving employment rates for individuals on probation, parole, or extended supervision. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB297.pdf"
+  },
+  {
     "bill_id": "ocd-bill/6c334867-155d-4bbc-91db-9c12319f0d05",
     "state": "WI",
     "session": "2025",
@@ -3421,8 +3443,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4024,28 +4046,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB370.pdf"
   },
   {
-    "bill_id": "ocd-bill/0c455512-7691-4241-bf8e-5700e23de554",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "AB 371",
-    "title": "Relating to: the use of speed safety camera systems and traffic control photographic systems in a first class city and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB371.pdf"
-  },
-  {
     "bill_id": "ocd-bill/c17e5bc5-e3ee-49c3-a86f-4eca3dcc07b1",
     "state": "WI",
     "session": "2017 Regular Session",
@@ -4066,6 +4066,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB371.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/0c455512-7691-4241-bf8e-5700e23de554",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "AB 371",
+    "title": "Relating to: the use of speed safety camera systems and traffic control photographic systems in a first class city and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB371.pdf"
   },
   {
     "bill_id": "ocd-bill/03b3ca1d-d16f-444f-b41a-c24458c245af",
@@ -4224,28 +4246,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB397.pdf"
   },
   {
-    "bill_id": "ocd-bill/2fe24734-bbfc-4fae-9ae9-3999225a471c",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "AB 40",
-    "title": "Relating to:  the provision by employers to employees of written disclosure statements of the terms of employment, various changes pertaining to wage claims, occupational or professional licensing of employers that owe wages under wage claim judgments, and making an appropriation. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB40.pdf"
-  },
-  {
     "bill_id": "ocd-bill/27dda39e-153d-4aab-ac14-fe41761ec4fe",
     "state": "WI",
     "session": "2023",
@@ -4266,6 +4266,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB40.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/2fe24734-bbfc-4fae-9ae9-3999225a471c",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "AB 40",
+    "title": "Relating to:  the provision by employers to employees of written disclosure statements of the terms of employment, various changes pertaining to wage claims, occupational or professional licensing of employers that owe wages under wage claim judgments, and making an appropriation. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB40.pdf"
   },
   {
     "bill_id": "ocd-bill/b194fcb0-bb94-4487-862f-535eb0583f22",
@@ -4305,8 +4327,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4357,28 +4379,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/AB41"
   },
   {
-    "bill_id": "ocd-bill/c8d7eb1a-e197-4f26-82d9-feaf1ac68f7e",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "AB 410",
-    "title": "Relating to: coverage of services under Medical Assistance provided through telehealth and other technologies, extending the time limit for emergency rule procedures, and granting rule-making authority. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB410.pdf"
-  },
-  {
     "bill_id": "ocd-bill/e9c2b9d1-0e28-4504-a19d-fa7705d4571c",
     "state": "WI",
     "session": "2023",
@@ -4399,6 +4399,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB410.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/c8d7eb1a-e197-4f26-82d9-feaf1ac68f7e",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "AB 410",
+    "title": "Relating to: coverage of services under Medical Assistance provided through telehealth and other technologies, extending the time limit for emergency rule procedures, and granting rule-making authority. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB410.pdf"
   },
   {
     "bill_id": "ocd-bill/73df9b3a-2aa6-4cd4-bcce-e0a17c2bc8d6",
@@ -4577,6 +4599,28 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB431.pdf"
   },
   {
+    "bill_id": "ocd-bill/2fac3350-b7b8-4e88-b0b4-5375a2f4cf0d",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "AB 433",
+    "title": "Relating to: newspaper publication and typeface for certain legal notices.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB433.pdf"
+  },
+  {
     "bill_id": "ocd-bill/645a81d4-b657-4eb0-9502-08fbe16cc27c",
     "state": "WI",
     "session": "2023",
@@ -4598,28 +4642,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB433.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/2fac3350-b7b8-4e88-b0b4-5375a2f4cf0d",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "AB 433",
-    "title": "Relating to: newspaper publication and typeface for certain legal notices.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB433.pdf"
   },
   {
     "bill_id": "ocd-bill/2f98b1e1-4435-4a9a-b8ac-0ea41a5d4c72",
@@ -4644,28 +4666,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB437.pdf"
   },
   {
-    "bill_id": "ocd-bill/1c49bab5-c072-436b-ac3b-9804bd04c4cc",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "AB 438",
-    "title": "Relating to: adopting the title of physician associate for physician assistants, independent practice of certain physician associates, extending the time limit for emergency rule procedures, and providing an exemption from emergency rule procedures. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB438.pdf"
-  },
-  {
     "bill_id": "ocd-bill/6acf257b-a303-4a71-a087-e6b80229063a",
     "state": "WI",
     "session": "2019",
@@ -4686,6 +4686,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB438.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/1c49bab5-c072-436b-ac3b-9804bd04c4cc",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "AB 438",
+    "title": "Relating to: adopting the title of physician associate for physician assistants, independent practice of certain physician associates, extending the time limit for emergency rule procedures, and providing an exemption from emergency rule procedures. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB438.pdf"
   },
   {
     "bill_id": "ocd-bill/c4ec9d5c-0b21-4a57-90d3-7115fc114018",
@@ -4732,28 +4754,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/AB444"
   },
   {
-    "bill_id": "ocd-bill/e9d890c5-5c14-433a-8bcb-79047c11623f",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "AB 445",
-    "title": "Relating to: registers of deeds, transportation project plats, and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB445.pdf"
-  },
-  {
     "bill_id": "ocd-bill/7905cbf6-34bf-41c6-8235-e81fa4fd2602",
     "state": "WI",
     "session": "2017 Regular Session",
@@ -4774,6 +4774,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB445.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/e9d890c5-5c14-433a-8bcb-79047c11623f",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "AB 445",
+    "title": "Relating to: registers of deeds, transportation project plats, and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB445.pdf"
   },
   {
     "bill_id": "ocd-bill/c8a5959d-ffeb-493c-84f6-a264350b45ba",
@@ -4945,8 +4967,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5041,11 +5063,11 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB472.pdf"
   },
   {
-    "bill_id": "ocd-bill/95d0af2f-dbd9-43b9-aa9c-2ac13e80d995",
+    "bill_id": "ocd-bill/33bc45ee-ff60-44c8-b2c5-8983198eb92b",
     "state": "WI",
-    "session": "2025",
+    "session": "2019",
     "identifier": "AB 476",
-    "title": "Relating to: prohibiting abusive work environments and creating a cause of action. (FE)",
+    "title": "Relating to: lead testing of potable water sources in certain schools; providing loans for lead remediation in certain schools; and providing an exception to referendum restrictions for lead remediation. (FE)",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -5060,7 +5082,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB476.pdf"
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB476.pdf"
   },
   {
     "bill_id": "ocd-bill/1e38caa4-b390-4e55-abfc-4496607fb4b8",
@@ -5085,11 +5107,11 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB476.pdf"
   },
   {
-    "bill_id": "ocd-bill/33bc45ee-ff60-44c8-b2c5-8983198eb92b",
+    "bill_id": "ocd-bill/95d0af2f-dbd9-43b9-aa9c-2ac13e80d995",
     "state": "WI",
-    "session": "2019",
+    "session": "2025",
     "identifier": "AB 476",
-    "title": "Relating to: lead testing of potable water sources in certain schools; providing loans for lead remediation in certain schools; and providing an exception to referendum restrictions for lead remediation. (FE)",
+    "title": "Relating to: prohibiting abusive work environments and creating a cause of action. (FE)",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -5104,7 +5126,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB476.pdf"
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB476.pdf"
   },
   {
     "bill_id": "ocd-bill/b3e9003b-f18f-4ece-82da-85c3a98c87f4",
@@ -5305,6 +5327,28 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB499-engrossed.pdf"
   },
   {
+    "bill_id": "ocd-bill/bd8eb01b-6a5c-4173-b4d6-ef7d008509c9",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "AB 50",
+    "title": "Relating to: groundwater management, approval of high capacity wells, and granting rule-making authority. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB50.pdf"
+  },
+  {
     "bill_id": "ocd-bill/cf245c2e-f30a-416f-84d0-d55467a34d3f",
     "state": "WI",
     "session": "2025",
@@ -5328,28 +5372,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB50.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/bd8eb01b-6a5c-4173-b4d6-ef7d008509c9",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "AB 50",
-    "title": "Relating to: groundwater management, approval of high capacity wells, and granting rule-making authority. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB50.pdf"
   },
   {
     "bill_id": "ocd-bill/7dc744a0-fea9-489c-886e-751a602af0a3",
@@ -6255,6 +6277,28 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/vetoedenrolledbills/2023/REG/AB570.pdf"
   },
   {
+    "bill_id": "ocd-bill/a8fb2dbd-5067-4b50-9529-bc34d04199d5",
+    "state": "WI",
+    "session": "2021",
+    "identifier": "AB 571",
+    "title": "Relating to: allowing discounts for prompt payment of health care fees.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/AB571"
+  },
+  {
     "bill_id": "ocd-bill/3db4884d-2f15-46fb-b64a-28f363cb8640",
     "state": "WI",
     "session": "2023",
@@ -6276,28 +6320,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB571.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/a8fb2dbd-5067-4b50-9529-bc34d04199d5",
-    "state": "WI",
-    "session": "2021",
-    "identifier": "AB 571",
-    "title": "Relating to: allowing discounts for prompt payment of health care fees.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/AB571"
   },
   {
     "bill_id": "ocd-bill/df5802d7-0793-4dad-b750-9ceeca8dff21",
@@ -6367,28 +6389,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB573.pdf"
   },
   {
-    "bill_id": "ocd-bill/b6b5e789-fc36-4b5b-adee-87719db6149e",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "AB 574",
-    "title": "Relating to: creating a task force on native pollinator health. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB574.pdf"
-  },
-  {
     "bill_id": "ocd-bill/e1a15d99-bc9c-4243-8f02-007f5d13139f",
     "state": "WI",
     "session": "2025",
@@ -6411,6 +6411,28 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB574.pdf"
   },
   {
+    "bill_id": "ocd-bill/b6b5e789-fc36-4b5b-adee-87719db6149e",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "AB 574",
+    "title": "Relating to: creating a task force on native pollinator health. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB574.pdf"
+  },
+  {
     "bill_id": "ocd-bill/f98f0df6-2b54-42c7-a68c-458e3b5c9d12",
     "state": "WI",
     "session": "2025",
@@ -6426,8 +6448,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6454,6 +6476,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB575.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/1880192a-96b5-432b-bb0d-9bf2fdfa0433",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "AB 576",
+    "title": "Relating to: limiting the use of automatic registration plate readers, requiring a search warrant for data from an automatic registration plate reader or security camera, and providing a penalty.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB576.pdf"
   },
   {
     "bill_id": "ocd-bill/a9045d7e-6079-4eb9-ac2c-66a04e3ea8e9",
@@ -6500,11 +6545,11 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB576.pdf"
   },
   {
-    "bill_id": "ocd-bill/1880192a-96b5-432b-bb0d-9bf2fdfa0433",
+    "bill_id": "ocd-bill/ac908925-c42d-4af0-83f4-df291c883883",
     "state": "WI",
-    "session": "2025",
-    "identifier": "AB 576",
-    "title": "Relating to: limiting the use of automatic registration plate readers, requiring a search warrant for data from an automatic registration plate reader or security camera, and providing a penalty.",
+    "session": "2019",
+    "identifier": "AB 577",
+    "title": "Relating to: the possession of a firearm by a person who has committed a misdemeanor crime of domestic violence or by a fugitive from justice and providing a penalty. (FE)",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -6515,12 +6560,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB576.pdf"
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB577.pdf"
   },
   {
     "bill_id": "ocd-bill/d2f3e9af-d5a3-42bb-9d66-814e020ad2a5",
@@ -6543,28 +6587,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/amends/2023/REG/AB577-SSA1.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/ac908925-c42d-4af0-83f4-df291c883883",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "AB 577",
-    "title": "Relating to: the possession of a firearm by a person who has committed a misdemeanor crime of domestic violence or by a fugitive from justice and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB577.pdf"
   },
   {
     "bill_id": "ocd-bill/5676e6d5-130a-4b32-8cde-7672b9b7e1c9",
@@ -6633,28 +6655,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB588.pdf"
   },
   {
-    "bill_id": "ocd-bill/cdc04fe3-0a17-4794-ade5-15d58679aa3b",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "AB 59",
-    "title": "Relating to: terminology change and corrections for emergency medical technicians and first responders.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB59.pdf"
-  },
-  {
     "bill_id": "ocd-bill/21be4166-22ca-45a8-8b66-a837cf1bc2de",
     "state": "WI",
     "session": "2019",
@@ -6675,6 +6675,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB59.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/cdc04fe3-0a17-4794-ade5-15d58679aa3b",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "AB 59",
+    "title": "Relating to: terminology change and corrections for emergency medical technicians and first responders.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB59.pdf"
   },
   {
     "bill_id": "ocd-bill/dcbe4286-6537-46a6-b006-fc311e9c0574",
@@ -6736,8 +6758,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6832,28 +6854,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB600.pdf"
   },
   {
-    "bill_id": "ocd-bill/ad6fae05-57eb-43bc-956f-6780237566e3",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "AB 604",
-    "title": "Relating to: automatic voter registration, deceptive election practices, voter intimidation and suppression, voter rights, polling place posting and language requirements, election manual requirements, granting rule-making authority, and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB604.pdf"
-  },
-  {
     "bill_id": "ocd-bill/1dd279b6-bfa6-44d1-9606-2c980a178727",
     "state": "WI",
     "session": "2017 Regular Session",
@@ -6874,6 +6874,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB604.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/ad6fae05-57eb-43bc-956f-6780237566e3",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "AB 604",
+    "title": "Relating to: automatic voter registration, deceptive election practices, voter intimidation and suppression, voter rights, polling place posting and language requirements, election manual requirements, granting rule-making authority, and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB604.pdf"
   },
   {
     "bill_id": "ocd-bill/59c23999-ca58-49de-bb08-ac2f34a342fd",
@@ -7008,28 +7030,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB614.pdf"
   },
   {
-    "bill_id": "ocd-bill/599612c6-ea96-4411-a0fb-6aed4f0191ff",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "AB 615",
-    "title": "Relating to: creating a task force on missing and murdered African American women and girls. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB615.pdf"
-  },
-  {
     "bill_id": "ocd-bill/2b8fe456-0ba8-401b-8384-c6090823297a",
     "state": "WI",
     "session": "2025",
@@ -7052,11 +7052,11 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB615.pdf"
   },
   {
-    "bill_id": "ocd-bill/6c51d095-859f-42fc-9304-43a4124e92d1",
+    "bill_id": "ocd-bill/599612c6-ea96-4411-a0fb-6aed4f0191ff",
     "state": "WI",
-    "session": "2025",
-    "identifier": "AB 617",
-    "title": "Relating to: applying for and returning absentee ballots; use of central counting locations; election night reporting; court determinations of incompetency and ineligibility to vote; preelection tests of electronic voting equipment, and providing a penalty. (FE)",
+    "session": "2023",
+    "identifier": "AB 615",
+    "title": "Relating to: creating a task force on missing and murdered African American women and girls. (FE)",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -7071,7 +7071,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB617.pdf"
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB615.pdf"
   },
   {
     "bill_id": "ocd-bill/44204ffb-319c-4550-9a84-03fb0e2cd749",
@@ -7096,11 +7096,11 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB617.pdf"
   },
   {
-    "bill_id": "ocd-bill/9fcc4577-9bf2-4965-b56d-d0ab46704b66",
+    "bill_id": "ocd-bill/6c51d095-859f-42fc-9304-43a4124e92d1",
     "state": "WI",
     "session": "2025",
-    "identifier": "AB 62",
-    "title": "Relating to: health care costs omnibus, granting rule-making authority, making an appropriation, and providing a penalty. (FE)",
+    "identifier": "AB 617",
+    "title": "Relating to: applying for and returning absentee ballots; use of central counting locations; election night reporting; court determinations of incompetency and ineligibility to vote; preelection tests of electronic voting equipment, and providing a penalty. (FE)",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -7115,7 +7115,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB62.pdf"
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB617.pdf"
   },
   {
     "bill_id": "ocd-bill/318dcc58-c65e-472a-94ed-b2b2f166a10f",
@@ -7138,6 +7138,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB62.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/9fcc4577-9bf2-4965-b56d-d0ab46704b66",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "AB 62",
+    "title": "Relating to: health care costs omnibus, granting rule-making authority, making an appropriation, and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB62.pdf"
   },
   {
     "bill_id": "ocd-bill/34c98cea-5a6f-4be3-86eb-2fe41e7ee120",
@@ -7574,34 +7596,12 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB664.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/db8befd2-1706-4432-90c9-d1fa9ee9701a",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "AB 666",
-    "title": "Relating to: the establishment of a family and medical leave insurance program; family leave to care for a grandparent, grandchild, or sibling and for the active duty of a family member; the employers that are required to allow an employee to take family or medical leave; creating an individual income tax deduction for certain family or medical leave insurance benefits; allowing a local government to adopt ordinances requiring employers to provide leave benefits; providing an exemption from emergency rule procedures; providing an exemption from rule-making procedures; granting rule-making authority; making an appropriation; and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB666.pdf"
   },
   {
     "bill_id": "ocd-bill/0ef13c72-e0f9-4e8a-850f-1a46aaf089ce",
@@ -7624,6 +7624,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB666.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/db8befd2-1706-4432-90c9-d1fa9ee9701a",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "AB 666",
+    "title": "Relating to: the establishment of a family and medical leave insurance program; family leave to care for a grandparent, grandchild, or sibling and for the active duty of a family member; the employers that are required to allow an employee to take family or medical leave; creating an individual income tax deduction for certain family or medical leave insurance benefits; allowing a local government to adopt ordinances requiring employers to provide leave benefits; providing an exemption from emergency rule procedures; providing an exemption from rule-making procedures; granting rule-making authority; making an appropriation; and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB666.pdf"
   },
   {
     "bill_id": "ocd-bill/7de7effa-0e9c-4437-9582-fa6136ff7e5c",
@@ -7714,6 +7736,29 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB706.pdf"
   },
   {
+    "bill_id": "ocd-bill/72b30e71-2848-458b-9fde-cb7c253a7133",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "AB 71",
+    "title": "Relating to: an inventory of pupil data.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB71.pdf"
+  },
+  {
     "bill_id": "ocd-bill/9b26fd90-af43-4210-8eb4-5637416fb7a1",
     "state": "WI",
     "session": "2025",
@@ -7734,29 +7779,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB71.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/72b30e71-2848-458b-9fde-cb7c253a7133",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "AB 71",
-    "title": "Relating to: an inventory of pupil data.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB71.pdf"
   },
   {
     "bill_id": "ocd-bill/6ad60023-7384-4419-936f-13d5d12e245f",
@@ -8112,28 +8134,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB748.pdf"
   },
   {
-    "bill_id": "ocd-bill/83cda1ca-db02-46bb-b9f6-f01793795b2a",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "AB 75",
-    "title": "Relating to: mistreating an animal and providing a penalty.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB75.pdf"
-  },
-  {
     "bill_id": "ocd-bill/b4c82ea0-2ba4-44f0-8700-992f4f21bc45",
     "state": "WI",
     "session": "2025",
@@ -8154,6 +8154,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/amends/2025/REG/AB75-SA1.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/83cda1ca-db02-46bb-b9f6-f01793795b2a",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "AB 75",
+    "title": "Relating to: mistreating an animal and providing a penalty.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB75.pdf"
   },
   {
     "bill_id": "ocd-bill/316062eb-5523-4df3-9d5a-1c1d10457cec",
@@ -8376,28 +8398,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB773.pdf"
   },
   {
-    "bill_id": "ocd-bill/b82fdae6-e3be-4751-ac33-bb29f3343859",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "AB 774",
-    "title": "Relating to: active psychosis and mental health treatment for prisoners.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB774.pdf"
-  },
-  {
     "bill_id": "ocd-bill/28968116-91c6-4f1d-a8e2-d52b4047dde7",
     "state": "WI",
     "session": "2017 Regular Session",
@@ -8418,6 +8418,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB774.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/b82fdae6-e3be-4751-ac33-bb29f3343859",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "AB 774",
+    "title": "Relating to: active psychosis and mental health treatment for prisoners.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB774.pdf"
   },
   {
     "bill_id": "ocd-bill/0f8027c5-49ac-4462-9a0f-2170154e9710",
@@ -8721,8 +8743,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8795,28 +8817,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB83.pdf"
   },
   {
-    "bill_id": "ocd-bill/7e1728ea-4769-43be-9c14-6072ce600126",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "AB 830",
-    "title": "Relating to: an education savings account program for gifted and talented pupils, providing an exemption from emergency rule procedures, granting rule-making authority, and making an appropriation. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB830.pdf"
-  },
-  {
     "bill_id": "ocd-bill/fc045559-5fa6-4d4f-aca6-82374f5f81c9",
     "state": "WI",
     "session": "2019",
@@ -8837,6 +8837,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB830.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/7e1728ea-4769-43be-9c14-6072ce600126",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "AB 830",
+    "title": "Relating to: an education savings account program for gifted and talented pupils, providing an exemption from emergency rule procedures, granting rule-making authority, and making an appropriation. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB830.pdf"
   },
   {
     "bill_id": "ocd-bill/2805b596-504b-4437-b238-66f403b229f0",
@@ -8949,28 +8971,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB838.pdf"
   },
   {
-    "bill_id": "ocd-bill/bd891f93-60ea-452a-8b04-e5604f166786",
-    "state": "WI",
-    "session": "2021",
-    "identifier": "AB 839",
-    "title": "Relating to: Department of Justice collection of data on the use of appearance bonds and cash in lieu of appearance bonds. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/AB839"
-  },
-  {
     "bill_id": "ocd-bill/a832c4c4-75b9-4e6f-8373-36bf48880195",
     "state": "WI",
     "session": "2017 Regular Session",
@@ -8991,6 +8991,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB839.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/bd891f93-60ea-452a-8b04-e5604f166786",
+    "state": "WI",
+    "session": "2021",
+    "identifier": "AB 839",
+    "title": "Relating to: Department of Justice collection of data on the use of appearance bonds and cash in lieu of appearance bonds. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/AB839"
   },
   {
     "bill_id": "ocd-bill/07b3d1f4-2e17-48e2-b4c2-cd3120c57e87",
@@ -9326,6 +9348,28 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB863.pdf"
   },
   {
+    "bill_id": "ocd-bill/dfe69b89-4c9f-417c-b76a-616d3b7d95ee",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "AB 870",
+    "title": "Relating to: video recording of surgical procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB870.pdf"
+  },
+  {
     "bill_id": "ocd-bill/b729f825-e61b-4489-a5d3-7b4d0192d0a7",
     "state": "WI",
     "session": "2019",
@@ -9351,11 +9395,11 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB870.pdf"
   },
   {
-    "bill_id": "ocd-bill/dfe69b89-4c9f-417c-b76a-616d3b7d95ee",
+    "bill_id": "ocd-bill/836f9c57-dd04-4124-a743-ba37eed3ad95",
     "state": "WI",
-    "session": "2023",
-    "identifier": "AB 870",
-    "title": "Relating to: video recording of surgical procedures, providing an exemption from emergency rule procedures, granting rule-making authority, and providing a penalty. (FE)",
+    "session": "2019",
+    "identifier": "AB 871",
+    "title": "Relating to: deletion of consumer personal data by controllers and providing a penalty.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -9366,11 +9410,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB870.pdf"
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB871.pdf"
   },
   {
     "bill_id": "ocd-bill/40e8402d-bf9e-48b5-b83c-db3fe9fdb5d6",
@@ -9395,29 +9440,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AB871.pdf"
   },
   {
-    "bill_id": "ocd-bill/836f9c57-dd04-4124-a743-ba37eed3ad95",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "AB 871",
-    "title": "Relating to: deletion of consumer personal data by controllers and providing a penalty.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB871.pdf"
-  },
-  {
     "bill_id": "ocd-bill/af6a5830-ce5a-4c9a-af51-f78ae8c59505",
     "state": "WI",
     "session": "2019",
@@ -9433,8 +9455,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10124,28 +10146,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB943.pdf"
   },
   {
-    "bill_id": "ocd-bill/87ddfd9c-c858-4305-aa8b-4559c4177b74",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "AB 946",
-    "title": "Relating to: the state civil service system. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB946.pdf"
-  },
-  {
     "bill_id": "ocd-bill/e62d69ef-c5cd-4056-b72f-45818a225a6f",
     "state": "WI",
     "session": "2023",
@@ -10166,6 +10166,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/AB946.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/87ddfd9c-c858-4305-aa8b-4559c4177b74",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "AB 946",
+    "title": "Relating to: the state civil service system. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB946.pdf"
   },
   {
     "bill_id": "ocd-bill/814916dc-bd77-4fce-bd50-9b77304c107c",
@@ -10433,28 +10455,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/AB998.pdf"
   },
   {
-    "bill_id": "ocd-bill/58320e19-f070-42c4-a1d3-56d864ba654e",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "AJR 100",
-    "title": "Relating to: encouraging the use of television white space technology to increase access to the Internet.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AJR100.pdf"
-  },
-  {
     "bill_id": "ocd-bill/e0748767-dbcd-4e39-92de-b8d5e7c2bba8",
     "state": "WI",
     "session": "2025",
@@ -10475,6 +10475,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AJR100.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/58320e19-f070-42c4-a1d3-56d864ba654e",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "AJR 100",
+    "title": "Relating to: encouraging the use of television white space technology to increase access to the Internet.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/AJR100.pdf"
   },
   {
     "bill_id": "ocd-bill/5f96abb8-ab94-48b8-837e-dba78f9e7df1",
@@ -11445,6 +11467,28 @@
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000S400&ciq=urn:user:PA196471263&client_md=b1389afc428bb6ea4236aafe2e4eb354&mode=current_text"
   },
   {
+    "bill_id": "",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "S 939",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000S939&ciq=urn:user:PA196471263&client_md=2b0bccc102099a59405f2aa43591a1d2&mode=current_text"
+  },
+  {
     "bill_id": "ocd-bill/a578d629-d92c-47d2-af22-b197703c515e",
     "state": "WI",
     "session": "August 2017 Special Session",
@@ -11542,11 +11586,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "artificial_intelligence",
-      "machine_learning",
+      "adjacent_tech",
       "generative_ai_variant",
-      "automated_decision_system"
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -11693,28 +11737,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB1036.pdf"
   },
   {
-    "bill_id": "ocd-bill/48356a2d-22db-4e6a-b2fe-101fed150307",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "SB 1042",
-    "title": "Relating to: creating a Civic Information Consortium Board and a grant program administered by a nonprofit corporation to support local journalism and media projects and making an appropriation. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB1042.pdf"
-  },
-  {
     "bill_id": "ocd-bill/bcd88f68-3900-44aa-80f0-71c221e2bbc6",
     "state": "WI",
     "session": "2021",
@@ -11735,6 +11757,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/SB1042"
+  },
+  {
+    "bill_id": "ocd-bill/48356a2d-22db-4e6a-b2fe-101fed150307",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "SB 1042",
+    "title": "Relating to: creating a Civic Information Consortium Board and a grant program administered by a nonprofit corporation to support local journalism and media projects and making an appropriation. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB1042.pdf"
   },
   {
     "bill_id": "ocd-bill/34b0f2f9-4231-4000-ab40-38e48136dc20",
@@ -11797,8 +11841,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11827,28 +11871,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB1073.pdf"
   },
   {
-    "bill_id": "ocd-bill/0c1b1194-7a94-4d38-b6a2-7649873c8967",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "SB 108",
-    "title": "Relating to: sharing minors’ safety plans. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB108.pdf"
-  },
-  {
     "bill_id": "ocd-bill/c63c7ef3-d7f7-4dec-b465-5865ec927547",
     "state": "WI",
     "session": "2019",
@@ -11871,6 +11893,28 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/amends/2019/REG/SB108-SSA1.pdf"
   },
   {
+    "bill_id": "ocd-bill/0c1b1194-7a94-4d38-b6a2-7649873c8967",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "SB 108",
+    "title": "Relating to: sharing minors’ safety plans. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB108.pdf"
+  },
+  {
     "bill_id": "ocd-bill/9b736beb-25ee-4eba-b407-4aef0dbbf0a9",
     "state": "WI",
     "session": "2023",
@@ -11886,8 +11930,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -12158,6 +12202,29 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB13.pdf"
   },
   {
+    "bill_id": "ocd-bill/da31ca82-9417-45a8-ab00-38274e4e5584",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "SB 130",
+    "title": "Relating to: educational requirements for taking the accounting examination or receiving a certified public accountant certificate; continuing education requirements for accounting license renewal; data-sharing programs related to accountants; peer reviews for certified public accounting firms; modifying various administrative rules promulgated by the Accounting Examining Board relating to accounting; and granting rule-making authority. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB130.pdf"
+  },
+  {
     "bill_id": "ocd-bill/4f67c086-aa9f-474c-93c9-8d2c13e54ed2",
     "state": "WI",
     "session": "2025",
@@ -12178,29 +12245,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB130.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/da31ca82-9417-45a8-ab00-38274e4e5584",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "SB 130",
-    "title": "Relating to: educational requirements for taking the accounting examination or receiving a certified public accountant certificate; continuing education requirements for accounting license renewal; data-sharing programs related to accountants; peer reviews for certified public accounting firms; modifying various administrative rules promulgated by the Accounting Examining Board relating to accounting; and granting rule-making authority. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB130.pdf"
   },
   {
     "bill_id": "ocd-bill/9a0bc1c1-0c39-448d-a0b5-37dff24f6487",
@@ -12622,28 +12666,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB172.pdf"
   },
   {
-    "bill_id": "ocd-bill/bb829374-1d50-4b1d-82fe-5843bb85ba06",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "SB 173",
-    "title": "Relating to: creating a rural creative economy development grant program. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB173.pdf"
-  },
-  {
     "bill_id": "ocd-bill/23735b0e-2026-4132-8f8b-9db360aaeb27",
     "state": "WI",
     "session": "2023",
@@ -12664,6 +12686,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB173.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/bb829374-1d50-4b1d-82fe-5843bb85ba06",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "SB 173",
+    "title": "Relating to: creating a rural creative economy development grant program. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB173.pdf"
   },
   {
     "bill_id": "ocd-bill/4c80c4e6-52b2-4fd5-9adb-75cbcb72edaf",
@@ -12820,29 +12864,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB195.pdf"
   },
   {
-    "bill_id": "ocd-bill/b82d918b-d498-4ea0-be9b-2d4a7f1b79d1",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "SB 196",
-    "title": "Relating to: motor vehicle data recorders and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB196.pdf"
-  },
-  {
     "bill_id": "ocd-bill/323a76c4-007e-4ca0-b24e-7a33d5c4a4e6",
     "state": "WI",
     "session": "2025",
@@ -12865,11 +12886,11 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB196.pdf"
   },
   {
-    "bill_id": "ocd-bill/0b22977f-7ebe-4912-8fe4-1384005a055b",
+    "bill_id": "ocd-bill/b82d918b-d498-4ea0-be9b-2d4a7f1b79d1",
     "state": "WI",
-    "session": "2019",
-    "identifier": "SB 197",
-    "title": "Relating to: entering into an agreement among the states to elect the president of the United States by means of a national popular vote.",
+    "session": "2017 Regular Session",
+    "identifier": "SB 196",
+    "title": "Relating to: motor vehicle data recorders and providing a penalty. (FE)",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -12880,11 +12901,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB197.pdf"
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB196.pdf"
   },
   {
     "bill_id": "ocd-bill/2b0406c8-69a7-4a80-b652-842211cfc710",
@@ -12907,6 +12929,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB197.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/0b22977f-7ebe-4912-8fe4-1384005a055b",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "SB 197",
+    "title": "Relating to: entering into an agreement among the states to elect the president of the United States by means of a national popular vote.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB197.pdf"
   },
   {
     "bill_id": "ocd-bill/4df574b6-9eb4-48fd-aacb-32836cfcbbff",
@@ -12975,28 +13019,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB20.pdf"
   },
   {
-    "bill_id": "ocd-bill/0b0b7247-cc98-452f-bc93-0b8fef3a55f3",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "SB 200",
-    "title": "Relating to: storage and processing of sexual assault kits and requiring the exercise of rule-making authority. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB200.pdf"
-  },
-  {
     "bill_id": "ocd-bill/bf84916c-0488-4b39-a18a-cd404dbbdb9a",
     "state": "WI",
     "session": "2025",
@@ -13017,6 +13039,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB200.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/0b0b7247-cc98-452f-bc93-0b8fef3a55f3",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "SB 200",
+    "title": "Relating to: storage and processing of sexual assault kits and requiring the exercise of rule-making authority. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB200.pdf"
   },
   {
     "bill_id": "ocd-bill/191438cb-722e-45dc-88c4-c280e8c31526",
@@ -13107,28 +13151,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB22.pdf"
   },
   {
-    "bill_id": "ocd-bill/93d67d59-28bb-4fab-8a2e-6fcef535ef70",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "SB 222",
-    "title": "Relating to: providing information about mandatory pupil examinations.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB222.pdf"
-  },
-  {
     "bill_id": "ocd-bill/ea2e5619-2b31-4512-be07-7fb3094dd5fa",
     "state": "WI",
     "session": "2023",
@@ -13149,6 +13171,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB222.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/93d67d59-28bb-4fab-8a2e-6fcef535ef70",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "SB 222",
+    "title": "Relating to: providing information about mandatory pupil examinations.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB222.pdf"
   },
   {
     "bill_id": "ocd-bill/be6362d1-b017-4a52-a1a8-e43074afff48",
@@ -13342,8 +13386,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13659,28 +13703,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB279.pdf"
   },
   {
-    "bill_id": "ocd-bill/2f21f3e1-5944-49ed-97e6-65b4d545f7cd",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "SB 285",
-    "title": "Relating to:  alternative highway project delivery methods, providing an exemption from emergency rule procedures, and granting rule-making authority. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB285.pdf"
-  },
-  {
     "bill_id": "ocd-bill/5f7b9498-7409-4b54-ab0c-b49da7d7ec30",
     "state": "WI",
     "session": "2025",
@@ -13701,6 +13723,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB285.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/2f21f3e1-5944-49ed-97e6-65b4d545f7cd",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "SB 285",
+    "title": "Relating to:  alternative highway project delivery methods, providing an exemption from emergency rule procedures, and granting rule-making authority. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB285.pdf"
   },
   {
     "bill_id": "ocd-bill/f4698b5e-6313-4028-9902-632f23b5afbc",
@@ -13902,29 +13946,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB302.pdf"
   },
   {
-    "bill_id": "ocd-bill/4fe9698c-ea6f-4ff2-b8c8-cb34d77e96dd",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "SB 303",
-    "title": "Relating to: defining critical mapping data for school safety plans.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB303.pdf"
-  },
-  {
     "bill_id": "ocd-bill/3e153523-c6d0-43e6-873a-e89e43506d65",
     "state": "WI",
     "session": "2025",
@@ -13948,6 +13969,29 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB303.pdf"
   },
   {
+    "bill_id": "ocd-bill/4fe9698c-ea6f-4ff2-b8c8-cb34d77e96dd",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "SB 303",
+    "title": "Relating to: defining critical mapping data for school safety plans.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB303.pdf"
+  },
+  {
     "bill_id": "ocd-bill/c18f0ed4-7148-45a5-bb45-257b69aef3e6",
     "state": "WI",
     "session": "2023",
@@ -13963,8 +14007,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14081,28 +14125,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB325.pdf"
   },
   {
-    "bill_id": "ocd-bill/49482e6f-a06e-484e-8231-895c88557540",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "SB 326",
-    "title": "Relating to: creating a nutrient loss reduction grant program. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB326.pdf"
-  },
-  {
     "bill_id": "ocd-bill/d304fa6e-8037-4947-af7a-bf582ae64600",
     "state": "WI",
     "session": "2019",
@@ -14123,6 +14145,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB326.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/49482e6f-a06e-484e-8231-895c88557540",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "SB 326",
+    "title": "Relating to: creating a nutrient loss reduction grant program. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB326.pdf"
   },
   {
     "bill_id": "ocd-bill/863c910d-010e-482a-8c47-33a7b022b023",
@@ -14169,28 +14213,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/amends/2023/REG/SB329-SSA1.pdf"
   },
   {
-    "bill_id": "ocd-bill/46a0dce0-91d9-4344-b473-dae9742ee977",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "SB 332",
-    "title": "Relating to: tracking of sexual assault kits in sexual assault cases and making an appropriation. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/amends/2019/REG/SB332-SA1.pdf"
-  },
-  {
     "bill_id": "ocd-bill/0f632f87-3812-4969-b1e5-66546cd74713",
     "state": "WI",
     "session": "2023",
@@ -14211,6 +14233,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB332.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/46a0dce0-91d9-4344-b473-dae9742ee977",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "SB 332",
+    "title": "Relating to: tracking of sexual assault kits in sexual assault cases and making an appropriation. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/amends/2019/REG/SB332-SA1.pdf"
   },
   {
     "bill_id": "ocd-bill/e579ed39-ded8-4724-8b85-ff0c1d544521",
@@ -14611,28 +14655,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB384.pdf"
   },
   {
-    "bill_id": "ocd-bill/df40f15b-deb6-4dc9-8073-f3a334063f35",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "SB 385",
-    "title": "Relating to: use of social media platforms by minors, granting rule-making authority, and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB385.pdf"
-  },
-  {
     "bill_id": "ocd-bill/313832b2-f299-47eb-8ee6-52ae964dbf50",
     "state": "WI",
     "session": "2019",
@@ -14653,6 +14675,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB385.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/df40f15b-deb6-4dc9-8073-f3a334063f35",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "SB 385",
+    "title": "Relating to: use of social media platforms by minors, granting rule-making authority, and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB385.pdf"
   },
   {
     "bill_id": "ocd-bill/0d706695-875c-4131-a9e3-daffb209dd6c",
@@ -14787,28 +14831,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB40.pdf"
   },
   {
-    "bill_id": "ocd-bill/cc6bd737-6c97-4f6d-95c3-ef333669d6cb",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "SB 400",
-    "title": "Relating to: ratification of the PA Licensure Compact. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB400.pdf"
-  },
-  {
     "bill_id": "ocd-bill/b7da9273-cf9e-450c-ae22-b6d697fb042e",
     "state": "WI",
     "session": "2025",
@@ -14829,6 +14851,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB400.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/cc6bd737-6c97-4f6d-95c3-ef333669d6cb",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "SB 400",
+    "title": "Relating to: ratification of the PA Licensure Compact. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB400.pdf"
   },
   {
     "bill_id": "ocd-bill/7efc3654-17a6-4191-a2d7-95e174a08436",
@@ -15206,28 +15250,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB445.pdf"
   },
   {
-    "bill_id": "ocd-bill/7f064ade-1bce-4a92-9be7-e91dd86d443a",
-    "state": "WI",
-    "session": "2021",
-    "identifier": "SB 449",
-    "title": "Relating to: grants to schools to provide critical incident mapping data to law enforcement agencies. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/SB449"
-  },
-  {
     "bill_id": "ocd-bill/97895828-fd42-49cf-a1da-07274b908a60",
     "state": "WI",
     "session": "2025",
@@ -15248,6 +15270,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB449.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/7f064ade-1bce-4a92-9be7-e91dd86d443a",
+    "state": "WI",
+    "session": "2021",
+    "identifier": "SB 449",
+    "title": "Relating to: grants to schools to provide critical incident mapping data to law enforcement agencies. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/SB449"
   },
   {
     "bill_id": "ocd-bill/fa89e764-e305-4a45-92f5-038388d055b0",
@@ -15404,28 +15448,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB459.pdf"
   },
   {
-    "bill_id": "ocd-bill/f61d9bcb-8009-4388-bac8-a157993a5648",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "SB 460",
-    "title": "Relating to: prohibiting abusive work environments and creating a cause of action. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB460.pdf"
-  },
-  {
     "bill_id": "ocd-bill/a59ec2aa-a36e-4b62-b1cf-fb20ec5501d9",
     "state": "WI",
     "session": "2019",
@@ -15446,6 +15468,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB460.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/f61d9bcb-8009-4388-bac8-a157993a5648",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "SB 460",
+    "title": "Relating to: prohibiting abusive work environments and creating a cause of action. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB460.pdf"
   },
   {
     "bill_id": "ocd-bill/0e240284-d323-4576-b822-1bfa7e15234a",
@@ -15602,28 +15646,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB469.pdf"
   },
   {
-    "bill_id": "ocd-bill/e49500ad-a3f9-4233-844c-1ca441769c2b",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "SB 475",
-    "title": "Relating to: prior authorization for coverage of physical therapy, occupational therapy, speech therapy, chiropractic services, and other services under health plans.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB475.pdf"
-  },
-  {
     "bill_id": "ocd-bill/7883883b-63c7-44d6-a946-919a3611f7c4",
     "state": "WI",
     "session": "2017 Regular Session",
@@ -15644,6 +15666,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB475.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/e49500ad-a3f9-4233-844c-1ca441769c2b",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "SB 475",
+    "title": "Relating to: prior authorization for coverage of physical therapy, occupational therapy, speech therapy, chiropractic services, and other services under health plans.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB475.pdf"
   },
   {
     "bill_id": "ocd-bill/e9328529-7822-4099-aba1-e21ea42fa0d0",
@@ -15668,28 +15712,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB477.pdf"
   },
   {
-    "bill_id": "ocd-bill/bd6f018b-6f51-4b1c-a537-8f98a1522ccf",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "SB 478",
-    "title": "Relating to: licensing micro markets and providing an exemption from emergency rule procedures. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB478.pdf"
-  },
-  {
     "bill_id": "ocd-bill/b798c97a-7c47-4300-808b-9e4e2c9b5ea2",
     "state": "WI",
     "session": "2025",
@@ -15710,6 +15732,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB478.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/bd6f018b-6f51-4b1c-a537-8f98a1522ccf",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "SB 478",
+    "title": "Relating to: licensing micro markets and providing an exemption from emergency rule procedures. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB478.pdf"
   },
   {
     "bill_id": "ocd-bill/8ac587ef-5c85-4132-ada4-2ec224e2c9c9",
@@ -15822,28 +15866,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/amends/2021/REG/SB49-SA2"
   },
   {
-    "bill_id": "ocd-bill/3e32e7e6-8fb0-40ec-b925-0c25cb751706",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "SB 490",
-    "title": "Relating to: prevailing wage, granting rule-making authority, and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB490.pdf"
-  },
-  {
     "bill_id": "ocd-bill/7b5d6efa-2f29-47ed-b2aa-619166263537",
     "state": "WI",
     "session": "2019",
@@ -15864,6 +15886,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB490.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/3e32e7e6-8fb0-40ec-b925-0c25cb751706",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "SB 490",
+    "title": "Relating to: prevailing wage, granting rule-making authority, and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB490.pdf"
   },
   {
     "bill_id": "ocd-bill/111ceea4-07f9-4ad9-b098-3a3701c959a7",
@@ -15955,28 +15999,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB496.pdf"
   },
   {
-    "bill_id": "ocd-bill/5951d1b1-5d05-4082-9dd3-0c12f1a16653",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "SB 497",
-    "title": "Relating to: recognizing teaching hours for providing certain extension services of the University of Wisconsin System. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/amends/2019/REG/SB497-SSA1.pdf"
-  },
-  {
     "bill_id": "ocd-bill/7471b052-9a4b-4c82-9ac6-5c871428e0ec",
     "state": "WI",
     "session": "2025",
@@ -15997,6 +16019,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB497.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/5951d1b1-5d05-4082-9dd3-0c12f1a16653",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "SB 497",
+    "title": "Relating to: recognizing teaching hours for providing certain extension services of the University of Wisconsin System. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/amends/2019/REG/SB497-SSA1.pdf"
   },
   {
     "bill_id": "ocd-bill/8e00a421-46b1-4710-b87d-b436e53ff72e",
@@ -16043,28 +16087,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB498.pdf"
   },
   {
-    "bill_id": "ocd-bill/699db9f3-0c39-440d-85f0-eea4be7f07b5",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "SB 50",
-    "title": "Relating to: health care costs omnibus, granting rule-making authority, making an appropriation, and providing a penalty. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB50.pdf"
-  },
-  {
     "bill_id": "ocd-bill/5b56eff0-4f8b-4612-8d00-373ed777c1f0",
     "state": "WI",
     "session": "2019",
@@ -16085,6 +16107,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB50.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/699db9f3-0c39-440d-85f0-eea4be7f07b5",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "SB 50",
+    "title": "Relating to: health care costs omnibus, granting rule-making authority, making an appropriation, and providing a penalty. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB50.pdf"
   },
   {
     "bill_id": "ocd-bill/7c3f8482-1f44-45d1-a849-e336c221980e",
@@ -16791,28 +16835,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB567.pdf"
   },
   {
-    "bill_id": "ocd-bill/839294b5-8918-490e-b5b2-1bb638a82a03",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "SB 568",
-    "title": "Relating to: creating a task force on missing and murdered African American women and girls. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB568.pdf"
-  },
-  {
     "bill_id": "ocd-bill/1cbe40fd-73a0-4087-aa75-4cf32a4a73d1",
     "state": "WI",
     "session": "2017 Regular Session",
@@ -16833,6 +16855,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SB568.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/839294b5-8918-490e-b5b2-1bb638a82a03",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "SB 568",
+    "title": "Relating to: creating a task force on missing and murdered African American women and girls. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB568.pdf"
   },
   {
     "bill_id": "ocd-bill/ae1964ec-50e6-4d06-ba0c-909c918f91d0",
@@ -17048,8 +17092,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -17543,28 +17587,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB65.pdf"
   },
   {
-    "bill_id": "ocd-bill/b94c5613-039b-42da-ac75-ebdb2e2f5317",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "SB 655",
-    "title": "Relating to: requiring landlords or tenants to apply for emergency rental assistance and participate in mediation prior to eviction and prohibiting certain rent increases.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB655.pdf"
-  },
-  {
     "bill_id": "ocd-bill/2dcd338e-3e0a-435b-a261-ff15220094cd",
     "state": "WI",
     "session": "2019",
@@ -17585,6 +17607,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB655.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/b94c5613-039b-42da-ac75-ebdb2e2f5317",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "SB 655",
+    "title": "Relating to: requiring landlords or tenants to apply for emergency rental assistance and participate in mediation prior to eviction and prohibiting certain rent increases.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB655.pdf"
   },
   {
     "bill_id": "ocd-bill/0557e8bf-a743-4f85-9e97-fb15d4dbe190",
@@ -17807,28 +17851,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB677.pdf"
   },
   {
-    "bill_id": "ocd-bill/f07b9620-4dd0-4eb0-aea1-69964331d9e8",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "SB 683",
-    "title": "Relating to:  the distribution of certain materials to minors.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB683.pdf"
-  },
-  {
     "bill_id": "ocd-bill/22d04064-f638-437a-8e75-d66f7800d705",
     "state": "WI",
     "session": "2019",
@@ -17849,6 +17871,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB683.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/f07b9620-4dd0-4eb0-aea1-69964331d9e8",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "SB 683",
+    "title": "Relating to:  the distribution of certain materials to minors.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB683.pdf"
   },
   {
     "bill_id": "ocd-bill/83c2dce8-d5ab-49d9-875c-e689e85564d3",
@@ -18879,8 +18923,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -19153,28 +19197,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB855.pdf"
   },
   {
-    "bill_id": "ocd-bill/14d0300d-7a06-4711-a29e-ea6f2a61f1af",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "SB 856",
-    "title": "Relating to: providing farmers technical assistance related to water quality, organic production, and soil health; increasing cost-share rates; granting rule-making authority; and making an appropriation. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB856.pdf"
-  },
-  {
     "bill_id": "ocd-bill/f8083578-a7a3-4067-aced-94f61433da1a",
     "state": "WI",
     "session": "2023",
@@ -19195,6 +19217,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB856.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/14d0300d-7a06-4711-a29e-ea6f2a61f1af",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "SB 856",
+    "title": "Relating to: providing farmers technical assistance related to water quality, organic production, and soil health; increasing cost-share rates; granting rule-making authority; and making an appropriation. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB856.pdf"
   },
   {
     "bill_id": "ocd-bill/6797fe63-688c-488f-862f-7a3e439f29fe",
@@ -19704,28 +19748,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SB932.pdf"
   },
   {
-    "bill_id": "ocd-bill/fa60e521-333e-4295-a9d6-90d53372cdc4",
-    "state": "WI",
-    "session": "2023",
-    "identifier": "SB 934",
-    "title": "Relating to: prohibiting abusive work environments and creating a cause of action. (FE)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB934.pdf"
-  },
-  {
     "bill_id": "ocd-bill/ef58786d-2ac9-45c9-bf10-b8f42ddd0bc4",
     "state": "WI",
     "session": "2021",
@@ -19746,6 +19768,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2021/REG/SB934"
+  },
+  {
+    "bill_id": "ocd-bill/fa60e521-333e-4295-a9d6-90d53372cdc4",
+    "state": "WI",
+    "session": "2023",
+    "identifier": "SB 934",
+    "title": "Relating to: prohibiting abusive work environments and creating a cause of action. (FE)",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SB934.pdf"
   },
   {
     "bill_id": "ocd-bill/1e754a53-07dc-41a2-8961-dea3c9659e47",
@@ -20364,28 +20408,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SJR53.pdf"
   },
   {
-    "bill_id": "ocd-bill/7bd31cbb-4121-4867-acd8-068c07aec3b0",
-    "state": "WI",
-    "session": "2017 Regular Session",
-    "identifier": "SJR 60",
-    "title": "Relating to: the life and public service of Sister Joel Read.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SJR60.pdf"
-  },
-  {
     "bill_id": "ocd-bill/3c7ad09c-587f-4515-ba0a-65fc28143b62",
     "state": "WI",
     "session": "2023",
@@ -20406,6 +20428,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2023/REG/SJR60.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/7bd31cbb-4121-4867-acd8-068c07aec3b0",
+    "state": "WI",
+    "session": "2017 Regular Session",
+    "identifier": "SJR 60",
+    "title": "Relating to: the life and public service of Sister Joel Read.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SJR60.pdf"
   },
   {
     "bill_id": "ocd-bill/e462518d-89ea-4040-87ff-ffd81e296608",
@@ -20430,28 +20474,6 @@
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SJR65.pdf"
   },
   {
-    "bill_id": "ocd-bill/189ebd7a-b7b8-41af-9d5e-0d71d7836f79",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "SJR 7",
-    "title": "Relating to: recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin’s growing energy demands and declaring the legislature’s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SJR7.pdf"
-  },
-  {
     "bill_id": "ocd-bill/d2668984-5946-458f-9e1c-6a76a65add10",
     "state": "WI",
     "session": "2019",
@@ -20472,6 +20494,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SJR7.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/189ebd7a-b7b8-41af-9d5e-0d71d7836f79",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "SJR 7",
+    "title": "Relating to: recognizing that the Wisconsin State Legislature supports nuclear power and fusion energy as clean energy sources that are critical to safely meeting Wisconsin’s growing energy demands and declaring the legislature’s commitment to the continuation and expansion of nuclear power and nuclear technologies, the development of nuclear technologies and fusion energy, and employing the leadership and resources necessary to support the development of and investment in nuclear power, fusion energy, and related technologies in the state.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SJR7.pdf"
   },
   {
     "bill_id": "ocd-bill/a9f2c0d8-97f7-4de7-ab44-2162f9a2e06b",
@@ -20606,28 +20650,6 @@
     "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2017/REG/SJR88.pdf"
   },
   {
-    "bill_id": "ocd-bill/d2d76e3d-842f-430f-8e15-140d00b78bf5",
-    "state": "WI",
-    "session": "2019",
-    "identifier": "SJR 89",
-    "title": "Relating to: celebrating the 100th anniversary of the American Automobile Association's School Safety Patrol Program.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SJR89.pdf"
-  },
-  {
     "bill_id": "ocd-bill/95477e83-d90b-4db9-9a5a-e6d89817b55b",
     "state": "WI",
     "session": "2025",
@@ -20648,6 +20670,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SJR89.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/d2d76e3d-842f-430f-8e15-140d00b78bf5",
+    "state": "WI",
+    "session": "2019",
+    "identifier": "SJR 89",
+    "title": "Relating to: celebrating the 100th anniversary of the American Automobile Association's School Safety Patrol Program.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://docs.legis.wisconsin.gov/document/proposaltext/2019/REG/SJR89.pdf"
   },
   {
     "bill_id": "ocd-bill/996f9736-fa51-498c-95cc-2205a9fe22cc",
