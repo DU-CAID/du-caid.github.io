@@ -278,6 +278,23 @@ function initBillBrowser(manifest) {
       const ncslBadge = b.in_ncsl ? '<span class="tag tag-ncsl">NCSL</span>' : "";
       const concepts  = (b.matched_concepts || []).slice(0, 3).join(", ");
 
+      // Status cell: NCSL status (colour-coded) if available, else latest action date
+      const statusCell = (() => {
+        if (b.ncsl_status) {
+          const s = b.ncsl_status;
+          const lower = s.toLowerCase();
+          let color = "var(--muted)";
+          if (lower.includes("enact") || lower.includes("sign") || lower.includes("chapter")) color = "#16a34a";
+          else if (lower.includes("veto") || lower.includes("fail")) color = "var(--du-crimson)";
+          else if (lower.includes("pend") || lower.includes("progress")) color = "var(--du-gold)";
+          return `<span style="font-size:0.78rem;color:${color};font-weight:600">${s}</span>`;
+        }
+        if (b.latest_action_date) {
+          return `<span style="font-size:0.78rem;color:var(--muted)">${b.latest_action_date}</span>`;
+        }
+        return "";
+      })();
+
       billRow.innerHTML = `
         <td>${b.state || ""}</td>
         <td style="white-space:nowrap">${billLink}</td>
@@ -294,6 +311,7 @@ function initBillBrowser(manifest) {
         <td style="text-align:center">${b.core_ai_hits || 0}</td>
         <td style="text-align:center">${b.adjacent_ai_hits || 0}</td>
         <td style="text-align:center">${b.in_ncsl ? "✓" : ""}</td>
+        <td style="white-space:nowrap">${statusCell}</td>
       `;
 
       tbody.appendChild(billRow);
@@ -321,8 +339,12 @@ function initBillBrowser(manifest) {
     const concepts = (b.matched_concepts || [])
       .map(c => `<li class="concept-tag">${c}</li>`).join("") || "<li class='concept-tag' style='color:var(--muted)'>none</li>";
 
+    const latestAction = (b.latest_action_date || b.latest_action_description)
+      ? `${b.latest_action_date ? b.latest_action_date + " — " : ""}${b.latest_action_description || ""}`
+      : "—";
+
     detailRow.innerHTML = `
-      <td colspan="7">
+      <td colspan="8">
         <div class="bill-detail">
           <div class="detail-field">
             <div class="field-label">Bill ID</div>
@@ -337,9 +359,18 @@ function initBillBrowser(manifest) {
             <div class="field-value">${b.updated || "—"}</div>
           </div>
           <div class="detail-field">
+            <div class="field-label">Latest action</div>
+            <div class="field-value">${latestAction}</div>
+          </div>
+          <div class="detail-field">
             <div class="field-label">NCSL</div>
             <div class="field-value">${b.in_ncsl ? "Yes — matched to NCSL AI legislation database" : "Not in NCSL database"}</div>
           </div>
+          ${b.ncsl_status ? `
+          <div class="detail-field">
+            <div class="field-label">NCSL status</div>
+            <div class="field-value">${b.ncsl_status}</div>
+          </div>` : ""}
           <div class="detail-field" style="grid-column:1/-1">
             <div class="field-label">Matched concepts</div>
             <ul class="concepts-list">${concepts}</ul>
