@@ -47,6 +47,28 @@
     "bill_id": "",
     "state": "DE",
     "session": "2025",
+    "identifier": "H 16",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiREUyMDI1MDAwSDE2In0.XmW1REyzxKsZYQQc4yeLSsK7IoAY5viWPrx_AJpQSoQ"
+  },
+  {
+    "bill_id": "",
+    "state": "DE",
+    "session": "2025",
     "identifier": "H 191",
     "title": "",
     "updated": "",
@@ -88,26 +110,48 @@
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DE2025000H233&ciq=urn:user:PA196471263&client_md=3be7931e66f595a3e9f40f7222a10d56&mode=current_text"
   },
   {
-    "bill_id": "ocd-bill/d5eb8aca-06d4-42ec-9f3f-6f0da3040c68",
+    "bill_id": "",
     "state": "DE",
-    "session": "153",
-    "identifier": "HB 10",
-    "title": "AN ACT CONCURRING IN PROPOSED AMENDMENTS TO THE DELAWARE CONSTITUTION RELATING TO TECHNICAL CORRECTIONS.",
+    "session": "2025",
+    "identifier": "H 233",
+    "title": "",
     "updated": "",
     "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "adjacent_tech"
+      "ncsl_curated_ai_law"
     ],
     "matched_tiers": [
-      "adjacent_ai"
+      "ncsl"
     ],
     "match_fields": [
-      "raw_text"
+      "ncsl_source"
     ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141791&legislationTypeId=1&docTypeId=2&legislationName=HB10"
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiREUyMDI1MDAwSDIzMyJ9.SaPYlEi1lMf9w0tauEWDbWnLZLVls-MPla6jYEBJfxU"
+  },
+  {
+    "bill_id": "",
+    "state": "DE",
+    "session": "2023",
+    "identifier": "H 333",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DE2023000H333&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0"
   },
   {
     "bill_id": "ocd-bill/204ae41b-dd96-41bb-b2e8-7fd0ed39e374",
@@ -132,11 +176,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26037&legislationTypeId=1&docTypeId=2&legislationName=HB10"
   },
   {
-    "bill_id": "ocd-bill/e9b0d314-3ac3-4ef2-b71b-639f9df3e2cc",
+    "bill_id": "ocd-bill/d5eb8aca-06d4-42ec-9f3f-6f0da3040c68",
     "state": "DE",
-    "session": "151",
-    "identifier": "HB 104",
-    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO TEEN DATING VIOLENCE AND SEXUAL ASSAULT.",
+    "session": "153",
+    "identifier": "HB 10",
+    "title": "AN ACT CONCURRING IN PROPOSED AMENDMENTS TO THE DELAWARE CONSTITUTION RELATING TO TECHNICAL CORRECTIONS.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -147,12 +191,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48382&legislationTypeId=1&docTypeId=2&legislationName=HB104"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141791&legislationTypeId=1&docTypeId=2&legislationName=HB10"
   },
   {
     "bill_id": "ocd-bill/e20be094-a52d-4fc2-a321-bad102073040",
@@ -175,6 +218,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26684&legislationTypeId=6&docTypeId=2&legislationName=HS1"
+  },
+  {
+    "bill_id": "ocd-bill/e9b0d314-3ac3-4ef2-b71b-639f9df3e2cc",
+    "state": "DE",
+    "session": "151",
+    "identifier": "HB 104",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO TEEN DATING VIOLENCE AND SEXUAL ASSAULT.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48382&legislationTypeId=1&docTypeId=2&legislationName=HB104"
   },
   {
     "bill_id": "ocd-bill/3c5b24cf-53ed-461a-9864-b08750858fb8",
@@ -243,28 +309,6 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=140880&legislationTypeId=5&docTypeId=2"
   },
   {
-    "bill_id": "ocd-bill/8177ce51-0ade-4706-b8ed-d32cbd8cedbf",
-    "state": "DE",
-    "session": "150",
-    "identifier": "HB 110",
-    "title": "AN ACT TO AMEND TITLE 4, 16, AND 30 OF THE DELAWARE CODE CREATING THE DELAWARE MARIJUANA CONTROL ACT.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47506&legislationTypeId=1&docTypeId=2&legislationName=HB110"
-  },
-  {
     "bill_id": "ocd-bill/eed37773-7306-42f8-8b4a-3022293bf620",
     "state": "DE",
     "session": "149",
@@ -285,6 +329,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25571&legislationTypeId=1&docTypeId=2&legislationName=HB110"
+  },
+  {
+    "bill_id": "ocd-bill/8177ce51-0ade-4706-b8ed-d32cbd8cedbf",
+    "state": "DE",
+    "session": "150",
+    "identifier": "HB 110",
+    "title": "AN ACT TO AMEND TITLE 4, 16, AND 30 OF THE DELAWARE CODE CREATING THE DELAWARE MARIJUANA CONTROL ACT.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47506&legislationTypeId=1&docTypeId=2&legislationName=HB110"
   },
   {
     "bill_id": "ocd-bill/324b8b81-d065-4699-b588-a2ae80506ecb",
@@ -441,11 +507,11 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GeneratePdfDocument?legislationId=130380&legislationTypeId=5&docTypeId=2"
   },
   {
-    "bill_id": "ocd-bill/b4478313-d341-4ab3-94e5-2d7dfb93190b",
+    "bill_id": "ocd-bill/f76fa5c7-0270-49ef-8336-cd0aad578d61",
     "state": "DE",
-    "session": "150",
+    "session": "151",
     "identifier": "HB 133",
-    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE DELAWARE GOVERNMENTAL ACCOUNTABILITY ACT.",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO EDUCATOR EVALUATIONS.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -460,7 +526,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47411&legislationTypeId=1&docTypeId=2&legislationName=HB133"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48415&legislationTypeId=1&docTypeId=2&legislationName=HB133"
   },
   {
     "bill_id": "ocd-bill/aa6390a7-e44a-4988-8fc4-40a107033349",
@@ -485,11 +551,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142176&legislationTypeId=1&docTypeId=2&legislationName=HB133"
   },
   {
-    "bill_id": "ocd-bill/f76fa5c7-0270-49ef-8336-cd0aad578d61",
+    "bill_id": "ocd-bill/b4478313-d341-4ab3-94e5-2d7dfb93190b",
     "state": "DE",
-    "session": "151",
+    "session": "150",
     "identifier": "HB 133",
-    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO EDUCATOR EVALUATIONS.",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE DELAWARE GOVERNMENTAL ACCOUNTABILITY ACT.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -504,7 +570,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48415&legislationTypeId=1&docTypeId=2&legislationName=HB133"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47411&legislationTypeId=1&docTypeId=2&legislationName=HB133"
   },
   {
     "bill_id": "ocd-bill/d05f278c-640d-4bb7-ad5e-bb164ddd1bc3",
@@ -595,28 +661,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=58529&legislationTypeId=1&docTypeId=2&legislationName=HB139"
   },
   {
-    "bill_id": "ocd-bill/df9ef33c-0c1e-4ea8-b862-52eb9a9d5119",
-    "state": "DE",
-    "session": "152",
-    "identifier": "HB 140",
-    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO END OF LIFE OPTIONS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141227&legislationTypeId=5&docTypeId=2"
-  },
-  {
     "bill_id": "ocd-bill/8e2279f1-6887-490a-a1ba-536ad3ac2b6d",
     "state": "DE",
     "session": "149",
@@ -637,6 +681,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25646&legislationTypeId=1&docTypeId=2&legislationName=HB140"
+  },
+  {
+    "bill_id": "ocd-bill/df9ef33c-0c1e-4ea8-b862-52eb9a9d5119",
+    "state": "DE",
+    "session": "152",
+    "identifier": "HB 140",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO END OF LIFE OPTIONS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141227&legislationTypeId=5&docTypeId=2"
   },
   {
     "bill_id": "ocd-bill/543dd0c8-e263-4c08-9029-009381bff24c",
@@ -699,8 +765,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -827,21 +893,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai",
-      "artificial_intelligence",
-      "generative_ai_variant",
-      "adjacent_tech",
       "ai_system_composite",
+      "generative_ai",
+      "generative_ai_variant",
+      "synthetic_media",
+      "adjacent_tech",
       "ai_model_variant",
-      "synthetic_media"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -885,8 +951,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -937,28 +1003,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25727&legislationTypeId=1&docTypeId=2&legislationName=HB164"
   },
   {
-    "bill_id": "ocd-bill/d0b811aa-4da1-41cd-aa7d-5efd94eed144",
-    "state": "DE",
-    "session": "152",
-    "identifier": "HB 165",
-    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO DISCOVERY IN CRIMINAL CASES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141634&legislationTypeId=5&docTypeId=2"
-  },
-  {
     "bill_id": "ocd-bill/159203b4-d212-4ce1-ac9b-48b1228a22dc",
     "state": "DE",
     "session": "151",
@@ -979,6 +1023,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=58585&legislationTypeId=1&docTypeId=2&legislationName=HB165"
+  },
+  {
+    "bill_id": "ocd-bill/d0b811aa-4da1-41cd-aa7d-5efd94eed144",
+    "state": "DE",
+    "session": "152",
+    "identifier": "HB 165",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO DISCOVERY IN CRIMINAL CASES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141634&legislationTypeId=5&docTypeId=2"
   },
   {
     "bill_id": "ocd-bill/2bff8f77-112c-4b26-aec4-37e12e9f3d18",
@@ -1226,28 +1292,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25791&legislationTypeId=1&docTypeId=2&legislationName=HB181"
   },
   {
-    "bill_id": "ocd-bill/11c0f9c8-3f69-4ce3-90a7-d1a250eb82d1",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HB 182",
-    "title": "AN ACT TO AMEND TITLES 16 AND 29 OF THE DELAWARE CODE RELATING TO RESPONSES TO CHILD ABUSE AND NEGLECT.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25792&legislationTypeId=1&docTypeId=2&legislationName=HB182"
-  },
-  {
     "bill_id": "ocd-bill/857a9b12-8984-4100-b2dc-299a34bf58b5",
     "state": "DE",
     "session": "153",
@@ -1268,6 +1312,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142576&legislationTypeId=5&docTypeId=2"
+  },
+  {
+    "bill_id": "ocd-bill/11c0f9c8-3f69-4ce3-90a7-d1a250eb82d1",
+    "state": "DE",
+    "session": "149",
+    "identifier": "HB 182",
+    "title": "AN ACT TO AMEND TITLES 16 AND 29 OF THE DELAWARE CODE RELATING TO RESPONSES TO CHILD ABUSE AND NEGLECT.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25792&legislationTypeId=1&docTypeId=2&legislationName=HB182"
   },
   {
     "bill_id": "ocd-bill/f4c0ef19-3a49-40a1-9c61-bdbf76197c9d",
@@ -1292,28 +1358,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25793&legislationTypeId=1&docTypeId=2&legislationName=HB183"
   },
   {
-    "bill_id": "ocd-bill/2a023615-ba50-4ba6-8305-c62a144c11e8",
-    "state": "DE",
-    "session": "153",
-    "identifier": "HB 184",
-    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE REDISTRICTING OF THE GENERAL ASSEMBLY.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142392&legislationTypeId=1&docTypeId=2&legislationName=HB184"
-  },
-  {
     "bill_id": "ocd-bill/60280a89-766f-4684-afe9-c1b717903f8b",
     "state": "DE",
     "session": "151",
@@ -1334,6 +1378,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=68700&legislationTypeId=1&docTypeId=2&legislationName=HB184"
+  },
+  {
+    "bill_id": "ocd-bill/2a023615-ba50-4ba6-8305-c62a144c11e8",
+    "state": "DE",
+    "session": "153",
+    "identifier": "HB 184",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE REDISTRICTING OF THE GENERAL ASSEMBLY.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142392&legislationTypeId=1&docTypeId=2&legislationName=HB184"
   },
   {
     "bill_id": "ocd-bill/f3c037d1-390d-41c6-af74-6ec9ebbcd994",
@@ -1447,6 +1513,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47613&legislationTypeId=1&docTypeId=2&legislationName=HB190"
   },
   {
+    "bill_id": "ocd-bill/891943b1-ccc9-4787-88cc-abc1cc524fca",
+    "state": "DE",
+    "session": "152",
+    "identifier": "HB 192",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO PROFICIENCY ON STUDENT ASSESSMENTS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=140529&legislationTypeId=1&docTypeId=2&legislationName=HB192"
+  },
+  {
     "bill_id": "ocd-bill/0fabf98e-ee0c-4960-9a22-737f9f2bb524",
     "state": "DE",
     "session": "150",
@@ -1468,28 +1556,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47631&legislationTypeId=1&docTypeId=2&legislationName=HB192"
-  },
-  {
-    "bill_id": "ocd-bill/891943b1-ccc9-4787-88cc-abc1cc524fca",
-    "state": "DE",
-    "session": "152",
-    "identifier": "HB 192",
-    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO PROFICIENCY ON STUDENT ASSESSMENTS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=140529&legislationTypeId=1&docTypeId=2&legislationName=HB192"
   },
   {
     "bill_id": "ocd-bill/be9aadbb-6968-4b02-ac20-0eb0fb8134bf",
@@ -1647,28 +1713,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47641&legislationTypeId=1&docTypeId=2&legislationName=HB199"
   },
   {
-    "bill_id": "ocd-bill/f44a8bab-729c-4b88-953a-1670f7b5081e",
-    "state": "DE",
-    "session": "153",
-    "identifier": "HB 201",
-    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO VICTIMS OF HUMAN TRAFFICKING.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142423&legislationTypeId=1&docTypeId=2&legislationName=HB201"
-  },
-  {
     "bill_id": "ocd-bill/3c4067b8-65b2-4b0d-8f07-df812206ac4b",
     "state": "DE",
     "session": "151",
@@ -1689,6 +1733,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78738&legislationTypeId=1&docTypeId=2&legislationName=HB201"
+  },
+  {
+    "bill_id": "ocd-bill/f44a8bab-729c-4b88-953a-1670f7b5081e",
+    "state": "DE",
+    "session": "153",
+    "identifier": "HB 201",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO VICTIMS OF HUMAN TRAFFICKING.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142423&legislationTypeId=1&docTypeId=2&legislationName=HB201"
   },
   {
     "bill_id": "ocd-bill/7ad7bf89-781f-48ab-8ffd-c29563f55b09",
@@ -1891,28 +1957,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25853&legislationTypeId=1&docTypeId=2&legislationName=HB208"
   },
   {
-    "bill_id": "ocd-bill/31fb65be-7b13-4bc0-88ef-a0766c5e8794",
-    "state": "DE",
-    "session": "152",
-    "identifier": "HB 21",
-    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO LEGISLATIVE OVERSIGHT OF AGENCY REGULATIONS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=140934&legislationTypeId=1&docTypeId=2&legislationName=HB21"
-  },
-  {
     "bill_id": "ocd-bill/f2ad7c99-534e-4e9d-bda2-83ef5c069bf4",
     "state": "DE",
     "session": "151",
@@ -1935,11 +1979,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48202&legislationTypeId=1&docTypeId=2&legislationName=HB21"
   },
   {
-    "bill_id": "ocd-bill/9c5a6245-19d4-42d2-913e-7cf13a0cd22e",
+    "bill_id": "ocd-bill/31fb65be-7b13-4bc0-88ef-a0766c5e8794",
     "state": "DE",
-    "session": "153",
-    "identifier": "HB 211",
-    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE INNOVATING DELAWARE ACT.",
+    "session": "152",
+    "identifier": "HB 21",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO LEGISLATIVE OVERSIGHT OF AGENCY REGULATIONS.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -1950,12 +1994,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142476&legislationTypeId=1&docTypeId=2&legislationName=HB211"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=140934&legislationTypeId=1&docTypeId=2&legislationName=HB21"
   },
   {
     "bill_id": "ocd-bill/caef4c16-98ad-4993-8cc0-35bf5694f834",
@@ -1981,11 +2024,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25876&legislationTypeId=1&docTypeId=2&legislationName=HB211"
   },
   {
-    "bill_id": "ocd-bill/b7281065-0330-4e00-aa2d-fd56b5219148",
+    "bill_id": "ocd-bill/9c5a6245-19d4-42d2-913e-7cf13a0cd22e",
     "state": "DE",
-    "session": "152",
-    "identifier": "HB 212",
-    "title": "AN ACT TO AMEND TITLE 25 OF THE DELAWARE CODE RELATING TO MANUFACTURED HOUSING.",
+    "session": "153",
+    "identifier": "HB 211",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE INNOVATING DELAWARE ACT.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -1996,11 +2039,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141704&legislationTypeId=5&docTypeId=2"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142476&legislationTypeId=1&docTypeId=2&legislationName=HB211"
   },
   {
     "bill_id": "ocd-bill/596d72c4-c62a-461f-b029-51e2fdf37da3",
@@ -2026,6 +2070,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142578&legislationTypeId=6&docTypeId=2&legislationName=HS1forHB212"
   },
   {
+    "bill_id": "ocd-bill/b7281065-0330-4e00-aa2d-fd56b5219148",
+    "state": "DE",
+    "session": "152",
+    "identifier": "HB 212",
+    "title": "AN ACT TO AMEND TITLE 25 OF THE DELAWARE CODE RELATING TO MANUFACTURED HOUSING.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141704&legislationTypeId=5&docTypeId=2"
+  },
+  {
     "bill_id": "ocd-bill/3c4870d8-e4d6-43a2-86c5-1d647d893b0b",
     "state": "DE",
     "session": "153",
@@ -2046,28 +2112,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142496&legislationTypeId=1&docTypeId=2&legislationName=HB214"
-  },
-  {
-    "bill_id": "ocd-bill/63183180-7c5a-4019-80e1-e48f0cd23395",
-    "state": "DE",
-    "session": "151",
-    "identifier": "HB 219",
-    "title": "AN ACT TO AMEND TITLE 18 OF THE DELAWARE CODE RELATING TO PHARMACY BENEFITS MANAGERS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78800&legislationTypeId=1&docTypeId=2&legislationName=HB219"
   },
   {
     "bill_id": "ocd-bill/5ea6e96a-a3a7-4bee-9fdb-768df4bf706f",
@@ -2091,6 +2135,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25928&legislationTypeId=1&docTypeId=2&legislationName=HB219"
+  },
+  {
+    "bill_id": "ocd-bill/63183180-7c5a-4019-80e1-e48f0cd23395",
+    "state": "DE",
+    "session": "151",
+    "identifier": "HB 219",
+    "title": "AN ACT TO AMEND TITLE 18 OF THE DELAWARE CODE RELATING TO PHARMACY BENEFITS MANAGERS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78800&legislationTypeId=1&docTypeId=2&legislationName=HB219"
   },
   {
     "bill_id": "ocd-bill/7cd393c8-a51d-4b02-a397-89106a3e0b39",
@@ -2159,6 +2225,29 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47858&legislationTypeId=5&docTypeId=2"
   },
   {
+    "bill_id": "ocd-bill/a5bbd126-c00a-4c74-bd90-f6d5d58d7cf4",
+    "state": "DE",
+    "session": "149",
+    "identifier": "HB 226",
+    "title": "AN ACT TO AMEND THE DELAWARE CODE RELATING TO STATE ECONOMIC DEVELOPMENT AND TRANSFERRING THE FUNCTIONS OF THE DELAWARE ECONOMIC DEVELOPMENT OFFICE TO A DIVISION OF THE DEPARTMENT OF STATE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25956&legislationTypeId=1&docTypeId=2&legislationName=HB226"
+  },
+  {
     "bill_id": "ocd-bill/1f6b9754-2aad-41b6-a2be-aacd963c1cbc",
     "state": "DE",
     "session": "150",
@@ -2179,29 +2268,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47648&legislationTypeId=1&docTypeId=2&legislationName=HB226"
-  },
-  {
-    "bill_id": "ocd-bill/a5bbd126-c00a-4c74-bd90-f6d5d58d7cf4",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HB 226",
-    "title": "AN ACT TO AMEND THE DELAWARE CODE RELATING TO STATE ECONOMIC DEVELOPMENT AND TRANSFERRING THE FUNCTIONS OF THE DELAWARE ECONOMIC DEVELOPMENT OFFICE TO A DIVISION OF THE DEPARTMENT OF STATE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25956&legislationTypeId=1&docTypeId=2&legislationName=HB226"
   },
   {
     "bill_id": "ocd-bill/8ca81ace-6569-4a19-ac3b-60ba9e60bcce",
@@ -2264,8 +2330,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2499,28 +2565,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47792&legislationTypeId=1&docTypeId=2&legislationName=HB243"
   },
   {
-    "bill_id": "ocd-bill/5dffb6f1-441a-442c-84c0-be43ecb1cec4",
-    "state": "DE",
-    "session": "150",
-    "identifier": "HB 245",
-    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO RECOVERY HOUSING ACCREDITATION AND LICENSING.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47798&legislationTypeId=1&docTypeId=2&legislationName=HB245"
-  },
-  {
     "bill_id": "ocd-bill/19fcd33a-9872-4967-8c5e-9a348b182b69",
     "state": "DE",
     "session": "151",
@@ -2542,6 +2586,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78933&legislationTypeId=5&docTypeId=2"
+  },
+  {
+    "bill_id": "ocd-bill/5dffb6f1-441a-442c-84c0-be43ecb1cec4",
+    "state": "DE",
+    "session": "150",
+    "identifier": "HB 245",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO RECOVERY HOUSING ACCREDITATION AND LICENSING.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47798&legislationTypeId=1&docTypeId=2&legislationName=HB245"
   },
   {
     "bill_id": "ocd-bill/5793a6bb-6dcd-496d-b970-419568789932",
@@ -2780,8 +2846,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2825,8 +2891,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3004,12 +3070,34 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48035&legislationTypeId=6&docTypeId=2&legislationName=HS1"
+  },
+  {
+    "bill_id": "ocd-bill/1e5da66b-b83a-45b4-992d-98716cef793c",
+    "state": "DE",
+    "session": "153",
+    "identifier": "HB 29",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO DELAWARE PUBLIC EDUCATION PROFILES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142676&legislationTypeId=5&docTypeId=2"
   },
   {
     "bill_id": "ocd-bill/83b6076f-cfcc-4f27-afc8-46131a9f40f0",
@@ -3049,34 +3137,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47333&legislationTypeId=6&docTypeId=2&legislationName=HS1"
-  },
-  {
-    "bill_id": "ocd-bill/1e5da66b-b83a-45b4-992d-98716cef793c",
-    "state": "DE",
-    "session": "153",
-    "identifier": "HB 29",
-    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO DELAWARE PUBLIC EDUCATION PROFILES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142676&legislationTypeId=5&docTypeId=2"
   },
   {
     "bill_id": "ocd-bill/8267773f-0f31-4d05-9174-3ae616ba47cf",
@@ -3182,8 +3248,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3257,6 +3323,28 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=109425&legislationTypeId=5&docTypeId=2"
   },
   {
+    "bill_id": "ocd-bill/fb60326f-7296-40e3-8dfd-f5c1530920eb",
+    "state": "DE",
+    "session": "152",
+    "identifier": "HB 304",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE DEPARTMENT OF TECHNOLOGY AND INFORMATION AND CRIMINAL BACKGROUND CHECKS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141138&legislationTypeId=5&docTypeId=2"
+  },
+  {
     "bill_id": "ocd-bill/f8777186-e561-49a7-9796-fe1501d3b784",
     "state": "DE",
     "session": "151",
@@ -3278,28 +3366,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=109482&legislationTypeId=5&docTypeId=2"
-  },
-  {
-    "bill_id": "ocd-bill/fb60326f-7296-40e3-8dfd-f5c1530920eb",
-    "state": "DE",
-    "session": "152",
-    "identifier": "HB 304",
-    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE DEPARTMENT OF TECHNOLOGY AND INFORMATION AND CRIMINAL BACKGROUND CHECKS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141138&legislationTypeId=5&docTypeId=2"
   },
   {
     "bill_id": "ocd-bill/b8327cc5-93f1-446c-bf5e-163f6c3fb3d3",
@@ -3346,28 +3412,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48056&legislationTypeId=1&docTypeId=2&legislationName=HB309"
   },
   {
-    "bill_id": "ocd-bill/cdfbc415-6d5f-4cee-a50e-abe1c800693b",
-    "state": "DE",
-    "session": "151",
-    "identifier": "HB 311",
-    "title": "AN ACT TO AMEND TITLE 6 AND TITLE 29 OF THE DELAWARE CODE RELATING TO EQUAL ACCOMMODATIONS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=99329&legislationTypeId=5&docTypeId=2"
-  },
-  {
     "bill_id": "ocd-bill/1427f0f2-0eb5-490a-ac2c-f89cf71b48e4",
     "state": "DE",
     "session": "149",
@@ -3388,6 +3432,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26293&legislationTypeId=1&docTypeId=2&legislationName=HB311"
+  },
+  {
+    "bill_id": "ocd-bill/cdfbc415-6d5f-4cee-a50e-abe1c800693b",
+    "state": "DE",
+    "session": "151",
+    "identifier": "HB 311",
+    "title": "AN ACT TO AMEND TITLE 6 AND TITLE 29 OF THE DELAWARE CODE RELATING TO EQUAL ACCOMMODATIONS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=99329&legislationTypeId=5&docTypeId=2"
   },
   {
     "bill_id": "ocd-bill/a4a4f618-4ef1-4257-8bb5-b8027de1d1b2",
@@ -3584,8 +3650,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3740,12 +3806,36 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48120&legislationTypeId=1&docTypeId=2&legislationName=HB343"
+  },
+  {
+    "bill_id": "ocd-bill/cb8a8a07-58e2-4c97-a58d-f4201bb0e93e",
+    "state": "DE",
+    "session": "151",
+    "identifier": "HB 344",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO BIAS TRAINING FOR HEALTHCARE WORKERS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=129729&legislationTypeId=6&docTypeId=2&legislationName=HS2forHB344"
   },
   {
     "bill_id": "ocd-bill/3a78faea-01d3-4d3e-aee0-39cafb1240fd",
@@ -3794,11 +3884,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48121&legislationTypeId=1&docTypeId=2&legislationName=HB344"
   },
   {
-    "bill_id": "ocd-bill/cb8a8a07-58e2-4c97-a58d-f4201bb0e93e",
+    "bill_id": "ocd-bill/14984ef0-1519-4683-a110-bb078044e134",
     "state": "DE",
     "session": "151",
-    "identifier": "HB 344",
-    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO BIAS TRAINING FOR HEALTHCARE WORKERS.",
+    "identifier": "HB 346",
+    "title": "AN ACT TO AMEND TITLE 31 OF THE DELAWARE CODE RELATING TO REMOTE PATIENT MONITORING DEVICES.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -3809,13 +3899,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=129729&legislationTypeId=6&docTypeId=2&legislationName=HS2forHB344"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=79241&legislationTypeId=1&docTypeId=2&legislationName=HB346"
   },
   {
     "bill_id": "ocd-bill/ecd1494d-66b5-44f4-9124-6f915913b922",
@@ -3840,11 +3928,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26481&legislationTypeId=6&docTypeId=2&legislationName=HS1"
   },
   {
-    "bill_id": "ocd-bill/14984ef0-1519-4683-a110-bb078044e134",
+    "bill_id": "ocd-bill/cd7dff8a-7481-4d99-b813-84eaea0df426",
     "state": "DE",
-    "session": "151",
-    "identifier": "HB 346",
-    "title": "AN ACT TO AMEND TITLE 31 OF THE DELAWARE CODE RELATING TO REMOTE PATIENT MONITORING DEVICES.",
+    "session": "149",
+    "identifier": "HB 350",
+    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO PERSONAL INFORMATION PRIVACY.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -3855,11 +3943,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=79241&legislationTypeId=1&docTypeId=2&legislationName=HB346"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26395&legislationTypeId=1&docTypeId=2&legislationName=HB350"
   },
   {
     "bill_id": "ocd-bill/b21c9d7e-977f-4a3f-a82f-77b45de09cfe",
@@ -3884,29 +3973,6 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141361&legislationTypeId=5&docTypeId=2"
   },
   {
-    "bill_id": "ocd-bill/cd7dff8a-7481-4d99-b813-84eaea0df426",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HB 350",
-    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO PERSONAL INFORMATION PRIVACY.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26395&legislationTypeId=1&docTypeId=2&legislationName=HB350"
-  },
-  {
     "bill_id": "ocd-bill/d9a82fa8-9ff2-4260-a83f-2f75bc184f47",
     "state": "DE",
     "session": "150",
@@ -3922,8 +3988,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3967,9 +4033,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4057,8 +4123,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4124,8 +4190,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4177,6 +4243,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=109387&legislationTypeId=6&docTypeId=2&legislationName=HS1forHB377"
   },
   {
+    "bill_id": "ocd-bill/de364fa1-8e47-4620-b6ad-1f0d210c1e5c",
+    "state": "DE",
+    "session": "152",
+    "identifier": "HB 378",
+    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO HEALTH SPA REGULATION.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141682&legislationTypeId=5&docTypeId=2"
+  },
+  {
     "bill_id": "ocd-bill/626eab0c-3c1d-4c3a-a3b9-77c791bad09f",
     "state": "DE",
     "session": "149",
@@ -4199,11 +4287,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26520&legislationTypeId=1&docTypeId=2&legislationName=HB378"
   },
   {
-    "bill_id": "ocd-bill/de364fa1-8e47-4620-b6ad-1f0d210c1e5c",
+    "bill_id": "ocd-bill/5c529984-1d2d-4ed3-b99c-497f1c7508d5",
     "state": "DE",
-    "session": "152",
-    "identifier": "HB 378",
-    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO HEALTH SPA REGULATION.",
+    "session": "149",
+    "identifier": "HB 379",
+    "title": "AN ACT TO AMEND THE CHARTER OF THE TOWN OF WOODSIDE.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -4218,7 +4306,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141682&legislationTypeId=5&docTypeId=2"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26533&legislationTypeId=1&docTypeId=2&legislationName=HB379"
   },
   {
     "bill_id": "ocd-bill/07bca6cb-d1e8-48cc-9b4c-0ed6157d37a9",
@@ -4263,28 +4351,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141223&legislationTypeId=1&docTypeId=2&legislationName=HB379"
-  },
-  {
-    "bill_id": "ocd-bill/5c529984-1d2d-4ed3-b99c-497f1c7508d5",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HB 379",
-    "title": "AN ACT TO AMEND THE CHARTER OF THE TOWN OF WOODSIDE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26533&legislationTypeId=1&docTypeId=2&legislationName=HB379"
   },
   {
     "bill_id": "ocd-bill/15c39db4-361c-4044-839a-d3c3a054db78",
@@ -4500,8 +4566,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4523,8 +4589,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4921,12 +4987,35 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48228&legislationTypeId=1&docTypeId=2&legislationName=HB43"
+  },
+  {
+    "bill_id": "ocd-bill/e208ea84-e9f5-4ba1-a4ba-7e23a510b41a",
+    "state": "DE",
+    "session": "151",
+    "identifier": "HB 430",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO GROW YOUR OWN EDUCATOR PROGRAM.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
       "raw_text",
       "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48228&legislationTypeId=1&docTypeId=2&legislationName=HB43"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=109531&legislationTypeId=1&docTypeId=2&legislationName=HB430"
   },
   {
     "bill_id": "ocd-bill/a09ea70d-099d-436c-88ed-40c023d4591a",
@@ -4951,11 +5040,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141522&legislationTypeId=1&docTypeId=2&legislationName=HB430"
   },
   {
-    "bill_id": "ocd-bill/e208ea84-e9f5-4ba1-a4ba-7e23a510b41a",
+    "bill_id": "ocd-bill/1e790d07-3fbb-4bde-b9c0-f8f42abbcd55",
     "state": "DE",
-    "session": "151",
-    "identifier": "HB 430",
-    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO GROW YOUR OWN EDUCATOR PROGRAM.",
+    "session": "149",
+    "identifier": "HB 432",
+    "title": "AN ACT TO AMEND THE DELAWARE CODE RELATING TO ADMINISTRATIVE MATTERS INVOLVING THE TRANSFER OF STATE ECONOMIC DEVELOPMENT FUNCTIONS  TO THE DEPARTMENT OF STATE.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -4966,12 +5055,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=109531&legislationTypeId=1&docTypeId=2&legislationName=HB430"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26723&legislationTypeId=1&docTypeId=2&legislationName=HB432"
   },
   {
     "bill_id": "ocd-bill/66790642-c33b-4352-82bf-f94630a31f31",
@@ -4994,28 +5082,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=109542&legislationTypeId=1&docTypeId=2&legislationName=HB432"
-  },
-  {
-    "bill_id": "ocd-bill/1e790d07-3fbb-4bde-b9c0-f8f42abbcd55",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HB 432",
-    "title": "AN ACT TO AMEND THE DELAWARE CODE RELATING TO ADMINISTRATIVE MATTERS INVOLVING THE TRANSFER OF STATE ECONOMIC DEVELOPMENT FUNCTIONS  TO THE DEPARTMENT OF STATE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26723&legislationTypeId=1&docTypeId=2&legislationName=HB432"
   },
   {
     "bill_id": "ocd-bill/12651a98-bb1a-4364-813b-d5fdedc77ff7",
@@ -5055,8 +5121,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5219,28 +5285,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26782&legislationTypeId=1&docTypeId=2&legislationName=HB450"
   },
   {
-    "bill_id": "ocd-bill/f93a317c-7ef9-432a-9c24-e0ba25d35522",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HB 455",
-    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO THE STATE BOARD OF EDUCATION.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26815&legislationTypeId=1&docTypeId=2&legislationName=HB455"
-  },
-  {
     "bill_id": "ocd-bill/cc2f4c50-ed48-450f-a709-d0e7d44a6217",
     "state": "DE",
     "session": "152",
@@ -5263,6 +5307,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141700&legislationTypeId=1&docTypeId=2&legislationName=HB455"
+  },
+  {
+    "bill_id": "ocd-bill/f93a317c-7ef9-432a-9c24-e0ba25d35522",
+    "state": "DE",
+    "session": "149",
+    "identifier": "HB 455",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO THE STATE BOARD OF EDUCATION.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26815&legislationTypeId=1&docTypeId=2&legislationName=HB455"
   },
   {
     "bill_id": "ocd-bill/4a5875a4-9c99-4400-bf3c-c43603851483",
@@ -5398,29 +5464,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=119652&legislationTypeId=1&docTypeId=2&legislationName=HB464"
   },
   {
-    "bill_id": "ocd-bill/0e3e2400-bc9b-4933-b1ae-678a5919b824",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HB 465",
-    "title": "AN ACT TO AMEND TITLE 6, TITLE 7, TITLE 8, TITLE 10, TITLE 11, TITLE 14, TITLE 16, TITLE 24, TITLE 29, AND TITLE 30 OF THE DELAWARE CODE RELATING TO TECHNICAL CORRECTIONS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26852&legislationTypeId=1&docTypeId=2&legislationName=HB465"
-  },
-  {
     "bill_id": "ocd-bill/3768bd77-6b82-4784-90a2-cd8ce86ab14e",
     "state": "DE",
     "session": "151",
@@ -5441,6 +5484,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=119633&legislationTypeId=1&docTypeId=2&legislationName=HB465"
+  },
+  {
+    "bill_id": "ocd-bill/0e3e2400-bc9b-4933-b1ae-678a5919b824",
+    "state": "DE",
+    "session": "149",
+    "identifier": "HB 465",
+    "title": "AN ACT TO AMEND TITLE 6, TITLE 7, TITLE 8, TITLE 10, TITLE 11, TITLE 14, TITLE 16, TITLE 24, TITLE 29, AND TITLE 30 OF THE DELAWARE CODE RELATING TO TECHNICAL CORRECTIONS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26852&legislationTypeId=1&docTypeId=2&legislationName=HB465"
   },
   {
     "bill_id": "ocd-bill/28de9a91-6245-4a8f-bdc9-827baa84cae2",
@@ -5686,29 +5752,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48247&legislationTypeId=1&docTypeId=2&legislationName=HB49"
   },
   {
-    "bill_id": "ocd-bill/ab4cadc6-e98d-4d19-8879-cfaed4daf471",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HB 5",
-    "title": "AN ACT PROPOSING AN AMENDMENT TO ARTICLE I OF THE DELAWARE CONSTITUTION RELATING TO EQUAL RIGHTS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25786&legislationTypeId=1&docTypeId=2&legislationName=HB5"
-  },
-  {
     "bill_id": "ocd-bill/8c1a29ad-9521-4a9c-b990-b0ebbfac86de",
     "state": "DE",
     "session": "153",
@@ -5729,6 +5772,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141760&legislationTypeId=1&docTypeId=2&legislationName=HB5"
+  },
+  {
+    "bill_id": "ocd-bill/ab4cadc6-e98d-4d19-8879-cfaed4daf471",
+    "state": "DE",
+    "session": "149",
+    "identifier": "HB 5",
+    "title": "AN ACT PROPOSING AN AMENDMENT TO ARTICLE I OF THE DELAWARE CONSTITUTION RELATING TO EQUAL RIGHTS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25786&legislationTypeId=1&docTypeId=2&legislationName=HB5"
   },
   {
     "bill_id": "ocd-bill/86030084-6d1e-4cbd-ab00-a76255273922",
@@ -5865,6 +5931,28 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142077&legislationTypeId=5&docTypeId=2"
   },
   {
+    "bill_id": "ocd-bill/997d8068-9138-4e0f-84a7-636d46df4dd6",
+    "state": "DE",
+    "session": "152",
+    "identifier": "HB 66",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO DELAWARE PUBLIC EDUCATION PROFILES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=130311&legislationTypeId=6&docTypeId=2&legislationName=HS1forHB66"
+  },
+  {
     "bill_id": "ocd-bill/4e6b1f7e-a9cd-46b6-8575-47a0135bc727",
     "state": "DE",
     "session": "150",
@@ -5902,34 +5990,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25455&legislationTypeId=1&docTypeId=2&legislationName=HB66"
-  },
-  {
-    "bill_id": "ocd-bill/997d8068-9138-4e0f-84a7-636d46df4dd6",
-    "state": "DE",
-    "session": "152",
-    "identifier": "HB 66",
-    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO DELAWARE PUBLIC EDUCATION PROFILES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=130311&legislationTypeId=6&docTypeId=2&legislationName=HS1forHB66"
   },
   {
     "bill_id": "ocd-bill/417c499e-192e-45f4-8afe-e88a7c16b1fd",
@@ -5998,6 +6064,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25462&legislationTypeId=1&docTypeId=2&legislationName=HB75"
   },
   {
+    "bill_id": "ocd-bill/8446f362-e00f-4e4b-a7d4-2659c242a311",
+    "state": "DE",
+    "session": "149",
+    "identifier": "HB 79",
+    "title": "AN ACT TO AMEND TITLE 15 OF THE DELAWARE CODE RELATING TO REGISTRATION OF VOTERS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25480&legislationTypeId=1&docTypeId=2&legislationName=HB79"
+  },
+  {
     "bill_id": "ocd-bill/7fd52b17-3a55-459b-a57d-16a2a09a5766",
     "state": "DE",
     "session": "153",
@@ -6019,28 +6107,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142132&legislationTypeId=5&docTypeId=2"
-  },
-  {
-    "bill_id": "ocd-bill/8446f362-e00f-4e4b-a7d4-2659c242a311",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HB 79",
-    "title": "AN ACT TO AMEND TITLE 15 OF THE DELAWARE CODE RELATING TO REGISTRATION OF VOTERS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25480&legislationTypeId=1&docTypeId=2&legislationName=HB79"
   },
   {
     "bill_id": "ocd-bill/8735a64a-f408-4691-891a-226b2f5ec7b8",
@@ -6175,28 +6241,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47215&legislationTypeId=1&docTypeId=2&legislationName=HB88"
   },
   {
-    "bill_id": "ocd-bill/4a60ac4f-2e64-475a-be38-ebc1fb9f71fa",
-    "state": "DE",
-    "session": "150",
-    "identifier": "HB 89",
-    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO THE CHILDHOOD LEAD POISONING PREVENTION ACT.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47216&legislationTypeId=1&docTypeId=2&legislationName=HB89"
-  },
-  {
     "bill_id": "ocd-bill/f2088612-4eba-40b6-badb-d9b9ffdd1bcc",
     "state": "DE",
     "session": "149",
@@ -6217,6 +6261,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25513&legislationTypeId=1&docTypeId=2&legislationName=HB89"
+  },
+  {
+    "bill_id": "ocd-bill/4a60ac4f-2e64-475a-be38-ebc1fb9f71fa",
+    "state": "DE",
+    "session": "150",
+    "identifier": "HB 89",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO THE CHILDHOOD LEAD POISONING PREVENTION ACT.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47216&legislationTypeId=1&docTypeId=2&legislationName=HB89"
   },
   {
     "bill_id": "ocd-bill/ba66bb50-39bc-48d8-9a4b-673123369221",
@@ -6278,8 +6344,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6301,8 +6367,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6368,8 +6434,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
       "raw_text",
+      "title",
       "abstract"
     ],
     "in_ncsl": false,
@@ -6686,11 +6752,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141665&legislationTypeId=3&docTypeId=2&legislationName=HCR162"
   },
   {
-    "bill_id": "ocd-bill/01c1bf8c-61e0-45a6-9c93-e273c8edae3b",
+    "bill_id": "ocd-bill/4aff67d5-d186-47e8-bb7d-2241994e9b54",
     "state": "DE",
-    "session": "153",
+    "session": "151",
     "identifier": "HCR 17",
-    "title": "RECOGNIZING MARCH 2025 AS SOCIAL WORK MONTH IN THE STATE OF DELAWARE.",
+    "title": "DESIGNATING MARCH 24, 2021 AS \"EQUAL PAY DAY\" IN THE STATE OF DELAWARE.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -6705,7 +6771,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141916&legislationTypeId=3&docTypeId=2&legislationName=HCR17"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48508&legislationTypeId=3&docTypeId=2&legislationName=HCR17"
   },
   {
     "bill_id": "ocd-bill/a51bb9b0-a582-4078-9a3c-5a88eca84282",
@@ -6730,11 +6796,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25601&legislationTypeId=3&docTypeId=2&legislationName=HCR17"
   },
   {
-    "bill_id": "ocd-bill/4aff67d5-d186-47e8-bb7d-2241994e9b54",
+    "bill_id": "ocd-bill/01c1bf8c-61e0-45a6-9c93-e273c8edae3b",
     "state": "DE",
-    "session": "151",
+    "session": "153",
     "identifier": "HCR 17",
-    "title": "DESIGNATING MARCH 24, 2021 AS \"EQUAL PAY DAY\" IN THE STATE OF DELAWARE.",
+    "title": "RECOGNIZING MARCH 2025 AS SOCIAL WORK MONTH IN THE STATE OF DELAWARE.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -6749,29 +6815,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48508&legislationTypeId=3&docTypeId=2&legislationName=HCR17"
-  },
-  {
-    "bill_id": "ocd-bill/c7fcca1a-ff4f-48e6-a40f-c7503bcaaf8c",
-    "state": "DE",
-    "session": "150",
-    "identifier": "HCR 18",
-    "title": "DESIGNATING THE WEEK OF MARCH 25 - 31, 2019 AS “PUBLIC SCHOOLS WEEK”.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47230&legislationTypeId=3&docTypeId=2&legislationName=HCR18"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141916&legislationTypeId=3&docTypeId=2&legislationName=HCR17"
   },
   {
     "bill_id": "ocd-bill/c484d605-32cf-4228-a5e8-1b3b185f5373",
@@ -6794,6 +6838,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141945&legislationTypeId=3&docTypeId=2&legislationName=HCR18"
+  },
+  {
+    "bill_id": "ocd-bill/c7fcca1a-ff4f-48e6-a40f-c7503bcaaf8c",
+    "state": "DE",
+    "session": "150",
+    "identifier": "HCR 18",
+    "title": "DESIGNATING THE WEEK OF MARCH 25 - 31, 2019 AS “PUBLIC SCHOOLS WEEK”.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47230&legislationTypeId=3&docTypeId=2&legislationName=HCR18"
   },
   {
     "bill_id": "ocd-bill/4151a00d-5a64-4707-a708-805dbe1c40af",
@@ -6833,9 +6899,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6908,6 +6974,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141994&legislationTypeId=3&docTypeId=2&legislationName=HCR25"
   },
   {
+    "bill_id": "ocd-bill/e5da2a52-064f-4d8a-9af0-56acac55c5fb",
+    "state": "DE",
+    "session": "150",
+    "identifier": "HCR 26",
+    "title": "DESIGNATING APRIL 2, 2019 AS \"EQUAL PAY DAY\" IN THE STATE OF DELAWARE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47321&legislationTypeId=3&docTypeId=2&legislationName=HCR26"
+  },
+  {
     "bill_id": "ocd-bill/7fccc2b5-1cb3-41bb-9172-5d37c6b6e3df",
     "state": "DE",
     "session": "153",
@@ -6929,28 +7017,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142065&legislationTypeId=3&docTypeId=2&legislationName=HCR26"
-  },
-  {
-    "bill_id": "ocd-bill/e5da2a52-064f-4d8a-9af0-56acac55c5fb",
-    "state": "DE",
-    "session": "150",
-    "identifier": "HCR 26",
-    "title": "DESIGNATING APRIL 2, 2019 AS \"EQUAL PAY DAY\" IN THE STATE OF DELAWARE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47321&legislationTypeId=3&docTypeId=2&legislationName=HCR26"
   },
   {
     "bill_id": "ocd-bill/8aa7f9f6-7a1d-44dd-a879-76c051af6a63",
@@ -7041,28 +7107,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78945&legislationTypeId=3&docTypeId=2&legislationName=HCR32"
   },
   {
-    "bill_id": "ocd-bill/d175ccf1-74f3-472d-8582-3fdb602fb1d3",
-    "state": "DE",
-    "session": "150",
-    "identifier": "HCR 35",
-    "title": "AN ACT ESTABLISHING THE INTERAGENCY PHARMACEUTICALS PURCHASING STUDY GROUP TO REVIEW AND MAKE RECOMMENDATIONS ON HOW TO LEVERAGE THE BULK PURCHASING POWER OF THE STATE TO NEGOTIATE LOWER PRICES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47373&legislationTypeId=3&docTypeId=2&legislationName=HCR35"
-  },
-  {
     "bill_id": "ocd-bill/20f7c3eb-2dd5-4436-a456-b22c3f58339a",
     "state": "DE",
     "session": "151",
@@ -7083,6 +7127,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78964&legislationTypeId=3&docTypeId=2&legislationName=HCR35"
+  },
+  {
+    "bill_id": "ocd-bill/d175ccf1-74f3-472d-8582-3fdb602fb1d3",
+    "state": "DE",
+    "session": "150",
+    "identifier": "HCR 35",
+    "title": "AN ACT ESTABLISHING THE INTERAGENCY PHARMACEUTICALS PURCHASING STUDY GROUP TO REVIEW AND MAKE RECOMMENDATIONS ON HOW TO LEVERAGE THE BULK PURCHASING POWER OF THE STATE TO NEGOTIATE LOWER PRICES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47373&legislationTypeId=3&docTypeId=2&legislationName=HCR35"
   },
   {
     "bill_id": "ocd-bill/6071e9a7-fdf3-4a99-87d0-5889a205a8c7",
@@ -7129,29 +7195,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78963&legislationTypeId=3&docTypeId=2&legislationName=HCR37"
   },
   {
-    "bill_id": "ocd-bill/4f648a6a-7e96-4066-a954-c0e9fa1f14f5",
-    "state": "DE",
-    "session": "150",
-    "identifier": "HCR 4",
-    "title": "RECOGNIZING THE IMPORTANCE OF IMPROVING THE HEALTH AND SAFETY OF STUDENT ATHLETES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=37109&legislationTypeId=3&docTypeId=2&legislationName=HCR4"
-  },
-  {
     "bill_id": "ocd-bill/fa9944d0-df31-4cf7-9701-f7cb48e693f1",
     "state": "DE",
     "session": "149",
@@ -7172,6 +7215,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25361&legislationTypeId=3&docTypeId=2&legislationName=HCR4"
+  },
+  {
+    "bill_id": "ocd-bill/4f648a6a-7e96-4066-a954-c0e9fa1f14f5",
+    "state": "DE",
+    "session": "150",
+    "identifier": "HCR 4",
+    "title": "RECOGNIZING THE IMPORTANCE OF IMPROVING THE HEALTH AND SAFETY OF STUDENT ATHLETES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=37109&legislationTypeId=3&docTypeId=2&legislationName=HCR4"
   },
   {
     "bill_id": "ocd-bill/8ead73e4-3eaf-403c-b783-96eedb43113a",
@@ -7240,6 +7306,29 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=79071&legislationTypeId=3&docTypeId=2&legislationName=HCR48"
   },
   {
+    "bill_id": "ocd-bill/e2225716-034f-4e7e-bf2d-5ffeb7cc7b2c",
+    "state": "DE",
+    "session": "150",
+    "identifier": "HCR 5",
+    "title": "CALLING FOR AN ARTICLE V CONVENTION TO AMEND THE UNITED STATES CONSTITUTION.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=37108&legislationTypeId=3&docTypeId=2&legislationName=HCR5"
+  },
+  {
     "bill_id": "ocd-bill/1e812dd8-5491-4684-9712-cce54dc47f13",
     "state": "DE",
     "session": "153",
@@ -7260,29 +7349,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141810&legislationTypeId=3&docTypeId=2&legislationName=HCR5"
-  },
-  {
-    "bill_id": "ocd-bill/e2225716-034f-4e7e-bf2d-5ffeb7cc7b2c",
-    "state": "DE",
-    "session": "150",
-    "identifier": "HCR 5",
-    "title": "CALLING FOR AN ARTICLE V CONVENTION TO AMEND THE UNITED STATES CONSTITUTION.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=37108&legislationTypeId=3&docTypeId=2&legislationName=HCR5"
   },
   {
     "bill_id": "ocd-bill/83cd7a6f-2723-4774-9ded-509f9ec0b3b8",
@@ -7329,28 +7395,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=79200&legislationTypeId=3&docTypeId=2&legislationName=HCR54"
   },
   {
-    "bill_id": "ocd-bill/32221b05-2a42-4eca-837e-98b3d58e4604",
-    "state": "DE",
-    "session": "150",
-    "identifier": "HCR 58",
-    "title": "ESTABLISHING RAVE SECURITY SYSTEMS IN ALL PUBLIC AND CHARTER SCHOOLS THROUGHOUT DELAWARE TO ENHANCE THE SAFETY AND SECURITY OF EVERY STUDENT, STAFF MEMBER, AND PARENT.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47698&legislationTypeId=3&docTypeId=2&legislationName=HCR58"
-  },
-  {
     "bill_id": "ocd-bill/90238ef1-e8e2-471f-b0f0-ab58b97d3793",
     "state": "DE",
     "session": "149",
@@ -7371,6 +7415,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26264&legislationTypeId=3&docTypeId=2&legislationName=HCR58"
+  },
+  {
+    "bill_id": "ocd-bill/32221b05-2a42-4eca-837e-98b3d58e4604",
+    "state": "DE",
+    "session": "150",
+    "identifier": "HCR 58",
+    "title": "ESTABLISHING RAVE SECURITY SYSTEMS IN ALL PUBLIC AND CHARTER SCHOOLS THROUGHOUT DELAWARE TO ENHANCE THE SAFETY AND SECURITY OF EVERY STUDENT, STAFF MEMBER, AND PARENT.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47698&legislationTypeId=3&docTypeId=2&legislationName=HCR58"
   },
   {
     "bill_id": "ocd-bill/c747d5c1-9293-4ccf-a469-9030c568fbe9",
@@ -7448,18 +7514,18 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
       "abstract",
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47166&legislationTypeId=3&docTypeId=2&legislationName=HCR7"
   },
@@ -7883,27 +7949,26 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47639&legislationTypeId=4&docTypeId=2&legislationName=HJR5"
   },
   {
-    "bill_id": "ocd-bill/76796ec1-b898-485d-8722-a418033aa124",
+    "bill_id": "ocd-bill/e8c62748-b589-4326-b170-4b8b414f9d9f",
     "state": "DE",
-    "session": "153",
+    "session": "149",
     "identifier": "HJR 7",
-    "title": "DIRECTING THE ARTIFICIAL INTELLIGENCE COMMISSION TO WORK IN COLLABORATION WITH THE SECRETARY OF STATE TO CREATE A REGULATORY SANDBOX FRAMEWORK FOR THE TESTING OF INNOVATIVE AND NOVEL TECHNOLOGIES THAT UTILIZE AGENTIC ARTIFICIAL INTELLIGENCE.",
+    "title": "CONFERRING UPON THE DEPARTMENT OF HEALTH AND SOCIAL SERVICES THE NECESSARY POWERS AND AUTHORITY TO ESTABLISH AND PLAN FOR THE MONITORING AND IMPLEMENTATION OF AN ANNUAL HEALTH CARE BENCHMARK.",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai"
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142648&legislationTypeId=5&docTypeId=2"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26153&legislationTypeId=4&docTypeId=2&legislationName=HJR7"
   },
   {
     "bill_id": "ocd-bill/5b670664-ad40-4aa1-afe1-0f746377b6ee",
@@ -7923,53 +7988,32 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=109430&legislationTypeId=4&docTypeId=2&legislationName=HJR7"
   },
   {
-    "bill_id": "ocd-bill/e8c62748-b589-4326-b170-4b8b414f9d9f",
-    "state": "DE",
-    "session": "149",
-    "identifier": "HJR 7",
-    "title": "CONFERRING UPON THE DEPARTMENT OF HEALTH AND SOCIAL SERVICES THE NECESSARY POWERS AND AUTHORITY TO ESTABLISH AND PLAN FOR THE MONITORING AND IMPLEMENTATION OF AN ANNUAL HEALTH CARE BENCHMARK.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26153&legislationTypeId=4&docTypeId=2&legislationName=HJR7"
-  },
-  {
-    "bill_id": "ocd-bill/130c4abe-12fa-4da4-a502-28f9e0d716d9",
+    "bill_id": "ocd-bill/76796ec1-b898-485d-8722-a418033aa124",
     "state": "DE",
     "session": "153",
-    "identifier": "HJR 8",
-    "title": "DIRECTING THE DIRECTOR OF THE OFFICE OF STATE PLANNING COORDINATION, THE DIRECTOR OF THE OFFICE OF MANAGEMENT AND BUDGET, THE SECRETARY OF FINANCE, THE CONTROLLER GENERAL, THE SECRETARY OF EDUCATION, AND THE SECRETARY OF THE DEPARTMENT OF TECHNOLOGY AND INFORMATION TO DEVELOP RECOMMENDATIONS FOR THE STATEWIDE UNIFORM REASSESSMENT OF REAL PROPERTY AND TO PROVIDE A REPORT OF THE RECOMMENDATIONS TO THE GOVERNOR AND THE GENERAL ASSEMBLY.",
+    "identifier": "HJR 7",
+    "title": "DIRECTING THE ARTIFICIAL INTELLIGENCE COMMISSION TO WORK IN COLLABORATION WITH THE SECRETARY OF STATE TO CREATE A REGULATORY SANDBOX FRAMEWORK FOR THE TESTING OF INNOVATIVE AND NOVEL TECHNOLOGIES THAT UTILIZE AGENTIC ARTIFICIAL INTELLIGENCE.",
     "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "adjacent_tech"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai"
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "title",
+      "abstract"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142687&legislationTypeId=4&docTypeId=2&legislationName=HJR8"
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142648&legislationTypeId=5&docTypeId=2"
   },
   {
     "bill_id": "ocd-bill/b0ccc539-9f35-41f0-a2e4-cf29b3e4cd4d",
@@ -7992,6 +8036,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26154&legislationTypeId=4&docTypeId=2&legislationName=HJR8"
+  },
+  {
+    "bill_id": "ocd-bill/130c4abe-12fa-4da4-a502-28f9e0d716d9",
+    "state": "DE",
+    "session": "153",
+    "identifier": "HJR 8",
+    "title": "DIRECTING THE DIRECTOR OF THE OFFICE OF STATE PLANNING COORDINATION, THE DIRECTOR OF THE OFFICE OF MANAGEMENT AND BUDGET, THE SECRETARY OF FINANCE, THE CONTROLLER GENERAL, THE SECRETARY OF EDUCATION, AND THE SECRETARY OF THE DEPARTMENT OF TECHNOLOGY AND INFORMATION TO DEVELOP RECOMMENDATIONS FOR THE STATEWIDE UNIFORM REASSESSMENT OF REAL PROPERTY AND TO PROVIDE A REPORT OF THE RECOMMENDATIONS TO THE GOVERNOR AND THE GENERAL ASSEMBLY.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142687&legislationTypeId=4&docTypeId=2&legislationName=HJR8"
   },
   {
     "bill_id": "ocd-bill/281a6272-4f84-424c-83fc-a09b7484ef08",
@@ -8128,28 +8194,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78853&legislationTypeId=2&docTypeId=2&legislationName=HR15"
   },
   {
-    "bill_id": "ocd-bill/9055e3df-fe3c-4e49-afdd-bf12608f42b2",
-    "state": "DE",
-    "session": "151",
-    "identifier": "HR 16",
-    "title": "REQUESTING THE RELEASE OF LISTS OF HIGH SCHOOL GRADUATES TO THE HOUSE OF REPRESENTATIVES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78985&legislationTypeId=2&docTypeId=2&legislationName=HR16"
-  },
-  {
     "bill_id": "ocd-bill/eee55804-7cb7-43a0-a039-638c0dfd0cb9",
     "state": "DE",
     "session": "150",
@@ -8170,6 +8214,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47162&legislationTypeId=2&docTypeId=2&legislationName=HR16"
+  },
+  {
+    "bill_id": "ocd-bill/9055e3df-fe3c-4e49-afdd-bf12608f42b2",
+    "state": "DE",
+    "session": "151",
+    "identifier": "HR 16",
+    "title": "REQUESTING THE RELEASE OF LISTS OF HIGH SCHOOL GRADUATES TO THE HOUSE OF REPRESENTATIVES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78985&legislationTypeId=2&docTypeId=2&legislationName=HR16"
   },
   {
     "bill_id": "ocd-bill/b7f6c526-0358-4166-b376-ef5f2774e33f",
@@ -8238,6 +8304,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26521&legislationTypeId=2&docTypeId=2&legislationName=HR28"
   },
   {
+    "bill_id": "ocd-bill/1a1c6463-e1ea-4a0e-b246-1f05afcba9aa",
+    "state": "DE",
+    "session": "153",
+    "identifier": "HR 3",
+    "title": "RELATING TO THE RULES OF THE HOUSE OF REPRESENTATIVES OF THE 153RD GENERAL ASSEMBLY.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141781&legislationTypeId=2&docTypeId=2&legislationName=HR3"
+  },
+  {
     "bill_id": "ocd-bill/68e0bf73-3c09-45a6-884e-bc1ae898ece6",
     "state": "DE",
     "session": "150",
@@ -8304,28 +8392,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25373&legislationTypeId=2&docTypeId=2&legislationName=HR3"
   },
   {
-    "bill_id": "ocd-bill/1a1c6463-e1ea-4a0e-b246-1f05afcba9aa",
-    "state": "DE",
-    "session": "153",
-    "identifier": "HR 3",
-    "title": "RELATING TO THE RULES OF THE HOUSE OF REPRESENTATIVES OF THE 153RD GENERAL ASSEMBLY.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141781&legislationTypeId=2&docTypeId=2&legislationName=HR3"
-  },
-  {
     "bill_id": "ocd-bill/62b7a0fa-280f-4b92-828d-f40d0ad0f0b6",
     "state": "DE",
     "session": "151",
@@ -8363,8 +8429,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8482,6 +8548,29 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25448&legislationTypeId=1&docTypeId=2&legislationName=SB1"
   },
   {
+    "bill_id": "ocd-bill/4303e316-def7-49eb-b9b5-9df52c75fb9a",
+    "state": "DE",
+    "session": "153",
+    "identifier": "SB 101",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO THE DEFINITION OF THE PATIENT-PRACTITIONER RELATIONSHIP.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142199&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB101"
+  },
+  {
     "bill_id": "ocd-bill/917a3faa-ba3c-4b77-949f-e2323e1b7d14",
     "state": "DE",
     "session": "151",
@@ -8502,29 +8591,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78838&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB101"
-  },
-  {
-    "bill_id": "ocd-bill/4303e316-def7-49eb-b9b5-9df52c75fb9a",
-    "state": "DE",
-    "session": "153",
-    "identifier": "SB 101",
-    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO THE DEFINITION OF THE PATIENT-PRACTITIONER RELATIONSHIP.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142199&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB101"
   },
   {
     "bill_id": "ocd-bill/b00c2d5f-c9ce-47e2-961b-3f2998fb0be7",
@@ -8682,28 +8748,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142198&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB109"
   },
   {
-    "bill_id": "ocd-bill/a792b37c-7fe5-4761-b958-5ad1cfd1a6e5",
-    "state": "DE",
-    "session": "150",
-    "identifier": "SB 110",
-    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE ARCHITECTURAL ACCESSIBILITY BOARD.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47514&legislationTypeId=1&docTypeId=2&legislationName=SB110"
-  },
-  {
     "bill_id": "ocd-bill/472f3591-8733-434e-b312-c39a0fa8e7f7",
     "state": "DE",
     "session": "151",
@@ -8724,6 +8768,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=58577&legislationTypeId=1&docTypeId=2&legislationName=SB110"
+  },
+  {
+    "bill_id": "ocd-bill/a792b37c-7fe5-4761-b958-5ad1cfd1a6e5",
+    "state": "DE",
+    "session": "150",
+    "identifier": "SB 110",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE ARCHITECTURAL ACCESSIBILITY BOARD.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47514&legislationTypeId=1&docTypeId=2&legislationName=SB110"
   },
   {
     "bill_id": "ocd-bill/51a3a795-888d-49e2-92c6-4756a41520d8",
@@ -8814,6 +8880,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=58601&legislationTypeId=1&docTypeId=2&legislationName=SB115"
   },
   {
+    "bill_id": "ocd-bill/6800f5a4-c368-4a5d-bc2f-db61371334b0",
+    "state": "DE",
+    "session": "151",
+    "identifier": "SB 116",
+    "title": "AN ACT TO AMEND CHAPTER 17, TITLE 6 OF THE DELAWARE CODE RELATING TO THE CREATION, REGULATION, OPERATION AND DISSOLUTION OF DOMESTIC LIMITED PARTNERSHIPS AND THE REGISTRATION AND REGULATION OF FOREIGN LIMITED PARTNERSHIPS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=58602&legislationTypeId=1&docTypeId=2&legislationName=SB116"
+  },
+  {
     "bill_id": "ocd-bill/20208960-c1e2-444a-a482-aa42385cece2",
     "state": "DE",
     "session": "152",
@@ -8858,28 +8946,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47843&legislationTypeId=6&docTypeId=2&legislationName=SS1"
   },
   {
-    "bill_id": "ocd-bill/6800f5a4-c368-4a5d-bc2f-db61371334b0",
-    "state": "DE",
-    "session": "151",
-    "identifier": "SB 116",
-    "title": "AN ACT TO AMEND CHAPTER 17, TITLE 6 OF THE DELAWARE CODE RELATING TO THE CREATION, REGULATION, OPERATION AND DISSOLUTION OF DOMESTIC LIMITED PARTNERSHIPS AND THE REGISTRATION AND REGULATION OF FOREIGN LIMITED PARTNERSHIPS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=58602&legislationTypeId=1&docTypeId=2&legislationName=SB116"
-  },
-  {
     "bill_id": "ocd-bill/dbad3baf-350f-46f9-8c2b-f12b5f08ee40",
     "state": "DE",
     "session": "151",
@@ -8895,8 +8961,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8918,34 +8984,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=68628&legislationTypeId=1&docTypeId=2&legislationName=SB121"
-  },
-  {
-    "bill_id": "ocd-bill/49ff6338-cd5b-40b6-b17e-f0e95b803652",
-    "state": "DE",
-    "session": "150",
-    "identifier": "SB 122",
-    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO PERINATAL QUALITY COLLABORATIVE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47594&legislationTypeId=6&docTypeId=2&legislationName=SS1"
   },
   {
     "bill_id": "ocd-bill/5185b8ce-feee-4563-8856-fc390372e7a5",
@@ -8993,6 +9037,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=130356&legislationTypeId=1&docTypeId=2&legislationName=SB122"
   },
   {
+    "bill_id": "ocd-bill/49ff6338-cd5b-40b6-b17e-f0e95b803652",
+    "state": "DE",
+    "session": "150",
+    "identifier": "SB 122",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO PERINATAL QUALITY COLLABORATIVE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47594&legislationTypeId=6&docTypeId=2&legislationName=SS1"
+  },
+  {
     "bill_id": "ocd-bill/365818f7-41f0-471a-8d18-5bf003cf200c",
     "state": "DE",
     "session": "151",
@@ -9037,28 +9103,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=68674&legislationTypeId=1&docTypeId=2&legislationName=SB129"
   },
   {
-    "bill_id": "ocd-bill/89060024-02d1-4094-9614-bcfa1c1a8273",
-    "state": "DE",
-    "session": "149",
-    "identifier": "SB 13",
-    "title": "AN ACT TO AMEND TITLES 12 AND 25 OF THE DELAWARE CODE RELATING TO ABANDONED OR UNCLAIMED PROPERTY.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25389&legislationTypeId=1&docTypeId=2&legislationName=SB13"
-  },
-  {
     "bill_id": "ocd-bill/96b98680-3a2f-498a-892a-a7294ca54ae8",
     "state": "DE",
     "session": "151",
@@ -9081,6 +9125,28 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=109545&legislationTypeId=5&docTypeId=2"
   },
   {
+    "bill_id": "ocd-bill/89060024-02d1-4094-9614-bcfa1c1a8273",
+    "state": "DE",
+    "session": "149",
+    "identifier": "SB 13",
+    "title": "AN ACT TO AMEND TITLES 12 AND 25 OF THE DELAWARE CODE RELATING TO ABANDONED OR UNCLAIMED PROPERTY.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25389&legislationTypeId=1&docTypeId=2&legislationName=SB13"
+  },
+  {
     "bill_id": "ocd-bill/f981ede0-3046-45fa-9d2f-d3942ec2a8bb",
     "state": "DE",
     "session": "151",
@@ -9096,8 +9162,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9148,29 +9214,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141169&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB132"
   },
   {
-    "bill_id": "ocd-bill/eb9ab81d-5434-47da-a9fd-6cc22fdb123b",
-    "state": "DE",
-    "session": "149",
-    "identifier": "SB 133",
-    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE TO IMPOSE A MORATORIUM ON THE PUBLICATION OF PRIVATE PROPERTY INFORMATION BY THE DEPARTMENT OF NATURAL RESOURCES AND ENVIRONMENTAL CONTROL.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26163&legislationTypeId=1&docTypeId=2&legislationName=SB133"
-  },
-  {
     "bill_id": "ocd-bill/298a247a-0402-45d4-9508-28914f8fcc3e",
     "state": "DE",
     "session": "152",
@@ -9191,6 +9234,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=140421&legislationTypeId=1&docTypeId=2&legislationName=SB133"
+  },
+  {
+    "bill_id": "ocd-bill/eb9ab81d-5434-47da-a9fd-6cc22fdb123b",
+    "state": "DE",
+    "session": "149",
+    "identifier": "SB 133",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE TO IMPOSE A MORATORIUM ON THE PUBLICATION OF PRIVATE PROPERTY INFORMATION BY THE DEPARTMENT OF NATURAL RESOURCES AND ENVIRONMENTAL CONTROL.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26163&legislationTypeId=1&docTypeId=2&legislationName=SB133"
   },
   {
     "bill_id": "ocd-bill/020846ac-d48d-4e3a-9b62-7770ef5613bf",
@@ -9414,6 +9480,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142313&legislationTypeId=1&docTypeId=2&legislationName=SB147"
   },
   {
+    "bill_id": "ocd-bill/57c30a24-7c1a-41f2-8790-aa772f08fea9",
+    "state": "DE",
+    "session": "151",
+    "identifier": "SB 148",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE DIVISION OF CIVIL RIGHTS AND PUBLIC TRUST.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78767&legislationTypeId=1&docTypeId=2&legislationName=SB148"
+  },
+  {
     "bill_id": "ocd-bill/7846e721-6ca7-4350-99fc-6b8ae2a5ae7b",
     "state": "DE",
     "session": "149",
@@ -9456,28 +9544,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142314&legislationTypeId=1&docTypeId=2&legislationName=SB148"
-  },
-  {
-    "bill_id": "ocd-bill/57c30a24-7c1a-41f2-8790-aa772f08fea9",
-    "state": "DE",
-    "session": "151",
-    "identifier": "SB 148",
-    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE DIVISION OF CIVIL RIGHTS AND PUBLIC TRUST.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78767&legislationTypeId=1&docTypeId=2&legislationName=SB148"
   },
   {
     "bill_id": "ocd-bill/63423d57-2394-4525-a3db-ae38b7757cd2",
@@ -9591,28 +9657,6 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47778&legislationTypeId=5&docTypeId=2"
   },
   {
-    "bill_id": "ocd-bill/f520691b-be9f-4ae3-b921-67b3faab3c53",
-    "state": "DE",
-    "session": "149",
-    "identifier": "SB 155",
-    "title": "AN ACT TO AMEND TITLE 17 OF THE DELAWARE CODE RELATING TO ROAD CONSTRUCTION FLAGGERS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26315&legislationTypeId=1&docTypeId=2&legislationName=SB155"
-  },
-  {
     "bill_id": "ocd-bill/a42a3093-bf69-46a5-98dd-5a5a8cf255b2",
     "state": "DE",
     "session": "153",
@@ -9635,11 +9679,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142570&legislationTypeId=6&docTypeId=2&legislationName=SS2forSB155"
   },
   {
-    "bill_id": "ocd-bill/d779e707-eb87-4cc8-8ad9-700b18919579",
+    "bill_id": "ocd-bill/f520691b-be9f-4ae3-b921-67b3faab3c53",
     "state": "DE",
-    "session": "152",
-    "identifier": "SB 157",
-    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO UNIFORM COMMERCIAL CODE.",
+    "session": "149",
+    "identifier": "SB 155",
+    "title": "AN ACT TO AMEND TITLE 17 OF THE DELAWARE CODE RELATING TO ROAD CONSTRUCTION FLAGGERS.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -9650,11 +9694,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=140489&legislationTypeId=1&docTypeId=2&legislationName=SB157"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26315&legislationTypeId=1&docTypeId=2&legislationName=SB155"
   },
   {
     "bill_id": "ocd-bill/ff6b5079-80bf-43bd-9134-25568ae4e7c1",
@@ -9679,6 +9723,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26358&legislationTypeId=1&docTypeId=2&legislationName=SB157"
   },
   {
+    "bill_id": "ocd-bill/d779e707-eb87-4cc8-8ad9-700b18919579",
+    "state": "DE",
+    "session": "152",
+    "identifier": "SB 157",
+    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO UNIFORM COMMERCIAL CODE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=140489&legislationTypeId=1&docTypeId=2&legislationName=SB157"
+  },
+  {
     "bill_id": "ocd-bill/7e79a08e-6425-4eed-acd9-6463559fb70b",
     "state": "DE",
     "session": "149",
@@ -9694,8 +9760,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9746,28 +9812,6 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=129849&legislationTypeId=5&docTypeId=2"
   },
   {
-    "bill_id": "ocd-bill/5f2f5a7e-7f0e-4067-a803-50e096f86fee",
-    "state": "DE",
-    "session": "153",
-    "identifier": "SB 165",
-    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO STUDENT IMPROVEMENT COMPONENT.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142514&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB165"
-  },
-  {
     "bill_id": "ocd-bill/47a11bbd-1112-4a59-9fa0-037a561553a5",
     "state": "DE",
     "session": "150",
@@ -9790,11 +9834,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47756&legislationTypeId=1&docTypeId=2&legislationName=SB165"
   },
   {
-    "bill_id": "ocd-bill/fe89c642-be71-42af-adc0-78c887ec536d",
+    "bill_id": "ocd-bill/5f2f5a7e-7f0e-4067-a803-50e096f86fee",
     "state": "DE",
-    "session": "152",
-    "identifier": "SB 169",
-    "title": "AN ACT TO AMEND TITLE 10 OF THE DELAWARE CODE RELATING TO WRONGFUL CONVICTION COMPENSATION AND SERVICES.",
+    "session": "153",
+    "identifier": "SB 165",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO STUDENT IMPROVEMENT COMPONENT.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -9809,7 +9853,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141707&legislationTypeId=5&docTypeId=2"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142514&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB165"
   },
   {
     "bill_id": "ocd-bill/b4c1b040-06d2-4cc6-8000-d438fce9cda5",
@@ -9832,6 +9876,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78821&legislationTypeId=1&docTypeId=2&legislationName=SB169"
+  },
+  {
+    "bill_id": "ocd-bill/fe89c642-be71-42af-adc0-78c887ec536d",
+    "state": "DE",
+    "session": "152",
+    "identifier": "SB 169",
+    "title": "AN ACT TO AMEND TITLE 10 OF THE DELAWARE CODE RELATING TO WRONGFUL CONVICTION COMPENSATION AND SERVICES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141707&legislationTypeId=5&docTypeId=2"
   },
   {
     "bill_id": "ocd-bill/49a7e5e3-7ee6-481f-b4f8-146c004e743c",
@@ -9871,8 +9937,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9917,8 +9983,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9962,8 +10028,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9985,8 +10051,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10194,28 +10260,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78913&legislationTypeId=1&docTypeId=2&legislationName=SB186"
   },
   {
-    "bill_id": "ocd-bill/5bdb6202-75b0-4a0e-8ee4-cd05bfecd7dc",
-    "state": "DE",
-    "session": "153",
-    "identifier": "SB 187",
-    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO EDUCATOR AND SCHOOL-BASED MENTAL HEALTH PRACTITIONERS SUPPORT PROGRAMS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142531&legislationTypeId=1&docTypeId=2&legislationName=SB187"
-  },
-  {
     "bill_id": "ocd-bill/93e8696d-ef36-445a-ba6b-f32acb99552b",
     "state": "DE",
     "session": "150",
@@ -10236,6 +10280,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47900&legislationTypeId=1&docTypeId=2&legislationName=SB187"
+  },
+  {
+    "bill_id": "ocd-bill/5bdb6202-75b0-4a0e-8ee4-cd05bfecd7dc",
+    "state": "DE",
+    "session": "153",
+    "identifier": "SB 187",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO EDUCATOR AND SCHOOL-BASED MENTAL HEALTH PRACTITIONERS SUPPORT PROGRAMS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142531&legislationTypeId=1&docTypeId=2&legislationName=SB187"
   },
   {
     "bill_id": "ocd-bill/20bcefc0-18d1-4b95-9266-500e96a3d8c5",
@@ -10305,6 +10371,29 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78958&legislationTypeId=1&docTypeId=2&legislationName=SB193"
   },
   {
+    "bill_id": "ocd-bill/2df75a6f-416e-42d4-9601-63b6feef0c8b",
+    "state": "DE",
+    "session": "150",
+    "identifier": "SB 194",
+    "title": "AN ACT TO AMEND TITLE 13 OF THE DELAWARE CODE RELATING TO MARRIAGE LICENSE APPLICATION.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47908&legislationTypeId=1&docTypeId=2&legislationName=SB194"
+  },
+  {
     "bill_id": "ocd-bill/887ebba1-832d-4d91-a0ea-40d094ef99ff",
     "state": "DE",
     "session": "149",
@@ -10348,29 +10437,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142621&legislationTypeId=1&docTypeId=2&legislationName=SB194"
-  },
-  {
-    "bill_id": "ocd-bill/2df75a6f-416e-42d4-9601-63b6feef0c8b",
-    "state": "DE",
-    "session": "150",
-    "identifier": "SB 194",
-    "title": "AN ACT TO AMEND TITLE 13 OF THE DELAWARE CODE RELATING TO MARRIAGE LICENSE APPLICATION.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47908&legislationTypeId=1&docTypeId=2&legislationName=SB194"
   },
   {
     "bill_id": "ocd-bill/51e52ef7-f014-42f5-bc2c-233615614a21",
@@ -10432,8 +10498,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10640,6 +10706,29 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141023&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB212"
   },
   {
+    "bill_id": "ocd-bill/1b768590-9657-4950-8c70-6fa95da9bf70",
+    "state": "DE",
+    "session": "151",
+    "identifier": "SB 215",
+    "title": "AN ACT TO AMEND TITLE 15 OF THE DELAWARE CODE RELATING TO ELECTIONS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=79099&legislationTypeId=1&docTypeId=2&legislationName=SB215"
+  },
+  {
     "bill_id": "ocd-bill/8ae03873-48e5-46d3-b2f5-c8575a249f7b",
     "state": "DE",
     "session": "152",
@@ -10662,29 +10751,6 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141141&legislationTypeId=5&docTypeId=2"
   },
   {
-    "bill_id": "ocd-bill/1b768590-9657-4950-8c70-6fa95da9bf70",
-    "state": "DE",
-    "session": "151",
-    "identifier": "SB 215",
-    "title": "AN ACT TO AMEND TITLE 15 OF THE DELAWARE CODE RELATING TO ELECTIONS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=79099&legislationTypeId=1&docTypeId=2&legislationName=SB215"
-  },
-  {
     "bill_id": "ocd-bill/f22ecb87-f431-4f87-a870-e0c7f40b346b",
     "state": "DE",
     "session": "150",
@@ -10700,8 +10766,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10880,8 +10946,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10925,9 +10991,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract",
-      "title",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11260,9 +11326,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11508,8 +11574,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11863,8 +11929,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -12114,28 +12180,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47304&legislationTypeId=1&docTypeId=2&legislationName=SB38"
   },
   {
-    "bill_id": "ocd-bill/ee407375-3336-472c-966c-78e80d6bdb4d",
-    "state": "DE",
-    "session": "151",
-    "identifier": "SB 39",
-    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO PROBATION BEFORE JUDGMENT.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48426&legislationTypeId=1&docTypeId=2&legislationName=SB39"
-  },
-  {
     "bill_id": "ocd-bill/56a49d7d-12de-4dfd-9740-541071c0c1d6",
     "state": "DE",
     "session": "149",
@@ -12156,6 +12200,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25515&legislationTypeId=1&docTypeId=2&legislationName=SB39"
+  },
+  {
+    "bill_id": "ocd-bill/ee407375-3336-472c-966c-78e80d6bdb4d",
+    "state": "DE",
+    "session": "151",
+    "identifier": "SB 39",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO PROBATION BEFORE JUDGMENT.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48426&legislationTypeId=1&docTypeId=2&legislationName=SB39"
   },
   {
     "bill_id": "ocd-bill/3371a118-ce6f-4f70-8a3a-d231ac6e5ddd",
@@ -12262,8 +12328,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -12425,28 +12491,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48333&legislationTypeId=1&docTypeId=2&legislationName=SB53"
   },
   {
-    "bill_id": "ocd-bill/c2fba48f-bcde-4676-8ffc-85bedc8c4e48",
-    "state": "DE",
-    "session": "151",
-    "identifier": "SB 55",
-    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO SCHOOL ACCESS TO EPINEPHRINE AUTOINJECTORS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48340&legislationTypeId=1&docTypeId=2&legislationName=SB55"
-  },
-  {
     "bill_id": "ocd-bill/bde882bd-a615-470a-8ce4-f8c30c308d10",
     "state": "DE",
     "session": "149",
@@ -12467,6 +12511,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25604&legislationTypeId=1&docTypeId=2&legislationName=SB55"
+  },
+  {
+    "bill_id": "ocd-bill/c2fba48f-bcde-4676-8ffc-85bedc8c4e48",
+    "state": "DE",
+    "session": "151",
+    "identifier": "SB 55",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO SCHOOL ACCESS TO EPINEPHRINE AUTOINJECTORS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48340&legislationTypeId=1&docTypeId=2&legislationName=SB55"
   },
   {
     "bill_id": "ocd-bill/fc68793e-15cb-487a-91ab-608f9a91ba95",
@@ -12514,28 +12580,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48351&legislationTypeId=1&docTypeId=2&legislationName=SB57"
   },
   {
-    "bill_id": "ocd-bill/f9d2eb76-a17b-4d6b-87b5-66492d0923f2",
-    "state": "DE",
-    "session": "149",
-    "identifier": "SB 58",
-    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO THE VICTIMS' BILL OF RIGHTS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25611&legislationTypeId=1&docTypeId=2&legislationName=SB58"
-  },
-  {
     "bill_id": "ocd-bill/c83e5e78-a70c-4fa2-b3e1-c09d1ad52a18",
     "state": "DE",
     "session": "151",
@@ -12556,6 +12600,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48355&legislationTypeId=1&docTypeId=2&legislationName=SB58"
+  },
+  {
+    "bill_id": "ocd-bill/f9d2eb76-a17b-4d6b-87b5-66492d0923f2",
+    "state": "DE",
+    "session": "149",
+    "identifier": "SB 58",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO THE VICTIMS' BILL OF RIGHTS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25611&legislationTypeId=1&docTypeId=2&legislationName=SB58"
   },
   {
     "bill_id": "ocd-bill/7507cf84-941f-4c7e-b55d-5605614dec90",
@@ -12624,28 +12690,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25678&legislationTypeId=1&docTypeId=2&legislationName=SB65"
   },
   {
-    "bill_id": "ocd-bill/4705c35b-836f-473c-a367-4b29c540a2a8",
-    "state": "DE",
-    "session": "149",
-    "identifier": "SB 66",
-    "title": "AN ACT TO AMEND TITLE 18 OF THE DELAWARE CODE RELATING TO VIATICAL AND LIFE SETTLEMENTS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25656&legislationTypeId=1&docTypeId=2&legislationName=SB66"
-  },
-  {
     "bill_id": "ocd-bill/ac371142-2934-4453-8c13-c1b4f1e7e5fe",
     "state": "DE",
     "session": "153",
@@ -12668,6 +12712,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141887&legislationTypeId=1&docTypeId=2&legislationName=SB66"
   },
   {
+    "bill_id": "ocd-bill/4705c35b-836f-473c-a367-4b29c540a2a8",
+    "state": "DE",
+    "session": "149",
+    "identifier": "SB 66",
+    "title": "AN ACT TO AMEND TITLE 18 OF THE DELAWARE CODE RELATING TO VIATICAL AND LIFE SETTLEMENTS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25656&legislationTypeId=1&docTypeId=2&legislationName=SB66"
+  },
+  {
     "bill_id": "ocd-bill/d4ae3baf-372f-464f-9e88-68d7613eb4fd",
     "state": "DE",
     "session": "149",
@@ -12683,35 +12749,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25685&legislationTypeId=1&docTypeId=2&legislationName=SB68"
-  },
-  {
-    "bill_id": "ocd-bill/283d74d0-2ef6-4481-b028-81d1f1d9fcb0",
-    "state": "DE",
-    "session": "149",
-    "identifier": "SB 69",
-    "title": "AN ACT TO AMEND TITLE 8 OF THE DELAWARE CODE RELATING TO THE GENERAL CORPORATION LAW.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25730&legislationTypeId=1&docTypeId=2&legislationName=SB69"
   },
   {
     "bill_id": "ocd-bill/685b8e06-5d81-48e4-80e0-0e21c6ac8437",
@@ -12751,12 +12794,35 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141908&legislationTypeId=1&docTypeId=2&legislationName=SB69"
+  },
+  {
+    "bill_id": "ocd-bill/283d74d0-2ef6-4481-b028-81d1f1d9fcb0",
+    "state": "DE",
+    "session": "149",
+    "identifier": "SB 69",
+    "title": "AN ACT TO AMEND TITLE 8 OF THE DELAWARE CODE RELATING TO THE GENERAL CORPORATION LAW.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25730&legislationTypeId=1&docTypeId=2&legislationName=SB69"
   },
   {
     "bill_id": "ocd-bill/a783fd31-4a52-4755-a819-8b0a4d4f577a",
@@ -12891,28 +12957,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25781&legislationTypeId=6&docTypeId=2&legislationName=SS1"
   },
   {
-    "bill_id": "ocd-bill/c22267f8-85d4-4364-a0fb-fff1710e4267",
-    "state": "DE",
-    "session": "150",
-    "identifier": "SB 82",
-    "title": "AN ACT TO AMEND TITLE 11 AND TITLE 24 OF THE DELAWARE CODE RELATING TO DEADLY WEAPONS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47399&legislationTypeId=1&docTypeId=2&legislationName=SB82"
-  },
-  {
     "bill_id": "ocd-bill/c8e92267-105f-41e1-96e3-bffcc5a37eb1",
     "state": "DE",
     "session": "152",
@@ -12957,6 +13001,28 @@
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78872&legislationTypeId=5&docTypeId=2"
   },
   {
+    "bill_id": "ocd-bill/c22267f8-85d4-4364-a0fb-fff1710e4267",
+    "state": "DE",
+    "session": "150",
+    "identifier": "SB 82",
+    "title": "AN ACT TO AMEND TITLE 11 AND TITLE 24 OF THE DELAWARE CODE RELATING TO DEADLY WEAPONS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47399&legislationTypeId=1&docTypeId=2&legislationName=SB82"
+  },
+  {
     "bill_id": "ocd-bill/2ebc8ebe-57e4-4b0f-878c-672ec6bbcd34",
     "state": "DE",
     "session": "150",
@@ -12972,8 +13038,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13017,8 +13083,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13062,8 +13128,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13114,28 +13180,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=25397&legislationTypeId=1&docTypeId=2&legislationName=SB9"
   },
   {
-    "bill_id": "ocd-bill/3b700c72-ec08-4ae6-8efc-909524afcdb0",
-    "state": "DE",
-    "session": "152",
-    "identifier": "SB 9",
-    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO LEAD-BASED PAINT.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legis.delaware.gov/json/BillDetail/GeneratePdfDocument?legislationId=140397&legislationTypeId=5&docTypeId=2"
-  },
-  {
     "bill_id": "ocd-bill/cd5994e1-a133-40df-80db-7d03d5993ead",
     "state": "DE",
     "session": "151",
@@ -13158,11 +13202,11 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=109549&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB9"
   },
   {
-    "bill_id": "ocd-bill/f211228b-5b82-400b-993d-62387417ea9a",
+    "bill_id": "ocd-bill/3b700c72-ec08-4ae6-8efc-909524afcdb0",
     "state": "DE",
-    "session": "150",
-    "identifier": "SB 90",
-    "title": "AN ACT TO AMEND CHAPTER 15, TITLE 6 OF THE DELAWARE CODE RELATING TO THE CREATION, REGULATION, OPERATION AND DISSOLUTION OF DOMESTIC PARTNERSHIPS AND THE REGISTRATION AND REGULATION OF FOREIGN LIMITED LIABILITY PARTNERSHIPS.",
+    "session": "152",
+    "identifier": "SB 9",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO LEAD-BASED PAINT.",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -13173,12 +13217,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47448&legislationTypeId=1&docTypeId=2&legislationName=SB90"
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GeneratePdfDocument?legislationId=140397&legislationTypeId=5&docTypeId=2"
   },
   {
     "bill_id": "ocd-bill/02bfa448-1223-478e-b1c5-cf39d744c8a9",
@@ -13201,6 +13244,29 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=130211&legislationTypeId=1&docTypeId=2&legislationName=SB90"
+  },
+  {
+    "bill_id": "ocd-bill/f211228b-5b82-400b-993d-62387417ea9a",
+    "state": "DE",
+    "session": "150",
+    "identifier": "SB 90",
+    "title": "AN ACT TO AMEND CHAPTER 15, TITLE 6 OF THE DELAWARE CODE RELATING TO THE CREATION, REGULATION, OPERATION AND DISSOLUTION OF DOMESTIC PARTNERSHIPS AND THE REGISTRATION AND REGULATION OF FOREIGN LIMITED LIABILITY PARTNERSHIPS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47448&legislationTypeId=1&docTypeId=2&legislationName=SB90"
   },
   {
     "bill_id": "ocd-bill/7b6cb919-79e4-4db6-bf30-4e27c0017bfb",
@@ -13247,28 +13313,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=47522&legislationTypeId=6&docTypeId=2&legislationName=SS1"
   },
   {
-    "bill_id": "ocd-bill/85dfbd5c-1429-4560-83ff-f819c983ea1f",
-    "state": "DE",
-    "session": "151",
-    "identifier": "SB 93",
-    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATED TO CONSUMER CONTRACTS.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78863&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB93"
-  },
-  {
     "bill_id": "ocd-bill/62437329-ccbb-4353-85ff-d6e482d17285",
     "state": "DE",
     "session": "153",
@@ -13289,6 +13333,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142055&legislationTypeId=1&docTypeId=2&legislationName=SB93"
+  },
+  {
+    "bill_id": "ocd-bill/85dfbd5c-1429-4560-83ff-f819c983ea1f",
+    "state": "DE",
+    "session": "151",
+    "identifier": "SB 93",
+    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATED TO CONSUMER CONTRACTS.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78863&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB93"
   },
   {
     "bill_id": "ocd-bill/2bd2b05e-8067-45af-9c7e-f42d4b5b9daa",
@@ -13526,8 +13592,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13644,6 +13710,28 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141831&legislationTypeId=3&docTypeId=2&legislationName=SCR14"
   },
   {
+    "bill_id": "ocd-bill/9e3d68b9-b6b3-4acc-ada4-081b4bd2a3af",
+    "state": "DE",
+    "session": "152",
+    "identifier": "SCR 15",
+    "title": "PROCLAIMING THE MONTH OF APRIL 2023 AS “SIKH AWARENESS AND APPRECIATION MONTH” IN THE STATE OF DELAWARE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=130100&legislationTypeId=3&docTypeId=2&legislationName=SCR15"
+  },
+  {
     "bill_id": "ocd-bill/4b30ea7f-d0c3-444c-920f-ac42b2e58aad",
     "state": "DE",
     "session": "151",
@@ -13665,28 +13753,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48430&legislationTypeId=3&docTypeId=2&legislationName=SCR15"
-  },
-  {
-    "bill_id": "ocd-bill/9e3d68b9-b6b3-4acc-ada4-081b4bd2a3af",
-    "state": "DE",
-    "session": "152",
-    "identifier": "SCR 15",
-    "title": "PROCLAIMING THE MONTH OF APRIL 2023 AS “SIKH AWARENESS AND APPRECIATION MONTH” IN THE STATE OF DELAWARE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=130100&legislationTypeId=3&docTypeId=2&legislationName=SCR15"
   },
   {
     "bill_id": "ocd-bill/67cd69cf-bcc1-4f9e-b5d4-38c9eb706cf3",
@@ -13770,8 +13836,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13831,12 +13897,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -14112,28 +14178,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141972&legislationTypeId=3&docTypeId=2&legislationName=SCR30"
   },
   {
-    "bill_id": "ocd-bill/10976a4a-6c77-46eb-8acd-d9703a7e2a79",
-    "state": "DE",
-    "session": "151",
-    "identifier": "SCR 36",
-    "title": "DIRECTING THE DEPARTMENT OF EDUCATION AND THE DELAWARE EARLY CHILDHOOD COUNCIL TO CREATE A STATE TARGET COMPENSATION SCALE AND PROFESSIONAL CAREER PATHWAY FOR EARLY CHILDHOOD CARE EDUCATORS WHO TEACH AGES BIRTH THROUGH FIVE.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=68715&legislationTypeId=3&docTypeId=2&legislationName=SCR36"
-  },
-  {
     "bill_id": "ocd-bill/da0007bf-36cf-4a62-a7d1-b2159cc0e1f1",
     "state": "DE",
     "session": "149",
@@ -14154,6 +14198,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=26119&legislationTypeId=3&docTypeId=2&legislationName=SCR36"
+  },
+  {
+    "bill_id": "ocd-bill/10976a4a-6c77-46eb-8acd-d9703a7e2a79",
+    "state": "DE",
+    "session": "151",
+    "identifier": "SCR 36",
+    "title": "DIRECTING THE DEPARTMENT OF EDUCATION AND THE DELAWARE EARLY CHILDHOOD COUNCIL TO CREATE A STATE TARGET COMPENSATION SCALE AND PROFESSIONAL CAREER PATHWAY FOR EARLY CHILDHOOD CARE EDUCATORS WHO TEACH AGES BIRTH THROUGH FIVE.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=68715&legislationTypeId=3&docTypeId=2&legislationName=SCR36"
   },
   {
     "bill_id": "ocd-bill/010c27f2-77da-4887-abd4-1b9722b14ccd",
@@ -14200,28 +14266,6 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48302&legislationTypeId=3&docTypeId=2&legislationName=SCR4"
   },
   {
-    "bill_id": "ocd-bill/e3f6f3d3-80e3-4c26-a430-56799b95ab09",
-    "state": "DE",
-    "session": "151",
-    "identifier": "SCR 44",
-    "title": "CREATING AN AGING-IN-PLACE WORKING GROUP TO DEVELOP RECOMMENDATIONS RELATED TO HOME AND COMMUNITY BASED SERVICES.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78741&legislationTypeId=3&docTypeId=2&legislationName=SCR44"
-  },
-  {
     "bill_id": "ocd-bill/bcab4dc0-288a-45c3-aa5c-ec02581af123",
     "state": "DE",
     "session": "153",
@@ -14242,6 +14286,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142060&legislationTypeId=3&docTypeId=2&legislationName=SCR44"
+  },
+  {
+    "bill_id": "ocd-bill/e3f6f3d3-80e3-4c26-a430-56799b95ab09",
+    "state": "DE",
+    "session": "151",
+    "identifier": "SCR 44",
+    "title": "CREATING AN AGING-IN-PLACE WORKING GROUP TO DEVELOP RECOMMENDATIONS RELATED TO HOME AND COMMUNITY BASED SERVICES.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78741&legislationTypeId=3&docTypeId=2&legislationName=SCR44"
   },
   {
     "bill_id": "ocd-bill/f1c157b5-b593-4667-b656-0d1dde6ef74a",
@@ -14457,8 +14523,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14788,8 +14854,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14833,9 +14899,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "raw_text",
-      "abstract",
-      "title"
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14967,8 +15033,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -15013,8 +15079,8 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -15109,9 +15175,9 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=78959&legislationTypeId=2&docTypeId=2&legislationName=SR17"
   },
   {
-    "bill_id": "ocd-bill/b440e73e-56a0-4311-846e-412a515056c0",
+    "bill_id": "ocd-bill/9ad257c8-4f7c-4f6c-ac49-47964010c215",
     "state": "DE",
-    "session": "151",
+    "session": "152",
     "identifier": "SR 2",
     "title": "RELATING TO THE RULES OF THE DELAWARE STATE SENATE.",
     "updated": "",
@@ -15128,7 +15194,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48270&legislationTypeId=2&docTypeId=2&legislationName=SR2"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=129926&legislationTypeId=2&docTypeId=2&legislationName=SR2"
   },
   {
     "bill_id": "ocd-bill/6d10e383-c79a-491e-9745-a156ccd94ad1",
@@ -15153,9 +15219,9 @@
     "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141714&legislationTypeId=2&docTypeId=2&legislationName=SR2"
   },
   {
-    "bill_id": "ocd-bill/9ad257c8-4f7c-4f6c-ac49-47964010c215",
+    "bill_id": "ocd-bill/b440e73e-56a0-4311-846e-412a515056c0",
     "state": "DE",
-    "session": "152",
+    "session": "151",
     "identifier": "SR 2",
     "title": "RELATING TO THE RULES OF THE DELAWARE STATE SENATE.",
     "updated": "",
@@ -15172,7 +15238,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=129926&legislationTypeId=2&docTypeId=2&legislationName=SR2"
+    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=48270&legislationTypeId=2&docTypeId=2&legislationName=SR2"
   },
   {
     "bill_id": "ocd-bill/e9a9f35f-2f7a-47d0-97ed-622c3b0ad588",
@@ -15191,8 +15257,8 @@
     ],
     "match_fields": [
       "abstract",
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -15237,8 +15303,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",

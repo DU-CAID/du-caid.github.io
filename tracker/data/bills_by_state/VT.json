@@ -274,8 +274,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "adjacent_tech",
-      "automated_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -285,7 +285,7 @@
       "title",
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/H-0114/H-0114%20As%20Introduced.pdf"
   },
@@ -431,9 +431,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1170,7 +1170,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0016/H-0016%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
   },
@@ -2029,8 +2029,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2252,8 +2252,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3021,20 +3021,20 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "automated_decision_system",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning",
-      "artificial_intelligence"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/H-0263/H-0263%20As%20Introduced.pdf"
   },
@@ -3180,12 +3180,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "algorithmic_decision_system"
+      "algorithmic_decision_system",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4664,8 +4664,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4791,19 +4791,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "adjacent_tech",
-      "automated_decision_system",
       "algorithmic_tool",
-      "artificial_intelligence"
+      "machine_learning",
+      "artificial_intelligence",
+      "automated_decision_system",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4819,20 +4819,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech",
       "generative_ai_variant",
       "high_risk_ai_variant",
-      "adjacent_tech",
-      "artificial_intelligence",
-      "ai_system_composite",
-      "synthetic_media"
+      "synthetic_media",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4942,8 +4942,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5158,18 +5158,18 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
-      "algorithmic_tool",
       "artificial_intelligence",
+      "adjacent_tech",
       "ai_model_variant",
-      "adjacent_tech"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5317,12 +5317,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -5590,8 +5590,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5717,16 +5717,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6139,10 +6139,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system",
-      "ai_system_composite",
       "machine_learning",
+      "artificial_intelligence",
+      "ai_system_composite",
+      "automated_decision_system",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -6153,7 +6153,7 @@
       "raw_text",
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/H-0410/H-0410%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
   },
@@ -6574,7 +6574,7 @@
       "title",
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/H-0429/H-0429%20As%20Introduced.pdf"
   },
@@ -7232,8 +7232,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -7299,8 +7299,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8711,8 +8711,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10843,17 +10843,17 @@
     "core_ai_hits": 10,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
+      "synthetic_media",
       "machine_learning",
       "llm_variant",
-      "adjacent_tech",
-      "synthetic_media",
-      "ai_system_composite",
+      "artificial_intelligence",
       "generative_ai_variant",
       "high_risk_ai_variant",
+      "ai_system_composite",
+      "ai_system",
       "foundation_model",
-      "algorithmic_tool",
-      "ai_system"
+      "adjacent_tech",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -10863,7 +10863,7 @@
       "raw_text",
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/H-0710/H-0710%20As%20Introduced.pdf"
   },
@@ -10877,21 +10877,21 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
+      "ai_system_composite",
       "generative_ai_variant",
       "high_risk_ai_variant",
       "adjacent_tech",
-      "ai_system_composite"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/H-0711/H-0711%20As%20Introduced.pdf"
   },
@@ -11088,10 +11088,10 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/H-0724/H-0724%20As%20Introduced.pdf"
   },
@@ -11993,8 +11993,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -12014,8 +12014,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -13100,8 +13100,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13148,7 +13148,7 @@
       "title",
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0919/H-0919%20As%20Introduced.pdf"
   },
@@ -13168,10 +13168,10 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0920/H-0920%20As%20Introduced.pdf"
   },
@@ -13191,10 +13191,10 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/H-0921/H-0921%20As%20Introduced.pdf"
   },
@@ -15531,28 +15531,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0010/S-0010%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/4dd195ff-96d3-4056-a840-de11e347d112",
-    "state": "VT",
-    "session": "2021-2022",
-    "identifier": "S 100",
-    "title": "An act relating to universal school meals",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0100/S-0100%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
-  },
-  {
     "bill_id": "ocd-bill/5c502654-78eb-4b21-a8af-65b85b30333f",
     "state": "VT",
     "session": "2023-2024",
@@ -15575,6 +15553,28 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0100/S-0100%20House%20Proposal%20of%20Amendment%20Unofficial.pdf"
   },
   {
+    "bill_id": "ocd-bill/4dd195ff-96d3-4056-a840-de11e347d112",
+    "state": "VT",
+    "session": "2021-2022",
+    "identifier": "S 100",
+    "title": "An act relating to universal school meals",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0100/S-0100%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
+  },
+  {
     "bill_id": "ocd-bill/f3431ccd-c024-4a0c-b2e1-8af45b1349c7",
     "state": "VT",
     "session": "2023-2024",
@@ -15595,6 +15595,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0101/S-0101%20As%20Introduced.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/ef87ca2c-84c5-419c-abdc-d7f3869a5c53",
+    "state": "VT",
+    "session": "2021-2022",
+    "identifier": "S 102",
+    "title": "An act relating to the regulation of agricultural inputs for farming",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0102/S-0102%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
   },
   {
     "bill_id": "ocd-bill/2716edf0-64bc-48a8-b8f1-83f999f3434a",
@@ -15639,28 +15661,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0102/S-0102%20As%20Introduced.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/ef87ca2c-84c5-419c-abdc-d7f3869a5c53",
-    "state": "VT",
-    "session": "2021-2022",
-    "identifier": "S 102",
-    "title": "An act relating to the regulation of agricultural inputs for farming",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0102/S-0102%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
   },
   {
     "bill_id": "ocd-bill/fa27cd68-5bfc-4aa7-baaf-bc037b8d9bbe",
@@ -15840,28 +15840,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0110/S-0110%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
   },
   {
-    "bill_id": "ocd-bill/a8f00c2f-d74b-4d6f-a2a4-2485bbd0faaf",
-    "state": "VT",
-    "session": "2021-2022",
-    "identifier": "S 112",
-    "title": "An act relating to proposed changes to Act 250",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0112/S-0112%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/9ee35fcd-c576-4be6-9e44-1bb44c4c11d0",
     "state": "VT",
     "session": "2023-2024",
@@ -15882,6 +15860,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0112/S-0112%20House%20Proposal%20of%20Amendment%20Unofficial.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/a8f00c2f-d74b-4d6f-a2a4-2485bbd0faaf",
+    "state": "VT",
+    "session": "2021-2022",
+    "identifier": "S 112",
+    "title": "An act relating to proposed changes to Act 250",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0112/S-0112%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/6723af28-7e35-43cc-8874-5675376f72cd",
@@ -15928,28 +15928,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0115/S-0115%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
   },
   {
-    "bill_id": "ocd-bill/86910f09-9e09-4a63-8a31-bc1f484984d2",
-    "state": "VT",
-    "session": "2025-2026",
-    "identifier": "S 117",
-    "title": "An act relating to wage and hour, unemployment compensation, and workers' compensation",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0117/S-0117%20House%20Proposal%20of%20Amendment%20Unofficial.pdf"
-  },
-  {
     "bill_id": "ocd-bill/ba88dbd2-4b55-475b-920f-b7843cb31c83",
     "state": "VT",
     "session": "2021-2022",
@@ -15970,6 +15948,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0117/S-0117%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/86910f09-9e09-4a63-8a31-bc1f484984d2",
+    "state": "VT",
+    "session": "2025-2026",
+    "identifier": "S 117",
+    "title": "An act relating to wage and hour, unemployment compensation, and workers' compensation",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0117/S-0117%20House%20Proposal%20of%20Amendment%20Unofficial.pdf"
   },
   {
     "bill_id": "ocd-bill/ec4f02ea-6653-4130-ade7-6f5f8a90fcc4",
@@ -16192,28 +16192,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0123/S-0123%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/95614eb4-2a70-43a5-bf4b-a58fb29ab7d6",
-    "state": "VT",
-    "session": "2025-2026",
-    "identifier": "S 124",
-    "title": "An act relating to miscellaneous agricultural subjects",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0124/S-0124%20House%20Proposal%20of%20Amendment%20Unofficial.pdf"
-  },
-  {
     "bill_id": "ocd-bill/5e08145b-0386-481f-95ee-3336ee37fd9c",
     "state": "VT",
     "session": "2019-2020",
@@ -16234,6 +16212,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0124/S-0124%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/95614eb4-2a70-43a5-bf4b-a58fb29ab7d6",
+    "state": "VT",
+    "session": "2025-2026",
+    "identifier": "S 124",
+    "title": "An act relating to miscellaneous agricultural subjects",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0124/S-0124%20House%20Proposal%20of%20Amendment%20Unofficial.pdf"
   },
   {
     "bill_id": "ocd-bill/2ae02ecf-2f3c-4fdc-9c88-ffc03ec7e734",
@@ -16302,28 +16302,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0126/S-0126%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/e8b9875e-5d5e-4956-b9fc-47f5f726fa73",
-    "state": "VT",
-    "session": "2021-2022",
-    "identifier": "S 126",
-    "title": "An act relating to the collection and recycling of electronic waste",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0126/S-0126%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/cbc85fc2-284e-4a47-a0b1-bd87baebc870",
     "state": "VT",
     "session": "2025-2026",
@@ -16344,6 +16322,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0126/S-0126%20House%20Proposal%20of%20Amendment%20Unofficial.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/e8b9875e-5d5e-4956-b9fc-47f5f726fa73",
+    "state": "VT",
+    "session": "2021-2022",
+    "identifier": "S 126",
+    "title": "An act relating to the collection and recycling of electronic waste",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0126/S-0126%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/9b2686b7-8cdc-42b4-b5ac-9d8eae052795",
@@ -16523,6 +16523,28 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0132/S-0132%20As%20Introduced.pdf"
   },
   {
+    "bill_id": "",
+    "state": "VT",
+    "session": "2025",
+    "identifier": "S 133",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVlQyMDI1MDAwUzEzMyJ9.pWnW0u6pnsz452VfDM_UrB8rg9U35EvJwT-kgxz7Y4k"
+  },
+  {
     "bill_id": "ocd-bill/f5afdeae-0929-4fa5-8f88-c672b25b4445",
     "state": "VT",
     "session": "2025-2026",
@@ -16589,28 +16611,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0138/S-0138%20House%20Proposal%20of%20Amendment%20Unofficial.pdf"
   },
   {
-    "bill_id": "ocd-bill/5fe7f8fc-78fb-44b9-b49c-adec37b17d53",
-    "state": "VT",
-    "session": "2023-2024",
-    "identifier": "S 139",
-    "title": "An act relating to the modernization of public safety communications in Vermont",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0139/S-0139%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/af35409c-3cee-4262-8edd-2410bd3271cd",
     "state": "VT",
     "session": "2019-2020",
@@ -16631,6 +16631,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0139/S-0139%20As%20Introduced.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/5fe7f8fc-78fb-44b9-b49c-adec37b17d53",
+    "state": "VT",
+    "session": "2023-2024",
+    "identifier": "S 139",
+    "title": "An act relating to the modernization of public safety communications in Vermont",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0139/S-0139%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/24412917-47f3-4fee-a126-670190a61f6f",
@@ -16765,6 +16787,28 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0144/S-0144%20As%20Introduced.pdf"
   },
   {
+    "bill_id": "ocd-bill/7d7d507b-9853-469b-a821-f2644a169189",
+    "state": "VT",
+    "session": "2023-2024",
+    "identifier": "S 145",
+    "title": "An act relating to the Community Resilience and Disaster Mitigation Fund",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0145/S-0145%20As%20Introduced.pdf"
+  },
+  {
     "bill_id": "ocd-bill/e906637e-f3b0-4688-98ad-0edea376499b",
     "state": "VT",
     "session": "2019-2020",
@@ -16786,28 +16830,6 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0145/S-0145%20As%20Introduced.pdf"
-  },
-  {
-    "bill_id": "ocd-bill/7d7d507b-9853-469b-a821-f2644a169189",
-    "state": "VT",
-    "session": "2023-2024",
-    "identifier": "S 145",
-    "title": "An act relating to the Community Resilience and Disaster Mitigation Fund",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0145/S-0145%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/a0d8c78c-4b8e-4fab-b672-da3d86312edc",
@@ -17053,28 +17075,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0154/S-0154%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
   },
   {
-    "bill_id": "ocd-bill/e1afd04e-e68d-46d7-a23f-5dfe9435dec8",
-    "state": "VT",
-    "session": "2021-2022",
-    "identifier": "S 155",
-    "title": "An act relating to the creation of the Agency of Public Safety",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0155/S-0155%20As%20Passed%20by%20the%20Senate%20Unofficial.pdf"
-  },
-  {
     "bill_id": "ocd-bill/94ed64d3-2f01-437e-978e-24714bfd9dd6",
     "state": "VT",
     "session": "2023-2024",
@@ -17117,6 +17117,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0155/S-0155%20As%20Introduced.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/e1afd04e-e68d-46d7-a23f-5dfe9435dec8",
+    "state": "VT",
+    "session": "2021-2022",
+    "identifier": "S 155",
+    "title": "An act relating to the creation of the Agency of Public Safety",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0155/S-0155%20As%20Passed%20by%20the%20Senate%20Unofficial.pdf"
   },
   {
     "bill_id": "ocd-bill/62819e07-deea-4f36-a7c5-ae4293b40ac3",
@@ -18326,8 +18348,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -18864,28 +18886,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0285/S-0285%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/01ca47d3-bbd6-4a7b-bcb8-08fb42757396",
-    "state": "VT",
-    "session": "2023-2024",
-    "identifier": "S 287",
-    "title": "An act relating to bail and violations of conditions of release",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0287/S-0287%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/9088a892-45dd-4329-a2b0-db7489b496d8",
     "state": "VT",
     "session": "2021-2022",
@@ -18906,6 +18906,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0287/S-0287%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/01ca47d3-bbd6-4a7b-bcb8-08fb42757396",
+    "state": "VT",
+    "session": "2023-2024",
+    "identifier": "S 287",
+    "title": "An act relating to bail and violations of conditions of release",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0287/S-0287%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/530469f2-9c09-437a-a32c-02e7ff4d6f5c",
@@ -19524,28 +19546,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0036/S-0036%20House%20Proposal%20of%20Amendment%20Unofficial.pdf"
   },
   {
-    "bill_id": "ocd-bill/c3a3c3b0-ab2e-4329-b9ba-11317776f5a6",
-    "state": "VT",
-    "session": "2019-2020",
-    "identifier": "S 38",
-    "title": "An act relating to the creation of a tuition-free scholarship program for Vermont students",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0038/S-0038%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/900e739e-36a7-4cb1-b74c-f4d8cce612bc",
     "state": "VT",
     "session": "2025-2026",
@@ -19566,6 +19566,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0038/S-0038%20As%20Introduced.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/c3a3c3b0-ab2e-4329-b9ba-11317776f5a6",
+    "state": "VT",
+    "session": "2019-2020",
+    "identifier": "S 38",
+    "title": "An act relating to the creation of a tuition-free scholarship program for Vermont students",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0038/S-0038%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/951462c1-e550-4a9c-8901-06d13ded61d9",
@@ -19678,28 +19700,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0044/S-0044%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/36952a2f-7446-4eab-bc24-2d5f9bddd9a9",
-    "state": "VT",
-    "session": "2019-2020",
-    "identifier": "S 46",
-    "title": "An act relating to ethnic and social equity studies standards for public schools",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0046/S-0046%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/1afac46e-0871-4e03-9b43-41e8f5a513eb",
     "state": "VT",
     "session": "2023-2024",
@@ -19720,6 +19720,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0046/S-0046%20As%20Introduced.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/36952a2f-7446-4eab-bc24-2d5f9bddd9a9",
+    "state": "VT",
+    "session": "2019-2020",
+    "identifier": "S 46",
+    "title": "An act relating to ethnic and social equity studies standards for public schools",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0046/S-0046%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/36928bc5-2cb0-4b7d-b9ee-bf00492c4a08",
@@ -19766,28 +19788,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0049/S-0049%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/ac4fe8ad-272c-42ec-a8c2-4be339cf9188",
-    "state": "VT",
-    "session": "2023-2024",
-    "identifier": "S 49",
-    "title": "An act relating to protecting genetic information privacy and consumer health information",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0049/S-0049%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/941f2b04-c831-455c-9eb7-fd41949f0648",
     "state": "VT",
     "session": "2019-2020",
@@ -19808,6 +19808,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0049/S-0049%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/ac4fe8ad-272c-42ec-a8c2-4be339cf9188",
+    "state": "VT",
+    "session": "2023-2024",
+    "identifier": "S 49",
+    "title": "An act relating to protecting genetic information privacy and consumer health information",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0049/S-0049%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/b2075269-9349-4b8b-b292-78adb81eaa2f",
@@ -20074,28 +20096,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0064/S-0064%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/7a21499a-771f-4814-85ce-c9d9b2c8bf6b",
-    "state": "VT",
-    "session": "2025-2026",
-    "identifier": "S 65",
-    "title": "An act relating to energy efficiency utility jurisdiction",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0065/S-0065%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/7a373b31-a36a-4699-a061-fe6bb9a1c490",
     "state": "VT",
     "session": "2021-2022",
@@ -20116,6 +20116,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0065/S-0065%20As%20Introduced.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/7a21499a-771f-4814-85ce-c9d9b2c8bf6b",
+    "state": "VT",
+    "session": "2025-2026",
+    "identifier": "S 65",
+    "title": "An act relating to energy efficiency utility jurisdiction",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0065/S-0065%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/da2a70d0-baa6-4f6f-a8e3-9870a89aac88",
@@ -20153,8 +20175,8 @@
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -20365,11 +20387,11 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0075/S-0075%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/a8441215-5737-482d-babb-8a2051374850",
+    "bill_id": "ocd-bill/30af4ac4-08b1-48e5-b279-bcb73fd944a5",
     "state": "VT",
-    "session": "2025-2026",
+    "session": "2023-2024",
     "identifier": "S 76",
-    "title": "An act relating to health equity data reporting and registry disclosure requirements",
+    "title": "An act relating to Vermont’s adoption of the Audiology and Speech-Language Pathology Interstate Compact",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -20380,12 +20402,11 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0076/S-0076%20As%20Introduced.pdf"
+    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0076/S-0076%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/80f43a86-ea77-4824-b677-98c0fcb8d584",
@@ -20410,11 +20431,11 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0076/S-0076%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/30af4ac4-08b1-48e5-b279-bcb73fd944a5",
+    "bill_id": "ocd-bill/a8441215-5737-482d-babb-8a2051374850",
     "state": "VT",
-    "session": "2023-2024",
+    "session": "2025-2026",
     "identifier": "S 76",
-    "title": "An act relating to Vermont’s adoption of the Audiology and Speech-Language Pathology Interstate Compact",
+    "title": "An act relating to health equity data reporting and registry disclosure requirements",
     "updated": "",
     "core_ai_hits": 0,
     "adjacent_ai_hits": 1,
@@ -20425,11 +20446,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/S-0076/S-0076%20As%20Introduced.pdf"
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0076/S-0076%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/395a5fa1-4491-4a2e-a5d3-a3cc7b8d608e",
@@ -20498,28 +20520,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0077/S-0077%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/f8b52368-d3ae-41ed-ab69-1b0229aad36e",
-    "state": "VT",
-    "session": "2025-2026",
-    "identifier": "S 79",
-    "title": "An act relating to establishing the Recreational Trails Compensation Study Committee",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0079/S-0079%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/09a9f01a-84ef-456b-b69b-c7477065b637",
     "state": "VT",
     "session": "2021-2022",
@@ -20540,6 +20540,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0079/S-0079%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/f8b52368-d3ae-41ed-ab69-1b0229aad36e",
+    "state": "VT",
+    "session": "2025-2026",
+    "identifier": "S 79",
+    "title": "An act relating to establishing the Recreational Trails Compensation Study Committee",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0079/S-0079%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/4475e3cc-0fcc-452f-9847-33f969a3eb75",
@@ -20696,28 +20718,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0090/S-0090%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
   },
   {
-    "bill_id": "ocd-bill/592b3c62-c93b-440b-b88c-325c2af99934",
-    "state": "VT",
-    "session": "2019-2020",
-    "identifier": "S 91",
-    "title": "An act relating to electric companies and broadband Internet access service",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0091/S-0091%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/65a084fc-7ebc-4ce5-86cf-9fc6955d78a3",
     "state": "VT",
     "session": "2025-2026",
@@ -20738,6 +20738,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0091/S-0091%20As%20Introduced.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/592b3c62-c93b-440b-b88c-325c2af99934",
+    "state": "VT",
+    "session": "2019-2020",
+    "identifier": "S 91",
+    "title": "An act relating to electric companies and broadband Internet access service",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0091/S-0091%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/bf490560-ba64-4e5d-9c8e-794cf94cf0ad",
@@ -20785,28 +20807,6 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0095/S-0095%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/712465dd-f1c4-4c44-9510-f9efa09f349b",
-    "state": "VT",
-    "session": "2019-2020",
-    "identifier": "S 96",
-    "title": "An act relating to the provision of water quality services",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0096/S-0096%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
-  },
-  {
     "bill_id": "ocd-bill/9de670c7-32b3-4be5-9ceb-d8287601c113",
     "state": "VT",
     "session": "2021-2022",
@@ -20827,6 +20827,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2022/Docs/BILLS/S-0096/S-0096%20As%20Introduced.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/712465dd-f1c4-4c44-9510-f9efa09f349b",
+    "state": "VT",
+    "session": "2019-2020",
+    "identifier": "S 96",
+    "title": "An act relating to the provision of water quality services",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/BILLS/S-0096/S-0096%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf"
   },
   {
     "bill_id": "ocd-bill/62eb2680-e53e-4ad3-a98b-d4ac5e7bfa96",
@@ -21027,28 +21049,6 @@
     "primary_url": "https://legislature.vermont.gov/assets/Documents/2018/Docs/BILLS/S-0062/S-0062%20As%20Introduced.pdf"
   },
   {
-    "bill_id": "ocd-bill/f27d99f1-8e5e-4f19-b33f-52f87909512a",
-    "state": "VT",
-    "session": "2023-2024",
-    "identifier": "SCR 3",
-    "title": "Senate concurrent resolution honoring James Sullivan for his exemplary leadership at the Bennington County Regional Commission",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/RESOLUTN/SCR003/SCR003%20As%20Introduced.pdf"
-  },
-  {
     "bill_id": "ocd-bill/a78fc7e0-8d0e-4228-9ce2-d17605bd67e5",
     "state": "VT",
     "session": "2019-2020",
@@ -21069,6 +21069,28 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.vermont.gov/Documents/2020/Docs/RESOLUTN/SCR003/SCR003%20As%20adopted%20by%20the%20Senate%20Official.pdf"
+  },
+  {
+    "bill_id": "ocd-bill/f27d99f1-8e5e-4f19-b33f-52f87909512a",
+    "state": "VT",
+    "session": "2023-2024",
+    "identifier": "SCR 3",
+    "title": "Senate concurrent resolution honoring James Sullivan for his exemplary leadership at the Bennington County Regional Commission",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/RESOLUTN/SCR003/SCR003%20As%20Introduced.pdf"
   },
   {
     "bill_id": "ocd-bill/580b8b18-87be-44ce-a539-135d60f3ddba",

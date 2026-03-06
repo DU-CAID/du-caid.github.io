@@ -103,8 +103,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2606,6 +2606,28 @@
   {
     "bill_id": "",
     "state": "SD",
+    "session": "2025",
+    "identifier": "S 164",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiU0QyMDI1MDAwUzE2NCJ9.HxupiJcsE9hx0cFx0srcYz-Fx-OHCSQcqi0OZEZfGKw"
+  },
+  {
+    "bill_id": "",
+    "state": "SD",
     "session": "2026",
     "identifier": "S 168",
     "title": "",
@@ -2648,6 +2670,28 @@
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:SD2026000S169&ciq=urn:user:PA196471263&client_md=8603ea8740db9de24095569a34968083&mode=current_text"
   },
   {
+    "bill_id": "",
+    "state": "SD",
+    "session": "2024",
+    "identifier": "S 79",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:SD2024000S79&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0"
+  },
+  {
     "bill_id": "ocd-bill/da113058-9b14-452a-98f0-d565201b7eee",
     "state": "SD",
     "session": "2020",
@@ -2658,8 +2702,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",

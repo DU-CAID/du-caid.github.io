@@ -19,6 +19,28 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiT0gyMDI1MDAwSDEwNiJ9.l97Bi5tmxuN0131IibomHizE-XYIXucNCeO5hDrim7o"
+  },
+  {
+    "bill_id": "",
+    "state": "OH",
+    "session": "2025",
+    "identifier": "H 106",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OH2025000H106&ciq=urn:user:PA196471263&client_md=6bbf11e8f1f4170029b9c2036386dbd9&mode=current_text"
   },
   {
@@ -42,6 +64,28 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OH2025000H11&ciq=urn:user:PA196471263&client_md=4f7af3c7dc8c146e3a528414282bd1e6&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "OH",
+    "session": "2021",
+    "identifier": "H 110",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OH2021000H110&ciq=heather.morton&client_md=151da081c0c023da0c753bec0aada68e&mode=current_text"
   },
   {
     "bill_id": "",
@@ -86,6 +130,28 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OH2025000H362&ciq=urn:user:PA196471263&client_md=31fe4a474ec92b56fdf1541d94c5203b&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "OH",
+    "session": "2025",
+    "identifier": "H 362",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiT0gyMDI1MDAwSDM2MiJ9.9IpjiFhLVIouanZbKhSjWPxOveSYCA3cP2d0kvASSPE"
   },
   {
     "bill_id": "",
@@ -240,6 +306,28 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OH2025000H84&ciq=urn:user:PA196471263&client_md=67f0cff791bea21b5da07dbe9779ac01&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "OH",
+    "session": "2025",
+    "identifier": "H 96",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiT0gyMDI1MDAwSDk2In0.Xl3qamo_68zIuaelt27hzhoTTNNYDBJX5fyd5DgMi2U"
   },
   {
     "bill_id": "",
@@ -515,8 +603,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -627,12 +715,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2154,8 +2242,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2662,8 +2750,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -7213,8 +7301,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "synthetic_media"
     ],
     "matched_tiers": [
@@ -7333,8 +7421,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -7790,15 +7878,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "deepfake_media",
       "machine_learning",
-      "artificial_intelligence",
+      "adjacent_tech",
       "ai_system_composite",
-      "adjacent_tech"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8066,8 +8154,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8354,8 +8442,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9850,11 +9938,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
-      "ai_system_composite",
-      "generative_ai_variant",
       "adjacent_tech",
-      "artificial_intelligence"
+      "generative_ai_variant",
+      "ai_system",
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -11528,16 +11616,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_model_variant",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11553,8 +11641,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "generative_ai_variant",
+      "adjacent_tech",
       "ai_system_composite",
       "artificial_intelligence"
     ],
@@ -11563,8 +11651,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -16075,8 +16163,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -16235,7 +16323,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/resolutions/hcr16/RH/02/hcr16_02_RH?format=pdf"
   },
@@ -16425,12 +16513,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -16455,8 +16543,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -16994,6 +17082,28 @@
     "bill_id": "",
     "state": "OH",
     "session": "2025",
+    "identifier": "S 163",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiT0gyMDI1MDAwUzE2MyJ9.4zGe3KGK6nh8IB7aOuvDar3_LKSkgB0TuZLyhI8e-o8"
+  },
+  {
+    "bill_id": "",
+    "state": "OH",
+    "session": "2025",
     "identifier": "S 164",
     "title": "",
     "updated": "",
@@ -17011,6 +17121,50 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OH2025000S164&ciq=urn:user:PA196471263&client_md=8e658b6fcec970f06b3f21a2038602a0&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "OH",
+    "session": "2025",
+    "identifier": "S 164",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiT0gyMDI1MDAwUzE2NCJ9.q4UfvLDyczhIrsQqdSl_GFHwgai03qlz0BNP48xYoqw"
+  },
+  {
+    "bill_id": "",
+    "state": "OH",
+    "session": "2023",
+    "identifier": "S 217",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OH2023000S217&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0"
   },
   {
     "bill_id": "",
@@ -17055,6 +17209,28 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OH2025000S79&ciq=urn:user:PA196471263&client_md=0a94383a2b6808c29c328fda103918d9&mode=current_text"
+  },
+  {
+    "bill_id": "",
+    "state": "OH",
+    "session": "2025",
+    "identifier": "S 79",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiT0gyMDI1MDAwUzc5In0._vFMLWU4abu6ptGwJNUadq5TQSifeNhtJzPvw4Rtk30"
   },
   {
     "bill_id": "ocd-bill/04e56ffa-f4a8-48fe-83e5-a3de125e7758",
@@ -18960,8 +19136,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -20417,10 +20593,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite",
       "adjacent_tech",
-      "ai_system"
+      "artificial_intelligence",
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -23195,12 +23371,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -24672,12 +24848,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
