@@ -257,17 +257,42 @@
 
     <div class="panel">
       <h2>Step 4 - NCSL Validation</h2>
-      <p>Flagged bills are cross-referenced against the
-        <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database">NCSL AI Legislation Database</a>,
-        an independent tracker maintained by the National Conference of State Legislatures.
-        NCSL focuses primarily on enacted or near-enacted AI laws, providing a high-confidence
-        reference set.</p>
-      <p>Matching is performed by state and bill identifier, with normalization to handle
-        common formatting differences (e.g., "SB 123" vs "S123"). Bills found in the NCSL
-        database are marked <strong>NCSL matched</strong> in this tracker.</p>
-      <p>The NCSL comparison provides an independent check on our
-        pipeline's coverage, and it highlights bills that have advanced furthest in the
-        legislative process, which is a useful signal for researchers focused on enacted policy.</p>
+      <p>Flagged bills are cross-referenced against the National Conference of State Legislatures
+        (NCSL) AI legislation tracking, drawn from five sources:</p>
+      <ul class="methods-list" style="margin-top:0.5rem">
+        <li>The <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database">NCSL searchable AI Legislation Database</a> (all years)</li>
+        <li>Year-specific bill tables for <a href="https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation">2025</a>,
+            <a href="https://www.ncsl.org/technology-and-communication/artificial-intelligence-2024-legislation">2024</a>, and
+            <a href="https://www.ncsl.org/technology-and-communication/artificial-intelligence-2023-legislation">2023</a></li>
+        <li>A <a href="https://www.ncsl.org/technology-and-communication/legislation-related-to-artificial-intelligence">multi-year table</a> covering 2019–2022</li>
+      </ul>
+      <p>Together these sources provide approximately 2,600 unique state-bill combinations spanning
+        2019 to the present. Matching is performed by state and bill identifier, with normalization
+        to handle common formatting differences (e.g., "SB 123" vs "S123"). Bills found in any
+        NCSL source are marked <strong>NCSL matched</strong> in this tracker.</p>
+      <p>The NCSL comparison provides an independent check on our pipeline's coverage, and it
+        highlights bills that have advanced furthest in the legislative process — a useful signal
+        for researchers focused on enacted policy.</p>
+    </div>
+
+    <div class="panel">
+      <h2>Step 5 - Bill Status</h2>
+      <p>The Bill Browser displays legislative status information from two sources:</p>
+      <ul class="methods-list" style="margin-top:0.5rem">
+        <li><strong>NCSL status</strong> — for bills matched to an NCSL source, the legislative
+          status reported by NCSL (e.g., <em>Enacted</em>, <em>Pending</em>, <em>Failed — Adjourned</em>,
+          <em>Vetoed</em>) is shown as a color-coded label. This is the most reliable status
+          signal available, as NCSL curates it manually.</li>
+        <li><strong>Latest legislative action</strong> — for all bills in the Plural Policy data,
+          the most recent recorded action and its date are shown in the expanded bill detail panel.
+          This is free-form text sourced directly from state legislature feeds (e.g.,
+          "Referred to Committee on Labor" or "Approved by the Governor") and is not standardized
+          across states.</li>
+      </ul>
+      <p>A standardized, cross-state bill stage classification (Introduced, In Committee, Passed
+        Chamber, Enacted, etc.) is not currently available from Plural Policy's bulk data. The
+        NCSL status field is the best available proxy for bills that have advanced in the
+        legislative process.</p>
     </div>
 
     <div class="panel">
