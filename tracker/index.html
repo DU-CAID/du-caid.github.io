@@ -84,13 +84,24 @@
 
     <!-- Choropleth map -->
     <div class="panel">
-      <h2>Core AI Bills by State</h2>
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.75rem">
+        <h2 style="margin:0" id="mapHeading">Core AI Bills by State</h2>
+        <div class="filter-group" style="margin:0;min-width:0">
+          <label for="mapViewSelect" style="font-size:0.78rem">Map view</label>
+          <select id="mapViewSelect">
+            <option value="core">Core AI bills</option>
+            <option value="adjacent">Adjacent AI bills</option>
+            <option value="total">All flagged bills</option>
+          </select>
+        </div>
+      </div>
+      <p style="font-size:0.82rem;color:var(--muted);margin:0 0 0.5rem">Click a state to browse its bills.</p>
       <div id="map-container"></div>
       <div class="map-legend">
         <span>Fewer</span>
         <div class="legend-gradient"></div>
         <span>More</span>
-        <span style="margin-left:auto;color:var(--muted);font-size:0.75rem">Core AI bills (log scale)</span>
+        <span id="mapLegendLabel" style="margin-left:auto;color:var(--muted);font-size:0.75rem">Core AI bills (log scale)</span>
       </div>
     </div>
 
@@ -137,6 +148,22 @@
             <option value="">All tiers</option>
             <option value="core">Core AI only</option>
             <option value="adjacent">Adjacent AI only</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="chamberFilter">Chamber</label>
+          <select id="chamberFilter">
+            <option value="">All chambers</option>
+            <option value="house">House</option>
+            <option value="senate">Senate</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="sortSelect">Sort by</label>
+          <select id="sortSelect">
+            <option value="">Default</option>
+            <option value="year_desc">Year (newest first)</option>
+            <option value="year_asc">Year (oldest first)</option>
           </select>
         </div>
         <label class="filter-check">

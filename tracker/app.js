@@ -88,58 +88,93 @@ function renderMetrics(summary) {
 }
 
 /* ── Choropleth map ──────────────────────────────────────── */
-async function renderMap(stateData) {
-  const container = document.getElementById("map-container");
-  const tooltip   = document.getElementById("mapTooltip");
+async function renderMap(stateData, navigateTo) {
+  const container    = document.getElementById("map-container");
+  const tooltip      = document.getElementById("mapTooltip");
+  const viewSelect   = document.getElementById("mapViewSelect");
+  const headingEl    = document.getElementById("mapHeading");
+  const legendLabel  = document.getElementById("mapLegendLabel");
 
-  // Build lookup: state abbrev → core count
-  const counts = {};
-  stateData.forEach(s => { counts[s.state] = s.core; });
-  const maxVal = Math.max(...Object.values(counts));
+  // Build all three count lookups up front
+  const countsByView = { core: {}, adjacent: {}, total: {} };
+  stateData.forEach(s => {
+    countsByView.core[s.state]     = s.core;
+    countsByView.adjacent[s.state] = s.adjacent_only;
+    countsByView.total[s.state]    = s.total;
+  });
 
-  // Log scale color — handles the wide range (e.g. NY=17k vs small states=50)
-  const colorScale = d3.scaleSequential()
-    .domain([0, Math.log1p(maxVal)])
-    .interpolator(d3.interpolate("#fce8ec", CRIMSON));
+  const VIEW_META = {
+    core:     { label: "Core AI Bills by State",     legend: "Core AI bills (log scale)",     tier: "core" },
+    adjacent: { label: "Adjacent AI Bills by State", legend: "Adjacent AI bills (log scale)", tier: "adjacent" },
+    total:    { label: "All Flagged Bills by State",  legend: "All flagged bills (log scale)", tier: "" },
+  };
 
-  // Fetch US TopoJSON (states-10m.json is ~100KB)
-  const us = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
+  // Fetch US TopoJSON once
+  const us     = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
   const states = topojson.feature(us, us.objects.states);
 
   const width  = container.clientWidth || 900;
   const height = Math.round(width * 0.62);
 
-  const projection = d3.geoAlbersUsa()
-    .fitSize([width, height], states);
-
-  const path = d3.geoPath().projection(projection);
+  const projection = d3.geoAlbersUsa().fitSize([width, height], states);
+  const path       = d3.geoPath().projection(projection);
 
   const svg = d3.select(container)
     .append("svg")
     .attr("viewBox", `0 0 ${width} ${height}`)
     .attr("aria-label", "Choropleth map of flagged AI bills by U.S. state");
 
-  svg.selectAll("path")
+  const paths = svg.selectAll("path")
     .data(states.features)
     .join("path")
     .attr("d", path)
-    .attr("fill", d => {
-      const abbr  = FIPS[String(d.id).padStart(2, "0")];
-      const count = counts[abbr] || 0;
-      return colorScale(Math.log1p(count));
-    })
-    .on("mousemove", (event, d) => {
-      const abbr  = FIPS[String(d.id).padStart(2, "0")] || "??";
-      const name  = STATE_NAMES[abbr] || abbr;
-      const count = counts[abbr] || 0;
-      tooltip.style.opacity = "1";
-      tooltip.style.left = (event.clientX + 14) + "px";
-      tooltip.style.top  = (event.clientY - 32) + "px";
-      tooltip.textContent = `${name} — ${fmt(count)} core AI bills`;
-    })
-    .on("mouseleave", () => {
-      tooltip.style.opacity = "0";
+    .style("cursor", "pointer");
+
+  function getView()  { return viewSelect ? viewSelect.value : "core"; }
+  function getCounts(){ return countsByView[getView()]; }
+
+  function buildColorScale(counts) {
+    const maxVal = Math.max(...Object.values(counts), 1);
+    return d3.scaleSequential()
+      .domain([0, Math.log1p(maxVal)])
+      .interpolator(d3.interpolate("#fce8ec", CRIMSON));
+  }
+
+  function updateMap() {
+    const view   = getView();
+    const counts = getCounts();
+    const meta   = VIEW_META[view];
+    const color  = buildColorScale(counts);
+
+    paths.attr("fill", d => {
+      const abbr = FIPS[String(d.id).padStart(2, "0")];
+      return color(Math.log1p(counts[abbr] || 0));
     });
+
+    if (headingEl)   headingEl.textContent   = meta.label;
+    if (legendLabel) legendLabel.textContent = meta.legend;
+  }
+
+  paths
+    .on("mousemove", (event, d) => {
+      const abbr   = FIPS[String(d.id).padStart(2, "0")] || "??";
+      const name   = STATE_NAMES[abbr] || abbr;
+      const count  = getCounts()[abbr] || 0;
+      const view   = getView();
+      const kind   = view === "core" ? "core AI" : view === "adjacent" ? "adjacent AI" : "flagged";
+      tooltip.style.opacity = "1";
+      tooltip.style.left    = (event.clientX + 14) + "px";
+      tooltip.style.top     = (event.clientY - 32) + "px";
+      tooltip.textContent   = `${name} — ${fmt(count)} ${kind} bills (click to browse)`;
+    })
+    .on("mouseleave", () => { tooltip.style.opacity = "0"; })
+    .on("click", (event, d) => {
+      const abbr = FIPS[String(d.id).padStart(2, "0")];
+      if (abbr && navigateTo) navigateTo(abbr, VIEW_META[getView()].tier);
+    });
+
+  if (viewSelect) viewSelect.addEventListener("change", updateMap);
+  updateMap();
 }
 
 /* ── Top 15 states stacked bar ───────────────────────────── */
@@ -182,13 +217,15 @@ function renderTopStates(stateData) {
 
 /* ── Bill Browser ────────────────────────────────────────── */
 function initBillBrowser(manifest) {
-  const stateSelect  = document.getElementById("stateFilter");
-  const yearSelect   = document.getElementById("yearFilter");
-  const tierSelect   = document.getElementById("tierFilter");
-  const ncslCheck    = document.getElementById("ncslFilter");
-  const searchInput  = document.getElementById("searchInput");
-  const tbody        = document.getElementById("billsTbody");
-  const countEl      = document.getElementById("resultsCount");
+  const stateSelect   = document.getElementById("stateFilter");
+  const yearSelect    = document.getElementById("yearFilter");
+  const tierSelect    = document.getElementById("tierFilter");
+  const chamberSelect = document.getElementById("chamberFilter");
+  const sortSelect    = document.getElementById("sortSelect");
+  const ncslCheck     = document.getElementById("ncslFilter");
+  const searchInput   = document.getElementById("searchInput");
+  const tbody         = document.getElementById("billsTbody");
+  const countEl       = document.getElementById("resultsCount");
 
   // Build state → path lookup
   const byState = {};
@@ -231,15 +268,19 @@ function initBillBrowser(manifest) {
   }
 
   function applyFilters() {
-    const q     = searchInput.value.trim().toLowerCase();
-    const year  = yearSelect.value;
-    const tier  = tierSelect.value;
-    const ncsl  = ncslCheck.checked;
+    const q       = searchInput.value.trim().toLowerCase();
+    const year    = yearSelect.value;
+    const tier    = tierSelect.value;
+    const chamber = chamberSelect.value;
+    const ncsl    = ncslCheck.checked;
+    const sort    = sortSelect.value;
 
-    return currentBills.filter(b => {
+    let result = currentBills.filter(b => {
       if (year && yearFromSession(b.session) !== year) return false;
-      if (tier === "core"     && b.core_ai_hits <= 0)      return false;
+      if (tier === "core"     && b.core_ai_hits <= 0)                              return false;
       if (tier === "adjacent" && (b.adjacent_ai_hits <= 0 || b.core_ai_hits > 0)) return false;
+      if (chamber === "house"  && !/^H/i.test(b.identifier))                       return false;
+      if (chamber === "senate" && !/^S/i.test(b.identifier))                       return false;
       if (ncsl && !b.in_ncsl) return false;
       if (q) {
         const hay = [b.identifier, b.title, b.session,
@@ -248,6 +289,14 @@ function initBillBrowser(manifest) {
       }
       return true;
     });
+
+    if (sort === "year_desc") {
+      result.sort((a, b) => (yearFromSession(b.session) || "0") > (yearFromSession(a.session) || "0") ? 1 : -1);
+    } else if (sort === "year_asc") {
+      result.sort((a, b) => (yearFromSession(a.session) || "0") > (yearFromSession(b.session) || "0") ? 1 : -1);
+    }
+
+    return result;
   }
 
   let expandedBillId = null;
@@ -388,24 +437,44 @@ function initBillBrowser(manifest) {
 
   const runFilters = debounce(() => renderTable(applyFilters()), 180);
 
-  stateSelect.addEventListener("change", async () => {
+  async function selectState(abbr) {
     expandedBillId = null;
+    stateSelect.value = abbr;
     countEl.textContent = "Loading…";
     tbody.innerHTML = "";
     try {
-      await loadState(stateSelect.value);
+      await loadState(abbr);
       populateYears();
       renderTable(applyFilters());
     } catch (e) {
       countEl.textContent = "Failed to load bill data.";
       console.error(e);
     }
-  });
+  }
 
+  stateSelect.addEventListener("change", () => selectState(stateSelect.value));
   yearSelect.addEventListener("change", runFilters);
   tierSelect.addEventListener("change", runFilters);
+  chamberSelect.addEventListener("change", runFilters);
+  sortSelect.addEventListener("change", runFilters);
   ncslCheck.addEventListener("change", runFilters);
   searchInput.addEventListener("input", runFilters);
+
+  // Expose navigation function for map click-through
+  return async function navigateTo(abbr, tier) {
+    // Switch to bills tab
+    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".tab-panel").forEach(p => p.classList.add("hidden"));
+    document.querySelector('[data-tab="bills"]').classList.add("active");
+    document.getElementById("tab-bills").classList.remove("hidden");
+
+    // Set tier filter, then load state
+    if (tier) tierSelect.value = tier;
+    await selectState(abbr);
+
+    // Scroll bill browser into view
+    document.getElementById("tab-bills").scrollIntoView({ behavior: "smooth", block: "start" });
+  };
 }
 
 /* ── Trends charts ───────────────────────────────────────── */
@@ -507,8 +576,8 @@ async function main() {
 
     renderMetrics(summary);
     renderTopStates(stateData);
-    renderMap(stateData);
-    initBillBrowser(manifest);
+    const navigateTo = initBillBrowser(manifest);
+    renderMap(stateData, navigateTo);
     renderTrends(byYear, concepts);
 
   } catch (err) {
