@@ -131,7 +131,7 @@ async function renderMap(stateData, navigateTo, usTopoJson) {
   const headingEl    = document.getElementById("mapHeading");
   const legendLabel  = document.getElementById("mapLegendLabel");
 
-  // Build all three count lookups up front
+  // Build count lookups by view type
   const countsByView = { core: {}, adjacent: {}, total: {} };
   stateData.forEach(s => {
     countsByView.core[s.state]     = s.core;
@@ -140,9 +140,9 @@ async function renderMap(stateData, navigateTo, usTopoJson) {
   });
 
   const VIEW_META = {
-    core:     { label: "Core AI Bills by State",     legend: "Core AI bills (log scale)",     tier: "core" },
-    adjacent: { label: "Adjacent AI Bills by State", legend: "Adjacent AI bills (log scale)", tier: "adjacent" },
-    total:    { label: "All Flagged Bills by State",  legend: "All flagged bills (log scale)", tier: "" },
+    core:     { label: "Core AI Bills by State",     legend: "Core AI bills",     tier: "core" },
+    adjacent: { label: "Adjacent AI Bills by State", legend: "Adjacent AI bills", tier: "adjacent" },
+    total:    { label: "All Flagged Bills by State",  legend: "All flagged bills", tier: "" },
   };
 
   // Use the pre-fetched TopoJSON (shared with hero map)
@@ -165,14 +165,16 @@ async function renderMap(stateData, navigateTo, usTopoJson) {
     .attr("d", path)
     .style("cursor", "pointer");
 
-  function getView()  { return viewSelect ? viewSelect.value : "core"; }
-  function getCounts(){ return countsByView[getView()]; }
+  function getView()   { return viewSelect ? viewSelect.value : "core"; }
+  function getCounts() { return countsByView[getView()]; }
 
+  // Quantile scale: divides states into 5 equal-sized buckets regardless of absolute values
+  // so there is always clear color differentiation across states
+  const QUANT_COLORS = ["#fce8ec", "#f4b8c3", "#e87a90", "#d63a5d", CRIMSON];
   function buildColorScale(counts) {
-    const maxVal = Math.max(...Object.values(counts), 1);
-    return d3.scaleSequential()
-      .domain([0, Math.log1p(maxVal)])
-      .interpolator(d3.interpolate("#fce8ec", CRIMSON));
+    const vals = Object.values(counts).filter(v => v > 0);
+    if (!vals.length) return () => "#e5e7eb";
+    return d3.scaleQuantile().domain(vals).range(QUANT_COLORS);
   }
 
   function updateMap() {
@@ -183,7 +185,8 @@ async function renderMap(stateData, navigateTo, usTopoJson) {
 
     paths.attr("fill", d => {
       const abbr = FIPS[String(d.id).padStart(2, "0")];
-      return color(Math.log1p(counts[abbr] || 0));
+      const val  = counts[abbr] || 0;
+      return val === 0 ? "#e5e7eb" : color(val);
     });
 
     if (headingEl)   headingEl.textContent   = meta.label;
@@ -325,10 +328,18 @@ function initBillBrowser(manifest) {
       return true;
     });
 
-    if (sort === "year_desc") {
-      result.sort((a, b) => (yearFromSession(b.session) || "0") > (yearFromSession(a.session) || "0") ? 1 : -1);
+    if (sort === "year_desc" || sort === "") {
+      result.sort((a, b) => {
+        const ya = yearFromSession(a.session) || "0", yb = yearFromSession(b.session) || "0";
+        if (yb !== ya) return yb > ya ? 1 : -1;
+        return (a.identifier || "").localeCompare(b.identifier || "", undefined, { numeric: true });
+      });
     } else if (sort === "year_asc") {
-      result.sort((a, b) => (yearFromSession(a.session) || "0") > (yearFromSession(b.session) || "0") ? 1 : -1);
+      result.sort((a, b) => {
+        const ya = yearFromSession(a.session) || "0", yb = yearFromSession(b.session) || "0";
+        if (ya !== yb) return ya > yb ? 1 : -1;
+        return (a.identifier || "").localeCompare(b.identifier || "", undefined, { numeric: true });
+      });
     }
 
     return result;
@@ -496,16 +507,22 @@ function initBillBrowser(manifest) {
   searchInput.addEventListener("input", runFilters);
 
   // Expose navigation function for map click-through
-  return async function navigateTo(abbr, tier) {
+  return async function navigateTo(abbr, tier, year) {
     // Switch to bills tab
     document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
     document.querySelectorAll(".tab-panel").forEach(p => p.classList.add("hidden"));
     document.querySelector('[data-tab="bills"]').classList.add("active");
     document.getElementById("tab-bills").classList.remove("hidden");
 
-    // Set tier filter, then load state
+    // Set tier filter, then load state (populateYears runs inside selectState)
     if (tier) tierSelect.value = tier;
     await selectState(abbr);
+
+    // Set year after populateYears() has rebuilt the dropdown
+    if (year && yearSelect.querySelector(`option[value="${year}"]`)) {
+      yearSelect.value = year;
+      runFilters();
+    }
 
     // Scroll bill browser into view
     document.getElementById("tab-bills").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -513,7 +530,7 @@ function initBillBrowser(manifest) {
 }
 
 /* ── Trends charts ───────────────────────────────────────── */
-function renderTrends(byYear, concepts, topStatesByYear) {
+function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
   // Filter to 2019–present, drop unknown/implausible years
   const recentYears = byYear.filter(d => d.year >= "2019" && d.year <= "2035");
   const yearLabels  = recentYears.map(d => d.year);
@@ -607,18 +624,22 @@ function renderTrends(byYear, concepts, topStatesByYear) {
     });
   }
 
-  // 3. Core AI concepts — horizontal bar (sorted by core_count desc)
-  const sortedConcepts = [...concepts].sort((a, b) => b.core_count - a.core_count);
-  new Chart(document.getElementById("conceptsChart"), {
+  // 3. Core AI concepts — horizontal bar with year filter
+  const conceptsYearSelect = document.getElementById("conceptsYearSelect");
+
+  // Populate year dropdown from conceptsByYear data
+  if (conceptsByYear && conceptsByYear.length) {
+    const allConceptYears = Object.keys(conceptsByYear[0].by_year).filter(y => y >= "2019").sort().reverse();
+    allConceptYears.forEach(y => {
+      const opt = document.createElement("option");
+      opt.value = y; opt.textContent = y;
+      conceptsYearSelect.appendChild(opt);
+    });
+  }
+
+  const conceptsChart = new Chart(document.getElementById("conceptsChart"), {
     type: "bar",
-    data: {
-      labels: sortedConcepts.map(d => d.concept),
-      datasets: [{
-        label: "Core AI Bills",
-        data: sortedConcepts.map(d => d.core_count),
-        backgroundColor: CRIMSON,
-      }],
-    },
+    data: { labels: [], datasets: [{ label: "Core AI Bills", data: [], backgroundColor: CRIMSON }] },
     options: {
       indexAxis: "y",
       responsive: true,
@@ -633,6 +654,27 @@ function renderTrends(byYear, concepts, topStatesByYear) {
       },
     },
   });
+
+  function updateConceptsChart() {
+    const year = conceptsYearSelect ? conceptsYearSelect.value : "";
+    let sorted;
+    if (year && conceptsByYear && conceptsByYear.length) {
+      sorted = [...conceptsByYear]
+        .map(c => ({ concept: c.concept, count: c.by_year[year] || 0 }))
+        .filter(c => c.count > 0)
+        .sort((a, b) => b.count - a.count);
+    } else {
+      sorted = [...concepts]
+        .sort((a, b) => b.core_count - a.core_count)
+        .map(c => ({ concept: c.concept, count: c.core_count }));
+    }
+    conceptsChart.data.labels = sorted.map(d => d.concept);
+    conceptsChart.data.datasets[0].data = sorted.map(d => d.count);
+    conceptsChart.update();
+  }
+
+  if (conceptsYearSelect) conceptsYearSelect.addEventListener("change", updateConceptsChart);
+  updateConceptsChart();
 }
 
 /* ── Main entry point ────────────────────────────────────── */
@@ -641,13 +683,14 @@ async function main() {
 
   try {
     // Load dashboard data and TopoJSON in parallel (TopoJSON shared by hero + choropleth)
-    const [summary, stateData, manifest, byYear, concepts, topStatesByYear, usTopoJson] = await Promise.all([
+    const [summary, stateData, manifest, byYear, concepts, topStatesByYear, conceptsByYear, usTopoJson] = await Promise.all([
       loadJSON("./data/summary.json"),
       loadJSON("./data/states.json"),
       loadJSON("./data/bills_manifest.json"),
       loadJSON("./data/by_year.json").catch(() => []),
       loadJSON("./data/concepts.json").catch(() => []),
       loadJSON("./data/top_states_by_year.json").catch(() => ({})),
+      loadJSON("./data/concepts_by_year.json").catch(() => []),
       d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
     ]);
 
@@ -656,7 +699,7 @@ async function main() {
     renderTopStates(stateData);
     const navigateTo = initBillBrowser(manifest);
     renderMap(stateData, navigateTo, usTopoJson);
-    renderTrends(byYear, concepts, topStatesByYear);
+    renderTrends(byYear, concepts, topStatesByYear, conceptsByYear);
 
   } catch (err) {
     console.error("Dashboard failed to load:", err);
