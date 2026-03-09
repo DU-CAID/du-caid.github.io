@@ -665,8 +665,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -760,18 +760,18 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai",
-      "ai_system",
-      "artificial_intelligence",
-      "generative_ai_variant",
-      "automated_decision_system",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence",
+      "generative_ai",
+      "ai_system",
+      "automated_decision_system",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -794,18 +794,18 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "artificial_intelligence",
       "foundation_model",
+      "ai_system_composite",
+      "ai_model_variant",
       "llm_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -981,8 +981,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1237,7 +1237,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MI2025000S165&ciq=urn:user:PA196471263&client_md=775fc7396e07f2b796bd0dfde6240723&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUkyMDI1MDAwUzE2NSJ9.PgMt5Woht-ohiWm7TMHqW8H7CHqgFARmcmLa8io0t1Q",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1262,7 +1262,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUkyMDI1MDAwUzE2NSJ9.PgMt5Woht-ohiWm7TMHqW8H7CHqgFARmcmLa8io0t1Q",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MI2025000S165&ciq=urn:user:PA196471263&client_md=775fc7396e07f2b796bd0dfde6240723&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1337,7 +1337,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MI2025000S180&ciq=urn:user:PA196471263&client_md=9287a85050a896e22464a17426aa3075&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUkyMDI1MDAwUzE4MCJ9.URBuMuDlCuKanB4RmShtIXeAZnH4g3AePAzPqZZvGi8",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1362,32 +1362,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUkyMDI1MDAwUzE4MCJ9.URBuMuDlCuKanB4RmShtIXeAZnH4g3AePAzPqZZvGi8",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "MI",
-    "session": "2025",
-    "identifier": "S 230",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MI2025000S230&ciq=urn:user:PA196471263&client_md=3b6dee5f61af4e15af40a1639eb00f2b&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MI2025000S180&ciq=urn:user:PA196471263&client_md=9287a85050a896e22464a17426aa3075&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1413,6 +1388,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUkyMDI1MDAwUzIzMCJ9.qStn1QITu4C-3kZHOSfYGezUV8fasBdBxu2V7M0dFYo",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "MI",
+    "session": "2025",
+    "identifier": "S 230",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MI2025000S230&ciq=urn:user:PA196471263&client_md=3b6dee5f61af4e15af40a1639eb00f2b&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1556,8 +1556,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"

@@ -65,8 +65,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -113,8 +113,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -142,8 +142,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -416,14 +416,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "generative_ai",
       "machine_learning",
-      "generative_ai_variant",
-      "adjacent_tech"
+      "adjacent_tech",
+      "generative_ai",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -501,8 +501,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -521,14 +521,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
-      "automated_decision_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -806,17 +806,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -885,18 +885,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai",
       "generative_ai_variant",
-      "machine_learning",
-      "artificial_intelligence"
+      "generative_ai",
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -956,31 +956,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/111251f5-8fc6-494e-b389-421f9d3815cb",
-    "state": "ID",
-    "session": "2021",
-    "identifier": "SJM 103",
-    "title": "COLUMBIA-SNAKE RIVER SYSTEM – States findings of the Legislature, opposes the removal or breaching of the dams on the Columbia-Snake River System and its tributaries, and recognizes certain benefits provided by the Port of Lewiston.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2021/legislation/SJM103.pdf",
-    "latest_action_date": "2021-04-13",
-    "latest_action_description": "Reported delivered to the Secretary of State on 04/12/21",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/e4aa9a42-3434-4811-9284-de92b2eb1721",
     "state": "ID",
     "session": "2024",
@@ -1003,6 +978,31 @@
     "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2024/legislation/SJM103.pdf",
     "latest_action_date": "2024-03-26",
     "latest_action_description": "Reported delivered to the Secretary of State on 03/25/24",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/111251f5-8fc6-494e-b389-421f9d3815cb",
+    "state": "ID",
+    "session": "2021",
+    "identifier": "SJM 103",
+    "title": "COLUMBIA-SNAKE RIVER SYSTEM – States findings of the Legislature, opposes the removal or breaching of the dams on the Columbia-Snake River System and its tributaries, and recognizes certain benefits provided by the Port of Lewiston.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2021/legislation/SJM103.pdf",
+    "latest_action_date": "2021-04-13",
+    "latest_action_description": "Reported delivered to the Secretary of State on 04/12/21",
     "ncsl_status": ""
   },
   {

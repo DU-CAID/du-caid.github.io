@@ -94,7 +94,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000A142&ciq=urn:user:PA196471263&client_md=d5e410b0889879abfd55663c960d767f&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV0kyMDI1MDAwQTE0MiJ9.2v8jnzl144EIfhMwsIHcQaLC5p72UTbRV2BIyrXVcTs",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -119,32 +119,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV0kyMDI1MDAwQTE0MiJ9.2v8jnzl144EIfhMwsIHcQaLC5p72UTbRV2BIyrXVcTs",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "A 292",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV0kyMDI1MDAwQTI5MiJ9.V8XzgAvqH0CGZa65iEJbCBadLJK76X7PqSNa0sCa7aQ",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000A142&ciq=urn:user:PA196471263&client_md=d5e410b0889879abfd55663c960d767f&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -170,6 +145,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000A292&ciq=urn:user:PA196471263&client_md=388826484100fd949c912f28029e236b&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "A 292",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV0kyMDI1MDAwQTI5MiJ9.V8XzgAvqH0CGZa65iEJbCBadLJK76X7PqSNa0sCa7aQ",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -359,14 +359,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
-      "generative_ai_variant",
-      "automated_decision_system"
+      "artificial_intelligence",
+      "automated_decision_system",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -422,8 +422,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -473,8 +473,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -568,9 +568,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
+      "algorithmic_decision_system",
       "adjacent_tech",
-      "algorithmic_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -678,8 +678,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -833,7 +833,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000S142&ciq=urn:user:PA196471263&client_md=73978a16fb3f0ff1f49d03bf1071bf63&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV0kyMDI1MDAwUzE0MiJ9.usFGiYqlEhDm1w50u1g-qByqAPX7seN17Ql81xwGdmY",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -858,32 +858,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV0kyMDI1MDAwUzE0MiJ9.usFGiYqlEhDm1w50u1g-qByqAPX7seN17Ql81xwGdmY",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "WI",
-    "session": "2025",
-    "identifier": "S 295",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000S295&ciq=urn:user:PA196471263&client_md=fb5c90266d9b6a9e3345a31d523b69aa&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000S142&ciq=urn:user:PA196471263&client_md=73978a16fb3f0ff1f49d03bf1071bf63&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -909,6 +884,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV0kyMDI1MDAwUzI5NSJ9.AjQEWCypgZon5-0Is3PZiRTuAMLVNC6HqmaIIT5AlRs",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "WI",
+    "session": "2025",
+    "identifier": "S 295",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000S295&ciq=urn:user:PA196471263&client_md=fb5c90266d9b6a9e3345a31d523b69aa&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -958,7 +958,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000S357&ciq=urn:user:PA196471263&client_md=a23a194900ef7d3dce9b5185fc60cca2&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV0kyMDI1MDAwUzM1NyJ9.gBUC0GUaS4vySqiUcQI5Km9Ceg6GLamtnNuc99qqh0g",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -983,7 +983,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV0kyMDI1MDAwUzM1NyJ9.gBUC0GUaS4vySqiUcQI5Km9Ceg6GLamtnNuc99qqh0g",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WI2025000S357&ciq=urn:user:PA196471263&client_md=a23a194900ef7d3dce9b5185fc60cca2&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1123,14 +1123,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
+      "machine_learning",
       "generative_ai_variant",
-      "artificial_intelligence",
-      "machine_learning"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1153,15 +1153,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1186,8 +1186,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1262,8 +1262,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",

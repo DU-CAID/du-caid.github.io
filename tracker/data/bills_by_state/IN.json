@@ -319,7 +319,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwSDE2MDEifQ.Bc5HakXxb4OCQ-4gC-QgIQdlhZNUqpHQsG1B5lh_7gk",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2025000H1601&ciq=urn:user:PA196471263&client_md=abac59223c86f90115ceb929e2ae0227&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -344,7 +344,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2025000H1601&ciq=urn:user:PA196471263&client_md=abac59223c86f90115ceb929e2ae0227&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwSDE2MDEifQ.Bc5HakXxb4OCQ-4gC-QgIQdlhZNUqpHQsG1B5lh_7gk",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -369,7 +369,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwSDE2MjAifQ.X2Sjtr4xpDowiQbL1x1PdHS7HT0QQO9nE9F9dLcLeyY",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2025000H1620&ciq=urn:user:PA196471263&client_md=2e8ddcf1c0daa74903a14749d7c9e509&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -394,7 +394,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2025000H1620&ciq=urn:user:PA196471263&client_md=2e8ddcf1c0daa74903a14749d7c9e509&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwSDE2MjAifQ.X2Sjtr4xpDowiQbL1x1PdHS7HT0QQO9nE9F9dLcLeyY",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -444,7 +444,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwSDE2NTgifQ.K-i6t9IPfIz-tm7ZvM4cOSuBrVwUz6qtCuLi1muBZiA",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2025000H1658&ciq=urn:user:PA196471263&client_md=26d26c6a6443cd6f60b22912fff5e630&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -469,7 +469,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2025000H1658&ciq=urn:user:PA196471263&client_md=26d26c6a6443cd6f60b22912fff5e630&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwSDE2NTgifQ.K-i6t9IPfIz-tm7ZvM4cOSuBrVwUz6qtCuLi1muBZiA",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -509,8 +509,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -535,9 +535,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
+      "generative_ai_variant",
       "artificial_intelligence",
-      "generative_ai_variant"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -568,8 +568,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -639,8 +639,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -680,31 +680,6 @@
     "latest_action_date": "2019-01-29",
     "latest_action_description": "Representative Macer added as coauthor",
     "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "IN",
-    "session": "2024",
-    "identifier": "LCR 1",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2024000LCR1&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "",
@@ -752,6 +727,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwTENSMSJ9.yQ_CgFLlmAn2SzwH3OmtTsxS1S3qogQLTRzVLwsWM5Y",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Failed - Adjourned"
+  },
+  {
+    "bill_id": "",
+    "state": "IN",
+    "session": "2024",
+    "identifier": "LCR 1",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2024000LCR1&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -901,7 +901,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwUzM3NyJ9.jdj73YpcyiKUVc_A7GH-gld8J1tTF-EWMK_y21imT_Q",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2025000S377&ciq=urn:user:PA196471263&client_md=b8e8756b38f6ebfb3172545aa638d9a7&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -926,35 +926,10 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IN2025000S377&ciq=urn:user:PA196471263&client_md=b8e8756b38f6ebfb3172545aa638d9a7&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwUzM3NyJ9.jdj73YpcyiKUVc_A7GH-gld8J1tTF-EWMK_y21imT_Q",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
-  },
-  {
-    "bill_id": "",
-    "state": "IN",
-    "session": "2025",
-    "identifier": "S 480",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwUzQ4MCJ9.EUV5ZW0dfEtr_5YBmvX2l6JYlo406YcR61RbrQZOOX0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Enacted"
   },
   {
     "bill_id": "",
@@ -985,7 +960,7 @@
     "bill_id": "",
     "state": "IN",
     "session": "2025",
-    "identifier": "S 5",
+    "identifier": "S 480",
     "title": "",
     "updated": "",
     "core_ai_hits": 0,
@@ -1001,7 +976,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwUzUifQ.PZ0SyxQ-bKRSF8JjLEqWZJQzBmeQ-B1CRlU_UZaN2pw",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwUzQ4MCJ9.EUV5ZW0dfEtr_5YBmvX2l6JYlo406YcR61RbrQZOOX0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1032,6 +1007,31 @@
     "ncsl_status": "Enacted"
   },
   {
+    "bill_id": "",
+    "state": "IN",
+    "session": "2025",
+    "identifier": "S 5",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSU4yMDI1MDAwUzUifQ.PZ0SyxQ-bKRSF8JjLEqWZJQzBmeQ-B1CRlU_UZaN2pw",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Enacted"
+  },
+  {
     "bill_id": "ocd-bill/08efd5f9-9f8f-4f01-97fd-82e226c8d54a",
     "state": "IN",
     "session": "2024",
@@ -1041,8 +1041,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1193,8 +1193,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "artificial_intelligence",
+      "generative_ai_variant",
       "ai_system_composite"
     ],
     "matched_tiers": [

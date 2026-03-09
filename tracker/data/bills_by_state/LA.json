@@ -69,7 +69,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTEEyMDI1MDAwSDExNCJ9.IdFHzJ1bQ7wMiCDZkrJcdg8IkmKTAqtGX67gSYA2DWQ",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:LA2025000H114&ciq=urn:user:PA196471263&client_md=6efff81baa65e51c6d248460b2d6d9c2&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -94,7 +94,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:LA2025000H114&ciq=urn:user:PA196471263&client_md=6efff81baa65e51c6d248460b2d6d9c2&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTEEyMDI1MDAwSDExNCJ9.IdFHzJ1bQ7wMiCDZkrJcdg8IkmKTAqtGX67gSYA2DWQ",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -390,8 +390,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -441,8 +441,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -668,8 +668,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -688,12 +688,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -942,12 +942,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -995,13 +995,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
+      "machine_learning",
       "ai_system",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1052,8 +1052,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1226,11 +1226,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "llm_variant",
-      "ml_system",
       "machine_learning",
-      "foundation_model"
+      "foundation_model",
+      "artificial_intelligence",
+      "ml_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1394,8 +1394,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1420,8 +1420,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1471,12 +1471,12 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

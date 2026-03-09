@@ -416,8 +416,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -461,22 +461,22 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "deepfake_media",
-      "generative_ai_variant",
       "generative_ai",
       "ai_system",
       "artificial_intelligence",
       "synthetic_media",
+      "deepfake_media",
+      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -501,8 +501,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -521,21 +521,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
-      "artificial_intelligence",
       "deepfake_media",
       "generative_ai_variant",
+      "artificial_intelligence",
       "generative_ai",
-      "ai_system"
+      "ai_system",
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -561,8 +561,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -597,31 +597,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/a5ffb22d-d11a-452a-82fb-2f9874e9936e",
-    "state": "NH",
-    "session": "2018",
-    "identifier": "HB 267",
-    "title": "establishing the New Hampshire transportation council.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=697&txtFormat=html",
-    "latest_action_date": "2018-06-26",
-    "latest_action_description": "Signed by Governor Sununu 06/25/2018; Chapter 291; Eff. 8/24/2018",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/f2a283cc-84ef-4d8f-a799-1b5b2d40cd42",
     "state": "NH",
     "session": "2017",
@@ -644,6 +619,31 @@
     "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2017&id=2017-2404h&txtFormat=amend",
     "latest_action_date": "2017-10-26",
     "latest_action_description": "Committee Report: Ought to Pass with Amendment # 2017-2404h (NT)   (Vote 15-0; CC)",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a5ffb22d-d11a-452a-82fb-2f9874e9936e",
+    "state": "NH",
+    "session": "2018",
+    "identifier": "HB 267",
+    "title": "establishing the New Hampshire transportation council.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.gencourt.state.nh.us/bill_status/billText.aspx?sy=2018&id=697&txtFormat=html",
+    "latest_action_date": "2018-06-26",
+    "latest_action_description": "Signed by Governor Sununu 06/25/2018; Chapter 291; Eff. 8/24/2018",
     "ncsl_status": ""
   },
   {
@@ -806,13 +806,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "llm_variant",
       "artificial_intelligence",
+      "llm_variant",
       "large_language_model"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"

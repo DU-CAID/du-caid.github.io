@@ -169,7 +169,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1199&item=5&snum=130",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1199&item=1&snum=130",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -194,7 +194,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1199&item=1&snum=130",
+    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1199&item=5&snum=130",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -269,7 +269,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010H1270&ciq=ncsl&client_md=fc9bcb2855312c0ec7bc2002e2782a33&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010H1270&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -294,7 +294,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010H1270&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010H1270&ciq=ncsl&client_md=fc9bcb2855312c0ec7bc2002e2782a33&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -444,7 +444,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUUyMDI1MDAwSDE1MyJ9.l8kS6pVt4L3HMswz1CeyYXY0HGXLnCGZgrPI5qPyCfw",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H153&ciq=urn:user:PA196471263&client_md=626ffb9c1eda0d870adefb84d3bbc4c3&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -469,7 +469,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H153&ciq=urn:user:PA196471263&client_md=626ffb9c1eda0d870adefb84d3bbc4c3&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUUyMDI1MDAwSDE1MyJ9.l8kS6pVt4L3HMswz1CeyYXY0HGXLnCGZgrPI5qPyCfw",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -519,7 +519,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H411&ciq=urn:user:PA196471263&client_md=ff8803859348db8923cc21a7c69b9273&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUUyMDI1MDAwSDQxMSJ9.AgW0LRyK7dzqZxi_KfPXSZEGgtTJKaNvcbzHqtlE2aQ",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -544,7 +544,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUUyMDI1MDAwSDQxMSJ9.AgW0LRyK7dzqZxi_KfPXSZEGgtTJKaNvcbzHqtlE2aQ",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H411&ciq=urn:user:PA196471263&client_md=ff8803859348db8923cc21a7c69b9273&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -765,8 +765,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1495,8 +1495,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",

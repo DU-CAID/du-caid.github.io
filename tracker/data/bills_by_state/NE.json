@@ -369,7 +369,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NE2025000L642&ciq=urn:user:PA196471263&client_md=c956f92582a6f2e054c49e13497d235c&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkUyMDI1MDAwTDY0MiJ9.eI52hRECrl-9JSP_6xrbfNmtzJlcfucnqJgvOapcfec",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -394,7 +394,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkUyMDI1MDAwTDY0MiJ9.eI52hRECrl-9JSP_6xrbfNmtzJlcfucnqJgvOapcfec",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NE2025000L642&ciq=urn:user:PA196471263&client_md=c956f92582a6f2e054c49e13497d235c&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -419,7 +419,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NE2025000L77&ciq=urn:user:PA196471263&client_md=5831a076ceddcac5072b0a69a196a3c9&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkUyMDI1MDAwTDc3In0.DPffA7ReB21Fgv6v5yiXPBETHBxsBkK-MLBlSDG2wTQ",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -444,7 +444,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkUyMDI1MDAwTDc3In0.DPffA7ReB21Fgv6v5yiXPBETHBxsBkK-MLBlSDG2wTQ",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NE2025000L77&ciq=urn:user:PA196471263&client_md=5831a076ceddcac5072b0a69a196a3c9&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1100,31 +1100,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/ff1eb24b-ea3d-4620-8b59-96541f92acb7",
-    "state": "NE",
-    "session": "105",
-    "identifier": "LB 583",
-    "title": "Remove the authority of veterinarians to dispense controlled substances",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://nebraskalegislature.gov/FloorDocs/105/PDF/Intro/LB583.pdf",
-    "latest_action_date": "2017-01-24",
-    "latest_action_description": "Bill withdrawn",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/d8b6703b-bc46-425a-bc7e-954609b75f03",
     "state": "NE",
     "session": "106",
@@ -1147,6 +1122,31 @@
     "primary_url": "https://nebraskalegislature.gov/FloorDocs/106/PDF/Slip/LB583.pdf",
     "latest_action_date": "2019-05-31",
     "latest_action_description": "Approved by Governor on May 30, 2019",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/ff1eb24b-ea3d-4620-8b59-96541f92acb7",
+    "state": "NE",
+    "session": "105",
+    "identifier": "LB 583",
+    "title": "Remove the authority of veterinarians to dispense controlled substances",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://nebraskalegislature.gov/FloorDocs/105/PDF/Intro/LB583.pdf",
+    "latest_action_date": "2017-01-24",
+    "latest_action_description": "Bill withdrawn",
     "ncsl_status": ""
   },
   {
@@ -1212,15 +1212,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
-      "artificial_intelligence",
-      "high_risk_ai_variant",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence",
+      "algorithmic_tool",
+      "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",

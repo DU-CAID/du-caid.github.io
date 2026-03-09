@@ -569,7 +569,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:UT2025000H468&ciq=urn:user:PA196471263&client_md=09b8968f623d8d51350cd695cf6f4719&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVVQyMDI1MDAwSDQ2OCJ9.HCGfr5kae-Hv9ZX5QMOBUvyexjQdIlJB9NwUFilavxk",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -594,7 +594,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVVQyMDI1MDAwSDQ2OCJ9.HCGfr5kae-Hv9ZX5QMOBUvyexjQdIlJB9NwUFilavxk",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:UT2025000H468&ciq=urn:user:PA196471263&client_md=09b8968f623d8d51350cd695cf6f4719&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -1288,8 +1288,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1436,9 +1436,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai_variant",
-      "machine_learning",
       "adjacent_tech",
+      "machine_learning",
+      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -1465,20 +1465,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
+      "generative_ai_variant",
+      "machine_learning",
       "adjacent_tech",
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1497,20 +1497,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
+      "foundation_model",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence",
-      "foundation_model",
       "llm_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1529,8 +1529,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1555,8 +1555,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1631,8 +1631,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1707,15 +1707,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1737,8 +1737,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1760,9 +1760,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "adjacent_tech",
       "artificial_intelligence",
       "synthetic_media",
-      "adjacent_tech",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -1940,15 +1940,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence",
       "ml_system",
       "automated_decision_system",
+      "artificial_intelligence",
+      "adjacent_tech",
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2045,18 +2045,18 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "foundation_model",
-      "ai_system_composite",
       "generative_ai_variant",
-      "llm_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite",
+      "foundation_model",
+      "llm_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2479,8 +2479,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2587,7 +2587,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:UT2025000S180&ciq=urn:user:PA196471263&client_md=a494d8b902020f455aedf3da2713fa79&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVVQyMDI1MDAwUzE4MCJ9.hJnDk8DFVU37jTsu-wC-Kk3n9L9muQc0P-cxnBEbU5U",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -2612,32 +2612,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVVQyMDI1MDAwUzE4MCJ9.hJnDk8DFVU37jTsu-wC-Kk3n9L9muQc0P-cxnBEbU5U",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Enacted"
-  },
-  {
-    "bill_id": "",
-    "state": "UT",
-    "session": "2025",
-    "identifier": "S 226",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:UT2025000S226&ciq=urn:user:PA196471263&client_md=a1afaaefe6c1dfefe09e5ace1888ea3e&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:UT2025000S180&ciq=urn:user:PA196471263&client_md=a494d8b902020f455aedf3da2713fa79&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -2663,6 +2638,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVVQyMDI1MDAwUzIyNiJ9.E6LsJ85u033a0LeuHSlKhh1ZSxSIc__IoXzk0LGjufQ",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Enacted"
+  },
+  {
+    "bill_id": "",
+    "state": "UT",
+    "session": "2025",
+    "identifier": "S 226",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:UT2025000S226&ciq=urn:user:PA196471263&client_md=a1afaaefe6c1dfefe09e5ace1888ea3e&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -2762,7 +2762,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVVQyMDI1MDAwUzMifQ.isnnUr5oCC4FrQszis6j_tvob53bgUQZfSlzPmJJR5c",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:UT2025000S3&ciq=urn:user:PA196471263&client_md=042462f154f3fcabd4abb5df89a62098&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -2787,7 +2787,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:UT2025000S3&ciq=urn:user:PA196471263&client_md=042462f154f3fcabd4abb5df89a62098&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVVQyMDI1MDAwUzMifQ.isnnUr5oCC4FrQszis6j_tvob53bgUQZfSlzPmJJR5c",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -3352,12 +3352,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3480,16 +3480,16 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3583,8 +3583,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
+      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -3627,35 +3627,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/2ba0e4db-bad3-4299-b3b1-8dda99c02e1d",
-    "state": "UT",
-    "session": "2025",
-    "identifier": "SB 226",
-    "title": "Artificial Intelligence Consumer Protection Amendments",
-    "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ai_system_composite",
-      "generative_ai_variant",
-      "high_risk_ai_variant",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://le.utah.gov/Session/2025/bills/introduced/SB0226S02.pdf",
-    "latest_action_date": "2025-03-27T14:25:00+00:00",
-    "latest_action_description": "Governor Signed",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/65f742f4-aed4-422d-a13a-d240b5b18ddb",
     "state": "UT",
     "session": "2022",
@@ -3677,6 +3648,35 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://le.utah.gov/~2022/bills/sbillint/SB0226S03.pdf",
     "latest_action_date": "2022-03-24",
+    "latest_action_description": "Governor Signed",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/2ba0e4db-bad3-4299-b3b1-8dda99c02e1d",
+    "state": "UT",
+    "session": "2025",
+    "identifier": "SB 226",
+    "title": "Artificial Intelligence Consumer Protection Amendments",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "high_risk_ai_variant",
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://le.utah.gov/Session/2025/bills/introduced/SB0226S02.pdf",
+    "latest_action_date": "2025-03-27T14:25:00+00:00",
     "latest_action_description": "Governor Signed",
     "ncsl_status": ""
   },
@@ -3816,15 +3816,15 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3968,9 +3968,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "generative_ai_variant",
       "high_risk_ai_variant",
-      "artificial_intelligence",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -4012,31 +4012,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/b2253d79-6195-4452-bd61-82482c128a3a",
-    "state": "UT",
-    "session": "2022",
-    "identifier": "SB 51",
-    "title": "S.B. 51 Transportation Amendments",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://le.utah.gov/~2022/bills/sbillint/SB0051S03.pdf",
-    "latest_action_date": "2022-03-23",
-    "latest_action_description": "Governor Signed",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/5a8bafec-54a5-4317-b4e7-e45b577a8c34",
     "state": "UT",
     "session": "2024",
@@ -4058,6 +4033,31 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://le.utah.gov/~2024/bills/sbillint/SB0051S01.pdf",
     "latest_action_date": "2024-03-20",
+    "latest_action_description": "Governor Signed",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b2253d79-6195-4452-bd61-82482c128a3a",
+    "state": "UT",
+    "session": "2022",
+    "identifier": "SB 51",
+    "title": "S.B. 51 Transportation Amendments",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://le.utah.gov/~2022/bills/sbillint/SB0051S03.pdf",
+    "latest_action_date": "2022-03-23",
     "latest_action_description": "Governor Signed",
     "ncsl_status": ""
   },
@@ -4087,31 +4087,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/e40fc871-fb19-4dc5-95e1-1294b830f42e",
-    "state": "UT",
-    "session": "2021",
-    "identifier": "SB 8",
-    "title": "State Agency Fees and Internal Service Fund Rate Authorization and Appropriations",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://le.utah.gov/~2021/bills/sbillint/SB0008.pdf",
-    "latest_action_date": "2021-02-04",
-    "latest_action_description": "received enrolled bill from Printing",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/f610cf4b-7ae9-49d8-8093-24bb52df5a60",
     "state": "UT",
     "session": "2023",
@@ -4134,6 +4109,31 @@
     "primary_url": "https://le.utah.gov/~2023/bills/sbillint/SB0008S01.pdf",
     "latest_action_date": "2023-03-23",
     "latest_action_description": "Governor Signed",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e40fc871-fb19-4dc5-95e1-1294b830f42e",
+    "state": "UT",
+    "session": "2021",
+    "identifier": "SB 8",
+    "title": "State Agency Fees and Internal Service Fund Rate Authorization and Appropriations",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://le.utah.gov/~2021/bills/sbillint/SB0008.pdf",
+    "latest_action_date": "2021-02-04",
+    "latest_action_description": "received enrolled bill from Printing",
     "ncsl_status": ""
   },
   {

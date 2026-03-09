@@ -144,7 +144,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NM2025000H20&ciq=urn:user:PA196471263&client_md=76958f0f3b426ff2b0d2e416516da653&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTk0yMDI1MDAwSDIwIn0.bcipaUptwLtmZob-Cs3SJ8Ve_lV_Hk_Lhrw-BAcL2JA",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -169,7 +169,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTk0yMDI1MDAwSDIwIn0.bcipaUptwLtmZob-Cs3SJ8Ve_lV_Hk_Lhrw-BAcL2JA",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NM2025000H20&ciq=urn:user:PA196471263&client_md=76958f0f3b426ff2b0d2e416516da653&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -444,7 +444,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTk0yMDI1MDAwSDYwIn0.sRrxAG63XF8DGBQpqeNdj-oRfCaPgYzuqNNVRQsVsl8",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NM2025000H60&ciq=urn:user:PA196471263&client_md=759d9e20a2a70705f24961a2546e50a6&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -469,7 +469,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NM2025000H60&ciq=urn:user:PA196471263&client_md=759d9e20a2a70705f24961a2546e50a6&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTk0yMDI1MDAwSDYwIn0.sRrxAG63XF8DGBQpqeNdj-oRfCaPgYzuqNNVRQsVsl8",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -513,8 +513,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -536,19 +536,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
+      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
-      "generative_ai_variant"
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -647,8 +647,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -671,12 +671,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -765,31 +765,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/3aa68eaa-6d31-431f-86e4-f20a910c5726",
-    "state": "NM",
-    "session": "2020",
-    "identifier": "HB 215",
-    "title": "EMERGENCY MENTAL HEALTH EVALUATIONS",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.nmlegis.gov/Sessions/20%20Regular/bills/house/HB0215.PDF",
-    "latest_action_date": "2020-03-16",
-    "latest_action_description": "action postponed indefinitely",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/fddf9f13-6af0-4087-a46b-fb7d54a7c5a5",
     "state": "NM",
     "session": "2025",
@@ -811,6 +786,31 @@
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.nmlegis.gov/Sessions/25%20Regular/bills/house/HB0215.PDF",
     "latest_action_date": "2025-06-03",
+    "latest_action_description": "action postponed indefinitely",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3aa68eaa-6d31-431f-86e4-f20a910c5726",
+    "state": "NM",
+    "session": "2020",
+    "identifier": "HB 215",
+    "title": "EMERGENCY MENTAL HEALTH EVALUATIONS",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.nmlegis.gov/Sessions/20%20Regular/bills/house/HB0215.PDF",
+    "latest_action_date": "2020-03-16",
     "latest_action_description": "action postponed indefinitely",
     "ncsl_status": ""
   },
@@ -875,8 +875,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "digital_replica"
     ],
     "matched_tiers": [
@@ -978,14 +978,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1159,19 +1159,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
       "generative_ai_variant",
       "synthetic_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1291,11 +1291,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "high_risk_ai_variant",
-      "algorithmic_tool",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence"
+      "high_risk_ai_variant",
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1424,17 +1424,17 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1663,7 +1663,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTk0yMDI1MDAwUzg1In0.kND39jDAIIC4dE30x2YT1AKRpiiXElj0KDY2LHv5kK0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NM2025000S85&ciq=urn:user:PA196471263&client_md=1da7901c3910d3efc26b3dfb3fb503d8&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -1688,7 +1688,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NM2025000S85&ciq=urn:user:PA196471263&client_md=1da7901c3910d3efc26b3dfb3fb503d8&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTk0yMDI1MDAwUzg1In0.kND39jDAIIC4dE30x2YT1AKRpiiXElj0KDY2LHv5kK0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -1810,8 +1810,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2239,8 +2239,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"

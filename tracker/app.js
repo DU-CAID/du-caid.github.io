@@ -47,7 +47,11 @@ function debounce(fn, ms) {
 
 function yearFromSession(session) {
   const s = String(session || "");
-  return s.length >= 4 && /^\d{4}/.test(s) ? s.slice(0, 4) : null;
+  const m = s.match(/^(\d{4})/);
+  if (!m) return null;
+  const y = parseInt(m[1], 10);
+  // Reject implausible years — TX uses session numbers like 8496, 86, 87...
+  return (y >= 1990 && y <= 2035) ? m[1] : null;
 }
 
 async function loadJSON(path) {

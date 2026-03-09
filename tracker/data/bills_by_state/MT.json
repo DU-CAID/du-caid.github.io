@@ -544,7 +544,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000H178&ciq=urn:user:PA196471263&client_md=9ec3b7ca7095aab2e2f6f1571b19022d&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwSDE3OCJ9.pzm3U9tqTOQ34_WPWoqP2NZWIzlBf3pcOokIRoXAW4U",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -569,7 +569,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwSDE3OCJ9.pzm3U9tqTOQ34_WPWoqP2NZWIzlBf3pcOokIRoXAW4U",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000H178&ciq=urn:user:PA196471263&client_md=9ec3b7ca7095aab2e2f6f1571b19022d&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -644,7 +644,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000H514&ciq=urn:user:PA196471263&client_md=175dab0d6c523d78c385886bc20e1082&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwSDUxNCJ9.-jz-pWPen-D0qCErgBv2g1V4lK8HkWP6Kdt6xSUdY1M",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -669,7 +669,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwSDUxNCJ9.-jz-pWPen-D0qCErgBv2g1V4lK8HkWP6Kdt6xSUdY1M",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000H514&ciq=urn:user:PA196471263&client_md=175dab0d6c523d78c385886bc20e1082&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -860,17 +860,17 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system",
+      "artificial_intelligence",
       "ai_system_composite",
-      "machine_learning",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -968,12 +968,12 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1192,8 +1192,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1254,7 +1254,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000HJR17&ciq=urn:user:PA196471263&client_md=3ba7297067a29f7cc0cf6bc3cfe61d02&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwSEpSMTcifQ.z0G-4tGNF5s_ls4l0clY6BN8kBFS5huayiGXHpWDgno",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Adopted"
@@ -1279,7 +1279,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwSEpSMTcifQ.z0G-4tGNF5s_ls4l0clY6BN8kBFS5huayiGXHpWDgno",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000HJR17&ciq=urn:user:PA196471263&client_md=3ba7297067a29f7cc0cf6bc3cfe61d02&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Adopted"
@@ -1369,8 +1369,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1755,7 +1755,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000S212&ciq=urn:user:PA196471263&client_md=9ba922ba87ef8347a12cd9339988a778&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwUzIxMiJ9.rx_V-Fr0leEzSL8xV_UkWeCqgKYOL6Qe3mEocsGuxAM",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1780,7 +1780,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwUzIxMiJ9.rx_V-Fr0leEzSL8xV_UkWeCqgKYOL6Qe3mEocsGuxAM",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000S212&ciq=urn:user:PA196471263&client_md=9ba922ba87ef8347a12cd9339988a778&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1855,7 +1855,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000S413&ciq=urn:user:PA196471263&client_md=6e1efa086e64e2b97c7ec9c85d11d45e&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwUzQxMyJ9.vU1wYjoUMieCV9T2UnCuLtQa-R7dxLF9djPixzJcqko",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1880,7 +1880,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTVQyMDI1MDAwUzQxMyJ9.vU1wYjoUMieCV9T2UnCuLtQa-R7dxLF9djPixzJcqko",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MT2025000S413&ciq=urn:user:PA196471263&client_md=6e1efa086e64e2b97c7ec9c85d11d45e&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1945,11 +1945,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
+      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "machine_learning",
+      "artificial_intelligence",
+      "synthetic_media",
       "deepfake_media"
     ],
     "matched_tiers": [
@@ -1978,9 +1978,9 @@
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
-      "ai_system_composite",
       "deepfake_media",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"

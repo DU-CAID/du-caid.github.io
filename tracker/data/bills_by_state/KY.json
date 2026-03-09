@@ -119,7 +119,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000H22&ciq=urn:user:PA196471263&client_md=3661b054024fc3d7b9d4a2a85d04d25c&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwSDIyIn0.JyEo7-7FvadaIzj8ZIjUCJEhkWxTvIfD8ICI7O45ZR0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -144,7 +144,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwSDIyIn0.JyEo7-7FvadaIzj8ZIjUCJEhkWxTvIfD8ICI7O45ZR0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000H22&ciq=urn:user:PA196471263&client_md=3661b054024fc3d7b9d4a2a85d04d25c&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -244,7 +244,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000H358&ciq=urn:user:PA196471263&client_md=dd9de397e69a3736a11c6e85e7e17d2c&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwSDM1OCJ9.x43lZnwNrkvMthGYYZGHBxP4TBKDTkDuDemOgMY3SHo",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -269,7 +269,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwSDM1OCJ9.x43lZnwNrkvMthGYYZGHBxP4TBKDTkDuDemOgMY3SHo",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000H358&ciq=urn:user:PA196471263&client_md=dd9de397e69a3736a11c6e85e7e17d2c&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -640,8 +640,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -712,8 +712,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
+      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -755,31 +755,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/498fda4a-fe55-4787-b38d-0cb844b5cb65",
-    "state": "KY",
-    "session": "2021RS",
-    "identifier": "HB 303",
-    "title": "AN ACT relating to underground facility protection.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/21RS/hb303/orig_bill.pdf",
-    "latest_action_date": "2021-03-23T04:00:00+00:00",
-    "latest_action_description": "signed by Governor (Acts Ch. 80)",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/755d4387-a81c-4e9d-99ce-53d3fc852c1a",
     "state": "KY",
     "session": "2026RS",
@@ -805,6 +780,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/498fda4a-fe55-4787-b38d-0cb844b5cb65",
+    "state": "KY",
+    "session": "2021RS",
+    "identifier": "HB 303",
+    "title": "AN ACT relating to underground facility protection.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/21RS/hb303/orig_bill.pdf",
+    "latest_action_date": "2021-03-23T04:00:00+00:00",
+    "latest_action_description": "signed by Governor (Acts Ch. 80)",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/d4e0f0b3-2391-4f6e-bfbb-994583635ece",
     "state": "KY",
     "session": "2026RS",
@@ -814,9 +814,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "artificial_intelligence",
-      "generative_ai_variant",
-      "ai_system_composite"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -841,12 +841,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -872,8 +872,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -927,8 +927,8 @@
     ],
     "match_fields": [
       "abstract",
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1157,8 +1157,8 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1352,17 +1352,17 @@
     "core_ai_hits": 10,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
+      "llm_variant",
+      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "llm_variant",
-      "ml_system",
-      "machine_learning",
+      "foundation_model",
+      "artificial_intelligence",
+      "synthetic_media",
       "generative_ai_variant",
       "high_risk_ai_variant",
-      "foundation_model"
+      "ml_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1389,12 +1389,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1497,8 +1497,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1542,8 +1542,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1627,8 +1627,8 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1807,7 +1807,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwUzQifQ.TCLAKIv4VyaX-7QushCtNhFK_gXlDiTmfgaSIdgyNOg",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000S4&ciq=urn:user:PA196471263&client_md=ca49028e99a6f82f3cf4341c0c8a40f1&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1832,7 +1832,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000S4&ciq=urn:user:PA196471263&client_md=ca49028e99a6f82f3cf4341c0c8a40f1&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwUzQifQ.TCLAKIv4VyaX-7QushCtNhFK_gXlDiTmfgaSIdgyNOg",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1882,7 +1882,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwUzYyIn0.SLNlZrjO2HAlp2h4GaUOuVRv66vM4rfDohDeBZ4wmdc",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000S62&ciq=urn:user:PA196471263&client_md=08c34747c7a1c8fb865987d3496ae739&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -1907,7 +1907,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000S62&ciq=urn:user:PA196471263&client_md=08c34747c7a1c8fb865987d3496ae739&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwUzYyIn0.SLNlZrjO2HAlp2h4GaUOuVRv66vM4rfDohDeBZ4wmdc",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -2064,6 +2064,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/7842d308-f001-4d76-b776-42dd5c98515f",
+    "state": "KY",
+    "session": "2020RS",
+    "identifier": "SB 165",
+    "title": "AN ACT related to underground facility protection.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/20RS/sb165/orig_bill.pdf",
+    "latest_action_date": "2020-03-19T04:00:00+00:00",
+    "latest_action_description": "recommitted to Economic Development, Tourism, and Labor (S)",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/9d54f770-e56d-4fcf-a1cf-07ed523bbc28",
     "state": "KY",
     "session": "2025RS",
@@ -2111,31 +2136,6 @@
     "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/24RS/sb165/orig_bill.pdf",
     "latest_action_date": "2024-02-07T05:00:00+00:00",
     "latest_action_description": "to Judiciary (S)",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/7842d308-f001-4d76-b776-42dd5c98515f",
-    "state": "KY",
-    "session": "2020RS",
-    "identifier": "SB 165",
-    "title": "AN ACT related to underground facility protection.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/20RS/sb165/orig_bill.pdf",
-    "latest_action_date": "2020-03-19T04:00:00+00:00",
-    "latest_action_description": "recommitted to Economic Development, Tourism, and Labor (S)",
     "ncsl_status": ""
   },
   {
@@ -2277,8 +2277,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2350,21 +2350,21 @@
     "core_ai_hits": 10,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "llm_variant",
-      "ml_system",
-      "machine_learning",
       "artificial_intelligence",
       "synthetic_media",
+      "ml_system",
+      "generative_ai_variant",
+      "high_risk_ai_variant",
+      "machine_learning",
+      "llm_variant",
+      "foundation_model",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant",
-      "foundation_model",
-      "generative_ai_variant",
-      "high_risk_ai_variant"
+      "ai_model_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -2438,8 +2438,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
+      "artificial_intelligence",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -2465,17 +2465,17 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2579,7 +2579,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwU1I4MSJ9.PDMcVLVVfR7v5ar7UCgJwntaJd6AH5hT99ncRCoS1ZA",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000SR81&ciq=urn:user:PA196471263&client_md=2e29639a5057d3c741db14d037211230&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Adopted"
@@ -2604,7 +2604,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:KY2025000SR81&ciq=urn:user:PA196471263&client_md=2e29639a5057d3c741db14d037211230&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiS1kyMDI1MDAwU1I4MSJ9.PDMcVLVVfR7v5ar7UCgJwntaJd6AH5hT99ncRCoS1ZA",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Adopted"

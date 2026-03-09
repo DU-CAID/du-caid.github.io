@@ -194,7 +194,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiQUsyMDI1MDAwSDUzIn0.p6wfInw6Wm817LV1W27GHHuwNlK9NedvW09J7T2zKnI",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000H53&ciq=urn:user:PA196471263&client_md=85d6cb4fd70e224ce2270392723fa40b&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -219,7 +219,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000H53&ciq=urn:user:PA196471263&client_md=85d6cb4fd70e224ce2270392723fa40b&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiQUsyMDI1MDAwSDUzIn0.p6wfInw6Wm817LV1W27GHHuwNlK9NedvW09J7T2zKnI",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -234,10 +234,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
+      "adjacent_tech",
       "synthetic_media",
       "artificial_intelligence",
-      "adjacent_tech",
-      "machine_learning",
       "deepfake_media"
     ],
     "matched_tiers": [
@@ -269,8 +269,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -292,14 +292,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "deepfake_media",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -347,16 +347,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -461,7 +461,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000S2&ciq=urn:user:PA196471263&client_md=9caebbbd988e680651a3ae6f3ae50e78&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiQUsyMDI1MDAwUzIifQ.FcQzIxmyG8obyIAKln2S4NySABedT0_-_LUoFw3O2NM",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -486,7 +486,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiQUsyMDI1MDAwUzIifQ.FcQzIxmyG8obyIAKln2S4NySABedT0_-_LUoFw3O2NM",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000S2&ciq=urn:user:PA196471263&client_md=9caebbbd988e680651a3ae6f3ae50e78&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -536,7 +536,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000S33&ciq=urn:user:PA196471263&client_md=461195d214c9d468a42e61f44a2abd41&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiQUsyMDI1MDAwUzMzIn0.SXtk3dVpRGHFSrb99uth0Bsj2XxvaGkzYGatk3dJGNg",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -561,32 +561,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiQUsyMDI1MDAwUzMzIn0.SXtk3dVpRGHFSrb99uth0Bsj2XxvaGkzYGatk3dJGNg",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending - Carryover"
-  },
-  {
-    "bill_id": "",
-    "state": "AK",
-    "session": "2025",
-    "identifier": "S 64",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000S64&ciq=urn:user:PA196471263&client_md=409664ef07da1fbcc4c7535b0dedb35b&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000S33&ciq=urn:user:PA196471263&client_md=461195d214c9d468a42e61f44a2abd41&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -617,6 +592,31 @@
     "ncsl_status": "Pending - Carryover"
   },
   {
+    "bill_id": "",
+    "state": "AK",
+    "session": "2025",
+    "identifier": "S 64",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:AK2025000S64&ciq=urn:user:PA196471263&client_md=409664ef07da1fbcc4c7535b0dedb35b&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending - Carryover"
+  },
+  {
     "bill_id": "ocd-bill/0e3344fc-7943-4bcf-95e4-15661f365bb4",
     "state": "AK",
     "session": "33",
@@ -626,14 +626,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "deepfake_media",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -656,15 +656,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "adjacent_tech",
+      "artificial_intelligence",
       "deepfake_media",
-      "generative_ai_variant",
-      "adjacent_tech"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -687,15 +687,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -774,8 +774,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",

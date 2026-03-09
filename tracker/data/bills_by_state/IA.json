@@ -45,7 +45,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IA2025000D1398&ciq=urn:user:PA196471263&client_md=70fcde5c8cd3842520e0cea8e400a8fd&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSUEyMDI1MDAwRDEzOTgifQ.jxynHtkxRYv6LAJ0VDzpUYKbZAnvi_MXoX2Kz_KknJU",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -70,7 +70,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSUEyMDI1MDAwRDEzOTgifQ.jxynHtkxRYv6LAJ0VDzpUYKbZAnvi_MXoX2Kz_KknJU",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IA2025000D1398&ciq=urn:user:PA196471263&client_md=70fcde5c8cd3842520e0cea8e400a8fd&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -545,7 +545,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IA2025000H279&ciq=urn:user:PA196471263&client_md=3213dd181f436d3fc3617a2bf01c2cb0&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSUEyMDI1MDAwSDI3OSJ9.SpZ2Wf3JMG6Uqy5l8rKZ3qe5tSSymkqE11zt3C_1QQI",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -570,7 +570,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSUEyMDI1MDAwSDI3OSJ9.SpZ2Wf3JMG6Uqy5l8rKZ3qe5tSSymkqE11zt3C_1QQI",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IA2025000H279&ciq=urn:user:PA196471263&client_md=3213dd181f436d3fc3617a2bf01c2cb0&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -844,8 +844,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -870,8 +870,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1141,17 +1141,17 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "high_risk_ai_variant",
       "ai_system_composite",
       "adjacent_tech",
-      "artificial_intelligence",
       "high_risk_ai",
+      "high_risk_ai_variant",
       "ai_system",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1410,7 +1410,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IA2025000S118&ciq=urn:user:PA196471263&client_md=5f7aaa205c0c2520c1ee3c388f0a8210&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSUEyMDI1MDAwUzExOCJ9.sR-uOrhe2L_mr5CaAnyA9-uEf3ix8TAJsPc9klzoMNw",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -1435,7 +1435,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSUEyMDI1MDAwUzExOCJ9.sR-uOrhe2L_mr5CaAnyA9-uEf3ix8TAJsPc9klzoMNw",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IA2025000S118&ciq=urn:user:PA196471263&client_md=5f7aaa205c0c2520c1ee3c388f0a8210&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -1835,7 +1835,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSUEyMDI1MDAwUzY0NyJ9.G2JtX0kvJp31s6FXrC4UTuqvI9j8WInChvmTyW21DZQ",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IA2025000S647&ciq=urn:user:PA196471263&client_md=23fd0c6b864fe1097f5648161857ae61&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1860,7 +1860,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:IA2025000S647&ciq=urn:user:PA196471263&client_md=23fd0c6b864fe1097f5648161857ae61&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiSUEyMDI1MDAwUzY0NyJ9.G2JtX0kvJp31s6FXrC4UTuqvI9j8WInChvmTyW21DZQ",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1953,12 +1953,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
