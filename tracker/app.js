@@ -513,61 +513,101 @@ function initBillBrowser(manifest) {
 }
 
 /* ── Trends charts ───────────────────────────────────────── */
-function renderTrends(byYear, concepts) {
-  const lineOptions = (color, lightColor) => ({
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      legend: { display: false },
-      tooltip: { callbacks: { label: ctx => fmt(ctx.parsed.y) } },
-    },
-    scales: {
-      x: { grid: { display: false } },
-      y: { ticks: { callback: v => fmt(v) }, grid: { color: "#e5e7eb" } },
-    },
-  });
-
-  // Filter to 2019–present, drop unknown
-  const recentYears = byYear.filter(d => d.year >= "2019" && d.year !== "unknown");
+function renderTrends(byYear, concepts, topStatesByYear) {
+  // Filter to 2019–present, drop unknown/implausible years
+  const recentYears = byYear.filter(d => d.year >= "2019" && d.year <= "2035");
   const yearLabels  = recentYears.map(d => d.year);
 
-  // Core AI line
-  new Chart(document.getElementById("yearCoreChart"), {
+  // 1. Combined year chart — Core, Adjacent, NCSL on one canvas
+  new Chart(document.getElementById("yearCombinedChart"), {
     type: "line",
     data: {
       labels: yearLabels,
-      datasets: [{
-        label: "Core AI",
-        data: recentYears.map(d => d.core),
-        borderColor: CRIMSON,
-        backgroundColor: CRIMSON_LIGHT,
-        tension: 0.3,
-        fill: true,
-        pointBackgroundColor: CRIMSON,
-      }],
+      datasets: [
+        {
+          label: "Core AI",
+          data: recentYears.map(d => d.core),
+          borderColor: CRIMSON,
+          backgroundColor: CRIMSON_LIGHT,
+          tension: 0.3,
+          fill: true,
+          pointBackgroundColor: CRIMSON,
+          borderWidth: 2,
+        },
+        {
+          label: "Adjacent AI",
+          data: recentYears.map(d => d.adjacent),
+          borderColor: GOLD,
+          backgroundColor: GOLD_LIGHT,
+          tension: 0.3,
+          fill: true,
+          pointBackgroundColor: GOLD,
+          borderWidth: 2,
+        },
+      ],
     },
-    options: lineOptions(CRIMSON, CRIMSON_LIGHT),
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: true,
+          position: "top",
+          labels: { usePointStyle: true, pointStyleWidth: 10, padding: 20 },
+        },
+        tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${fmt(ctx.parsed.y)}` } },
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: { ticks: { callback: v => fmt(v) }, grid: { color: "#e5e7eb" } },
+      },
+    },
   });
 
-  // Adjacent AI line
-  new Chart(document.getElementById("yearAdjChart"), {
-    type: "line",
-    data: {
-      labels: yearLabels,
-      datasets: [{
-        label: "Adjacent AI",
-        data: recentYears.map(d => d.adjacent),
-        borderColor: GOLD,
-        backgroundColor: GOLD_LIGHT,
-        tension: 0.3,
-        fill: true,
-        pointBackgroundColor: GOLD,
-      }],
-    },
-    options: lineOptions(GOLD, GOLD_LIGHT),
-  });
+  // 2. Top states for most recent year
+  const mostRecentYear = Object.keys(topStatesByYear || {}).sort().reverse()[0];
+  if (mostRecentYear && topStatesByYear[mostRecentYear]) {
+    const yearLabel = document.getElementById("trendsYearLabel");
+    if (yearLabel) yearLabel.textContent = `(${mostRecentYear})`;
 
-  // Core AI concepts — horizontal bar (sorted by core_count desc)
+    const top = topStatesByYear[mostRecentYear].slice(0, 12);
+    new Chart(document.getElementById("topStatesYearChart"), {
+      type: "bar",
+      data: {
+        labels: top.map(s => s.state),
+        datasets: [
+          {
+            label: "Core AI",
+            data: top.map(s => s.core),
+            backgroundColor: CRIMSON,
+          },
+          {
+            label: "Adjacent AI",
+            data: top.map(s => s.adjacent),
+            backgroundColor: GOLD,
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: true,
+            position: "top",
+            labels: { usePointStyle: true, pointStyleWidth: 10, padding: 20 },
+          },
+          tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${fmt(ctx.parsed.y)}` } },
+        },
+        scales: {
+          x: { stacked: true, grid: { display: false } },
+          y: { stacked: true, ticks: { callback: v => fmt(v) }, grid: { color: "#e5e7eb" } },
+        },
+      },
+    });
+  }
+
+  // 3. Core AI concepts — horizontal bar (sorted by core_count desc)
   const sortedConcepts = [...concepts].sort((a, b) => b.core_count - a.core_count);
   new Chart(document.getElementById("conceptsChart"), {
     type: "bar",
@@ -601,12 +641,13 @@ async function main() {
 
   try {
     // Load dashboard data and TopoJSON in parallel (TopoJSON shared by hero + choropleth)
-    const [summary, stateData, manifest, byYear, concepts, usTopoJson] = await Promise.all([
+    const [summary, stateData, manifest, byYear, concepts, topStatesByYear, usTopoJson] = await Promise.all([
       loadJSON("./data/summary.json"),
       loadJSON("./data/states.json"),
       loadJSON("./data/bills_manifest.json"),
       loadJSON("./data/by_year.json").catch(() => []),
       loadJSON("./data/concepts.json").catch(() => []),
+      loadJSON("./data/top_states_by_year.json").catch(() => ({})),
       d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
     ]);
 
@@ -615,7 +656,7 @@ async function main() {
     renderTopStates(stateData);
     const navigateTo = initBillBrowser(manifest);
     renderMap(stateData, navigateTo, usTopoJson);
-    renderTrends(byYear, concepts);
+    renderTrends(byYear, concepts, topStatesByYear);
 
   } catch (err) {
     console.error("Dashboard failed to load:", err);

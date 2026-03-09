@@ -206,19 +206,23 @@
 <div id="tab-trends" class="tab-panel hidden">
   <div class="container">
 
-    <!-- Bills introduced per year — side by side -->
+    <!-- Bills introduced per year — combined -->
     <div class="panel">
       <h2>Bills Introduced per Year <span style="font-size:0.8rem;font-weight:400;color:var(--muted)">(2019–present)</span></h2>
-      <div class="chart-side-by-side">
-        <div>
-          <h3>Core AI Bills</h3>
-          <div class="chart-wrap" style="height:260px"><canvas id="yearCoreChart"></canvas></div>
-        </div>
-        <div>
-          <h3>Adjacent AI Bills</h3>
-          <div class="chart-wrap" style="height:260px"><canvas id="yearAdjChart"></canvas></div>
-        </div>
-      </div>
+      <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
+        Core AI bills (primary subject is AI), Adjacent AI bills (AI as a policy tool in another domain),
+        and NCSL-confirmed bills (advanced in the legislative process) shown together for direct comparison.
+      </p>
+      <div class="chart-wrap" style="height:300px"><canvas id="yearCombinedChart"></canvas></div>
+    </div>
+
+    <!-- Top states this year -->
+    <div class="panel">
+      <h2>Top States <span id="trendsYearLabel" style="font-size:0.8rem;font-weight:400;color:var(--muted)"></span></h2>
+      <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
+        Most active states in the most recent legislative session. Core bars (crimson) capture bills where AI is the primary subject; adjacent bars (gold) capture bills where AI appears as a tool within another policy domain. Together they reflect both legislative focus and broader AI policy engagement.
+      </p>
+      <div class="chart-wrap" style="height:320px"><canvas id="topStatesYearChart"></canvas></div>
     </div>
 
     <!-- Top concepts — core AI only -->
