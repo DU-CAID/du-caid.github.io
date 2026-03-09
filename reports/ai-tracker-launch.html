@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tracking the AI Policy Wave · DU CAID</title>
+  <meta name="description" content="Introducing the CAID State AI Legislation Tracker — a free, open dashboard monitoring AI-related legislation across all U.S. states.">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+  <style>
+    .post-header { margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border); }
+    .post-meta { font-size: .85rem; color: var(--muted); margin-bottom: .5rem; }
+    .post-tag {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 600;
+      padding: .15rem .5rem;
+      border-radius: 999px;
+      background: #fce8ec;
+      color: var(--du-crimson);
+      margin-right: .4rem;
+    }
+    .post-title { margin: .25rem 0 .5rem; font-size: 1.9rem; line-height: 1.2; }
+    .post-body p { line-height: 1.75; margin-bottom: 1.1rem; }
+    .post-body h2 { margin-top: 2rem; font-size: 1.2rem; }
+    .post-body a { color: var(--du-crimson); }
+    .post-cta {
+      margin-top: 2rem;
+      padding: 1.25rem 1.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--du-crimson);
+      border-radius: .5rem;
+    }
+    .post-cta p { margin: 0 0 .75rem; font-weight: 600; }
+    .back-link { font-size: .88rem; color: var(--muted); text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
+    .back-link:hover { color: var(--du-crimson); }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container head-inner">
+    <a class="brand" href="/">
+      <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+      <span class="brand-text"></span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/reports/">Reports</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container prose">
+
+    <a class="back-link" href="/reports/">← All Reports &amp; Writing</a>
+
+    <div class="post-header">
+      <div class="post-meta">
+        <span class="post-tag">AI Policy</span>
+        <span class="post-tag">Blog Post</span>
+        March 2026 &nbsp;·&nbsp; Stefani Langehennig &amp; Dani Roney
+      </div>
+      <h1 class="post-title">Tracking the AI Policy Wave: Introducing the CAID State AI Legislation Tracker</h1>
+    </div>
+
+    <div class="post-body">
+      <p>Artificial intelligence has become one of the most contested policy questions in American politics — but most of the action isn't happening in Washington. It's happening in statehouses. Over the past several years, state legislatures have introduced thousands of bills touching on AI, from algorithmic accountability and automated decision systems to deepfakes, generative AI, and facial recognition. Until now, there has been no comprehensive, publicly accessible tool for tracking that activity across all 50 states.</p>
+
+      <p>Today, the Center for AI and Democracy (CAID) at the University of Denver is launching the <a href="https://du-caid.github.io/tracker/" target="_blank" rel="noopener">CAID State AI Legislation Tracker</a> — a free, open dashboard that monitors AI-related legislation across all U.S. states and territories in real time.</p>
+
+      <h2>What the Tracker Does</h2>
+
+      <p>The tracker ingests bulk legislative data from Plural Policy (built on the OpenStates platform) and applies a two-tier classification system developed by the CAID research team. Bills are categorized as <strong>Core AI</strong> — legislation where artificial intelligence is the primary subject — or <strong>Adjacent AI</strong>, where AI appears as a tool embedded within a broader policy domain such as healthcare, education, or criminal justice. This distinction matters: it separates laws designed to govern AI from laws that simply use AI to accomplish something else.</p>
+
+      <p>To validate our coverage, we cross-reference every flagged bill against the National Conference of State Legislatures' independent AI laws database. Of the 3,502 NCSL-confirmed AI laws in our dataset, our pipeline captures all bills that appear in both sources — a meaningful benchmark for a tool of this scope.</p>
+
+      <h2>What the Data Shows</h2>
+
+      <p>The numbers tell a clear story about the pace of AI policymaking. Since 2019, state legislatures have introduced <strong>2,736 core AI bills</strong> across the country. The volume has accelerated sharply: 2023 marked the first major surge — likely catalyzed by the public release of ChatGPT — with 328 core AI bills introduced that year, up from just 64 in 2022. Then 2025 shattered that record, with <strong>657 core AI bills</strong> introduced in a single year, nearly double the previous peak.</p>
+
+      <p>Geographically, New York leads all states with 252 core AI bills, followed by California and Massachusetts (158 each), Virginia (125), and Illinois (114). Hawaii, often overlooked in technology policy conversations, ranks eighth nationally with 106 core AI bills — a testament to its early and sustained legislative engagement on the issue.</p>
+
+      <p>Thematically, the data shows a vocabulary in transition. While "artificial intelligence" and "machine learning" remain the dominant terms, <em>generative AI</em> and <em>deepfake/synthetic media</em> have emerged as fast-growing categories in recent years, reflecting how quickly the technology itself has changed the legislative agenda.</p>
+
+      <h2>How It Was Built</h2>
+
+      <p>The tracker was developed by CAID lab director Stefani Langehennig, PhD, and CAID graduate research assistant <strong>Dani Roney</strong>, whose contributions were central to building and validating the classification pipeline. The full methodology — including keyword pattern design, the two-tier classification logic, and the NCSL reconciliation process — is documented in the tracker's Methods tab.</p>
+
+      <p>The dashboard is free to use, updated regularly, and designed for researchers, journalists, and policy practitioners who need reliable, transparent data on the state of AI governance in America.</p>
+
+      <div class="post-cta">
+        <p>Explore the tracker</p>
+        <a class="btn btn-primary" href="https://du-caid.github.io/tracker/" target="_blank" rel="noopener">Open Dashboard →</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>

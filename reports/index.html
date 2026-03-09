@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reports &amp; Writing · DU CAID</title>
+  <meta name="description" content="Research reports, blog posts, and data briefs from the CAID lab at the University of Denver.">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+  <style>
+    .report-list { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem; }
+    .report-card {
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 1.25rem 1.5rem;
+      background: var(--surface);
+      text-decoration: none;
+      color: var(--text);
+      display: block;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    .report-card:hover { border-color: var(--du-crimson); box-shadow: 0 2px 12px rgba(186,12,47,.08); }
+    .report-meta { font-size: .8rem; color: var(--muted); margin-bottom: .35rem; }
+    .report-tag {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 600;
+      padding: .15rem .5rem;
+      border-radius: 999px;
+      background: #fce8ec;
+      color: var(--du-crimson);
+      margin-right: .4rem;
+    }
+    .report-title { margin: 0 0 .4rem; font-size: 1.1rem; color: var(--du-crimson); }
+    .report-desc { margin: 0; font-size: .92rem; color: var(--muted); line-height: 1.5; }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container head-inner">
+    <a class="brand" href="/">
+      <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+      <span class="brand-text"></span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/reports/">Reports</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container prose">
+    <h1>Reports &amp; Writing</h1>
+    <p>Research briefs, blog posts, and data analyses from the CAID lab. Topics include AI governance, state policy, and data methods.</p>
+
+    <div class="report-list">
+
+      <a class="report-card" href="/reports/ai-tracker-launch.html">
+        <div class="report-meta">
+          <span class="report-tag">AI Policy</span>
+          <span class="report-tag">Blog Post</span>
+          March 2026 &nbsp;·&nbsp; Stefani Langehennig &amp; Dani Roney
+        </div>
+        <h2 class="report-title">Tracking the AI Policy Wave: Introducing the CAID State AI Legislation Tracker</h2>
+        <p class="report-desc">We launched a free, open dashboard monitoring AI-related legislation across all U.S. states and territories. Here's what the data shows about the pace and focus of AI policymaking since 2019.</p>
+      </a>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
