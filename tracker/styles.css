@@ -168,6 +168,13 @@ body {
   line-height: 1;
 }
 
+.metric-card .metric-sub {
+  font-size: 0.73rem;
+  color: var(--muted);
+  margin-top: 0.35rem;
+  line-height: 1.3;
+}
+
 /* ── Section panels ──────────────────────────────────────── */
 .panel {
   background: var(--surface);

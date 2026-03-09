@@ -73,10 +73,10 @@ function initTabs() {
 
 /* ── Metric cards ────────────────────────────────────────── */
 function renderMetrics(summary) {
-  document.getElementById("m-total").textContent  = fmt(summary.total_flagged_bills);
-  document.getElementById("m-core").textContent   = fmt(summary.core_flagged_bills);
-  document.getElementById("m-ncsl").textContent   = fmt(summary.in_ncsl_bills);
-  document.getElementById("m-states").textContent = fmt(summary.total_states);
+  document.getElementById("m-core").textContent     = fmt(summary.core_flagged_bills);
+  document.getElementById("m-adjacent").textContent = fmt(summary.adjacent_only_flagged_bills);
+  document.getElementById("m-ncsl").textContent     = fmt(summary.in_ncsl_bills);
+  document.getElementById("m-states").textContent   = fmt(summary.total_states);
 
   const meta = document.getElementById("heroMeta");
   if (summary.generated_at_utc) {

@@ -60,10 +60,26 @@
 
     <!-- Metric cards -->
     <div class="metrics-grid" id="metricsGrid">
-      <div class="metric-card"><div class="label">Flagged Bills</div><div class="value" id="m-total">—</div></div>
-      <div class="metric-card"><div class="label">Core AI Bills</div><div class="value" id="m-core">—</div></div>
-      <div class="metric-card"><div class="label">NCSL Matched</div><div class="value" id="m-ncsl">—</div></div>
-      <div class="metric-card"><div class="label">States &amp; Territories</div><div class="value" id="m-states">—</div></div>
+      <div class="metric-card">
+        <div class="label">Core AI Bills</div>
+        <div class="value" id="m-core">—</div>
+        <div class="metric-sub">Primary subject is AI</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Adjacent AI Bills</div>
+        <div class="value" id="m-adjacent">—</div>
+        <div class="metric-sub">AI as a tool within another policy domain</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">NCSL Matched</div>
+        <div class="value" id="m-ncsl">—</div>
+        <div class="metric-sub">Confirmed in NCSL AI database</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">States &amp; Territories</div>
+        <div class="value" id="m-states">—</div>
+        <div class="metric-sub">With at least one flagged bill</div>
+      </div>
     </div>
 
     <!-- Choropleth map -->
@@ -236,23 +252,34 @@
       <div class="methods-tiers">
         <div class="tier-card">
           <div class="tier-label tag tag-core">Core AI</div>
-          <p>Bills that explicitly reference artificial intelligence, machine learning, large
+          <p>Bills whose primary subject is artificial intelligence, machine learning, large
             language models, generative AI, algorithmic decision-making, or closely related
-            technologies. These bills are unambiguously about AI.</p>
+            technologies. These bills are unambiguously about AI — they name it by term
+            or by direct technical equivalent (e.g., <em>neural network</em>, <em>deepfake</em>,
+            <em>automated decision system</em>).</p>
         </div>
         <div class="tier-card">
           <div class="tier-label tag tag-adjacent">Adjacent AI</div>
-          <p>Bills that reference broader technologies or concepts commonly associated with
-            AI. This includes things like automated systems, facial recognition, predictive analytics, or
-            data privacy, however they may not use the term "artificial intelligence" directly.
-            These bills warrant review but require additional judgment.</p>
+          <p>Bills where AI appears as a <em>tool or concern within another policy domain</em>
+            — for example, a healthcare bill that regulates AI diagnostic tools, or an employment
+            bill that addresses algorithmic hiring. These bills do not always use the phrase
+            "artificial intelligence" directly, but they engage with AI-specific technical
+            vocabulary (e.g., <em>natural language processing</em>, <em>computer vision</em>,
+            <em>reinforcement learning</em>) in a policy context.</p>
         </div>
       </div>
       <p style="margin-top:1rem">Matching is applied to bill titles and, where available,
-        full bill text. The pattern library is reviewed and updated periodically to improve
-        coverage and reduce false positives. Each matched bill records which specific concepts
-        triggered the match (e.g., <em>machine_learning</em>, <em>deepfake</em>,
-        <em>facial_recognition</em>).</p>
+        full bill text. The pattern library contains approximately 128 patterns across both tiers
+        and is reviewed periodically to improve coverage and reduce false positives. Each matched
+        bill records which specific concepts triggered the match.</p>
+      <p style="margin-top:0.75rem"><strong>A note on the adjacent tier:</strong> Defining
+        "meaningful" AI relevance is genuinely difficult. The adjacent tier is designed to surface
+        bills where AI is substantively addressed, not merely mentioned in passing. To reduce false
+        positives, we validated the pattern library against a hand-coded sample of ~650 bills and
+        removed 36 patterns that were too generic for reliable use in full bill text — including
+        single-word terms like <em>data</em>, <em>bias</em>, <em>token</em>, and <em>temperature</em>
+        that frequently appear in unrelated legislation. The remaining adjacent-tier patterns require
+        AI-specific technical vocabulary to trigger a match.</p>
     </div>
 
     <div class="panel">
@@ -301,10 +328,11 @@
         <li><strong>Full text is not always available.</strong> Some states publish only bill
           titles and identifiers; others publish full text. Matching against titles alone may
           miss bills that use AI-related language only in the body of the bill.</li>
-        <li><strong>The adjacent tier requires judgment.</strong> A bill matching on "automated
-          systems" may or may not be meaningfully about AI. The tier system is designed to
-          surface these cases rather than exclude them, but users should treat adjacent-only
-          bills with appropriate caution.</li>
+        <li><strong>The adjacent tier requires judgment.</strong> A bill matching on "natural
+          language processing" in a healthcare context is meaningfully about AI; a bill matching
+          the same term in a translation services appropriation may not be. The pattern library
+          has been refined through manual validation to reduce obvious false positives, but
+          adjacent-only bills should be treated with more caution than core-tier bills.</li>
         <li><strong>NCSL coverage is not exhaustive.</strong> The NCSL database focuses on
           bills that have advanced in the legislative process. Bills that were introduced but
           failed to advance may be in this tracker but not in NCSL, and vice versa.</li>
