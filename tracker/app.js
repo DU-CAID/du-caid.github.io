@@ -91,8 +91,40 @@ function renderMetrics(summary) {
   }
 }
 
+/* ── Hero map silhouette ─────────────────────────────────── */
+async function renderHeroMap(usTopoJson) {
+  const el = document.getElementById("heroMapBg");
+  if (!el) return;
+
+  const states = topojson.feature(usTopoJson, usTopoJson.objects.states);
+
+  const w = el.clientWidth  || 1200;
+  const h = el.clientHeight || 220;
+
+  // Fit the US map to fill the hero, shifted slightly right and down
+  const projection = d3.geoAlbersUsa()
+    .fitExtent([[w * 0.05, h * -0.15], [w * 1.05, h * 1.25]], states);
+
+  const path = d3.geoPath().projection(projection);
+
+  const svg = d3.select(el)
+    .append("svg")
+    .attr("viewBox", `0 0 ${w} ${h}`)
+    .attr("preserveAspectRatio", "xMidYMid slice");
+
+  // State fills — very subtle lighter crimson
+  svg.selectAll("path.hero-state")
+    .data(states.features)
+    .join("path")
+    .attr("class", "hero-state")
+    .attr("d", path)
+    .attr("fill", "rgba(255,255,255,0.06)")
+    .attr("stroke", "rgba(255,255,255,0.18)")
+    .attr("stroke-width", "0.7");
+}
+
 /* ── Choropleth map ──────────────────────────────────────── */
-async function renderMap(stateData, navigateTo) {
+async function renderMap(stateData, navigateTo, usTopoJson) {
   const container    = document.getElementById("map-container");
   const tooltip      = document.getElementById("mapTooltip");
   const viewSelect   = document.getElementById("mapViewSelect");
@@ -113,9 +145,8 @@ async function renderMap(stateData, navigateTo) {
     total:    { label: "All Flagged Bills by State",  legend: "All flagged bills (log scale)", tier: "" },
   };
 
-  // Fetch US TopoJSON once
-  const us     = await d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json");
-  const states = topojson.feature(us, us.objects.states);
+  // Use the pre-fetched TopoJSON (shared with hero map)
+  const states = topojson.feature(usTopoJson, usTopoJson.objects.states);
 
   const width  = container.clientWidth || 900;
   const height = Math.round(width * 0.62);
@@ -569,19 +600,21 @@ async function main() {
   initTabs();
 
   try {
-    // Load all static JSON files in parallel
-    const [summary, stateData, manifest, byYear, concepts] = await Promise.all([
+    // Load dashboard data and TopoJSON in parallel (TopoJSON shared by hero + choropleth)
+    const [summary, stateData, manifest, byYear, concepts, usTopoJson] = await Promise.all([
       loadJSON("./data/summary.json"),
       loadJSON("./data/states.json"),
       loadJSON("./data/bills_manifest.json"),
       loadJSON("./data/by_year.json").catch(() => []),
       loadJSON("./data/concepts.json").catch(() => []),
+      d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json"),
     ]);
 
     renderMetrics(summary);
+    renderHeroMap(usTopoJson);
     renderTopStates(stateData);
     const navigateTo = initBillBrowser(manifest);
-    renderMap(stateData, navigateTo);
+    renderMap(stateData, navigateTo, usTopoJson);
     renderTrends(byYear, concepts);
 
   } catch (err) {
