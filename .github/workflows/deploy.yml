@@ -22,11 +22,12 @@ jobs:
       - name: Assemble deployment directory
         run: |
           set -euo pipefail
-          mkdir -p staging/tracker
+          mkdir -p staging/tracker staging/reports
           cp index.html about.html contact.html people.html projects.html staging/
           cp README.md staging/ 2>/dev/null || true
           cp -r assets/ staging/assets/
           cp -r tracker/. staging/tracker/
+          cp -r reports/. staging/reports/
           echo "=== staging/tracker/ after copy ==="
           ls -la staging/tracker/
           echo "=== Total staging size ==="
