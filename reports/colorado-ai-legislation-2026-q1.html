@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colorado's AI Legislation: 2021–2026 Q1 · DU CAID</title>
+  <meta name="description" content="A deep dive into Colorado's AI legislation from 2021 to early 2026 — three waves of lawmaking, four dominant policy themes, and what it means for lawmakers and practitioners.">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+  <style>
+    .post-header { margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border); }
+    .post-meta { font-size: .85rem; color: var(--muted); margin-bottom: .5rem; }
+    .post-tag {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 600;
+      padding: .15rem .5rem;
+      border-radius: 999px;
+      background: #fce8ec;
+      color: var(--du-crimson);
+      margin-right: .4rem;
+    }
+    .post-title { margin: .25rem 0 .5rem; font-size: 1.9rem; line-height: 1.2; }
+    .post-body p { line-height: 1.75; margin-bottom: 1.1rem; }
+    .post-body h2 { margin-top: 2.25rem; margin-bottom: .6rem; font-size: 1.25rem; border-bottom: 2px solid var(--du-crimson); padding-bottom: .3rem; display: inline-block; }
+    .post-body h3 { margin-top: 1.5rem; margin-bottom: .4rem; font-size: 1.05rem; color: var(--du-crimson); }
+    .post-body a { color: var(--du-crimson); }
+    .post-body ul { padding-left: 1.4rem; margin-bottom: 1.1rem; }
+    .post-body ul li { line-height: 1.7; margin-bottom: .3rem; }
+    .post-cta {
+      margin-top: 2rem;
+      padding: 1.25rem 1.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--du-crimson);
+      border-radius: .5rem;
+    }
+    .post-cta p { margin: 0 0 .75rem; font-weight: 600; }
+    .back-link { font-size: .88rem; color: var(--muted); text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
+    .back-link:hover { color: var(--du-crimson); }
+
+    /* version badge */
+    .version-badge {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 600;
+      padding: .15rem .55rem;
+      border-radius: 999px;
+      background: #e0f2fe;
+      color: #075985;
+      margin-left: .5rem;
+      vertical-align: middle;
+    }
+
+    /* stat callout boxes */
+    .stat-row {
+      display: flex;
+      gap: 1rem;
+      margin: 1.5rem 0;
+      flex-wrap: wrap;
+    }
+    .stat-box {
+      flex: 1;
+      min-width: 130px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--du-crimson);
+      border-radius: .5rem;
+      padding: .85rem 1rem;
+      text-align: center;
+    }
+    .stat-box .stat-num {
+      display: block;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--du-crimson);
+      line-height: 1.1;
+    }
+    .stat-box .stat-label {
+      display: block;
+      font-size: .78rem;
+      color: var(--muted);
+      margin-top: .25rem;
+      line-height: 1.4;
+    }
+
+    /* bill table */
+    .bill-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .85rem;
+      margin: 1rem 0 1.5rem;
+    }
+    .bill-table th {
+      text-align: left;
+      padding: .4rem .6rem;
+      background: var(--surface);
+      border-bottom: 2px solid var(--border);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .bill-table td {
+      padding: .4rem .6rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .bill-table tr:last-child td { border-bottom: none; }
+    .status-signed {
+      display: inline-block;
+      font-size: .7rem;
+      font-weight: 700;
+      padding: .1rem .45rem;
+      border-radius: 999px;
+      background: #d1fae5;
+      color: #065f46;
+      white-space: nowrap;
+    }
+    .status-failed {
+      display: inline-block;
+      font-size: .7rem;
+      font-weight: 700;
+      padding: .1rem .45rem;
+      border-radius: 999px;
+      background: #fee2e2;
+      color: #991b1b;
+      white-space: nowrap;
+    }
+    .status-vetoed {
+      display: inline-block;
+      font-size: .7rem;
+      font-weight: 700;
+      padding: .1rem .45rem;
+      border-radius: 999px;
+      background: #ffedd5;
+      color: #9a3412;
+      white-space: nowrap;
+    }
+    .status-pending {
+      display: inline-block;
+      font-size: .7rem;
+      font-weight: 700;
+      padding: .1rem .45rem;
+      border-radius: 999px;
+      background: #e0f2fe;
+      color: #075985;
+      white-space: nowrap;
+    }
+
+    /* pull quote */
+    .pull-quote {
+      margin: 1.75rem 0;
+      padding: 1rem 1.5rem;
+      border-left: 4px solid var(--du-gold);
+      background: #fdfaf3;
+      border-radius: 0 .4rem .4rem 0;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: #444;
+      line-height: 1.65;
+    }
+
+    /* data note */
+    .data-note {
+      font-size: .8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 2.5rem;
+      padding-top: .75rem;
+    }
+
+    @media (max-width: 600px) {
+      .stat-row { flex-direction: column; }
+      .bill-table { font-size: .78rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container head-inner">
+    <a class="brand" href="/">
+      <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+      <span class="brand-text"></span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/reports/">Reports</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container prose">
+
+    <a class="back-link" href="/reports/">&larr; All Reports</a>
+
+    <div class="post-header">
+      <div class="post-meta">
+        <span class="post-tag">State Spotlight</span>
+        <span class="post-tag">AI Policy</span>
+        <span class="post-tag">Colorado</span>
+        <span class="version-badge">v1 &middot; 2026 Q1</span>
+        &nbsp; March 2026 &nbsp;&middot;&nbsp; Stefani Langehennig &amp; Dani Roney
+      </div>
+      <h1 class="post-title">Colorado's AI Legislation: A State in the Vanguard</h1>
+      <p style="color:var(--muted); font-size:.92rem; margin-top:.5rem;">
+        Data coverage: 2017&ndash;early 2026. A deep dive into how Colorado went from scattered early movers to one of the most active AI-regulating states in the country &mdash; and what the trajectory reveals for practitioners and policymakers everywhere.
+      </p>
+    </div>
+
+    <div class="post-body">
+
+      <p>When researchers and advocates talk about which states are leading on artificial intelligence policy, Colorado belongs in the first sentence. Since 2021, Colorado has introduced more than 130 AI-related bills, signed twelve core AI laws into effect, convened a special legislative session in part to address AI governance, and established itself as an early laboratory for some of the most consequential technology policy questions of our time: How do you regulate high-risk automated systems? Who owns the image of your face? Can an algorithm set your rent?</p>
+
+      <p>This report draws on data from the <a href="https://du-caid.github.io/tracker/" target="_blank" rel="noopener">CAID State AI Legislation Tracker</a> to offer a systematic look at Colorado's AI legislative record from 2017 through early 2026. We trace three distinct waves of lawmaking, identify the four dominant policy themes that have shaped Colorado's agenda, and highlight the bills that made it &mdash; and those that didn't. The goal is to offer lawmakers and practitioners a grounded picture of what Colorado's experience reveals about the opportunities and limits of state-level AI governance.</p>
+
+      <h2>The Numbers at a Glance</h2>
+
+      <div class="stat-row">
+        <div class="stat-box">
+          <span class="stat-num">131</span>
+          <span class="stat-label">Total AI-related bills introduced since 2017</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">27</span>
+          <span class="stat-label">Core AI bills (AI as primary subject)</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">12</span>
+          <span class="stat-label">Core AI laws signed into effect</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">14</span>
+          <span class="stat-label">Core AI bills introduced in 2025 alone</span>
+        </div>
+      </div>
+
+      <p>Colorado's AI legislative activity was essentially nonexistent before 2021. From 2017 to 2020, the state introduced a handful of bills that touched on AI-adjacent technologies &mdash; automated vehicles, solar energy systems, workforce platforms &mdash; but none that addressed AI as a primary policy subject. That changed in 2021 with a single targeted bill on insurance data, and has not slowed since. By 2025, Colorado introduced more core AI legislation in a single year than it had in the preceding four years combined.</p>
+
+      <h2>Three Waves of Colorado AI Legislation</h2>
+
+      <h3>Wave 1 (2021&ndash;2022): Targeted, First-Mover Bills</h3>
+
+      <p>Colorado's first wave of core AI legislation was narrow and intentional. In 2021, the legislature passed <strong>SB 21-169</strong>, restricting how insurance companies could use external consumer data &mdash; including machine learning models &mdash; when making underwriting decisions. It was a focused intervention in a specific industry, not a sweeping AI framework, but it signaled that Colorado legislators were paying attention to how AI was already being deployed in consequential decisions affecting consumers.</p>
+
+      <p>The following year, the legislature passed <strong>SB 22-113</strong>, regulating law enforcement and government use of facial recognition technology. Colorado joined a small group of states addressing biometric surveillance directly, and did so before the national conversation had fully crystallized. Both laws were signed by the governor. The message from this wave: Colorado was willing to move on AI before the field was settled, in domains where the harms were concrete and the politics were manageable.</p>
+
+      <h3>Wave 2 (2023&ndash;2024): Comprehensive Frameworks Emerge</h3>
+
+      <p>By 2024, Colorado's AI legislative activity shifted from targeted interventions to more comprehensive regulatory ambition. The state passed four core AI laws in a single session &mdash; its most productive year to that point &mdash; and introduced twelve more bills that touched on AI-related themes.</p>
+
+      <p>The signature achievement of this wave was <strong>SB 24-205</strong>, the Consumer Protections for Artificial Intelligence Act. Drawing on frameworks similar to those in the EU AI Act, SB 24-205 established obligations for developers and deployers of "high-risk" AI systems, requiring risk assessments, transparency disclosures, and anti-discrimination protections. Though the bill was significantly narrowed before passage under pressure from the technology industry, it remained one of the most ambitious state-level AI consumer protection laws in the country at the time of enactment.</p>
+
+      <p>The 2024 wave also produced important legislation on synthetic media. <strong>HB 24-1147</strong> required disclosures when AI-generated content depicted candidates in political advertising. <strong>SB 24-011</strong> addressed deepfakes used to facilitate stalking, harassment, and online misconduct. Both passed with broad support. Rounding out the year, <strong>HB 24-1468</strong> created a comprehensive framework governing AI and biometric technologies, addressing data collection, retention, and use in commercial and government contexts.</p>
+
+      <h3>Wave 3 (2025 and the Special Session): Proliferation and Pressure-Testing</h3>
+
+      <p>The 2025 legislative session saw a sharp acceleration. Fourteen core AI bills were introduced, spanning consumer protection, public safety, algorithmic pricing, wildfire mitigation, government language access, and criminal procedure. The sheer volume reflected both national momentum &mdash; 2025 was a record year for AI legislation across the country &mdash; and Colorado's accumulated policy sophistication: legislators were now working from experience, not just theory.</p>
+
+      <p>Several high-profile bills failed or were vetoed, revealing the limits of the legislature's appetite. But the session also produced three new signed AI laws: <strong>HB 25-1153</strong> (government language access with AI-powered assessment), <strong>SB 25-240</strong> (a task force on AI-generated evidence in criminal proceedings), and <strong>SB 25-288</strong> (criminal and civil liability for AI-generated intimate images, one of the strongest such laws in the country).</p>
+
+      <p>Most strikingly, Colorado convened a <strong>special legislative session in August 2025</strong> in which AI governance was among the subjects on the agenda. The legislature passed <strong>SB 25B-004</strong>, the Algorithmic Transparency Act, which required disclosure and impact assessments for automated systems used in high-stakes decisions. The special session underscores how seriously Colorado's legislature has come to treat AI regulation as an ongoing institutional responsibility, not a one-time policy exercise.</p>
+
+      <h2>Four Dominant Policy Themes</h2>
+
+      <h3>1. Synthetic Media and Deepfakes: Colorado's Clearest Wins</h3>
+
+      <p>No policy area illustrates Colorado's AI legislative success more consistently than synthetic media. The state has now signed three laws specifically targeting AI-generated or deepfake content:</p>
+
+      <table class="bill-table">
+        <thead>
+          <tr><th>Bill</th><th>Year</th><th>Subject</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SB 24-011</td><td>2024</td>
+            <td>Criminalizes deepfakes used for online harassment and stalking</td>
+            <td><span class="status-signed">Signed</span></td>
+          </tr>
+          <tr>
+            <td>HB 24-1147</td><td>2024</td>
+            <td>Requires disclosure of AI-generated content in candidate political advertising</td>
+            <td><span class="status-signed">Signed</span></td>
+          </tr>
+          <tr>
+            <td>SB 25-288</td><td>2025</td>
+            <td>Criminal and civil liability for AI-generated non-consensual intimate images</td>
+            <td><span class="status-signed">Signed</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>These bills share several features that explain their success: they address harms that are visceral and easy to articulate (election manipulation, harassment, sexual exploitation), they draw clear lines between permissible and impermissible conduct, and they attract broad bipartisan support. For practitioners, the deepfake bills are also instructive for what they <em>do not</em> do &mdash; they regulate specific harmful applications of AI rather than the technology itself, making them more durable against industry objections.</p>
+
+      <h3>2. Consumer Protection and High-Risk AI: Ambitious, Contested, and Still Advancing</h3>
+
+      <p>Colorado's consumer protection arc is arguably the most instructive story in the dataset. It follows a pattern of legislative ambition, industry resistance, scaling back, and eventual &mdash; if partial &mdash; success.</p>
+
+      <p><strong>SB 24-205</strong> (2024) was the opening bid: a comprehensive high-risk AI framework covering risk assessments, algorithmic impact disclosures, and anti-discrimination obligations for developers and deployers. It passed, but only after significant amendments that narrowed the scope considerably.</p>
+
+      <p>In 2025, legislators tried again with <strong>SB 25-318</strong>, which would have extended those protections further. It was postponed indefinitely under pressure from the technology industry. Rather than accept defeat, legislators carried the work into the special session, where a more targeted and bipartisan version &mdash; <strong>SB 25B-004</strong>, the Algorithmic Transparency Act &mdash; was signed into law in August 2025. Where the earlier bills had attempted comprehensive governance, SB 25B-004 focused specifically on transparency and disclosure requirements for high-stakes automated decision systems.</p>
+
+      <p class="pull-quote">The consumer protection arc suggests a dynamic that may be common to many states: a legislature that is willing to keep pushing even when it fails, eventually finding a version of the policy that can clear both chambers and survive a governor's signature.</p>
+
+      <p>For practitioners, the lesson is that the overall direction is clear even when individual bills fall short. Organizations deploying AI in consequential decisions &mdash; hiring, housing, lending, benefits &mdash; should treat Colorado's consumer protection trajectory as a signal of what is coming, not just what has already arrived.</p>
+
+      <h3>3. Algorithmic Pricing: A Persistent Dead End</h3>
+
+      <p>If deepfakes represent Colorado's clearest policy success, algorithmic pricing represents its most consistent failure. The legislature has now tried three times to regulate the use of pricing algorithms, particularly in housing markets, and has failed each time:</p>
+
+      <table class="bill-table">
+        <thead>
+          <tr><th>Bill</th><th>Year</th><th>Subject</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HB 24-1057</td><td>2024</td>
+            <td>Prohibit algorithmic tools used for coordinated rent-setting among landlords</td>
+            <td><span class="status-failed">Failed</span></td>
+          </tr>
+          <tr>
+            <td>HB 25-1004</td><td>2025</td>
+            <td>Prohibit pricing coordination between landlords using algorithmic software</td>
+            <td><span class="status-vetoed">Vetoed</span></td>
+          </tr>
+          <tr>
+            <td>HB 25-1264</td><td>2025</td>
+            <td>Prohibit use of surveillance data to set prices and wages</td>
+            <td><span class="status-failed">Failed</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>HB 25-1004 is particularly notable: it passed both chambers with substantial support, only to be vetoed by Governor Polis, who argued it was overbroad and would create legal uncertainty for legitimate business practices. The veto reflects a tension at the heart of algorithmic pricing legislation: the behavior it targets may closely resemble what courts have treated as normal market information sharing, making the legal theory difficult to sustain.</p>
+
+      <p>For practitioners in housing, real estate technology, and retail, Colorado's repeated attempts are a signal that this policy area is not going away even if no single bill has succeeded. Practitioners whose business models involve algorithmic pricing should anticipate continued regulatory attention across multiple states.</p>
+
+      <h3>4. Government Use of AI: An Emerging Agenda</h3>
+
+      <p>A quieter but growing theme in Colorado's AI legislation concerns how <em>government itself</em> uses AI. Several recent bills have addressed AI in public sector operations:</p>
+
+      <ul>
+        <li><strong>HB 25-1153</strong> (signed, 2025): Required a statewide assessment of whether government agencies were using AI tools to support language access for non-English speakers &mdash; framing AI as a tool for equity rather than only a threat to it.</li>
+        <li><strong>SB 25-240</strong> (signed, 2025): Created a task force to study AI-generated evidence and its implications for criminal discovery and due process.</li>
+        <li><strong>HB 25-1212</strong> (stalled, 2025): Would have established public safety protections and accountability mechanisms for AI used by law enforcement &mdash; a more politically contested version of the government AI question.</li>
+        <li><strong>SB 25B-004</strong> (signed, 2025 special session): Applied algorithmic transparency requirements broadly, including to government-operated systems.</li>
+      </ul>
+
+      <p>Taken together, these bills reflect a legislature beginning to grapple with AI not just as an industry to regulate, but as a tool its own agencies are deploying. That shift in perspective &mdash; from external regulator to internal steward &mdash; tends to produce different, and often more durable, policy outcomes.</p>
+
+      <h2>What Passed, What Failed, and Why</h2>
+
+      <p>Looking across the full dataset, Colorado's core AI laws cluster around a few shared characteristics. Bills that succeeded tended to: address well-defined harms with identifiable victims; draw on existing legal frameworks (discrimination law, criminal codes, consumer protection statutes) rather than creating entirely new regulatory categories; attract bipartisan sponsors; and make their way through committees without triggering intense industry mobilization.</p>
+
+      <p>Bills that failed tended to be broader in scope, more novel in legal theory, or directly threatening to organized business interests. The algorithmic pricing bills faced real estate and software industry opposition. SB 25-318 faced a broad technology sector coalition. And Colorado's wildfire AI bills &mdash; SB 23-032, SB 25-011, and SB 25-022 &mdash; represent a specific and recurring pattern: good ideas that cost money die in appropriations, not on the merits. Three separate proposals to use AI for wildfire detection and mitigation have all failed to survive the appropriations process, despite strong public support for the underlying goal.</p>
+
+      <h2>A Note on Key Legislators</h2>
+
+      <p>Any analysis of Colorado's AI legislative record has to mention <strong>Rep. Brianna Titone</strong>, who has emerged as the most prolific and consistent AI legislator in the state. An engineer by training and the first transgender woman elected to the Colorado General Assembly, Titone has been a primary or co-sponsor on six core AI bills &mdash; including SB 22-113, HB 24-1147, HB 24-1468, SB 24-205, SB 25-318, and SB 25-288. Her sustained engagement across multiple sessions and multiple regulatory approaches has given Colorado a degree of legislative continuity that many states lack.</p>
+
+      <p>Other notable sponsors include <strong>Sen. Robert Rodriguez</strong> (SB 24-205, SB 25-318, SB 25B-004), <strong>Sen. Chris Hansen</strong> (SB 22-113, HB 24-1147, HB 24-1468), and <strong>Rep. Lisa Cutter</strong> (SB 24-011, HB 25-1212, SB 25-011, SB 25-288). The recurring appearance of the same legislators across different bills and years reflects a small but experienced caucus that has developed genuine subject-matter expertise on AI governance.</p>
+
+      <h2>Implications for Lawmakers and Practitioners</h2>
+
+      <p><strong>For lawmakers</strong>, Colorado's record offers a few practical lessons. Bills that work tend to be anchored to specific, demonstrable harms rather than to comprehensive governance frameworks &mdash; even when the latter is the ultimate goal. Starting narrower and building incrementally may be more effective than attempting omnibus AI legislation, even in a state with significant political appetite for regulation.</p>
+
+      <p>The special session precedent is also worth noting: Colorado demonstrated that AI governance is serious enough to justify extraordinary legislative measures when the regular session falls short. Other states may see this as a model, particularly where the annual legislative calendar is short and AI bills routinely die for lack of floor time.</p>
+
+      <p><strong>For practitioners</strong>, Colorado's trajectory signals that the regulatory environment for AI is not static and is not going to recede. Even when individual bills fail, the legislative pressure accumulates and eventually produces law. Organizations operating in Colorado &mdash; or in states watching Colorado &mdash; should be preparing now for high-risk AI disclosure requirements, algorithmic transparency obligations, and expanded liability for AI-generated harmful content. The question is not whether these requirements will arrive, but when and in what form.</p>
+
+      <p>Colorado's experience also reveals which domains are highest on the regulatory priority list: automated decision systems affecting consumers in housing, employment, lending, and benefits; synthetic media used to deceive or exploit individuals; and government-operated AI systems that touch civil rights and due process. Practitioners in these domains face the most immediate regulatory exposure and should be treating Colorado's existing laws as a floor, not a ceiling.</p>
+
+      <h2>What to Watch in 2026</h2>
+
+      <p>As of early 2026, Colorado's legislature has already introduced additional AI-related bills. <strong>HB 26-1030</strong> takes up the recurring question of data center infrastructure and energy grid impacts as AI computing demands grow. <strong>HB 26-1049</strong> addresses prohibitions on using AI-generated personally identifying features, extending the synthetic media framework into a new domain. Both bills reflect the continuity of Colorado's AI legislative agenda rather than any sudden change in direction.</p>
+
+      <p>The larger question for 2026 is whether Colorado will attempt another round of comprehensive AI consumer protection legislation in the wake of SB 25B-004's narrower transparency framework. The legislative appetite is clearly there; the open question is whether the political conditions have shifted enough to sustain a broader bill through a full session. This report will be updated as the 2026 session develops.</p>
+
+      <p>Colorado's AI legislative record is, in the end, a story about a state that decided early that AI governance was a legitimate and necessary function of state government &mdash; and has spent five years working out, in the real-world friction of a legislature, what that actually means. That experience is accumulating rapidly, and the lessons are increasingly available to practitioners and policymakers everywhere who are grappling with the same questions.</p>
+
+      <div class="post-cta">
+        <p>Explore Colorado's full AI legislation record in the CAID tracker</p>
+        <a class="btn btn-primary" href="https://du-caid.github.io/tracker/" target="_blank" rel="noopener">Open Dashboard &rarr;</a>
+        &nbsp;
+        <a class="btn" href="/reports/" style="margin-left:.5rem;">All Reports &rarr;</a>
+      </div>
+
+      <p class="data-note">
+        <strong>Data note:</strong> All bill counts and status data are drawn from the CAID State AI Legislation Tracker as of March 2026, using Plural Policy (OpenStates) legislative data and the CAID two-tier AI classification system. Bill status reflects the most recent action recorded in the tracker. This report will be updated periodically as the 2026 session advances and data is refreshed.
+      </p>
+
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>&copy; <span id="year"></span> Center for Analytics and Innovation with Data &middot; University of Denver</small>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
