@@ -346,8 +346,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -418,12 +418,12 @@
     "matched_concepts": [
       "machine_learning",
       "adjacent_tech",
-      "generative_ai",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "generative_ai"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -486,6 +486,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/4b89369e-d2a6-432c-a4e4-74f7471574a8",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "H 542",
+    "title": "SOCIAL MEDIA – Adds to existing law to establish the Stop Harms from Addictive Social Media Act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0542.pdf",
+    "latest_action_date": "2026-03-27",
+    "latest_action_description": "Returned Signed by the President; Ordered Transmitted to Governor",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/e18c2123-2e16-4541-921d-fc1abf43e0dc",
     "state": "ID",
     "session": "2024",
@@ -521,14 +546,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence",
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -591,6 +616,31 @@
     "primary_url": "http://legislature.idaho.gov/wp-content/uploads/sessioninfo/2018/legislation/H0607.pdf",
     "latest_action_date": "2018-03-26",
     "latest_action_description": "Reported Signed by Governor on March 26, 2018    Session Law Chapter 258    Effective: 07/01/2018",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/627a28b2-0d5f-4847-9b0f-c02fc2ac82d1",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "H 617",
+    "title": "TRANSACTIONS – Amends and adds to existing law to establish provisions regarding programmable money.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0617.pdf",
+    "latest_action_date": "2026-02-11",
+    "latest_action_description": "Reported Printed and Referred to Business",
     "ncsl_status": ""
   },
   {
@@ -660,8 +710,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -696,6 +746,63 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/78fadbca-05cc-4c0c-958e-714f27f356e0",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "H 687",
+    "title": "PROCUREMENT – Adds to existing law to establish provisions regarding unbiased artificial intelligence in state government purchasing.",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "llm_variant",
+      "adjacent_tech",
+      "large_language_model",
+      "ai_system_composite",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0687.pdf",
+    "latest_action_date": "2026-03-03",
+    "latest_action_description": "Received from the House passed; filed for first reading",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/48d3d2ad-02c4-47af-9e46-bb3bf22cb84a",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "H 709",
+    "title": "TRANSACTIONS – Amends and adds to existing law to establish provisions regarding programmable money.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0709.pdf",
+    "latest_action_date": "2026-02-17",
+    "latest_action_description": "Reported Printed and Referred to Business",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/82c41826-45c2-4a89-a425-7d14d8f0cd04",
     "state": "ID",
     "session": "2022",
@@ -722,28 +829,163 @@
     "ncsl_status": "Enacted"
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/8130c73c-9714-43fe-8298-cbfe0c3cbe41",
     "state": "ID",
     "session": "2026",
     "identifier": "H 727",
-    "title": "",
+    "title": "SEX CRIMES – Amends existing law to revise a provision regarding video voyeurism and to revise a penalty for disclosing explicit synthetic media.",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "synthetic_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ID2026000H727&ciq=urn:user:PA196471263&client_md=b7b723c4140633519b41ac69c2ecd196&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0727.pdf",
+    "latest_action_date": "2026-03-25",
+    "latest_action_description": "Delivered to Governor at 4 p.m. on March 24, 2026",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/937259a0-6bae-43c1-b632-0082a58567f6",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "H 744",
+    "title": "BIOMETRIC IDENTIFIERS – Adds to existing law to establish provisions regarding the capture or use of biometric identifiers.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0744.pdf",
+    "latest_action_date": "2026-02-23",
+    "latest_action_description": "Reported Printed and Referred to Environment, Energy & Technology",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/2618ae95-482c-484a-861f-d39ea7c5d527",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "H 750",
+    "title": "TRANSACTIONS – Amends and adds to existing law to establish provisions regarding programmable money.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0750.pdf",
+    "latest_action_date": "2026-03-25",
+    "latest_action_description": "Read second time; filed for Third Reading",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/863cf092-294f-4a97-8789-2ef873058cfc",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "H 829",
+    "title": "PROMPT PAYMENT OF CLAIMS – Amends and adds to existing law to revise and establish provisions regarding prompt payment of insurance claims.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0829.pdf",
+    "latest_action_date": "2026-03-06",
+    "latest_action_description": "Reported Printed and Referred to Business",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/ab27669b-c1fb-4d45-9e1d-730487f0f81f",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "H 917",
+    "title": "RULES – Adds to existing law to require the use of AI to review administrative rules annually.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system",
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0917.pdf",
+    "latest_action_date": "2026-03-17",
+    "latest_action_description": "Introduced, read first time, referred to JRA for Printing",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c8e46a55-d97e-448c-aa07-327e23381e55",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "H 945",
+    "title": "ARTIFICIAL INTELLIGENCE MEDICAL SERVICES – Adds to existing law to establish provisions regarding artifical intelligence medical services.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence",
+      "ai_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0945.pdf",
+    "latest_action_date": "2026-03-25",
+    "latest_action_description": "Introduced, read first time, referred to JRA for Printing",
     "ncsl_status": ""
   },
   {
@@ -806,9 +1048,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -886,9 +1128,39 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "generative_ai",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "generative_ai"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227.pdf",
+    "latest_action_date": "2026-03-19",
+    "latest_action_description": "Reported delivered to Governor at 4:06 p.m. on 03/18/26",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/6c7bff09-bd55-4a28-886b-e92fab6f0bf1",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "S 1297",
+    "title": "ARTIFICIAL INTELLIGENCE – Adds to existing law to establish the Conversational AI Safety Act.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -900,34 +1172,60 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227.pdf",
-    "latest_action_date": "2026-01-23",
-    "latest_action_description": "Reported Printed; referred to Education",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297.pdf",
+    "latest_action_date": "2026-03-27",
+    "latest_action_description": "Returned From House Passed; referred to enrolling",
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/12385623-a7f3-4df3-a9d8-61ad14c5f6c5",
     "state": "ID",
     "session": "2026",
-    "identifier": "S 1297",
-    "title": "",
+    "identifier": "S 1341",
+    "title": "CAMPAIGN FINANCE – Amends, repeals, and adds to existing law to provide for campaign finance transparency.",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ID2026000S1297&ciq=urn:user:PA196471263&client_md=a1f53ae5ddfacfa690c56b3168d337a9&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1341.pdf",
+    "latest_action_date": "2026-02-26",
+    "latest_action_description": "Reported Printed; referred to State Affairs",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/cc0f484a-cabd-4fd2-8808-9fafe373573f",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "S 1374",
+    "title": "IDAHO CHILD CARE PROGRAM – Amends and adds to existing law to establish the Idaho Child Care Program.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1374.pdf",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Reported Printed; referred to Health & Welfare",
     "ncsl_status": ""
   },
   {
@@ -953,6 +1251,31 @@
     "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2024/legislation/S1416.pdf",
     "latest_action_date": "2024-03-21",
     "latest_action_description": "Received from the Senate, Filed for First Reading",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/5133d035-9877-4035-b653-9d1cabdcacca",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "S 1422",
+    "title": "CAMPAIGN FINANCE – Amends, repeals, and adds to existing law to provide for campaign finance transparency.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "synthetic_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1422.pdf",
+    "latest_action_date": "2026-03-27",
+    "latest_action_description": "Retained on calendar",
     "ncsl_status": ""
   },
   {
@@ -1078,6 +1401,31 @@
     "primary_url": "http://legislature.idaho.gov/wp-content/uploads/sessioninfo/2020/legislation/SJM110.pdf",
     "latest_action_date": "2020-03-16",
     "latest_action_description": "Reported delivered to the Secretary of State on 03/13/20",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/88c176a1-fed6-44f4-a2e8-1f2fa1253a56",
+    "state": "ID",
+    "session": "2026",
+    "identifier": "SJM 114",
+    "title": "COLLEGIATE ATHLETICS – States findings of the Legislature and urges the United States House of Representatives and Senate to take immediate federal action to restore clarity, consistency, and stability to intercollegiate athletics.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/SJM114.pdf",
+    "latest_action_date": "2026-03-27",
+    "latest_action_description": "Reported out of Committee with Do Pass Recommendation, Filed for Second Reading",
     "ncsl_status": ""
   }
 ]

@@ -1,5 +1,113 @@
 [
   {
+    "bill_id": "ocd-bill/9bcb9553-1f8b-494f-9d9e-6fcdc4369a70",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10000",
+    "title": "STATE OPERATIONS BUDGET",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10000B",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "AMEND AND RECOMMIT TO WAYS AND MEANS",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/346125af-5d3d-4ab4-9e3a-549abf983816",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10004",
+    "title": "CAPITAL PROJECTS BUDGET",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10004B",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "AMEND AND RECOMMIT TO WAYS AND MEANS",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f26f4721-abe4-440a-85ac-9a2700ef7db8",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10005",
+    "title": "Enacts into law major components of legislation necessary to implement the state public protection and general government budget for the 2026-2027 state fiscal year",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10005B",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "AMEND AND RECOMMIT TO WAYS AND MEANS",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d56dce65-2200-40f9-91fb-88b69f290ba7",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10008",
+    "title": "Enacts into law major components of legislation necessary to implement the state transportation, economic development and environmental conservation budget for the 2026-2027 state fiscal year",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "synthetic_media",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10008B",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "AMEND AND RECOMMIT TO WAYS AND MEANS",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "",
     "state": "NY",
     "session": "2023",
@@ -38,13 +146,13 @@
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -79,6 +187,36 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/ad5781fb-135e-4326-84ea-ecbbaaf4e7a4",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10047",
+    "title": "Establishes disclosure requirements for AI-generated or materially AI-altered media depicting historically recognized human disasters when such media is publicly distributed",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10047",
+    "latest_action_date": "2026-01-30",
+    "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/32291208-3577-4eba-9716-f0331a1e13c0",
     "state": "NY",
     "session": "2023-2024",
@@ -88,11 +226,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "generative_ai",
       "machine_learning",
+      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
-      "generative_ai",
-      "artificial_intelligence",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -100,9 +238,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -162,6 +300,111 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/6b933dc7-deef-41ed-88f3-ad9afba43086",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10118",
+    "title": "Relates to food delivery worker safety",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10118",
+    "latest_action_date": "2026-02-02",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/90f8741e-9640-47db-900c-35101428b855",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10141",
+    "title": "Imposes a moratorium on data center permit issuance; and relates to data center rate impacts",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10141",
+    "latest_action_date": "2026-02-09",
+    "latest_action_description": "REFERRED TO ENVIRONMENTAL CONSERVATION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/617280e2-6a67-4578-b5ce-6193fa90155e",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10183",
+    "title": "Establishes the transitional wage insurance program",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "algorithmic_decision_system",
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10183",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c9b29fb4-63c1-43aa-b111-321997a5c9e8",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10199",
+    "title": "Enacts the \"New York open water data act\"",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10199",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "REFERRED TO ENVIRONMENTAL CONSERVATION",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/c44ee62c-301f-48fd-a013-a19849f0225d",
     "state": "NY",
     "session": "2023-2024",
@@ -171,10 +414,10 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "machine_learning",
       "ml_system",
       "automated_decision_system",
+      "ai_system_composite",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -182,9 +425,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -192,6 +435,35 @@
     "latest_action_date": "2024-05-15",
     "latest_action_description": "REFERRED TO GOVERNMENTAL OPERATIONS",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/0250e469-9c86-40dd-b13c-4f414c8513a1",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10251",
+    "title": "Limits the use of automatic data systems in connection with employment",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "automated_decision_system",
+      "machine_learning",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10251",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/27c89cef-e2ff-4a68-844e-9dd72216eb73",
@@ -220,6 +492,57 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/be658c14-cafe-4dbf-a2ec-94ac5c6d182c",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10337",
+    "title": "Relates to licensing and other provisions relating to firearms; repealer",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10337",
+    "latest_action_date": "2026-02-20",
+    "latest_action_description": "REFERRED TO CODES",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b08bf5a8-8777-4cda-8587-8333fbe02891",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10357",
+    "title": "Provides for the protection of health information",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10357",
+    "latest_action_date": "2026-02-26",
+    "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/bcb58804-fd4e-4b09-af85-a885dbef9fac",
     "state": "NY",
     "session": "2023-2024",
@@ -235,8 +558,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -272,6 +595,36 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "ocd-bill/d99a44ee-0096-4baf-b772-d8214b3a1292",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10379",
+    "title": "Prohibits artificial intelligence chatbots from using features which are considered unsafe for minors",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10379A",
+    "latest_action_date": "2026-03-23",
+    "latest_action_description": "AMEND AND RECOMMIT TO SCIENCE AND TECHNOLOGY",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/41d07b23-a418-48b0-95c5-6f816b538f37",
     "state": "NY",
     "session": "2025-2026",
@@ -292,7 +645,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1045",
-    "latest_action_date": "2025-01-08",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO GOVERNMENTAL OPERATIONS",
     "ncsl_status": ""
   },
@@ -340,9 +693,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -350,6 +703,31 @@
     "latest_action_date": "2024-07-22",
     "latest_action_description": "ENACTING CLAUSE STRICKEN",
     "ncsl_status": "Failed"
+  },
+  {
+    "bill_id": "ocd-bill/3789f1d1-1511-4d20-88e8-c0fbc74d369f",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10567",
+    "title": "Relates to the authorization of certain municipalities to participate in a community-wide energy aggregation program",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10567",
+    "latest_action_date": "2026-03-13",
+    "latest_action_description": "REFERRED TO ENERGY",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/d611159c-3482-43c7-844e-a3316c5e2c9f",
@@ -388,20 +766,20 @@
     "matched_concepts": [
       "llm_variant",
       "machine_learning",
+      "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant",
       "large_language_model",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -420,8 +798,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -458,9 +836,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -479,20 +857,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
       "adjacent_tech",
-      "artificial_intelligence",
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -521,7 +899,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTEwNzEifQ.m3n3JqtUjwEfCmJ5Zf02XMcDLM_Vxe-KQJEW0mc27uo",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A1071&ciq=urn:user:PA196471263&client_md=0bfa866854c2d5e3a9cd016022108533&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -546,10 +924,36 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A1071&ciq=urn:user:PA196471263&client_md=0bfa866854c2d5e3a9cd016022108533&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTEwNzEifQ.m3n3JqtUjwEfCmJ5Zf02XMcDLM_Vxe-KQJEW0mc27uo",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/f83538be-c9f3-494e-9cbe-30a8f9cd1faa",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10715",
+    "title": "Prohibits distribution or publishing any political communication that was produced by or includes materially deceptive media",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10715",
+    "latest_action_date": "2026-03-27",
+    "latest_action_description": "REFERRED TO ELECTION LAW",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/99787008-b01a-4e6e-acab-7dc6f6063806",
@@ -561,8 +965,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
       "core_ai",
@@ -590,23 +994,23 @@
     "matched_concepts": [
       "ai_system_composite",
       "machine_learning",
+      "artificial_intelligence",
       "ml_system",
-      "automated_decision_system",
-      "artificial_intelligence"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1205",
-    "latest_action_date": "2025-01-09",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO GOVERNMENTAL OPERATIONS",
     "ncsl_status": "Pending"
   },
@@ -680,7 +1084,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A1273&ciq=urn:user:PA196471263&client_md=eb55216c71d6f6e37482a2e30e6f2a39&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTEyNzMifQ.Jb8Ln2adKsiyd_m8FnV10Vf6CobAfoVHG-EjT3CSRzA",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -705,7 +1109,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTEyNzMifQ.Jb8Ln2adKsiyd_m8FnV10Vf6CobAfoVHG-EjT3CSRzA",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A1273&ciq=urn:user:PA196471263&client_md=eb55216c71d6f6e37482a2e30e6f2a39&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -733,7 +1137,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1280",
-    "latest_action_date": "2025-01-09",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": "Pending"
   },
@@ -758,7 +1162,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1332",
-    "latest_action_date": "2025-01-09",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -778,14 +1182,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1338",
-    "latest_action_date": "2025-01-09",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": "Pending"
   },
@@ -807,14 +1211,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1342",
-    "latest_action_date": "2025-01-09",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -853,8 +1257,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -866,7 +1270,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1415",
-    "latest_action_date": "2025-01-09",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -886,9 +1290,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -938,14 +1342,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1456",
-    "latest_action_date": "2025-01-09",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INSURANCE",
     "ncsl_status": "Pending"
   },
@@ -960,8 +1364,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "machine_learning",
       "generative_ai_variant",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -969,14 +1373,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1509",
-    "latest_action_date": "2025-01-10",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -1071,9 +1475,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1150,14 +1554,14 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A1952",
-    "latest_action_date": "2025-01-14",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO LABOR",
     "ncsl_status": "Pending"
   },
@@ -1221,15 +1625,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "generative_ai_variant",
       "adjacent_tech",
       "machine_learning",
-      "generative_ai_variant",
       "synthetic_media",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1266,8 +1670,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A222A",
-    "latest_action_date": "2025-02-28",
-    "latest_action_description": "AMEND AND RECOMMIT TO CONSUMER AFFAIRS AND PROTECTION",
+    "latest_action_date": "2026-03-05",
+    "latest_action_description": "REFERENCE CHANGED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
   {
@@ -1344,7 +1748,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A2316",
-    "latest_action_date": "2025-01-16",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": ""
   },
@@ -1359,9 +1763,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -1369,14 +1773,14 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A235",
-    "latest_action_date": "2025-01-08",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -1425,7 +1829,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTMwMDAifQ.gEmDEpEiC9kUD8pOro2HVh0VofWHCrwwbDTFOazFrQg",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A3000&ciq=urn:user:PA196471263&client_md=55f81bd9ebd2cf28e5ad0cde0fae9753&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1450,7 +1854,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A3000&ciq=urn:user:PA196471263&client_md=55f81bd9ebd2cf28e5ad0cde0fae9753&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTMwMDAifQ.gEmDEpEiC9kUD8pOro2HVh0VofWHCrwwbDTFOazFrQg",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
@@ -1565,12 +1969,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
-      "ai_model_variant",
       "algorithmic_tool",
       "artificial_intelligence",
       "synthetic_media",
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_model_variant",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -1609,8 +2013,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3071A",
-    "latest_action_date": "2025-06-05",
-    "latest_action_description": "AMEND AND RECOMMIT TO HEALTH",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO HEALTH",
     "ncsl_status": "Pending"
   },
   {
@@ -1659,7 +2063,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3103",
-    "latest_action_date": "2025-01-23",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": ""
   },
@@ -1684,8 +2088,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3125A",
-    "latest_action_date": "2025-05-29",
-    "latest_action_description": "REPORTED",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "ORDERED TO THIRD READING CAL.103",
     "ncsl_status": "Pending"
   },
   {
@@ -1698,23 +2102,23 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3265",
-    "latest_action_date": "2025-01-27",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -1753,8 +2157,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1816,8 +2220,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3307A",
-    "latest_action_date": "2025-06-11",
-    "latest_action_description": "REPORTED",
+    "latest_action_date": "2025-12-05",
+    "latest_action_description": "SIGNED CHAP.579",
     "ncsl_status": ""
   },
   {
@@ -1830,10 +2234,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ml_system",
-      "automated_decision_system",
       "machine_learning",
-      "adjacent_tech"
+      "adjacent_tech",
+      "ml_system",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1868,14 +2272,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3327",
-    "latest_action_date": "2025-01-27",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO ELECTION LAW",
     "ncsl_status": "Pending"
   },
@@ -1889,21 +2293,21 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3356",
-    "latest_action_date": "2025-01-27",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -1924,13 +2328,13 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3361",
-    "latest_action_date": "2025-05-12",
+    "latest_action_date": "2026-01-28",
     "latest_action_description": "PASSED ASSEMBLY",
     "ncsl_status": "Pending"
   },
@@ -1944,14 +2348,14 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "generative_ai",
       "llm_variant",
       "machine_learning",
+      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
       "large_language_model",
       "ai_model_variant",
-      "generative_ai",
-      "artificial_intelligence",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -1959,15 +2363,15 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3411B",
-    "latest_action_date": "2025-06-11",
-    "latest_action_description": "REPORTED",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "SUBSTITUTED FOR S934A",
     "ncsl_status": "Pending"
   },
   {
@@ -1988,14 +2392,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3437",
-    "latest_action_date": "2025-01-27",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -2009,8 +2413,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2046,7 +2450,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A3719&ciq=urn:user:PA196471263&client_md=6c4d3036b5ae988f32d0d8c64ed29ace&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTM3MTkifQ.eOmikr0t_6vwirjA8p1xsV0ZTCgKH8zHnUpVeP_djCI",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -2071,7 +2475,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTM3MTkifQ.eOmikr0t_6vwirjA8p1xsV0ZTCgKH8zHnUpVeP_djCI",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A3719&ciq=urn:user:PA196471263&client_md=6c4d3036b5ae988f32d0d8c64ed29ace&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -2166,8 +2570,8 @@
       "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2175,7 +2579,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3914",
-    "latest_action_date": "2025-01-30",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO LABOR",
     "ncsl_status": "Pending"
   },
@@ -2202,7 +2606,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3924",
-    "latest_action_date": "2025-01-30",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO JUDICIARY",
     "ncsl_status": "Pending"
   },
@@ -2219,8 +2623,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2228,8 +2632,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3929B",
-    "latest_action_date": "2025-06-05",
-    "latest_action_description": "REPORTED REFERRED TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": ""
   },
   {
@@ -2242,8 +2646,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "algorithmic_tool",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -2251,40 +2655,15 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3930",
-    "latest_action_date": "2025-01-30",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO HOUSING",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NY",
-    "session": "2025",
-    "identifier": "A 3932",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A3932&ciq=urn:user:PA196471263&client_md=d187e415b4792ecedaa5a5c37a06d3d6&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
     "ncsl_status": "Pending"
   },
   {
@@ -2316,7 +2695,7 @@
     "bill_id": "",
     "state": "NY",
     "session": "2025",
-    "identifier": "A 3969",
+    "identifier": "A 3932",
     "title": "",
     "updated": "",
     "core_ai_hits": 0,
@@ -2332,7 +2711,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A3969&ciq=urn:user:PA196471263&client_md=ead1d555f20190e5a9ccf37ad1a2240c&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A3932&ciq=urn:user:PA196471263&client_md=d187e415b4792ecedaa5a5c37a06d3d6&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -2363,6 +2742,31 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "",
+    "state": "NY",
+    "session": "2025",
+    "identifier": "A 3969",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A3969&ciq=urn:user:PA196471263&client_md=ead1d555f20190e5a9ccf37ad1a2240c&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
     "bill_id": "ocd-bill/bfb9c9c9-d9af-4644-83fd-45e3f4280dfb",
     "state": "NY",
     "session": "2025-2026",
@@ -2383,7 +2787,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A399",
-    "latest_action_date": "2025-01-08",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": "Pending"
   },
@@ -2403,14 +2807,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3991",
-    "latest_action_date": "2025-01-30",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INSURANCE",
     "ncsl_status": "Pending"
   },
@@ -2430,14 +2834,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A3993",
-    "latest_action_date": "2025-01-30",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INSURANCE",
     "ncsl_status": "Pending"
   },
@@ -2461,7 +2865,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A4002&ciq=urn:user:PA196471263&client_md=870dd22e59725271cd5c09d4e6c1919d&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTQwMDIifQ.F5vykLT26Qs4cUrVeW8ieLs7FzZ71VMuCAlbEuf3iQ0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -2486,7 +2890,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTQwMDIifQ.F5vykLT26Qs4cUrVeW8ieLs7FzZ71VMuCAlbEuf3iQ0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A4002&ciq=urn:user:PA196471263&client_md=870dd22e59725271cd5c09d4e6c1919d&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -2579,20 +2983,20 @@
       "ai_system_composite",
       "adjacent_tech",
       "large_language_model",
-      "llm_variant",
       "machine_learning",
+      "artificial_intelligence",
       "ml_system",
       "automated_decision_system",
-      "artificial_intelligence"
+      "llm_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2648,7 +3052,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A4427",
-    "latest_action_date": "2025-02-04",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INSURANCE",
     "ncsl_status": "Pending"
   },
@@ -2718,14 +3122,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A4550A",
-    "latest_action_date": "2025-04-30",
-    "latest_action_description": "REPORTED REFERRED TO WAYS AND MEANS",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO WAYS AND MEANS",
     "ncsl_status": "Pending"
   },
   {
@@ -2749,8 +3153,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A4631B",
-    "latest_action_date": "2025-03-13",
-    "latest_action_description": "AMEND AND RECOMMIT TO CONSUMER AFFAIRS AND PROTECTION",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": ""
   },
   {
@@ -2826,7 +3230,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A4947",
-    "latest_action_date": "2025-02-10",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -2846,9 +3250,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2973,14 +3377,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A4991",
-    "latest_action_date": "2025-02-10",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO HOUSING",
     "ncsl_status": "Pending"
   },
@@ -3030,7 +3434,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A5070",
-    "latest_action_date": "2025-02-12",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO REAL PROPERTY TAXATION",
     "ncsl_status": ""
   },
@@ -3044,8 +3448,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "algorithmic_decision_system"
     ],
     "matched_tiers": [
@@ -3053,14 +3457,14 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A5216",
-    "latest_action_date": "2025-02-12",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO GOVERNMENTAL OPERATIONS",
     "ncsl_status": "Pending"
   },
@@ -3085,8 +3489,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A5254A",
-    "latest_action_date": "2025-06-10",
-    "latest_action_description": "SUBSTITUTED FOR S1211A",
+    "latest_action_date": "2025-12-05",
+    "latest_action_description": "VETOED MEMO.68",
     "ncsl_status": ""
   },
   {
@@ -3125,17 +3529,17 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "algorithmic_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3185,15 +3589,15 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A5429A",
-    "latest_action_date": "2025-06-02",
-    "latest_action_description": "AMEND (T) AND RECOMMIT TO LABOR",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO LABOR",
     "ncsl_status": "Pending"
   },
   {
@@ -3256,8 +3660,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3308,8 +3712,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3413,8 +3817,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3426,7 +3830,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A5827",
-    "latest_action_date": "2025-02-20",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -3451,8 +3855,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A5852A",
-    "latest_action_date": "2025-06-12",
-    "latest_action_description": "SUBSTITUTED FOR S8285",
+    "latest_action_date": "2025-12-19",
+    "latest_action_description": "SIGNED CHAP.655",
     "ncsl_status": ""
   },
   {
@@ -3500,7 +3904,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTYwMzAifQ.qej8wLuDPgAsD54_hXW8r8Dn_wXnGalc6Mwg_l6r9NM",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A6030&ciq=urn:user:PA196471263&client_md=8f977318cf81ce8450c31e6dc69a811e&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -3525,7 +3929,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A6030&ciq=urn:user:PA196471263&client_md=8f977318cf81ce8450c31e6dc69a811e&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTYwMzAifQ.qej8wLuDPgAsD54_hXW8r8Dn_wXnGalc6Mwg_l6r9NM",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -3541,9 +3945,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "adjacent_tech",
       "ml_system",
-      "automated_decision_system"
+      "automated_decision_system",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3569,15 +3973,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
       "artificial_intelligence",
       "synthetic_media",
+      "adjacent_tech",
+      "ai_system_composite",
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3585,8 +3989,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A606B",
-    "latest_action_date": "2025-05-21",
-    "latest_action_description": "AMENDED ON THIRD READING 606B",
+    "latest_action_date": "2026-01-12",
+    "latest_action_description": "COMMITTED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": "Pending"
   },
   {
@@ -3655,14 +4059,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6180",
-    "latest_action_date": "2025-02-26",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO WAYS AND MEANS",
     "ncsl_status": "Pending"
   },
@@ -3689,7 +4093,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6293",
-    "latest_action_date": "2025-03-03",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": ""
   },
@@ -3707,8 +4111,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3765,9 +4169,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3819,14 +4223,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6491",
-    "latest_action_date": "2025-03-05",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO ELECTION LAW",
     "ncsl_status": "Pending"
   },
@@ -3837,16 +4241,11 @@
     "identifier": "A 6540",
     "title": "Requires synthetic content creations system providers to include provenance data on certain content made available by the provider",
     "updated": "",
-    "core_ai_hits": 6,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "synthetic_media",
-      "artificial_intelligence",
-      "deepfake_media",
-      "generative_ai_variant",
-      "adjacent_tech",
-      "ai_system_composite",
-      "ai_model_variant"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3854,39 +4253,13 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6540C",
-    "latest_action_date": "2025-06-17",
-    "latest_action_description": "REPORTED",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NY",
-    "session": "2025",
-    "identifier": "A 6544",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTY1NDQifQ.1iOTxHgdTWFAltTAm87CDHs7buqn3zrzie55AexXmgM",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6540D",
+    "latest_action_date": "2026-01-12",
+    "latest_action_description": "AMENDED ON THIRD READING 6540D",
     "ncsl_status": "Pending"
   },
   {
@@ -3915,6 +4288,31 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "",
+    "state": "NY",
+    "session": "2025",
+    "identifier": "A 6544",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwQTY1NDQifQ.1iOTxHgdTWFAltTAm87CDHs7buqn3zrzie55AexXmgM",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
     "bill_id": "ocd-bill/c6f57d82-843d-49df-a36f-e8231f5be73b",
     "state": "NY",
     "session": "2025-2026",
@@ -3924,10 +4322,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3939,8 +4337,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6545A",
-    "latest_action_date": "2025-04-07",
-    "latest_action_description": "AMEND (T) AND RECOMMIT TO CONSUMER AFFAIRS AND PROTECTION",
+    "latest_action_date": "2026-03-05",
+    "latest_action_description": "REFERENCE CHANGED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
   {
@@ -3953,27 +4351,27 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
+      "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence",
-      "synthetic_media",
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6578",
-    "latest_action_date": "2025-06-10",
-    "latest_action_description": "REPORTED",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6578B",
+    "latest_action_date": "2026-02-24",
+    "latest_action_description": "AMENDED ON THIRD READING 6578B",
     "ncsl_status": "Pending"
   },
   {
@@ -3992,13 +4390,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6656",
-    "latest_action_date": "2025-03-06",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": ""
   },
@@ -4023,8 +4421,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6720A",
-    "latest_action_date": "2025-04-16",
-    "latest_action_description": "AMEND AND RECOMMIT TO EDUCATION",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO EDUCATION",
     "ncsl_status": ""
   },
   {
@@ -4093,9 +4491,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4118,19 +4516,19 @@
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6765A",
-    "latest_action_date": "2025-03-25",
-    "latest_action_description": "REPORTED REFERRED TO CODES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "ORDERED TO THIRD READING CAL.173",
     "ncsl_status": "Pending"
   },
   {
@@ -4155,15 +4553,15 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6767",
-    "latest_action_date": "2025-03-25",
-    "latest_action_description": "REPORTED REFERRED TO CODES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "DIED IN SENATE",
     "ncsl_status": "Pending"
   },
   {
@@ -4236,9 +4634,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4261,8 +4659,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4311,8 +4709,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
+      "ai_system_composite",
       "ai_system"
     ],
     "matched_tiers": [
@@ -4320,14 +4718,14 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6874A",
-    "latest_action_date": "2025-04-28",
-    "latest_action_description": "AMEND (T) AND RECOMMIT TO EDUCATION",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO EDUCATION",
     "ncsl_status": "Pending"
   },
   {
@@ -4340,22 +4738,22 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
+      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6972",
-    "latest_action_date": "2025-03-18",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO EDUCATION",
     "ncsl_status": "Pending"
   },
@@ -4375,13 +4773,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6974",
-    "latest_action_date": "2025-03-18",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -4403,14 +4801,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A7029",
-    "latest_action_date": "2025-03-18",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO EDUCATION",
     "ncsl_status": "Pending"
   },
@@ -4456,9 +4854,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4508,8 +4906,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4528,26 +4926,26 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ai_system_composite",
       "ai_system",
+      "machine_learning",
+      "ml_system",
       "artificial_intelligence",
-      "ml_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A7172",
-    "latest_action_date": "2025-03-21",
-    "latest_action_description": "REFERRED TO CODES",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A7172A",
+    "latest_action_date": "2026-03-05",
+    "latest_action_description": "AMEND (T) AND RECOMMIT TO CODES",
     "ncsl_status": "Pending"
   },
   {
@@ -4560,9 +4958,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "ml_system",
       "adjacent_tech",
-      "machine_learning",
-      "ml_system"
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -4588,8 +4986,8 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "llm_variant",
+      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
       "ai_model_variant",
@@ -4601,14 +4999,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A7278",
-    "latest_action_date": "2025-03-21",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -4708,8 +5106,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A7611",
-    "latest_action_date": "2025-05-20",
-    "latest_action_description": "HELD FOR CONSIDERATION IN GOVERNMENTAL OPERATIONS",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO GOVERNMENTAL OPERATIONS",
     "ncsl_status": "Pending"
   },
   {
@@ -4728,9 +5126,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4761,7 +5159,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A7656",
-    "latest_action_date": "2025-04-04",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO ELECTION LAW",
     "ncsl_status": "Pending"
   },
@@ -4775,12 +5173,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "algorithmic_tool",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "algorithmic_tool",
-      "artificial_intelligence",
       "high_risk_ai_variant"
     ],
     "matched_tiers": [
@@ -4788,14 +5186,14 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A768",
-    "latest_action_date": "2025-01-08",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -4819,9 +5217,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A773B",
-    "latest_action_date": "2025-06-05",
-    "latest_action_description": "REPORTED REFERRED TO RULES",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A773C",
+    "latest_action_date": "2026-01-15",
+    "latest_action_description": "AMEND AND RECOMMIT TO CODES",
     "ncsl_status": "Pending"
   },
   {
@@ -4865,9 +5263,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4915,13 +5313,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4947,9 +5345,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5045,8 +5443,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "machine_learning",
       "generative_ai_variant",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -5054,9 +5452,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5075,16 +5473,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "artificial_intelligence",
-      "synthetic_media",
-      "ai_system_composite"
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -5110,8 +5508,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -5131,18 +5529,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5165,13 +5563,13 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5190,8 +5588,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -5217,9 +5615,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
       "generative_ai_variant",
-      "machine_learning",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -5227,9 +5625,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5280,9 +5678,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5301,17 +5699,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "automated_decision_system",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5372,6 +5770,31 @@
     "latest_action_date": "2024-01-03",
     "latest_action_description": "REFERRED TO INSURANCE",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/81c8fc2b-31e3-4c1d-b371-d3604ebfdaa7",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 8396",
+    "title": "Enacts the student suicide prevention act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8396A",
+    "latest_action_date": "2026-02-06",
+    "latest_action_description": "AMEND AND RECOMMIT TO EDUCATION",
+    "ncsl_status": ""
   },
   {
     "bill_id": "",
@@ -5483,12 +5906,12 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence",
-      "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -5500,7 +5923,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8523",
-    "latest_action_date": "2025-05-20",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO ELECTION LAW",
     "ncsl_status": "Pending"
   },
@@ -5515,8 +5938,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -5524,14 +5947,14 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8546",
-    "latest_action_date": "2025-05-20",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO JUDICIARY",
     "ncsl_status": "Pending"
   },
@@ -5549,18 +5972,18 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8556",
-    "latest_action_date": "2025-05-20",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INSURANCE",
     "ncsl_status": "Pending"
   },
@@ -5574,11 +5997,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "generative_ai",
       "artificial_intelligence",
       "synthetic_media",
+      "ai_system_composite",
+      "adjacent_tech",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -5586,15 +6009,15 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8595B",
-    "latest_action_date": "2025-06-09",
-    "latest_action_description": "AMEND AND RECOMMIT TO CODES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": "Pending"
   },
   {
@@ -5611,8 +6034,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -5621,7 +6044,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8611",
-    "latest_action_date": "2025-05-22",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO JUDICIARY",
     "ncsl_status": ""
   },
@@ -5646,7 +6069,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8704",
-    "latest_action_date": "2025-05-30",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO HIGHER EDUCATION",
     "ncsl_status": "Pending"
   },
@@ -5694,8 +6117,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5720,8 +6143,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": false,
@@ -5741,24 +6164,24 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8833",
-    "latest_action_date": "2025-06-09",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -5782,9 +6205,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8843",
-    "latest_action_date": "2025-06-09",
-    "latest_action_description": "REFERRED TO HIGHER EDUCATION",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8843A",
+    "latest_action_date": "2026-03-18",
+    "latest_action_description": "AMEND AND RECOMMIT TO HIGHER EDUCATION",
     "ncsl_status": "Pending"
   },
   {
@@ -5830,8 +6253,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5853,25 +6276,25 @@
       "high_risk_ai",
       "ai_system_composite",
       "adjacent_tech",
-      "high_risk_ai_variant",
-      "artificial_intelligence",
       "ai_system",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "high_risk_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8884",
-    "latest_action_date": "2025-06-11",
-    "latest_action_description": "REFERENCE CHANGED TO WAYS AND MEANS",
+    "latest_action_date": "2026-01-12",
+    "latest_action_description": "REFERENCE CHANGED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
   {
@@ -5886,11 +6309,11 @@
     "matched_concepts": [
       "llm_variant",
       "machine_learning",
+      "artificial_intelligence",
+      "synthetic_media",
       "adjacent_tech",
       "large_language_model",
       "ai_system_composite",
-      "artificial_intelligence",
-      "synthetic_media",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -5923,14 +6346,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8916",
-    "latest_action_date": "2025-07-16",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO RACING AND WAGERING",
     "ncsl_status": ""
   },
@@ -5950,13 +6373,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8947",
-    "latest_action_date": "2025-07-16",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO EDUCATION",
     "ncsl_status": ""
   },
@@ -5965,30 +6388,31 @@
     "state": "NY",
     "session": "2025-2026",
     "identifier": "A 8962",
-    "title": "Enacts the New York fundamental artificial intelligence requirements in news act",
+    "title": "Enacts the New York fundamental artificial intelligence requirements in (FAIR) news act",
     "updated": "",
-    "core_ai_hits": 4,
+    "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
+      "ai_system",
       "generative_ai_variant",
-      "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8962",
-    "latest_action_date": "2025-08-13",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8962A",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": ""
   },
@@ -6018,34 +6442,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/100ce73e-8b62-469a-a893-9d7624945c73",
-    "state": "NY",
-    "session": "2023-2024",
-    "identifier": "A 9028",
-    "title": "Relates to the disclosure of political communication produced by artificial intelligence technology",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2023/A9028",
-    "latest_action_date": "2024-02-05",
-    "latest_action_description": "REFERRED TO ELECTION LAW",
-    "ncsl_status": "Pending"
-  },
-  {
     "bill_id": "ocd-bill/db7c5544-efaa-4567-84f7-c23f5b40c5f0",
     "state": "NY",
     "session": "2025-2026",
@@ -6067,8 +6463,36 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9028",
-    "latest_action_date": "2025-09-05",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO JUDICIARY",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/100ce73e-8b62-469a-a893-9d7624945c73",
+    "state": "NY",
+    "session": "2023-2024",
+    "identifier": "A 9028",
+    "title": "Relates to the disclosure of political communication produced by artificial intelligence technology",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2023/A9028",
+    "latest_action_date": "2024-02-05",
+    "latest_action_description": "REFERRED TO ELECTION LAW",
     "ncsl_status": "Pending"
   },
   {
@@ -6139,13 +6563,13 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9091",
-    "latest_action_date": "2025-09-12",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": ""
   },
@@ -6160,8 +6584,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -6169,14 +6593,14 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9097",
-    "latest_action_date": "2025-09-12",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO JUDICIARY",
     "ncsl_status": ""
   },
@@ -6190,18 +6614,18 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6226,14 +6650,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9106",
-    "latest_action_date": "2025-09-26",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO HIGHER EDUCATION",
     "ncsl_status": ""
   },
@@ -6253,9 +6677,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6286,7 +6710,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9152",
-    "latest_action_date": "2025-10-17",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": ""
   },
@@ -6358,14 +6782,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9185",
-    "latest_action_date": "2025-10-17",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": ""
   },
@@ -6379,22 +6803,22 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9190",
-    "latest_action_date": "2025-11-03",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO EDUCATION",
     "ncsl_status": ""
   },
@@ -6418,15 +6842,47 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9219",
-    "latest_action_date": "2025-11-03",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/95dbd4fa-f8e5-47b9-85d5-741ae8dc3029",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9253",
+    "title": "Relates to disclosure of the use of artificial intelligence by law enforcement agencies",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "generative_ai",
+      "ai_system",
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9253A",
+    "latest_action_date": "2026-03-17",
+    "latest_action_description": "AMEND AND RECOMMIT TO CODES",
     "ncsl_status": ""
   },
   {
@@ -6444,8 +6900,8 @@
       "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6467,8 +6923,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -6483,6 +6939,58 @@
     "latest_action_date": "2024-05-31",
     "latest_action_description": "AMEND (T) AND RECOMMIT TO WAYS AND MEANS",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/2cb6722d-026d-405c-ba5a-c757b7f4c56b",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9317",
+    "title": "Regulates companion chatbots",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9317",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f6168ccd-3c18-4142-a08c-90b8bf672d60",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9349",
+    "title": "Prohibits the use of algorithmically set prices and requires the disclosure of automated pricing systems",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "algorithmic_tool",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9349",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/d6e1483c-a662-49a7-82fc-3da6629b7117",
@@ -6505,8 +7013,35 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A938",
-    "latest_action_date": "2025-01-08",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO GOVERNMENTAL EMPLOYEES",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/277afd95-29f8-44ee-b590-f79fa2b64697",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9396",
+    "title": "Establishes the \"protecting consumers and jobs from discriminatory pricing act\"",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9396",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": ""
   },
   {
@@ -6519,19 +7054,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
+      "machine_learning",
       "automated_decision_system",
       "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6539,6 +7074,89 @@
     "latest_action_date": "2024-06-06",
     "latest_action_description": "SUBSTITUTED BY S7543B",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/fe7b4d8a-9d67-4adc-88d5-df44a32294b2",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9443",
+    "title": "Requires certain kratom products to include a warning label",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9443",
+    "latest_action_date": "2026-02-13",
+    "latest_action_description": "DELIVERED TO GOVERNOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a22019f3-b5c0-4245-b4cf-60e83703f324",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9446",
+    "title": "Relates to warning labels on certain feature platforms; repealer",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9446",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "REPORTED REFERRED TO RULES",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/556ac795-03c7-4992-849a-5136d718dcc9",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9449",
+    "title": "Relates to transparency and safety requirements for developers of artificial intelligence models",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "foundation_model",
+      "llm_variant",
+      "ai_system_composite",
+      "ai_model_variant",
+      "adjacent_tech",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9449",
+    "latest_action_date": "2026-02-25",
+    "latest_action_description": "REPORTED REFERRED TO RULES",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/1b5990d5-0564-478c-b42e-7d68b31b3417",
@@ -6581,9 +7199,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6591,6 +7209,35 @@
     "latest_action_date": "2024-03-14",
     "latest_action_description": "REFERRED TO HOUSING",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/8d4a5668-61f3-492c-b2a8-5dca08c5fcde",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9487",
+    "title": "Relates to the use of automated employment decision-making tools and artificial intelligence systems by certain state and local entities; repealer",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9487",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "REPORTED REFERRED TO RULES",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/137650fb-cf16-4b3d-bbcf-9294c8659ae3",
@@ -6610,9 +7257,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6645,6 +7292,34 @@
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2019/A9508B",
     "latest_action_date": "2020-04-02",
     "latest_action_description": "REPORTED REFERRED TO RULES",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/01d60428-f57a-4c16-bad8-1f8f9ec14380",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9533",
+    "title": "Enacts the automation displacement protection act",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9533",
+    "latest_action_date": "2026-01-14",
+    "latest_action_description": "REFERRED TO LABOR",
     "ncsl_status": ""
   },
   {
@@ -6688,9 +7363,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6700,28 +7375,30 @@
     "ncsl_status": "Pending"
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/ca49be16-f415-4864-bedc-01a1c0e1cee0",
     "state": "NY",
-    "session": "2025",
+    "session": "2025-2026",
     "identifier": "A 9581",
-    "title": "",
+    "title": "Requires covered businesses to annually report to the department of labor regarding the impact of artificial intelligence on hiring and the nature of artificial intelligence use",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "abstract",
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A9581&ciq=urn:user:PA196471263&client_md=8f1c858264b7056328ab986721a48b06&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9581A",
+    "latest_action_date": "2026-02-06",
+    "latest_action_description": "AMEND (T) AND RECOMMIT TO LABOR",
     "ncsl_status": ""
   },
   {
@@ -6750,6 +7427,115 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/fbea9bdd-02ae-4732-92d0-13901a1525f5",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9601",
+    "title": "Prohibits the use of automated systems to make employment decisions unless there is a meaningful human review of the output of such automated system prior to the final employment decision",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9601",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/48a51281-0cc6-4a62-a28b-7d4a2eeea091",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9638",
+    "title": "Prohibits the use of a wage-fixing algorithm in combination with personal or behavioral data to set or recommend wages or compensation",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "automated_decision_system",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9638",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/19396794-dd68-4cb0-a17c-f62a49253ee7",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9641",
+    "title": "Prohibits algorithmic wage-setting",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "automated_decision_system",
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9641",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/48fa609c-16e7-44a4-8254-3cb19e21fa70",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 9642",
+    "title": "Requires the registration of data brokers and establishing a data deletion mechanism for consumers",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "ai_system_composite",
+      "artificial_intelligence",
+      "synthetic_media"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9642",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/d57e86d7-42b8-4a9e-b159-8f4584b51bda",
     "state": "NY",
     "session": "2023-2024",
@@ -6775,28 +7561,33 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/8463d503-3aff-4de0-b467-fd03f1a02a11",
     "state": "NY",
-    "session": "2025",
+    "session": "2025-2026",
     "identifier": "A 9654",
-    "title": "",
+    "title": "Enacts the New York Artificial Intelligence Civil Rights Act",
     "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence",
+      "machine_learning",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
-      "ncsl"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "title",
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000A9654&ciq=urn:user:PA196471263&client_md=e20e2dc60680086e9c32fe852c70a8c4&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9654",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": ""
   },
   {
@@ -6890,9 +7681,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6927,6 +7718,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/4523efd5-924e-4910-8577-43b76ba5597c",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "J 1363",
+    "title": "Commending Dr. Andrew L. Drozd upon the occasion of his induction into the 2025 Oneida County Historical Richard W. Couper Living Legends Hall of Fame on November 6, 2025",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/J1363",
+    "latest_action_date": "2026-01-13",
+    "latest_action_description": "REPORTED TO CALENDAR FOR CONSIDERATION",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/341ba9ab-2b62-41ca-9762-b657a39d316f",
     "state": "NY",
     "session": "2023-2024",
@@ -6948,6 +7764,58 @@
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2023/J144",
     "latest_action_date": "2023-01-10",
+    "latest_action_description": "REPORTED TO CALENDAR FOR CONSIDERATION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/34f7ec4a-d7b0-4a9b-beed-0aed93f26bdd",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "J 1464",
+    "title": "Honoring Dr. Mark Matunga upon the occasion of his designation as recipient of the Strategic Innovation Award in Business Development & Technology by Young, Gifted, & Black Entrepreneurial Awards, Inc.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "llm_variant",
+      "artificial_intelligence",
+      "large_language_model"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/J1464",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "REPORTED TO CALENDAR FOR CONSIDERATION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/64c3fc38-3573-4735-9f6e-479c17cc1146",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "J 1470",
+    "title": "Honoring Dr. Bill Tinglin upon the occasion of receiving the Global Impact Icon Award in Education & Humanitarianism from the Young, Gifted, & Black Entrepreneurial Awards",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/J1470",
+    "latest_action_date": "2026-01-21",
     "latest_action_description": "REPORTED TO CALENDAR FOR CONSIDERATION",
     "ncsl_status": ""
   },
@@ -6999,6 +7867,56 @@
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2019/J1574",
     "latest_action_date": "2019-05-30",
     "latest_action_description": "REPORTED TO CALENDAR FOR CONSIDERATION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/84e306b2-6cfe-4490-85ab-6fb72ee4229d",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "J 1748",
+    "title": "Commemorating the 25th Anniversary of Assured Information Security",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/J1748",
+    "latest_action_date": "2026-03-17",
+    "latest_action_description": "REPORTED TO CALENDAR FOR CONSIDERATION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a20359e3-46ab-4454-ac34-298dd71bbad7",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "J 1782",
+    "title": "Commemorating the 150th Anniversary of the New York State Bar Association",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/J1782",
+    "latest_action_date": "2026-03-18",
+    "latest_action_description": "REFERRED TO FINANCE",
     "ncsl_status": ""
   },
   {
@@ -7627,6 +8545,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/9276acac-c8b8-4ecb-a1fa-2ccadd0969a2",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "R 1722",
+    "title": "Senate budget resolution in response to the 2026-2027 Executive Budget submission",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/R1722",
+    "latest_action_date": "2026-03-12",
+    "latest_action_description": "ADOPTED",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/1b066d09-6ee4-4422-a962-fc60812c854d",
     "state": "NY",
     "session": "2023-2024",
@@ -7636,8 +8579,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "automated_decision_system",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -7690,12 +8633,12 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7792,28 +8735,28 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "high_risk_ai_variant",
-      "ai_system",
-      "algorithmic_tool",
-      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
-      "high_risk_ai"
+      "high_risk_ai_variant",
+      "artificial_intelligence",
+      "high_risk_ai",
+      "ai_system",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S1169A",
-    "latest_action_date": "2025-06-12",
-    "latest_action_description": "COMMITTEE DISCHARGED AND COMMITTED TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "DIED IN ASSEMBLY",
     "ncsl_status": "Pending"
   },
   {
@@ -7837,8 +8780,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S1172",
-    "latest_action_date": "2025-06-05",
-    "latest_action_description": "PASSED SENATE",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "DIED IN ASSEMBLY",
     "ncsl_status": ""
   },
   {
@@ -7917,8 +8860,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S1228C",
-    "latest_action_date": "2025-06-13",
-    "latest_action_description": "COMMITTED TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
     "ncsl_status": "Pending"
   },
   {
@@ -8043,7 +8986,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S1573",
-    "latest_action_date": "2025-01-10",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO JUDICIARY",
     "ncsl_status": "Pending"
   },
@@ -8083,8 +9026,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "machine_learning",
       "generative_ai_variant",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -8092,14 +9035,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S1815",
-    "latest_action_date": "2025-01-14",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -8171,15 +9114,15 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S1854A",
-    "latest_action_date": "2025-05-23",
-    "latest_action_description": "AMEND (T) AND RECOMMIT TO LABOR",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO LABOR",
     "ncsl_status": "Pending"
   },
   {
@@ -8192,10 +9135,10 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
       "algorithmic_tool",
       "high_risk_ai_variant",
-      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant"
@@ -8205,14 +9148,14 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S1962",
-    "latest_action_date": "2025-01-14",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -8237,7 +9180,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S2013",
-    "latest_action_date": "2025-01-14",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": ""
   },
@@ -8312,7 +9255,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S2169",
-    "latest_action_date": "2025-01-15",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO ENERGY AND TELECOMMUNICATIONS",
     "ncsl_status": ""
   },
@@ -8332,8 +9275,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8387,14 +9330,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S2414",
-    "latest_action_date": "2025-01-17",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO ELECTIONS",
     "ncsl_status": "Pending"
   },
@@ -8436,8 +9379,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8445,8 +9388,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S2437A",
-    "latest_action_date": "2025-06-10",
-    "latest_action_description": "REPASSED SENATE",
+    "latest_action_date": "2026-03-19",
+    "latest_action_description": "PASSED SENATE",
     "ncsl_status": ""
   },
   {
@@ -8459,8 +9402,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
       "core_ai",
@@ -8486,24 +9429,24 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S2487",
-    "latest_action_date": "2025-01-21",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -8598,9 +9541,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -8620,8 +9563,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -8629,8 +9572,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -8750,21 +9693,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
-      "algorithmic_tool",
-      "artificial_intelligence",
-      "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -8871,33 +9814,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S3133",
-    "latest_action_date": "2025-01-23",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NY",
-    "session": "2025",
-    "identifier": "S 3202",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S3202&ciq=urn:user:PA196471263&client_md=ffa6c9dd4102e5cc4a494718040c572e&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
     "ncsl_status": "Pending"
   },
   {
@@ -8926,6 +9844,31 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "",
+    "state": "NY",
+    "session": "2025",
+    "identifier": "S 3202",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S3202&ciq=urn:user:PA196471263&client_md=ffa6c9dd4102e5cc4a494718040c572e&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
     "bill_id": "ocd-bill/18e99ba8-6b1d-4340-9f3b-0f575077cea7",
     "state": "NY",
     "session": "2025-2026",
@@ -8946,8 +9889,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S3243A",
-    "latest_action_date": "2025-06-11",
-    "latest_action_description": "COMMITTEE DISCHARGED AND COMMITTED TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "DIED IN ASSEMBLY",
     "ncsl_status": "Pending"
   },
   {
@@ -9021,7 +9964,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S3383",
-    "latest_action_date": "2025-01-27",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": ""
   },
@@ -9091,8 +10034,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9142,9 +10085,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -9198,7 +10141,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzQwODIifQ.ldwktl7-TiIwjEZrOXnN7IfAx-dIgH9J4Owxfgkx0zQ",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S4082&ciq=urn:user:PA196471263&client_md=8e2663fabf7da7e73214207134906c75&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -9223,7 +10166,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S4082&ciq=urn:user:PA196471263&client_md=8e2663fabf7da7e73214207134906c75&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzQwODIifQ.ldwktl7-TiIwjEZrOXnN7IfAx-dIgH9J4Owxfgkx0zQ",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -9238,9 +10181,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "adjacent_tech",
       "ml_system",
       "automated_decision_system",
-      "adjacent_tech",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -9253,7 +10196,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S4276",
-    "latest_action_date": "2025-02-03",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": ""
   },
@@ -9314,15 +10257,14 @@
     "identifier": "S 4394",
     "title": "Establishes criteria for the sale of automated employment decision tools",
     "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 2,
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ml_system",
-      "adjacent_tech",
-      "machine_learning"
+      "ai_system_composite",
+      "ai_governance",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
@@ -9330,8 +10272,8 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S4394",
-    "latest_action_date": "2025-02-04",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S4394A",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO LABOR",
     "ncsl_status": "Pending"
   },
@@ -9406,8 +10348,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S4505",
-    "latest_action_date": "2025-06-17",
-    "latest_action_description": "PASSED ASSEMBLY",
+    "latest_action_date": "2025-12-19",
+    "latest_action_description": "SIGNED CHAP.689",
     "ncsl_status": ""
   },
   {
@@ -9426,13 +10368,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S4506",
-    "latest_action_date": "2025-02-06",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": ""
   },
@@ -9506,7 +10448,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzQ2MyJ9.WFVXxifYEMO-_A_jOjPxEmqfVck-TI3Il1rAnzVgNOY",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S463&ciq=urn:user:PA196471263&client_md=57921d75b257aa473fe12f0c29103752&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -9531,7 +10473,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S463&ciq=urn:user:PA196471263&client_md=57921d75b257aa473fe12f0c29103752&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzQ2MyJ9.WFVXxifYEMO-_A_jOjPxEmqfVck-TI3Il1rAnzVgNOY",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -9559,6 +10501,31 @@
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2023/S4746B",
     "latest_action_date": "2024-06-03",
     "latest_action_description": "AMEND (T) AND RECOMMIT TO CONSUMER PROTECTION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "NY",
+    "session": "2025",
+    "identifier": "S 5025",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S5025&ciq=urn:user:PA196471263&client_md=e8968659bc16d439acca38832dc476a1&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
     "ncsl_status": ""
   },
   {
@@ -9631,7 +10598,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzUyNjcifQ.VwZip-yiS7gjOwcMxy4Iv-khRDcTKzPmrDEr5gL7WLw",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S5267&ciq=urn:user:PA196471263&client_md=d3378afcbed33bccc01773a1e92dd048&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -9656,7 +10623,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S5267&ciq=urn:user:PA196471263&client_md=d3378afcbed33bccc01773a1e92dd048&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzUyNjcifQ.VwZip-yiS7gjOwcMxy4Iv-khRDcTKzPmrDEr5gL7WLw",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -9808,7 +10775,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S5609",
-    "latest_action_date": "2025-05-05",
+    "latest_action_date": "2026-02-25",
     "latest_action_description": "REPORTED AND COMMITTED TO CODES",
     "ncsl_status": ""
   },
@@ -9822,9 +10789,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "ai_governance",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -9863,8 +10830,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S5668",
-    "latest_action_date": "2025-06-13",
-    "latest_action_description": "COMMITTED TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
   {
@@ -9931,8 +10898,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -9964,7 +10931,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S6270&ciq=urn:user:PA196471263&client_md=810de6dcab5a705313eeca4ecc05df15&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzYyNzAifQ.b_TJdGF2rujxAlSbu9oWEXDn5KL-0uXbhJHoH3Gz0uw",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -9989,7 +10956,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzYyNzAifQ.b_TJdGF2rujxAlSbu9oWEXDn5KL-0uXbhJHoH3Gz0uw",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S6270&ciq=urn:user:PA196471263&client_md=810de6dcab5a705313eeca4ecc05df15&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -10017,7 +10984,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6278",
-    "latest_action_date": "2025-03-07",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": "Pending"
   },
@@ -10037,14 +11004,14 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6301",
-    "latest_action_date": "2025-03-10",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
@@ -10064,9 +11031,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -10089,13 +11056,13 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -10125,8 +11092,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6471A",
-    "latest_action_date": "2025-05-19",
-    "latest_action_description": "AMEND (T) AND RECOMMIT TO INVESTIGATIONS AND GOVERNMENT OPERATIONS",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS",
     "ncsl_status": "Pending"
   },
   {
@@ -10150,7 +11117,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6503",
-    "latest_action_date": "2025-03-17",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO ALCOHOLISM AND SUBSTANCE USE DISORDERS",
     "ncsl_status": ""
   },
@@ -10171,9 +11138,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -10246,8 +11213,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -10270,8 +11237,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -10279,14 +11246,14 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6748",
-    "latest_action_date": "2025-03-21",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -10306,14 +11273,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6751",
-    "latest_action_date": "2025-03-21",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS",
     "ncsl_status": "Pending"
   },
@@ -10353,8 +11320,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -10391,15 +11358,15 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6953B",
-    "latest_action_date": "2025-06-12",
-    "latest_action_description": "COMMITTEE DISCHARGED AND COMMITTED TO RULES",
+    "latest_action_date": "2025-12-19",
+    "latest_action_description": "SIGNED CHAP.699",
     "ncsl_status": "To Governor"
   },
   {
@@ -10412,11 +11379,11 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "synthetic_media",
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "synthetic_media",
-      "artificial_intelligence",
       "deepfake_media",
       "generative_ai_variant"
     ],
@@ -10425,15 +11392,15 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6954A",
-    "latest_action_date": "2025-06-17",
-    "latest_action_description": "SUBSTITUTED FOR A6540C",
+    "latest_action_date": "2026-03-04",
+    "latest_action_description": "ADVANCED TO THIRD READING",
     "ncsl_status": "Pending"
   },
   {
@@ -10447,26 +11414,26 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
-      "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6955",
-    "latest_action_date": "2025-03-27",
-    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6955A",
+    "latest_action_date": "2026-03-04",
+    "latest_action_description": "ADVANCED TO THIRD READING",
     "ncsl_status": "Pending"
   },
   {
@@ -10490,7 +11457,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S6958",
-    "latest_action_date": "2025-03-27",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO HOUSING, CONSTRUCTION AND COMMUNITY DEVELOPMENT",
     "ncsl_status": ""
   },
@@ -10504,22 +11471,22 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S7033",
-    "latest_action_date": "2025-03-28",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
     "ncsl_status": "Pending"
   },
@@ -10633,10 +11600,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -10648,8 +11615,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S7263",
-    "latest_action_date": "2025-06-13",
-    "latest_action_description": "COMMITTED TO RULES",
+    "latest_action_date": "2026-03-04",
+    "latest_action_description": "ADVANCED TO THIRD READING",
     "ncsl_status": "Pending"
   },
   {
@@ -10693,9 +11660,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -10745,8 +11712,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10775,9 +11742,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -10828,9 +11795,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -10850,22 +11817,22 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "automated_decision_system",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S7599C",
-    "latest_action_date": "2025-06-16",
-    "latest_action_description": "SUBSTITUTED FOR A8295D",
+    "latest_action_date": "2025-12-19",
+    "latest_action_description": "SIGNED CHAP.711",
     "ncsl_status": "To Governor"
   },
   {
@@ -10878,12 +11845,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -10930,17 +11897,17 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -10959,9 +11926,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -10973,7 +11940,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S7691",
-    "latest_action_date": "2025-04-30",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO EDUCATION",
     "ncsl_status": "Pending"
   },
@@ -11041,8 +12008,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "adjacent_tech",
       "artificial_intelligence",
+      "adjacent_tech",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -11050,9 +12017,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -11077,8 +12044,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -11106,15 +12073,15 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S7892A",
-    "latest_action_date": "2025-08-27",
-    "latest_action_description": "AMEND AND RECOMMIT TO EDUCATION",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO EDUCATION",
     "ncsl_status": "Pending"
   },
   {
@@ -11131,18 +12098,18 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S7896",
-    "latest_action_date": "2025-05-13",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO HEALTH",
     "ncsl_status": "Pending"
   },
@@ -11182,8 +12149,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -11191,8 +12158,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -11237,16 +12204,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -11254,8 +12221,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S7963",
-    "latest_action_date": "2025-05-15",
-    "latest_action_description": "REFERRED TO ELECTIONS",
+    "latest_action_date": "2026-03-05",
+    "latest_action_description": "ADVANCED TO THIRD READING",
     "ncsl_status": "Pending"
   },
   {
@@ -11279,7 +12246,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S7996",
-    "latest_action_date": "2025-05-15",
+    "latest_action_date": "2026-01-07",
     "latest_action_description": "REFERRED TO TRANSPORTATION",
     "ncsl_status": ""
   },
@@ -11354,8 +12321,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8115B",
-    "latest_action_date": "2025-06-05",
-    "latest_action_description": "AMEND AND RECOMMIT TO INTERNET AND TECHNOLOGY",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO BANKS",
     "ncsl_status": "Pending"
   },
   {
@@ -11374,9 +12341,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -11405,7 +12372,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzgyMDIifQ.TNKrWy2Tqs8JYRhXFni1r2xrXzxT_apOR3gbaWhQ0Vo",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S8202&ciq=urn:user:PA196471263&client_md=7332648d78ebccfc9b82e93eddb8c209&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -11430,7 +12397,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S8202&ciq=urn:user:PA196471263&client_md=7332648d78ebccfc9b82e93eddb8c209&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTlkyMDI1MDAwUzgyMDIifQ.TNKrWy2Tqs8JYRhXFni1r2xrXzxT_apOR3gbaWhQ0Vo",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -11445,17 +12412,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -11474,18 +12441,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_tool",
       "machine_learning",
-      "artificial_intelligence",
-      "algorithmic_tool"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -11511,8 +12478,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -11583,20 +12550,20 @@
     "matched_concepts": [
       "ml_system",
       "automated_decision_system",
-      "artificial_intelligence",
+      "llm_variant",
       "ai_system_composite",
       "adjacent_tech",
       "large_language_model",
-      "machine_learning",
-      "llm_variant"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -11617,12 +12584,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "adjacent_tech",
-      "digital_replica",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -11694,8 +12661,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -11703,8 +12670,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -11723,27 +12690,27 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "artificial_intelligence",
       "synthetic_media",
-      "generative_ai",
-      "generative_ai_variant"
+      "ai_system_composite",
+      "adjacent_tech",
+      "generative_ai_variant",
+      "generative_ai"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8331A",
-    "latest_action_date": "2025-06-09",
-    "latest_action_description": "AMEND AND RECOMMIT TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
   {
@@ -11767,8 +12734,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8356",
-    "latest_action_date": "2025-06-04",
-    "latest_action_description": "REFERRED TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO HIGHER EDUCATION",
     "ncsl_status": "Pending"
   },
   {
@@ -11787,9 +12754,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -11816,14 +12783,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8391",
-    "latest_action_date": "2025-06-17",
-    "latest_action_description": "SUBSTITUTED FOR A8882",
+    "latest_action_date": "2025-12-11",
+    "latest_action_description": "SIGNED CHAP.616",
     "ncsl_status": ""
   },
   {
@@ -11845,8 +12812,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11866,13 +12833,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
-      "synthetic_media",
+      "llm_variant",
       "adjacent_tech",
       "large_language_model",
       "ai_system_composite",
-      "machine_learning",
-      "llm_variant"
+      "artificial_intelligence",
+      "synthetic_media",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -11884,8 +12851,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8420A",
-    "latest_action_date": "2025-06-17",
-    "latest_action_description": "PASSED ASSEMBLY",
+    "latest_action_date": "2025-12-11",
+    "latest_action_description": "SIGNED CHAP.617",
     "ncsl_status": "To Governor"
   },
   {
@@ -11898,8 +12865,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -11925,11 +12892,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "ai_system",
       "artificial_intelligence",
       "synthetic_media",
+      "ai_system_composite",
+      "adjacent_tech",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -11937,15 +12904,15 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8451",
-    "latest_action_date": "2025-07-07",
-    "latest_action_description": "REFERRED TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": ""
   },
   {
@@ -11964,15 +12931,15 @@
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8459",
-    "latest_action_date": "2025-07-16",
-    "latest_action_description": "REFERRED TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": ""
   },
   {
@@ -11991,15 +12958,15 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8484",
-    "latest_action_date": "2025-08-20",
-    "latest_action_description": "REFERRED TO RULES",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO HIGHER EDUCATION",
     "ncsl_status": ""
   },
   {
@@ -12028,6 +12995,34 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/40f54c81-abc7-4fa4-aa2f-889b1e79f4c6",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8589",
+    "title": "Enacts the automation displacement protection act",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8589B",
+    "latest_action_date": "2026-01-16",
+    "latest_action_description": "AMEND AND RECOMMIT TO LABOR",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/59bdb91e-443e-4b96-a8b8-3b77e75faa92",
     "state": "NY",
     "session": "2023-2024",
@@ -12050,6 +13045,60 @@
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2023/S8611",
     "latest_action_date": "2024-02-21",
     "latest_action_description": "REFERRED TO CIVIL SERVICE AND PENSIONS",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/bd6d65a3-de33-4cf3-8105-21f79f743ce1",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8616",
+    "title": "Establishes the \"protecting consumers and jobs from discriminatory pricing act\"",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8616",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/84afa36a-b542-4ddb-b1c0-849a26031f94",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8623",
+    "title": "Prohibits the use of algorithmically set prices and requires the disclosure of automated pricing systems",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8623",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
     "ncsl_status": ""
   },
   {
@@ -12093,8 +13142,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -12104,28 +13153,84 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/93f39cb8-25cf-41e3-b021-1b23dccb45fd",
     "state": "NY",
-    "session": "2025",
-    "identifier": "S 8706",
-    "title": "",
+    "session": "2025-2026",
+    "identifier": "S 8685",
+    "title": "Relates to the qualification of an applicant for the New York opportunity promise scholarship",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8685B",
+    "latest_action_date": "2026-03-24",
+    "latest_action_description": "AMEND AND RECOMMIT TO HIGHER EDUCATION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c3cb12f2-682e-4f10-b033-73b3392f1d76",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8706",
+    "title": "Requires covered businesses to annually report to the department of labor regarding the impact of artificial intelligence on hiring and the nature of artificial intelligence use",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NY2025000S8706&ciq=urn:user:PA196471263&client_md=4dd0f2fc09dfb980739e90c14826fdae&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8706A",
+    "latest_action_date": "2026-01-15",
+    "latest_action_description": "AMEND (T) AND RECOMMIT TO LABOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/310ad08f-6b17-45f9-981c-b795fef2dc89",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8721",
+    "title": "Establishes privacy and publicity rights for likenesses altered using artificial intelligence",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8721",
+    "latest_action_date": "2026-01-07",
+    "latest_action_description": "REFERRED TO CODES",
     "ncsl_status": ""
   },
   {
@@ -12165,12 +13270,95 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "ai_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2023/S8755",
+    "latest_action_date": "2024-03-07",
+    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/5bd75853-dcbd-40d4-8c0a-8025bd6205b0",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8780",
+    "title": "Requires certain kratom products to include a warning label",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
       "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8780",
+    "latest_action_date": "2026-02-03",
+    "latest_action_description": "SUBSTITUTED BY A9443",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/5f4f8627-8650-4e4d-9e95-1a490085ed2e",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8827",
+    "title": "Relates to warning labels on certain feature platforms; repealer",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8827",
+    "latest_action_date": "2026-02-13",
+    "latest_action_description": "DELIVERED TO GOVERNOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0593535f-741b-457e-917d-ddf41eb7b161",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8828",
+    "title": "Relates to transparency and safety requirements for developers of artificial intelligence models",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
+      "adjacent_tech",
+      "artificial_intelligence",
+      "foundation_model",
+      "llm_variant"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -12179,10 +13367,122 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2023/S8755",
-    "latest_action_date": "2024-03-07",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8828",
+    "latest_action_date": "2026-03-27",
+    "latest_action_description": "SIGNED CHAP.96",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/5e59c927-8d09-440e-929c-8ccfc732ed94",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8831",
+    "title": "Relates to the use of automated employment decision-making tools and artificial intelligence systems by certain state and local entities; repealer",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence",
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8831",
+    "latest_action_date": "2026-02-13",
+    "latest_action_description": "DELIVERED TO GOVERNOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c67ceff5-3718-4e54-9a67-72f19c52a463",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8872",
+    "title": "Prohibits algorithmic wage-setting",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8872",
+    "latest_action_date": "2026-01-13",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/2abb3425-b68f-485a-819a-308fc854b4a1",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8874",
+    "title": "Relates to the use of artificial intelligence in customer services",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8874",
+    "latest_action_date": "2026-01-13",
     "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
-    "ncsl_status": "Pending"
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/fbccfd4c-240d-4e07-b5c9-d8694fabc2f7",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8928",
+    "title": "Enacts the artificial intelligence workforce impact transparency act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8928",
+    "latest_action_date": "2026-01-16",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/1a351d20-ca9e-45c5-ae7b-f1899a01a0e8",
@@ -12210,6 +13510,259 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/120ff7ff-f663-443c-8e76-1e280f542768",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9000",
+    "title": "STATE OPERATIONS BUDGET",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9000B",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "AMEND AND RECOMMIT TO FINANCE",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/78350b1d-a9fe-44e3-97cc-6cd49d074335",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9004",
+    "title": "CAPITAL PROJECTS BUDGET",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9004B",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "AMEND AND RECOMMIT TO FINANCE",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/36ae522a-7366-404f-af74-d9815ddc45d5",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9005",
+    "title": "Enacts into law major components of legislation necessary to implement the state public protection and general government budget for the 2026-2027 state fiscal year",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9005B",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "AMEND (T) AND RECOMMIT TO FINANCE",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/2bf8a802-294e-4dda-891c-c4832fe5a75d",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9006",
+    "title": "Enacts into law major components of legislation necessary to implement the state education, labor, housing and family assistance budget for the 2026-2027 state fiscal year",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence",
+      "ai_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9006B",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "AMEND (T) AND RECOMMIT TO FINANCE",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d395b3d7-36c8-4fa8-b0e8-031f41dc306b",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9008",
+    "title": "Enacts into law major components of legislation necessary to implement the state transportation, economic development and environmental conservation budget for the 2026-2027 state fiscal year",
+    "updated": "",
+    "core_ai_hits": 6,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "synthetic_media",
+      "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_model_variant",
+      "generative_ai_variant",
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9008B",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "AMEND (T) AND RECOMMIT TO FINANCE",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/51d00594-6166-405b-8510-c9b72935846a",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9028",
+    "title": "Prohibits employers from engaging in discrimination on the basis of a protected class when using artificial intelligence in certain employment practices",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9028",
+    "latest_action_date": "2026-01-23",
+    "latest_action_description": "REFERRED TO INVESTIGATIONS AND GOVERNMENT OPERATIONS",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3c3597c7-6bf8-4c5d-9362-b146492ce0d7",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9051",
+    "title": "Prohibits artificial intelligence chatbots from using features which are considered unsafe for minors",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9051",
+    "latest_action_date": "2026-02-25",
+    "latest_action_description": "REPORTED AND COMMITTED TO FINANCE",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/4a7fe537-4aff-4e31-9d5e-b1fb5f6faf28",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9088",
+    "title": "Requires the registration of data brokers and establishing a data deletion mechanism for consumers",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "synthetic_media",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9088",
+    "latest_action_date": "2026-01-30",
+    "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d626f34c-a6d0-473f-bda8-db5b1e27511d",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9089",
+    "title": "Relates to food delivery worker safety",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9089",
+    "latest_action_date": "2026-01-30",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/ac77bd90-c2de-4ce4-b9ce-49a4279abd05",
     "state": "NY",
     "session": "2023-2024",
@@ -12219,10 +13772,10 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system_composite",
       "ml_system",
       "automated_decision_system",
       "artificial_intelligence",
-      "ai_system_composite",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -12230,9 +13783,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -12240,6 +13793,167 @@
     "latest_action_date": "2024-06-04",
     "latest_action_description": "PASSED SENATE",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/7fe55996-446c-434a-96c1-9d1006098ddd",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9131",
+    "title": "Relates to data broker regulation",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9131",
+    "latest_action_date": "2026-02-05",
+    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/ebe264a8-53cd-42ea-8355-afa492fc4de2",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9132",
+    "title": "Prohibits the use of a wage-fixing algorithm in combination with personal or behavioral data to set or recommend wages or compensation",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "automated_decision_system",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9132",
+    "latest_action_date": "2026-02-05",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/eac538cc-c2d5-480f-8082-dc08b4a992d8",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9144",
+    "title": "Imposes a moratorium on data center permit issuance; and relates to data center rate impacts",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9144",
+    "latest_action_date": "2026-02-06",
+    "latest_action_description": "REFERRED TO ENVIRONMENTAL CONSERVATION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/5fb36241-4138-401d-ad4d-bf273ac7a4eb",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9236",
+    "title": "Relates to falsely reporting an incident through the use of artificial intelligence",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9236",
+    "latest_action_date": "2026-02-18",
+    "latest_action_description": "REFERRED TO CODES",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/68c7de46-9f5b-46f3-8948-3563307e50b6",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9269",
+    "title": "Provides for the protection of health information",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9269",
+    "latest_action_date": "2026-02-20",
+    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d7c2809b-255a-4f3d-9be4-6ed3e31155d6",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9280",
+    "title": "Enacts the \"New York open water data act\"",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9280",
+    "latest_action_date": "2026-02-24",
+    "latest_action_description": "REFERRED TO ENVIRONMENTAL CONSERVATION",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/408abfbb-4426-488b-b642-d502ee712945",
@@ -12252,24 +13966,24 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
-      "ai_system_composite",
-      "artificial_intelligence",
       "ml_system",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S933",
-    "latest_action_date": "2025-05-22",
+    "latest_action_date": "2026-03-05",
     "latest_action_description": "PASSED SENATE",
     "ncsl_status": "Pending"
   },
@@ -12283,14 +13997,14 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "generative_ai",
       "llm_variant",
       "machine_learning",
+      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
       "large_language_model",
       "ai_model_variant",
-      "generative_ai",
-      "artificial_intelligence",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -12298,15 +14012,15 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S934A",
-    "latest_action_date": "2025-06-12",
-    "latest_action_description": "REPASSED SENATE",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "SUBSTITUTED BY A3411B",
     "ncsl_status": "Pending"
   },
   {
@@ -12319,9 +14033,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -12336,6 +14050,34 @@
     "latest_action_date": "2024-05-14",
     "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/2521acf6-ab2a-41d5-81b1-dcadb6763383",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9390",
+    "title": "Relates to the rules of evidence and the admissibility of evidence alleged to be fabricated by generative artificial intelligence",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9390",
+    "latest_action_date": "2026-03-06",
+    "latest_action_description": "REFERRED TO JUDICIARY",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/d24d8349-b700-4d66-82c5-88f165be7574",
@@ -12353,9 +14095,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -12363,6 +14105,32 @@
     "latest_action_date": "2024-05-15",
     "latest_action_description": "REFERRED TO LABOR",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/381803b6-432a-4a22-a01a-bcdf8414f485",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9408",
+    "title": "Relates to a prohibition on chatbot toys",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9408",
+    "latest_action_date": "2026-03-10",
+    "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/b2f7a266-90e6-424b-a864-c1774f302a4c",
@@ -12380,9 +14148,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -12426,21 +14194,21 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "generative_ai_variant",
       "ai_system_composite",
       "adjacent_tech",
       "machine_learning",
-      "generative_ai_variant",
-      "generative_ai",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -12489,13 +14257,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -12541,8 +14309,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "machine_learning",
       "generative_ai_variant",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -12550,9 +14318,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -12575,8 +14343,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"

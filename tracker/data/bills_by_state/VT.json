@@ -34,15 +34,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -137,8 +137,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -179,28 +179,53 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/a5f126aa-0db9-48b5-9894-16ef23eaea9a",
+    "bill_id": "",
     "state": "VT",
-    "session": "2025-2026",
+    "session": "2025",
     "identifier": "H 217",
-    "title": "An act relating to prohibiting geoengineering",
+    "title": "",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 0,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "ncsl_curated_ai_law"
     ],
     "matched_tiers": [
-      "core_ai"
+      "ncsl"
     ],
     "match_fields": [
-      "raw_text"
+      "ncsl_source"
     ],
     "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0217/H-0217%20As%20Introduced.pdf",
-    "latest_action_date": "2025-02-13",
-    "latest_action_description": "Read first time and referred to the Committee on Environment",
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVlQyMDI1MDAwSDIxNyJ9.v4d6CZ5_11MY80BzZuQVbkGx4vUzcHtWXsGf0zgtXvM",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending - Carryover"
+  },
+  {
+    "bill_id": "",
+    "state": "VT",
+    "session": "2025",
+    "identifier": "H 217",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H217&ciq=urn:user:PA196471263&client_md=d67c4b0cce46b222ee1213acb86dfb46&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
   },
   {
@@ -302,7 +327,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H318&ciq=urn:user:PA196471263&client_md=dfb3d72fbcdadd65befa3f179590162e&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVlQyMDI1MDAwSDMxOCJ9.DbqkVTBbGwcQLlmTd6QEvjphlI8Rjs-t266vjoiOY0U",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -327,7 +352,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiVlQyMDI1MDAwSDMxOCJ9.DbqkVTBbGwcQLlmTd6QEvjphlI8Rjs-t266vjoiOY0U",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H318&ciq=urn:user:PA196471263&client_md=dfb3d72fbcdadd65befa3f179590162e&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -367,19 +392,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "machine_learning",
       "automated_decision_system",
-      "artificial_intelligence",
-      "algorithmic_tool"
+      "adjacent_tech",
+      "algorithmic_tool",
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -439,8 +464,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -467,8 +492,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -487,16 +512,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -521,8 +546,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -542,8 +567,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "automated_decision_system",
-      "artificial_intelligence",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -787,28 +812,28 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/757709ab-3282-45a2-89b8-28dc25156f8a",
     "state": "VT",
-    "session": "2025",
+    "session": "2025-2026",
     "identifier": "H 644",
-    "title": "",
+    "title": "An act relating to regulating the use of artificial intelligence in the provision of mental health services",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "title"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H644&ciq=urn:user:PA196471263&client_md=bd4e686e8f0dcf2d1261c8b71671acb0&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-01-13",
+    "latest_action_description": "Read first time and referred to the Committee on Health Care",
     "ncsl_status": ""
   },
   {
@@ -896,25 +921,25 @@
     "core_ai_hits": 10,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
       "synthetic_media",
       "ai_system",
       "algorithmic_tool",
       "generative_ai_variant",
       "high_risk_ai_variant",
-      "machine_learning",
-      "llm_variant",
-      "foundation_model",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "llm_variant",
+      "foundation_model"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -933,19 +958,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system_composite",
+      "adjacent_tech",
       "generative_ai_variant",
       "high_risk_ai_variant",
-      "artificial_intelligence",
-      "ai_system_composite",
-      "adjacent_tech"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -953,6 +978,31 @@
     "latest_action_date": "2024-01-09",
     "latest_action_description": "Read first time and referred to the Committee on Commerce and Economic Development",
     "ncsl_status": "Failed - Adjourned"
+  },
+  {
+    "bill_id": "",
+    "state": "VT",
+    "session": "2025",
+    "identifier": "H 714",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H714&ciq=urn:user:PA196471263&client_md=dc28c43c5ab8479500ceaf387bf4b3cb&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/bed1f896-3639-4079-9538-d69230271d75",
@@ -1009,7 +1059,7 @@
     "bill_id": "",
     "state": "VT",
     "session": "2025",
-    "identifier": "H 776",
+    "identifier": "H 752",
     "title": "",
     "updated": "",
     "core_ai_hits": 0,
@@ -1025,7 +1075,57 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H776&ciq=urn:user:PA196471263&client_md=e7525cc56ade9bad1de30d5bc1a1ea21&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H752&ciq=urn:user:PA196471263&client_md=f88e78be267739e0e3b7fb35990ab40b&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f9ef5450-2193-4c27-a9e6-cf213c0f5b3e",
+    "state": "VT",
+    "session": "2025-2026",
+    "identifier": "H 776",
+    "title": "An act relating to the use of artificial intelligence in health care coverage decisions",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0776/H-0776%20As%20Introduced.pdf",
+    "latest_action_date": "2026-01-27",
+    "latest_action_description": "Read first time and referred to the Committee on Health Care",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "VT",
+    "session": "2025",
+    "identifier": "H 783",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H783&ciq=urn:user:PA196471263&client_md=dde26683460fa3bdace1ef893693d9a3&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": ""
@@ -1056,28 +1156,29 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/f473adc6-c2e5-4672-8bdd-f9ee77c8729d",
     "state": "VT",
-    "session": "2025",
+    "session": "2025-2026",
     "identifier": "H 792",
-    "title": "",
+    "title": "An act relating to liability standards for developers and deployers of artificial intelligence systems",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "title"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H792&ciq=urn:user:PA196471263&client_md=bf7bd82fe4f09845aa88235b8caf4bcb&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0792/H-0792%20As%20Introduced.pdf",
+    "latest_action_date": "2026-01-28",
+    "latest_action_description": "Read first time and referred to the Committee on Commerce and Economic Development",
     "ncsl_status": ""
   },
   {
@@ -1109,75 +1210,128 @@
     "bill_id": "",
     "state": "VT",
     "session": "2025",
+    "identifier": "H 804",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H804&ciq=urn:user:PA196471263&client_md=bf23da3a918cdca13322813bc0628cd7&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8a4bbd9e-7378-4bca-ac6a-83a5c85aa7b1",
+    "state": "VT",
+    "session": "2025-2026",
     "identifier": "H 814",
-    "title": "",
+    "title": "An act relating to neurological rights and the use of artificial intelligence technology in health and human services",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "title"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H814&ciq=urn:user:PA196471263&client_md=ad2235342f6fd714e5f22eb1dbb1dd6f&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0814/H-0814%20As%20Passed%20by%20the%20House%20Unofficial.pdf",
+    "latest_action_date": "2026-03-20",
+    "latest_action_description": "Read 1st time & referred to Committee on Health and Welfare",
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/6783fc29-f691-40bb-9396-1833b4a254f9",
     "state": "VT",
-    "session": "2025",
+    "session": "2025-2026",
     "identifier": "H 816",
-    "title": "",
+    "title": "An act relating to regulating the use of artificial intelligence in the provision of mental health services",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "title"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H816&ciq=urn:user:PA196471263&client_md=56e7c09fff8315e10ce7defd5daa1e9d&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0816/H-0816%20As%20Passed%20by%20the%20House%20Unofficial.pdf",
+    "latest_action_date": "2026-03-20",
+    "latest_action_description": "Read 1st time & referred to Committee on Health and Welfare",
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/09fb77cf-b141-4437-89b0-4d087291f601",
     "state": "VT",
-    "session": "2025",
+    "session": "2025-2026",
     "identifier": "H 821",
-    "title": "",
+    "title": "An act relating to artificial intelligence",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "title"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H821&ciq=urn:user:PA196471263&client_md=6431989366fcb9c5fc1870f789d0aa7a&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0821/H-0821%20As%20Introduced.pdf",
+    "latest_action_date": "2026-01-29",
+    "latest_action_description": "Read first time and referred to the Committee on Commerce and Economic Development",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/20d76a4a-5b1a-4d34-aa6a-2dc1ea103f95",
+    "state": "VT",
+    "session": "2025-2026",
+    "identifier": "H 822",
+    "title": "An act relating to the regulation of generative artificial intelligence systems",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0822/H-0822%20As%20Introduced.pdf",
+    "latest_action_date": "2026-01-29",
+    "latest_action_description": "Read first time and referred to the Committee on Commerce and Economic Development",
     "ncsl_status": ""
   },
   {
@@ -1203,6 +1357,81 @@
     "primary_url": "https://legislature.vermont.gov/Documents/2024/Docs/BILLS/H-0826/H-0826%20As%20Introduced.pdf",
     "latest_action_date": "2024-01-16",
     "latest_action_description": "Read first time and referred to the Committee on Education",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "VT",
+    "session": "2025",
+    "identifier": "H 829",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H829&ciq=urn:user:PA196471263&client_md=40aa92f6ef6791a94d8f632f975a0b72&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/1bd4535e-345d-4af7-8afc-16a60a6c5cc5",
+    "state": "VT",
+    "session": "2025-2026",
+    "identifier": "H 846",
+    "title": "An act relating to artificial intelligence and elections",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0846/H-0846%20As%20Introduced.pdf",
+    "latest_action_date": "2026-01-30",
+    "latest_action_description": "Read first time and referred to the Committee on Government Operations and Military Affairs",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8dea6c7a-88d3-4769-b5f3-e7bf75c5efc1",
+    "state": "VT",
+    "session": "2025-2026",
+    "identifier": "H 855",
+    "title": "An act relating to defenses in civil actions based on harm caused by artificial intelligence",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0855/H-0855%20As%20Introduced.pdf",
+    "latest_action_date": "2026-02-03",
+    "latest_action_description": "Read first time and referred to the Committee on Judiciary",
     "ncsl_status": ""
   },
   {
@@ -1258,6 +1487,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "",
+    "state": "VT",
+    "session": "2025",
+    "identifier": "H 875",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000H875&ciq=urn:user:PA196471263&client_md=b8b1a1603563605d58147a843753f532&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/74005879-acc9-4010-ab02-abc423da4d76",
     "state": "VT",
     "session": "2019-2020",
@@ -1273,8 +1527,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1325,8 +1579,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1486,6 +1740,56 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "",
+    "state": "VT",
+    "session": "2025",
+    "identifier": "S 205",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000S205&ciq=urn:user:PA196471263&client_md=de18af8fe962748656fbd66564786616&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "VT",
+    "session": "2025",
+    "identifier": "S 207",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000S207&ciq=urn:user:PA196471263&client_md=3ef12ea59f21ce85abe9212d46d7722a&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/d7f98ba0-2f40-4ebf-a5b0-630a8d9dfcb9",
     "state": "VT",
     "session": "2019-2020",
@@ -1517,49 +1821,47 @@
     "identifier": "S 23",
     "title": "An act relating to the use of synthetic media in elections",
     "updated": "",
-    "core_ai_hits": 2,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "synthetic_media",
+      "synthetic_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0023/S-0023%20House%20Proposal%20of%20Amendment%20Unofficial.pdf",
+    "latest_action_date": "2026-03-10",
+    "latest_action_description": "Signed by Governor on March 5, 2026",
+    "ncsl_status": "Pending - Carryover"
+  },
+  {
+    "bill_id": "ocd-bill/8efd127a-6600-4bc7-a1e1-8a9593831b7f",
+    "state": "VT",
+    "session": "2025-2026",
+    "identifier": "S 241",
+    "title": "An act relating to regulating the use of artificial intelligence in the provision of mental health services",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
       "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0023/S-0023%20House%20Proposal%20of%20Amendment%20Unofficial.pdf",
-    "latest_action_date": "2025-06-16",
-    "latest_action_description": "Action Calendar: Unfinished Business",
-    "ncsl_status": "Pending - Carryover"
-  },
-  {
-    "bill_id": "",
-    "state": "VT",
-    "session": "2025",
-    "identifier": "S 241",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:VT2025000S241&ciq=urn:user:PA196471263&client_md=1d2aa1f38883ceb4b2593b3e9ba6313d&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/S-0241/S-0241%20As%20Introduced.pdf",
+    "latest_action_date": "2026-01-13",
+    "latest_action_description": "Read 1st time & referred to Committee on Health and Welfare",
     "ncsl_status": ""
   },
   {

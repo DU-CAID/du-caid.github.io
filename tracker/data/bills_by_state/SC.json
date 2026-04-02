@@ -1,30 +1,5 @@
 [
   {
-    "bill_id": "ocd-bill/8c167de2-f680-45cc-be71-7dbf295fa4b6",
-    "state": "SC",
-    "session": "2025-2026",
-    "identifier": "H 3001",
-    "title": "House Rules",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/3001.htm",
-    "latest_action_date": "2025-02-06",
-    "latest_action_description": "Scrivener's error corrected",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/a0fbe35d-dfd6-4ee9-9e94-deb89073c789",
     "state": "SC",
     "session": "2023-2024",
@@ -47,6 +22,31 @@
     "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/3001.htm",
     "latest_action_date": "2024-12-03",
     "latest_action_description": "Introduced and adopted",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8c167de2-f680-45cc-be71-7dbf295fa4b6",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 3001",
+    "title": "House Rules",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/3001.htm",
+    "latest_action_date": "2026-01-29",
+    "latest_action_description": "Scrivener's error corrected",
     "ncsl_status": ""
   },
   {
@@ -100,33 +100,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/695d0b5a-e67a-4e3d-896f-c37337f5da7e",
-    "state": "SC",
-    "session": "2025-2026",
-    "identifier": "H 3046",
-    "title": "Sexual Exploitation of a Minor, morphed images",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "morphed_image"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/3046.htm",
-    "latest_action_date": "2025-04-10",
-    "latest_action_description": "Introduced and read first time",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/b8affb82-2e54-4346-aded-815fe4170ad0",
     "state": "SC",
     "session": "2023-2024",
@@ -152,6 +125,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/695d0b5a-e67a-4e3d-896f-c37337f5da7e",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 3046",
+    "title": "Sexual Exploitation of a Minor, morphed images",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "morphed_image"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/3046.htm",
+    "latest_action_date": "2025-04-10",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/13831f5a-eb07-4cff-90e5-34ce6195c583",
     "state": "SC",
     "session": "2025-2026",
@@ -164,8 +164,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -470,11 +470,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/3431.htm",
-    "latest_action_date": "2025-05-12",
-    "latest_action_description": "Scrivener's error corrected",
+    "latest_action_date": "2026-02-06",
+    "latest_action_description": "Effective date 02/05/26",
     "ncsl_status": ""
   },
   {
@@ -521,8 +521,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -572,8 +572,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -884,6 +884,115 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/21ec6171-904f-413e-95a3-b1ea41313c65",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 4582",
+    "title": "Artificial Intelligence Electives",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4582.htm",
+    "latest_action_date": "2026-01-13",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/9e781487-cd8f-4b02-867f-a1791f243f2c",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 4591",
+    "title": "Stop Harm from Addictive Social Media",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4591.htm",
+    "latest_action_date": "2026-03-26",
+    "latest_action_description": "Committee report: Favorable with amendment Judiciary",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/bb733e5e-74f2-4e33-b2e8-1f6718718b8c",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 4631",
+    "title": "Youth Mental Health Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4631.htm",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "Member(s) request name added as sponsor: Schuessler",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/20b55adb-6671-49dd-8a91-6af09e75bf8d",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 4657",
+    "title": "Right to Compute Act",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "synthetic_media",
+      "ai_system_composite",
+      "adjacent_tech",
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4657.htm",
+    "latest_action_date": "2026-01-13",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/faaa1523-d998-49db-8b30-ff5b01a08494",
     "state": "SC",
     "session": "2023-2024",
@@ -901,14 +1010,41 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.scstatehouse.gov/sess125_2023-2024/bills/4660.htm",
     "latest_action_date": "2024-01-09",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b33b44df-8270-4412-8868-47e6b4c2ea25",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 4675",
+    "title": "Video Surveillance",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4675.htm",
+    "latest_action_date": "2026-01-13",
     "latest_action_description": "Introduced and read first time",
     "ncsl_status": ""
   },
@@ -922,12 +1058,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -965,6 +1101,56 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/d64db4d8-c3bb-4ad1-8427-6143538958f0",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 4804",
+    "title": "Sexual Exploitation of a Minor, penalties",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "morphed_image"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4804.htm",
+    "latest_action_date": "2026-03-26",
+    "latest_action_description": "Committee report: Favorable with amendment Judiciary",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7223a03a-1a2a-40a1-ab1c-bf68651da952",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 4807",
+    "title": "Sexual Exploitation of a Minor, first degree",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "morphed_image"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4807.htm",
+    "latest_action_date": "2026-01-20",
+    "latest_action_description": "Member(s) request name added as sponsor: White",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/1f89a8de-9800-46c7-a5ab-670ff5c13b9b",
     "state": "SC",
     "session": "2023-2024",
@@ -980,15 +1166,41 @@
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.scstatehouse.gov/sess125_2023-2024/bills/4973.htm",
     "latest_action_date": "2024-03-27",
     "latest_action_description": "Member(s) request name added as sponsor: Mitchell, Yow",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/65491863-3d26-4a4e-9fd8-b915d5e46c51",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 4991",
+    "title": "Carolina Day",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4991.htm",
+    "latest_action_date": "2026-01-27",
+    "latest_action_description": "Scrivener's error corrected",
     "ncsl_status": ""
   },
   {
@@ -1017,6 +1229,57 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/371e544d-0452-401b-89f5-bba99df90639",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 5071",
+    "title": "Department of Transportation",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5071.htm",
+    "latest_action_date": "2026-02-10",
+    "latest_action_description": "Member(s) request name added as sponsor: Chapman",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/2ef4ddcc-31fa-4f74-a132-34fbc5ae8973",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 5085",
+    "title": "AI Week",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5085.htm",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "Scrivener's error corrected",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "",
     "state": "SC",
     "session": "2023",
@@ -1040,6 +1303,31 @@
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
+  },
+  {
+    "bill_id": "ocd-bill/9517cea5-0b83-48ee-9810-1207b3bd66d6",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 5138",
+    "title": "Chatbot Regulation",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5138.htm",
+    "latest_action_date": "2026-02-10",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/9625be84-1119-40ab-a121-9b8f1706a3ff",
@@ -1067,10 +1355,94 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/fda4b996-5383-4064-a8fd-7f62614a044a",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 5206",
+    "title": "Health insurance",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5206.htm",
+    "latest_action_date": "2026-02-18",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8b1cebb8-5f46-40af-9a13-61200bad5ee9",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 5253",
+    "title": "Ai in education",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "automated_decision_system",
+      "generative_ai_variant",
+      "ai_system_composite",
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm",
+    "latest_action_date": "2026-02-24",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0f770c89-f888-4117-8ad7-6102409d3064",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 5362",
+    "title": "Department of Transportation Commission dissolved",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5362.htm",
+    "latest_action_date": "2026-03-11",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "",
     "state": "SC",
     "session": "2025",
-    "identifier": "H 5206",
+    "identifier": "H 5476",
     "title": "",
     "updated": "",
     "core_ai_hits": 0,
@@ -1086,9 +1458,36 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:SC2025000H5206&ciq=urn:user:PA196471263&client_md=310722761dc07fbc09ae6e004406f43c&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:SC2025000H5476&ciq=urn:user:PA196471263&client_md=2de9a8d5debc70356a1b3e1814fe2563&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/58eb6504-2cd1-4f7e-89f4-01794676a282",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "S 1037",
+    "title": "Protecting Children from Chatbots",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1037.htm",
+    "latest_action_date": "2026-03-24",
+    "latest_action_description": "Scrivener's error corrected",
     "ncsl_status": ""
   },
   {
@@ -1101,9 +1500,9 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "llm_variant",
       "ai_system",
       "artificial_intelligence",
-      "llm_variant",
       "large_language_model",
       "ai_system_composite",
       "ai_model_variant"
@@ -1113,14 +1512,64 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/225.htm",
     "latest_action_date": "2025-01-15",
     "latest_action_description": "Introduced",
+    "ncsl_status": "Pending - Carryover"
+  },
+  {
+    "bill_id": "ocd-bill/dc2b6b5d-5aeb-4970-aa37-ac41d9f5eaa0",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "S 227",
+    "title": "Local planning",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/227.htm",
+    "latest_action_date": "2026-03-12",
+    "latest_action_description": "Committee report: Favorable with amendment Labor, Commerce and Industry",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "SC",
+    "session": "2025",
+    "identifier": "S 268",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiU0MyMDI1MDAwUzI2OCJ9.cwQgbdmpJUcrDbGNsmO3bS_kV2B3zI8FqVzU7pLIgtE",
+    "latest_action_date": "",
+    "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
   },
   {
@@ -1144,31 +1593,6 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:SC2025000S268&ciq=urn:user:PA196471263&client_md=07330ae9c2eeaefb0a64eedc9e73a31c&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending - Carryover"
-  },
-  {
-    "bill_id": "",
-    "state": "SC",
-    "session": "2025",
-    "identifier": "S 268",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiU0MyMDI1MDAwUzI2OCJ9.cwQgbdmpJUcrDbGNsmO3bS_kV2B3zI8FqVzU7pLIgtE",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -1214,8 +1638,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1309,17 +1733,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system",
-      "machine_learning"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1505,28 +1929,134 @@
     "ncsl_status": "Pending - Carryover"
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/956aa1de-e74e-4562-bf0c-208642189b89",
     "state": "SC",
-    "session": "2025",
-    "identifier": "S 788",
-    "title": "",
+    "session": "2025-2026",
+    "identifier": "S 723",
+    "title": "CSAM penalties",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "morphed_image"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/723.htm",
+    "latest_action_date": "2026-02-26",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e23a98a7-b923-4421-be5e-9bcce23d3bd7",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "S 734",
+    "title": "State Benefits Forfeiture",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:SC2025000S788&ciq=urn:user:PA196471263&client_md=af90d3413238b960e726e7ea48fcb56e&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/734.htm",
+    "latest_action_date": "2026-01-13",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/933e846a-71eb-44a8-8a82-84f320751f07",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "S 788",
+    "title": "Artificial Intelligence and Therapy or Psychotherapy",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ml_system",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/788.htm",
+    "latest_action_date": "2026-01-13",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e3d75302-9234-45fa-a98b-43311a50b93e",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "S 831",
+    "title": "SCDOT Modernization",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/831.htm",
+    "latest_action_date": "2026-03-24",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d7cf7a39-8a50-405c-8267-e13d87e9aaf1",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "S 844",
+    "title": "Carolina Day",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/844.htm",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "Introduced and adopted",
     "ncsl_status": ""
   },
   {
@@ -1555,53 +2085,113 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/600b8bf6-f430-4169-bd67-fd68195e0b3c",
     "state": "SC",
-    "session": "2025",
-    "identifier": "S 920",
-    "title": "",
+    "session": "2025-2026",
+    "identifier": "S 896",
+    "title": "Chatbot Regulation",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:SC2025000S920&ciq=urn:user:PA196471263&client_md=570431ad8cbc4221a05df8f9fbfa9209&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/896.htm",
+    "latest_action_date": "2026-02-05",
+    "latest_action_description": "Introduced and read first time",
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/d6803332-897d-4805-97f8-9d6a40ddf6e2",
     "state": "SC",
-    "session": "2025",
-    "identifier": "S 963",
-    "title": "",
+    "session": "2025-2026",
+    "identifier": "S 919",
+    "title": "Protection of Minors from Pornography and Obscenities Act",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "morphed_image"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/919.htm",
+    "latest_action_date": "2026-02-11",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/dfeef232-2ec7-4a63-87e4-09f1539dae61",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "S 920",
+    "title": "Health insurance",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:SC2025000S963&ciq=urn:user:PA196471263&client_md=0c3074c565da813998bf9df022f4bb4a&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/920.htm",
+    "latest_action_date": "2026-02-11",
+    "latest_action_description": "Introduced and read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a0f984da-90de-4147-a9de-06b2b9f20c1d",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "S 963",
+    "title": "Artificial intelligence, consumer protection",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "high_risk_ai_variant",
+      "ai_system_composite",
+      "adjacent_tech",
+      "artificial_intelligence",
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/963.htm",
+    "latest_action_date": "2026-02-26",
+    "latest_action_description": "Introduced and read first time",
     "ncsl_status": ""
   },
   {
@@ -1620,8 +2210,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",

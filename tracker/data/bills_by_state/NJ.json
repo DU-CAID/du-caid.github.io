@@ -25,28 +25,107 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/815cc215-436c-49eb-bfd0-8d66729c5767",
     "state": "NJ",
-    "session": "2026",
-    "identifier": "A 1160",
-    "title": "",
+    "session": "222",
+    "identifier": "A 1021",
+    "title": "Creates standards for independent bias auditing of automated employment decision tools.",
     "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "ncsl"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A1160&ciq=urn:user:PA196471263&client_md=e542463732ce59061f834e01f95e1fd2&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1500/1021_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/1e2ce22d-597b-4e45-8e66-5923b0edb758",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1065",
+    "title": "Establishes workforce development training program for advanced transmission technology.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1500/1065_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Labor Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3bb4715b-0c86-4a00-9fc6-311cf198932d",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1160",
+    "title": "Requires DOH to evaluate technology uses in long-term care settings, implements certain technological requirements within long-term care settings, and clarifies existing telehealth reimbursement parity includes long-term care settings.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1500/1160_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Health Infrastructure Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/56d0f227-f89a-41a8-bcdf-d86adf58a158",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1170",
+    "title": "Requires submission of energy usage plan to BPU for proposed artificial intelligence data centers; requires all electricity for artificial intelligence data centers to be derived from new clean energy sources.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1500/1170_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
     "ncsl_status": ""
   },
   {
@@ -72,6 +151,31 @@
     "primary_url": "http://www.njleg.state.nj.us/2020/Bills/A1500/1187_I1.HTM",
     "latest_action_date": "2020-01-14T05:00:00+00:00",
     "latest_action_description": "Introduced in the Assembly, Referred to Assembly Transportation and Independent Authorities Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/63d02fa2-6899-44ef-afba-e01a8248ac8d",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1203",
+    "title": "\"CJ's Law\"; Criminalizes manufacture and distribution of substances containing kratom under certain circumstances.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1500/1203_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Judiciary Committee",
     "ncsl_status": ""
   },
   {
@@ -125,6 +229,85 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/d7b6cc99-411c-4534-8481-80ececbe5e81",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1323",
+    "title": "Requires boards of education and boards of trustees to adopt policy on use of surveillance systems with artificial intelligence capabilities.*",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1500/1323_S1.PDF",
+    "latest_action_date": "2026-03-02T05:00:00+00:00",
+    "latest_action_description": "Received in the Senate, Referred to Senate Education Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c0874240-8577-49b9-9b1a-58a15905c094",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1359",
+    "title": "Prohibits deepfake pornography and imposes criminal and civil penalties for non-consensual disclosure.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1500/1359_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Judiciary Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/2d39840d-5091-477a-a38e-68c7f6d34210",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1360",
+    "title": "\"New Jersey Disclosure and Accountability Transparency Act (NJ DaTA)\"; establishes certain requirements for disclosure and processing of personally identifiable information; establishes Office of Data Protection and Responsible Use in Division of Consumer Affairs.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1500/1360_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/11311999-75fa-4aea-904b-6cd6024af692",
     "state": "NJ",
     "session": "217",
@@ -175,6 +358,58 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/0f5f0435-1eb7-48e0-965a-bddb8ef24874",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1548",
+    "title": "Establishes Bridge Transportation Asset Management Plan Pilot Program; appropriates $9.5 million.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2000/1548_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Transportation and Independent Authorities Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/6afa197d-2513-4ab9-824e-9602788a5e71",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1550",
+    "title": "Requires adoption and implementation of cybersecurity standards by casinos and sportsbooks; establishes safe gaming certification program.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2000/1550_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Tourism, Gaming and the Arts Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "",
     "state": "NJ",
     "session": "2024",
@@ -197,6 +432,31 @@
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A1604&ciq=urn:user:PA196471263&client_md=ce6553cf8257e13e5aac573816caf62f&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c3a66590-83ed-4237-a728-1268ef923db6",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1617",
+    "title": "\"CJ's Law\"; Criminalizes manufacture, sale, and possession of substances containing kratom.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2000/1617_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Consumer Affairs Committee",
     "ncsl_status": ""
   },
   {
@@ -224,6 +484,31 @@
     "latest_action_date": "2022-01-11T05:00:00+00:00",
     "latest_action_description": "Introduced in the Assembly, Referred to Assembly Science, Innovation and Technology Committee",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/7b6f60f3-4acf-442f-b857-0c6e58ae73b8",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1720",
+    "title": "Establishes \"Minority and Women-Owned Businesses State Contractor Remedies Act.\"",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2000/1720_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly State and Local Government Committee",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/a937f1d9-716c-4f0f-95be-2923d5e8474f",
@@ -401,6 +686,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/a048ff25-a8aa-4e9c-b83e-4dc22816c14a",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 1915",
+    "title": "Makes supplemental appropriation of $10 million to New Jersey Community Development Corporation for various community projects in City of Paterson.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2000/1915_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Community Development and Women's Affairs Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/4dd665fe-47c0-474a-beab-0af3e8badf84",
     "state": "NJ",
     "session": "218",
@@ -410,8 +720,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -443,8 +753,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -501,6 +811,32 @@
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2022/A2500/2030_I1.HTM",
     "latest_action_date": "2022-01-11T05:00:00+00:00",
     "latest_action_description": "Introduced in the Assembly, Referred to Assembly Transportation and Independent Authorities Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/960858c1-5689-4cba-b765-9ba84fa643f5",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2069",
+    "title": "Requires Commissioner of Labor and Workforce Development to conduct study and issue report on impact of artificial intelligence on growth of State's economy.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2500/2069_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
     "ncsl_status": ""
   },
   {
@@ -581,6 +917,90 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/84e07c35-7165-454e-9d77-37b35ae208b9",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2297",
+    "title": "Establishes certain data privacy protection requirements for consumer health data, health care providers, and patients.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2500/2297_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Health Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/1129eff4-0d11-4564-807f-7232b4fc122c",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2299",
+    "title": "Prohibits use and sale of algorithmic devices for setting rent price or occupancy of residential dwelling units.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2500/2299_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Housing Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/afb2b479-f7eb-40f5-8185-8e0bf211f305",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2312",
+    "title": "Creates separate crime for items depicting sexual exploitation or abuse of children; concerns computer generated or manipulated sexually explicit images.",
+    "updated": "",
+    "core_ai_hits": 6,
+    "adjacent_ai_hits": 4,
+    "matched_concepts": [
+      "generative_ai",
+      "ai_system",
+      "artificial_intelligence",
+      "machine_learning",
+      "generative_ai_variant",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2500/2312_T1.HTM",
+    "latest_action_date": "2026-03-23T04:00:00+00:00",
+    "latest_action_description": "Passed by the Assembly (72-0-0)",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/73499aa5-c457-4f92-8c4f-a4dc1f36561a",
     "state": "NJ",
     "session": "221",
@@ -606,28 +1026,85 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/d204ce72-f4e6-40f2-ab1b-e45709b56bfc",
     "state": "NJ",
-    "session": "2026",
-    "identifier": "A 2478",
-    "title": "",
+    "session": "222",
+    "identifier": "A 2447",
+    "title": "Amends and supplements State aviation appropriations and language provisions in FY 2022 annual State appropriations act.",
     "updated": "",
     "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "ncsl"
+      "adjacent_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2500/2447_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Transportation and Independent Authorities Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7ada4307-680b-4137-8f3e-25a9ac5ba05e",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2478",
+    "title": "Establishes Artificial Intelligence Ethics Board in DOLWD.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A2478&ciq=urn:user:PA196471263&client_md=e854f8eedba296888a2c48dec873009f&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2500/2478_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7acee793-260d-4ed8-968e-d8983a23c27a",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2480",
+    "title": "Establishes programs in EDA to support New Jersey-based start-up, small businesses, and medium-sized businesses adopting artificial intelligence capabilities; appropriates $175.5 million.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2500/2480_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
     "ncsl_status": ""
   },
   {
@@ -656,6 +1133,36 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/4e670db1-ef46-4897-93c3-97f8a81a2458",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2608",
+    "title": "Provides funding to nonprofit organizations to implement smart technology and artificial intelligence systems to enhance security infrastructure.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "ai_system_composite",
+      "adjacent_tech",
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3000/2608_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "",
     "state": "NJ",
     "session": "2020",
@@ -681,6 +1188,65 @@
     "ncsl_status": "Failed – Adjourned"
   },
   {
+    "bill_id": "ocd-bill/a8226b7d-02eb-4d85-aa5c-92f21e0b04db",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2616",
+    "title": "Requires OIT to develop NJ generative artificial intelligence program and implement artificial intelligence education courses with county governments; appropriates $1.5 million.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "adjacent_tech",
+      "generative_ai_variant",
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3000/2616_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3b2fbad2-9f26-4718-884d-3c006566ad81",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2620",
+    "title": "Establishes task force to research and report on potential sources of funding for artificial intelligence initiatives and appropriate tax incentives to support businesses impacted by expansion of use of artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3000/2620_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/010ec320-7ff1-4f43-8e85-e4c0ce835264",
     "state": "NJ",
     "session": "218",
@@ -703,6 +1269,160 @@
     "primary_url": "http://www.njleg.state.nj.us/2018/Bills/A3000/2653_I1.HTM",
     "latest_action_date": "2018-06-18T04:00:00+00:00",
     "latest_action_description": "Reported and Referred to Assembly Appropriations Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/29f90bdc-f3aa-430c-8f6d-417dad5a3e48",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2685",
+    "title": "The \"New Jersey Bleacher Safety Act.\"",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3000/2685_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Community Development and Women's Affairs Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/fad2cdd6-00d3-47df-b520-6b95b956e962",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2710",
+    "title": "Establishes \"Authentic Relationships Act\"; prohibits artificial intelligence relationship simulation.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "adjacent_tech",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3000/2710_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "A 2726",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A2726&ciq=urn:user:PA196471263&client_md=6eac57555af4fb32d33071abf3109bec&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/bea8b5d3-dacc-4189-9b44-23dc0f43056b",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2736",
+    "title": "Updates certain crimes to include nonconsensual pornographic deepfake threats and disclosure.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3000/2736_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Judiciary Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/38ea332b-7a83-49ef-9a68-3a5d753823b0",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2742",
+    "title": "Amends public school laws on harassment, intimidation, and bullying to apply to certain acts against teachers and staff members; revises definition of \"harassment, intimidation, or bullying\" in \"Anti-Bullying Bill of Rights Act.\"",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3000/2742_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Education Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/6626e149-a07d-42a5-b39a-1c4650c95b88",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 2767",
+    "title": "Modifies child endangerment statute to include AI technology; establishes criminal penalties.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3000/2767_T1.HTM",
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Transferred to Assembly Science, Innovation and Technology Committee",
     "ncsl_status": ""
   },
   {
@@ -753,6 +1473,243 @@
     "primary_url": "http://www.njleg.state.nj.us/2018/Bills/A3000/2865_I1.HTM",
     "latest_action_date": "2018-02-01T05:00:00+00:00",
     "latest_action_description": "Introduced in the Assembly, Referred to Assembly Law and Public Safety Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "A 2951",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A2951&ciq=urn:user:PA196471263&client_md=7b76e292e68032ccbde6325ca917b3ba&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3a8cf373-55e1-4df5-9d1d-bb406ae61320",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3058",
+    "title": "Establishes Deepfake Technology Unit in DLPS; appropriates $2 million.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "ml_system",
+      "artificial_intelligence",
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3058_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Public Safety and Preparedness Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/fc4d5197-90e7-4bb3-b28b-85e1504c89b4",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3064",
+    "title": "Requires social media platforms to cooperate with nonprofit organization initiatives to remove nonconsensual intimate images or videos.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3064_T1.HTM",
+    "latest_action_date": "2026-02-19T05:00:00+00:00",
+    "latest_action_description": "Reported out of Assembly Committee, 2nd Reading",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/553fd346-fd4a-4fdf-b900-93007e68a6e0",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3072",
+    "title": "Establishes Artificial Intelligence Grant Program in Office of Secretary of Higher Education.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3072_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/39ad5276-274b-4eeb-ba5e-b3d0696a59ec",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3073",
+    "title": "Establishes various programs to support neurodiverse students at county colleges; appropriates $1.475 million.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3073_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Higher Education Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a33f82e2-6ffd-4bc0-a91b-0f8d1f5a4dee",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3075",
+    "title": "Provides corporation business tax credits and gross income tax credits to businesses employing and retaining certain neurodiverse individuals.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3075_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/1f574af9-bad6-4e29-8eee-ac88c5a2c19d",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3076",
+    "title": "Requires AG to study use of artificial intelligence for certain law enforcement purposes and issue report.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3076_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Public Safety and Preparedness Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0de7c7fc-13bc-4ecc-a54a-2865f2b1c66c",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3087",
+    "title": "Directs DEP to establish artificial intelligence flood prediction and mapping tool.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "adjacent_tech",
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3087_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b7ad48b9-be99-4805-a4f6-caa893528534",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 313",
+    "title": "\"Restoring the Representation of Legal Residents Act;\" requires Secretary of State to adjust census apportionment and redistricting data to remove illegal alien population for apportionment and redistricting purposes in this State.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A0500/313_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Oversight, Reform and Federal Relations Committee",
     "ncsl_status": ""
   },
   {
@@ -844,8 +1801,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -855,6 +1812,137 @@
     "primary_url": "http://www.njleg.state.nj.us/2020/Bills/A3500/3283_I1.HTM",
     "latest_action_date": "2020-02-25T05:00:00+00:00",
     "latest_action_description": "Introduced in the Assembly, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/01632c39-a605-4572-963e-89ee528da3f7",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3307",
+    "title": "Regulates artificial intelligence in news media industry; establishes \"Artificial Intelligence In Communications Oversight Committee.\"",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "generative_ai"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3307_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7a77badd-0f32-4b1b-938a-40021394ea06",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3326",
+    "title": "Makes use of algorithmic systems to influence price and supply of residential rental units unlawful.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3326_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Housing Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/1e17f84c-2a00-4e1f-81f9-5bf1fa777942",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3390",
+    "title": "Requires Division of Consumer Affairs to create open data portal and provide certain datasets online.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3390_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Regulated Professions Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "A 3497",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A3497&ciq=urn:user:PA196471263&client_md=e67294adbaa8cfcd9e90563e153364a2&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/63585c1f-8fb2-4041-b0d8-2e90d7e67c14",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3535",
+    "title": "Authorizes conversion of certain office parks and retail centers to mixed-use developments.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A4000/3535_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
     "ncsl_status": ""
   },
   {
@@ -883,28 +1971,55 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/019c88b4-add2-4990-a2aa-9510e68b15a4",
     "state": "NJ",
-    "session": "2026",
+    "session": "222",
     "identifier": "A 3585",
-    "title": "",
+    "title": "Prohibits and imposes criminal penalty on disclosure of certain intentionally deceptive audio or visual media within 90 days of election.",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "deepfake_media",
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A3585&ciq=urn:user:PA196471263&client_md=9f94774a3f0c19563b648ced463e1653&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A4000/3585_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Judiciary Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/bf13d31d-0241-41f6-ba2b-82998c380064",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3600",
+    "title": "Prohibits election-related identity theft; upgrades dissemination of false campaign communications to third degree crime.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A4000/3600_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Judiciary Committee",
     "ncsl_status": ""
   },
   {
@@ -930,6 +2045,31 @@
     "primary_url": "http://www.njleg.state.nj.us/2018/Bills/A4000/3695_I1.HTM",
     "latest_action_date": "2018-03-13T04:00:00+00:00",
     "latest_action_description": "Introduced in the Assembly, Referred to Assembly Human Services Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7f3f8304-1b07-42e5-a924-00f3e0c27649",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3744",
+    "title": "\"Packaging and Paper Product Stewardship Act.\"",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A4000/3744_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Environment and Solid Waste Committee",
     "ncsl_status": ""
   },
   {
@@ -977,31 +2117,6 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A3854&ciq=urn:user:PA196471263&client_md=6cf7c530e7e673033f43b37195686aa9&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
-    "session": "2024",
-    "identifier": "A 3854",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A3854&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
     "latest_action_date": "",
     "latest_action_description": "",
@@ -1028,6 +2143,56 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTM4NTQifQ.67C-hKKuTbjRouio35Hg9-9RHaBLQ8juX4tsTSyGLaY",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2024",
+    "identifier": "A 3854",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A3854&ciq=urn:user:PA196471263&client_md=6cf7c530e7e673033f43b37195686aa9&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2024",
+    "identifier": "A 3855",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A3855&ciq=urn:user:PA196471263&client_md=e4fecfc6bd175a09078c79b69ee870f7&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1086,31 +2251,6 @@
     "bill_id": "",
     "state": "NJ",
     "session": "2024",
-    "identifier": "A 3855",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A3855&ciq=urn:user:PA196471263&client_md=e4fecfc6bd175a09078c79b69ee870f7&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
-    "session": "2025",
     "identifier": "A 3858",
     "title": "",
     "updated": "",
@@ -1127,7 +2267,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTM4NTgifQ.0JqevaI0-eBmU8EdP4rjuocl4C2XdsdPC4Joqq8y26Q",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A3858&ciq=urn:user:PA196471263&client_md=4562aee3c2e92f9edd6dbcc353fec2ba&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1160,7 +2300,7 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2024",
+    "session": "2025",
     "identifier": "A 3858",
     "title": "",
     "updated": "",
@@ -1177,10 +2317,42 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A3858&ciq=urn:user:PA196471263&client_md=4562aee3c2e92f9edd6dbcc353fec2ba&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTM4NTgifQ.0JqevaI0-eBmU8EdP4rjuocl4C2XdsdPC4Joqq8y26Q",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/2a46fbaf-e7f0-4ee5-8894-0c6fce6883ff",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 390",
+    "title": "Establishes NJ Artificial Intelligence Advisory Council.",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 3,
+    "matched_concepts": [
+      "ai_system",
+      "algorithmic_tool",
+      "machine_learning",
+      "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A0500/390_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/d16c9435-eda1-4a60-92a3-133dc97be7ad",
@@ -1259,6 +2431,86 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/55a4281d-7363-466a-baf4-2494e2b1fc31",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3959",
+    "title": "Establishes Office of Cybersecurity Infrastructure.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 3,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A4000/3959_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "A 3966",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A3966&ciq=urn:user:PA196471263&client_md=bfa28adabc9090eda211b11512d38336&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0f03915c-ce5e-4493-b883-e099230dd50c",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 3989",
+    "title": "Restricts use and sale of algorithmic devices for establishing rent price or occupancy of residential property.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A4000/3989_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Housing Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/035b97de-8060-4f61-bdc7-304fcb020f66",
     "state": "NJ",
     "session": "221",
@@ -1282,31 +2534,6 @@
     "latest_action_date": "2024-03-20T04:00:00+00:00",
     "latest_action_description": "Approved P.L.2024, c.2.",
     "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
-    "session": "2024",
-    "identifier": "A 4030",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A4030&ciq=urn:user:PA196471263&client_md=be0855e37b8742175070f3317414cc22&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
   },
   {
     "bill_id": "",
@@ -1361,8 +2588,8 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2026",
-    "identifier": "A 4163",
+    "session": "2024",
+    "identifier": "A 4030",
     "title": "",
     "updated": "",
     "core_ai_hits": 0,
@@ -1378,9 +2605,34 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A4163&ciq=urn:user:PA196471263&client_md=5362ae27a11bb0331890769b92f4f239&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A4030&ciq=urn:user:PA196471263&client_md=be0855e37b8742175070f3317414cc22&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/0010f68b-e796-4fcb-8719-b0c9ade29c94",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4163",
+    "title": "Provides civil penalties for campaign advertisements containing \"deepfake\" misrepresentations of candidates.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-02-19T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly State and Local Government Committee",
     "ncsl_status": ""
   },
   {
@@ -1484,6 +2736,33 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "ocd-bill/2b0d08ae-b07d-42df-af7b-adbbe6c04948",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4352",
+    "title": "Requires school districts to provide instruction on artificial intelligence; requires Secretary of Higher Education to develop artificial intelligence model curricula.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-02-19T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/020b0fc9-53d5-44ba-a0d0-5bfc149a5a69",
     "state": "NJ",
     "session": "221",
@@ -1493,8 +2772,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1639,31 +2918,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2025",
-    "identifier": "A 4480",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTQ0ODAifQ.vz4PQxwsi5j5h5zG4lh0wl1T8tHXbi3bw5GSs7GJGXU",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2024",
     "identifier": "A 4480",
     "title": "",
@@ -1682,6 +2936,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A4480&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2025",
+    "identifier": "A 4480",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTQ0ODAifQ.vz4PQxwsi5j5h5zG4lh0wl1T8tHXbi3bw5GSs7GJGXU",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1812,6 +3091,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "A 4637",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A4637&ciq=urn:user:PA196471263&client_md=b910407a5a8fc6a624eeea4b3cdcd943&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/7ebed472-2095-495e-a7f0-4e69c17666dd",
     "state": "NJ",
     "session": "221",
@@ -1835,6 +3139,56 @@
     "latest_action_date": "2024-10-21T04:00:00+00:00",
     "latest_action_description": "Reported out of Assembly Committee with Amendments and Referred to Assembly Education Committee",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "A 4683",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A4683&ciq=urn:user:PA196471263&client_md=a4360979e6f6b0e9625ffddbf6b2fccc&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/90a12335-8c1d-47ae-a3b7-c737e8de4671",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4685",
+    "title": "Prohibits use and sale of algorithmic devices that set sale price of goods or services.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Consumer Affairs Committee",
+    "ncsl_status": ""
   },
   {
     "bill_id": "",
@@ -1885,6 +3239,285 @@
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Enacted"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "A 4708",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A4708&ciq=urn:user:PA196471263&client_md=991b642e662c5a471f2063e04e3954ec&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0b38af2a-ce3f-4642-b593-d59882bc66ef",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4710",
+    "title": "\"Clean Energy AI Incentivization Act\"; directs BPU to incentivize artificial intelligence centers to bring their own self-sufficient, clean energy.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/2ff4a1da-2697-4caa-87dc-886e00bd7169",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4728",
+    "title": "Regulates deceptive use of artificial intelligence in photo advertising of certain dwellings.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4728_S1.PDF",
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Reported out of Asm. Comm. with Amendments, and Referred to Assembly Housing Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f4feed9d-ea06-4651-900b-45480b76c48e",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4729",
+    "title": "Requires disclosure to be made when generative artificial intelligence is used to operate chatbots that provide election related information.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4729_S1.PDF",
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Reported and Referred to Assembly State and Local Government Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3d2d1521-a0e9-48c7-8206-98493c8ef304",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4730",
+    "title": "Requires person or entity to notify certain consumers when communicating with generative artificial intelligence to engage in trade or commerce.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4730_S1.PDF",
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Reported and Referred to Assembly Consumer Affairs Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/5366c358-1f29-4747-9d3d-eeea509e0d73",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4731",
+    "title": "Directs professional and occupational boards to promulgate rules for licensee use of generative artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4731_S1.PDF",
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Reported out of Asm. Comm. with Amendments, and Referred to Assembly Regulated Professions Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c3ad7150-8c74-4dde-b1c0-28ab1d40639e",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4732",
+    "title": "Requires artificial intelligence companion operators to provide notifications that users are not communicating with human.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4732_S1.PDF",
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Reported and Referred to Assembly Children, Families and Food Security Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/9cf35507-12ae-4004-b3c5-048b93788fe9",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4733",
+    "title": "Prohibits advertising generative artificial intelligence as able to practice regulated profession or occupation.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4733_S1.PDF",
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Reported and Referred to Assembly Regulated Professions Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/36f24c6a-1158-44f7-869c-275667265a4d",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4741",
+    "title": "Restricts use of certain artificial intelligence generated communications in election campaigns.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-19T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "A 4742",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A4742&ciq=urn:user:PA196471263&client_md=4d30a51ff6eaa907962a444384f2515b&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/075df084-4309-4e77-a8d7-6088d60a58ae",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4769",
+    "title": "Requires certain State agencies to establish expedited approval and permitting procedures for artificial intelligence data centers powered by small modular nuclear reactors.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-19T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Telecommunications and Utilities Committee",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/65aeb845-eeeb-48b5-9814-3385af740147",
@@ -1960,6 +3593,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTQ4NzIifQ.4VFzqVPspSui68yM2FBnV1t1bZygO_ukZnSk88DKcGo",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2024",
+    "identifier": "A 4872",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A4872&ciq=urn:user:PA196471263&client_md=77ce65e86765cc22fcca4b42c6e5000a&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -2194,31 +3852,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2024",
-    "identifier": "A 5009",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A5009&ciq=urn:user:PA196471263&client_md=7d120efe31cb2adf293259d3ddb12741&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2025",
     "identifier": "A 5009",
     "title": "",
@@ -2237,6 +3870,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTUwMDkifQ.qFhEaZbTDqbnIHpJuGYGP7qWsQ06L5NIKoCVks1vQCg",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2024",
+    "identifier": "A 5009",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A5009&ciq=urn:user:PA196471263&client_md=7d120efe31cb2adf293259d3ddb12741&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -2357,8 +4015,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2599,31 +4257,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2025",
-    "identifier": "A 5264",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTUyNjQifQ.NrARe2dWRZlgNbrXpjLanxEusX7Oc3hJRjSUWVrUrmY",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "To Governor"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2024",
     "identifier": "A 5264",
     "title": "",
@@ -2642,6 +4275,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A5264&ciq=urn:user:PA196471263&client_md=36e6d0c4bdb8de975f67d11e536a348a&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "To Governor"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2025",
+    "identifier": "A 5264",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTUyNjQifQ.NrARe2dWRZlgNbrXpjLanxEusX7Oc3hJRjSUWVrUrmY",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "To Governor"
@@ -2727,31 +4385,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2025",
-    "identifier": "A 5470",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTU0NzAifQ.92CUHRjpWEhvAFpABgftuurdbBu8w1yaWGPTuoWnlJ0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2024",
     "identifier": "A 5470",
     "title": "",
@@ -2770,6 +4403,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A5470&ciq=urn:user:PA196471263&client_md=ef9e06f532fce7b1a95f3d3d26e18cb1&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2025",
+    "identifier": "A 5470",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTU0NzAifQ.92CUHRjpWEhvAFpABgftuurdbBu8w1yaWGPTuoWnlJ0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -2859,8 +4517,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3103,31 +4761,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2024",
-    "identifier": "A 5777",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A5777&ciq=urn:user:PA196471263&client_md=6aca35657f177020e63c79c9e5395205&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2025",
     "identifier": "A 5777",
     "title": "",
@@ -3146,6 +4779,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQTU3NzcifQ.CqsYedgWwOHFhomuz9yt-wUOnZlPQr68H5OKKF1b_rk",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2024",
+    "identifier": "A 5777",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000A5777&ciq=urn:user:PA196471263&client_md=6aca35657f177020e63c79c9e5395205&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -3379,7 +5037,7 @@
     "bill_id": "",
     "state": "NJ",
     "session": "2026",
-    "identifier": "A 799",
+    "identifier": "A 770",
     "title": "",
     "updated": "",
     "core_ai_hits": 0,
@@ -3395,9 +5053,39 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A799&ciq=urn:user:PA196471263&client_md=0a8de70ffb8923455478289d21178f55&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A770&ciq=urn:user:PA196471263&client_md=c950b606f44be815002f58a6d0f83dc0&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8a0c3a63-e91e-4ac7-9a5f-8414016133a0",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 799",
+    "title": "Prohibits advertising artificial intelligence system as licensed mental health professional.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "ai_system_composite",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1000/799_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
     "ncsl_status": ""
   },
   {
@@ -3426,28 +5114,53 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/f89b2844-fd01-4102-ba41-4a3be5c3c9bb",
     "state": "NJ",
-    "session": "2026",
+    "session": "222",
     "identifier": "A 908",
-    "title": "",
+    "title": "Requires hospitals and nursing homes to provide access to certain interpreter services for deaf and hard of hearing.",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000A908&ciq=urn:user:PA196471263&client_md=cea72d75291c0ca1199c3babea85a583&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1000/908_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Health Infrastructure Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/9611b1b8-7ede-4184-9d55-515df6b0bd5d",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 945",
+    "title": "Establishes \"Enhanced Transit Village Program\" to be administered by Office of Planning Advocacy in Department of State and DOT.",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1000/945_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Commerce and Economic Development Committee",
     "ncsl_status": ""
   },
   {
@@ -3601,6 +5314,60 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/aabcef36-2e87-413f-8110-68de4a251e50",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "AJR 80",
+    "title": "Urges Congress and President to enact \"Do Not Disturb Act.\"",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/AJR/80_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Consumer Affairs Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f403f989-388d-42c6-bcaf-410a0178d2b4",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "AR 101",
+    "title": "Urges generative artificial intelligence and content sharing platforms to make voluntary commitments to prevent and remove harmful content.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "generative_ai_variant",
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/AR/101_I1.HTM",
+    "latest_action_date": "2026-01-13T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/ceb23b40-547b-4db8-95aa-38624d2da325",
     "state": "NJ",
     "session": "221",
@@ -3680,31 +5447,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2024",
-    "identifier": "AR 188",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000AR188&ciq=urn:user:PA196471263&client_md=88c4014671b6529260bdf8d8b7a97d41&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2025",
     "identifier": "AR 188",
     "title": "",
@@ -3723,6 +5465,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwQVIxODgifQ.496DNiJ0le3yYA0fbp_zHPZFql0uAfd8S-EG9k_8k5g",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2024",
+    "identifier": "AR 188",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000AR188&ciq=urn:user:PA196471263&client_md=88c4014671b6529260bdf8d8b7a97d41&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -3843,10 +5610,10 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S1500/1159_I1.HTM",
     "latest_action_date": "2026-01-13T05:00:00+00:00",
@@ -3949,10 +5716,40 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S1500/1413_I1.HTM",
-    "latest_action_date": "2026-01-13T05:00:00+00:00",
-    "latest_action_description": "Introduced in the Senate, Referred to Senate Commerce Committee",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S1500/1413_T1.HTM",
+    "latest_action_date": "2026-02-12T05:00:00+00:00",
+    "latest_action_description": "Reported from Senate Committee, 2nd Reading",
     "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3f33b2d6-bad0-4d3d-af23-5d61c619c883",
+    "state": "NJ",
+    "session": "221",
+    "identifier": "S 1438",
+    "title": "Concerns regulation of automated systems and artificial intelligence used by State agencies.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "automated_decision_system",
+      "adjacent_tech",
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2024/S1500/1438_I1.HTM",
+    "latest_action_date": "2024-01-09T05:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
+    "ncsl_status": "Pending"
   },
   {
     "bill_id": "ocd-bill/54706975-42bb-4d43-9b1f-c0105ac2d523",
@@ -3977,36 +5774,6 @@
     "primary_url": "http://www.njleg.state.nj.us/2016/Bills/S1500/1438_I1.HTM",
     "latest_action_date": "2016-02-16T05:00:00+00:00",
     "latest_action_description": "Introduced in the Senate, Referred to Senate Transportation Committee",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "ocd-bill/3f33b2d6-bad0-4d3d-af23-5d61c619c883",
-    "state": "NJ",
-    "session": "221",
-    "identifier": "S 1438",
-    "title": "Concerns regulation of automated systems and artificial intelligence used by State agencies.",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 2,
-    "matched_concepts": [
-      "automated_decision_system",
-      "artificial_intelligence",
-      "adjacent_tech",
-      "machine_learning"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://pub.njleg.state.nj.us/Bills/2024/S1500/1438_I1.HTM",
-    "latest_action_date": "2024-01-09T05:00:00+00:00",
-    "latest_action_description": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
     "ncsl_status": "Pending"
   },
   {
@@ -4119,12 +5886,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4257,10 +6024,10 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S2000/1802_I1.HTM",
     "latest_action_date": "2026-01-13T05:00:00+00:00",
@@ -4302,12 +6069,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "generative_ai_variant",
       "high_risk_ai_variant",
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite",
-      "high_risk_ai"
+      "high_risk_ai",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4332,12 +6099,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4385,16 +6152,16 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4456,31 +6223,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2024",
-    "identifier": "S 2025",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S2025&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2025",
     "identifier": "S 2025",
     "title": "",
@@ -4499,6 +6241,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzIwMjUifQ.SXvX6izsMQE1KNDyUemzjCeYB4LPU5P6GiSEqRGjq-0",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2024",
+    "identifier": "S 2025",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S2025&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -4542,8 +6309,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4590,9 +6357,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "deepfake_media",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4617,9 +6384,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
-      "ml_system",
-      "machine_learning"
+      "ml_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -4628,7 +6395,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S2500/2130_I1.HTM",
     "latest_action_date": "2026-01-13T05:00:00+00:00",
@@ -4870,8 +6637,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "automated_decision_system"
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -4948,12 +6715,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -5000,18 +6767,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
+      "ai_system_composite",
       "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S3000/2860_I1.HTM",
     "latest_action_date": "2026-01-13T05:00:00+00:00",
@@ -5028,9 +6795,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -5061,13 +6828,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S3000/2940_I1.HTM",
     "latest_action_date": "2026-01-13T05:00:00+00:00",
@@ -5084,8 +6851,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -5094,37 +6861,12 @@
       "raw_text",
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S3000/2942_I1.HTM",
     "latest_action_date": "2026-01-13T05:00:00+00:00",
     "latest_action_description": "Introduced in the Senate, Referred to Senate Labor Committee",
     "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
-    "session": "2024",
-    "identifier": "S 2964",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S2964&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
   },
   {
     "bill_id": "",
@@ -5147,6 +6889,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzI5NjQifQ.34CKmRvhqBNRVBpSzU9Rh7JYhyT--16GUz7QseHDPGQ",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2024",
+    "identifier": "S 2964",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S2964&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -5205,31 +6972,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2025",
-    "identifier": "S 3046",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzMwNDYifQ.Rh-Jy6R1nGTo1FZnLXzgg_83uUTX6pW486aPmtFmysE",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2024",
     "identifier": "S 3046",
     "title": "",
@@ -5248,6 +6990,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S3046&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2025",
+    "identifier": "S 3046",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzMwNDYifQ.Rh-Jy6R1nGTo1FZnLXzgg_83uUTX6pW486aPmtFmysE",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -5380,6 +7147,31 @@
   {
     "bill_id": "",
     "state": "NJ",
+    "session": "2024",
+    "identifier": "S 3225",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S3225&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
     "session": "2025",
     "identifier": "S 3225",
     "title": "",
@@ -5403,29 +7195,30 @@
     "ncsl_status": "Pending"
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/322be219-3348-40c3-8ae8-0a80e2f0def1",
     "state": "NJ",
-    "session": "2024",
-    "identifier": "S 3225",
-    "title": "",
+    "session": "222",
+    "identifier": "S 3263",
+    "title": "Regulates use of artificial intelligence-enabled video interview in hiring process.",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S3225&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S3500/3263_I1.HTM",
+    "latest_action_date": "2026-02-02T05:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Labor Committee",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/26e0a9a3-015a-42fa-8726-e25a1fdb2007",
@@ -5505,6 +7298,58 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "ocd-bill/5f53f83d-0324-4ddd-b18b-4ffd4c0e09c0",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 3303",
+    "title": "Updates certain crimes to include nonconsensual pornographic deepfake threats and disclosure.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S3500/3303_I1.HTM",
+    "latest_action_date": "2026-02-02T05:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Judiciary Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3d011797-eae8-4bb3-bd7b-7241799771ef",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 3305",
+    "title": "Prohibits creation or disclosure of deceptive audio or visual media, known as \"deepfakes,\" under certain circumstances.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S3500/3305_I1.HTM",
+    "latest_action_date": "2026-02-02T05:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Judiciary Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/006caee1-cf6d-4c02-87ee-330229d24734",
     "state": "NJ",
     "session": "221",
@@ -5532,31 +7377,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2025",
-    "identifier": "S 3398",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzMzOTgifQ.L-saCwJ89AR55F-JUWIim8jCO-xZIeD77NQh3VilNgI",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2024",
     "identifier": "S 3398",
     "title": "",
@@ -5575,6 +7395,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S3398&ciq=urn:user:PA196471263&client_md=b2b73b10155cabaa2c8811d5d1ff20c0&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2025",
+    "identifier": "S 3398",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzMzOTgifQ.L-saCwJ89AR55F-JUWIim8jCO-xZIeD77NQh3VilNgI",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -5639,16 +7484,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
       "machine_learning",
-      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -5791,6 +7636,31 @@
   {
     "bill_id": "",
     "state": "NJ",
+    "session": "2026",
+    "identifier": "S 3611",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000S3611&ciq=urn:user:PA196471263&client_md=dd0a644897c015590e0c003eb84b4c26&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
     "session": "2025",
     "identifier": "S 3612",
     "title": "",
@@ -5814,6 +7684,31 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "S 3612",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000S3612&ciq=urn:user:PA196471263&client_md=cc86723c3910796d7680388a002e631f&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
     "bill_id": "ocd-bill/60f9407a-053b-424f-b1d7-ec093ec87fb2",
     "state": "NJ",
     "session": "218",
@@ -5823,12 +7718,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -5839,6 +7734,31 @@
     "latest_action_date": "2019-03-18T04:00:00+00:00",
     "latest_action_description": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/f44bc4b8-a2e4-4490-ae87-94e8c3c538c2",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 3639",
+    "title": "Requires BPU, DCA, and DEP to establish expedited approval and permitting procedures for artificial intelligence data centers powered by small modular nuclear reactors.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-02-24T05:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Economic Growth Committee",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/5e717f67-a55e-4a20-9206-778f45743ce1",
@@ -5866,6 +7786,32 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "ocd-bill/afd340c1-598d-46cf-b4f1-be18ced7ab1b",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 3668",
+    "title": "Requires notification of use of artificial intelligence system in certain communications with consumers.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-02-24T05:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Commerce Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "",
     "state": "NJ",
     "session": "2025",
@@ -5891,28 +7837,28 @@
     "ncsl_status": "Pending"
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/89b010ca-de09-4762-b8b8-0fc9f39ec361",
     "state": "NJ",
-    "session": "2026",
+    "session": "222",
     "identifier": "S 3702",
-    "title": "",
+    "title": "Restricts use of certain artificial intelligence generated communications in election campaigns.",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "title"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000S3702&ciq=urn:user:PA196471263&client_md=bba0fe0efe2347a4f8edeedc4e82b65b&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-02-24T05:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
     "ncsl_status": ""
   },
   {
@@ -5964,6 +7910,31 @@
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/3a0077d7-fc32-4f64-b572-e733e6e5b503",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 3732",
+    "title": "Prohibits certain businesses from using dynamic, surveillance, or personalized algorithmic pricing when selling groceries to consumers.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-05T05:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Commerce Committee",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/9441e674-4ee9-41dc-b9a1-aa1718f04518",
@@ -6043,31 +8014,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2025",
-    "identifier": "S 3835",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzM4MzUifQ.2YTvi9mTuFqjnI6CnbJXdWCL1l20eLnjV_LePPoJKwA",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2024",
     "identifier": "S 3835",
     "title": "",
@@ -6086,6 +8032,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S3835&ciq=urn:user:PA196471263&client_md=5c0bb7f590f0e1b9670633261e893c17&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2025",
+    "identifier": "S 3835",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzM4MzUifQ.2YTvi9mTuFqjnI6CnbJXdWCL1l20eLnjV_LePPoJKwA",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -6218,6 +8189,31 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "ocd-bill/ef30b3d9-abe9-476d-8fe9-a462121da281",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 3883",
+    "title": "Requires boards of education to adopt policy on use of surveillance systems with artificial intelligence capabilities.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-12T04:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Education Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/30fcd995-5231-48af-ba8a-dafca43fd13f",
     "state": "NJ",
     "session": "220",
@@ -6241,6 +8237,31 @@
     "primary_url": null,
     "latest_action_date": "2023-06-05T04:00:00+00:00",
     "latest_action_description": "Introduced in the Senate, Referred to Senate Judiciary Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2026",
+    "identifier": "S 3952",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000S3952&ciq=urn:user:PA196471263&client_md=d805933b515b0dd021b9de825c44abe7&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
     "ncsl_status": ""
   },
   {
@@ -6271,8 +8292,8 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2025",
-    "identifier": "S 4100",
+    "session": "2026",
+    "identifier": "S 4016",
     "title": "",
     "updated": "",
     "core_ai_hits": 0,
@@ -6288,10 +8309,62 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzQxMDAifQ.RyM0Y75n3lzrds-ApCq99qHgG_mkbqaFTy7YDR3q7Y0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2026000S4016&ciq=urn:user:PA196471263&client_md=950604eea13e76b2265d1ade1e9738dc&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
-    "ncsl_status": "Pending"
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/398d9300-dc31-48cc-841e-d713bb0e1940",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 4075",
+    "title": "Regulates use of artificial intelligence-based systems for electronic monitoring regarding employment and public services.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e04f8c7a-7f1a-407d-8c8f-07d51e523f54",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 4088",
+    "title": "Prohibits advertising generative artificial intelligence as able to practice regulated profession or occupation.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
   },
   {
     "bill_id": "",
@@ -6314,6 +8387,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000S4100&ciq=urn:user:PA196471263&client_md=1bb448cbba0182162cc5b7adf32ba38e&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2025",
+    "identifier": "S 4100",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwUzQxMDAifQ.RyM0Y75n3lzrds-ApCq99qHgG_mkbqaFTy7YDR3q7Y0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -6528,8 +8626,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -6560,14 +8658,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S0500/451_I1.HTM",
-    "latest_action_date": "2026-01-13T05:00:00+00:00",
-    "latest_action_description": "Introduced in the Senate, Referred to Senate Community and Urban Affairs Committee",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S0500/451_S1.PDF",
+    "latest_action_date": "2026-03-05T05:00:00+00:00",
+    "latest_action_description": "Reported from Senate Committee with Amendments, 2nd Reading",
     "ncsl_status": ""
   },
   {
@@ -6728,23 +8825,22 @@
     "title": "Requires energy usage plan for proposed artificial intelligence data centers and cryptocurrency mining facilities; requires all electricity for artificial intelligence data centers and cryptocurrency mining facilities to be derived from new clean energy sources.",
     "updated": "",
     "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
       "raw_text",
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S1000/680_I1.HTM",
-    "latest_action_date": "2026-01-13T05:00:00+00:00",
-    "latest_action_description": "Introduced in the Senate, Referred to Senate Environment and Energy Committee",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/S1000/680_T1.HTM",
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Reported from Senate Committee, 2nd Reading",
     "ncsl_status": ""
   },
   {
@@ -6782,14 +8878,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -7034,31 +9130,6 @@
   {
     "bill_id": "",
     "state": "NJ",
-    "session": "2024",
-    "identifier": "SJR 114",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000SJR114&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "NJ",
     "session": "2025",
     "identifier": "SJR 114",
     "title": "",
@@ -7077,6 +9148,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTkoyMDI0MDAwU0pSMTE0In0.qKNPJ55UahiiYx18PKcesH53UY914tLVzDPIbEHiDIM",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "",
+    "state": "NJ",
+    "session": "2024",
+    "identifier": "SJR 114",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:NJ2024000SJR114&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -7217,8 +9313,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "generative_ai_variant",
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -7228,7 +9324,7 @@
       "title",
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/SR/52_I1.HTM",
     "latest_action_date": "2026-01-13T05:00:00+00:00",

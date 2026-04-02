@@ -269,7 +269,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010H1270&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010H1270&ciq=ncsl&client_md=fc9bcb2855312c0ec7bc2002e2782a33&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -294,7 +294,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010H1270&ciq=ncsl&client_md=fc9bcb2855312c0ec7bc2002e2782a33&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010H1270&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -478,6 +478,31 @@
     "bill_id": "",
     "state": "ME",
     "session": "2025",
+    "identifier": "H 335",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H335&ciq=urn:user:PA196471263&client_md=9ce1bebbe6d2f7368929fc4659dc9cee&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "ME",
+    "session": "2025",
     "identifier": "H 343",
     "title": "",
     "updated": "",
@@ -519,7 +544,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUUyMDI1MDAwSDQxMSJ9.AgW0LRyK7dzqZxi_KfPXSZEGgtTJKaNvcbzHqtlE2aQ",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H411&ciq=urn:user:PA196471263&client_md=ff8803859348db8923cc21a7c69b9273&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -544,32 +569,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H411&ciq=urn:user:PA196471263&client_md=ff8803859348db8923cc21a7c69b9273&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed"
-  },
-  {
-    "bill_id": "",
-    "state": "ME",
-    "session": "2025",
-    "identifier": "H 558",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H558&ciq=urn:user:PA196471263&client_md=f1a718b60b84c035a02c4bf02ca30b26&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUUyMDI1MDAwSDQxMSJ9.AgW0LRyK7dzqZxi_KfPXSZEGgtTJKaNvcbzHqtlE2aQ",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -595,6 +595,31 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUUyMDI1MDAwSDU1OCJ9.lWb175oHXV_WOt7vFxQBe_7pmDuFYYWYwcR6Rat50eA",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Failed"
+  },
+  {
+    "bill_id": "",
+    "state": "ME",
+    "session": "2025",
+    "identifier": "H 558",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2025000H558&ciq=urn:user:PA196471263&client_md=f1a718b60b84c035a02c4bf02ca30b26&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -744,9 +769,9 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0074&item=4&snum=132",
-    "latest_action_date": "2025-07-08",
-    "latest_action_description": "HELD BY THE GOVERNOR.",
+    "primary_url": null,
+    "latest_action_date": "2026-01-11",
+    "latest_action_description": "Became Law without Governor's Signature",
     "ncsl_status": ""
   },
   {
@@ -895,9 +920,9 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0531&item=1&snum=132",
-    "latest_action_date": "2025-06-25",
-    "latest_action_description": "CARRIED OVER, in the same posture, to any special or regular session of the 132nd Legislature, pursuant to Joint Order SP 800.",
+    "primary_url": null,
+    "latest_action_date": "2026-01-27",
+    "latest_action_description": "Pursuant to Joint Rule 310.3 Placed in Legislative Files (DEAD)",
     "ncsl_status": ""
   },
   {
@@ -995,7 +1020,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0636&item=1&snum=132",
+    "primary_url": null,
     "latest_action_date": "2025-06-03",
     "latest_action_description": "Pursuant to Joint Rule 310.3 Placed in Legislative Files (DEAD)",
     "ncsl_status": ""
@@ -1016,8 +1041,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1046,7 +1071,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1055&item=1&snum=132",
+    "primary_url": null,
     "latest_action_date": "2025-05-21",
     "latest_action_description": "Pursuant to Joint Rule 310.3 Placed in Legislative Files (DEAD)",
     "ncsl_status": ""
@@ -1097,7 +1122,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1125&item=1&snum=132",
+    "primary_url": null,
     "latest_action_date": "2025-05-27",
     "latest_action_description": "Pursuant to Joint Rule 310.3 Placed in Legislative Files (DEAD)",
     "ncsl_status": ""
@@ -1218,8 +1243,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1298,9 +1323,34 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0748&item=1&snum=132",
+    "primary_url": null,
     "latest_action_date": "2025-05-29",
     "latest_action_description": "Pursuant to Joint Rule 310.3 Placed in Legislative Files (DEAD)",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/fd3c77e8-1f66-4f78-af1e-5ed8bb637f23",
+    "state": "ME",
+    "session": "132",
+    "identifier": "LD 2082",
+    "title": "An Act To Regulate The Use Of Artificial Intelligence In Providing Certain Mental Health Services",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-04T05:00:00+00:00",
+    "latest_action_description": "Work Session Held",
     "ncsl_status": ""
   },
   {
@@ -1329,6 +1379,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/faa71c67-9857-4ba1-9ecd-2c7ff5445086",
+    "state": "ME",
+    "session": "132",
+    "identifier": "LD 2162",
+    "title": "An Act To Regulate And Prevent Children'S Access To Artificial Intelligence Chatbots With Human-Like Features And Social Artificial Intelligence Companions",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-12T04:00:00+00:00",
+    "latest_action_description": "Work Session Held",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/92914e4c-4e96-4e79-bfcb-b0e153ff626f",
     "state": "ME",
     "session": "132",
@@ -1348,7 +1425,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0153&item=1&snum=132",
+    "primary_url": null,
     "latest_action_date": "2025-05-28",
     "latest_action_description": "Pursuant to Joint Rule 310.3 Placed in Legislative Files (DEAD)",
     "ncsl_status": ""
@@ -1369,8 +1446,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1424,7 +1501,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0411&item=1&snum=132",
+    "primary_url": null,
     "latest_action_date": "2025-05-13",
     "latest_action_description": "Pursuant to Joint Rule 310.3 Placed in Legislative Files (DEAD)",
     "ncsl_status": ""
@@ -1495,8 +1572,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2000,7 +2077,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010S656&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010S656&ciq=ncsl&client_md=6b95528a14480a5e90a2eeb4d9670143&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"
@@ -2025,7 +2102,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010S656&ciq=ncsl&client_md=6b95528a14480a5e90a2eeb4d9670143&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:ME2023010S656&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending - Carryover"

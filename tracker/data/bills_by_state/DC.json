@@ -188,8 +188,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -200,81 +200,6 @@
     "latest_action_date": "2020-01-10T05:00:09+00:00",
     "latest_action_description": "AU23-0022 Introduced by Chairman Mendelson  at Office of the Secretary",
     "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "DC",
-    "session": "2023",
-    "identifier": "B 114",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DC2023000B114&ciq=urn:user:PA196471263&client_md=31b133d9abe4c827c8dde8593fb37ec0&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "DC",
-    "session": "2023",
-    "identifier": "B 114",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DC2023000B114&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "",
-    "state": "DC",
-    "session": "2023",
-    "identifier": "B 114",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DC2023000B114&ciq=ncsl&client_md=c7c9bb9dcadb8393c71d7b7ff781979f&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
   },
   {
     "bill_id": "ocd-bill/04e954af-7644-4840-9ece-f0b1f355ed08",
@@ -468,8 +393,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -569,8 +494,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -842,9 +767,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_tool",
       "algorithmic_decision_system",
       "machine_learning",
-      "algorithmic_tool",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -1107,7 +1032,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://lims.dccouncil.gov/downloads/LIMS/52282/Introduction/B25-0114-Introduction.pdf?Id=155626",
     "latest_action_date": "2023-02-10T05:00:00+00:00",
@@ -1182,11 +1107,36 @@
     "match_fields": [
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
     "latest_action_date": "2024-06-14T04:00:00+00:00",
     "latest_action_description": "Notice of Intent to Act on B25-0832 Published in the District of Columbia Register",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/9744eeb1-d967-4ea7-89c6-e56acb7dc8f4",
+    "state": "DC",
+    "session": "26",
+    "identifier": "B 26-0491",
+    "title": "Artificial Intelligence Literacy in Education Act of 2025",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-02T05:00:00+00:00",
+    "latest_action_description": "Referred to Committee of the Whole",
     "ncsl_status": ""
   },
   {
@@ -1218,31 +1168,6 @@
     "bill_id": "",
     "state": "DC",
     "session": "2025",
-    "identifier": "B 491",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DC2025000B491&ciq=urn:user:PA196471263&client_md=aeda8e5330235f18a7f2ce36bac45b14&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "DC",
-    "session": "2025",
     "identifier": "B 524",
     "title": "",
     "updated": "",
@@ -1260,31 +1185,6 @@
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
     "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DC2025000B524&ciq=urn:user:PA196471263&client_md=59e465cb06f9292ffcf4f67d82733e1a&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "DC",
-    "session": "2023",
-    "identifier": "B 832",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DC2023000B832&ciq=urn:user:PA196471263&client_md=959aa4f69ff9605b80ed49ef2df5b8da&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": ""
@@ -2527,8 +2427,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3410,8 +3310,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3461,8 +3361,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3562,8 +3462,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3688,8 +3588,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",

@@ -15,11 +15,6 @@
       "adjacent": 4,
       "total": 4
     },
-    "AZ": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
     "CA": {
       "core": 71,
       "adjacent": 39,
@@ -34,16 +29,6 @@
       "core": 1,
       "adjacent": 1,
       "total": 2
-    },
-    "DC": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "DE": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
     },
     "FL": {
       "core": 4,
@@ -145,11 +130,6 @@
       "adjacent": 0,
       "total": 0
     },
-    "NH": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
     "NM": {
       "core": 3,
       "adjacent": 6,
@@ -164,11 +144,6 @@
       "core": 90,
       "adjacent": 42,
       "total": 132
-    },
-    "OH": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
     },
     "OK": {
       "core": 0,
@@ -194,11 +169,6 @@
       "core": 8,
       "adjacent": 5,
       "total": 13
-    },
-    "TN": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
     },
     "TX": {
       "core": 0,
@@ -268,14 +238,14 @@
       "total": 0
     },
     "CA": {
-      "core": 64,
-      "adjacent": 18,
-      "total": 82
+      "core": 101,
+      "adjacent": 22,
+      "total": 123
     },
     "CO": {
-      "core": 14,
+      "core": 18,
       "adjacent": 11,
-      "total": 25
+      "total": 29
     },
     "CT": {
       "core": 16,
@@ -298,9 +268,9 @@
       "total": 29
     },
     "GA": {
-      "core": 29,
-      "adjacent": 3,
-      "total": 32
+      "core": 52,
+      "adjacent": 7,
+      "total": 59
     },
     "GU": {
       "core": 0,
@@ -313,9 +283,9 @@
       "total": 17
     },
     "IA": {
-      "core": 10,
-      "adjacent": 0,
-      "total": 10
+      "core": 46,
+      "adjacent": 2,
+      "total": 48
     },
     "ID": {
       "core": 8,
@@ -333,9 +303,9 @@
       "total": 3
     },
     "KS": {
-      "core": 2,
-      "adjacent": 0,
-      "total": 2
+      "core": 13,
+      "adjacent": 3,
+      "total": 16
     },
     "KY": {
       "core": 7,
@@ -363,14 +333,14 @@
       "total": 0
     },
     "MI": {
-      "core": 6,
+      "core": 10,
       "adjacent": 11,
-      "total": 17
+      "total": 21
     },
     "MN": {
-      "core": 9,
-      "adjacent": 0,
-      "total": 9
+      "core": 45,
+      "adjacent": 17,
+      "total": 62
     },
     "MO": {
       "core": 9,
@@ -423,9 +393,9 @@
       "total": 0
     },
     "NY": {
-      "core": 137,
-      "adjacent": 29,
-      "total": 166
+      "core": 195,
+      "adjacent": 38,
+      "total": 233
     },
     "OH": {
       "core": 0,
@@ -443,9 +413,9 @@
       "total": 20
     },
     "PA": {
-      "core": 19,
+      "core": 26,
       "adjacent": 8,
-      "total": 27
+      "total": 34
     },
     "PR": {
       "core": 0,
@@ -458,9 +428,9 @@
       "total": 22
     },
     "SC": {
-      "core": 14,
-      "adjacent": 2,
-      "total": 16
+      "core": 35,
+      "adjacent": 6,
+      "total": 41
     },
     "SD": {
       "core": 1,
@@ -488,19 +458,19 @@
       "total": 26
     },
     "VT": {
-      "core": 12,
+      "core": 21,
       "adjacent": 4,
-      "total": 16
+      "total": 25
     },
     "WA": {
-      "core": 26,
-      "adjacent": 57,
-      "total": 83
+      "core": 55,
+      "adjacent": 99,
+      "total": 154
     },
     "WI": {
-      "core": 9,
+      "core": 26,
       "adjacent": 3,
-      "total": 12
+      "total": 29
     },
     "WV": {
       "core": 9,
@@ -511,6 +481,305 @@
       "core": 3,
       "adjacent": 1,
       "total": 4
+    }
+  },
+  "2026": {
+    "AL": {
+      "core": 18,
+      "adjacent": 2,
+      "total": 20
+    },
+    "AZ": {
+      "core": 0,
+      "adjacent": 0,
+      "total": 0
+    },
+    "CO": {
+      "core": 9,
+      "adjacent": 7,
+      "total": 16
+    },
+    "CT": {
+      "core": 5,
+      "adjacent": 2,
+      "total": 7
+    },
+    "FL": {
+      "core": 35,
+      "adjacent": 3,
+      "total": 38
+    },
+    "HI": {
+      "core": 54,
+      "adjacent": 4,
+      "total": 58
+    },
+    "ID": {
+      "core": 15,
+      "adjacent": 1,
+      "total": 16
+    },
+    "IN": {
+      "core": 3,
+      "adjacent": 2,
+      "total": 5
+    },
+    "KY": {
+      "core": 13,
+      "adjacent": 12,
+      "total": 25
+    },
+    "LA": {
+      "core": 29,
+      "adjacent": 3,
+      "total": 32
+    },
+    "MD": {
+      "core": 25,
+      "adjacent": 4,
+      "total": 29
+    },
+    "MO": {
+      "core": 28,
+      "adjacent": 5,
+      "total": 33
+    },
+    "MS": {
+      "core": 20,
+      "adjacent": 6,
+      "total": 26
+    },
+    "NH": {
+      "core": 5,
+      "adjacent": 0,
+      "total": 5
+    },
+    "NJ": {
+      "core": 0,
+      "adjacent": 0,
+      "total": 0
+    },
+    "NM": {
+      "core": 14,
+      "adjacent": 3,
+      "total": 17
+    },
+    "OK": {
+      "core": 46,
+      "adjacent": 9,
+      "total": 55
+    },
+    "OR": {
+      "core": 4,
+      "adjacent": 6,
+      "total": 10
+    },
+    "RI": {
+      "core": 26,
+      "adjacent": 6,
+      "total": 32
+    },
+    "SD": {
+      "core": 3,
+      "adjacent": 0,
+      "total": 3
+    },
+    "UT": {
+      "core": 32,
+      "adjacent": 15,
+      "total": 47
+    },
+    "VA": {
+      "core": 32,
+      "adjacent": 0,
+      "total": 32
+    },
+    "WV": {
+      "core": 6,
+      "adjacent": 6,
+      "total": 12
+    },
+    "WY": {
+      "core": 2,
+      "adjacent": 0,
+      "total": 2
+    }
+  },
+  "2019": {
+    "AL": {
+      "core": 1,
+      "adjacent": 0,
+      "total": 1
+    },
+    "AR": {
+      "core": 0,
+      "adjacent": 3,
+      "total": 3
+    },
+    "CA": {
+      "core": 11,
+      "adjacent": 10,
+      "total": 21
+    },
+    "CO": {
+      "core": 0,
+      "adjacent": 5,
+      "total": 5
+    },
+    "CT": {
+      "core": 2,
+      "adjacent": 0,
+      "total": 2
+    },
+    "FL": {
+      "core": 1,
+      "adjacent": 2,
+      "total": 3
+    },
+    "GA": {
+      "core": 2,
+      "adjacent": 1,
+      "total": 3
+    },
+    "HI": {
+      "core": 18,
+      "adjacent": 3,
+      "total": 21
+    },
+    "ID": {
+      "core": 0,
+      "adjacent": 1,
+      "total": 1
+    },
+    "IL": {
+      "core": 0,
+      "adjacent": 0,
+      "total": 0
+    },
+    "IN": {
+      "core": 1,
+      "adjacent": 1,
+      "total": 2
+    },
+    "KS": {
+      "core": 0,
+      "adjacent": 3,
+      "total": 3
+    },
+    "KY": {
+      "core": 0,
+      "adjacent": 5,
+      "total": 5
+    },
+    "LA": {
+      "core": 0,
+      "adjacent": 3,
+      "total": 3
+    },
+    "MD": {
+      "core": 2,
+      "adjacent": 3,
+      "total": 5
+    },
+    "MI": {
+      "core": 0,
+      "adjacent": 3,
+      "total": 3
+    },
+    "MN": {
+      "core": 2,
+      "adjacent": 48,
+      "total": 50
+    },
+    "MO": {
+      "core": 0,
+      "adjacent": 1,
+      "total": 1
+    },
+    "MS": {
+      "core": 1,
+      "adjacent": 14,
+      "total": 15
+    },
+    "MT": {
+      "core": 0,
+      "adjacent": 4,
+      "total": 4
+    },
+    "NC": {
+      "core": 2,
+      "adjacent": 5,
+      "total": 7
+    },
+    "NE": {
+      "core": 0,
+      "adjacent": 0,
+      "total": 0
+    },
+    "NM": {
+      "core": 0,
+      "adjacent": 5,
+      "total": 5
+    },
+    "NY": {
+      "core": 12,
+      "adjacent": 25,
+      "total": 37
+    },
+    "OK": {
+      "core": 1,
+      "adjacent": 5,
+      "total": 6
+    },
+    "OR": {
+      "core": 0,
+      "adjacent": 0,
+      "total": 0
+    },
+    "RI": {
+      "core": 0,
+      "adjacent": 5,
+      "total": 5
+    },
+    "SC": {
+      "core": 0,
+      "adjacent": 3,
+      "total": 3
+    },
+    "TX": {
+      "core": 0,
+      "adjacent": 0,
+      "total": 0
+    },
+    "UT": {
+      "core": 0,
+      "adjacent": 7,
+      "total": 7
+    },
+    "VA": {
+      "core": 1,
+      "adjacent": 4,
+      "total": 5
+    },
+    "VT": {
+      "core": 4,
+      "adjacent": 5,
+      "total": 9
+    },
+    "WA": {
+      "core": 7,
+      "adjacent": 108,
+      "total": 115
+    },
+    "WI": {
+      "core": 1,
+      "adjacent": 2,
+      "total": 3
+    },
+    "WV": {
+      "core": 1,
+      "adjacent": 6,
+      "total": 7
     }
   },
   "2024": {
@@ -839,315 +1108,6 @@
       "total": 10
     }
   },
-  "2026": {
-    "AL": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "AZ": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "CO": {
-      "core": 2,
-      "adjacent": 2,
-      "total": 4
-    },
-    "CT": {
-      "core": 5,
-      "adjacent": 2,
-      "total": 7
-    },
-    "FL": {
-      "core": 4,
-      "adjacent": 0,
-      "total": 4
-    },
-    "HI": {
-      "core": 31,
-      "adjacent": 2,
-      "total": 33
-    },
-    "ID": {
-      "core": 1,
-      "adjacent": 0,
-      "total": 1
-    },
-    "IN": {
-      "core": 3,
-      "adjacent": 1,
-      "total": 4
-    },
-    "KY": {
-      "core": 7,
-      "adjacent": 9,
-      "total": 16
-    },
-    "LA": {
-      "core": 2,
-      "adjacent": 0,
-      "total": 2
-    },
-    "MD": {
-      "core": 10,
-      "adjacent": 3,
-      "total": 13
-    },
-    "MO": {
-      "core": 19,
-      "adjacent": 4,
-      "total": 23
-    },
-    "MS": {
-      "core": 23,
-      "adjacent": 8,
-      "total": 31
-    },
-    "NH": {
-      "core": 4,
-      "adjacent": 0,
-      "total": 4
-    },
-    "NJ": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "NM": {
-      "core": 7,
-      "adjacent": 2,
-      "total": 9
-    },
-    "OK": {
-      "core": 42,
-      "adjacent": 9,
-      "total": 51
-    },
-    "OR": {
-      "core": 4,
-      "adjacent": 6,
-      "total": 10
-    },
-    "RI": {
-      "core": 8,
-      "adjacent": 2,
-      "total": 10
-    },
-    "SD": {
-      "core": 2,
-      "adjacent": 0,
-      "total": 2
-    },
-    "UT": {
-      "core": 16,
-      "adjacent": 5,
-      "total": 21
-    },
-    "VA": {
-      "core": 33,
-      "adjacent": 0,
-      "total": 33
-    },
-    "WV": {
-      "core": 13,
-      "adjacent": 6,
-      "total": 19
-    },
-    "WY": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    }
-  },
-  "2019": {
-    "AL": {
-      "core": 1,
-      "adjacent": 0,
-      "total": 1
-    },
-    "AR": {
-      "core": 0,
-      "adjacent": 3,
-      "total": 3
-    },
-    "CA": {
-      "core": 11,
-      "adjacent": 10,
-      "total": 21
-    },
-    "CO": {
-      "core": 0,
-      "adjacent": 5,
-      "total": 5
-    },
-    "CT": {
-      "core": 2,
-      "adjacent": 0,
-      "total": 2
-    },
-    "FL": {
-      "core": 1,
-      "adjacent": 2,
-      "total": 3
-    },
-    "GA": {
-      "core": 2,
-      "adjacent": 1,
-      "total": 3
-    },
-    "HI": {
-      "core": 18,
-      "adjacent": 3,
-      "total": 21
-    },
-    "ID": {
-      "core": 0,
-      "adjacent": 1,
-      "total": 1
-    },
-    "IL": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "IN": {
-      "core": 1,
-      "adjacent": 1,
-      "total": 2
-    },
-    "KS": {
-      "core": 0,
-      "adjacent": 3,
-      "total": 3
-    },
-    "KY": {
-      "core": 0,
-      "adjacent": 5,
-      "total": 5
-    },
-    "LA": {
-      "core": 0,
-      "adjacent": 3,
-      "total": 3
-    },
-    "MD": {
-      "core": 2,
-      "adjacent": 3,
-      "total": 5
-    },
-    "MI": {
-      "core": 0,
-      "adjacent": 3,
-      "total": 3
-    },
-    "MN": {
-      "core": 2,
-      "adjacent": 48,
-      "total": 50
-    },
-    "MO": {
-      "core": 0,
-      "adjacent": 1,
-      "total": 1
-    },
-    "MS": {
-      "core": 1,
-      "adjacent": 14,
-      "total": 15
-    },
-    "MT": {
-      "core": 0,
-      "adjacent": 4,
-      "total": 4
-    },
-    "NC": {
-      "core": 2,
-      "adjacent": 5,
-      "total": 7
-    },
-    "NE": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "NM": {
-      "core": 0,
-      "adjacent": 5,
-      "total": 5
-    },
-    "NV": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "NY": {
-      "core": 12,
-      "adjacent": 25,
-      "total": 37
-    },
-    "OK": {
-      "core": 1,
-      "adjacent": 5,
-      "total": 6
-    },
-    "OR": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "RI": {
-      "core": 0,
-      "adjacent": 5,
-      "total": 5
-    },
-    "SC": {
-      "core": 0,
-      "adjacent": 3,
-      "total": 3
-    },
-    "TN": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "TX": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
-    "UT": {
-      "core": 0,
-      "adjacent": 7,
-      "total": 7
-    },
-    "VA": {
-      "core": 1,
-      "adjacent": 4,
-      "total": 5
-    },
-    "VT": {
-      "core": 4,
-      "adjacent": 5,
-      "total": 9
-    },
-    "WA": {
-      "core": 7,
-      "adjacent": 108,
-      "total": 115
-    },
-    "WI": {
-      "core": 1,
-      "adjacent": 2,
-      "total": 3
-    },
-    "WV": {
-      "core": 1,
-      "adjacent": 6,
-      "total": 7
-    }
-  },
   "2021": {
     "AL": {
       "core": 7,
@@ -1274,11 +1234,6 @@
       "adjacent": 26,
       "total": 35
     },
-    "OH": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
-    },
     "OK": {
       "core": 1,
       "adjacent": 4,
@@ -1308,11 +1263,6 @@
       "core": 2,
       "adjacent": 3,
       "total": 5
-    },
-    "TN": {
-      "core": 0,
-      "adjacent": 0,
-      "total": 0
     },
     "TX": {
       "core": 0,

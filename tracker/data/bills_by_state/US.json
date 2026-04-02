@@ -13,8 +13,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -36,18 +36,18 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -66,8 +66,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -195,8 +195,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -330,8 +330,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -350,10 +350,10 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant",
+      "deepfake_media",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -384,8 +384,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -411,8 +411,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title"
@@ -809,8 +809,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1093,8 +1093,8 @@
       "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title"
@@ -1102,8 +1102,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2025-09-03T04:00:00+00:00",
-    "latest_action_description": "Ordered to be Reported (Amended) by the Yeas and Nays: 21 - 0.",
+    "latest_action_date": "2025-11-20T05:00:00+00:00",
+    "latest_action_description": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
     "ncsl_status": ""
   },
   {
@@ -1297,8 +1297,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1371,8 +1371,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1394,8 +1394,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -1506,8 +1506,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1526,8 +1526,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1552,17 +1552,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system",
-      "machine_learning"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1691,8 +1691,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1711,8 +1711,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1763,8 +1763,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -1820,8 +1820,8 @@
       "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1895,8 +1895,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_governance"
+      "ai_governance",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1954,8 +1954,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2055,9 +2055,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2385,8 +2385,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2439,8 +2439,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2714,8 +2714,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3091,13 +3091,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3194,8 +3194,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3346,8 +3346,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -3401,8 +3401,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -3455,9 +3455,9 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ml_system",
-      "algorithmic_tool",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3509,8 +3509,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "machine_learning",
       "deepfake_media",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -3518,9 +3518,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3627,8 +3627,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2025-06-11T04:00:00+00:00",
-    "latest_action_description": "Ordered to be Reported (Amended) by the Yeas and Nays: 35 - 0.",
+    "latest_action_date": "2026-02-24T05:00:00+00:00",
+    "latest_action_description": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "ncsl_status": ""
   },
   {
@@ -3720,8 +3720,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3818,13 +3818,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3846,8 +3846,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -4227,9 +4227,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -4256,14 +4256,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence",
       "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4514,9 +4514,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence",
       "ai_system"
     ],
     "matched_tiers": [
@@ -4778,8 +4778,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4998,8 +4998,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -5024,8 +5024,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -5156,8 +5156,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5202,16 +5202,16 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5470,8 +5470,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2025-09-16T04:00:00+00:00",
-    "latest_action_description": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Foreign Affairs, Armed Services, Homeland Security, Oversight and Government Reform, the Judiciary, Energy and Commerce, Small Business, Education and Workforce, Financial Services, Veterans' Affairs, and Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "latest_action_date": "2025-12-19T05:00:00+00:00",
+    "latest_action_description": "Referred to the Subcommittee on Oversight and Investigations.",
     "ncsl_status": ""
   },
   {
@@ -5512,8 +5512,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -5615,12 +5615,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -5667,17 +5667,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
-      "deepfake_media",
-      "machine_learning"
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5771,14 +5771,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "adjacent_tech",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -5854,8 +5854,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6036,9 +6036,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6321,8 +6321,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6357,6 +6357,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/3d282f50-938a-4bba-b1c4-e66779715965",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 6334",
+    "title": "Deepfake Liability Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-01T05:00:00+00:00",
+    "latest_action_description": "Referred to the House Committee on Energy and Commerce.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/602b1b9a-569e-47f9-b713-c87498ed693e",
     "state": "US",
     "session": "117",
@@ -6382,6 +6407,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/41f1ad12-91c8-4577-9bea-f3de73e19474",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 6356",
+    "title": "Artificial Intelligence Civil Rights Act of 2025",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-02T05:00:00+00:00",
+    "latest_action_description": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/39bba4f2-fad1-4ba4-99d3-e86c3f02bda1",
     "state": "US",
     "session": "116",
@@ -6391,9 +6441,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -6401,8 +6451,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6434,6 +6484,32 @@
     "primary_url": null,
     "latest_action_date": "2023-11-15T05:00:00+00:00",
     "latest_action_description": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on Armed Services, and Intelligence (Permanent Select), for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/48120310-0ad1-48ec-b3bb-384709797211",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 6461",
+    "title": "READ AI Models Act",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-04T05:00:00+00:00",
+    "latest_action_description": "Referred to the House Committee on Science, Space, and Technology.",
     "ncsl_status": ""
   },
   {
@@ -6475,8 +6551,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6657,8 +6733,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6685,8 +6761,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6711,8 +6787,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6737,8 +6813,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6874,6 +6950,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/33d1c411-2506-4abb-8183-4f1b02cbed44",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 7110",
+    "title": "Eliminating Bias in Algorithmic Systems Act of 2026",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-01-15T05:00:00+00:00",
+    "latest_action_description": "Referred to the House Committee on Oversight and Government Reform.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/4a2440a2-4f61-4839-ba6b-e5a82d45df6f",
     "state": "US",
     "session": "116",
@@ -6896,6 +6997,31 @@
     "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116hr7148ih/pdf/BILLS-116hr7148ih.pdf",
     "latest_action_date": "2020-06-11T04:00:00+00:00",
     "latest_action_description": "Referred to the Committee on Armed Services, and in addition to the Committees on Foreign Affairs, and Intelligence (Permanent Select), for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/14e44daa-9d56-4b73-ba0f-2278de6ead1b",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 7151",
+    "title": "Artificial Intelligence Public Awareness and Education Campaign Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-01-20T05:00:00+00:00",
+    "latest_action_description": "Referred to the House Committee on Energy and Commerce.",
     "ncsl_status": ""
   },
   {
@@ -6946,6 +7072,31 @@
     "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116hr7214ih/pdf/BILLS-116hr7214ih.pdf",
     "latest_action_date": "2020-06-16T04:00:00+00:00",
     "latest_action_description": "Referred to the Subcommittee on Highways and Transit.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/32539afa-05f9-4912-8067-4bebdbef8465",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 7226",
+    "title": "Leveraging Artificial Intelligence to Streamline the Code of Federal Regulations Act of 2026",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-01-22T05:00:00+00:00",
+    "latest_action_description": "Referred to the Committee on the Judiciary, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
     "ncsl_status": ""
   },
   {
@@ -7220,8 +7371,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -7476,8 +7627,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7592,6 +7743,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/9a634e27-a28b-457c-80c9-aef61c2962a2",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 7968",
+    "title": "To authorize the Department of Commerce to carry out a study on challenges faced by United States small artificial intelligence businesses, and for other purposes.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-17T04:00:00+00:00",
+    "latest_action_description": "Referred to the House Committee on Science, Space, and Technology.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/fe9385f6-bd89-44b3-8b01-cc5a7bfd7d35",
     "state": "US",
     "session": "118",
@@ -7642,6 +7818,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/1620f183-1783-4a9e-a5ba-154a0f86f91b",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 8031",
+    "title": "To repeal the Executive order entitled \"Ensuring a National Policy Framework for Artificial Intelligence\".",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-20T04:00:00+00:00",
+    "latest_action_description": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/84b51107-7ec2-463f-91b0-5b5bd59c3d74",
     "state": "US",
     "session": "116",
@@ -7657,13 +7858,40 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116hr8080ih/pdf/BILLS-116hr8080ih.pdf",
     "latest_action_date": "2020-08-21T04:00:00+00:00",
+    "latest_action_description": "Referred to the House Committee on Energy and Commerce.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/6beeb2f5-9bc7-407b-8339-ae1446abd9f2",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 8094",
+    "title": "To direct the Federal Trade Commission to establish requirements for making information available to the public about the training data and algorithms used in artificial intelligence foundation models, and for other purposes.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "llm_variant",
+      "foundation_model"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-26T04:00:00+00:00",
     "latest_action_description": "Referred to the House Committee on Energy and Commerce.",
     "ncsl_status": ""
   },
@@ -7683,8 +7911,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -7735,8 +7963,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -7755,8 +7983,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -7939,8 +8167,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8088,8 +8316,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8145,8 +8373,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8471,8 +8699,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -8874,8 +9102,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -8993,6 +9221,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/c69bbcbc-d8e9-4e50-b8a7-ae14bf18cd5b",
+    "state": "US",
+    "session": "119",
+    "identifier": "HRES 1007",
+    "title": "Expressing the sense of the House of Representatives with respect to the use of artificial intelligence in the financial services and housing industries.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-19T04:00:00+00:00",
+    "latest_action_description": "Placed on the House Calendar, Calendar No. 67.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/ba695426-47e9-4fd8-81a1-54c49458b793",
     "state": "US",
     "session": "116",
@@ -9052,8 +9305,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -9104,17 +9357,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": false,
@@ -9159,9 +9412,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
+      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system_composite"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -9315,8 +9568,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -9391,8 +9644,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -9417,8 +9670,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -9459,6 +9712,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/5bdae350-c78f-4835-82d5-3514a0adff1c",
+    "state": "US",
+    "session": "119",
+    "identifier": "HRES 963",
+    "title": "Condemning antisemitism in all its forms, including the proliferation and amplification of antisemitic content on artificial intelligence (AI) platforms, urging robust, transparent safeguards for AI, and recognizing stakeholders working to counter this threat.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-18T05:00:00+00:00",
+    "latest_action_description": "Referred to the Committee on the Judiciary, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/6a0560b5-0ca1-43e8-8151-c2882794a390",
     "state": "US",
     "session": "117",
@@ -9493,12 +9772,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -9676,8 +9955,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -9708,8 +9987,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -9981,8 +10260,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "ai_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -10009,12 +10288,12 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "ai_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -10065,8 +10344,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -10188,9 +10467,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -10217,9 +10496,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "ai_system_composite",
+      "ai_governance",
       "artificial_intelligence",
-      "ai_governance"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -10277,8 +10556,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10379,8 +10658,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -10460,8 +10739,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -10483,8 +10762,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -10547,6 +10826,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/433d8d20-3d5a-488c-a4da-edfd880d75cf",
+    "state": "US",
+    "session": "118",
+    "identifier": "S 1471",
+    "title": "Truncating Onerous Regulations for Partners and Enhancing Deterrence Operations (TORPEDO) Act of 2023",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-118s1471is/pdf/BILLS-118s1471is.pdf",
+    "latest_action_date": "2023-05-04T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Foreign Relations.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/51967659-ff63-4c91-b1a0-7e733cecf525",
     "state": "US",
     "session": "116",
@@ -10571,31 +10875,6 @@
     "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s1471is/pdf/BILLS-116s1471is.pdf",
     "latest_action_date": "2019-05-15T04:00:00+00:00",
     "latest_action_description": "Read twice and referred to the Committee on Armed Services.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/433d8d20-3d5a-488c-a4da-edfd880d75cf",
-    "state": "US",
-    "session": "118",
-    "identifier": "S 1471",
-    "title": "Truncating Onerous Regulations for Partners and Enhancing Deterrence Operations (TORPEDO) Act of 2023",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-118s1471is/pdf/BILLS-118s1471is.pdf",
-    "latest_action_date": "2023-05-04T04:00:00+00:00",
-    "latest_action_description": "Read twice and referred to the Committee on Foreign Relations.",
     "ncsl_status": ""
   },
   {
@@ -10661,8 +10940,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -10759,9 +11038,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -10788,9 +11067,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "ai_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -10840,12 +11119,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -11045,9 +11324,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
-      "generative_ai_variant",
-      "machine_learning"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai",
@@ -11252,8 +11531,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -11337,8 +11616,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11410,8 +11689,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -11714,8 +11993,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -11738,8 +12017,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "adjacent_tech",
       "artificial_intelligence",
+      "adjacent_tech",
       "deepfake_media"
     ],
     "matched_tiers": [
@@ -11747,9 +12026,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -11818,10 +12097,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -11853,8 +12132,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -11906,11 +12185,11 @@
       "large_language_model",
       "ai_system_composite",
       "ai_model_variant",
-      "machine_learning",
       "llm_variant",
+      "generative_ai",
       "generative_ai_variant",
-      "artificial_intelligence",
-      "generative_ai"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -11987,13 +12266,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -12041,10 +12320,10 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "llm_variant",
       "large_language_model",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "llm_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -12213,31 +12492,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/a337d9c3-da4b-4a7b-ad9f-911804abd0cb",
-    "state": "US",
-    "session": "117",
-    "identifier": "S 2404",
-    "title": "Western Wildfire Support Act of 2021",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-117s2404is/pdf/BILLS-117s2404is.pdf",
-    "latest_action_date": "2021-12-15T05:00:00+00:00",
-    "latest_action_description": "Committee on Banking, Housing, and Urban Affairs. Hearings held.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/e63cbf1d-f2ec-4167-9583-102500938cff",
     "state": "US",
     "session": "116",
@@ -12260,6 +12514,31 @@
     "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s2404is/pdf/BILLS-116s2404is.pdf",
     "latest_action_date": "2019-07-31T04:00:00+00:00",
     "latest_action_description": "Read twice and referred to the Committee on Environment and Public Works.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a337d9c3-da4b-4a7b-ad9f-911804abd0cb",
+    "state": "US",
+    "session": "117",
+    "identifier": "S 2404",
+    "title": "Western Wildfire Support Act of 2021",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-117s2404is/pdf/BILLS-117s2404is.pdf",
+    "latest_action_date": "2021-12-15T05:00:00+00:00",
+    "latest_action_description": "Committee on Banking, Housing, and Urban Affairs. Hearings held.",
     "ncsl_status": ""
   },
   {
@@ -12475,8 +12754,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -12625,16 +12904,16 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
-      "automated_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -12719,6 +12998,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/80b52b90-72e7-400f-a5fb-476952d63ab4",
+    "state": "US",
+    "session": "116",
+    "identifier": "S 2721",
+    "title": "Healing Communities through Health Care Act",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s2721is/pdf/BILLS-116s2721is.pdf",
+    "latest_action_date": "2019-10-28T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S6191-6193)",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/dab7a445-bc0e-4a6e-9fbd-35c03e8ad2e0",
     "state": "US",
     "session": "117",
@@ -12743,31 +13047,6 @@
     "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-117s2721is/pdf/BILLS-117s2721is.pdf",
     "latest_action_date": "2021-09-13T04:00:00+00:00",
     "latest_action_description": "Read twice and referred to the Committee on Finance.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/80b52b90-72e7-400f-a5fb-476952d63ab4",
-    "state": "US",
-    "session": "116",
-    "identifier": "S 2721",
-    "title": "Healing Communities through Health Care Act",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s2721is/pdf/BILLS-116s2721is.pdf",
-    "latest_action_date": "2019-10-28T04:00:00+00:00",
-    "latest_action_description": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (text: CR S6191-6193)",
     "ncsl_status": ""
   },
   {
@@ -12838,8 +13117,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -12858,8 +13137,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite"
     ],
@@ -12918,8 +13197,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13004,36 +13283,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/de48f6e9-5a51-46c1-9fc9-2675e538147d",
-    "state": "US",
-    "session": "116",
-    "identifier": "S 2904",
-    "title": "IOGAN Act",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 2,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media",
-      "machine_learning",
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s2904rs/pdf/BILLS-116s2904rs.pdf",
-    "latest_action_date": "2020-12-23T05:00:00+00:00",
-    "latest_action_description": "Became Public Law No: 116-258.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/eca43ce5-a109-4483-a885-610583ffe07b",
     "state": "US",
     "session": "117",
@@ -13043,8 +13292,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -13061,6 +13310,36 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/de48f6e9-5a51-46c1-9fc9-2675e538147d",
+    "state": "US",
+    "session": "116",
+    "identifier": "S 2904",
+    "title": "IOGAN Act",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning",
+      "deepfake_media",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s2904rs/pdf/BILLS-116s2904rs.pdf",
+    "latest_action_date": "2020-12-23T05:00:00+00:00",
+    "latest_action_description": "Became Public Law No: 116-258.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/47954443-cad5-4cc5-ab7f-4eed33239c7b",
     "state": "US",
     "session": "117",
@@ -13070,8 +13349,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "automated_decision_system",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -13123,8 +13402,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -13324,9 +13603,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -13334,8 +13613,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13404,8 +13683,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "algorithmic_decision_system"
+      "algorithmic_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -13418,6 +13697,31 @@
     "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-117s3195is/pdf/BILLS-117s3195is.pdf",
     "latest_action_date": "2021-11-04T04:00:00+00:00",
     "latest_action_description": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e06b981a-02bf-4ccc-9e3f-eb3891a90e0b",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 3202",
+    "title": "Advanced Artificial Intelligence Security Readiness Act of 2025",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-11-19T05:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Select Committee on Intelligence.",
     "ncsl_status": ""
   },
   {
@@ -13496,6 +13800,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/50d7ebf3-acc5-4b0d-8079-33b1ffb4554f",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 3275",
+    "title": "Humanoid ROBOT Act of 2025",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-11-20T05:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/44110b5d-b225-4c7f-94d8-4aeeac725d24",
     "state": "US",
     "session": "117",
@@ -13521,6 +13850,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/ff893edb-ee67-48d5-a4a4-792e46bb495a",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 3308",
+    "title": "Artificial Intelligence Civil Rights Act of 2025",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-02T05:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/c5a182f4-5017-4193-8244-ef4003a8ecac",
     "state": "US",
     "session": "118",
@@ -13543,6 +13897,31 @@
     "primary_url": null,
     "latest_action_date": "2024-12-18T05:00:00+00:00",
     "latest_action_description": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 723.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f348945e-023c-46cb-80d6-a356a9dcbb13",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 3336",
+    "title": "Reliable Artificial Intelligence Research Act of 2025",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-03T05:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
     "ncsl_status": ""
   },
   {
@@ -13596,6 +13975,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/60911030-1664-4213-8441-dec4bf552cf8",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 3410",
+    "title": "A bill to establish Federal agency technology and artificial intelligence talent teams to improve competitive service hiring practices, and for other purposes.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-10T05:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/280a0330-5f36-49c6-a250-65f2a1cf4193",
     "state": "US",
     "session": "116",
@@ -13605,12 +14009,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -13698,6 +14102,56 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/03f7f2d7-305c-4396-a122-933fbff772af",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 3495",
+    "title": "Artificial Intelligence Scam Prevention Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-16T05:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/4d4ed4db-98ab-4390-bf47-f0c7e9fe8d19",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 3680",
+    "title": "Eliminating Bias in Algorithmic Systems Act of 2026",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-01-15T05:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/0d67c751-9a97-40c7-9d2b-94ce32add4ee",
     "state": "US",
     "session": "116",
@@ -13763,8 +14217,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13833,9 +14287,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -13843,8 +14297,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -13930,6 +14384,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/c049f332-3ffe-493d-a955-d9dcf84d56d0",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 3888",
+    "title": "Small Business Artificial Intelligence Training Act of 2026",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-02-12T05:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/8ae0e4dd-2e17-4bed-9f52-fb59f908227f",
     "state": "US",
     "session": "116",
@@ -13964,8 +14443,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -14027,8 +14506,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14063,6 +14542,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/af82058b-6a0b-4e6d-b591-21a94f2413cd",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 3952",
+    "title": "Future of Artificial Intelligence Innovation Act of 2026",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-19T04:00:00+00:00",
+    "latest_action_description": "Star Print ordered on the bill.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/ebaf4d77-1df6-42e0-89d4-32da4d71ba10",
     "state": "US",
     "session": "116",
@@ -14080,8 +14584,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -14100,9 +14604,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -14161,14 +14665,64 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s4082is/pdf/BILLS-116s4082is.pdf",
     "latest_action_date": "2020-06-25T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Armed Services.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/56954086-5b61-4f9d-a001-5d324a9e8a69",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 4098",
+    "title": "Artificial Intelligence-Ready Data Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-16T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d500a47e-eef1-40cb-b16f-ad4a724323d0",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 4113",
+    "title": "AI Guardrails Act of 2026",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-17T04:00:00+00:00",
     "latest_action_description": "Read twice and referred to the Committee on Armed Services.",
     "ncsl_status": ""
   },
@@ -14224,6 +14778,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/ec351710-8c48-4958-9cfb-17f46a9418ba",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 4199",
+    "title": "A bill to require entities that make artificial intelligence chatbots available to minors to implement certain safe design features, and for other purposes.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-25T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/877a1e8d-556c-4d77-b8a7-d792d3a2e2f8",
     "state": "US",
     "session": "116",
@@ -14239,14 +14818,64 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s4200rs/pdf/BILLS-116s4200rs.pdf",
     "latest_action_date": "2020-10-01T04:00:00+00:00",
     "latest_action_description": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 570.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/51cd4eaa-0351-4f50-8901-eb07b2f11618",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 4214",
+    "title": "A bill to impose a moratorium on the construction of new data centers until legislation is enacted that safeguards the public from the dangers of artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-25T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e3acdb78-254c-4e70-b84e-6c41b73ac4af",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 4216",
+    "title": "A bill to repeal the Executive order entitled \"Ensuring a National Policy Framework for Artificial Intelligence\".",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-26T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
     "ncsl_status": ""
   },
   {
@@ -14770,13 +15399,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -15227,8 +15856,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -15453,8 +16082,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -15579,13 +16208,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -15884,13 +16513,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -16003,6 +16632,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/5f572b03-cd76-48e8-87ad-29f486718e1b",
+    "state": "US",
+    "session": "119",
+    "identifier": "SCONRES 30",
+    "title": "A concurrent resolution expressing the sense of Congress that the Ratepayer Protection Pledge announced on March 4, 2026, reflects sound national policy to protect ratepayers in the United States, promote electricity affordability, and ensure that all people of the United States, including households, small businesses, schools, hospitals, and farms, have access to reliable and affordable energy as artificial intelligence and data center infrastructure expands across the United States.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-25T04:00:00+00:00",
+    "latest_action_description": "Referred to the Committee on Energy and Natural Resources. (text: CR S1618-1619)",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/da5ef5bf-f36b-43a3-94ac-53ef42bc6a43",
     "state": "US",
     "session": "116",
@@ -16012,8 +16666,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -16039,12 +16693,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -16129,6 +16783,31 @@
     "primary_url": null,
     "latest_action_date": "2025-11-06T05:00:00+00:00",
     "latest_action_description": "Referred to the Committee on Foreign Relations.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/feb85e30-0b19-4748-8af1-b403551a32cf",
+    "state": "US",
+    "session": "119",
+    "identifier": "SRES 598",
+    "title": "A resolution condemning and calling for the reversal of President Trump's decision to allow the export of advanced artificial intelligence chips to the United Arab Emirates, despite significant risks to national security and just months after the United Arab Emirates signed a secret $500,000,000 deal to buy close to a majority stake in the Trump family crypto company World Liberty Financial.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-02-05T05:00:00+00:00",
+    "latest_action_description": "Referred to the Committee on Banking, Housing, and Urban Affairs. (text: CR S513)",
     "ncsl_status": ""
   }
 ]

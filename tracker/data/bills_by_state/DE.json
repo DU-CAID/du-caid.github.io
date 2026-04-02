@@ -28,56 +28,6 @@
     "bill_id": "",
     "state": "DE",
     "session": "2025",
-    "identifier": "H 16",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DE2025000H16&ciq=urn:user:PA196471263&client_md=cce3f57ae9ed8b8338987dc3f486e7cc&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Enacted"
-  },
-  {
-    "bill_id": "",
-    "state": "DE",
-    "session": "2025",
-    "identifier": "H 16",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiREUyMDI1MDAwSDE2In0.XmW1REyzxKsZYQQc4yeLSsK7IoAY5viWPrx_AJpQSoQ",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Enacted"
-  },
-  {
-    "bill_id": "",
-    "state": "DE",
-    "session": "2025",
     "identifier": "H 191",
     "title": "",
     "updated": "",
@@ -152,8 +102,8 @@
   {
     "bill_id": "",
     "state": "DE",
-    "session": "2023",
-    "identifier": "H 333",
+    "session": "2025",
+    "identifier": "H 306",
     "title": "",
     "updated": "",
     "core_ai_hits": 0,
@@ -169,10 +119,10 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DE2023000H333&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DE2025000H306&ciq=urn:user:PA196471263&client_md=ec9359f98d6cde3863876135849631f5&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
-    "ncsl_status": "Enacted"
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/5e95daa2-e86d-4504-bb0b-f23fa6e355bd",
@@ -180,39 +130,6 @@
     "session": "153",
     "identifier": "HB 16",
     "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO THE ARTIFICIAL INTELLIGENCE COMMISSION.",
-    "updated": "",
-    "core_ai_hits": 6,
-    "adjacent_ai_hits": 2,
-    "matched_concepts": [
-      "generative_ai_variant",
-      "generative_ai",
-      "artificial_intelligence",
-      "synthetic_media",
-      "adjacent_tech",
-      "ai_system_composite",
-      "ai_model_variant"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141828&legislationTypeId=1&docTypeId=2&legislationName=HB16",
-    "latest_action_date": "2025-05-13",
-    "latest_action_description": "Signed by Governor",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/3ca1cbab-7bfe-4811-be5f-6bc74c2f8691",
-    "state": "DE",
-    "session": "153",
-    "identifier": "HB 233",
-    "title": "AN ACT TO AMEND TITLE 26 OF THE DELAWARE CODE RELATING TO LARGE ENERGY USE FACILITIES.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -223,13 +140,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142655&legislationTypeId=1&docTypeId=2&legislationName=HB233",
-    "latest_action_date": "2025-06-30",
-    "latest_action_description": "Introduced and Assigned to Natural Resources & Energy Committee in House",
+    "primary_url": null,
+    "latest_action_date": "2025-05-13",
+    "latest_action_description": "Signed by Governor",
     "ncsl_status": ""
   },
   {
@@ -268,8 +185,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
-      "generative_ai"
+      "generative_ai",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -279,7 +196,7 @@
       "abstract",
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141577&legislationTypeId=5&docTypeId=2",
     "latest_action_date": "2024-07-17",
@@ -296,16 +213,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -330,8 +247,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -356,64 +273,63 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142199&legislationTypeId=6&docTypeId=2&legislationName=SS1forSB101",
+    "primary_url": null,
     "latest_action_date": "2025-07-21",
     "latest_action_description": "Signed by Governor",
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/f0ddda3c-9827-4bca-b132-e74077e909f3",
+    "bill_id": "",
     "state": "DE",
-    "session": "153",
+    "session": "2025",
     "identifier": "SCR 18",
-    "title": "CREATING A TASK FORCE TO STUDY NUCLEAR ENERGY IN DELAWARE.",
+    "title": "",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 0,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "ncsl_curated_ai_law"
     ],
     "matched_tiers": [
-      "core_ai"
+      "ncsl"
     ],
     "match_fields": [
-      "raw_text"
+      "ncsl_source"
     ],
     "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141966&legislationTypeId=3&docTypeId=2&legislationName=SCR18",
-    "latest_action_date": "2025-07-01",
-    "latest_action_description": "Amendment HA 1 to SCR 18 - Stricken in House",
+    "source_bucket": "ncsl_only",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiREUyMDI1MDAwU0NSMTgifQ.4Z-GJpil_yhdzQOl5dLOHV8PWwlPL0LwSK9rj7IWras",
+    "latest_action_date": "",
+    "latest_action_description": "",
     "ncsl_status": "Adopted"
   },
   {
-    "bill_id": "ocd-bill/f04420f1-0af1-4418-9432-ffbd0f6b7834",
+    "bill_id": "",
     "state": "DE",
-    "session": "153",
-    "identifier": "SCR 81",
-    "title": "RECOGNIZING MAY 22, 2025, AS “STOP THE BLEED DAY” IN THE STATE OF DELAWARE.",
+    "session": "2025",
+    "identifier": "SCR 18",
+    "title": "",
     "updated": "",
     "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "adjacent_tech"
+      "ncsl_curated_ai_law"
     ],
     "matched_tiers": [
-      "adjacent_ai"
+      "ncsl"
     ],
     "match_fields": [
-      "raw_text"
+      "ncsl_source"
     ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142342&legislationTypeId=3&docTypeId=2&legislationName=SCR81",
-    "latest_action_date": "2025-05-20",
-    "latest_action_description": "Introduced in Senate",
-    "ncsl_status": ""
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:DE2025000SCR18&ciq=urn:user:PA196471263&client_md=f398696dab662db750f49f276fae4cb3&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Adopted"
   }
 ]

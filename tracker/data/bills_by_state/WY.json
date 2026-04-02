@@ -19,7 +19,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV1kyMDI1MDAwRDE0OSJ9.NbWVCsYJ-JTeZev67Ve12YIEbNRFppOHa3inaRlgktQ",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000D149&ciq=urn:user:PA196471263&client_md=0c48cdb9e15ebed8e2b338be84e419e8&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
@@ -44,110 +44,10 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000D149&ciq=urn:user:PA196471263&client_md=0c48cdb9e15ebed8e2b338be84e419e8&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV1kyMDI1MDAwRDE0OSJ9.NbWVCsYJ-JTeZev67Ve12YIEbNRFppOHa3inaRlgktQ",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed - Adjourned"
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "H 1",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV1kyMDI1MDAwSDEifQ.RaxqPKJb6jck7VK9N04e1O6ynkUj98GKnGzAaXzhHV0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "H 1",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000H1&ciq=urn:user:PA196471263&client_md=8f2938acfe3841c9c3dc268d72c0cea0&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2024",
-    "identifier": "H 1",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2024000H1&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2026",
-    "identifier": "H 102",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2026000H102&ciq=urn:user:PA196471263&client_md=67f4d5a965faf60a65866663c19c98df&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/75d99a1e-f9ae-480b-a2ea-2f816c02e568",
@@ -167,7 +67,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2024/Introduced/HB0001.pdf",
     "latest_action_date": "2024-03-22T19:07:49+00:00",
@@ -192,11 +92,41 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2025/Introduced/HB0001.pdf",
     "latest_action_date": "2025-03-06T21:50:11+00:00",
     "latest_action_description": "H See Mirror Bill SF0001",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/9dd57518-aebd-419f-8784-99fd40384460",
+    "state": "WY",
+    "session": "2026",
+    "identifier": "HB 102",
+    "title": "Protecting kids from deepfakes and exploitative images.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "ai_system_composite",
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2026/Introduced/HB0102.pdf",
+    "latest_action_date": "2026-03-08T00:53:23+00:00",
+    "latest_action_description": "Assigned Chapter Number 91",
     "ncsl_status": ""
   },
   {
@@ -225,79 +155,29 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/fb25e6d9-e0f8-4a04-b67f-31f86d0e0e29",
     "state": "WY",
-    "session": "2025",
-    "identifier": "S 1",
-    "title": "",
+    "session": "2026",
+    "identifier": "HB 91",
+    "title": "Ban on government social scoring with AI.",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV1kyMDI1MDAwUzEifQ.UpnGxITTs3Y29zqZNOkxEh0Lhj1Inni13sgAc0l4slg",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "S 1",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000S1&ciq=urn:user:PA196471263&client_md=4f2d6c2336a159549e13166a7a8cd075&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2024",
-    "identifier": "S 1",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2024000S1&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2026/Introduced/HB0091.pdf",
+    "latest_action_date": "2026-02-23T16:14:35+00:00",
+    "latest_action_description": "H COW:H Did not consider for COW",
+    "ncsl_status": ""
   },
   {
     "bill_id": "",
@@ -342,7 +222,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2024/Introduced/SF0001.pdf",
     "latest_action_date": "2024-03-05T03:05:12+00:00",
@@ -367,7 +247,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://wyoleg.gov/2025/Introduced/SF0001.pdf",
     "latest_action_date": "2025-03-06T22:01:00+00:00",
@@ -440,8 +320,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -495,7 +375,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV1kyMDI1MDAwU0pSOCJ9.QGFw4LdT2YwdS2l_7-RFUFPked3PBUiwcJGgKqqryDg",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000SJR8&ciq=urn:user:PA196471263&client_md=9e9246e282dddcff468000befb24751f&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"
@@ -520,7 +400,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000SJR8&ciq=urn:user:PA196471263&client_md=9e9246e282dddcff468000befb24751f&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV1kyMDI1MDAwU0pSOCJ9.QGFw4LdT2YwdS2l_7-RFUFPked3PBUiwcJGgKqqryDg",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Failed"

@@ -70,8 +70,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H103.pdf",
-    "latest_action_date": "2025-07-30",
-    "latest_action_description": "Reporting date extended to Wednesday, November 12, 2025",
+    "latest_action_date": "2025-11-17",
+    "latest_action_description": "Accompanied a new draft, see H4746",
     "ncsl_status": ""
   },
   {
@@ -88,8 +88,8 @@
       "algorithmic_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -122,8 +122,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H1032.pdf",
-    "latest_action_date": "2025-06-23",
-    "latest_action_description": "Hearing scheduled for 07/01/2025 from 01:00 PM-05:00 PM in A-1",
+    "latest_action_date": "2026-02-26",
+    "latest_action_description": "Accompanied a study order, see H5149",
     "ncsl_status": ""
   },
   {
@@ -147,8 +147,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H104.pdf",
-    "latest_action_date": "2025-07-30",
-    "latest_action_description": "Reporting date extended to Wednesday, November 12, 2025",
+    "latest_action_date": "2025-11-17",
+    "latest_action_description": "Accompanied a new draft, see H4746",
     "ncsl_status": ""
   },
   {
@@ -162,8 +162,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -199,8 +199,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H1117.pdf",
-    "latest_action_date": "2025-10-02",
-    "latest_action_description": "Hearing scheduled for 10/14/2025 from 10:30 AM-01:00 PM in A-1",
+    "latest_action_date": "2026-02-05",
+    "latest_action_description": "Accompanied a new draft, see H5016",
     "ncsl_status": ""
   },
   {
@@ -213,9 +213,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -243,18 +243,18 @@
     "matched_concepts": [
       "algorithmic_decision_system",
       "machine_learning",
-      "adjacent_tech",
+      "automated_decision_system",
       "artificial_intelligence",
-      "automated_decision_system"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -279,14 +279,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H1210.pdf",
-    "latest_action_date": "2025-10-20",
-    "latest_action_description": "Hearing scheduled for 07/15/2025 from 10:00 AM-01:00 PM in A-2",
+    "latest_action_date": "2026-02-09",
+    "latest_action_description": "Accompanied a study order, see H5066",
     "ncsl_status": "Pending"
   },
   {
@@ -324,8 +324,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "automated_decision_system",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -352,10 +352,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system",
       "machine_learning",
-      "adjacent_tech"
+      "artificial_intelligence",
+      "adjacent_tech",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -542,8 +542,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H1754.pdf",
-    "latest_action_date": "2025-10-20",
-    "latest_action_description": "Hearing scheduled for 07/15/2025 from 01:00 PM-08:00 PM in A-2",
+    "latest_action_date": "2026-03-26",
+    "latest_action_description": "Accompanied a study order, see  H5281 (under House Rule 27)",
     "ncsl_status": ""
   },
   {
@@ -591,7 +591,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2023000H1873&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2023000H1873&ciq=ncsl&client_md=c1f1e6ba02e1197a8978637c41d1a2f2&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -616,7 +616,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2023000H1873&ciq=ncsl&client_md=c1f1e6ba02e1197a8978637c41d1a2f2&mode=current_text",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2023000H1873&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -642,8 +642,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H1924.pdf",
-    "latest_action_date": "2025-10-10",
-    "latest_action_description": "Hearing scheduled for 10/21/2025 from 01:00 PM-05:00 PM in A-2",
+    "latest_action_date": "2026-03-26",
+    "latest_action_description": "Accompanied a study order, see  H5281 (under House Rule 27)",
     "ncsl_status": ""
   },
   {
@@ -693,8 +693,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H1931.pdf",
-    "latest_action_date": "2025-10-20",
-    "latest_action_description": "Hearing scheduled for 07/15/2025 from 01:00 PM-08:00 PM in A-2",
+    "latest_action_date": "2026-03-26",
+    "latest_action_description": "Accompanied a study order, see  H5281 (under House Rule 27)",
     "ncsl_status": "Pending"
   },
   {
@@ -764,8 +764,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -984,20 +984,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "algorithmic_decision_system",
       "adjacent_tech",
-      "artificial_intelligence",
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1102,8 +1102,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H3208.pdf",
-    "latest_action_date": "2025-09-19",
-    "latest_action_description": "Hearing scheduled for 09/29/2025 from 01:00 PM-05:00 PM in A-1",
+    "latest_action_date": "2026-02-25",
+    "latest_action_description": "Reporting date extended to Wednesday, March 18, 2026",
     "ncsl_status": "Pending"
   },
   {
@@ -1227,8 +1227,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H3983.pdf",
-    "latest_action_date": "2025-09-25",
-    "latest_action_description": "Hearing rescheduled to 09/25/2025 from 11:00 AM-11:30 AM in A-1                                                                                                                  and Virtual Hearing updated to New End Time",
+    "latest_action_date": "2025-12-01",
+    "latest_action_description": "Bill reported favorably by committee and referred to the committee on House Ways and Means",
     "ncsl_status": "Pending"
   },
   {
@@ -1251,7 +1251,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUEyMDI1MDAwSDQwMDEifQ.rG6_SjR4RnmRWmRm1eytzPIbTM8ItONn-fJW3u7NRSQ",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000H4001&ciq=urn:user:PA196471263&client_md=386ee767c05b5523a003c07f0799343e&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1276,7 +1276,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000H4001&ciq=urn:user:PA196471263&client_md=386ee767c05b5523a003c07f0799343e&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUEyMDI1MDAwSDQwMDEifQ.rG6_SjR4RnmRWmRm1eytzPIbTM8ItONn-fJW3u7NRSQ",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -1342,8 +1342,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1572,8 +1572,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "deepfake_media",
-      "machine_learning"
+      "machine_learning",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1700,19 +1700,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "adjacent_tech",
       "algorithmic_tool",
+      "machine_learning",
+      "automated_decision_system",
       "artificial_intelligence",
-      "automated_decision_system"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1971,8 +1971,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H461.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing scheduled for 09/08/2025 from 10:00 AM-1:00 PM in A-2",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Accompanied a new draft, see H4807",
     "ncsl_status": "Pending"
   },
   {
@@ -2010,9 +2010,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2024,8 +2024,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H4616.pdf",
-    "latest_action_date": "2025-10-20",
-    "latest_action_description": "Reported from the committee on Financial Services",
+    "latest_action_date": "2026-03-19",
+    "latest_action_description": "Reporting date extended to Monday, June 15, 2026",
     "ncsl_status": ""
   },
   {
@@ -2054,34 +2054,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/0a957dba-7016-475d-8120-95dd053752d3",
-    "state": "MA",
-    "session": "193rd",
-    "identifier": "H 4642",
-    "title": "An Act to provide for the future information technology needs of Massachusetts.",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "machine_learning",
-      "ml_system",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://malegislature.gov/Bills/193/H4642.pdf",
-    "latest_action_date": "2024-05-15",
-    "latest_action_description": "Reported from the committee on House Ways and Means",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/fba69894-315d-4367-8640-31e28f46df1c",
     "state": "MA",
     "session": "191st",
@@ -2107,6 +2079,34 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/0a957dba-7016-475d-8120-95dd053752d3",
+    "state": "MA",
+    "session": "193rd",
+    "identifier": "H 4642",
+    "title": "An Act to provide for the future information technology needs of Massachusetts.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "ml_system"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/193/H4642.pdf",
+    "latest_action_date": "2024-05-15",
+    "latest_action_description": "Reported from the committee on House Ways and Means",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/f35161e6-8d4f-492f-8501-f1c05eaba72b",
     "state": "MA",
     "session": "193rd",
@@ -2117,8 +2117,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
-      "artificial_intelligence",
-      "ml_system"
+      "ml_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2363,6 +2363,56 @@
     "ncsl_status": "Failed – Adjourned"
   },
   {
+    "bill_id": "ocd-bill/77bc510f-937f-4869-999a-e94934c43d6c",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "H 4746",
+    "title": "An Act establishing the Massachusetts consumer data privacy act",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/H4746.pdf",
+    "latest_action_date": "2025-11-17",
+    "latest_action_description": "Reported from the committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/bc359205-832d-42e3-b9bc-2b1221986535",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "H 4758",
+    "title": "An Act supporting the economic growth of downtowns and small businesses",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/H4758.pdf",
+    "latest_action_date": "2025-11-19",
+    "latest_action_description": "Reported from the committee on Community Development and Small Businesses",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/0ab2715b-cf5f-4c2b-87d8-56f619c33a3e",
     "state": "MA",
     "session": "193rd",
@@ -2415,28 +2465,31 @@
     "ncsl_status": "Pending"
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/1e4b5286-755d-4c0f-bbc1-3377a15d8efe",
     "state": "MA",
-    "session": "2025",
+    "session": "194th",
     "identifier": "H 4832",
-    "title": "",
+    "title": "An Act relative to the contracting of digital replicas",
     "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "ncsl"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000H4832&ciq=urn:user:PA196471263&client_md=f4facf84aaac60f2ca772f066375dc9e&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/H4832.pdf",
+    "latest_action_date": "2026-01-20",
+    "latest_action_description": "Committee reported that the matter be placed in the Orders of the Day for the next sitting",
     "ncsl_status": ""
   },
   {
@@ -2579,8 +2632,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
-      "artificial_intelligence",
-      "ml_system"
+      "ml_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2631,8 +2684,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2657,26 +2710,26 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai_variant",
       "ai_system_composite",
       "ai_model_variant",
       "machine_learning",
-      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H495.pdf",
-    "latest_action_date": "2025-09-25",
-    "latest_action_description": "Hearing rescheduled to 09/25/2025 from 11:00 AM-11:30 AM in A-1                                                                                                                  and Virtual Hearing updated to New End Time",
+    "latest_action_date": "2026-03-05",
+    "latest_action_description": "Accompanied a study order, see H5178",
     "ncsl_status": "Pending"
   },
   {
@@ -2714,12 +2767,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2784,6 +2837,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/eca073bd-9f2f-4668-ac99-7fb448be5b3a",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "H 5016",
+    "title": "An Act promoting and enhancing the sustainability of birth centers and the midwifery workforce",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/H5016.pdf",
+    "latest_action_date": "2026-02-05",
+    "latest_action_description": "Reported from the committee on Financial Services",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/c2a3d4d9-23b2-4c16-ac78-c4c696e0ced3",
     "state": "MA",
     "session": "192nd",
@@ -2836,79 +2914,84 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/8eda9054-f848-4839-a09d-aab4af85969d",
     "state": "MA",
-    "session": "2025",
+    "session": "194th",
+    "identifier": "H 5073",
+    "title": "Study Order",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/H5073.pdf",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "Reported from the committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/dd28e5b2-4c81-4a9e-adc7-561fa7582f51",
+    "state": "MA",
+    "session": "194th",
     "identifier": "H 5093",
-    "title": "",
+    "title": "An Act to protect against election misinformation",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000H5093&ciq=urn:user:PA196471263&client_md=52ffd2218c851ee0c40985c6ef8b6728&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/H5093.pdf",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "Read; and referred to the committee on Senate Ways and Means",
     "ncsl_status": ""
   },
   {
-    "bill_id": "",
+    "bill_id": "ocd-bill/afbb97d1-d201-4879-bdaa-4f929451fd13",
     "state": "MA",
-    "session": "2025",
+    "session": "194th",
     "identifier": "H 5094",
-    "title": "",
+    "title": "An Act enhancing disclosure requirements for synthetic media in political advertising",
     "updated": "",
-    "core_ai_hits": 0,
+    "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ncsl_curated_ai_law"
+      "ai_system_composite",
+      "generative_ai_variant",
+      "synthetic_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "ncsl"
+      "core_ai"
     ],
     "match_fields": [
-      "ncsl_source"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000H5094&ciq=urn:user:PA196471263&client_md=0bc20b0f54c42adc84f219d03d641ba1&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/H5094.pdf",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "Read; and referred to the committee on Senate Ways and Means",
     "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "MA",
-    "session": "2023",
-    "identifier": "H 51",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2023000H51&ciq=ncsl&client_md=0bb99182ad1c08838b939238589def85&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Pending"
   },
   {
     "bill_id": "",
@@ -2936,6 +3019,31 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "",
+    "state": "MA",
+    "session": "2023",
+    "identifier": "H 51",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2023000H51&ciq=ncsl&client_md=0bb99182ad1c08838b939238589def85&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "Pending"
+  },
+  {
     "bill_id": "ocd-bill/630fe794-7e8a-4c43-9684-2c36d2e4afa6",
     "state": "MA",
     "session": "193rd",
@@ -2945,13 +3053,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2989,6 +3097,57 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/9a5712d4-c84f-4d16-a29d-3bad6fa4d7f2",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "H 5178",
+    "title": "Study Order",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/H5178.pdf",
+    "latest_action_date": "2026-03-05",
+    "latest_action_description": "Reported from the committee on Economic Development and Emerging Technologies",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "",
+    "state": "MA",
+    "session": "2025",
+    "identifier": "H 5222",
+    "title": "",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ncsl_curated_ai_law"
+    ],
+    "matched_tiers": [
+      "ncsl"
+    ],
+    "match_fields": [
+      "ncsl_source"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "ncsl_only",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000H5222&ciq=urn:user:PA196471263&client_md=cc1762bc8f1c6deed44ad1d97605be62&mode=current_text",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/5b0eea91-46b1-4bfc-8ee1-5fb4cc1c03c1",
     "state": "MA",
     "session": "191st",
@@ -3012,6 +3171,31 @@
     "latest_action_date": "2021-01-06",
     "latest_action_description": "Reported from the committee of conference",
     "ncsl_status": "Enacted"
+  },
+  {
+    "bill_id": "ocd-bill/aea4413c-2ed8-45c1-ae03-a7a4849736b0",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "H 5280",
+    "title": "An Act making appropriations for the fiscal year 2026 to provide for supplementing certain existing appropriations and for certain other activities and projects",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/H5280.pdf",
+    "latest_action_date": "2026-03-23",
+    "latest_action_description": "Read; and referred to the committee on Senate Ways and Means",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/810c3ad0-d59d-49cb-a3e3-2356c84292b0",
@@ -3151,8 +3335,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3160,8 +3344,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H614.pdf",
-    "latest_action_date": "2025-10-29",
-    "latest_action_description": "Hearing scheduled for 11/12/2025 from 11:00 AM-05:00 PM in Gardner Auditorium",
+    "latest_action_date": "2026-02-09",
+    "latest_action_description": "Reporting date extended to Wednesday, March 18, 2026",
     "ncsl_status": "Pending"
   },
   {
@@ -3199,15 +3383,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3226,8 +3410,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "algorithmic_decision_system",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -3240,8 +3424,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H666.pdf",
-    "latest_action_date": "2025-09-15",
-    "latest_action_description": "Reporting date extended to Wednesday, December 17, 2025",
+    "latest_action_date": "2025-11-17",
+    "latest_action_description": "Accompanied a new draft, see H4745",
     "ncsl_status": "Pending"
   },
   {
@@ -3312,15 +3496,15 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H74.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing rescheduled to 09/11/2025 from 01:00 PM-05:00 PM in A-2                                                                                                                            and Virtual Hearing updated to include Virtual",
+    "latest_action_date": "2025-12-24",
+    "latest_action_description": "Accompanied a new draft, see H4832",
     "ncsl_status": ""
   },
   {
@@ -3335,8 +3519,8 @@
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
-      "generative_ai_variant",
       "machine_learning",
+      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite"
     ],
@@ -3350,8 +3534,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H76.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing rescheduled to 09/11/2025 from 01:00 PM-05:00 PM in A-2                                                                                                                            and Virtual Hearing updated to include Virtual",
+    "latest_action_date": "2026-02-11",
+    "latest_action_description": "Committee recommended bill ought to pass and referred to the committee on House Ways and Means",
     "ncsl_status": "Pending"
   },
   {
@@ -3364,9 +3548,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "automated_decision_system",
       "ai_system_composite",
       "machine_learning",
-      "automated_decision_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -3374,15 +3558,15 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H77.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing rescheduled to 09/11/2025 from 01:00 PM-05:00 PM in A-2                                                                                                                            and Virtual Hearing updated to include Virtual",
+    "latest_action_date": "2025-12-24",
+    "latest_action_description": "Bill reported favorably by committee and referred to the committee on House Ways and Means",
     "ncsl_status": "Pending"
   },
   {
@@ -3420,26 +3604,26 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "machine_learning",
-      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H81.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing rescheduled to 09/11/2025 from 01:00 PM-05:00 PM in A-2                                                                                                                            and Virtual Hearing updated to include Virtual",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "Accompanied a study order, see H5073",
     "ncsl_status": "Pending"
   },
   {
@@ -3463,8 +3647,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H83.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing rescheduled to 09/11/2025 from 01:00 PM-05:00 PM in A-2                                                                                                                            and Virtual Hearing updated to include Virtual",
+    "latest_action_date": "2026-01-08",
+    "latest_action_description": "Discharged to the committee on House Rules",
     "ncsl_status": "Pending"
   },
   {
@@ -3511,15 +3695,15 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H846.pdf",
-    "latest_action_date": "2025-09-02",
-    "latest_action_description": "Bill reported favorably by committee and referred to the committee on House Ways and Means",
+    "latest_action_date": "2026-02-11",
+    "latest_action_description": "Committee recommended bill ought to pass and referred to the committee on House Ways and Means",
     "ncsl_status": "Pending"
   },
   {
@@ -3557,27 +3741,27 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "ai_system",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H90.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing rescheduled to 09/11/2025 from 01:00 PM-05:00 PM in A-2                                                                                                                            and Virtual Hearing updated to include Virtual",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "Accompanied a study order, see H5073",
     "ncsl_status": "Pending"
   },
   {
@@ -3590,28 +3774,28 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "high_risk_ai_variant",
-      "ai_system",
-      "algorithmic_tool",
-      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
-      "high_risk_ai"
+      "high_risk_ai_variant",
+      "artificial_intelligence",
+      "high_risk_ai",
+      "ai_system",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H94.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing rescheduled to 09/11/2025 from 01:00 PM-05:00 PM in A-2                                                                                                                            and Virtual Hearing updated to include Virtual",
+    "latest_action_date": "2025-12-24",
+    "latest_action_description": "Accompanied H97",
     "ncsl_status": "Pending"
   },
   {
@@ -3626,24 +3810,24 @@
     "matched_concepts": [
       "ai_system_composite",
       "adjacent_tech",
+      "algorithmic_tool",
       "high_risk_ai_variant",
-      "artificial_intelligence",
-      "algorithmic_tool"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/H97.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing rescheduled to 09/11/2025 from 01:00 PM-05:00 PM in A-2                                                                                                                            and Virtual Hearing updated to include Virtual",
+    "latest_action_date": "2025-12-24",
+    "latest_action_description": "Accompanied by H94",
     "ncsl_status": "Pending"
   },
   {
@@ -3683,8 +3867,8 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "machine_learning",
       "generative_ai_variant",
+      "machine_learning",
       "artificial_intelligence",
       "synthetic_media"
     ],
@@ -3712,15 +3896,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3743,18 +3927,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system",
       "machine_learning",
-      "ai_system_composite"
+      "artificial_intelligence",
+      "ai_system_composite",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3849,10 +4033,10 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "automated_decision_system",
-      "artificial_intelligence",
+      "algorithmic_decision_system",
       "adjacent_tech",
-      "machine_learning",
-      "algorithmic_decision_system"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3891,9 +4075,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4113,9 +4297,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "adjacent_tech",
       "automated_decision_system",
       "artificial_intelligence",
-      "adjacent_tech",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -4242,9 +4426,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_decision_system",
       "artificial_intelligence",
-      "machine_learning",
-      "algorithmic_decision_system"
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -4370,9 +4554,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4398,9 +4582,9 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "generative_ai_variant",
+      "ai_system_composite",
       "synthetic_media",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4705,12 +4889,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
-      "high_risk_ai",
       "ai_system",
       "algorithmic_tool",
+      "high_risk_ai",
       "artificial_intelligence",
+      "ai_system_composite",
+      "adjacent_tech",
       "high_risk_ai_variant"
     ],
     "matched_tiers": [
@@ -4718,8 +4902,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4742,13 +4926,13 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4792,20 +4976,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
-      "artificial_intelligence",
-      "algorithmic_tool",
-      "high_risk_ai_variant"
+      "high_risk_ai_variant",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4824,8 +5008,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_decision_system",
-      "adjacent_tech"
+      "adjacent_tech",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -4876,9 +5060,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -4929,20 +5113,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence",
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5038,8 +5222,8 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "machine_learning",
       "generative_ai_variant",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -5047,9 +5231,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5068,10 +5252,10 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "algorithmic_decision_system",
       "algorithmic_tool",
       "artificial_intelligence",
       "automated_decision_system",
-      "algorithmic_decision_system",
       "machine_learning",
       "adjacent_tech",
       "ai_system_composite"
@@ -5081,9 +5265,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5134,8 +5318,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5170,6 +5354,34 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/6c19e527-8b55-4597-9c7c-87bb9a2901eb",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "HD 5363",
+    "title": "An Act relative to social media, algorithm accountability, and transparency",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/HD5363.pdf",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Referred to the committee on House Rules",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/b57be179-cbc3-405d-a8f6-4447c721e4b7",
     "state": "MA",
     "session": "194th",
@@ -5192,6 +5404,31 @@
     "primary_url": "https://malegislature.gov/Bills/194/HD567.pdf",
     "latest_action_date": "",
     "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d6fcdc24-2b68-4737-8255-146f25398840",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "HD 5719",
+    "title": "A communication from the University of Massachusetts (see item 7100-0200 in Section 2 of Chapter 9 of the Acts of 2025) submitting its annual report for fiscal year 2026",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/HD5719.pdf",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Placed on file",
     "ncsl_status": ""
   },
   {
@@ -5331,10 +5568,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "machine_learning",
-      "algorithmic_decision_system",
       "automated_decision_system",
+      "adjacent_tech",
+      "algorithmic_decision_system",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -5342,8 +5579,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -5372,7 +5609,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000S1016&ciq=urn:user:PA196471263&client_md=a926eff923eb0efc4341b56d88873f9d&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUEyMDI1MDAwUzEwMTYifQ.mbQPJUPawkYHBp51WAxtfRhMHM_give9NQKlaN5PiVU",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -5397,7 +5634,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUEyMDI1MDAwUzEwMTYifQ.mbQPJUPawkYHBp51WAxtfRhMHM_give9NQKlaN5PiVU",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000S1016&ciq=urn:user:PA196471263&client_md=a926eff923eb0efc4341b56d88873f9d&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -5523,8 +5760,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S1171.pdf",
-    "latest_action_date": "2025-10-10",
-    "latest_action_description": "Hearing scheduled for 10/21/2025 from 01:00 PM-05:00 PM in A-2",
+    "latest_action_date": "2026-02-05",
+    "latest_action_description": "Bill reported favorably by committee and referred to the committee on Health Care Financing",
     "ncsl_status": ""
   },
   {
@@ -5598,8 +5835,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S1394.pdf",
-    "latest_action_date": "2025-10-31",
-    "latest_action_description": "Hearing scheduled for 11/10/2025 from 01:00 PM-05:00 PM in A-2",
+    "latest_action_date": "2026-02-26",
+    "latest_action_description": "Accompanied a study order, see S2972",
     "ncsl_status": ""
   },
   {
@@ -5650,7 +5887,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000S1484&ciq=urn:user:PA196471263&client_md=e014e8f97c449b8d50fe907171507063&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUEyMDI1MDAwUzE0ODQifQ.AyHDKpYWAzs7XdYlrG2cvAwThFqa7BZQ11yQHjkQvd0",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -5675,7 +5912,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUEyMDI1MDAwUzE0ODQifQ.AyHDKpYWAzs7XdYlrG2cvAwThFqa7BZQ11yQHjkQvd0",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000S1484&ciq=urn:user:PA196471263&client_md=e014e8f97c449b8d50fe907171507063&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -5765,20 +6002,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "adjacent_tech",
       "automated_decision_system",
       "artificial_intelligence",
-      "adjacent_tech",
-      "algorithmic_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5858,8 +6095,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S2127.pdf",
-    "latest_action_date": "2025-07-03",
-    "latest_action_description": "Hearing scheduled for 07/15/2025 from 01:00 PM-05:00 PM in B-1",
+    "latest_action_date": "2026-02-09",
+    "latest_action_description": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
     "ncsl_status": ""
   },
   {
@@ -5958,8 +6195,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S2379.pdf",
-    "latest_action_date": "2025-06-18",
-    "latest_action_description": "Hearing rescheduled to 06/24/2025 from 01:00 PM-05:00 PM in A-2",
+    "latest_action_date": "2026-02-19",
+    "latest_action_description": "Reporting date extended to Tuesday March 31, 2026",
     "ncsl_status": ""
   },
   {
@@ -6034,8 +6271,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S250.pdf",
-    "latest_action_date": "2025-08-28",
-    "latest_action_description": "Hearing scheduled for 09/08/2025 from 10:00 AM-1:00 PM in A-2",
+    "latest_action_date": "2026-01-05",
+    "latest_action_description": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
     "ncsl_status": "Pending"
   },
   {
@@ -6151,11 +6388,11 @@
     "matched_concepts": [
       "automated_decision_system",
       "generative_ai_variant",
-      "artificial_intelligence",
       "generative_ai",
       "ai_system_composite",
       "ai_model_variant",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -6163,8 +6400,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -6261,21 +6498,21 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "llm_variant",
-      "foundation_model",
       "ai_system_composite",
       "ai_model_variant",
       "adjacent_tech",
-      "artificial_intelligence"
+      "foundation_model"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6294,21 +6531,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "deepfake_media",
+      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "machine_learning",
-      "deepfake_media",
-      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6335,15 +6572,15 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S2632.pdf",
-    "latest_action_date": "2025-10-16",
-    "latest_action_description": "Reported from the committee on Advanced Information Technology, the Internet and Cybersecurity",
+    "latest_action_date": "2026-03-19",
+    "latest_action_description": "Reporting date extended to Tuesday March 31, 2026",
     "ncsl_status": ""
   },
   {
@@ -6388,15 +6625,15 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S264.pdf",
-    "latest_action_date": "2025-09-29",
-    "latest_action_description": "Hearing rescheduled to 10/01/2025 from 10:00 AM-01:00 PM in B-2                                       and Virtual Hearing location changed",
+    "latest_action_date": "2025-12-18",
+    "latest_action_description": "Bill reported favorably by committee and referred to the committee on Senate Ways and Means",
     "ncsl_status": "Pending"
   },
   {
@@ -6409,20 +6646,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "automated_decision_system",
-      "algorithmic_tool",
-      "artificial_intelligence",
       "adjacent_tech",
-      "machine_learning"
+      "automated_decision_system",
+      "artificial_intelligence",
+      "machine_learning",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6475,9 +6712,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -6707,8 +6944,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6821,31 +7058,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/26c8792a-f8fc-4aae-88cc-aad4d0290b0b",
-    "state": "MA",
-    "session": "192nd",
-    "identifier": "S 2842",
-    "title": "Amendment S.2842",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://malegislature.gov/Bills/192/S2842.pdf",
-    "latest_action_date": "2022-04-14",
-    "latest_action_description": "Text of S2819, printed as amended",
-    "ncsl_status": "Failed – Adjourned"
-  },
-  {
     "bill_id": "ocd-bill/113038f4-024a-4c80-96fd-bc298977ac99",
     "state": "MA",
     "session": "191st",
@@ -6868,6 +7080,31 @@
     "primary_url": "https://malegislature.gov/Bills/191/S2842.pdf",
     "latest_action_date": "2020-07-27",
     "latest_action_description": "Order relative to subject matter adopted",
+    "ncsl_status": "Failed – Adjourned"
+  },
+  {
+    "bill_id": "ocd-bill/26c8792a-f8fc-4aae-88cc-aad4d0290b0b",
+    "state": "MA",
+    "session": "192nd",
+    "identifier": "S 2842",
+    "title": "Amendment S.2842",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/192/S2842.pdf",
+    "latest_action_date": "2022-04-14",
+    "latest_action_description": "Text of S2819, printed as amended",
     "ncsl_status": "Failed – Adjourned"
   },
   {
@@ -6998,6 +7235,34 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/2583a727-95d3-478e-a94d-18a041c9f5b1",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "S 2983",
+    "title": "An Act prohibiting algorithmic rent setting",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "algorithmic_tool",
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/S2983.pdf",
+    "latest_action_date": "2026-03-12",
+    "latest_action_description": "Reported from the committee on Housing",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/6fba8b8e-c032-445b-b8d9-3f9348090909",
     "state": "MA",
     "session": "194th",
@@ -7009,12 +7274,12 @@
     "matched_concepts": [
       "adjacent_tech",
       "machine_learning",
-      "automated_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7022,8 +7287,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S301.pdf",
-    "latest_action_date": "2025-10-31",
-    "latest_action_description": "Hearing scheduled for 11/13/2025 from 11:00 AM-01:00 PM in A-2",
+    "latest_action_date": "2025-12-18",
+    "latest_action_description": "Accompanied a study order (under JR10), see S2885",
     "ncsl_status": ""
   },
   {
@@ -7061,12 +7326,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7181,7 +7446,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUEyMDI1MDAwUzMyMyJ9.ZiWltQty3tWhGt_NqK34clueOOT8rVnXerOQvZpE6v8",
+    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000S323&ciq=urn:user:PA196471263&client_md=f5ce79f457fc895ec257f5251e8a44ce&mode=current_text",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -7206,7 +7471,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:MA2025000S323&ciq=urn:user:PA196471263&client_md=f5ce79f457fc895ec257f5251e8a44ce&mode=current_text",
+    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTUEyMDI1MDAwUzMyMyJ9.ZiWltQty3tWhGt_NqK34clueOOT8rVnXerOQvZpE6v8",
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": "Pending"
@@ -7227,8 +7492,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7248,8 +7513,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "algorithmic_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -7275,9 +7540,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "automated_decision_system",
       "ai_system_composite",
       "machine_learning",
-      "automated_decision_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -7285,8 +7550,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7330,19 +7595,19 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7361,18 +7626,18 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence",
+      "generative_ai_variant",
       "generative_ai",
       "ai_system",
       "algorithmic_tool",
-      "automated_decision_system",
-      "generative_ai_variant"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7380,8 +7645,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S429.pdf",
-    "latest_action_date": "2025-10-29",
-    "latest_action_description": "Hearing scheduled for 11/12/2025 from 11:00 AM-05:00 PM in Gardner Auditorium",
+    "latest_action_date": "2025-12-04",
+    "latest_action_description": "Accompanied a study order, see S2792",
     "ncsl_status": "Pending"
   },
   {
@@ -7395,10 +7660,10 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "adjacent_tech",
-      "ai_system_composite",
       "artificial_intelligence",
       "synthetic_media",
+      "adjacent_tech",
+      "ai_system_composite",
       "deepfake_media",
       "generative_ai_variant"
     ],
@@ -7443,35 +7708,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/849d5e90-07dd-49dc-835d-3994f2a3081d",
-    "state": "MA",
-    "session": "194th",
-    "identifier": "S 46",
-    "title": "An Act relative to the use of artificial intelligence and other software tools in healthcare decision-making",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://malegislature.gov/Bills/194/S46.pdf",
-    "latest_action_date": "2025-10-16",
-    "latest_action_description": "Accompanied a new draft, see S2632",
-    "ncsl_status": "Pending"
-  },
-  {
     "bill_id": "ocd-bill/9305c291-cef4-4783-88f5-fcfae747799e",
     "state": "MA",
     "session": "192nd",
@@ -7482,9 +7718,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "adjacent_tech",
+      "automated_decision_system",
       "artificial_intelligence",
-      "automated_decision_system"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -7498,6 +7734,35 @@
     "primary_url": "https://malegislature.gov/Bills/192/S46.pdf",
     "latest_action_date": "2022-02-14",
     "latest_action_description": "Accompanied a new draft, see S2687",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/849d5e90-07dd-49dc-835d-3994f2a3081d",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "S 46",
+    "title": "An Act relative to the use of artificial intelligence and other software tools in healthcare decision-making",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/S46.pdf",
+    "latest_action_date": "2025-10-16",
+    "latest_action_description": "Accompanied a new draft, see S2632",
     "ncsl_status": "Pending"
   },
   {
@@ -7536,9 +7801,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "automated_decision_system",
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -7596,8 +7861,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7655,8 +7920,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S566.pdf",
-    "latest_action_date": "2025-06-10",
-    "latest_action_description": "Hearing scheduled for 06/17/2025 from 01:00 PM-05:00 PM in A-1",
+    "latest_action_date": "2025-11-24",
+    "latest_action_description": "Accompanied by S599",
     "ncsl_status": ""
   },
   {
@@ -7705,8 +7970,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S599.pdf",
-    "latest_action_date": "2025-06-10",
-    "latest_action_description": "Hearing scheduled for 06/17/2025 from 01:00 PM-05:00 PM in A-1",
+    "latest_action_date": "2025-11-24",
+    "latest_action_description": "Accompanied S566",
     "ncsl_status": ""
   },
   {
@@ -7719,20 +7984,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system",
       "machine_learning",
+      "artificial_intelligence",
+      "adjacent_tech",
       "algorithmic_decision_system",
-      "adjacent_tech"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title",
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7762,8 +8027,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S784.pdf",
-    "latest_action_date": "2025-10-02",
-    "latest_action_description": "Hearing scheduled for 10/14/2025 from 10:30 AM-01:00 PM in A-1",
+    "latest_action_date": "2026-03-19",
+    "latest_action_description": "Reporting date extended to Tuesday March 31, 2026",
     "ncsl_status": ""
   },
   {
@@ -7801,9 +8066,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
-      "algorithmic_tool",
-      "machine_learning"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai",
@@ -7815,8 +8080,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/S994.pdf",
-    "latest_action_date": "2025-11-07",
-    "latest_action_description": "Hearing scheduled for 11/19/2025 from 11:00 AM-05:00 PM in Gardner Auditorium",
+    "latest_action_date": "2026-03-12",
+    "latest_action_description": "Accompanied a new draft, see S2983",
     "ncsl_status": "Pending"
   },
   {
@@ -7929,8 +8194,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -7982,8 +8247,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "algorithmic_tool",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -8038,8 +8303,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8062,9 +8327,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "adjacent_tech",
+      "automated_decision_system",
       "artificial_intelligence",
-      "automated_decision_system"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -8091,10 +8356,10 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "generative_ai_variant",
-      "artificial_intelligence",
       "generative_ai",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -8120,19 +8385,19 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -8176,14 +8441,14 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "ai_system_composite",
       "generative_ai",
       "ai_system",
       "algorithmic_tool",
+      "machine_learning",
+      "automated_decision_system",
       "artificial_intelligence",
-      "generative_ai_variant",
-      "automated_decision_system"
+      "ai_system_composite",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai",
@@ -8409,9 +8674,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "adjacent_tech",
       "automated_decision_system",
       "artificial_intelligence",
-      "adjacent_tech",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -8548,9 +8813,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -8602,7 +8867,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://malegislature.gov/Bills/194/SD2630.pdf",
     "latest_action_date": "2025-02-03",
@@ -8646,9 +8911,9 @@
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
+      "machine_learning",
       "deepfake_media",
       "generative_ai_variant",
-      "machine_learning",
       "adjacent_tech",
       "ai_system_composite"
     ],
@@ -8657,8 +8922,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8702,17 +8967,17 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -8814,9 +9079,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
+      "title",
       "raw_text",
-      "title"
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -8887,20 +9152,20 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "algorithmic_decision_system",
       "machine_learning",
+      "artificial_intelligence",
       "automated_decision_system",
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "algorithmic_decision_system",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -9010,6 +9275,84 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/812edefa-b16c-416d-ac52-a9aee3cda6dd",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "SD 3633",
+    "title": "MSA FY25 Commissary & Trust Funds Report",
+    "updated": "",
+    "core_ai_hits": 0,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/SD3633.pdf",
+    "latest_action_date": "2026-02-02",
+    "latest_action_description": "Placed on file",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/625ce11c-2ab7-4078-b02c-0af4e0207379",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "SD 3634",
+    "title": "University of Massachusetts FY26 Report",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/SD3634.pdf",
+    "latest_action_date": "2026-02-02",
+    "latest_action_description": "Placed on file",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/116d6275-8650-4899-91f9-dac168755b66",
+    "state": "MA",
+    "session": "194th",
+    "identifier": "SD 3691",
+    "title": "Secretary of the Commonwealth 2025 Agency Public Records Request Report",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "deepfake_media",
+      "generative_ai",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://malegislature.gov/Bills/194/SD3691.pdf",
+    "latest_action_date": "2026-02-19",
+    "latest_action_description": "Placed on file",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/9f18f2d2-56d3-4435-ad1b-2c6391c6bf8e",
     "state": "MA",
     "session": "192nd",
@@ -9020,14 +9363,14 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "algorithmic_decision_system",
       "machine_learning",
+      "artificial_intelligence",
       "automated_decision_system",
-      "artificial_intelligence"
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -9076,8 +9419,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "algorithmic_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -9104,10 +9447,10 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "automated_decision_system",
-      "artificial_intelligence",
+      "algorithmic_decision_system",
       "adjacent_tech",
-      "machine_learning",
-      "algorithmic_decision_system"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -9159,18 +9502,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system",
       "machine_learning",
-      "ai_system_composite"
+      "artificial_intelligence",
+      "ai_system_composite",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -9189,15 +9532,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
