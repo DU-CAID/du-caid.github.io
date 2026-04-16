@@ -1,105 +1,5 @@
 [
   {
-    "bill_id": "",
-    "state": "LA",
-    "session": "2025",
-    "identifier": "H 178",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTEEyMDI1MDAwSDE3OCJ9.zKYld_ODGRI4u2-_TQJ05HQzzKS8xPJQOzmXxoE-_WM",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Enacted"
-  },
-  {
-    "bill_id": "",
-    "state": "LA",
-    "session": "2025",
-    "identifier": "H 178",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:LA2025000H178&ciq=urn:user:PA196471263&client_md=1a3766c85d4e51c84a3ee4649063b235&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Enacted"
-  },
-  {
-    "bill_id": "",
-    "state": "LA",
-    "session": "2025",
-    "identifier": "H 608",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:LA2025000H608&ciq=urn:user:PA196471263&client_md=4ce38fdb4019bc19b0f19c4555b6b302&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed"
-  },
-  {
-    "bill_id": "",
-    "state": "LA",
-    "session": "2025",
-    "identifier": "H 608",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTEEyMDI1MDAwSDYwOCJ9.mZEev2CA3pTIbQQAxfjjCcZeDbP3C-Ez0iR60i7LVL0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed"
-  },
-  {
     "bill_id": "ocd-bill/a886bf18-0d02-45f0-a61f-286da20eff5d",
     "state": "LA",
     "session": "2025",
@@ -122,31 +22,6 @@
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1422469",
     "latest_action_date": "2025-06-20",
     "latest_action_description": "Signed by the Governor. Becomes Act No. 1.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/72b72deb-ef73-4b5b-9eca-4ac04f0d79ae",
-    "state": "LA",
-    "session": "2019",
-    "identifier": "HB 103",
-    "title": "APPROPRIATIONS: Provides for the ordinary operating expenses of state government for Fiscal Year 2019-2020",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1116781",
-    "latest_action_date": "2019-04-08",
-    "latest_action_description": "Read by title, under the rules, referred to the Committee on Appropriations.",
     "ncsl_status": ""
   },
   {
@@ -173,32 +48,6 @@
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1408739",
     "latest_action_date": "2025-04-14",
     "latest_action_description": "Read by title, under the rules, referred to the Committee on Health and Welfare.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/81159fc2-525f-44b2-99f3-7cc406396c71",
-    "state": "LA",
-    "session": "2026",
-    "identifier": "HB 116",
-    "title": "DISTRICTS/RAILROAD: Provides relative to the Northeast Louisiana Multimodal District",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1438656",
-    "latest_action_date": "2026-02-13",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/13/2026.",
     "ncsl_status": ""
   },
   {
@@ -365,57 +214,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/e2aade89-3727-45c8-b751-e49def64a411",
-    "state": "LA",
-    "session": "2020",
-    "identifier": "HB 319",
-    "title": "APPROPRIATIONS: Provides for the ordinary operating expenses of state government for Fiscal Year 2020-2021",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1161066",
-    "latest_action_date": "2020-03-09",
-    "latest_action_description": "Read by title, under the rules, referred to the Committee on Appropriations.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/5e2b97bb-41e5-409a-8ccd-2326a39699f9",
-    "state": "LA",
-    "session": "2025",
-    "identifier": "HB 322",
-    "title": "DISTRICTS/RAILROAD: Provides relative to the Northeast Louisiana Multimodal District",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1402296",
-    "latest_action_date": "2025-04-14",
-    "latest_action_description": "Read by title, under the rules, referred to the Committee on Municipal, Parochial and Cultural Affairs.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/a4f5877b-8eb2-4656-84b1-5be2da4f0bd0",
     "state": "LA",
     "session": "2026",
@@ -495,31 +293,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/2ff21501-1ae2-4e62-929e-1c7023076c8c",
-    "state": "LA",
-    "session": "2023",
-    "identifier": "HB 425",
-    "title": "WATERWAYS: Establishes the Acadiana Watershed District",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1308685",
-    "latest_action_date": "2023-04-18",
-    "latest_action_description": "Read by title, under the rules, referred to the Committee on Transportation, Highways and Public Works.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/c998c671-cfcd-4141-a4da-70e8b68e2458",
     "state": "LA",
     "session": "2026",
@@ -568,31 +341,6 @@
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1445035",
     "latest_action_date": "2026-02-27",
     "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/f46f7760-7da6-49d2-89c4-3f1c7c672b1f",
-    "state": "LA",
-    "session": "2019",
-    "identifier": "HB 465",
-    "title": "COMMERCE: Provides relative to internet privacy and protection",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1121880",
-    "latest_action_date": "2019-04-08",
-    "latest_action_description": "Read by title, under the rules, referred to the Committee on Commerce.",
     "ncsl_status": ""
   },
   {
@@ -647,131 +395,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/cf61c9c2-6cf5-4d5d-ab3c-1cc8f00ccbdb",
-    "state": "LA",
-    "session": "2023",
-    "identifier": "HB 476",
-    "title": "DISTRICTS/WATERSHED: Establishes the Acadiana Watershed District",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1309179",
-    "latest_action_date": "2023-04-18",
-    "latest_action_description": "Read by title, under the rules, referred to the Committee on Transportation, Highways and Public Works.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/dba37fc2-c5ba-43b3-b26f-674d4e33b934",
-    "state": "LA",
-    "session": "2026",
-    "identifier": "HB 525",
-    "title": "PUBLIC SFTY/DEPARTMENT: Provides for the online publication and maintenance of certain data used and compiled by the DPS&C",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1445518",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/e5584125-df53-4ea1-92bd-9da85587dc1d",
-    "state": "LA",
-    "session": "2022",
-    "identifier": "HB 592",
-    "title": "APPROPRIATIONS/SUPPLEML: Makes supplemental appropriations for Fiscal Year 2021-2022",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1280614",
-    "latest_action_date": "2022-05-30",
-    "latest_action_description": "Effective date: 05/30/2022.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/1ce4f3b6-dc5c-486f-a272-f4383305bb0d",
-    "state": "LA",
-    "session": "2018",
-    "identifier": "HB 618",
-    "title": "TRANSPORTATION:  Provides for changes to the highway priority program (OR INCREASE SD EX See Note)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1073022",
-    "latest_action_date": "2018-03-12",
-    "latest_action_description": "Read by title, rules suspended, referred to the Committee on Transportation, Highways and Public Works.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/895fd338-da6d-407c-bdf4-bf81a63ab2f6",
-    "state": "LA",
-    "session": "2024",
-    "identifier": "HB 624",
-    "title": "COURTS: Creates the \"Pretrial Data Collection Act\"",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1352193",
-    "latest_action_date": "2024-03-11",
-    "latest_action_description": "Read by title, under the rules, referred to the Committee on Judiciary.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/1521cd39-f1a2-40ea-af34-fd2c0c3c18a3",
     "state": "LA",
     "session": "2026",
@@ -821,32 +444,6 @@
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1352374",
     "latest_action_date": "2024-03-11",
     "latest_action_description": "Read by title, under the rules, referred to the Committee on Insurance.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/603c8627-c994-4d87-b1f5-49b6e8d71c7e",
-    "state": "LA",
-    "session": "2024",
-    "identifier": "HB 685",
-    "title": "PORTS/HARBORS/TERMINALS: Provides relative to the creation of Louisiana Port Multimodal Council (OR INCREASE SD EX See Note)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1367567",
-    "latest_action_date": "2024-04-23",
-    "latest_action_description": "Becomes HB 971.",
     "ncsl_status": ""
   },
   {
@@ -1044,31 +641,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/6891b3ae-168d-4b42-8e87-b53e95da8036",
-    "state": "LA",
-    "session": "2024",
-    "identifier": "HB 971",
-    "title": "PORTS/HARBORS/TERMINALS: Creates the Louisiana Ports and Waterways Investment Commission (EN SEE FISC NOTE GF EX)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1375612",
-    "latest_action_date": "2024-06-19",
-    "latest_action_description": "Effective date: 08/01/2024.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/059f9fa7-8d07-4390-a0b3-ace9a3380e38",
     "state": "LA",
     "session": "2022",
@@ -1091,81 +663,6 @@
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1275638",
     "latest_action_date": "2022-06-06",
-    "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/498d604e-bafd-44eb-9bd9-e568431eee81",
-    "state": "LA",
-    "session": "2021",
-    "identifier": "HCR 117",
-    "title": "TRANSPORTATION: Commends the Department of Transportation and Development on its centennial celebration",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1230743",
-    "latest_action_date": "2021-06-09",
-    "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/8ddae8a7-955c-44dd-a8d8-e3a7e0fc98c5",
-    "state": "LA",
-    "session": "2023",
-    "identifier": "HCR 130",
-    "title": "COMMENDATIONS: Commends Dr. Walter Benoit Comeaux, Jr., on the occasion of his one hundredth birthday",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1325956",
-    "latest_action_date": "2023-06-01",
-    "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/a198dac9-2938-4625-bcd5-0d1303d3bcf6",
-    "state": "LA",
-    "session": "2024",
-    "identifier": "HCR 48",
-    "title": "HIGHWAYS/INTERSTATE: Urges and requests the Department of Transportation and Development to study I-12 express tolling operations compared to how other states implement express tolling",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1361189",
-    "latest_action_date": "2024-05-09",
     "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
     "ncsl_status": ""
   },
@@ -1195,56 +692,6 @@
     "ncsl_status": "Adopted"
   },
   {
-    "bill_id": "ocd-bill/b0438598-8191-40b9-b791-0d09a0424f11",
-    "state": "LA",
-    "session": "2024",
-    "identifier": "HR 111",
-    "title": "CONGRESS: Memorializes the United States Congress to reform the Foreign Intelligence and Surveillance Act, the Foreign Intelligence Surveillance Court, and to restore the rights of privacy and unreasonable search and seizure",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1366580",
-    "latest_action_date": "2024-05-16",
-    "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/47506f33-8f4a-4fc4-a22c-f93cb46ac2d7",
-    "state": "LA",
-    "session": "2021",
-    "identifier": "HR 155",
-    "title": "COMMENDATIONS: Commends the board of commissioners of the Port of New Orleans on the occasion of the one hundred twenty-fifth anniversary of its founding",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1230168",
-    "latest_action_date": "2021-06-03",
-    "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/17bfc8ef-71e8-4314-a217-5c58a1662280",
     "state": "LA",
     "session": "2026",
@@ -1269,31 +716,6 @@
     "latest_action_date": "",
     "latest_action_description": "",
     "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "LA",
-    "session": "2025",
-    "identifier": "HR 249",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiTEEyMDI1MDAwSFIyNDkifQ.zm-tc1OUhnxArCMwDqNLkAUosuA9fh3H7ty09ur0wlU",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Adopted"
   },
   {
     "bill_id": "ocd-bill/f46e4dde-d07b-45ba-a57e-561a81931395",
@@ -1321,31 +743,6 @@
     "latest_action_date": "2025-06-11",
     "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
     "ncsl_status": "Adopted"
-  },
-  {
-    "bill_id": "ocd-bill/1de43eba-b44b-41b0-8b77-470723c919ce",
-    "state": "LA",
-    "session": "2024",
-    "identifier": "HR 280",
-    "title": "PORTS/HARBORS/TERMINALS: Urges and requests state officials, including legislators and appropriate Department of Transportation and Department of Economic Development officials, to read the Critical Development Issues Overview report by Vickerman and Associates commissioned by the St. Bernard Parish government",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1378546",
-    "latest_action_date": "2024-06-03",
-    "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
-    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/3ab5e034-6f23-4dc4-ad8e-fea09cb3f60a",
@@ -1428,81 +825,6 @@
     "latest_action_date": "2025-06-13",
     "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
     "ncsl_status": "Adopted"
-  },
-  {
-    "bill_id": "ocd-bill/52b94a39-734a-4688-b218-2a0a6ef1c6b8",
-    "state": "LA",
-    "session": "2026",
-    "identifier": "HR 38",
-    "title": "CONGRESS: Memorializes Congress to reform the Foreign Intelligence Surveillance Act and the Foreign Intelligence Surveillance Court and to restore the rights of privacy and protection against unreasonable searches and seizures",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1450200",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "LA",
-    "session": "2024",
-    "identifier": "S 442",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:LA2024000S442&cuiq=93d84396-c63b-526a-b152-38b7f79b4cfd&client_md=e4f6fea4-27b4-5d41-b7d3-766fe52569f0",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
-  },
-  {
-    "bill_id": "",
-    "state": "LA",
-    "session": "2026",
-    "identifier": "S 474",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:LA2026000S474&ciq=urn:user:PA196471263&client_md=1dc3669f898b35bff37e5a7276e6abe4&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/718ca15e-fc19-40e9-a690-cdec70185e89",
@@ -1771,56 +1093,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/0df4621e-dd57-4297-b35a-4a14d22f2f21",
-    "state": "LA",
-    "session": "2022",
-    "identifier": "SB 454",
-    "title": "TRANSPORTATION/DEV DEPT: Provides relative to the Department of Transportation and Development. (8/1/22)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1266222",
-    "latest_action_date": "2022-04-06",
-    "latest_action_description": "Read second time by title and referred to the Committee on Transportation, Highways and Public Works.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/cdc734f6-5f72-4b1e-af2f-5cde6fc73716",
-    "state": "LA",
-    "session": "2018",
-    "identifier": "SB 498",
-    "title": "TRANSPORTATION/DEV DEPT:  Provides relative to the Department of Transportation and Development. (See Act)",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1079919",
-    "latest_action_date": "2018-04-02",
-    "latest_action_description": "Read second time by title and referred to the Committee on Transportation, Highways and Public Works.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/59d820fc-aa74-4874-9f8f-b37f4e5630c1",
     "state": "LA",
     "session": "2026",
@@ -1958,81 +1230,6 @@
     "ncsl_status": "Adopted"
   },
   {
-    "bill_id": "ocd-bill/ded0756f-051f-4356-8418-f4adb94725da",
-    "state": "LA",
-    "session": "2024",
-    "identifier": "SR 106",
-    "title": "MULTIMODAL COMMERCE: Creates a task force to study the utilization of multimodal assets, specifically ports and rails by Louisiana local businesses.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1378838",
-    "latest_action_date": "2024-06-03",
-    "latest_action_description": "Enrolled.  Signed by the President of the Senate and sent to the Secretary of State by the Secretary of the Senate.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/ae88ef80-4505-44ef-bc1d-60c0bf13651b",
-    "state": "LA",
-    "session": "2021",
-    "identifier": "SR 117",
-    "title": "COMMENDATIONS: Commends the Board of Commissioners of the Port of New Orleans on its one hundred twenty-fifth anniversary.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1227558",
-    "latest_action_date": "2021-06-01",
-    "latest_action_description": "Enrolled.  Signed by the President of the Senate and sent to the Secretary of State by the Secretary of the Senate on 5/28/2021.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/10e92d62-c68a-4254-acfa-ed5360f1cfa6",
-    "state": "LA",
-    "session": "2019",
-    "identifier": "SR 142",
-    "title": "COMMENDATIONS: Commends Norby Chabert on his service in the Senate.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.la.gov/Legis/ViewDocument.aspx?d=1133757",
-    "latest_action_date": "2019-05-20",
-    "latest_action_description": "Enrolled.  Signed by the President of the Senate and sent to the Secretary of State by the Secretary of the Senate on 5/17/2019.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/8581c5b3-7478-4653-8e93-a42736111b82",
     "state": "LA",
     "session": "2024",
@@ -2055,31 +1252,6 @@
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1372868",
     "latest_action_date": "2024-05-20",
     "latest_action_description": "Enrolled.  Signed by the President of the Senate and sent to the Secretary of State by the Secretary of the Senate on 5/17/2024.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/8ca05c6a-c06a-4633-8bf3-2bd369ab1743",
-    "state": "LA",
-    "session": "2025",
-    "identifier": "SSR 1",
-    "title": "TEACHERS RETIREMENT: Requests a study of the reemployment of retired members of TRSL in positions eligible for TRSL membership and alternative retiree reemployment options.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1405555",
-    "latest_action_date": "2025-04-22",
-    "latest_action_description": "Approved on 4/22/2025.",
     "ncsl_status": ""
   }
 ]

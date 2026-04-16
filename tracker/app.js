@@ -78,7 +78,7 @@ function initTabs() {
 /* ── Metric cards ────────────────────────────────────────── */
 function renderMetrics(summary) {
   document.getElementById("m-core").textContent     = fmt(summary.core_flagged_bills);
-  document.getElementById("m-adjacent").textContent = fmt(summary.adjacent_only_flagged_bills);
+  document.getElementById("m-adjacent").textContent = fmt(summary.tracker_only_bills);
   document.getElementById("m-ncsl").textContent     = fmt(summary.in_ncsl_bills);
   document.getElementById("m-states").textContent   = fmt(summary.total_states);
 
@@ -241,16 +241,6 @@ function renderTopStates(stateData) {
     options: barOptions(CRIMSON),
   });
 
-  // Adjacent AI — sorted by adjacent_only count
-  const topAdj = [...stateData].sort((a, b) => b.adjacent_only - a.adjacent_only).slice(0, 15);
-  new Chart(document.getElementById("topStatesAdjChart"), {
-    type: "bar",
-    data: {
-      labels: topAdj.map(s => s.state),
-      datasets: [{ label: "Adjacent AI Bills", data: topAdj.map(s => s.adjacent_only), backgroundColor: GOLD }],
-    },
-    options: barOptions(GOLD),
-  });
 }
 
 /* ── Bill Browser ────────────────────────────────────────── */
@@ -535,7 +525,7 @@ function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
   const recentYears = byYear.filter(d => d.year >= "2019" && d.year <= "2035");
   const yearLabels  = recentYears.map(d => d.year);
 
-  // 1. Combined year chart — Core, Adjacent, NCSL on one canvas
+  // 1. Combined year chart — Core AI bills per year
   new Chart(document.getElementById("yearCombinedChart"), {
     type: "line",
     data: {
@@ -551,27 +541,13 @@ function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
           pointBackgroundColor: CRIMSON,
           borderWidth: 2,
         },
-        {
-          label: "Adjacent AI",
-          data: recentYears.map(d => d.adjacent),
-          borderColor: GOLD,
-          backgroundColor: GOLD_LIGHT,
-          tension: 0.3,
-          fill: true,
-          pointBackgroundColor: GOLD,
-          borderWidth: 2,
-        },
       ],
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: {
-          display: true,
-          position: "top",
-          labels: { usePointStyle: true, pointStyleWidth: 10, padding: 20 },
-        },
+        legend: { display: false },
         tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${fmt(ctx.parsed.y)}` } },
       },
       scales: {
@@ -598,27 +574,18 @@ function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
             data: top.map(s => s.core),
             backgroundColor: CRIMSON,
           },
-          {
-            label: "Adjacent AI",
-            data: top.map(s => s.adjacent),
-            backgroundColor: GOLD,
-          },
         ],
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
-          legend: {
-            display: true,
-            position: "top",
-            labels: { usePointStyle: true, pointStyleWidth: 10, padding: 20 },
-          },
+          legend: { display: false },
           tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ${fmt(ctx.parsed.y)}` } },
         },
         scales: {
-          x: { stacked: true, grid: { display: false } },
-          y: { stacked: true, ticks: { callback: v => fmt(v) }, grid: { color: "#e5e7eb" } },
+          x: { grid: { display: false } },
+          y: { ticks: { callback: v => fmt(v) }, grid: { color: "#e5e7eb" } },
         },
       },
     });

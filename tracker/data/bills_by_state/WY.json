@@ -1,55 +1,5 @@
 [
   {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "D 149",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000D149&ciq=urn:user:PA196471263&client_md=0c48cdb9e15ebed8e2b338be84e419e8&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "D 149",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV1kyMDI1MDAwRDE0OSJ9.NbWVCsYJ-JTeZev67Ve12YIEbNRFppOHa3inaRlgktQ",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed - Adjourned"
-  },
-  {
     "bill_id": "ocd-bill/75d99a1e-f9ae-480b-a2ea-2f816c02e568",
     "state": "WY",
     "session": "2024",
@@ -130,31 +80,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/2f973ca9-6f3f-4daa-a5fb-2231e53d0ec1",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "HB 267",
-    "title": "Regulation of hemp.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2025/Introduced/HB0267.pdf",
-    "latest_action_date": "2025-02-03T22:29:03+00:00",
-    "latest_action_description": "H Did not Consider for Introduction",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/fb25e6d9-e0f8-4a04-b67f-31f86d0e0e29",
     "state": "WY",
     "session": "2026",
@@ -177,31 +102,6 @@
     "primary_url": "https://wyoleg.gov/2026/Introduced/HB0091.pdf",
     "latest_action_date": "2026-02-23T16:14:35+00:00",
     "latest_action_description": "H COW:H Did not consider for COW",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "S 30",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000S30&ciq=urn:user:PA196471263&client_md=49d0a777bd72f8aed04926933b8783d2&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
     "ncsl_status": ""
   },
   {
@@ -255,56 +155,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/2a5d52c0-64a3-4b19-a808-ba3b5d8bf232",
-    "state": "WY",
-    "session": "2023",
-    "identifier": "SF 166",
-    "title": "Border wall and sanctuary city transport.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2023/Introduced/SF0166.pdf",
-    "latest_action_date": "2023-02-07T00:40:25+00:00",
-    "latest_action_description": "S COW:Failed 12-18-1-0-0",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/c17b7391-5252-4694-bf41-176a9158cc07",
-    "state": "WY",
-    "session": "2017",
-    "identifier": "SF 34",
-    "title": "Student Personal Digital Information Protection Act.",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legisweb.state.wy.us/2017/Introduced/SF0034.pdf",
-    "latest_action_date": "2017-02-13T07:00:00+00:00",
-    "latest_action_description": "COW:Failed 30-30-0-0-0",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/0134e9c2-e56f-454c-b5e9-33edb15a2301",
     "state": "WY",
     "session": "2024",
@@ -354,55 +204,5 @@
     "latest_action_date": "2025-03-01T02:46:31+00:00",
     "latest_action_description": "H COW:H Did not consider for COW",
     "ncsl_status": ""
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "SJR 8",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:WY2025000SJR8&ciq=urn:user:PA196471263&client_md=9e9246e282dddcff468000befb24751f&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed"
-  },
-  {
-    "bill_id": "",
-    "state": "WY",
-    "session": "2025",
-    "identifier": "SJR 8",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "https://sn.lexisnexis.com/opentext/eyJ0eXBlIjoiYmlsbCIsImlkIjoiV1kyMDI1MDAwU0pSOCJ9.QGFw4LdT2YwdS2l_7-RFUFPked3PBUiwcJGgKqqryDg",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": "Failed"
   }
 ]

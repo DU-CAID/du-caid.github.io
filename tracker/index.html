@@ -75,9 +75,9 @@
         <div class="metric-sub">Primary subject is AI</div>
       </div>
       <div class="metric-card">
-        <div class="label">Adjacent AI Bills</div>
+        <div class="label">Beyond NCSL</div>
         <div class="value" id="m-adjacent">—</div>
-        <div class="metric-sub">AI as a tool within another policy domain</div>
+        <div class="metric-sub">Core AI bills not tracked by NCSL</div>
       </div>
       <div class="metric-card">
         <div class="label">NCSL Matched</div>
@@ -99,8 +99,6 @@
           <label for="mapViewSelect" style="font-size:0.78rem">Map view</label>
           <select id="mapViewSelect">
             <option value="core">Core AI bills</option>
-            <option value="adjacent">Adjacent AI bills</option>
-            <option value="total">All flagged bills</option>
           </select>
         </div>
       </div>
@@ -117,16 +115,7 @@
     <!-- Top states — side by side -->
     <div class="panel">
       <h2>Top 15 States</h2>
-      <div class="chart-side-by-side">
-        <div>
-          <h3>Core AI Bills</h3>
-          <div class="chart-wrap" style="height:320px"><canvas id="topStatesCoreChart"></canvas></div>
-        </div>
-        <div>
-          <h3>Adjacent AI Bills</h3>
-          <div class="chart-wrap" style="height:320px"><canvas id="topStatesAdjChart"></canvas></div>
-        </div>
-      </div>
+      <div class="chart-wrap" style="height:320px"><canvas id="topStatesCoreChart"></canvas></div>
     </div>
 
   </div>
@@ -154,9 +143,8 @@
         <div class="filter-group">
           <label for="tierFilter">Tier</label>
           <select id="tierFilter">
-            <option value="">All tiers</option>
+            <option value="">All bills</option>
             <option value="core">Core AI only</option>
-            <option value="adjacent">Adjacent AI only</option>
           </select>
         </div>
         <div class="filter-group">
@@ -218,8 +206,9 @@
     <div class="panel">
       <h2>Bills Introduced per Year <span style="font-size:0.8rem;font-weight:400;color:var(--muted)">(2019–present)</span></h2>
       <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
-        Core AI bills (primary subject is AI), Adjacent AI bills (AI as a policy tool in another domain),
-        and NCSL-confirmed bills (advanced in the legislative process) shown together for direct comparison.
+        Core AI bills per year (2019–present). Core AI bills are the validated tier of the classifier;
+        adjacent-only bills are excluded from this dashboard after a precision validation study found
+        0% precision in that tier (see Methods tab for details).
       </p>
       <div class="chart-wrap" style="height:300px"><canvas id="yearCombinedChart"></canvas></div>
     </div>
@@ -228,7 +217,7 @@
     <div class="panel">
       <h2>Top States <span id="trendsYearLabel" style="font-size:0.8rem;font-weight:400;color:var(--muted)"></span></h2>
       <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
-        Most active states in the most recent legislative session. Core bars (crimson) capture bills where AI is the primary subject; adjacent bars (gold) capture bills where AI appears as a tool within another policy domain. Together they reflect both legislative focus and broader AI policy engagement.
+        Most active states in the most recent legislative session, ranked by core AI bill count.
       </p>
       <div class="chart-wrap" style="height:320px"><canvas id="topStatesYearChart"></canvas></div>
     </div>
@@ -296,7 +285,7 @@
     <div class="panel">
       <h2>Step 3 - AI Flagging</h2>
       <p>Bills are scanned against a curated keyword pattern library to identify AI-related
-        legislation. Matches are assigned to one of two tiers:</p>
+        legislation. The dashboard displays bills from the core tier only (see note below):</p>
       <div class="methods-tiers">
         <div class="tier-card">
           <div class="tier-label tag tag-core">Core AI</div>
@@ -306,28 +295,21 @@
             or by direct technical equivalent (e.g., <em>neural network</em>, <em>deepfake</em>,
             <em>automated decision system</em>).</p>
         </div>
-        <div class="tier-card">
-          <div class="tier-label tag tag-adjacent">Adjacent AI</div>
-          <p>Bills where AI appears as a <em>tool or concern within another policy domain</em>
-            — for example, a healthcare bill that regulates AI diagnostic tools, or an employment
-            bill that addresses algorithmic hiring. These bills do not always use the phrase
-            "artificial intelligence" directly, but they engage with AI-specific technical
-            vocabulary (e.g., <em>natural language processing</em>, <em>computer vision</em>,
-            <em>reinforcement learning</em>) in a policy context.</p>
-        </div>
       </div>
       <p style="margin-top:1rem">Matching is applied to bill titles and, where available,
         full bill text. The pattern library contains approximately 128 patterns across both tiers
         and is reviewed periodically to improve coverage and reduce false positives. Each matched
         bill records which specific concepts triggered the match.</p>
-      <p style="margin-top:0.75rem"><strong>A note on the adjacent AI tier:</strong> Defining
-        "meaningful" AI relevance is difficult. The adjacent tier is designed to surface
-        bills where AI is substantively addressed, not merely mentioned in passing. To reduce false
-        positives, we validated the pattern library against a hand-coded sample of ~650 bills and
-        removed 36 patterns that were too generic for reliable use in full bill text, including
-        single-word terms like <em>data</em>, <em>bias</em>, <em>token</em>, and <em>temperature</em>
-        that frequently appear in unrelated legislation. The remaining adjacent-tier patterns require
-        AI-specific technical vocabulary to trigger a match.</p>
+      <p style="margin-top:0.75rem"><strong>Dashboard scope - core tier only:</strong> The tracker
+        classifier originally flagged bills in both a core and an adjacent tier. A precision
+        validation study (hand-coding of ~650 flagged bills) found that adjacent-only bills -
+        those matching only broad adjacent patterns with no core-tier match - had 0% precision:
+        all 146 coded adjacent-only bills were false positives. The adjacent-only pattern
+        (<em>adjacent_tech</em>) matches common terms like <em>data</em>, <em>bias</em>,
+        <em>token</em>, and <em>temperature</em> that appear throughout non-AI legislation.
+        This dashboard therefore displays core-tier bills only
+        (estimated precision ~79%, 95% CI: 73%–86%). A forthcoming methods paper reports the
+        full validation results.</p>
     </div>
 
     <div class="panel">
@@ -376,11 +358,11 @@
         <li><strong>Full text is not always available.</strong> Some states publish only bill
           titles and identifiers; others publish full text. Matching against titles alone may
           miss bills that use AI-related language only in the body of the bill.</li>
-        <li><strong>The adjacent tier requires judgment.</strong> A bill matching on "natural
-          language processing" in a healthcare context is meaningfully about AI; a bill matching
-          the same term in a translation services appropriation may not be. The pattern library
-          has been refined through manual validation to reduce obvious false positives, but
-          adjacent-only bills should be treated with more caution than core-tier bills.</li>
+        <li><strong>Core-tier bills only.</strong> Adjacent-only bills are excluded from this
+          dashboard. A hand-coded validation sample found 0% precision for adjacent-only matches —
+          every coded bill in that tier was a false positive. Core-tier bills carry an estimated
+          precision of ~79%. Bills that match both core and adjacent patterns (co-tier) are
+          included and have an estimated precision of ~53%.</li>
         <li><strong>NCSL coverage is not exhaustive.</strong> The NCSL database focuses on
           bills that have advanced in the legislative process. Bills that were introduced but
           failed to advance may be in this tracker but not in NCSL, and vice versa.</li>

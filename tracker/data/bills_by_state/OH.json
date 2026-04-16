@@ -1,30 +1,5 @@
 [
   {
-    "bill_id": "",
-    "state": "OH",
-    "session": "2025",
-    "identifier": "H 84",
-    "title": "",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ncsl_curated_ai_law"
-    ],
-    "matched_tiers": [
-      "ncsl"
-    ],
-    "match_fields": [
-      "ncsl_source"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "ncsl_only",
-    "primary_url": "http://custom.statenet.com/public/resources.cgi?id=ID:bill:OH2025000H84&ciq=urn:user:PA196471263&client_md=67f0cff791bea21b5da07dbe9779ac01&mode=current_text",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/b2c93b54-e177-46d2-a79b-3dfd0ccc2c72",
     "state": "OH",
     "session": "136",
@@ -78,31 +53,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/1a2e0c0c-6069-4e90-8947-360bb8b86f0a",
-    "state": "OH",
-    "session": "135",
-    "identifier": "HB 12",
-    "title": "Rename and revise duties of Department of Education and Workforce",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/bills/hb12/IN/00/hb12_00_IN?format=pdf",
-    "latest_action_date": "2023-02-16",
-    "latest_action_description": "Refer to Committee",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/dc938344-1eed-4df3-9a6f-28b9b5e5ca17",
     "state": "OH",
     "session": "136",
@@ -127,131 +77,6 @@
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb185/00_IN/pdf/",
     "latest_action_date": "2025-03-26T04:00:00+00:00",
     "latest_action_description": "Referred to committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/b627b6f3-e63d-4640-bbab-3ca5005972e5",
-    "state": "OH",
-    "session": "134",
-    "identifier": "HB 205",
-    "title": "Enact Collin's Law: The \"Ohio Anti-Bullying and Hazing Act\"",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_134/bills/hb205/IN/00/hb205_00_IN?format=pdf",
-    "latest_action_date": "2021-03-16",
-    "latest_action_description": "Refer to Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/f2ff1ded-4e36-4680-b494-b8d0ebd30f8d",
-    "state": "OH",
-    "session": "135",
-    "identifier": "HB 206",
-    "title": "Regards public school expulsion for actions dangerous to others",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/bills/hb206/RS/03/hb206_03_RS?format=pdf",
-    "latest_action_date": "2024-12-19",
-    "latest_action_description": "Concurred in Senate amendments",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/8e60520a-4a48-4144-84a4-0eeca3cbc59f",
-    "state": "OH",
-    "session": "134",
-    "identifier": "HB 296",
-    "title": "Revise voter registration and conduct of elections",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_134/bills/hb296/IN/00/hb296_00_IN?format=pdf",
-    "latest_action_date": "2021-05-12",
-    "latest_action_description": "Refer to Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/21e00fd0-8be9-4754-a93a-ff0162ea99b5",
-    "state": "OH",
-    "session": "136",
-    "identifier": "HB 321",
-    "title": "Revise Unemployment Compensation Law",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb321/00_IN/pdf/",
-    "latest_action_date": "2025-06-04T04:00:00+00:00",
-    "latest_action_description": "Referred to committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/14a66dde-0c5a-4c8a-bcd7-ab929060cd3f",
-    "state": "OH",
-    "session": "135",
-    "identifier": "HB 33",
-    "title": "Establishes operating appropriations for fiscal years 2024-2025",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/bills/hb33/RS/03/hb33_03_RS?format=pdf",
-    "latest_action_date": "2024-01-24",
-    "latest_action_description": "Item passed notwithstanding objections of the Governor",
     "ncsl_status": ""
   },
   {
@@ -444,31 +269,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/a73473a2-7dc7-49d2-ae2c-86841f930183",
-    "state": "OH",
-    "session": "135",
-    "identifier": "HB 472",
-    "title": "Regards voter registration, voting, and voting systems",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/bills/hb472/IN/00/hb472_00_IN?format=pdf",
-    "latest_action_date": "2024-04-23",
-    "latest_action_description": "Refer to Committee",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/b9837b1c-6517-4c2a-9b08-54adf7d4bf45",
     "state": "OH",
     "session": "136",
@@ -576,31 +376,6 @@
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb594/00_IN/pdf/",
     "latest_action_date": "2025-11-19T05:00:00+00:00",
     "latest_action_description": "Referred to committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/efc33d20-c57a-48c7-bab7-1f987d6f7f8a",
-    "state": "OH",
-    "session": "134",
-    "identifier": "HB 599",
-    "title": "Enact Entertainment Technology Initiative",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_134/bills/hb599/IN/00/hb599_00_IN?format=pdf",
-    "latest_action_date": "2022-03-22",
-    "latest_action_description": "Refer to Committee",
     "ncsl_status": ""
   },
   {
@@ -737,31 +512,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/0c06015f-6c27-4204-9944-c3530d4b6e6f",
-    "state": "OH",
-    "session": "136",
-    "identifier": "HB 775",
-    "title": "Regards state agencies' authority to adopt administrative rules",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb775/00_IN/pdf/",
-    "latest_action_date": "2026-03-25T04:00:00+00:00",
-    "latest_action_description": "Referred to committee",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/bee1ae42-bc3f-4ac6-9135-559d7d7500a6",
     "state": "OH",
     "session": "136",
@@ -814,56 +564,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/75861f14-c1fc-4044-a941-21efe636514e",
-    "state": "OH",
-    "session": "136",
-    "identifier": "HCR 12",
-    "title": "Recognize the importance of perinatal mental health",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hcr12/00_IN/pdf/",
-    "latest_action_date": "2025-04-30T04:00:00+00:00",
-    "latest_action_description": "Introduced and Referred to Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/7bdcc01b-2623-421d-9f05-97fa7bff78f9",
-    "state": "OH",
-    "session": "135",
-    "identifier": "HCR 16",
-    "title": "Recognizing the importance of perinatal mental health",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/resolutions/hcr16/RH/02/hcr16_02_RH?format=pdf",
-    "latest_action_date": "2024-12-17",
-    "latest_action_description": "Offered",
-    "ncsl_status": "Pending"
-  },
-  {
     "bill_id": "ocd-bill/70876269-5f18-4ab6-b221-8fb11346eab3",
     "state": "OH",
     "session": "136",
@@ -913,56 +613,6 @@
     "latest_action_date": "2025-01-28T05:00:00+00:00",
     "latest_action_description": "Introduced and Referred to Committee",
     "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "ocd-bill/04e56ffa-f4a8-48fe-83e5-a3de125e7758",
-    "state": "OH",
-    "session": "135",
-    "identifier": "SB 1",
-    "title": "Revise Education Law and Department duties; rename the Department",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/bills/sb1/RS/01/sb1_01_RS?format=pdf",
-    "latest_action_date": "2023-03-14",
-    "latest_action_description": "Refer to Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/51b93c91-e5be-4335-9683-e3808259b010",
-    "state": "OH",
-    "session": "135",
-    "identifier": "SB 156",
-    "title": "Regards designation of wild, scenic, and recreational rivers",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/bills/sb156/RS/01/sb156_01_RS?format=pdf",
-    "latest_action_date": "2024-10-24T04:00:00+00:00",
-    "latest_action_description": "Effective 10/24/24",
-    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/8fe9ce82-9df8-4264-bf29-d63a27882beb",
@@ -1019,31 +669,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/a0066c0b-15ce-4ef9-b011-bcaf642f0e7b",
-    "state": "OH",
-    "session": "134",
-    "identifier": "SB 178",
-    "title": "Reform function, responsibilities of state education offices",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_134/bills/sb178/RS/01/sb178_01_RS?format=pdf",
-    "latest_action_date": "2022-12-13",
-    "latest_action_description": "Refer to Committee",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/37720074-0a23-4661-8bcd-495cfd53318b",
     "state": "OH",
     "session": "135",
@@ -1067,31 +692,6 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/bills/sb217/IN/00/sb217_00_IN?format=pdf",
     "latest_action_date": "2024-02-28",
-    "latest_action_description": "Refer to Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/716cca8e-17f4-4612-ab5f-9eea6a6d5a4a",
-    "state": "OH",
-    "session": "135",
-    "identifier": "SB 274",
-    "title": "Revise the Election Law",
-    "updated": "",
-    "core_ai_hits": 0,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/solarapi/v1/general_assembly_135/bills/sb274/IN/00/sb274_00_IN?format=pdf",
-    "latest_action_date": "2024-06-11",
     "latest_action_description": "Refer to Committee",
     "ncsl_status": ""
   },
