@@ -247,7 +247,6 @@ function renderTopStates(stateData) {
 function initBillBrowser(manifest) {
   const stateSelect   = document.getElementById("stateFilter");
   const yearSelect    = document.getElementById("yearFilter");
-  const tierSelect    = document.getElementById("tierFilter");
   const chamberSelect = document.getElementById("chamberFilter");
   const sortSelect    = document.getElementById("sortSelect");
   const ncslCheck     = document.getElementById("ncslFilter");
@@ -298,15 +297,12 @@ function initBillBrowser(manifest) {
   function applyFilters() {
     const q       = searchInput.value.trim().toLowerCase();
     const year    = yearSelect.value;
-    const tier    = tierSelect.value;
     const chamber = chamberSelect.value;
     const ncsl    = ncslCheck.checked;
     const sort    = sortSelect.value;
 
     let result = currentBills.filter(b => {
       if (year && yearFromSession(b.session) !== year) return false;
-      if (tier === "core"     && b.core_ai_hits <= 0)                              return false;
-      if (tier === "adjacent" && (b.adjacent_ai_hits <= 0 || b.core_ai_hits > 0)) return false;
       if (chamber === "house"  && !/^H/i.test(b.identifier))                       return false;
       if (chamber === "senate" && !/^S/i.test(b.identifier))                       return false;
       if (ncsl && !b.in_ncsl) return false;
@@ -336,6 +332,37 @@ function initBillBrowser(manifest) {
   }
 
   let expandedBillId = null;
+  let lastFilteredBills = [];
+
+  function downloadCSV() {
+    if (!lastFilteredBills.length) return;
+    const cols = [
+      "state", "session", "identifier", "title",
+      "in_ncsl", "ncsl_status",
+      "latest_action_date", "latest_action_description",
+      "matched_concepts", "primary_url",
+    ];
+    const escape = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
+    const rows = [cols.join(",")];
+    lastFilteredBills.forEach(b => {
+      rows.push([
+        b.state, b.session, b.identifier, b.title,
+        b.in_ncsl ? "TRUE" : "FALSE",
+        b.ncsl_status,
+        b.latest_action_date, b.latest_action_description,
+        (b.matched_concepts || []).join("; "),
+        b.primary_url,
+      ].map(escape).join(","));
+    });
+    const blob = new Blob([rows.join("\n")], { type: "text/csv;charset=utf-8;" });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement("a");
+    const state = (lastFilteredBills[0]?.state || "bills").toLowerCase();
+    a.href     = url;
+    a.download = `caid-ai-bills-${state}.csv`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
 
   function renderTable(bills) {
     tbody.innerHTML = "";
@@ -344,6 +371,10 @@ function initBillBrowser(manifest) {
       countEl.textContent = "Select a state to load bills.";
       return;
     }
+
+    lastFilteredBills = bills;
+    const dlBtn = document.getElementById("downloadCsvBtn");
+    if (dlBtn) dlBtn.disabled = bills.length === 0;
 
     const shown = bills.slice(0, 500);
     countEl.textContent = bills.length === 0
@@ -488,9 +519,9 @@ function initBillBrowser(manifest) {
     }
   }
 
+  document.getElementById("downloadCsvBtn")?.addEventListener("click", downloadCSV);
   stateSelect.addEventListener("change", () => selectState(stateSelect.value));
   yearSelect.addEventListener("change", runFilters);
-  tierSelect.addEventListener("change", runFilters);
   chamberSelect.addEventListener("change", runFilters);
   sortSelect.addEventListener("change", runFilters);
   ncslCheck.addEventListener("change", runFilters);
@@ -504,8 +535,6 @@ function initBillBrowser(manifest) {
     document.querySelector('[data-tab="bills"]').classList.add("active");
     document.getElementById("tab-bills").classList.remove("hidden");
 
-    // Set tier filter, then load state (populateYears runs inside selectState)
-    if (tier) tierSelect.value = tier;
     await selectState(abbr);
 
     // Set year after populateYears() has rebuilt the dropdown

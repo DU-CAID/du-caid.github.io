@@ -95,12 +95,6 @@
     <div class="panel">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.75rem">
         <h2 style="margin:0" id="mapHeading">Core AI Bills by State</h2>
-        <div class="filter-group" style="margin:0;min-width:0">
-          <label for="mapViewSelect" style="font-size:0.78rem">Map view</label>
-          <select id="mapViewSelect">
-            <option value="core">Core AI bills</option>
-          </select>
-        </div>
       </div>
       <p style="font-size:0.82rem;color:var(--muted);margin:0 0 0.5rem">Click a state to browse its bills.</p>
       <div id="map-container"></div>
@@ -141,13 +135,6 @@
           </select>
         </div>
         <div class="filter-group">
-          <label for="tierFilter">Tier</label>
-          <select id="tierFilter">
-            <option value="">All bills</option>
-            <option value="core">Core AI only</option>
-          </select>
-        </div>
-        <div class="filter-group">
           <label for="chamberFilter">Chamber</label>
           <select id="chamberFilter">
             <option value="">All chambers</option>
@@ -173,7 +160,13 @@
         </div>
       </div>
 
-      <p class="results-count" id="resultsCount">Select a state to load bills.</p>
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.5rem">
+        <p class="results-count" id="resultsCount" style="margin:0">Select a state to load bills.</p>
+        <button id="downloadCsvBtn" disabled
+          style="font-size:0.82rem;padding:0.3rem 0.85rem;border:1px solid var(--du-crimson);border-radius:4px;background:white;color:var(--du-crimson);cursor:pointer;white-space:nowrap">
+          Download CSV
+        </button>
+      </div>
 
       <!-- Table -->
       <div class="table-wrap">
