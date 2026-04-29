@@ -271,7 +271,21 @@ function initBillBrowser(manifest) {
   let currentBills = [];
 
   async function loadState(abbr) {
-    if (!abbr) { currentBills = []; return; }
+    if (!abbr) {
+      // "All States" — fetch all state files in parallel
+      if (cache["__ALL__"]) { currentBills = cache["__ALL__"]; return; }
+      const states = Object.keys(byState);
+      const results = await Promise.all(
+        states.map(st =>
+          fetch("./data/bills_by_state/" + st + ".json")
+            .then(r => r.ok ? r.json() : [])
+            .catch(() => [])
+        )
+      );
+      cache["__ALL__"] = results.flat();
+      currentBills = cache["__ALL__"];
+      return;
+    }
     if (cache[abbr]) { currentBills = cache[abbr]; return; }
     const res = await fetch("./data/bills_by_state/" + abbr + ".json");
     if (!res.ok) throw new Error(`Could not load ${byState[abbr]}`);
@@ -357,21 +371,17 @@ function initBillBrowser(manifest) {
     const blob = new Blob([rows.join("\n")], { type: "text/csv;charset=utf-8;" });
     const url  = URL.createObjectURL(blob);
     const a    = document.createElement("a");
-    const state = (lastFilteredBills[0]?.state || "bills").toLowerCase();
+    const stateLabel = stateSelect.value
+      ? stateSelect.value.toLowerCase()
+      : "all-states";
     a.href     = url;
-    a.download = `caid-ai-bills-${state}.csv`;
+    a.download = `caid-ai-bills-${stateLabel}.csv`;
     a.click();
     URL.revokeObjectURL(url);
   }
 
   function renderTable(bills) {
     tbody.innerHTML = "";
-
-    if (!stateSelect.value) {
-      countEl.textContent = "Select a state to load bills.";
-      return;
-    }
-
     lastFilteredBills = bills;
     const dlBtn = document.getElementById("downloadCsvBtn");
     if (dlBtn) dlBtn.disabled = bills.length === 0;
@@ -526,6 +536,9 @@ function initBillBrowser(manifest) {
   sortSelect.addEventListener("change", runFilters);
   ncslCheck.addEventListener("change", runFilters);
   searchInput.addEventListener("input", runFilters);
+
+  // Load all bills immediately so the browser is populated on first visit
+  selectState("");
 
   // Expose navigation function for map click-through
   return async function navigateTo(abbr, tier, year) {
