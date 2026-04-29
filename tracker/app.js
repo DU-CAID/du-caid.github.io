@@ -380,6 +380,8 @@ function initBillBrowser(manifest) {
     URL.revokeObjectURL(url);
   }
 
+  const capNotice = document.getElementById("capNotice");
+
   function renderTable(bills) {
     tbody.innerHTML = "";
     lastFilteredBills = bills;
@@ -390,6 +392,15 @@ function initBillBrowser(manifest) {
     countEl.textContent = bills.length === 0
       ? "No bills match the current filters."
       : `Showing ${fmt(shown.length)} of ${fmt(bills.length)} bills`;
+
+    if (capNotice) {
+      if (bills.length > 500) {
+        capNotice.textContent = `Displaying the first 500 of ${fmt(bills.length)} matching bills. Use the filters above to narrow results, or use Download CSV to export the full set.`;
+        capNotice.style.display = "block";
+      } else {
+        capNotice.style.display = "none";
+      }
+    }
 
     shown.forEach(b => {
       const isCore = b.core_ai_hits > 0;

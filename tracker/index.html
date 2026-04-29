@@ -161,7 +161,7 @@
       </div>
 
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.5rem">
-        <p class="results-count" id="resultsCount" style="margin:0">Select a state to load bills.</p>
+        <p class="results-count" id="resultsCount" style="margin:0">Loading…</p>
         <button id="downloadCsvBtn" disabled
           style="font-size:0.82rem;padding:0.3rem 0.85rem;border:1px solid var(--du-crimson);border-radius:4px;background:white;color:var(--du-crimson);cursor:pointer;white-space:nowrap">
           Download CSV
@@ -185,6 +185,7 @@
           </thead>
           <tbody id="billsTbody"></tbody>
         </table>
+        <p id="capNotice" style="display:none;margin-top:0.75rem;font-size:0.82rem;color:var(--muted);text-align:center"></p>
       </div>
 
     </div>
