@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deepfakes and the Law: How States Are Regulating AI-Generated Media · DU CAID</title>
+  <meta name="description" content="More than 400 state bills targeting deepfakes and synthetic media have been introduced since 2019. This report maps the legislative landscape across three areas: electoral integrity, non-consensual intimate imagery, and general AI governance.">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+  <style>
+    .post-header { margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border); }
+    .post-meta { font-size: .85rem; color: var(--muted); margin-bottom: .5rem; }
+    .post-tag {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 600;
+      padding: .15rem .5rem;
+      border-radius: 999px;
+      background: #fce8ec;
+      color: var(--du-crimson);
+      margin-right: .4rem;
+    }
+    .post-title { margin: .25rem 0 .5rem; font-size: 1.9rem; line-height: 1.2; }
+    .post-body p { line-height: 1.75; margin-bottom: 1.1rem; }
+    .post-body h2 { margin-top: 2.25rem; margin-bottom: .6rem; font-size: 1.25rem; border-bottom: 2px solid var(--du-crimson); padding-bottom: .3rem; display: inline-block; }
+    .post-body h3 { margin-top: 1.5rem; margin-bottom: .4rem; font-size: 1.05rem; color: var(--du-crimson); }
+    .post-body a { color: var(--du-crimson); }
+    .post-body ul { padding-left: 1.4rem; margin-bottom: 1.1rem; }
+    .post-body ul li { line-height: 1.7; margin-bottom: .3rem; }
+    .post-cta {
+      margin-top: 2rem;
+      padding: 1.25rem 1.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--du-crimson);
+      border-radius: .5rem;
+    }
+    .post-cta p { margin: 0 0 .75rem; font-weight: 600; }
+    .back-link { font-size: .88rem; color: var(--muted); text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
+    .back-link:hover { color: var(--du-crimson); }
+
+    .stat-row {
+      display: flex;
+      gap: 1rem;
+      margin: 1.5rem 0;
+      flex-wrap: wrap;
+    }
+    .stat-box {
+      flex: 1;
+      min-width: 130px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--du-crimson);
+      border-radius: .5rem;
+      padding: .85rem 1rem;
+      text-align: center;
+    }
+    .stat-box .stat-num {
+      display: block;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--du-crimson);
+      line-height: 1.1;
+    }
+    .stat-box .stat-label {
+      display: block;
+      font-size: .78rem;
+      color: var(--muted);
+      margin-top: .25rem;
+      line-height: 1.4;
+    }
+
+    .bill-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .85rem;
+      margin: 1rem 0 1.5rem;
+    }
+    .bill-table th {
+      text-align: left;
+      padding: .4rem .6rem;
+      background: var(--surface);
+      border-bottom: 2px solid var(--border);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .bill-table td {
+      padding: .4rem .6rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .bill-table tr:last-child td { border-bottom: none; }
+    .status-signed {
+      display: inline-block; font-size: .7rem; font-weight: 700;
+      padding: .1rem .45rem; border-radius: 999px;
+      background: #d1fae5; color: #065f46; white-space: nowrap;
+    }
+    .status-failed {
+      display: inline-block; font-size: .7rem; font-weight: 700;
+      padding: .1rem .45rem; border-radius: 999px;
+      background: #fee2e2; color: #991b1b; white-space: nowrap;
+    }
+    .status-pending {
+      display: inline-block; font-size: .7rem; font-weight: 700;
+      padding: .1rem .45rem; border-radius: 999px;
+      background: #e0f2fe; color: #075985; white-space: nowrap;
+    }
+
+    .pull-quote {
+      margin: 1.75rem 0;
+      padding: 1rem 1.5rem;
+      border-left: 4px solid var(--du-gold);
+      background: #fdfaf3;
+      border-radius: 0 .4rem .4rem 0;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: #444;
+      line-height: 1.65;
+    }
+
+    .domain-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .domain-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: .5rem;
+      padding: 1rem 1.1rem;
+    }
+    .domain-card h4 {
+      margin: 0 0 .4rem;
+      font-size: .95rem;
+      color: var(--du-crimson);
+    }
+    .domain-card p {
+      margin: 0;
+      font-size: .83rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .data-note {
+      font-size: .8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 2.5rem;
+      padding-top: .75rem;
+    }
+
+    @media (max-width: 650px) {
+      .stat-row { flex-direction: column; }
+      .domain-grid { grid-template-columns: 1fr; }
+      .bill-table { font-size: .78rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container head-inner">
+    <a class="brand" href="/">
+      <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+      <span class="brand-text"></span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/reports/">Reports</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container prose">
+
+    <a class="back-link" href="/reports/">&larr; All Reports</a>
+
+    <div class="post-header">
+      <div class="post-meta">
+        <span class="post-tag">Deepfakes</span>
+        <span class="post-tag">AI Policy</span>
+        <span class="post-tag">50-State Analysis</span>
+        &nbsp; May 2026 &nbsp;&middot;&nbsp; Dani Roney &amp; Stefani Langehennig
+      </div>
+      <h1 class="post-title">Deepfakes and the Law: How States Are Regulating AI-Generated Media</h1>
+      <p style="color:var(--muted); font-size:.92rem; margin-top:.5rem;">
+        A 50-state analysis of deepfake and synthetic media legislation since 2019, including who is acting, what they are targeting, and why electoral and non-consensual imagery bills are far outpacing broader AI governance frameworks.
+      </p>
+    </div>
+
+    <div class="post-body">
+
+      <p>Of all the AI policy issues making their way through state legislatures, deepfakes may be the one where the legislative response has been fastest, most bipartisan, and most likely to produce actual law. Since 2019, state legislatures have introduced more than 400 bills addressing AI-generated or manipulated media. This is a category that spans everything from deepfake pornography and election interference, to AI-generated political advertising and synthetic media used for fraud. Nearly every state has engaged with the issue in some form, and the pace of introduction has accelerated sharply: states introduced 125 deepfake-related bills in 2025 alone, compared to just one in 2022.</p>
+
+      <p>This report draws on the <a href="https://du-caid.github.io/tracker/" target="_blank" rel="noopener">CAID State AI Legislation Tracker</a> to map that legislative landscape. We identify three distinct areas of deepfake regulation, trace the states driving the most activity, and examine what the pattern of legislative success and failure reveals about how states are approaching one of the most contested questions in AI governance: when does AI-generated content cross the line from expression into harm?</p>
+
+      <h2>Numbers at a Glance</h2>
+
+      <div class="stat-row">
+        <div class="stat-box">
+          <span class="stat-num">400+</span>
+          <span class="stat-label">Deepfake &amp; synthetic media bills introduced since 2019</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">48</span>
+          <span class="stat-label">States &amp; jurisdictions with at least one deepfake bill</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">~130</span>
+          <span class="stat-label">Bills targeting deepfakes in electoral contexts</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">125</span>
+          <span class="stat-label">Bills introduced in 2025 alone</span>
+        </div>
+      </div>
+
+      <p>Three states (Indiana, Maine, and Michigan) have not introduced any bills matching deepfake or synthetic media concepts in the CAID tracker. Every other state has at least one. New York leads with 49 bills, followed by California (36), New Jersey (31), Massachusetts (23), and Illinois (21). The presence of Oklahoma (13 bills) and South Carolina (12) in the top ranks illustrates a pattern that runs throughout the deepfake data: this is not a coastal or partisan issue. States across regions and party lines have treated deepfake regulation as a manageable, concrete problem that their legislatures can act on.</p>
+
+      <h2>Three Areas of Deepfake Legislation</h2>
+
+      <p>Deepfake bills are not a single policy category. They address distinct harms, draw on different legal frameworks, and have very different legislative success rates. The tracker data points to three coherent areas:</p>
+
+      <div class="domain-grid">
+        <div class="domain-card">
+          <h4>Electoral Integrity</h4>
+          <p>Regulating AI-generated content in political advertising, candidate impersonation, and election communications. Roughly 130 bills fall here. These are the most widely introduced and have the highest advancement rate - 69 are tracked by NCSL as having advanced.</p>
+        </div>
+        <div class="domain-card">
+          <h4>Non-Consensual Intimate Imagery</h4>
+          <p>Criminalizing AI-generated explicit content depicting real individuals without consent. About 40 bills address this directly. Enactment rates are higher than average; harm is concrete, victims are identifiable, and legal analogues (harassment, obscenity) are well established.</p>
+        </div>
+        <div class="domain-card">
+          <h4>General Synthetic Media</h4>
+          <p>Broader bills regulating AI-generated audio, video, and images in fraud, defamation, and commercial impersonation contexts. The largest domain by count, but lower enactment rates reflect the broader scope and harder legislative path of general regulation.</p>
+        </div>
+      </div>
+
+      <h2>Electoral Deepfakes: The Most Active Front</h2>
+
+      <p>No deepfake area has attracted more legislative attention than elections. With roughly 130 bills targeting AI-generated content in political and electoral contexts (and 69 of those advanced or tracked by NCSL), electoral deepfake legislation represents the clearest policy success story in the broader synthetic media landscape.</p>
+
+      <p>The legislative logic is straightforward. AI-generated political advertising that fabricates a candidate's words or actions is a concrete, well-defined harm with clear victims (candidates, voters, the democratic process), and it maps naturally onto existing election law and campaign finance frameworks. States have taken two main approaches. The first requires <strong>disclosure</strong> when AI-generated content is used in political advertising; Colorado, Oregon, and Wisconsin are among the clearest enacted examples. The second goes further by outright <strong>prohibiting</strong> deepfakes in electoral communications within a window before an election, with South Dakota among the states to have enacted this harder line. Of the two, disclosure bills have had the more consistent record of enactment, as most prohibition bills introduced across sessions have stalled or failed to advance.</p>
+
+      <table class="bill-table">
+        <thead>
+          <tr><th>State</th><th>Bill</th><th>Approach</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CO</td>
+            <td><a href="https://leg.colorado.gov/bills/hb24-1147" target="_blank" rel="noopener">HB 24-1147</a></td>
+            <td>Disclosure of AI-generated content in candidate advertising</td>
+          </tr>
+          <tr>
+            <td>SD</td>
+            <td><a href="https://sdlegislature.gov/Session/Bill/26046" target="_blank" rel="noopener">SB 164</a></td>
+            <td>Prohibits use of deepfakes to influence an election</td>
+          </tr>
+          <tr>
+            <td>OR</td>
+            <td><a href="https://olis.oregonlegislature.gov/liz/2024r1/Measures/Overview/SB1571" target="_blank" rel="noopener">SB 1571</a></td>
+            <td>Restricts AI use in campaign communications</td>
+          </tr>
+          <tr>
+            <td>WI</td>
+            <td><a href="https://docs.legis.wisconsin.gov/2023/proposals/ab664" target="_blank" rel="noopener">SB 644 / AB 664</a></td>
+            <td>Disclosure requirements for AI-generated political content</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>These four laws are illustrative, not exhaustive. More than two dozen states have enacted some form of electoral deepfake statute, and in nearly every chamber the bills have attracted bipartisan sponsors. States as ideologically different as Alabama, Oregon, and Wisconsin have passed electoral deepfake laws within the same legislative cycle. This convergence reflects something important about the political economy of deepfake regulation: the harm is easy to visualize, the target is narrow, and the policy tool (disclosure or prohibition during an election window) is easy to draft and enforce. Electoral deepfake bills are, in the language of legislative politics, "low-friction" bills in that they solve a problem that legislators on both sides of the aisle can agree is real without requiring them to take positions on the broader question of AI regulation.</p>
+
+      <h2>Non-Consensual Intimate Imagery: High Success, Clear Harm</h2>
+
+      <p>The second area where deepfake legislation has found consistent success is non-consensual intimate imagery (NCII) - AI-generated explicit or sexual content depicting real individuals without their consent. With roughly 40 bills in this category and enactment rates well above the overall deepfake average, NCII legislation illustrates the same principle as electoral deepfakes: concrete harm plus available legal analogue equals a legislatively viable bill.</p>
+
+      <p>States have largely approached NCII deepfakes as an extension of existing harassment, stalking, or revenge pornography statutes rather than as a novel AI problem. Colorado's <a href="https://leg.colorado.gov/bills/sb25-288" target="_blank" rel="noopener">SB 25-288</a>, signed in 2025, is one of the strongest examples. It created both criminal liability and civil remedies for AI-generated non-consensual intimate images, going further than most states in providing victims with actionable legal recourse. New Jersey, Virginia, and Washington have passed similar laws, each extending existing privacy and harassment frameworks to cover synthetic media.</p>
+
+      <p class="pull-quote">NCII deepfake bills have succeeded where broader AI legislation has failed because they follow a template that state legislatures know how to use: identify a victim, define the harmful act, attach a penalty, and cross-reference existing criminal codes. The fact that AI generated the image is treated as an aggravating factor, not a new legal category.</p>
+
+      <p>The remaining gap in this domain is civil enforcement. Most enacted NCII laws create criminal offenses, but victims seeking damages through civil litigation face inconsistent standards across states. Several legislatures (including New Jersey and California) have introduced bills specifically addressing civil remedies and platform liability for AI-generated NCII, with varying success.</p>
+
+      <h2>General Synthetic Media: Broader Ambition, Harder Path</h2>
+
+      <p>Beyond the electoral and NCII domains, a larger set of bills takes a broader approach to synthetic media regulation, targeting AI-generated content in fraud, defamation, commercial impersonation, and general deception contexts. These bills are the most numerous in the tracker but have lower enactment rates than the two targeted areas. The pattern is consistent with what researchers have found across AI legislation generally: bills that define the harm narrowly and borrow from existing legal frameworks pass; bills that require novel regulatory infrastructure tend to stall.</p>
+
+      <p>The bills in this broader category include digital replica and right-of-publicity legislation (protecting individuals' voice and likeness from unauthorized AI replication), content provenance requirements (requiring watermarking or metadata on AI-generated media), and general fraud provisions extended to cover deepfake-assisted deception. Texas, New York, and Tennessee have been active in the digital replica space. Illinois has extended its existing Biometric Information Privacy Act framework to cover synthetic voice and image replication.</p>
+
+      <h2>Legislative Intent: What Are States Actually Trying to Do?</h2>
+
+      <p>A closer look at bill titles across the deepfake dataset reveals that the vast majority of state action is regulatory in nature. It prohibits specific harmful uses, requires disclosures, and imposes penalties. A few patterns based on title-keyword classification:</p>
+
+      <table class="bill-table">
+        <thead>
+          <tr><th>Category</th><th>Bills</th><th>Enacted</th><th>Enactment Rate</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Regulating (prohibit, require, penalize, restrict)</td>
+            <td>~200</td>
+            <td>~12</td>
+            <td>~8%</td>
+          </tr>
+          <tr>
+            <td>Uncategorized (mixed or unclear from title)</td>
+            <td>~148</td>
+            <td>~10</td>
+            <td>~7%</td>
+          </tr>
+          <tr>
+            <td>Studying / Education (task forces, commissions, curricula)</td>
+            <td>~24</td>
+            <td>0</td>
+            <td>0%</td>
+          </tr>
+          <tr>
+            <td>Appropriating (budget, funding, fiscal)</td>
+            <td>~21</td>
+            <td>~1</td>
+            <td>~5%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>The zero enactment rate for studying and education bills is striking but not surprising. Commissions, task forces, and study groups rarely survive the legislative process on their own; they tend to be introduced as placeholder legislation when a legislature wants to signal attention to an issue without committing to a specific regulatory approach. The deepfake area appears to have moved past that stage quickly, as states are not studying deepfakes, but are regulating them.</p>
+
+      <p>The overall enactment rate of roughly 8% across regulatory bills reflects the reality that most introduced legislation does not become law, particularly in a policy area that is still rapidly evolving. The more informative signal is the <em>trajectory</em>: bill introductions increased approximately 125-fold between 2022 and 2025 among states with calendar-year sessions, and the absolute number of enacted laws has grown steadily.</p>
+
+      <h2>The Surge Since 2022</h2>
+
+      <p>Like AI legislation broadly, deepfake bill introductions are heavily concentrated in the post-2022 period. Among states with calendar-year sessions, there was one deepfake bill introduced in 2022, compared to 59 in 2023, 42 in 2024, and 125 in 2025. The 2023 inflection point corresponds directly to the public release and rapid uptake of accessible generative AI tools (ChatGPT, Stable Diffusion, and voice-cloning services) that made high-quality deepfakes producible by anyone with an internet connection.</p>
+
+      <p>Before 2022, deepfake legislation was concentrated in a small number of states with established technology policy capacity (California, Illinois, Virginia) and focused almost exclusively on electoral deepfakes and NCII. The post-2022 surge brought in states that had not previously engaged with synthetic media policy at all, and broadened the legislative agenda to include commercial impersonation, AI-generated fraud, content provenance, and digital replica rights. The breadth of the 2025 legislative agenda is qualitatively different from what was debated in 2019.</p>
+
+      <h2>What to Watch</h2>
+
+      <p>Several active threads in the deepfake legislative landscape merit close attention as 2026 sessions progress.</p>
+
+      <p><strong>Platform liability.</strong> Most enacted deepfake laws target the creators and distributors of synthetic media, not the platforms that host it. A new wave of bills in New York, California, and New Jersey would extend liability to platforms that fail to remove reported deepfake content within specified windows, drawing on the model of online NCII laws. These bills face significant First Amendment and <a href="https://www.law.cornell.edu/uscode/text/47/230" target="_blank" rel="noopener">Section 230</a> headwinds but represent the next frontier in deepfake regulation.</p>
+
+      <p><strong>Content provenance standards.</strong> Several states are moving toward requiring technical watermarking or metadata standards for AI-generated media, rather than (or in addition to) disclosure requirements at the point of distribution. These bills, active in New York and Maryland, would impose obligations on AI developers upstream. This is a different and potentially more durable regulatory approach than policing individual uses after the fact.</p>
+
+      <p><strong>Convergence with federal action.</strong> Congress has introduced several deepfake-specific bills, including the Defiance Act (signed into law in 2024, addressing NCII deepfakes in federal law) and the NO FAKES Act (addressing digital replicas and right-of-likeness). If federal legislation expands, it could preempt or harmonize some of the patchwork of state laws, though the more likely near-term scenario is continued state activity that federal law eventually has to accommodate.</p>
+
+      <p><strong>Minors and schools.</strong> An emerging subset of deepfake bills specifically addresses AI-generated content targeting minors, including bullying and harassment in school settings. Washington and Massachusetts have active bills in this space, and several states have added minor-specific provisions to broader synthetic media statutes. This is an area where state action is likely to accelerate regardless of federal developments.</p>
+
+      <div class="post-cta">
+        <p>Explore all deepfake bills and more - filtering by state, year, or keyword - in the CAID tracker:</p>
+        <a class="btn btn-primary" href="https://du-caid.github.io/tracker/" target="_blank" rel="noopener">Open Dashboard &rarr;</a>
+        &nbsp;
+        <a class="btn" href="/reports/" style="margin-left:.5rem;">All Reports &rarr;</a>
+      </div>
+
+      <p class="data-note">
+        <strong>Data note:</strong> All bill counts are drawn from the CAID State AI Legislation Tracker as of April 2026, using Plural Policy (OpenStates) legislative data and the CAID two-tier AI keyword classifier. Bills are included if they matched at least one of four concept tags: <code>deepfake_media</code>, <code>synthetic_media</code>, <code>digital_replica</code>, or <code>morphed_image</code>, and have at least one core-tier AI keyword match. Electoral and NCII subsets are identified by title keywords; bills where these themes appear only in full text are not captured in those counts. Enactment status combines NCSL tracking data with latest action descriptions from Plural Policy. Year counts for states using legislature session numbers (Illinois, New Jersey, Massachusetts, Tennessee, and others) reflect verified session-to-year mappings. Data are updated on a rolling basis as the tracker is refreshed.
+      </p>
+
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>&copy; <span id="year"></span> Center for Analytics and Innovation with Data &middot; University of Denver</small>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
