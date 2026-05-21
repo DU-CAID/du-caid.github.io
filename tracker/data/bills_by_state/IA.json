@@ -215,8 +215,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -337,8 +337,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HF2507.pdf",
-    "latest_action_date": "2026-03-19",
-    "latest_action_description": "Placed on calendar under unfinished business.",
+    "latest_action_date": "2026-04-15",
+    "latest_action_description": "Amendment H-8357 adopted.",
     "ncsl_status": ""
   },
   {
@@ -465,7 +465,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HF2609.pdf",
+    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGR/91/HF2609.pdf",
     "latest_action_date": "2026-03-17",
     "latest_action_description": "Subcommittee: Rozenboom, Schultz, and Winckler.",
     "ncsl_status": ""
@@ -492,8 +492,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGR/91/HF2635.pdf",
-    "latest_action_date": "2026-03-09",
-    "latest_action_description": "Message from House.",
+    "latest_action_date": "2026-05-13",
+    "latest_action_description": "Signed by Governor. H.J. 05/13.",
     "ncsl_status": ""
   },
   {
@@ -562,8 +562,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -598,6 +598,56 @@
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/89/HF277.pdf",
     "latest_action_date": "2021-01-28",
     "latest_action_description": "Introduced, referred to Public Safety.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f00587b2-ff5d-4c0f-b591-60690954dffe",
+    "state": "IA",
+    "session": "2025-2026",
+    "identifier": "HF 2783",
+    "title": "A bill for an act relating to and making appropriations to the education system, including the funding and operation of the department for the blind, department of education, state board of regents, department of workforce development, and Iowa special education council.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGR/91/HF2783.pdf",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/18.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/28daf7f4-5ff1-4d6a-9d5c-38ef5cc9e11b",
+    "state": "IA",
+    "session": "2025-2026",
+    "identifier": "HF 2792",
+    "title": "A bill for an act relating to and making appropriations from the rebuild Iowa infrastructure fund, technology reinvestment fund, and renewable fuel infrastructure fund, providing for related matters including financial assistance eligibility for regional sports authority districts and department of health and human services information technology systems, and including effective date provisions.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HF2792.pdf",
+    "latest_action_date": "2026-05-02",
+    "latest_action_description": "Amendment H-8479 filed, adopted.",
     "ncsl_status": ""
   },
   {
@@ -711,17 +761,17 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "high_risk_ai_variant",
       "ai_system_composite",
       "adjacent_tech",
       "high_risk_ai",
-      "artificial_intelligence",
       "ai_system",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence",
+      "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -812,31 +862,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/9fbaf1c4-9f64-4fc1-82d5-5108bafc0eaa",
-    "state": "IA",
-    "session": "2025-2026",
-    "identifier": "HSB 610",
-    "title": "A bill for an act relating to computer science education, including high school curricula and graduation requirements, practitioner preparation programs, and college admissions, and including applicability provisions.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HSB610.pdf",
-    "latest_action_date": "2026-02-16",
-    "latest_action_description": "Committee report approving bill, renumbered as HF 2540.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/e6c4d8ce-5873-40c8-83a0-ce273c734df8",
     "state": "IA",
     "session": "2025-2026",
@@ -852,12 +877,11 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HSB635.pdf",
+    "primary_url": null,
     "latest_action_date": "2026-02-23",
     "latest_action_description": "Committee report approving bill, renumbered as HF 2691.",
     "ncsl_status": ""
@@ -942,6 +966,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/52ab9a0d-ca19-427d-9f2f-b1e723d22a44",
+    "state": "IA",
+    "session": "2025-2026",
+    "identifier": "HSB 782",
+    "title": "A bill for an act relating to and making appropriations from the rebuild Iowa infrastructure fund, technology reinvestment fund, and renewable fuel infrastructure fund, providing for related matters including financial assistance eligibility for regional sports authority districts and department of health and human services information technology systems, and including effective date provisions.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HSB782.pdf",
+    "latest_action_date": "2026-04-29",
+    "latest_action_description": "Committee report, recommending amendment and passage.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/054fce7b-0932-4c80-a1f9-bb36c4b3f95e",
     "state": "IA",
     "session": "2025-2026",
@@ -977,14 +1026,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
       "algorithmic_decision_system",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1011,8 +1060,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1143,9 +1192,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "synthetic_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1196,8 +1245,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1224,9 +1273,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1237,8 +1286,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SF2417.pdf",
-    "latest_action_date": "2026-03-19",
-    "latest_action_description": "Placed on calendar under unfinished business.",
+    "latest_action_date": "2026-05-02",
+    "latest_action_description": "Explanation of vote.",
     "ncsl_status": ""
   },
   {
@@ -1268,37 +1317,10 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/46fdea48-51a9-4c6e-b951-7020a6b7fddc",
+    "bill_id": "ocd-bill/92b27829-2b9f-48b4-a0d9-d492257bdfa7",
     "state": "IA",
     "session": "2025-2026",
-    "identifier": "SF 562",
-    "title": "A bill for an act relating to utilization review organizations, prior authorizations and exemptions, medical billing, and independent review organizations.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SF562.pdf",
-    "latest_action_date": "2025-03-11",
-    "latest_action_description": "Subcommittee: Driscoll, Petersen, and Warme.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/8438e0c4-d92e-4b9c-90c3-c22d425a3fe3",
-    "state": "IA",
-    "session": "2025-2026",
-    "identifier": "SSB 1222",
+    "identifier": "SF 2482",
     "title": "A bill for an act relating to and making appropriations to the education system, including the funding and operation of the department for the blind, department of education, and state board of regents.",
     "updated": "",
     "core_ai_hits": 1,
@@ -1314,24 +1336,26 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SSB1222.pdf",
-    "latest_action_date": "2025-04-08",
-    "latest_action_description": "Introduced, referred to Appropriations.",
-    "ncsl_status": "Pending - Carryover"
+    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SF2482.pdf",
+    "latest_action_date": "2026-04-30",
+    "latest_action_description": "Attached to HF 2783.",
+    "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/ff09a6ca-4c69-48cd-9a25-b19494fc2a6e",
+    "bill_id": "ocd-bill/46fdea48-51a9-4c6e-b951-7020a6b7fddc",
     "state": "IA",
     "session": "2025-2026",
-    "identifier": "SSB 1231",
-    "title": "A bill for an act relating to and making appropriations to the education system, including the funding and operation of the department for the blind, department of education, and state board of regents, and including contingent effective date provisions.",
+    "identifier": "SF 562",
+    "title": "A bill for an act relating to utilization review organizations, prior authorizations and exemptions, medical billing, and independent review organizations.",
     "updated": "",
     "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
@@ -1339,10 +1363,10 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SSB1231.pdf",
-    "latest_action_date": "2025-05-06",
-    "latest_action_description": "Committee report approving bill, renumbered as SF 647.",
-    "ncsl_status": "Pending - Carryover"
+    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SF562.pdf",
+    "latest_action_date": "2025-03-11",
+    "latest_action_description": "Subcommittee: Driscoll, Petersen, and Warme.",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/ae5e706a-9293-4fa2-9d1a-c341112b2d63",
@@ -1360,12 +1384,11 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SSB3013.pdf",
+    "primary_url": null,
     "latest_action_date": "2026-02-04",
     "latest_action_description": "Committee report approving bill, renumbered as SF 2199.",
     "ncsl_status": ""
@@ -1381,14 +1404,14 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "ai_system_composite",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1451,6 +1474,31 @@
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SSB3118.pdf",
     "latest_action_date": "2026-02-19",
     "latest_action_description": "Committee report approving bill, renumbered as SF 2421.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f5ea3c08-6d66-4516-95a5-64b07cb4d852",
+    "state": "IA",
+    "session": "2025-2026",
+    "identifier": "SSB 3191",
+    "title": "A bill for an act relating to and making appropriations to the education system, including the funding and operation of the department for the blind, department of education, and state board of regents.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SSB3191.pdf",
+    "latest_action_date": "2026-04-08",
+    "latest_action_description": "Committee report approving bill, renumbered as SF 2482.",
     "ncsl_status": ""
   },
   {

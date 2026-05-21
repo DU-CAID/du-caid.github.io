@@ -35,12 +35,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -68,9 +68,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -96,9 +96,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -143,14 +143,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -249,10 +249,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
+      "ai_system",
       "artificial_intelligence",
-      "ai_system"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -286,8 +286,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -307,16 +307,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "generative_ai_variant",
       "artificial_intelligence",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -342,8 +342,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -388,14 +388,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -475,9 +475,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -529,10 +529,64 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb786/00_IN/pdf/",
     "latest_action_date": "2026-03-25T04:00:00+00:00",
+    "latest_action_description": "Referred to committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/ed2bd9d3-f624-4893-a27e-0bb2afc71eab",
+    "state": "OH",
+    "session": "136",
+    "identifier": "HB 813",
+    "title": "Regards AI-generated products, AI-systems acting as humans",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb813/00_IN/pdf/",
+    "latest_action_date": "2026-05-13T04:00:00+00:00",
+    "latest_action_description": "Referred to committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/43decf54-c06b-4e7c-a8c3-6545f5e2fcf2",
+    "state": "OH",
+    "session": "136",
+    "identifier": "HB 828",
+    "title": "Regards use of automated employment decision tools",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb828/00_IN/pdf/",
+    "latest_action_date": "2026-05-13T04:00:00+00:00",
     "latest_action_description": "Referred to committee",
     "ncsl_status": ""
   },
@@ -550,8 +604,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -625,8 +679,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -657,9 +711,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -679,8 +733,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "ai_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -811,8 +865,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -842,8 +896,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sr304/00_IN/pdf/",
-    "latest_action_date": "2026-03-26T04:00:00+00:00",
-    "latest_action_description": "Offered",
+    "latest_action_date": "2026-04-15T04:00:00+00:00",
+    "latest_action_description": "Referred to committee",
     "ncsl_status": ""
   }
 ]

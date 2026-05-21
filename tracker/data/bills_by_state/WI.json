@@ -9,14 +9,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "automated_decision_system",
       "generative_ai_variant",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -51,8 +51,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB1109.pdf",
-    "latest_action_date": "2026-03-23T05:00:00+00:00",
-    "latest_action_description": "Failed to pass pursuant to Senate Joint Resolution 1",
+    "latest_action_date": "2026-03-30T05:00:00+00:00",
+    "latest_action_description": "Senator Keyeski added as a cosponsor",
     "ncsl_status": ""
   },
   {
@@ -91,8 +91,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -143,12 +143,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -170,12 +170,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "ml_system",
+      "llm_variant",
       "artificial_intelligence",
       "machine_learning",
       "algorithmic_tool",
-      "llm_variant"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -188,8 +188,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB1190.pdf",
-    "latest_action_date": "2026-03-23T05:00:00+00:00",
-    "latest_action_description": "Failed to pass pursuant to Senate Joint Resolution 1",
+    "latest_action_date": "2026-03-30T05:00:00+00:00",
+    "latest_action_description": "Senator Keyeski added as a cosponsor",
     "ncsl_status": ""
   },
   {
@@ -254,8 +254,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -265,9 +265,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://docs.legis.wisconsin.gov/document/enrolledbills/2025/REG/AB415.pdf",
-    "latest_action_date": "2026-03-20T05:00:00+00:00",
-    "latest_action_description": "Report vetoed by the Governor on 3-20-2026",
+    "primary_url": "https://docs.legis.wisconsin.gov/document/vetoedenrolledbills/2025/REG/AB415.pdf",
+    "latest_action_date": "2026-05-13T05:00:00+00:00",
+    "latest_action_description": "Failed to pass notwithstanding the objections of the Governor pursuant to Joint Rule 82",
     "ncsl_status": ""
   },
   {
@@ -310,8 +310,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -468,8 +468,8 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -492,14 +492,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -534,8 +534,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB1066.pdf",
-    "latest_action_date": "2026-03-23T05:00:00+00:00",
-    "latest_action_description": "Failed to pass pursuant to Senate Joint Resolution 1",
+    "latest_action_date": "2026-03-30T05:00:00+00:00",
+    "latest_action_description": "Senator Keyeski added as a coauthor",
     "ncsl_status": ""
   },
   {
@@ -601,16 +601,16 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
       "llm_variant",
       "machine_learning",
       "ml_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -619,8 +619,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB1140.pdf",
-    "latest_action_date": "2026-03-23T05:00:00+00:00",
-    "latest_action_description": "Failed to pass pursuant to Senate Joint Resolution 1",
+    "latest_action_date": "2026-03-30T05:00:00+00:00",
+    "latest_action_description": "Senator Keyeski added as a coauthor",
     "ncsl_status": ""
   },
   {
@@ -637,8 +637,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -713,13 +713,13 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "adjacent_tech",
-      "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -894,15 +894,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "ai_system_composite",
       "adjacent_tech",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",

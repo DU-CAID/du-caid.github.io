@@ -10,12 +10,12 @@
     "adjacent_ai_hits": 3,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -41,8 +41,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -92,14 +92,14 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
+      "ai_system",
       "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system",
-      "ai_system"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -135,6 +135,91 @@
     "primary_url": null,
     "latest_action_date": "2024-06-27",
     "latest_action_description": "Ref To Com On Rules and Operations of the Senate",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/11928c7a-2bf1-415f-861f-59e770e6c888",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "HB 1097",
+    "title": "Government Website Access Act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1097v0.pdf",
+    "latest_action_date": "2026-04-30",
+    "latest_action_description": "Ref to the Com on Appropriations, if favorable, Rules, Calendar, and Operations of the House",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e2436d4b-05d1-40fd-abb5-0933426c8dee",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "HB 1161",
+    "title": "Omnibus Artificial Intelligence Protections.",
+    "updated": "",
+    "core_ai_hits": 8,
+    "adjacent_ai_hits": 3,
+    "matched_concepts": [
+      "automated_decision_system",
+      "deepfake_media",
+      "generative_ai_variant",
+      "machine_learning",
+      "algorithmic_tool",
+      "algorithmic_decision_system",
+      "adjacent_tech",
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1161v0.pdf",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Ref to the Com on Appropriations, if favorable, Rules, Calendar, and Operations of the House",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/1379b938-4785-42a0-9e00-f3d492218387",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "HB 1175",
+    "title": "Affordability in Healthcare Act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1175v0.pdf",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Ref To Com On Rules, Calendar, and Operations of the House",
     "ncsl_status": ""
   },
   {
@@ -201,8 +286,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -225,14 +310,14 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "artificial_intelligence",
-      "synthetic_media",
       "deepfake_media",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -263,7 +348,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H507v0.pdf",
     "latest_action_date": "2025-03-26",
@@ -283,8 +368,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -332,14 +417,14 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "algorithmic_tool",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -413,9 +498,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -445,8 +530,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -482,6 +567,163 @@
     "primary_url": "https://www.ncleg.gov/Sessions/2023/Bills/House/PDF/H986v0.pdf",
     "latest_action_date": "2024-05-06",
     "latest_action_description": "Ref to the Com on Appropriations, if favorable, Rules, Calendar, and Operations of the House",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7a457cbf-235f-4f75-8ab8-9985e1ccd84e",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "HR 1177",
+    "title": "Consumer Protection Artificial Intelligence Bill of Rights.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H1177v0.pdf",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Ref To Com On Rules, Calendar, and Operations of the House",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3c8c36a8-f98f-43ba-acdb-9053465d9b19",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 1006",
+    "title": "K-12 Innovation and Transformation Act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1006v0.pdf",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Re-ref to Education/Higher Education.  If fav, re-ref to Appropriations/Base Budget",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/131713a3-fb17-4c1c-9a96-c3c6295938ff",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 1007",
+    "title": "Human Trafficking Omnibus.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1007v0.pdf",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Ref To Com On Rules and Operations of the Senate",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/1e5aebf4-2f78-43cc-9683-776abd940533",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 1033",
+    "title": "NC Children's Safe Screens Act/Funds.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1033v0.pdf",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "Re-ref Com On Appropriations/Base Budget",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0b099f18-2698-4a61-89a3-74562a1151af",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 1037",
+    "title": "DIGITAL NC Act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1037v0.pdf",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Ref To Com On Rules and Operations of the Senate",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0fb7f1d2-5b50-489e-bf1a-09ebe31b5171",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 1046",
+    "title": "A.I. in Environmental Permitting.",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "llm_variant",
+      "adjacent_tech",
+      "large_language_model",
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1046v0.pdf",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Ref To Com On Rules and Operations of the Senate",
     "ncsl_status": ""
   },
   {
@@ -545,12 +787,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -622,15 +864,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
       "adjacent_tech",
       "generative_ai_variant",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -728,15 +970,15 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite",
       "ml_system",
       "machine_learning",
-      "generative_ai_variant",
-      "adjacent_tech",
-      "ai_system_composite"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -789,12 +1031,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -844,13 +1086,13 @@
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
+      "ai_system",
       "artificial_intelligence",
-      "ai_governance",
-      "ai_system"
+      "ai_governance"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -872,13 +1114,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -929,8 +1171,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -940,6 +1182,37 @@
     "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S747v0.pdf",
     "latest_action_date": "2025-03-26",
     "latest_action_description": "Ref To Com On Rules and Operations of the Senate",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d6e6d720-1d54-4126-a66d-d7a8ea8bcb8c",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 787",
+    "title": "AI Ethics and Literacy Across Education.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_model_variant",
+      "ai_system",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S787v0.pdf",
+    "latest_action_date": "2026-04-23",
+    "latest_action_description": "Re-ref Com On Appropriations/Base Budget",
     "ncsl_status": ""
   },
   {
@@ -994,6 +1267,89 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/2fbc3001-332d-4334-8948-973322934fc5",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 835",
+    "title": "Surveillance Pricing Ban.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S835v0.pdf",
+    "latest_action_date": "2026-04-28",
+    "latest_action_description": "Re-ref to Appropriations/Base Budget.  If fav, re-ref to Rules and Operations of the Senate",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7f9298d5-5385-4161-8039-7aedf5eae061",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 839",
+    "title": "Price Transparency Act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S839v0.pdf",
+    "latest_action_date": "2026-04-28",
+    "latest_action_description": "Re-ref to Appropriations/Base Budget.  If fav, re-ref to Rules and Operations of the Senate",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/91564ecc-84ac-452e-adcb-4a703dfc3b4e",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 864",
+    "title": "Safe and Responsible AI in Schools Act.",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 3,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "generative_ai",
+      "ai_system",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S864v0.pdf",
+    "latest_action_date": "2026-04-29",
+    "latest_action_description": "Ref To Com On Rules and Operations of the Senate",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/5d77337f-7581-40cc-9567-44060938c2c1",
     "state": "NC",
     "session": "2023",
@@ -1019,6 +1375,115 @@
     "primary_url": "https://www.ncleg.gov/Sessions/2023/Bills/Senate/PDF/S880v0.pdf",
     "latest_action_date": "2024-05-06",
     "latest_action_description": "Ref To Com On Rules and Operations of the Senate",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e47da6b4-9fd2-4d2b-b849-12c4180236f8",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 963",
+    "title": "AI Chatbots-Licensing, Safety, and Privacy.",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "machine_learning",
+      "ml_system",
+      "adjacent_tech",
+      "ai_system_composite",
+      "generative_ai_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S963v0.pdf",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Re-ref Com On Appropriations/Base Budget",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c8cdd19e-83c0-46ef-a2ba-70c64f3ca84a",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 981",
+    "title": "AI in Ed Task Force and Standards.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_system"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S981v0.pdf",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "Re-ref Com On Appropriations/Base Budget",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d199916a-56b1-4565-afb7-97ce30b685b7",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 988",
+    "title": "Protecting Workers in the Age of AI Act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S988v0.pdf",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "Re-ref Com On Appropriations/Base Budget",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f8361c97-5fa4-4ec6-9063-ff276eabe2cf",
+    "state": "NC",
+    "session": "2025",
+    "identifier": "SB 991",
+    "title": "Community College Workforce Readiness Act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S991v0.pdf",
+    "latest_action_date": "2026-05-13",
+    "latest_action_description": "Re-ref Com On Appropriations/Base Budget",
     "ncsl_status": ""
   }
 ]

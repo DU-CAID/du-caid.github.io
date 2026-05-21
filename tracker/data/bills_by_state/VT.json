@@ -168,8 +168,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -217,15 +217,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "automated_decision_system",
       "adjacent_tech",
+      "artificial_intelligence",
       "algorithmic_tool",
       "machine_learning",
-      "artificial_intelligence"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -250,14 +250,14 @@
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
-      "generative_ai_variant",
-      "high_risk_ai_variant",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "generative_ai_variant",
+      "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -392,13 +392,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "automated_decision_system",
+      "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -471,17 +471,17 @@
     "core_ai_hits": 10,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "synthetic_media",
       "ai_system",
       "algorithmic_tool",
+      "foundation_model",
       "generative_ai_variant",
       "high_risk_ai_variant",
       "ai_system_composite",
       "adjacent_tech",
       "llm_variant",
-      "foundation_model"
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -508,11 +508,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "generative_ai_variant",
       "high_risk_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -652,9 +652,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0814/H-0814%20As%20Passed%20by%20the%20House%20Unofficial.pdf",
-    "latest_action_date": "2026-03-20",
-    "latest_action_description": "Read 1st time & referred to Committee on Health and Welfare",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0814/H-0814%20As%20Passed%20by%20Both%20House%20and%20Senate%20Unofficial.pdf",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "House message: Governor approved bill on May 18, 2026",
     "ncsl_status": ""
   },
   {
@@ -677,9 +677,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0816/H-0816%20As%20Passed%20by%20the%20House%20Unofficial.pdf",
-    "latest_action_date": "2026-03-20",
-    "latest_action_description": "Read 1st time & referred to Committee on Health and Welfare",
+    "primary_url": "https://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0816/H-0816%20Senate%20Proposal%20of%20Amendment%20Unofficial.pdf",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "House message: House refused to concur in Senate proposal of amendment & requested Conference Committee; House Conference Committee members appointed",
     "ncsl_status": ""
   },
   {
@@ -717,9 +717,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -794,8 +794,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"

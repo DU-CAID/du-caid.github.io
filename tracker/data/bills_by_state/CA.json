@@ -9,8 +9,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -37,19 +37,19 @@
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
-      "automated_decision_system",
-      "machine_learning",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -68,9 +68,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -98,8 +98,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -162,31 +162,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/bb87e0d5-70ff-4881-be3a-0f39865148e6",
-    "state": "CA",
-    "session": "20232024",
-    "identifier": "AB 104",
-    "title": "Budget Acts of 2022 and 2023.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202320240AB104&version=20230AB10497AMD",
-    "latest_action_date": "2023-09-13",
-    "latest_action_description": "Re-referred to Com. on B. & F.R.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/72df098c-23f2-4190-9f09-21f4d1a8e70a",
     "state": "CA",
     "session": "20252026",
@@ -209,6 +184,31 @@
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB104&version=20250AB10495CHP",
     "latest_action_date": "2025-07-29",
     "latest_action_description": "Approved by the Governor.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/bb87e0d5-70ff-4881-be3a-0f39865148e6",
+    "state": "CA",
+    "session": "20232024",
+    "identifier": "AB 104",
+    "title": "Budget Acts of 2022 and 2023.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202320240AB104&version=20230AB10497AMD",
+    "latest_action_date": "2023-09-13",
+    "latest_action_description": "Re-referred to Com. on B. & F.R.",
     "ncsl_status": ""
   },
   {
@@ -246,17 +246,17 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "ai_system_composite",
       "adjacent_tech",
       "generative_ai_variant",
       "generative_ai",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -286,8 +286,8 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -309,14 +309,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -390,15 +390,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
+      "automated_decision_system",
       "adjacent_tech",
       "ai_system_composite",
       "generative_ai_variant",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -532,8 +532,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1337&version=20250AB133797AMD",
-    "latest_action_date": "2025-07-15",
-    "latest_action_description": "In committee: Set, first hearing. Failed passage. Reconsideration granted.",
+    "latest_action_date": "2026-05-06",
+    "latest_action_description": "Re-referred to Com. on P., D.T., & C.P.",
     "ncsl_status": ""
   },
   {
@@ -572,18 +572,18 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
+      "ai_system",
       "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system",
-      "ai_system"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -658,8 +658,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -681,8 +681,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -695,6 +695,32 @@
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=201920200AB1576&version=20190AB157695AMD",
     "latest_action_date": "2019-08-30",
     "latest_action_description": "In committee: Held under submission.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/613de7f6-2621-440f-82e1-6d7d440fb664",
+    "state": "CA",
+    "session": "20252026",
+    "identifier": "AB 1651",
+    "title": "State Bar of California: artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1651&version=20250AB165198AMD",
+    "latest_action_date": "2026-05-06",
+    "latest_action_description": "Referred to Com. on JUD.",
     "ncsl_status": ""
   },
   {
@@ -720,32 +746,6 @@
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202120220AB1651&version=20210AB165198AMD",
     "latest_action_date": "2022-04-21",
     "latest_action_description": "From committee: Do pass and re-refer to Com. on P. & C.P. (Ayes 5. Noes 2.) (April 20). Re-referred to Com. on P. & C.P.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/613de7f6-2621-440f-82e1-6d7d440fb664",
-    "state": "CA",
-    "session": "20252026",
-    "identifier": "AB 1651",
-    "title": "State Bar of California: artificial intelligence.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1651&version=20250AB165198AMD",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "From committee chair, with author's amendments: Amend, and re-refer to Com. on P. & C.P. Read second time and amended.",
     "ncsl_status": ""
   },
   {
@@ -819,8 +819,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1766&version=20250AB176699INT",
-    "latest_action_date": "2026-03-19",
-    "latest_action_description": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 8. Noes 0.) (March 18). Re-referred to Com. on APPR.",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "Read third time. Passed. Ordered to the Senate. (Ayes 77. Noes 0.)",
     "ncsl_status": ""
   },
   {
@@ -833,12 +833,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "deepfake_media"
+      "deepfake_media",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -849,6 +849,31 @@
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202320240AB1791&version=20230AB179194AMD",
     "latest_action_date": "2024-08-15",
     "latest_action_description": "In committee: Held under submission.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/597bcd4d-a6cf-4bc1-97d4-33bd80a077f6",
+    "state": "CA",
+    "session": "20252026",
+    "identifier": "AB 1805",
+    "title": "Emergency services: State 911 Advisory Board.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1805&version=20250AB180595AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time and amended. Ordered returned to second reading.",
     "ncsl_status": ""
   },
   {
@@ -866,12 +891,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -890,12 +915,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -951,14 +976,39 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202320240AB1873&version=20230AB187399INT",
     "latest_action_date": "2024-04-09",
     "latest_action_description": "In committee: Set, first hearing. Hearing canceled at the request of author.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/375fc5a0-322e-4a5b-ad08-4a3271fa7750",
+    "state": "CA",
+    "session": "20252026",
+    "identifier": "AB 1883",
+    "title": "Workplace surveillance tools.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1883&version=20250AB188396AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time and amended. Ordered returned to second reading.",
     "ncsl_status": ""
   },
   {
@@ -982,8 +1032,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1898&version=20250AB189897AMD",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "From committee: Do pass and re-refer to Com. on JUD. (Ayes 10. Noes 3.) (March 25). Re-referred to Com. on JUD.",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "In committee: Held under submission.",
     "ncsl_status": ""
   },
   {
@@ -1046,21 +1096,21 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1979&version=20250AB197997AMD",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Re-referred to Com. on HEALTH.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1979&version=20250AB197995AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -1081,13 +1131,13 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1116,9 +1166,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2023&version=20250AB202397AMD",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Re-referred to Com. on P. & C.P.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2023&version=20250AB202395AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -1138,41 +1188,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2027&version=20250AB202798AMD",
-    "latest_action_date": "2026-03-17",
-    "latest_action_description": "Re-referred to Com. on L. & E.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/81564a53-6e5b-49e2-870c-36b55118af04",
-    "state": "CA",
-    "session": "20252026",
-    "identifier": "AB 2148",
-    "title": "Local educational agency employees: public postsecondary education employees: artificial intelligence, automated decision systems, and educational technology: discipline.",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
       "title",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2148&version=20250AB214898AMD",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Re-referred to Com. on ED.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2027&version=20250AB202797AMD",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "Coauthors revised.",
     "ncsl_status": ""
   },
   {
@@ -1193,14 +1216,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2169&version=20250AB216999INT",
-    "latest_action_date": "2026-03-16",
-    "latest_action_description": "Referred to Com. on P. & C.P.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2169&version=20250AB216998AMD",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "Joint Rule 62(a), file notice suspended.",
     "ncsl_status": ""
   },
   {
@@ -1265,8 +1288,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1298,8 +1321,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1349,9 +1372,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1365,25 +1388,27 @@
     "state": "CA",
     "session": "20252026",
     "identifier": "AB 2392",
-    "title": "Public postsecondary education: artificial intelligence products: training.",
+    "title": "Public postsecondary education: generative artificial intelligence systems: procurement standards: training.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2392&version=20250AB239298AMD",
-    "latest_action_date": "2026-03-17",
-    "latest_action_description": "Re-referred to Com. on HIGHER ED.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2392&version=20250AB239297AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -1407,9 +1432,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2403&version=20250AB240398AMD",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Re-referred to Com. on REV. & TAX.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2403&version=20250AB240397AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -1430,7 +1455,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202320240AB2412&version=20230AB241298AMD",
     "latest_action_date": "2024-04-19",
@@ -1447,8 +1472,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1456,11 +1481,11 @@
     "match_fields": [
       "abstract"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2412&version=20250AB241299INT",
-    "latest_action_date": "2026-03-09",
-    "latest_action_description": "Referred to Com. on P. & C.P.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2412&version=20250AB241298AMD",
+    "latest_action_date": "2026-05-13",
+    "latest_action_description": "Referred to Coms. on G.O. and P., D.T., & C.P.",
     "ncsl_status": ""
   },
   {
@@ -1477,18 +1502,18 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2487&version=20250AB248798AMD",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Re-referred to Com. on HIGHER ED.",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "In committee: Set, first hearing. Hearing canceled at the request of author.",
     "ncsl_status": ""
   },
   {
@@ -1496,7 +1521,7 @@
     "state": "CA",
     "session": "20252026",
     "identifier": "AB 2504",
-    "title": "Community colleges: artificial intelligence: employment dislocation: certificate: pilot programs.",
+    "title": "Community colleges: artificial intelligence: pilot program.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1507,14 +1532,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2504&version=20250AB250498AMD",
-    "latest_action_date": "2026-03-19",
-    "latest_action_description": "Re-referred to Coms. on HIGHER ED. and P. & C.P. pursuant to Assembly Rule 96.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2504&version=20250AB250496AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -1577,21 +1601,21 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2545&version=20250AB254598AMD",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Re-referred to Com. on L. & E.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2545&version=20250AB254597AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -1604,21 +1628,21 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2575&version=20250AB257598AMD",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Assembly Rule 56 suspended.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2575&version=20250AB257596AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -1642,9 +1666,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2583&version=20250AB258399INT",
-    "latest_action_date": "2026-03-09",
-    "latest_action_description": "Referred to Coms. on E.D., G., & H.I. and P. & C.P.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2583&version=20250AB258398AMD",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "In committee: Held under submission.",
     "ncsl_status": ""
   },
   {
@@ -1657,12 +1681,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1693,9 +1717,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1709,27 +1733,29 @@
     "state": "CA",
     "session": "20252026",
     "identifier": "AB 2653",
-    "title": "State contracts: certification process: Sweatfree AI Code of Conduct.",
+    "title": "State contracts: report: modern foundation models and associated artificial intelligence systems.",
     "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "llm_variant",
+      "foundation_model",
       "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2653&version=20250AB265398AMD",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Pursuant to Assembly Rule 96:",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2653&version=20250AB265397AMD",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "In committee: Held under submission.",
     "ncsl_status": ""
   },
   {
@@ -1742,14 +1768,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "generative_ai",
       "deepfake_media",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1773,8 +1799,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1785,9 +1811,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2656&version=20250AB265698AMD",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Re-referred to Com. on P. E. & R.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2656&version=20250AB265697AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -1795,29 +1821,29 @@
     "state": "CA",
     "session": "20252026",
     "identifier": "AB 2713",
-    "title": "California AI Transparency Act: civil penalty.",
+    "title": "California AI Transparency Act: system provenance data.",
     "updated": "",
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai",
-      "ai_system",
+      "generative_ai_variant",
       "artificial_intelligence",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai",
+      "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2713&version=20250AB271398AMD",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Re-referred to Com. on P. & C.P.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB2713&version=20250AB271396AMD",
+    "latest_action_date": "2026-04-22",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -1864,9 +1890,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1890,8 +1916,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1913,14 +1939,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "generative_ai",
       "deepfake_media",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1945,12 +1971,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -1980,9 +2006,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2001,19 +2027,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "deepfake_media",
       "adjacent_tech",
       "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -2084,20 +2110,20 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "automated_decision_system",
+      "machine_learning",
       "algorithmic_tool",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2116,18 +2142,18 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "adjacent_tech",
       "automated_decision_system",
-      "machine_learning",
-      "adjacent_tech"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2146,14 +2172,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "adjacent_tech",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2177,21 +2203,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "deepfake_media",
       "large_language_model",
       "ai_system_composite",
-      "llm_variant"
+      "llm_variant",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2216,9 +2242,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2243,9 +2269,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2264,17 +2290,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2323,18 +2349,18 @@
       "ai_system",
       "artificial_intelligence",
       "synthetic_media",
-      "deepfake_media",
-      "generative_ai_variant",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "deepfake_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2385,8 +2411,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2456,13 +2482,13 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "adjacent_tech",
-      "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2485,26 +2511,26 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB412&version=20250AB41293AMD",
-    "latest_action_date": "2025-07-09",
-    "latest_action_description": "In committee: Set, first hearing. Hearing canceled at the request of author.",
+    "latest_action_date": "2026-05-06",
+    "latest_action_description": "Re-referred to Coms. on P., D.T., & C.P., JUD., and APPR.",
     "ncsl_status": ""
   },
   {
@@ -2543,17 +2569,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai_variant",
       "artificial_intelligence",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -2579,12 +2605,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2603,12 +2629,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2661,8 +2687,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2687,9 +2713,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2758,15 +2784,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
       "adjacent_tech",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -2820,8 +2846,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2847,9 +2873,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2896,8 +2922,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2922,8 +2948,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2947,12 +2973,12 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "ai_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2986,9 +3012,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3035,12 +3061,12 @@
       "generative_ai",
       "ai_system",
       "artificial_intelligence",
-      "generative_ai_variant",
-      "ai_system_composite"
+      "ai_system_composite",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract"
@@ -3048,8 +3074,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1000&version=20250SB100098AMD",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on P., D.T., & C.P.",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "From committee: Do pass. (Ayes 5. Noes 0.) (May 14).",
     "ncsl_status": ""
   },
   {
@@ -3062,9 +3088,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3087,25 +3113,27 @@
     "identifier": "SB 1011",
     "title": "Energy: Utility Infrastructure AI Safety, Oversight, and Workforce Protection Act.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
-      "automated_decision_system"
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1011&version=20250SB101199INT",
-    "latest_action_date": "2026-02-18",
-    "latest_action_description": "Referred to Coms. on E., U & C. and P., D.T., & C.P.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1011&version=20250SB101197AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "From committee: Do pass as amended. (Ayes 5. Noes 2.) (May 14).",
     "ncsl_status": ""
   },
   {
@@ -3126,11 +3154,11 @@
     "match_fields": [
       "abstract"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1015&version=20250SB101599INT",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Set for hearing April 7.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1015&version=20250SB101598AMD",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "From committee: Do pass. (Ayes 7. Noes 0.) (May 14).",
     "ncsl_status": ""
   },
   {
@@ -3143,9 +3171,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3158,31 +3186,6 @@
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB102&version=20250SB10298AMD",
     "latest_action_date": "2025-06-24",
     "latest_action_description": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on BUDGET.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/51b89fb5-4201-43e0-95ff-00896b9ffee5",
-    "state": "CA",
-    "session": "20252026",
-    "identifier": "SB 103",
-    "title": "Budget Acts of 2022, 2023, and 2024.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB103&version=20250SB10397ENR",
-    "latest_action_date": "2025-06-27",
-    "latest_action_description": "Withdrawn from committee pursuant to Assembly Rule 96.",
     "ncsl_status": ""
   },
   {
@@ -3211,11 +3214,11 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/0d9d605f-a45a-4e1a-9042-c10e99e5c182",
+    "bill_id": "ocd-bill/51b89fb5-4201-43e0-95ff-00896b9ffee5",
     "state": "CA",
     "session": "20252026",
-    "identifier": "SB 104",
-    "title": "Budget Act of 2025.",
+    "identifier": "SB 103",
+    "title": "Budget Acts of 2022, 2023, and 2024.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -3228,11 +3231,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB104&version=20250SB10498AMD",
-    "latest_action_date": "2025-07-17",
-    "latest_action_description": "Re-referred to Com. on BUDGET pursuant to Assembly Rule 97.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB103&version=20250SB10397ENR",
+    "latest_action_date": "2025-06-27",
+    "latest_action_description": "Withdrawn from committee pursuant to Assembly Rule 96.",
     "ncsl_status": ""
   },
   {
@@ -3261,6 +3264,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/0d9d605f-a45a-4e1a-9042-c10e99e5c182",
+    "state": "CA",
+    "session": "20252026",
+    "identifier": "SB 104",
+    "title": "Budget Act of 2025.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB104&version=20250SB10498AMD",
+    "latest_action_date": "2025-07-17",
+    "latest_action_description": "Re-referred to Com. on BUDGET pursuant to Assembly Rule 97.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/67ba8f46-0705-40c2-833d-29836685c471",
     "state": "CA",
     "session": "20232024",
@@ -3270,15 +3298,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant",
       "adjacent_tech",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3381,20 +3409,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "digital_replica",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "ai_system_composite",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3417,18 +3445,18 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1111&version=20250SB111198AMD",
-    "latest_action_date": "2026-03-24",
-    "latest_action_description": "Withdrawn from committee.",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Referred to Coms. on P. & C.P. and PUB. S.",
     "ncsl_status": ""
   },
   {
@@ -3451,9 +3479,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1119&version=20250SB111998AMD",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on RLS.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1119&version=20250SB111997AMD",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "From committee: Do pass. (Ayes 6. Noes 0.) (May 14).",
     "ncsl_status": ""
   },
   {
@@ -3470,12 +3498,12 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3508,9 +3536,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1142&version=20250SB114298AMD",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on P., D.T., & C.P.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1142&version=20250SB114296AMD",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "May 14 hearing: Held in committee and under submission.",
     "ncsl_status": ""
   },
   {
@@ -3518,14 +3546,17 @@
     "state": "CA",
     "session": "20252026",
     "identifier": "SB 1146",
-    "title": "Advertisement claims: health-related consumer products and services: artificial intelligence.",
+    "title": "Advertisement claims: health-related consumer products and services: digital replicas and synthetic performers.",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "digital_replica",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
@@ -3534,9 +3565,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1146&version=20250SB114698AMD",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on P., D.T., & C.P.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1146&version=20250SB114697AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read third time. Passed. (Ayes 36. Noes 0.) Ordered to the Assembly.",
     "ncsl_status": ""
   },
   {
@@ -3549,12 +3580,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3582,14 +3613,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1159&version=20250SB115998AMD",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Set for hearing April 6.",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Referred to Coms. on P. & C.P. and JUD.",
     "ncsl_status": ""
   },
   {
@@ -3603,17 +3634,17 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "deepfake_media",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3642,9 +3673,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1217&version=20250SB121798AMD",
-    "latest_action_date": "2026-03-24",
-    "latest_action_description": "From committee with author's amendments. Read second time and amended. Re-referred to Com. on RLS.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1217&version=20250SB121797AMD",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "May 14 hearing: Held in committee and under submission.",
     "ncsl_status": ""
   },
   {
@@ -3662,8 +3693,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -3713,18 +3744,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "ai_system",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3743,19 +3774,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "deepfake_media",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3780,14 +3811,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB1248&version=20250SB124899INT",
-    "latest_action_date": "2026-03-24",
-    "latest_action_description": "From committee: Do pass and re-refer to Com. on P., D.T., & C.P. (Ayes 13. Noes 0.) (March 24). Re-referred to Com. on P., D.T., & C.P.",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "May 14 hearing: Held in committee and under submission.",
     "ncsl_status": ""
   },
   {
@@ -3807,9 +3838,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3834,8 +3865,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3929,12 +3960,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3986,8 +4017,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4016,8 +4047,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4036,12 +4067,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4073,9 +4104,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4100,41 +4131,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=201920200SB348&version=20190SB34897AMD",
     "latest_action_date": "2019-08-14",
     "latest_action_description": "August 14 set for first hearing canceled at the request of author.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/c8386038-a4de-470c-ab4e-1dca70e5fd85",
-    "state": "CA",
-    "session": "20252026",
-    "identifier": "SB 354",
-    "title": "Insurance Consumer Privacy Protection Act of 2025.",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "automated_decision_system",
-      "ai_system_composite",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB354&version=20250SB35495AMD",
-    "latest_action_date": "2025-06-16",
-    "latest_action_description": "Referred to Coms. on INS. and P. & C.P.",
     "ncsl_status": ""
   },
   {
@@ -4149,17 +4153,17 @@
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
-      "generative_ai_variant",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4184,9 +4188,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4212,9 +4216,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4262,20 +4266,20 @@
     "matched_concepts": [
       "automated_decision_system",
       "generative_ai_variant",
+      "machine_learning",
       "algorithmic_tool",
       "ai_system_composite",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4300,8 +4304,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4381,9 +4385,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4427,17 +4431,17 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
       "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4490,9 +4494,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4511,18 +4515,18 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "llm_variant",
+      "automated_decision_system",
       "ai_system_composite",
       "ai_model_variant",
       "adjacent_tech",
       "generative_ai_variant",
       "foundation_model",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4549,8 +4553,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -4602,8 +4606,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4626,15 +4630,15 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "generative_ai_variant",
-      "ai_system_composite"
+      "ai_system_composite",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4660,9 +4664,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4693,7 +4697,7 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB607&version=20250SB60793AMD",
     "latest_action_date": "2026-01-20",
-    "latest_action_description": "Read third time. Passed. (Ayes 37. Noes 0.) Ordered to the Assembly.",
+    "latest_action_description": "Read third time. Passed. (Ayes 37. Noes 0. Page 3249.) Ordered to the Assembly.",
     "ncsl_status": ""
   },
   {
@@ -4731,20 +4735,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "generative_ai_variant",
       "ai_system_composite",
-      "automated_decision_system"
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4769,12 +4773,12 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4800,14 +4804,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB719&version=20250SB71996AMD",
-    "latest_action_date": "2026-01-26",
-    "latest_action_description": "Read third time. Passed. (Ayes 39. Noes 0. Page 3281.) Ordered to the Assembly.",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Referred to Com. on P. & C.P.",
     "ncsl_status": ""
   },
   {
@@ -4834,8 +4838,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB813&version=20250SB81396AMD",
-    "latest_action_date": "2026-01-27",
-    "latest_action_description": "Read third time. Passed. (Ayes 31. Noes 7. Page 3307.) Ordered to the Assembly.",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Referred to Com. on P. & C.P.",
     "ncsl_status": ""
   },
   {
@@ -4848,22 +4852,22 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
-      "ai_model_variant",
       "automated_decision_system",
       "artificial_intelligence",
       "machine_learning",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite",
+      "adjacent_tech",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4887,17 +4891,17 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB867&version=20250SB86798AMD",
-    "latest_action_date": "2026-03-16",
-    "latest_action_description": "Set for hearing April 6.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB867&version=20250SB86797AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -4911,18 +4915,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
+      "adjacent_tech",
       "automated_decision_system",
-      "machine_learning",
-      "adjacent_tech"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4941,16 +4945,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4970,22 +4974,22 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
-      "deepfake_media",
       "adjacent_tech",
       "ai_system_composite",
+      "ai_system",
       "artificial_intelligence",
       "synthetic_media",
       "automated_decision_system",
-      "ai_system"
+      "generative_ai_variant",
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -5012,14 +5016,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB903&version=20250SB90399INT",
-    "latest_action_date": "2026-02-18",
-    "latest_action_description": "Referred to Coms. on B. P. & E.D. and P., D.T., & C.P.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB903&version=20250SB90398AMD",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "From committee: Do pass. (Ayes 7. Noes 0.) (May 14).",
     "ncsl_status": ""
   },
   {
@@ -5038,8 +5042,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5058,16 +5062,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "deepfake_media",
-      "generative_ai_variant",
       "ai_system_composite",
       "adjacent_tech",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "deepfake_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -5101,9 +5105,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB947&version=20250SB94798AMD",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Set for hearing April 8.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB947&version=20250SB94796AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -5114,21 +5118,22 @@
     "title": "Employment: technological displacement: notice.",
     "updated": "",
     "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB951&version=20250SB95198AMD",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Set for hearing April 8.",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB951&version=20250SB95195AMD",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Read second time. Ordered to third reading.",
     "ncsl_status": ""
   },
   {
@@ -5141,15 +5146,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "ai_system_composite",
       "adjacent_tech",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -5198,8 +5203,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -5231,8 +5236,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,

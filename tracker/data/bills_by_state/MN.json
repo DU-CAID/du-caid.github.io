@@ -185,12 +185,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "automated_decision_system",
-      "algorithmic_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -223,8 +223,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3699/versions/1/",
-    "latest_action_date": "2026-03-16",
-    "latest_action_description": "Committee report, to adopt as amended",
+    "latest_action_date": "2026-04-30",
+    "latest_action_description": "Effective date 04/30/2026",
     "ncsl_status": ""
   },
   {
@@ -248,8 +248,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3753/versions/0/",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Author added Frazier",
+    "latest_action_date": "2026-04-13",
+    "latest_action_description": "Author added Myers",
     "ncsl_status": ""
   },
   {
@@ -273,8 +273,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3794/versions/0/",
-    "latest_action_date": "2026-03-12",
-    "latest_action_description": "Authors added Pursell and Rehrauer",
+    "latest_action_date": "2026-04-23",
+    "latest_action_description": "Author added Lee, K.",
     "ncsl_status": ""
   },
   {
@@ -287,8 +287,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -299,9 +299,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3893/versions/1/",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Author added Kraft",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3893/versions/2/",
+    "latest_action_date": "2026-04-09",
+    "latest_action_description": "Author added Virnig",
     "ncsl_status": ""
   },
   {
@@ -339,12 +339,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "generative_ai_variant",
+      "algorithmic_decision_system",
       "artificial_intelligence",
       "machine_learning",
-      "algorithmic_decision_system"
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -436,6 +436,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/5682d217-83a6-4826-9a2b-c304d7a7a3b4",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "HF 4138",
+    "title": "Social media platforms requirements established relating to accounts for minors, and enforcement mechanisms established for regulations on child social media accounts.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4138/versions/5/",
+    "latest_action_date": "2026-05-16",
+    "latest_action_description": "Returned from Senate with amendment",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/6afbffe8-08b6-4d55-9760-a7fb017276fb",
     "state": "MN",
     "session": "2025-2026",
@@ -472,12 +497,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "generative_ai_variant",
+      "algorithmic_decision_system",
       "artificial_intelligence",
       "machine_learning",
-      "algorithmic_decision_system"
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -508,8 +533,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -532,12 +557,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "automated_decision_system",
-      "adjacent_tech"
+      "adjacent_tech",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -565,8 +590,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -588,14 +613,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
       "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -618,9 +643,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -631,8 +656,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4454/versions/0/",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Author added Hansen, R.",
+    "latest_action_date": "2026-04-23",
+    "latest_action_description": "Author added Lee, K.",
     "ncsl_status": ""
   },
   {
@@ -653,7 +678,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4523/versions/0/",
     "latest_action_date": "2026-03-23",
@@ -757,8 +782,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -840,11 +865,170 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4675/versions/0/",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Introduction and first reading, referred to Human Services Finance and Policy",
+    "latest_action_date": "2026-04-16",
+    "latest_action_description": "Author added Gillman",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b6b3a176-c37c-4b5d-97f0-6181e4d3dbfb",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "HF 4808",
+    "title": "Human Services Systems Modernization Advisory Council and a Legislative Commission on Human Services Systems created, modernization fund and eligible uses established, reports required, money transferred, and money appropriated.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4808/versions/1/",
+    "latest_action_date": "2026-05-16",
+    "latest_action_description": "Committee report, to adopt as amended",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/721ebc21-bdfa-4994-a84d-a04a1b2c1d5f",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "HF 4979",
+    "title": "Delivery of professional services through artificial intelligence directly to consumers precluded, and enforcement and penalties provided.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4979/versions/0/",
+    "latest_action_date": "2026-04-16",
+    "latest_action_description": "Introduction and first reading, referred to Commerce Finance and Policy",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f8238439-9d7d-43d4-8f18-0b92cf15b7c2",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "HF 5051",
+    "title": "Disclosures when selling or distributing programs with artificial intelligence required.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/5051/versions/0/",
+    "latest_action_date": "2026-04-23",
+    "latest_action_description": "Author added Hollins",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c1bd81f9-5f83-4bfa-ad0a-e01dd71908c1",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "HF 5055",
+    "title": "Individual income, corporate franchise, sales and use, and gross receipts taxes and other various taxes and tax-related provisions modified; federal conformity provided; sustainable aviation fuel credit modified, firearms gross receipts tax imposed, social media tax imposed, and money appropriated.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/5055/versions/0/",
+    "latest_action_date": "2026-04-22",
+    "latest_action_description": "Introduction and first reading, referred to Rules and Legislative Administration",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/aa6bf3a4-dad5-4077-91fc-2a3a93b648bd",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "HF 5111",
+    "title": "Use of sonar when fishing for muskellunge or northern pike prohibited in certain waters.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/5111/versions/0/",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "Introduction and first reading, referred to Environment and Natural Resources Finance and Policy",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/53084859-c400-44a7-905b-ce3b4f94321b",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "HF 5155",
+    "title": "Human oversight in the creation of official verbatim court records required.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/5155/versions/0/",
+    "latest_action_date": "2026-05-16",
+    "latest_action_description": "Introduction and first reading, referred to Judiciary Finance and Civil Law",
     "ncsl_status": ""
   },
   {
@@ -857,12 +1041,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "deepfake_media",
-      "adjacent_tech"
+      "adjacent_tech",
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1200,6 +1384,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/c1ecfa41-b404-45fd-adfa-d8c034c87986",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "SF 3870",
+    "title": "Omnibus Education policy bill",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/3870/versions/1/",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Comm report: To pass as amended",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/c994e32d-326c-4252-b1c9-45aeef6ebeb7",
     "state": "MN",
     "session": "2025-2026",
@@ -1310,13 +1521,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "algorithmic_decision_system",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1407,6 +1618,59 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/a925d5cd-a2c3-494c-9a15-40fb77a4e4bd",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "SF 4365",
+    "title": "Omnibus Commerce and Consumer Protection policy bill",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4365/versions/2/",
+    "latest_action_date": "2026-04-28",
+    "latest_action_description": "Rule 45-amend, subst. General Orders HF4188, SF indefinitely postponed",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e110e940-5e30-46d8-948f-998eaca9aed7",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "SF 4374",
+    "title": "State park license plate contest requirements provision",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4374/versions/1/",
+    "latest_action_date": "2026-04-15",
+    "latest_action_description": "Rule 45; subst. General Orders HF3699, SF indefinitely postponed",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/3f1c3f5e-bc2b-47c1-98b0-19022d7e854d",
     "state": "MN",
     "session": "2023-2024",
@@ -1442,9 +1706,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1456,8 +1720,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4509/versions/0/",
-    "latest_action_date": "2026-03-17",
-    "latest_action_description": "Introduction and first reading",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Author added Boldon",
     "ncsl_status": ""
   },
   {
@@ -1496,8 +1760,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1518,13 +1782,13 @@
     "state": "MN",
     "session": "2025-2026",
     "identifier": "SF 4576",
-    "title": "Employees displaced by artificial intelligence notice and transitional employment period requirement provision",
+    "title": "Notice and a transitional employment period required for employees displaced by artificial intelligence, and penalties imposed",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1535,9 +1799,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4576/versions/0/",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Author added McEwen",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4576/versions/1/",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Comm report: To pass as amended and re-refer to State and Local Government",
     "ncsl_status": ""
   },
   {
@@ -1575,14 +1839,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1605,9 +1869,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "algorithmic_decision_system"
+      "algorithmic_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1628,7 +1892,7 @@
     "state": "MN",
     "session": "2025-2026",
     "identifier": "SF 4686",
-    "title": "Use of electronic monitoring tools regulation in employment setting",
+    "title": "Use of electronic monitoring tools regulation in employment settings",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
@@ -1646,9 +1910,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4686/versions/0/",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Author added McEwen",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4686/versions/1/",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Comm report: To pass as amended and re-refer to State and Local Government",
     "ncsl_status": ""
   },
   {
@@ -1662,12 +1926,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "automated_decision_system",
-      "adjacent_tech"
+      "adjacent_tech",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1675,9 +1939,34 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4689/versions/0/",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Author added McEwen",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4689/versions/1/",
+    "latest_action_date": "2026-04-09",
+    "latest_action_description": "Comm report: To pass as amended and re-refer to Judiciary and Public Safety",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/28d1f49f-5a7b-4311-b20f-f1bb0447aca9",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "SF 4696",
+    "title": "Social media platforms requirements establishment related to accounts for minors",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4696/versions/1/",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "Rule 45-amend, subst. General Orders HF4138, SF indefinitely postponed",
     "ncsl_status": ""
   },
   {
@@ -1692,14 +1981,14 @@
     "matched_concepts": [
       "ai_system_composite",
       "ai_model_variant",
+      "artificial_intelligence",
       "algorithmic_decision_system",
       "generative_ai_variant",
-      "machine_learning",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1743,7 +2032,7 @@
     "state": "MN",
     "session": "2025-2026",
     "identifier": "SF 4719",
-    "title": "Human Services Systems Steering Committee establishment",
+    "title": "Human Services Systems Steering Committee and Legislative Commission on Human Services Systems establishment",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1758,9 +2047,9 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4719/versions/0/",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Comm report: To pass and re-referred to State and Local Government",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4719/versions/1/",
+    "latest_action_date": "2026-04-13",
+    "latest_action_description": "Comm report: To pass and re-referred to Health and Human Services",
     "ncsl_status": ""
   },
   {
@@ -1812,7 +2101,144 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4927/versions/0/",
-    "latest_action_date": "2026-03-26",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Author added Boldon",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c6ea0273-0fda-4050-8926-281a4ef817ee",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "SF 4997",
+    "title": "Artificial intelligence chatbot technology requirements provision",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_system",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4997/versions/0/",
+    "latest_action_date": "2026-04-22",
+    "latest_action_description": "Author added Kreun",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/ec10c1be-dc17-4f2a-ade7-c8ebe0f80f36",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "SF 5090",
+    "title": "Social media platforms implementation of an interoperability interface requirement and enforcement and penalties provisions",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning",
+      "algorithmic_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/5090/versions/0/",
+    "latest_action_date": "2026-04-13",
+    "latest_action_description": "Introduction and first reading",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b1cf6119-1ab1-44d8-8b8d-dfd0d4092301",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "SF 5119",
+    "title": "Use of sonar prohibition when fishing for muskellunge or northern pike in certain waters",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/5119/versions/0/",
+    "latest_action_date": "2026-04-14",
+    "latest_action_description": "Introduction and first reading",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/23926972-6177-4e28-b7ab-a594f61fc392",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "SF 5120",
+    "title": "Social media and remote computing service providers requirement to report to the attorney general",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/5120/versions/0/",
+    "latest_action_date": "2026-04-14",
+    "latest_action_description": "Introduction and first reading",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0a2a8458-caed-464a-aa78-eb8169c045c7",
+    "state": "MN",
+    "session": "2025-2026",
+    "identifier": "SF 5303",
+    "title": "Human oversight requirement in the creation of official verbatim court records",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/5303/versions/0/",
+    "latest_action_date": "2026-05-16",
     "latest_action_description": "Introduction and first reading",
     "ncsl_status": ""
   },

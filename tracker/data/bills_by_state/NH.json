@@ -70,8 +70,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-03-17",
-    "latest_action_description": "Introduced 03/12/2026 and Referred to Commerce;  SJ 7",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "Inexpedient to Legislate, MA, VV === BILL KILLED ===; 05/07/2026;  SJ 11",
     "ncsl_status": ""
   },
   {
@@ -165,14 +165,14 @@
       "ai_system",
       "artificial_intelligence",
       "synthetic_media",
-      "deepfake_media",
-      "generative_ai_variant",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "deepfake_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -230,8 +230,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -293,7 +293,7 @@
     "source_bucket": "regex_flagged",
     "primary_url": null,
     "latest_action_date": "2026-02-19",
-    "latest_action_description": "Inexpedient to Legislate: MA VV 02/19/2026  HJ 5",
+    "latest_action_description": "Inexpedient to Legislate: MA VV 02/19/2026  HJ 5  P. 7",
     "ncsl_status": ""
   },
   {
@@ -331,13 +331,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "llm_variant",
       "artificial_intelligence",
-      "large_language_model"
+      "large_language_model",
+      "llm_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -370,8 +370,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-03-16",
-    "latest_action_description": "Introduced (in recess of) 03/12/2026 and referred to Executive Departments and Administration  HJ 8",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "Inexpedient to Legislate: MA VV 05/14/2026  HJ 13",
     "ncsl_status": ""
   },
   {
@@ -379,11 +379,12 @@
     "state": "NH",
     "session": "2026",
     "identifier": "SB 657",
-    "title": "creating a study commission to oversee the use of artificial intelligence in the state.",
+    "title": "relative to the use of information technology and artificial intelligence systems by state agencies.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -395,8 +396,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Introduced (in recess of) 03/26/2026 and referred to Commerce and Consumer Affairs  HJ 9",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "Ought to Pass: MA VV 05/14/2026  HJ 13",
     "ncsl_status": ""
   }
 ]

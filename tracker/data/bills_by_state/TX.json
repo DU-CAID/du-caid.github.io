@@ -85,13 +85,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -140,8 +140,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -323,14 +323,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "automated_decision_system",
       "ai_system_composite",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -353,8 +353,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -593,8 +593,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -623,8 +623,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -730,8 +730,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -758,8 +758,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -824,6 +824,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/8b884b87-3c06-4158-b5d0-0991c5d23e0b",
+    "state": "TX",
+    "session": "86",
+    "identifier": "HB 4390",
+    "title": "Relating to the privacy of personal identifying information and the creation of the Texas Privacy Protection Advisory Council.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.legis.state.tx.us/tlodocs/86R/billtext/html/HB04390I.HTM",
+    "latest_action_date": "2019-06-14",
+    "latest_action_description": "Signed by the Governor",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/97145648-5ee5-420e-b4a9-97b69916b22f",
     "state": "TX",
     "session": "89R",
@@ -849,32 +875,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/8b884b87-3c06-4158-b5d0-0991c5d23e0b",
-    "state": "TX",
-    "session": "86",
-    "identifier": "HB 4390",
-    "title": "Relating to the privacy of personal identifying information and the creation of the Texas Privacy Protection Advisory Council.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "machine_learning"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.state.tx.us/tlodocs/86R/billtext/html/HB04390I.HTM",
-    "latest_action_date": "2019-06-14",
-    "latest_action_description": "Signed by the Governor",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/6093e43e-81e0-41d0-89dd-10fc3a9ed087",
     "state": "TX",
     "session": "89R",
@@ -888,8 +888,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -937,12 +937,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -969,8 +969,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1074,8 +1074,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1101,8 +1101,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1200,10 +1200,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1615,8 +1615,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1739,8 +1739,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1766,8 +1766,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "generative_ai_variant",
-      "ai_system_composite"
+      "ai_system_composite",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1818,9 +1818,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "digital_replica",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1957,8 +1957,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2008,9 +2008,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2061,9 +2061,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2147,8 +2147,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2220,14 +2220,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning",
-      "artificial_intelligence"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"

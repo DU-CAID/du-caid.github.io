@@ -67,7 +67,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://flsenate.gov/Session/Bill/2026/1279/BillText/er/PDF",
     "latest_action_date": "2026-03-13",
@@ -92,8 +92,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -112,20 +112,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "ai_system_composite",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -144,14 +144,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "ml_system",
       "ai_system_composite",
-      "ml_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -173,15 +173,15 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
       "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -281,17 +281,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -316,9 +316,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -343,8 +343,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -367,13 +367,13 @@
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -402,9 +402,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -427,8 +427,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -478,18 +478,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "ai_system_composite",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -516,9 +516,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -537,8 +537,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -564,15 +564,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -597,9 +597,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -643,10 +643,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "generative_ai_variant",
       "automated_decision_system",
       "artificial_intelligence",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -702,13 +702,13 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -852,9 +852,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -880,10 +880,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
       "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -936,8 +936,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -986,9 +986,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1002,34 +1002,6 @@
     "primary_url": "https://flsenate.gov/Session/Bill/2026/1274/BillText/c1/PDF",
     "latest_action_date": "2026-03-13",
     "latest_action_description": "Died in Appropriations Committee on Transportation, Tourism, and Economic Development",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/943133b6-56f3-4461-afe6-d61f7373c9d9",
-    "state": "FL",
-    "session": "2026",
-    "identifier": "SB 1344",
-    "title": "Companion Artificial Intelligence Chatbots",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://flsenate.gov/Session/Bill/2026/1344/BillText/Filed/PDF",
-    "latest_action_date": "2026-03-13",
-    "latest_action_description": "Died in Commerce and Tourism",
     "ncsl_status": ""
   },
   {
@@ -1060,6 +1032,34 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/943133b6-56f3-4461-afe6-d61f7373c9d9",
+    "state": "FL",
+    "session": "2026",
+    "identifier": "SB 1344",
+    "title": "Companion Artificial Intelligence Chatbots",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://flsenate.gov/Session/Bill/2026/1344/BillText/Filed/PDF",
+    "latest_action_date": "2026-03-13",
+    "latest_action_description": "Died in Commerce and Tourism",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/1b68b8e5-937f-4e52-8300-beb5cb120a94",
     "state": "FL",
     "session": "2026",
@@ -1075,8 +1075,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1125,8 +1125,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -1155,9 +1155,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1181,12 +1181,12 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1206,9 +1206,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1260,14 +1260,14 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
+      "generative_ai_variant",
       "automated_decision_system",
       "artificial_intelligence",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1295,8 +1295,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1343,14 +1343,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning",
-      "artificial_intelligence"
+      "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1372,12 +1372,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1399,18 +1399,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "ai_system_composite",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1442,6 +1442,39 @@
     "primary_url": "https://flsenate.gov/Session/Bill/2023/266/BillText/er/PDF",
     "latest_action_date": "2023-05-16",
     "latest_action_description": "Chapter No. 2023-82, companion bill(s) passed, see CS/HB 1035 (Ch. 2023-38)",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/cf5a6832-6ffd-4f61-8aed-2ec95ee0bad9",
+    "state": "FL",
+    "session": "2026D",
+    "identifier": "SB 2D",
+    "title": "Artificial Intelligence Bill of Rights",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "ai_system_composite",
+      "adjacent_tech",
+      "machine_learning",
+      "artificial_intelligence",
+      "synthetic_media",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://flsenate.gov/Session/Bill/2026D/2D/BillText/Filed/PDF",
+    "latest_action_date": "2026-04-29",
+    "latest_action_description": "Died in Information Technology Budget & Policy Subcommittee",
     "ncsl_status": ""
   },
   {
@@ -1561,14 +1594,14 @@
     "matched_concepts": [
       "ai_system_composite",
       "adjacent_tech",
-      "generative_ai_variant",
-      "machine_learning",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1580,6 +1613,32 @@
     "primary_url": "https://flsenate.gov/Session/Bill/2026/482/BillText/e1/PDF",
     "latest_action_date": "2026-03-13",
     "latest_action_description": "Died in Messages",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0f78c6fb-51ea-45e7-b78f-ae852d6d0d67",
+    "state": "FL",
+    "session": "2026D",
+    "identifier": "SB 4D",
+    "title": "Public Records/Investigations by the Department of Legal Affairs",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://flsenate.gov/Session/Bill/2026D/4D/BillText/Filed/PDF",
+    "latest_action_date": "2026-04-29",
+    "latest_action_description": "Died in Information Technology Budget & Policy Subcommittee",
     "ncsl_status": ""
   },
   {
@@ -1669,15 +1728,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1700,10 +1759,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
       "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1728,8 +1787,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1805,17 +1864,17 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
+      "ai_system_composite",
       "ml_system",
-      "machine_learning",
-      "ai_system_composite"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1836,17 +1895,17 @@
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
-      "generative_ai_variant",
-      "adjacent_tech"
+      "adjacent_tech",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1918,18 +1977,18 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "automated_decision_system",
+      "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1948,10 +2007,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "automated_decision_system",
       "ai_system_composite",
+      "artificial_intelligence",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2158,8 +2217,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

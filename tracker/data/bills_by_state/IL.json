@@ -41,8 +41,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -121,8 +121,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -148,8 +148,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -199,8 +199,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -220,18 +220,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -256,8 +256,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -276,15 +276,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -306,8 +306,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -333,8 +333,8 @@
       "ml_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -363,14 +363,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201086&DocName=10400HB3021&DocNum=3021&DocTypeID=HB&LegID=161298&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-02-24",
-    "latest_action_description": "Approved for Consideration Rules Committee;  005-000-000",
+    "latest_action_date": "2026-04-17",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
   {
@@ -383,12 +383,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -435,16 +435,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -469,8 +469,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -569,8 +569,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -596,8 +596,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -622,8 +622,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -631,8 +631,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201955&DocName=10400HB3494&DocNum=3494&DocTypeID=HB&LegID=162167&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-03",
-    "latest_action_description": "Added Chief Co-Sponsor Rep. Maurice A. West, II",
+    "latest_action_date": "2026-05-06",
+    "latest_action_description": "Added Co-Sponsor Rep. Lisa Davis",
     "ncsl_status": ""
   },
   {
@@ -645,9 +645,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -697,22 +697,22 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "llm_variant",
       "artificial_intelligence",
-      "foundation_model",
-      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "foundation_model",
+      "generative_ai_variant",
+      "llm_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -732,18 +732,18 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_governance",
+      "machine_learning",
       "ai_system",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -762,18 +762,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "generative_ai_variant",
       "artificial_intelligence",
-      "generative_ai"
+      "generative_ai",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -798,8 +798,8 @@
       "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -853,12 +853,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -879,16 +879,16 @@
     "matched_concepts": [
       "automated_decision_system",
       "ml_system",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -907,8 +907,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -937,13 +937,13 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -972,8 +972,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1100,14 +1100,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206068&DocName=10400HB4248&DocNum=4248&DocTypeID=HB&LegID=164720&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Placed on Calendar 2nd Reading - Short Debate",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "Added Co-Sponsor Rep. Jay Hoffman",
     "ncsl_status": ""
   },
   {
@@ -1151,14 +1151,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206404&DocName=10400HB4411&DocNum=4411&DocTypeID=HB&LegID=165056&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-01-14",
-    "latest_action_description": "First Reading",
+    "latest_action_date": "2026-04-15",
+    "latest_action_description": "Added Co-Sponsor Rep. Abdelnasser Rashid",
     "ncsl_status": ""
   },
   {
@@ -1175,13 +1175,13 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1203,8 +1203,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1226,14 +1226,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
+      "digital_replica",
       "adjacent_tech",
       "generative_ai_variant",
-      "digital_replica"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1281,15 +1281,15 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai",
+      "generative_ai_variant",
       "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant",
-      "generative_ai_variant"
+      "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1341,8 +1341,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1351,6 +1351,36 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206988&DocName=10400HB4674&DocNum=4674&DocTypeID=HB&LegID=165641&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2026-03-27",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7e332a97-f016-4ace-b167-47e20f29b489",
+    "state": "IL",
+    "session": "103rd",
+    "identifier": "HB 4705",
+    "title": "ARTIFICIAL INTELLIGENCE REPORT",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=190448&DocName=10300HB4705&DocNum=4705&DocTypeID=HB&LegID=152258&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2024-04-05",
     "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
@@ -1372,36 +1402,6 @@
       "llm_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207071&DocName=10400HB4705&DocNum=4705&DocTypeID=HB&LegID=165724&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/7e332a97-f016-4ace-b167-47e20f29b489",
-    "state": "IL",
-    "session": "103rd",
-    "identifier": "HB 4705",
-    "title": "ARTIFICIAL INTELLIGENCE REPORT",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 2,
-    "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence",
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
@@ -1412,9 +1412,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=190448&DocName=10300HB4705&DocNum=4705&DocTypeID=HB&LegID=152258&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2024-04-05",
-    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207071&DocName=10400HB4705&DocNum=4705&DocTypeID=HB&LegID=165724&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-08",
+    "latest_action_description": "Added Co-Sponsor Rep. Mary Beth Canty",
     "ncsl_status": ""
   },
   {
@@ -1439,8 +1439,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1463,8 +1463,8 @@
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1499,8 +1499,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207198&DocName=10400HB4735&DocNum=4735&DocTypeID=HB&LegID=165852&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "Added Chief Co-Sponsor Rep. Jeff Keicher",
     "ncsl_status": ""
   },
   {
@@ -1513,15 +1513,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
       "adjacent_tech",
       "ai_system_composite",
+      "artificial_intelligence",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1550,8 +1550,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1570,21 +1570,21 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "foundation_model",
       "llm_variant",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "foundation_model"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1631,15 +1631,15 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1660,14 +1660,14 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
+      "generative_ai_variant",
       "synthetic_media",
       "artificial_intelligence",
-      "adjacent_tech",
-      "generative_ai_variant"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -1690,14 +1690,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
       "adjacent_tech",
+      "artificial_intelligence",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1731,8 +1731,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207517&DocName=10400HB4882&DocNum=4882&DocTypeID=HB&LegID=166171&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Placed on Calendar 2nd Reading - Short Debate",
+    "latest_action_date": "2026-04-17",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
   {
@@ -1751,8 +1751,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1832,14 +1832,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207722&DocName=10400HB4980&DocNum=4980&DocTypeID=HB&LegID=166376&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-20",
-    "latest_action_description": "Placed on Calendar 2nd Reading - Short Debate",
+    "latest_action_date": "2026-04-17",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
   {
@@ -1856,8 +1856,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1884,8 +1884,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -1908,9 +1908,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1975,8 +1975,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207861&DocName=10400HB5037&DocNum=5037&DocTypeID=HB&LegID=166515&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Added Co-Sponsor Rep. Tony M. McCombie",
     "ncsl_status": ""
   },
   {
@@ -2012,21 +2012,23 @@
     "title": "VEH CD-ALTER SPEED LIMITS",
     "updated": "",
     "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207967&DocName=10400HB5081&DocNum=5081&DocTypeID=HB&LegID=166621&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-19",
-    "latest_action_description": "Do Pass / Short Debate Transportation: Vehicles & Safety;  011-000-000",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210707&DocName=10400HB5081sam001&DocNum=5081&DocTypeID=HB&LegID=166621&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-06",
+    "latest_action_description": "Senate Floor Amendment No. 1 Recommend Do Adopt Executive;  010-002-000",
     "ncsl_status": ""
   },
   {
@@ -2046,8 +2048,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2066,17 +2068,17 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "deepfake_media",
-      "adjacent_tech"
+      "adjacent_tech",
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2095,8 +2097,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2122,12 +2124,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "adjacent_tech",
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2175,15 +2177,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2210,11 +2212,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208352&DocName=10400HB5284&DocNum=5284&DocTypeID=HB&LegID=167006&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Placed on Calendar 2nd Reading - Short Debate",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=211089&DocName=10400HB5284sam003&DocNum=5284&DocTypeID=HB&LegID=167006&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "Senate Committee Amendment No. 3 Filed with Secretary by Sen. Kimberly A. Lightford",
     "ncsl_status": ""
   },
   {
@@ -2259,8 +2261,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2287,8 +2289,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2308,8 +2310,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2339,8 +2341,8 @@
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2371,8 +2373,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2394,8 +2396,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2417,16 +2419,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2447,12 +2449,12 @@
     "matched_concepts": [
       "generative_ai",
       "artificial_intelligence",
-      "generative_ai_variant",
-      "adjacent_tech"
+      "adjacent_tech",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2499,22 +2501,113 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=192233&DocName=10300HB5649&DocNum=5649&DocTypeID=HB&LegID=154051&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
     "latest_action_date": "2024-04-05",
     "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/462f90d3-51ec-44cd-8cd9-970875b175cc",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "HB 5756",
+    "title": "ALGORITHMIC PRICING DISCLOSURE",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "algorithmic_tool",
+      "ai_system_composite",
+      "ml_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210679&DocName=10400HB5756&DocNum=5756&DocTypeID=HB&LegID=168356&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Added Chief Co-Sponsor Rep. Kam Buckner",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/80426362-0918-4021-8cbd-53e23bb788ec",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "HB 5760",
+    "title": "AI WORK TRANSITION COMMISSION",
+    "updated": "",
+    "core_ai_hits": 8,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "automated_decision_system",
+      "llm_variant",
+      "artificial_intelligence",
+      "foundation_model",
+      "generative_ai",
+      "ai_system_composite",
+      "adjacent_tech",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210747&DocName=10400HB5760&DocNum=5760&DocTypeID=HB&LegID=168389&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "First Reading",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/785624c8-7abe-4e7a-8faa-756bd8b6ea9d",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "HB 5761",
+    "title": "$DCEO-AI WORKFORCE TRANSITION",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210748&DocName=10400HB5761&DocNum=5761&DocTypeID=HB&LegID=168390&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "First Reading",
     "ncsl_status": ""
   },
   {
@@ -2527,19 +2620,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "deepfake_media",
-      "generative_ai_variant",
       "adjacent_tech",
       "artificial_intelligence",
-      "digital_replica"
+      "digital_replica",
+      "deepfake_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -2565,8 +2658,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2610,18 +2703,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "ai_system",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2640,12 +2733,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2673,8 +2766,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2779,8 +2872,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206773&DocName=10400HR0635&DocNum=635&DocTypeID=HR&LegID=165426&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-18",
-    "latest_action_description": "Assigned to Labor & Commerce Committee",
+    "latest_action_date": "2026-04-10",
+    "latest_action_description": "Placed on Calendar Order of Resolutions",
     "ncsl_status": ""
   },
   {
@@ -2806,6 +2899,31 @@
     "primary_url": "http://ilga.gov/legislation/fulltext.asp?DocName=09700HR0657&GA=97&SessionId=84&DocTypeId=HR&LegID=62631&DocNum=657&GAID=11&Session=&print=true",
     "latest_action_date": "2011-11-29",
     "latest_action_description": "Placed on Calendar Agreed Resolutions",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3d7abb4b-1de5-4944-8e0a-ce6f7049e53b",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "HR 827",
+    "title": "APPRENTICESHIP WEEK",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210612&DocName=10400HR0827&DocNum=827&DocTypeID=HR&LegID=168322&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-04-21",
+    "latest_action_description": "Referred to Rules Committee",
     "ncsl_status": ""
   },
   {
@@ -2868,18 +2986,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "generative_ai_variant",
       "artificial_intelligence",
-      "generative_ai"
+      "generative_ai",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2898,14 +3016,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3006,18 +3124,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3095,9 +3213,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3116,16 +3234,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant",
-      "generative_ai_variant"
+      "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -3136,6 +3254,32 @@
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201031&DocName=10400SB1929&DocNum=1929&DocTypeID=SB&LegID=161243&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2025-04-11",
     "latest_action_description": "Rule 3-9(a) / Re-referred to Assignments",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/40b8a019-24a1-4563-98e2-55438461cae2",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "SB 2013",
+    "title": "FRAUD-HOTEL BOOKING SERVICE",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210712&DocName=10400SB2013sam001&DocNum=2013&DocTypeID=SB&LegID=161418&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
   {
@@ -3174,13 +3318,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
+      "artificial_intelligence",
       "generative_ai",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3204,9 +3348,9 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
+      "artificial_intelligence",
       "algorithmic_tool",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3229,25 +3373,22 @@
     "identifier": "SB 2255",
     "title": "SURVEILLANCE DISCRIMINATION",
     "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "automated_decision_system",
-      "machine_learning"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201814&DocName=10400SB2255&DocNum=2255&DocTypeID=SB&LegID=162026&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209289&DocName=10400SB2255sam001&DocNum=2255&DocTypeID=SB&LegID=162026&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3269,9 +3410,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3293,8 +3434,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3302,8 +3443,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201843&DocName=10400SB2273&DocNum=2273&DocTypeID=SB&LegID=162055&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3367,8 +3508,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3500,9 +3641,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3532,8 +3673,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206023&DocName=10400SB2759&DocNum=2759&DocTypeID=SB&LegID=164675&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3584,34 +3725,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206157&DocName=10400SB2780&DocNum=2780&DocTypeID=SB&LegID=164809&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-02-03",
-    "latest_action_description": "Assigned to Appropriations",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/629bc40e-2415-410b-9fb4-65693d5b2a4e",
-    "state": "IL",
-    "session": "103rd",
-    "identifier": "SB 2786",
-    "title": "DIGITAL FORGERIES ACT",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=189819&DocName=10300SB2786&DocNum=2786&DocTypeID=SB&LegID=151558&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2024-01-17",
-    "latest_action_description": "Filed with Secretary by Sen. Mary Edly-Allen",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3639,6 +3754,32 @@
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206170&DocName=10400SB2786&DocNum=2786&DocTypeID=SB&LegID=164822&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2026-01-13",
     "latest_action_description": "Filed with Secretary by Sen. Lakesia Collins",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/629bc40e-2415-410b-9fb4-65693d5b2a4e",
+    "state": "IL",
+    "session": "103rd",
+    "identifier": "SB 2786",
+    "title": "DIGITAL FORGERIES ACT",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=189819&DocName=10300SB2786&DocNum=2786&DocTypeID=SB&LegID=151558&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2024-01-17",
+    "latest_action_description": "Filed with Secretary by Sen. Mary Edly-Allen",
     "ncsl_status": ""
   },
   {
@@ -3734,14 +3875,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209124&DocName=10400SB2909sam001&DocNum=2909&DocTypeID=SB&LegID=165259&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Added as Co-Sponsor Sen. Graciela Guzmán",
+    "latest_action_date": "2026-05-07",
+    "latest_action_description": "Added Alternate Chief Co-Sponsor Rep. Maura Hirschauer",
     "ncsl_status": ""
   },
   {
@@ -3766,8 +3907,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206650&DocName=10400SB2927&DocNum=2927&DocTypeID=SB&LegID=165303&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3780,14 +3921,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai_variant",
       "digital_replica",
       "artificial_intelligence",
-      "adjacent_tech",
-      "generative_ai_variant"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -3816,14 +3957,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206837&DocName=10400SB2993&DocNum=2993&DocTypeID=SB&LegID=165490&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3848,8 +3989,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206839&DocName=10400SB2995&DocNum=2995&DocTypeID=SB&LegID=165492&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3873,9 +4014,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206843&DocName=10400SB2996&DocNum=2996&DocTypeID=SB&LegID=165496&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209624&DocName=10400SB2996sam001&DocNum=2996&DocTypeID=SB&LegID=165496&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3900,8 +4041,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206912&DocName=10400SB3027&DocNum=3027&DocTypeID=SB&LegID=165565&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3917,8 +4058,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3931,16 +4072,76 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/ba0fb6c8-6622-4d4c-84b4-c26af59d9ea7",
+    "bill_id": "ocd-bill/946e86b2-4afe-4b85-b3e2-d113468c204e",
     "state": "IL",
     "session": "104th",
-    "identifier": "SB 3114",
-    "title": "TRANSPARENCY IN DOWNCODING ACT",
+    "identifier": "SB 315",
+    "title": "BUSINESS-TECH",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "llm_variant",
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence",
+      "foundation_model"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210927&DocName=10400SB0315sam001&DocNum=315&DocTypeID=SB&LegID=157797&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Added as Co-Sponsor Sen. Mike Porfirio",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/45f0e03a-bdc7-4a1e-bf19-c80b799f8be2",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "SB 316",
+    "title": "BUSINESS-TECH",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210933&DocName=10400SB0316sam001&DocNum=316&DocTypeID=SB&LegID=157798&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Added as Co-Sponsor Sen. Mike Porfirio",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0003da47-8a50-4198-8809-ff758e9df4bc",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "SB 317",
+    "title": "BUSINESS-TECH",
+    "updated": "",
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3948,11 +4149,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": true,
+    "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207082&DocName=10400SB3114&DocNum=3114&DocTypeID=SB&LegID=165735&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Senate Floor Amendment No. 1 Filed with Secretary by Sen. David Koehler",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210930&DocName=10400SB0317sam001&DocNum=317&DocTypeID=SB&LegID=157799&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Added as Co-Sponsor Sen. Mike Porfirio",
     "ncsl_status": ""
   },
   {
@@ -3971,14 +4172,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207178&DocName=10400SB3180&DocNum=3180&DocTypeID=SB&LegID=165832&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -3992,13 +4193,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
+      "deepfake_media",
       "artificial_intelligence",
-      "ai_system_composite",
-      "deepfake_media"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -4029,19 +4230,19 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207377&DocName=10400SB3261&DocNum=3261&DocTypeID=SB&LegID=166031&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4060,14 +4261,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207378&DocName=10400SB3262&DocNum=3262&DocTypeID=SB&LegID=166032&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4092,8 +4293,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207379&DocName=10400SB3263&DocNum=3263&DocTypeID=SB&LegID=166033&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4114,19 +4315,19 @@
       "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207463&DocName=10400SB3312&DocNum=3312&DocTypeID=SB&LegID=166117&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4162,23 +4363,24 @@
     "identifier": "SB 3364",
     "title": "HUMAN RIGHTS-AI-VIOLATIONS",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207589&DocName=10400SB3364&DocNum=3364&DocTypeID=SB&LegID=166243&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209649&DocName=10400SB3364sam001&DocNum=3364&DocTypeID=SB&LegID=166243&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4191,13 +4393,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4206,8 +4408,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207593&DocName=10400SB3368&DocNum=3368&DocTypeID=SB&LegID=166247&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4231,8 +4433,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207599&DocName=10400SB3374&DocNum=3374&DocTypeID=SB&LegID=166253&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-11",
-    "latest_action_description": "Second Reading",
+    "latest_action_date": "2026-05-08",
+    "latest_action_description": "Rule 3-9(a) / Re-referred to Assignments",
     "ncsl_status": ""
   },
   {
@@ -4245,13 +4447,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4260,8 +4462,33 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207615&DocName=10400SB3384&DocNum=3384&DocTypeID=SB&LegID=166269&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/981a39e6-ec8f-4f7c-a2a2-b2824c100295",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "SB 343",
+    "title": "CIVIL LAW-TECH",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210931&DocName=10400SB0343sam001&DocNum=343&DocTypeID=SB&LegID=157836&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Added as Co-Sponsor Sen. Mike Porfirio",
     "ncsl_status": ""
   },
   {
@@ -4282,15 +4509,15 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207738&DocName=10400SB3444&DocNum=3444&DocTypeID=SB&LegID=166392&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4315,8 +4542,33 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207771&DocName=10400SB3454&DocNum=3454&DocTypeID=SB&LegID=166425&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/41211d76-c0de-4afd-98ed-3f2785023e78",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "SB 3484",
+    "title": "VEH CD-PLATES-REGISTRATION",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209668&DocName=10400SB3484sam001&DocNum=3484&DocTypeID=SB&LegID=166485&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
   {
@@ -4341,8 +4593,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207839&DocName=10400SB3492&DocNum=3492&DocTypeID=SB&LegID=166493&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4366,8 +4618,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207851&DocName=10400SB3500&DocNum=3500&DocTypeID=SB&LegID=166505&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-13",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4380,15 +4632,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai_variant",
       "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
-      "ai_model_variant",
-      "generative_ai_variant"
+      "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -4397,8 +4649,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207853&DocName=10400SB3502&DocNum=3502&DocTypeID=SB&LegID=166507&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4422,8 +4674,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209502&DocName=10400SB3571sam001&DocNum=3571&DocTypeID=SB&LegID=166631&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4436,15 +4688,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
       "ai_model_variant",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4453,8 +4705,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208023&DocName=10400SB3590&DocNum=3590&DocTypeID=SB&LegID=166677&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4479,8 +4731,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208042&DocName=10400SB3601&DocNum=3601&DocTypeID=SB&LegID=166696&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4497,8 +4749,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -4532,8 +4784,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208221&DocName=10400SB3678&DocNum=3678&DocTypeID=SB&LegID=166875&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4559,8 +4811,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208265&DocName=10400SB3702&DocNum=3702&DocTypeID=SB&LegID=166919&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4573,15 +4825,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "artificial_intelligence",
-      "digital_replica"
+      "digital_replica",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract"
@@ -4613,9 +4865,9 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209501&DocName=10400SB3719sam001&DocNum=3719&DocTypeID=SB&LegID=166977&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209585&DocName=10400SB3719sam002&DocNum=3719&DocTypeID=SB&LegID=166977&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-04-24",
+    "latest_action_description": "Rule 3-9(a) / Re-referred to Assignments",
     "ncsl_status": ""
   },
   {
@@ -4635,8 +4887,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -4645,8 +4897,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208362&DocName=10400SB3735&DocNum=3735&DocTypeID=SB&LegID=167016&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4665,14 +4917,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208690&DocName=10400SB3901&DocNum=3901&DocTypeID=SB&LegID=167344&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 2-10 Committee Deadline Established As April 24, 2026",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209582&DocName=10400SB3901sam001&DocNum=3901&DocTypeID=SB&LegID=167344&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4723,6 +4974,34 @@
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209344&DocName=10400SB4103&DocNum=4103&DocTypeID=SB&LegID=167909&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2026-02-25",
     "latest_action_description": "Filed with Secretary by Sen. Elgie R. Sims, Jr.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c8890e15-f480-4820-b62e-aa4f43b0fd30",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "SB 416",
+    "title": "EDUCATION-TECH",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210934&DocName=10400SB0416sam001&DocNum=416&DocTypeID=SB&LegID=158064&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "Rule 2-10 Third Reading Deadline Established As May 22, 2026",
     "ncsl_status": ""
   },
   {
@@ -4894,12 +5173,12 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

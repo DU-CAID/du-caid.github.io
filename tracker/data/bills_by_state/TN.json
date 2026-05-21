@@ -9,8 +9,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -92,8 +92,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -158,8 +158,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB1455.pdf",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Placed on cal. Judiciary Committee for 4/1/2026",
+    "latest_action_date": "2026-04-23",
+    "latest_action_description": "Sponsor(s) Added.",
     "ncsl_status": ""
   },
   {
@@ -175,8 +175,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -202,8 +202,8 @@
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -221,7 +221,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "HB 1470",
-    "title": "Health Care - As introduced, prohibits a person from developing or deploying an artificial intelligence system that advertises or represents to the public that such system is or is able to act as a qualified mental health professional.  - Amends TCA Title 33; Title 47 and Title 63.",
+    "title": "Health Care - As enacted, prohibits a person from developing or deploying an artificial intelligence system that advertises or represents to the public that such system is or is able to act as a qualified mental health professional.  - Amends TCA Title 33; Title 47 and Title 63.",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
@@ -239,8 +239,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB1470.pdf",
-    "latest_action_date": "2026-03-16",
-    "latest_action_description": "Sponsor(s) Added.",
+    "latest_action_date": "2026-04-06",
+    "latest_action_description": "Comp. became Pub. Ch. 647",
     "ncsl_status": ""
   },
   {
@@ -248,7 +248,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "HB 1513",
-    "title": "Election Laws - As introduced, requires political advertisements to include a disclaimer if the advertisements include deepfake elements impersonating or depicting a candidate engaging in activity or speech in which the impersonated or depicted candidate did not in fact engage; makes a violation of such disclaimer requirement a Class C misdemeanor; entitles candidate to damages and equitable relief for violations. - Amends TCA Title 2, Chapter 19.",
+    "title": "Election Laws - As enacted, requires political advertisements to include a disclaimer if the advertisements include deepfake elements impersonating or depicting a candidate engaging in activity or speech in which the impersonated or depicted candidate did not in fact engage; makes a violation of such disclaimer requirement a Class C misdemeanor; entitles candidate to damages and equitable relief for violations. - Amends TCA Title 2, Chapter 19.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -262,11 +262,11 @@
       "title",
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB1513.pdf",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Signed by Governor.",
+    "latest_action_date": "2026-03-30",
+    "latest_action_description": "Effective date(s) 07/01/2026",
     "ncsl_status": ""
   },
   {
@@ -284,8 +284,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -308,12 +308,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -336,16 +336,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "llm_variant",
       "artificial_intelligence",
-      "foundation_model",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "foundation_model",
+      "llm_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -354,8 +354,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB1898.pdf",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Placed on cal. Government Operations Committee for 3/30/2026",
+    "latest_action_date": "2026-04-20",
+    "latest_action_description": "Received from House, Passed on First Consideration",
     "ncsl_status": ""
   },
   {
@@ -370,13 +370,13 @@
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
-      "generative_ai_variant",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -385,8 +385,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB1946.pdf",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Placed on s/c cal Finance, Ways, and Means Subcommittee for 4/1/2026",
+    "latest_action_date": "2026-04-21",
+    "latest_action_description": "Sponsor(s) Added.",
     "ncsl_status": ""
   },
   {
@@ -399,9 +399,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -413,8 +413,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB1951.pdf",
-    "latest_action_date": "2026-03-18",
-    "latest_action_description": "Placed behind the budget",
+    "latest_action_date": "2026-04-21",
+    "latest_action_description": "Sponsor(s) Added.",
     "ncsl_status": ""
   },
   {
@@ -506,15 +506,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -540,8 +540,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -589,14 +589,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -645,8 +645,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -723,9 +723,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "synthetic_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -752,13 +752,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -784,8 +784,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -999,8 +999,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB2619.pdf",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Placed on s/c cal Finance, Ways, and Means Subcommittee for 4/1/2026",
+    "latest_action_date": "2026-04-15",
+    "latest_action_description": "Taken off notice for cal in s/c Finance, Ways, and Means Subcommittee of Finance, Ways, and Means Committee",
     "ncsl_status": ""
   },
   {
@@ -1024,7 +1024,7 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB2631.pdf",
-    "latest_action_date": "2026-03-11",
+    "latest_action_date": "2026-04-17",
     "latest_action_description": "Sponsor(s) Added.",
     "ncsl_status": ""
   },
@@ -1038,13 +1038,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1211,8 +1211,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB0545.pdf",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Placed on s/c cal Finance, Ways, and Means Subcommittee for 4/1/2026",
+    "latest_action_date": "2026-04-21",
+    "latest_action_description": "Sponsor(s) Added.",
     "ncsl_status": ""
   },
   {
@@ -1245,7 +1245,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "HB 849",
-    "title": "Statutes and Codification - As introduced, defines \"human being,\" \"life,\" and \"natural person\" for statutory construction purposes; excludes from the definition of \"person,\" \"life,\" and \"natural person\" artificial intelligence, a computer algorithm, a software program, computer hardware, or any type of machine. - Amends TCA Title 1.",
+    "title": "Statutes and Codification - As enacted, clarifies that a \"person,\" as used in Tennessee Code Annotated, does not include artificial intelligence, a computer algorithm, a software program, computer hardware, or any type of machine. - Amends TCA Title 1.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1262,8 +1262,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB0849.pdf",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Placed on cal. Judiciary Committee for 4/1/2026",
+    "latest_action_date": "2026-04-28",
+    "latest_action_description": "Comp. became Pub. Ch. 781",
     "ncsl_status": ""
   },
   {
@@ -1343,6 +1343,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/e03be5a1-1a23-496e-8678-d7abf7d9287e",
+    "state": "TN",
+    "session": "114",
+    "identifier": "HJR 1548",
+    "title": "Memorials, Recognition - CodeCrew of Memphis -",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HJR1548.pdf",
+    "latest_action_date": "2026-05-07",
+    "latest_action_description": "Signed by Governor.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/1de801cb-4c7b-4473-bbb8-2091d0ac8f36",
     "state": "TN",
     "session": "113",
@@ -1381,8 +1406,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1405,8 +1430,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1516,8 +1541,8 @@
       "llm_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1526,8 +1551,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB1493.pdf",
-    "latest_action_date": "2026-03-24",
-    "latest_action_description": "Recommended for passage with amendment/s, refer to Senate Calendar Committee Ayes 7, Nays 0 PNV 2",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "Transmitted to Governor for action.",
     "ncsl_status": ""
   },
   {
@@ -1535,13 +1560,13 @@
     "state": "TN",
     "session": "114",
     "identifier": "SB 1580",
-    "title": "Health Care - As introduced, prohibits a person from developing or deploying an artificial intelligence system that advertises or represents to the public that such system is or is able to act as a qualified mental health professional.  - Amends TCA Title 33; Title 47 and Title 63.",
+    "title": "Health Care - As enacted, prohibits a person from developing or deploying an artificial intelligence system that advertises or represents to the public that such system is or is able to act as a qualified mental health professional.  - Amends TCA Title 33; Title 47 and Title 63.",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1553,8 +1578,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB1580.pdf",
-    "latest_action_date": "2026-03-20",
-    "latest_action_description": "Transmitted to Governor for action.",
+    "latest_action_date": "2026-04-06",
+    "latest_action_description": "Effective date(s) 07/01/2026",
     "ncsl_status": ""
   },
   {
@@ -1562,7 +1587,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "SB 1624",
-    "title": "Election Laws - As introduced, requires political advertisements to include a disclaimer if the advertisements include deepfake elements impersonating or depicting a candidate engaging in activity or speech in which the impersonated or depicted candidate did not in fact engage; makes a violation of such disclaimer requirement a Class C misdemeanor; entitles candidate to damages and equitable relief for violations. - Amends TCA Title 2, Chapter 19.",
+    "title": "Election Laws - As enacted, requires political advertisements to include a disclaimer if the advertisements include deepfake elements impersonating or depicting a candidate engaging in activity or speech in which the impersonated or depicted candidate did not in fact engage; makes a violation of such disclaimer requirement a Class C misdemeanor; entitles candidate to damages and equitable relief for violations. - Amends TCA Title 2, Chapter 19.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1579,8 +1604,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB1624.pdf",
-    "latest_action_date": "2026-03-12",
-    "latest_action_description": "Sponsor(s) Added.",
+    "latest_action_date": "2026-03-30",
+    "latest_action_description": "Comp. became Pub. Ch. 625",
     "ncsl_status": ""
   },
   {
@@ -1619,15 +1644,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "ai_system_composite",
       "adjacent_tech",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1636,8 +1661,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB1700.pdf",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Placed on Senate Finance, Ways, and Means Committee calendar for 4/1/2026",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "Transmitted to Governor for action.",
     "ncsl_status": ""
   },
   {
@@ -1651,12 +1676,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1679,8 +1704,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1693,8 +1718,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB1807.pdf",
-    "latest_action_date": "2026-03-10",
-    "latest_action_description": "Action deferred in Senate Commerce and Labor Committee to 3/17/2026",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Assigned to General Subcommittee of Senate Commerce and Labor Committee",
     "ncsl_status": ""
   },
   {
@@ -1721,8 +1746,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB1815.pdf",
-    "latest_action_date": "2026-03-12",
-    "latest_action_description": "Rcvd. from S., held on H. desk.",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "Transmitted to Governor for action.",
     "ncsl_status": ""
   },
   {
@@ -1738,8 +1763,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1838,15 +1863,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1872,8 +1897,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1923,12 +1948,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1937,8 +1962,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB2010.pdf",
-    "latest_action_date": "2026-03-10",
-    "latest_action_description": "Action deferred in Senate Commerce & Labor Committee to 3/17/2026",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Assigned to General Subcommittee of Senate Commerce and Labor Committee",
     "ncsl_status": ""
   },
   {
@@ -1955,8 +1980,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2015,8 +2040,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB2071.pdf",
-    "latest_action_date": "2026-03-10",
-    "latest_action_description": "Action deferred in Senate Commerce and Labor Committee to 3/17/2026",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Assigned to General Subcommittee of Senate Commerce and Labor Committee",
     "ncsl_status": ""
   },
   {
@@ -2055,8 +2080,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2068,8 +2093,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB2155.pdf",
-    "latest_action_date": "2026-03-11",
-    "latest_action_description": "Sponsor(s) Added.",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Failed in Senate Commerce and Labor Committee",
     "ncsl_status": ""
   },
   {
@@ -2090,8 +2115,8 @@
       "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -2100,8 +2125,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB2171.pdf",
-    "latest_action_date": "2026-03-24",
-    "latest_action_description": "Recommended for passage with amendment/s, refer to Senate Commerce and Labor Committee Ayes 9, Nays 0 PNV 0",
+    "latest_action_date": "2026-04-15",
+    "latest_action_description": "Re-refer to Senate Commerce & Labor Committee",
     "ncsl_status": ""
   },
   {
@@ -2173,8 +2198,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2202,8 +2227,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -2226,9 +2251,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2384,14 +2409,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -2477,8 +2502,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB2681.pdf",
-    "latest_action_date": "2026-03-10",
-    "latest_action_description": "Action deferred in Senate Commerce & Labor Committee to 3/17/2026",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "Assigned to General Subcommittee of Senate Commerce and Labor Committee",
     "ncsl_status": ""
   },
   {
@@ -2502,8 +2527,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB2690.pdf",
-    "latest_action_date": "2026-02-19",
-    "latest_action_description": "Passed on Second Consideration, refer to Senate Finance, Ways & Means Committee",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "Transmitted to Governor for action.",
     "ncsl_status": ""
   },
   {
@@ -2519,8 +2544,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2542,8 +2567,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2607,8 +2632,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB0677.pdf",
-    "latest_action_date": "2026-03-24",
-    "latest_action_description": "Sponsor(s) Added.",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "Transmitted to Governor for action.",
     "ncsl_status": ""
   },
   {
@@ -2667,7 +2692,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "SB 837",
-    "title": "Statutes and Codification - As introduced, defines \"human being,\" \"life,\" and \"natural person\" for statutory construction purposes; excludes from the definition of \"person,\" \"life,\" and \"natural person\" artificial intelligence, a computer algorithm, a software program, computer hardware, or any type of machine. - Amends TCA Title 1.",
+    "title": "Statutes and Codification - As enacted, clarifies that a \"person,\" as used in Tennessee Code Annotated, does not include artificial intelligence, a computer algorithm, a software program, computer hardware, or any type of machine. - Amends TCA Title 1.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -2684,8 +2709,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB0837.pdf",
-    "latest_action_date": "2026-03-24",
-    "latest_action_description": "Recommended for passage with amendment/s, refer to Senate Calendar Committee Ayes 8, Nays 1 PNV 0",
+    "latest_action_date": "2026-04-28",
+    "latest_action_description": "Effective date(s) 04/23/2026",
     "ncsl_status": ""
   },
   {
@@ -2711,6 +2736,31 @@
     "primary_url": "https://www.capitol.tn.gov/Bills/112/Bill/SB0875.pdf",
     "latest_action_date": "2021-05-03",
     "latest_action_description": "Assigned to General Subcommittee of Senate Finance, Ways, and Means Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/99f72b65-f9b1-4c35-a2c4-68e6449c0a85",
+    "state": "TN",
+    "session": "114",
+    "identifier": "SJR 1104",
+    "title": "Memorials, Recognition - Dr. Chelsea T. Dowell -",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SJR1104.pdf",
+    "latest_action_date": "2026-05-01",
+    "latest_action_description": "Signed by Governor.",
     "ncsl_status": ""
   }
 ]

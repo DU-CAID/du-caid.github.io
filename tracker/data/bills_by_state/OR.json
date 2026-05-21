@@ -109,18 +109,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "artificial_intelligence",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -145,8 +145,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -172,8 +172,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -218,18 +218,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
       "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -255,8 +255,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -275,9 +275,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "ml_system",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -303,10 +303,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "ml_system",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -333,12 +333,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "adjacent_tech",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -348,8 +348,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1546/Senate%20Amendments%20to%20Introduced",
-    "latest_action_date": "2026-03-06T19:23:54+00:00",
-    "latest_action_description": "Speaker signed.",
+    "latest_action_date": "2026-04-06T18:52:40+00:00",
+    "latest_action_description": "Effective date, January 1, 2027.",
     "ncsl_status": ""
   },
   {
@@ -369,8 +369,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,

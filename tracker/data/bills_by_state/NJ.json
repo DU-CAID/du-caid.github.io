@@ -64,8 +64,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -138,8 +138,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -165,8 +165,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "automated_decision_system"
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -180,33 +180,6 @@
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A1500/1360_I1.HTM",
     "latest_action_date": "2026-01-13T05:00:00+00:00",
     "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/0f5f0435-1eb7-48e0-965a-bddb8ef24874",
-    "state": "NJ",
-    "session": "222",
-    "identifier": "A 1548",
-    "title": "Establishes Bridge Transportation Asset Management Plan Pilot Program; appropriates $9.5 million.",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite",
-      "ai_model_variant"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2000/1548_I1.HTM",
-    "latest_action_date": "2026-01-13T05:00:00+00:00",
-    "latest_action_description": "Introduced, Referred to Assembly Transportation and Independent Authorities Committee",
     "ncsl_status": ""
   },
   {
@@ -345,8 +318,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -504,8 +477,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -556,14 +529,14 @@
       "generative_ai",
       "ai_system",
       "artificial_intelligence",
-      "machine_learning",
-      "generative_ai_variant",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -571,8 +544,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A2500/2312_T1.HTM",
-    "latest_action_date": "2026-03-23T04:00:00+00:00",
-    "latest_action_description": "Passed by the Assembly (72-0-0)",
+    "latest_action_date": "2026-05-04T04:00:00+00:00",
+    "latest_action_description": "Received in the Senate, Referred to Senate Judiciary Committee",
     "ncsl_status": ""
   },
   {
@@ -610,14 +583,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -667,10 +640,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "ai_system_composite",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -698,13 +671,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
+      "artificial_intelligence",
       "generative_ai_variant",
-      "machine_learning",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -728,12 +701,12 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -760,8 +733,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -886,13 +859,13 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
+      "deepfake_media",
       "ml_system",
-      "artificial_intelligence",
-      "deepfake_media"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -926,8 +899,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3064_T1.HTM",
-    "latest_action_date": "2026-02-19T05:00:00+00:00",
-    "latest_action_description": "Reported out of Assembly Committee, 2nd Reading",
+    "latest_action_date": "2026-05-18T04:00:00+00:00",
+    "latest_action_description": "Passed by the Assembly (77-0-0)",
     "ncsl_status": ""
   },
   {
@@ -1048,8 +1021,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1101,8 +1074,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1124,13 +1097,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai_variant",
+      "generative_ai",
       "artificial_intelligence",
-      "generative_ai"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1281,16 +1254,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "ai_system",
-      "algorithmic_tool",
       "machine_learning",
       "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1369,8 +1342,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1392,8 +1365,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1735,8 +1708,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4728_S1.PDF",
-    "latest_action_date": "2026-03-16T04:00:00+00:00",
-    "latest_action_description": "Reported out of Asm. Comm. with Amendments, and Referred to Assembly Housing Committee",
+    "latest_action_date": "2026-05-14T04:00:00+00:00",
+    "latest_action_description": "Reported out of Asm. Comm. with Amendments, and Referred to Assembly Appropriations Committee",
     "ncsl_status": ""
   },
   {
@@ -1761,8 +1734,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4729_S1.PDF",
-    "latest_action_date": "2026-03-16T04:00:00+00:00",
-    "latest_action_description": "Reported and Referred to Assembly State and Local Government Committee",
+    "latest_action_date": "2026-05-11T04:00:00+00:00",
+    "latest_action_description": "Reported and Referred to Assembly Appropriations Committee",
     "ncsl_status": ""
   },
   {
@@ -1775,8 +1748,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1801,8 +1774,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1852,8 +1825,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1932,8 +1905,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2074,6 +2047,32 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "ocd-bill/52cceb14-1350-4a6b-b72a-bb505a2abd75",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 4981",
+    "title": "Regulates use of artificial intelligence-based systems for electronic monitoring regarding employment and public services.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-05-07T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/222ddf91-a5cf-4a2f-9660-954fc2b70652",
     "state": "NJ",
     "session": "221",
@@ -2149,6 +2148,61 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "ocd-bill/9d705f23-3e0d-4f07-b393-e93bf9ac89f1",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 5088",
+    "title": "\"AI Likeness Protection Act\"; concerns distributing realistic representation of individual's image, likeness, or voice created using generative artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-05-14T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/ffdafc6e-ccf0-4693-a3f5-c2ed80113346",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 5090",
+    "title": "\"GAI Accountability Act;\" imposes civil penalties on generative artificial intelligence platforms engaging in harmful activity, including exploitation of children.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "artificial_intelligence",
+      "ai_accountability",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-05-14T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/e974899a-83be-496d-8f86-655c0e640323",
     "state": "NJ",
     "session": "218",
@@ -2188,8 +2242,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2343,8 +2397,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2441,8 +2495,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2567,10 +2621,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2697,10 +2751,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
       "generative_ai_variant",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2751,8 +2805,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2880,13 +2934,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "automated_decision_system",
+      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2959,12 +3013,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2989,12 +3043,12 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3017,12 +3071,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "generative_ai_variant",
       "high_risk_ai_variant",
       "artificial_intelligence",
       "high_risk_ai",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3047,12 +3101,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3079,8 +3133,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -3107,8 +3161,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3130,9 +3184,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3157,9 +3211,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3235,12 +3289,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3290,8 +3344,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3313,12 +3367,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3340,9 +3394,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "generative_ai_variant",
       "artificial_intelligence",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3401,8 +3455,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3682,16 +3736,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -3714,12 +3768,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3766,12 +3820,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3985,31 +4039,6 @@
     "ncsl_status": "Pending"
   },
   {
-    "bill_id": "ocd-bill/7eac1fa8-72d9-49da-9993-22ac2fb3af1f",
-    "state": "NJ",
-    "session": "220",
-    "identifier": "S 3876",
-    "title": "Concerns regulation of automated systems and artificial intelligence used by State agencies.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2023-05-22T04:00:00+00:00",
-    "latest_action_description": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
-    "ncsl_status": "Pending"
-  },
-  {
     "bill_id": "ocd-bill/615d27ca-24c9-43ea-8c56-f2f9b574da1b",
     "state": "NJ",
     "session": "221",
@@ -4034,6 +4063,31 @@
     "primary_url": null,
     "latest_action_date": "2024-11-18T05:00:00+00:00",
     "latest_action_description": "Introduced in the Senate, Referred to Senate Education Committee",
+    "ncsl_status": "Pending"
+  },
+  {
+    "bill_id": "ocd-bill/7eac1fa8-72d9-49da-9993-22ac2fb3af1f",
+    "state": "NJ",
+    "session": "220",
+    "identifier": "S 3876",
+    "title": "Concerns regulation of automated systems and artificial intelligence used by State agencies.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2023-05-22T04:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate State Government, Wagering, Tourism & Historic Preservation Committee",
     "ncsl_status": "Pending"
   },
   {
@@ -4071,8 +4125,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4134,8 +4188,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "latest_action_date": "2026-05-04T04:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Labor Committee",
     "ncsl_status": ""
   },
   {
@@ -4148,8 +4202,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4160,8 +4214,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "latest_action_date": "2026-05-04T04:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Commerce Committee",
     "ncsl_status": ""
   },
   {
@@ -4215,6 +4269,56 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "ocd-bill/0647b5a3-df22-4974-b066-78c9e902aab2",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 4279",
+    "title": "Provides disparate impact based on automated decision system as cause of action for certain consumers.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-05-14T04:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Commerce Committee",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/25a037b2-3b05-4b16-8f5e-2cf52abb4c4d",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 4314",
+    "title": "Prohibits personalized algorithmic pricing and surveillance-based pricing by certain retailers in online commerce.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/57002cfb-d6e6-4fe9-a6ca-c21475463ecf",
     "state": "NJ",
     "session": "221",
@@ -4224,8 +4328,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4351,14 +4455,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4381,8 +4485,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4510,8 +4614,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4536,9 +4640,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"

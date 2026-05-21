@@ -85,18 +85,18 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
+      "automated_decision_system",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
       "generative_ai_variant",
       "generative_ai",
       "ai_system",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -119,11 +119,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "foundation_model",
       "llm_variant",
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "foundation_model"
     ],
     "matched_tiers": [
       "core_ai"
@@ -224,8 +224,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -254,8 +254,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -292,6 +292,58 @@
     "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-5771.htm",
     "latest_action_date": "2026-04-14",
     "latest_action_description": "bill electronically reproduced 03/19/2026",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/37d0886d-b72a-44e6-8c7b-8282c45c77aa",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "HB 5777",
+    "title": "Businesses: other; large-scale data center life cycle financial responsibility act; create. Creates new act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-5777.htm",
+    "latest_action_date": "2026-04-15",
+    "latest_action_description": "bill electronically reproduced 04/14/2026",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/56c09c81-aefa-44f1-b925-4e58281556c3",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "HB 5899",
+    "title": "State management: other; artificial intelligence pilot program; establish for state departments and agencies. Creates new act.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-5899.htm",
+    "latest_action_date": "2026-04-28",
+    "latest_action_description": "bill electronically reproduced 04/23/2026",
     "ncsl_status": ""
   },
   {
@@ -354,12 +406,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"

@@ -38,8 +38,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -246,8 +246,8 @@
       "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -279,9 +279,9 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0542.pdf",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Returned Signed by the President; Ordered Transmitted to Governor",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0542E1.pdf",
+    "latest_action_date": "2026-04-02",
+    "latest_action_description": "Reported Signed by Governor on April 2, 2026    Session Law Chapter 268    Effective: 07/01/2026",
     "ncsl_status": ""
   },
   {
@@ -320,14 +320,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "automated_decision_system",
       "ai_system_composite",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -454,16 +454,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "llm_variant",
       "adjacent_tech",
       "large_language_model",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -601,9 +601,9 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0750.pdf",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Read second time; filed for Third Reading",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/H0750E1.pdf",
+    "latest_action_date": "2026-03-31",
+    "latest_action_description": "Returned from Senate Failed; Filed in the office of the Chief Clerk",
     "ncsl_status": ""
   },
   {
@@ -668,10 +668,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -702,8 +702,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -766,7 +766,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227.pdf",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1227E1.pdf",
     "latest_action_date": "2026-03-19",
     "latest_action_description": "Reported delivered to Governor at 4:06 p.m. on 03/18/26",
     "ncsl_status": ""
@@ -783,12 +783,12 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "ai_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -796,9 +796,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297.pdf",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Returned From House Passed; referred to enrolling",
+    "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1297E1.pdf",
+    "latest_action_date": "2026-04-01",
+    "latest_action_description": "Signed by Governor on 03/31/26    Session Law Chapter 249    Effective: 07/01/2027",
     "ncsl_status": ""
   },
   {
@@ -839,8 +839,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -870,10 +870,10 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1422.pdf",
-    "latest_action_date": "2026-03-27",
+    "latest_action_date": "2026-04-01",
     "latest_action_description": "Retained on calendar",
     "ncsl_status": ""
   }

@@ -14,8 +14,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -62,12 +62,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -89,8 +89,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -236,7 +236,7 @@
     "state": "PA",
     "session": "2025-2026",
     "identifier": "HB 1925",
-    "title": "An Act amending Titles 35 (Health and Safety) and 40 (Insurance) of the Pennsylvania Consolidated Statutes, providing for artificial intelligence in facilities, for artificial intelligence use by insurers and for artificial intelligence use by MA or CHIP managed care plans; imposing duties on the Department of Health, the Insurance Department and the Department of Human Services; and imposing penalties.",
+    "title": "An Act amending Titles 35 (Health and Safety), 40 (Insurance) and 67 (Public Welfare) of the Pennsylvania Consolidated Statutes, providing for artificial intelligence in facilities, for artificial intelligence use by insurers and for artificial intelligence use by MA or CHIP managed care plans; imposing duties on the Department of Health, the Insurance Department and the Department of Human Services; and imposing penalties.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -249,11 +249,11 @@
     "match_fields": [
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1925/PN2403",
-    "latest_action_date": "2025-10-06T04:00:00+00:00",
-    "latest_action_description": "Referred to Communications & Technology",
+    "primary_url": "https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB1925/PN3349",
+    "latest_action_date": "2026-05-05T04:00:00+00:00",
+    "latest_action_description": "Reported as amended",
     "ncsl_status": ""
   },
   {
@@ -427,8 +427,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2314/PN3066",
-    "latest_action_date": "2026-03-24T04:00:00+00:00",
-    "latest_action_description": "Referred to Communications & Technology",
+    "latest_action_date": "2026-04-29T04:00:00+00:00",
+    "latest_action_description": "Reported as committed",
     "ncsl_status": ""
   },
   {
@@ -549,8 +549,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -576,8 +576,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -636,8 +636,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-03-09T04:00:00+00:00",
-    "latest_action_description": "Referred to Communications & Technology",
+    "latest_action_date": "2026-04-29T04:00:00+00:00",
+    "latest_action_description": "Reported as committed",
     "ncsl_status": ""
   },
   {
@@ -727,13 +727,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -755,14 +755,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -840,8 +840,8 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -868,8 +868,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -948,8 +948,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1009,31 +1009,6 @@
     "primary_url": "https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0631/PN0635",
     "latest_action_date": "2025-04-11T04:00:00+00:00",
     "latest_action_description": "Referred to Education",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/823ae2eb-cf52-48d3-b3a6-6bdd3a98c1c0",
-    "state": "PA",
-    "session": "2025-2026",
-    "identifier": "SB 806",
-    "title": "An Act amending the act of December 17, 1968 (P.L.1224, No.387), known as the Unfair Trade Practices and Consumer Protection Law, further providing for definitions.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0806/PN0871",
-    "latest_action_date": "2025-06-03T04:00:00+00:00",
-    "latest_action_description": "Referred to Communications & Technology",
     "ncsl_status": ""
   },
   {
@@ -1155,8 +1130,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"

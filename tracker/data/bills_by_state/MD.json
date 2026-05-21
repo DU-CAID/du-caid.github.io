@@ -45,8 +45,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-02-13",
-    "latest_action_description": "Hearing 3/04 at 1:00 p.m.",
+    "latest_action_date": "2026-04-13",
+    "latest_action_description": "Third Reading Passed",
     "ncsl_status": ""
   },
   {
@@ -188,8 +188,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -199,31 +199,6 @@
     "primary_url": "http://mgaleg.maryland.gov/2019RS/bills/hb/hb1293t.pdf",
     "latest_action_date": "2019-04-08",
     "latest_action_description": "Third Reading Passed (140-0)",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/c4a5015b-c9b2-4931-98a9-f326633e58d6",
-    "state": "MD",
-    "session": "2026",
-    "identifier": "HB 1294",
-    "title": "Criminal Law - Child Sexual Abuse Material - Artificial Intelligence Software",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-03-20",
-    "latest_action_description": "Hearing 3/26 at 1:00 p.m.",
     "ncsl_status": ""
   },
   {
@@ -249,6 +224,31 @@
     "primary_url": null,
     "latest_action_date": "2024-02-09",
     "latest_action_description": "First Reading Ways and Means",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c4a5015b-c9b2-4931-98a9-f326633e58d6",
+    "state": "MD",
+    "session": "2026",
+    "identifier": "HB 1294",
+    "title": "Criminal Law - Child Sexual Abuse Material - Artificial Intelligence Software",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-20",
+    "latest_action_description": "Hearing 3/26 at 1:00 p.m.",
     "ncsl_status": ""
   },
   {
@@ -415,8 +415,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title"
@@ -464,9 +464,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "deepfake_media",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -477,9 +477,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/hb/hb0145f.pdf",
-    "latest_action_date": "2026-01-16",
-    "latest_action_description": "Hearing 2/04 at 2:00 p.m.",
+    "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/hb/hb0145t.pdf",
+    "latest_action_date": "2026-04-10",
+    "latest_action_description": "Third Reading Passed",
     "ncsl_status": ""
   },
   {
@@ -518,12 +518,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "automated_decision_system",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -723,12 +723,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -825,8 +825,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -904,8 +904,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1019,31 +1019,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/61fd8d70-ea6c-4b56-8e0a-adee39881718",
-    "state": "MD",
-    "session": "2026",
-    "identifier": "HB 883",
-    "title": "Consumer Protection - Artificial Intelligence - Behavioral Health Care Prohibitions",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Hearing 4/01 at 1:00 p.m.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/b129f1b6-2c99-466b-bc5f-db4a7d69b1e2",
     "state": "MD",
     "session": "2024",
@@ -1066,6 +1041,31 @@
     "primary_url": null,
     "latest_action_date": "2024-02-13",
     "latest_action_description": "Hearing 3/05 at 1:00 p.m.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/61fd8d70-ea6c-4b56-8e0a-adee39881718",
+    "state": "MD",
+    "session": "2026",
+    "identifier": "HB 883",
+    "title": "Consumer Protection - Artificial Intelligence - Behavioral Health Care Prohibitions",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-25",
+    "latest_action_description": "Hearing 4/01 at 1:00 p.m.",
     "ncsl_status": ""
   },
   {
@@ -1257,8 +1257,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title"
@@ -1330,8 +1330,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1342,8 +1342,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/sb/sb0114t.pdf",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Hearing 4/07 at 1:00 p.m.",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Approved by the Governor - Chapter 434",
     "ncsl_status": ""
   },
   {
@@ -1356,9 +1356,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "deepfake_media",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1370,8 +1370,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/sb/sb0141t.pdf",
-    "latest_action_date": "2026-03-24",
-    "latest_action_description": "Hearing 4/01 at 1:00 p.m.",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Approved by the Governor - Chapter 444",
     "ncsl_status": ""
   },
   {
@@ -1395,8 +1395,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/sb/sb0198t.pdf",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Hearing 3/31 at 1:00 p.m.",
+    "latest_action_date": "2026-04-10",
+    "latest_action_description": "Third Reading Passed",
     "ncsl_status": ""
   },
   {
@@ -1404,7 +1404,7 @@
     "state": "MD",
     "session": "2026",
     "identifier": "SB 283",
-    "title": "Creation of a State Debt – Maryland Consolidated Capital Bond Loan of 2026, and the Maryland Consolidated Capital Bond Loans of 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, and 2025",
+    "title": "Creation of a State Debt – Maryland Consolidated Capital Bond Loan of 2026, and the Maryland Consolidated Capital Bond Loans of 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, and 2025",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1417,11 +1417,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/sb/sb0283t.pdf",
-    "latest_action_date": "2026-03-30",
-    "latest_action_description": "Favorable with Amendments Report by Appropriations",
+    "latest_action_date": "2026-04-08",
+    "latest_action_description": "Approved by the Governor - Chapter 5",
     "ncsl_status": ""
   },
   {
@@ -1438,8 +1438,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1492,8 +1492,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1524,11 +1524,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/sb/sb0388t.pdf",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Hearing 4/02 at 1:00 p.m. (Ways and Means)",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Approved by the Governor - Chapter 351",
     "ncsl_status": ""
   },
   {
@@ -1544,8 +1544,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1603,8 +1603,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Hearing 3/31 at 1:00 p.m.",
+    "latest_action_date": "2026-04-13",
+    "latest_action_description": "Third Reading Passed",
     "ncsl_status": ""
   },
   {
@@ -1703,8 +1703,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Hearing 4/01 at 1:00 p.m.",
+    "latest_action_date": "2026-04-13",
+    "latest_action_description": "Third Reading Passed",
     "ncsl_status": ""
   },
   {
@@ -1721,8 +1721,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1757,8 +1757,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/sb/sb0008t.pdf",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "Hearing 3/31 at 1:00 p.m.",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Approved by the Governor - Chapter 445",
     "ncsl_status": ""
   },
   {
@@ -1796,8 +1796,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1847,8 +1847,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "high_risk_ai_variant"
+      "high_risk_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"

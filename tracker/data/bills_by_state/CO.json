@@ -9,15 +9,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
       "high_risk_ai_variant",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -41,19 +41,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
+      "high_risk_ai_variant",
       "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
-      "high_risk_ai_variant"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -77,8 +77,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -86,8 +86,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leg.colorado.gov/bill_files/110760/download",
-    "latest_action_date": "2026-01-14",
-    "latest_action_description": "Introduced In House - Assigned to Energy & Environment",
+    "latest_action_date": "2026-05-07",
+    "latest_action_description": "House Committee on Energy & Environment Postpone Indefinitely",
     "ncsl_status": ""
   },
   {
@@ -123,32 +123,29 @@
     "identifier": "HB 1139",
     "title": "Use of Artificial Intelligence in Health Care",
     "updated": "",
-    "core_ai_hits": 7,
-    "adjacent_ai_hits": 2,
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_decision_system",
       "ai_system",
-      "generative_ai",
-      "algorithmic_tool",
       "artificial_intelligence",
-      "generative_ai_variant",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leg.colorado.gov/bill_files/111315/download",
-    "latest_action_date": "2026-03-16",
-    "latest_action_description": "House Third Reading Passed - No Amendments",
+    "primary_url": "https://leg.colorado.gov/bill_files/116305/download",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "Senate Third Reading Passed - No Amendments",
     "ncsl_status": ""
   },
   {
@@ -173,8 +170,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leg.colorado.gov/bill_files/111319/download",
-    "latest_action_date": "2026-03-18",
-    "latest_action_description": "House Committee on Judiciary Witness Testimony and/or Committee Discussion Only",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "House Committee on Judiciary Postpone Indefinitely",
     "ncsl_status": ""
   },
   {
@@ -194,15 +191,15 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leg.colorado.gov/bill_files/111810/download",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "House Second Reading Special Order - Laid Over Daily - No Amendments",
+    "primary_url": "https://leg.colorado.gov/bill_files/116309/download",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "House Considered Senate Amendments - Result was to Concur - Repass",
     "ncsl_status": ""
   },
   {
@@ -213,25 +210,22 @@
     "title": "Prohibit Surveillance Price & Wage Setting",
     "updated": "",
     "core_ai_hits": 2,
-    "adjacent_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "adjacent_tech",
       "automated_decision_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leg.colorado.gov/bill_files/112018/download",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "House Third Reading Passed - No Amendments",
+    "primary_url": "https://leg.colorado.gov/bill_files/115897/download",
+    "latest_action_date": "2026-05-07",
+    "latest_action_description": "House Considered Senate Amendments - Result was to Concur - Repass",
     "ncsl_status": ""
   },
   {
@@ -257,9 +251,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leg.colorado.gov/bill_files/112332/download",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "House Committee on Business Affairs & Labor Refer Amended to House Committee of the Whole",
+    "primary_url": "https://leg.colorado.gov/bill_files/116315/download",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "House Considered Senate Amendments - Result was to Concur - Repass",
     "ncsl_status": ""
   },
   {
@@ -282,9 +276,9 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://leg.colorado.gov/bill_files/113646/download",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "Introduced In Senate - Assigned to Appropriations",
+    "primary_url": "https://leg.colorado.gov/bill_files/114475/download",
+    "latest_action_date": "2026-04-14",
+    "latest_action_description": "House Considered Senate Amendments - Result was to Concur - Repass",
     "ncsl_status": ""
   },
   {
@@ -353,9 +347,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -374,19 +368,19 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "deepfake_media",
-      "generative_ai_variant",
       "ai_system_composite",
+      "generative_ai",
       "artificial_intelligence",
-      "generative_ai"
+      "deepfake_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -406,19 +400,19 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
       "machine_learning",
       "automated_decision_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -490,18 +484,18 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
+      "foundation_model",
       "ai_system_composite",
       "ai_model_variant",
-      "llm_variant",
-      "foundation_model"
+      "llm_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -525,8 +519,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -549,15 +543,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
       "high_risk_ai_variant",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -583,18 +577,18 @@
     "matched_concepts": [
       "algorithmic_tool",
       "artificial_intelligence",
-      "high_risk_ai_variant",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -618,8 +612,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -627,8 +621,66 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://leg.colorado.gov/bill_files/111846/download",
-    "latest_action_date": "2026-03-18",
-    "latest_action_description": "Senate Committee on Transportation & Energy Lay Over Unamended - Amendment(s) Failed",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "Senate Committee on Transportation & Energy Postpone Indefinitely",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/19653dd1-758a-4237-bfc6-bdc341aa3a50",
+    "state": "CO",
+    "session": "2026A",
+    "identifier": "SB 11",
+    "title": "Search Warrants Provided to Covered Platforms",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leg.colorado.gov/bill_files/113870/download",
+    "latest_action_date": "2026-03-30",
+    "latest_action_description": "Governor Signed",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/cfbf92a8-134d-46ff-93d3-b03db2c69211",
+    "state": "CO",
+    "session": "2026A",
+    "identifier": "SB 189",
+    "title": "Automated Decision-Making Technology",
+    "updated": "",
+    "core_ai_hits": 6,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "foundation_model",
+      "ai_system_composite",
+      "llm_variant",
+      "automated_decision_system",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leg.colorado.gov/bill_files/116489/download",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Sent to the Governor",
     "ncsl_status": ""
   },
   {
@@ -644,8 +696,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -675,9 +727,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -751,8 +803,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -774,19 +826,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "high_risk_ai_variant",
       "ai_system_composite",
       "adjacent_tech",
+      "algorithmic_tool",
       "artificial_intelligence",
-      "algorithmic_tool"
+      "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -811,8 +863,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -840,9 +892,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -886,12 +938,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -913,13 +965,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai",
+      "generative_ai_variant",
       "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -942,15 +994,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "high_risk_ai_variant",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -974,8 +1026,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "algorithmic_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1001,17 +1053,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1038,8 +1090,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1058,17 +1110,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

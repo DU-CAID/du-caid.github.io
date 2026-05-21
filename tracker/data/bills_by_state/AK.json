@@ -10,14 +10,14 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
+      "deepfake_media",
       "synthetic_media",
       "artificial_intelligence",
-      "adjacent_tech",
-      "deepfake_media"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -65,12 +65,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -92,14 +92,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "deepfake_media",
       "adjacent_tech",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -133,7 +133,7 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0318A",
-    "latest_action_date": "2026-04-01",
+    "latest_action_date": "2026-04-22",
     "latest_action_description": "(H) JUDICIARY at 01:00 PM GRUENBERG 120",
     "ncsl_status": ""
   },
@@ -288,8 +288,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HJR028A",
-    "latest_action_date": "2026-04-01",
-    "latest_action_description": "(H) JUDICIARY at 01:00 PM GRUENBERG 120",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "(H) AWAITING TRANSMITTAL TO GOV",
     "ncsl_status": ""
   },
   {
@@ -327,14 +327,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "deepfake_media",
       "adjacent_tech",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -357,15 +357,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
       "adjacent_tech",
       "deepfake_media",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -406,6 +406,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/397b1197-ef82-487c-b8ee-ddd0eeb8a43f",
+    "state": "AK",
+    "session": "34",
+    "identifier": "SB 283",
+    "title": "An Act relating to staffing standards for registered nurses; and providing for an effective date.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0283A",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "(S) LABOR & COMMERCE at 01:30 PM BELTZ 105 (TSBldg)",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/f18b6868-3454-4cbc-98bb-35e6a97dbea4",
     "state": "AK",
     "session": "34",
@@ -437,26 +462,25 @@
     "state": "AK",
     "session": "34",
     "identifier": "SB 64",
-    "title": "An Act relating to elections; relating to voters; relating to voting; relating to voter registration; relating to election administration; relating to the Alaska Public Offices Commission; relating to campaign contributions; relating to the crimes of unlawful interference with voting in the first degree, unlawful interference with an election, and election official misconduct; relating to synthetic media in electioneering communications; relating to campaign signs; relating to voter registration on permanent fund dividend applications; relating to the Redistricting Board; relating to the duties of the commissioner of revenue; and providing for an effective date.",
+    "title": "An Act relating to elections; relating to voters; relating to voting; relating to voter registration; relating to election administration; relating to campaign contributions; relating to write-in candidates for President and Vice-President of the United States; relating to the crimes of unlawful interference with voting in the first degree, unlawful interference with an election, and election official misconduct; relating to voter registration on permanent fund dividend applications; relating to the duties of the commissioner of revenue; and providing for an effective date.",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "synthetic_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0064A",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "(S) CONCUR MESSAGE READ AND TAKEN UP",
+    "latest_action_date": "2026-05-04",
+    "latest_action_description": "(S) MOTION TO OVERRIDE VETO",
     "ncsl_status": ""
   },
   {

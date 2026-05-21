@@ -51,15 +51,42 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/c149a455-ecd2-4eba-9efe-1c206cda51ad",
+    "bill_id": "ocd-bill/c8ec8dca-61d1-4be4-94a8-4121b263db3b",
     "state": "LA",
     "session": "2026",
-    "identifier": "HB 119",
-    "title": "CRIME: Provides relative to unlawful dissemination or sale of images of another created by artificial intelligence",
+    "identifier": "HB 1149",
+    "title": "CURRICULA: Requires each public school to incorporate instruction on artificial intelligence into an existing course of study for each student in grades six through twelve (OR NO IMPACT   See Note)",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457366",
+    "latest_action_date": "2026-04-01",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Education.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/cd599794-e812-41aa-8a64-c0e7538c5979",
+    "state": "LA",
+    "session": "2026",
+    "identifier": "HB 1184",
+    "title": "PUBLIC CONTRACTS: Prohibits public contracts with entities owned or controlled by foreign adversaries for the provision of artificial intelligence technology (OR NO IMPACT   See Note)",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -71,34 +98,64 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1438658",
-    "latest_action_date": "2026-02-13",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/13/2026.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457601",
+    "latest_action_date": "2026-04-01",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Appropriations.",
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/1173d401-0f24-4499-b27f-70bfdd48f030",
+    "bill_id": "ocd-bill/6257da6b-4b52-4c2b-8710-4537de9f547c",
     "state": "LA",
     "session": "2026",
-    "identifier": "HB 134",
-    "title": "CONTRACTS: Provides relative to material harmful to minors (OR SEE FISC NOTE SG EX)",
+    "identifier": "HB 1188",
+    "title": "CONSUMERS/PROTECTION: Provides relative to protections for minors regarding use of chatbots",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1457709",
+    "latest_action_date": "2026-04-01",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Commerce.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c149a455-ecd2-4eba-9efe-1c206cda51ad",
+    "state": "LA",
+    "session": "2026",
+    "identifier": "HB 119",
+    "title": "CRIME: Provides relative to unlawful conduct involving images of another person created by artificial intelligence (RE SEE FISC NOTE GF EX)",
+    "updated": "",
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_decision_system"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "raw_text",
+      "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1438675",
-    "latest_action_date": "2026-02-13",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/13/2026.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1466672",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "Senate floor amendments read and adopted.  Read by title, passed by a vote of 34 yeas and 0 nays, and ordered returned to the House.  Motion to reconsider tabled.",
     "ncsl_status": ""
   },
   {
@@ -111,9 +168,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "digital_replica",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -126,8 +183,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1438809",
-    "latest_action_date": "2026-02-13",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/13/2026.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Civil Law and Procedure.",
     "ncsl_status": ""
   },
   {
@@ -140,8 +197,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -153,8 +210,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1439657",
-    "latest_action_date": "2026-02-20",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/20/2026.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Health and Welfare.",
     "ncsl_status": ""
   },
   {
@@ -162,7 +219,7 @@
     "state": "LA",
     "session": "2026",
     "identifier": "HB 230",
-    "title": "CONSUMERS/PROTECTION: Provides for disclosure of artificial intelligence-generated content",
+    "title": "CONSUMERS/PROTECTION: Provides for disclosure of artificial intelligence-generated content (OR SEE FISC NOTE GF EX)",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
@@ -180,8 +237,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1440220",
-    "latest_action_date": "2026-02-20",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/20/2026.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Commerce.",
     "ncsl_status": ""
   },
   {
@@ -189,7 +246,7 @@
     "state": "LA",
     "session": "2026",
     "identifier": "HB 295",
-    "title": "TECHNOLOGY: Prohibits the development of artificial intelligence systems with certain capabilities involving interactions with minors",
+    "title": "TECHNOLOGY: Prohibits the development of artificial intelligence systems with certain capabilities involving interactions with minors (OR SEE FISC NOTE GF EX)",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
@@ -199,8 +256,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -209,8 +266,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1442427",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Commerce.",
     "ncsl_status": ""
   },
   {
@@ -234,33 +291,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1435346",
-    "latest_action_date": "2026-01-23",
-    "latest_action_description": "First appeared in the Interim Calendar on 1/23/2026.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/10c6e348-205c-4e8b-a180-8248eb2bdf61",
-    "state": "LA",
-    "session": "2026",
-    "identifier": "HB 410",
-    "title": "CIVIL/PROCEDURE: Requires consent of all parties to record in-person communication",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1444052",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Administration of Criminal Justice.",
     "ncsl_status": ""
   },
   {
@@ -268,18 +300,18 @@
     "state": "LA",
     "session": "2026",
     "identifier": "HB 421",
-    "title": "LABOR: Provides relative to the use of automated decision systems with respect to employment decisions",
+    "title": "LABOR: Provides relative to the use of automated decision systems with respect to employment decisions (OR INCREASE GF EX See Note)",
     "updated": "",
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
+      "artificial_intelligence",
       "machine_learning",
-      "artificial_intelligence"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -288,8 +320,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1444244",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Labor and Industrial Relations.",
     "ncsl_status": ""
   },
   {
@@ -297,7 +329,7 @@
     "state": "LA",
     "session": "2026",
     "identifier": "HB 425",
-    "title": "CONSUMERS/PROTECTION: Provides for consumer protection practices for customers engaging with artificial intelligence",
+    "title": "CONSUMERS/PROTECTION: Provides for consumer protection practices for customers engaging with artificial intelligence (OR SEE FISC NOTE GF EX)",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -313,8 +345,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1444254",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Commerce.",
     "ncsl_status": ""
   },
   {
@@ -338,9 +370,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1445035",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1468240",
+    "latest_action_date": "2026-05-07",
+    "latest_action_description": "Read second time by title and referred to the Committee on Senate and Governmental Affairs.",
     "ncsl_status": ""
   },
   {
@@ -350,32 +382,6 @@
     "identifier": "HB 471",
     "title": "COMMERCE: Provides relative to prohibiting surveillance-based price discrimination",
     "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "automated_decision_system",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1445224",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/481fe192-a17f-4f5f-9a99-436fa8bdf72a",
-    "state": "LA",
-    "session": "2026",
-    "identifier": "HB 475",
-    "title": "HEALTH CARE/PROVIDERS: Requires a healthcare provider to obtain a patient's consent prior to recording a medical visit",
-    "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
@@ -389,9 +395,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1445230",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1464191",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Commerce.",
     "ncsl_status": ""
   },
   {
@@ -399,7 +405,7 @@
     "state": "LA",
     "session": "2026",
     "identifier": "HB 639",
-    "title": "ELECTIONS/CAMPAIGNS: Requires disclosure of the use of artificial intelligence in campaign materials and telephone communications",
+    "title": "ELECTIONS/CAMPAIGNS: Requires disclosure of the use of artificial intelligence in telephone campaign communications",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -410,14 +416,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1446291",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1467912",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "Scheduled for concurrence on 05/20/2026.",
     "ncsl_status": ""
   },
   {
@@ -433,8 +438,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -451,7 +456,7 @@
     "state": "LA",
     "session": "2026",
     "identifier": "HB 686",
-    "title": "CRIME/MISDEMEANOR: Provides for the unlawful use of artificial intelligence in telephone calls",
+    "title": "CRIME/MISDEMEANOR: Provides for the unlawful use of artificial intelligence in telephone calls (OR SEE FISC NOTE LF EX)",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -468,8 +473,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1446483",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Administration of Criminal Justice.",
     "ncsl_status": ""
   },
   {
@@ -482,15 +487,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -499,33 +504,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1446623",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/bfca18a2-139a-4d2a-9ced-7c9de997b8f9",
-    "state": "LA",
-    "session": "2026",
-    "identifier": "HB 784",
-    "title": "SEX OFFENSE/REGISTRY: Provides relative to sex offender registration and notification requirements",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "deepfake_media"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1446848",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "latest_action_date": "2026-03-30",
+    "latest_action_description": "Withdrawn from the files of the House.",
     "ncsl_status": ""
   },
   {
@@ -533,7 +513,7 @@
     "state": "LA",
     "session": "2026",
     "identifier": "HB 791",
-    "title": "COMMERCIAL REGULATIONS: Provides relative to the regulation of artificial intelligence",
+    "title": "COMMERCIAL REGULATIONS: Provides relative to the regulation of artificial intelligence (OR +$256,243 GF EX See Note)",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -550,8 +530,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1446908",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Commerce.",
     "ncsl_status": ""
   },
   {
@@ -559,22 +539,16 @@
     "state": "LA",
     "session": "2026",
     "identifier": "HB 880",
-    "title": "INSURANCE: Creates the Louisiana Artificial Intelligence Insurance Fairness Act",
+    "title": "INSURANCE: Creates the Louisiana Artificial Intelligence Insurance Fairness Act (OR +$1,029,533 SG EX See Note)",
     "updated": "",
-    "core_ai_hits": 7,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning",
-      "algorithmic_decision_system",
       "ai_system_composite",
-      "ai_system",
-      "ai_governance",
-      "ml_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -582,9 +556,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1447416",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1448805",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Read by title, under the rules, referred to the Committee on Insurance.",
     "ncsl_status": ""
   },
   {
@@ -597,12 +571,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -613,31 +587,6 @@
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1361242",
     "latest_action_date": "2024-04-03",
     "latest_action_description": "Read by title, under the rules, referred to the Committee on Health and Welfare.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/fdce300d-998d-4340-805a-c9722fe39189",
-    "state": "LA",
-    "session": "2026",
-    "identifier": "HB 922",
-    "title": "UTILITY/RATES: Provides relative to increases for certain utility rates",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1447610",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "First appeared in the Interim Calendar on 2/27/2026.",
     "ncsl_status": ""
   },
   {
@@ -653,8 +602,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -692,11 +641,11 @@
     "ncsl_status": "Adopted"
   },
   {
-    "bill_id": "ocd-bill/17bfc8ef-71e8-4314-a217-5c58a1662280",
+    "bill_id": "ocd-bill/62202a8e-ba9a-47ac-bf5b-f2a54a9b24c8",
     "state": "LA",
     "session": "2026",
-    "identifier": "HR 20",
-    "title": "WATER/RESOURCES: Urges and requests the Department of Conservation and Energy to study industrial use of water from Caddo Lake",
+    "identifier": "HR 249",
+    "title": "STUDENT/STANDARDS: Requests the State Board of Elementary and Secondary Education to incorporate artificial intelligence into content standards",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
@@ -704,18 +653,19 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "title",
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1449571",
-    "latest_action_date": "",
-    "latest_action_description": "",
-    "ncsl_status": ""
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1469365",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "Reported favorably (11-0).",
+    "ncsl_status": "Adopted"
   },
   {
     "bill_id": "ocd-bill/f46e4dde-d07b-45ba-a57e-561a81931395",
@@ -731,8 +681,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -745,6 +695,32 @@
     "ncsl_status": "Adopted"
   },
   {
+    "bill_id": "ocd-bill/24bdcb52-a1b7-4cb0-af11-f23aebb480b7",
+    "state": "LA",
+    "session": "2026",
+    "identifier": "HR 302",
+    "title": "TECHNOLOGY: Requests the Legislative Youth Advisory Council to discuss artificial intelligence issues that may affect young people in Louisiana",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1474078",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "Read by title.  Lies over under the rules.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/3ab5e034-6f23-4dc4-ad8e-fea09cb3f60a",
     "state": "LA",
     "session": "2025",
@@ -755,13 +731,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "ai_system_composite",
+      "ai_system",
       "machine_learning",
-      "artificial_intelligence",
-      "ai_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -812,8 +788,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -833,11 +809,9 @@
     "identifier": "SB 110",
     "title": "CRIME/PUNISHMENT: Prohibits using a child's image to train artificial intelligence to produce child sexual abuse materials. (8/1/26)",
     "updated": "",
-    "core_ai_hits": 3,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -849,9 +823,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1442172",
-    "latest_action_date": "2026-02-23",
-    "latest_action_description": "Prefiled and under the rules provisionally referred to the Committee on Judiciary C.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1449450",
+    "latest_action_date": "2026-05-13",
+    "latest_action_description": "Sent to the Governor by the Secretary of the Senate.",
     "ncsl_status": ""
   },
   {
@@ -871,8 +845,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -941,25 +915,25 @@
     "state": "LA",
     "session": "2026",
     "identifier": "SB 246",
-    "title": "HEALTH/ACC INSURANCE: Establishes requirements for insurers using artificial intelligence. (8/1/26)",
+    "title": "HEALTH/ACC INSURANCE: Establishes requirements for health insurance issuers using artificial intelligence or automated decision systems. (8/1/26)",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "automated_decision_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1445777",
-    "latest_action_date": "2026-02-26",
-    "latest_action_description": "Prefiled and under the rules provisionally referred to the Committee on Insurance.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1450362",
+    "latest_action_date": "2026-03-23",
+    "latest_action_description": "Read by title and returned to the Calendar, subject to call.",
     "ncsl_status": ""
   },
   {
@@ -983,9 +957,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1447658",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "Prefiled and under the rules provisionally referred to the Committee on Education.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1465021",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "Received from the House without amendments.",
     "ncsl_status": ""
   },
   {
@@ -1004,14 +978,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1447672",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "Prefiled and under the rules provisionally referred to the Committee on Education.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1465685",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "Received from the House with amendments.",
     "ncsl_status": ""
   },
   {
@@ -1036,34 +1009,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1447742",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "Prefiled and under the rules provisionally referred to the Committee on Commerce, Consumer Protection and International Affairs.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/e3fdb1fe-7f47-4d0d-81fa-fc898ad3154a",
-    "state": "LA",
-    "session": "2026",
-    "identifier": "SB 386",
-    "title": "IDENTITY DATA: Provides for opting out of providing personal information on social media websites. (gov sig)",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1447820",
-    "latest_action_date": "2026-02-27",
-    "latest_action_description": "Prefiled and under the rules provisionally referred to the Committee on Commerce, Consumer Protection and International Affairs.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Introduced in the Senate; read by title.  Rules suspended.  Read second time and referred to the Committee on Commerce, Consumer Protection and International Affairs.",
     "ncsl_status": ""
   },
   {
@@ -1087,9 +1034,34 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1437694",
-    "latest_action_date": "2026-02-10",
-    "latest_action_description": "Prefiled and under the rules provisionally referred to the Committee on Judiciary C.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1450263",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "Notice House Conference Committee members appointed.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/16924680-11a2-4254-94c6-d9bf0cf246a0",
+    "state": "LA",
+    "session": "2026",
+    "identifier": "SB 474",
+    "title": "INFORMATION TECHNOLOGY: Creates the Protecting Louisiana's Infrastructure from Artificial Intelligence Risk Act. (1/1/27)",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1463428",
+    "latest_action_date": "2026-04-21",
+    "latest_action_description": "Read by title and returned to the Calendar, subject to call.",
     "ncsl_status": ""
   },
   {
@@ -1107,8 +1079,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1117,8 +1089,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1435146",
-    "latest_action_date": "2026-01-21",
-    "latest_action_description": "Prefiled and under the rules provisionally referred to the Committee on Health and Welfare.",
+    "latest_action_date": "2026-03-09",
+    "latest_action_description": "Introduced in the Senate; read by title.  Rules suspended.  Read second time and referred to the Committee on Health and Welfare.",
     "ncsl_status": ""
   },
   {

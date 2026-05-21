@@ -64,18 +64,46 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141577&legislationTypeId=5&docTypeId=2",
     "latest_action_date": "2024-07-17",
     "latest_action_description": "Signed by Governor",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/336f316d-ad4a-4184-8ae7-b3425d786631",
+    "state": "DE",
+    "session": "153",
+    "identifier": "HB 404",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO THE ARTIFICIAL INTELLIGENCE AND EXTENDED REALITY IN SCHOOLS PILOT PROGRAM.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-05-07",
+    "latest_action_description": "Introduced and Assigned to Education Committee in House",
     "ncsl_status": ""
   },
   {
@@ -88,16 +116,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -122,8 +150,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

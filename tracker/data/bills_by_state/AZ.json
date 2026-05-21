@@ -1,5 +1,30 @@
 [
   {
+    "bill_id": "ocd-bill/d87e85db-bd84-473a-a251-2936962215a3",
+    "state": "AZ",
+    "session": "57th-2nd-regular",
+    "identifier": "HB 2133",
+    "title": "sexual material; consent; synthetic depiction",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2133S.htm",
+    "latest_action_date": "2026-04-08",
+    "latest_action_description": "DPA",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/8488519e-49d5-4d84-aed4-bff2be9a090e",
     "state": "AZ",
     "session": "56th-2nd-regular",
@@ -240,13 +265,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_tool",
       "machine_learning",
-      "artificial_intelligence",
-      "algorithmic_tool"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -269,9 +294,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -283,9 +308,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2592P.htm",
-    "latest_action_date": "2026-03-17",
-    "latest_action_description": "DP",
+    "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2592S.htm",
+    "latest_action_date": "2026-04-14",
+    "latest_action_description": "DPA",
     "ncsl_status": ""
   },
   {
@@ -327,8 +352,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -401,8 +426,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -533,8 +558,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -557,14 +582,14 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "high_risk_ai_variant",
+      "llm_variant",
       "artificial_intelligence",
       "foundation_model",
       "high_risk_ai",
       "ai_system",
-      "llm_variant"
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -619,8 +644,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -667,8 +692,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -901,14 +926,14 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -917,8 +942,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/SB1786S.htm",
-    "latest_action_date": "2026-03-26",
-    "latest_action_description": "DPA",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "Transmit to Senate",
     "ncsl_status": ""
   },
   {

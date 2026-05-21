@@ -13,8 +13,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -36,12 +36,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -69,8 +69,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -92,16 +92,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -121,11 +121,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -151,20 +151,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "generative_ai",
       "machine_learning",
+      "generative_ai_variant",
       "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
-      "generative_ai_variant"
+      "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -184,8 +184,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -219,11 +219,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10141",
-    "latest_action_date": "2026-02-09",
-    "latest_action_description": "REFERRED TO ENVIRONMENTAL CONSERVATION",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10141A",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "AMEND (T) AND RECOMMIT TO ENVIRONMENTAL CONSERVATION",
     "ncsl_status": ""
   },
   {
@@ -236,13 +236,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_decision_system",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -264,15 +264,15 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "automated_decision_system",
       "ai_system_composite",
+      "artificial_intelligence",
       "machine_learning",
-      "artificial_intelligence"
+      "ml_system",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -297,13 +297,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
+      "adjacent_tech",
       "automated_decision_system",
-      "machine_learning",
-      "adjacent_tech"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -328,8 +328,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -354,8 +354,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -363,8 +363,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10357",
-    "latest_action_date": "2026-02-26",
-    "latest_action_description": "REFERRED TO SCIENCE AND TECHNOLOGY",
+    "latest_action_date": "2026-05-13",
+    "latest_action_description": "REPORTED REFERRED TO CODES",
     "ncsl_status": ""
   },
   {
@@ -383,9 +383,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -429,23 +429,23 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai_variant",
       "artificial_intelligence",
-      "adjacent_tech",
-      "generative_ai_variant"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10379A",
-    "latest_action_date": "2026-03-23",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10379B",
+    "latest_action_date": "2026-05-11",
     "latest_action_description": "AMEND AND RECOMMIT TO SCIENCE AND TECHNOLOGY",
     "ncsl_status": ""
   },
@@ -464,8 +464,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -539,12 +539,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -575,12 +575,12 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -602,18 +602,18 @@
     "matched_concepts": [
       "ai_system",
       "artificial_intelligence",
+      "ai_system_composite",
       "ml_system",
-      "machine_learning",
-      "ai_system_composite"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -632,15 +632,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
       "ai_system_composite",
       "adjacent_tech",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -667,8 +667,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -676,8 +676,36 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10715",
-    "latest_action_date": "2026-03-27",
-    "latest_action_description": "REFERRED TO ELECTION LAW",
+    "latest_action_date": "2026-04-30",
+    "latest_action_description": "ADVANCED TO THIRD READING CAL.432",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/096c6d87-ed2e-47c4-9e3b-82c70ddaecb2",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10764",
+    "title": "Establishes utility billing integrity requirements and consumer protections",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10764",
+    "latest_action_date": "2026-04-01",
+    "latest_action_description": "REFERRED TO ENERGY",
     "ncsl_status": ""
   },
   {
@@ -708,6 +736,117 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/39a83750-4a14-499e-9c0a-d96f8f7955e7",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 10909",
+    "title": "Enacts the \"Shirley Myers White Right To Reconciliation and Digital Identity Repair Act\"",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A10909",
+    "latest_action_date": "2026-04-08",
+    "latest_action_description": "REFERRED TO GOVERNMENTAL OPERATIONS",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b6e00346-2b0c-4ffb-addf-40d630837a1a",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 11048",
+    "title": "Relates to the use of artificial intelligence for utilization review",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A11048",
+    "latest_action_date": "2026-04-24",
+    "latest_action_description": "REFERRED TO INSURANCE",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/65391c72-29c2-4212-8a5a-ef64d0c29d7a",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 11175",
+    "title": "Relates to notification requirements of public employers regarding intentions to acquire or deploy any new application or technology that utilizes artificial intelligence",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A11175",
+    "latest_action_date": "2026-05-01",
+    "latest_action_description": "REFERRED TO GOVERNMENTAL EMPLOYEES",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/dd5be5e6-ad23-4c58-b592-d6fbe44feb67",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "A 11320",
+    "title": "Prohibits the department of corrections and community supervision from using artificial intelligence in parole determinations",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A11320",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "REFERRED TO CORRECTION",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/a750130d-fb2c-4aa9-a825-0d30650f015e",
     "state": "NY",
     "session": "2025-2026",
@@ -724,12 +863,12 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -749,9 +888,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "artificial_intelligence",
-      "synthetic_media",
-      "deepfake_media"
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -807,9 +946,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -857,8 +996,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -890,9 +1029,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -917,9 +1056,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -939,13 +1078,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
+      "artificial_intelligence",
       "generative_ai_variant",
-      "machine_learning",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1021,17 +1160,17 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1050,15 +1189,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "machine_learning",
       "synthetic_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -1086,8 +1225,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1110,12 +1249,12 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1138,19 +1277,19 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "ai_system_composite",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1244,17 +1383,17 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
+      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "generative_ai_variant"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -1336,9 +1475,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1357,12 +1496,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1409,10 +1548,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
       "ml_system",
-      "automated_decision_system"
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1443,8 +1582,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1475,9 +1614,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1523,23 +1662,23 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "generative_ai",
       "llm_variant",
       "machine_learning",
+      "generative_ai_variant",
       "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
       "large_language_model",
       "ai_model_variant",
-      "generative_ai_variant"
+      "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1563,8 +1702,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1588,8 +1727,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "automated_decision_system"
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1616,12 +1755,12 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "adjacent_tech",
-      "ml_system"
+      "ml_system",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1673,8 +1812,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1696,18 +1835,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "algorithmic_tool",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1757,9 +1896,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1784,9 +1923,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1815,12 +1954,12 @@
       "llm_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1872,8 +2011,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1896,8 +2035,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1925,9 +2064,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1952,9 +2091,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1973,18 +2112,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "algorithmic_decision_system"
+      "algorithmic_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2003,18 +2142,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_decision_system",
       "artificial_intelligence",
-      "machine_learning",
-      "algorithmic_decision_system"
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2064,9 +2203,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2085,12 +2224,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2112,12 +2251,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2139,13 +2278,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "adjacent_tech",
       "ml_system",
-      "machine_learning",
-      "adjacent_tech"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2167,8 +2306,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2200,8 +2339,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2223,15 +2362,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2259,9 +2398,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2284,8 +2423,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2311,8 +2450,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2340,13 +2479,13 @@
       "ai_model_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2373,9 +2512,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2402,8 +2541,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2422,10 +2561,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
+      "generative_ai_variant",
       "artificial_intelligence",
-      "ai_system"
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2436,9 +2575,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6545A",
-    "latest_action_date": "2026-03-05",
-    "latest_action_description": "REFERENCE CHANGED TO SCIENCE AND TECHNOLOGY",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6545C",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "AMEND AND RECOMMIT TO CODES",
     "ncsl_status": "Pending"
   },
   {
@@ -2451,16 +2590,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2470,8 +2609,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A6578B",
-    "latest_action_date": "2026-02-24",
-    "latest_action_description": "AMENDED ON THIRD READING 6578B",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "PASSED ASSEMBLY",
     "ncsl_status": "Pending"
   },
   {
@@ -2516,8 +2655,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -2541,8 +2680,8 @@
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2578,9 +2717,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2599,9 +2738,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "artificial_intelligence",
-      "synthetic_media",
-      "deepfake_media"
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2626,16 +2765,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "synthetic_media",
-      "artificial_intelligence",
-      "deepfake_media"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -2659,8 +2798,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2686,8 +2825,8 @@
       "ml_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2709,9 +2848,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2738,17 +2877,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2773,8 +2912,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2801,9 +2940,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2829,8 +2968,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -2850,26 +2989,26 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
       "machine_learning",
       "ml_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A7172A",
-    "latest_action_date": "2026-03-05",
-    "latest_action_description": "AMEND (T) AND RECOMMIT TO CODES",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A7172B",
+    "latest_action_date": "2026-05-13",
+    "latest_action_description": "REPORTED REFERRED TO WAYS AND MEANS",
     "ncsl_status": "Pending"
   },
   {
@@ -2882,13 +3021,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ml_system",
       "adjacent_tech",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2910,22 +3049,22 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "llm_variant",
       "artificial_intelligence",
-      "machine_learning",
       "ai_system_composite",
       "ai_model_variant",
       "large_language_model",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning",
+      "llm_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3000,9 +3139,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3047,21 +3186,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "algorithmic_tool",
       "machine_learning",
+      "high_risk_ai_variant",
       "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "high_risk_ai_variant"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3092,8 +3231,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A773C",
-    "latest_action_date": "2026-01-15",
-    "latest_action_description": "AMEND AND RECOMMIT TO CODES",
+    "latest_action_date": "2026-04-30",
+    "latest_action_description": "ADVANCED TO THIRD READING CAL.393",
     "ncsl_status": "Pending"
   },
   {
@@ -3112,9 +3251,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3137,12 +3276,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3169,9 +3308,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3193,8 +3332,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3217,13 +3356,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
+      "artificial_intelligence",
       "generative_ai_variant",
-      "machine_learning",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3255,9 +3394,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3282,9 +3421,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3312,9 +3451,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3333,12 +3472,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3362,12 +3501,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3389,19 +3528,19 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "generative_ai_variant",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3448,17 +3587,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "automated_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3477,12 +3616,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3507,8 +3646,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3538,10 +3677,10 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8396A",
-    "latest_action_date": "2026-02-06",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A8396B",
+    "latest_action_date": "2026-05-12",
     "latest_action_description": "AMEND AND RECOMMIT TO EDUCATION",
     "ncsl_status": ""
   },
@@ -3580,12 +3719,12 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
-      "ai_model_variant",
       "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3612,18 +3751,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3646,12 +3785,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3671,20 +3810,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai",
+      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
       "ai_system_composite",
       "adjacent_tech",
-      "generative_ai_variant"
+      "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3704,12 +3843,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3758,12 +3897,12 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3792,9 +3931,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3819,12 +3958,12 @@
       "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3873,12 +4012,12 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3900,14 +4039,14 @@
       "high_risk_ai",
       "ai_system_composite",
       "adjacent_tech",
+      "artificial_intelligence",
       "ai_system",
       "algorithmic_tool",
-      "high_risk_ai_variant",
-      "artificial_intelligence"
+      "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3933,16 +4072,16 @@
     "matched_concepts": [
       "llm_variant",
       "machine_learning",
+      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
       "adjacent_tech",
       "large_language_model",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3970,8 +4109,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3997,8 +4136,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4029,9 +4168,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4076,16 +4215,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4104,8 +4243,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4143,8 +4282,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9091",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
+    "latest_action_date": "2026-05-05",
+    "latest_action_description": "HELD FOR CONSIDERATION IN CONSUMER AFFAIRS AND PROTECTION",
     "ncsl_status": ""
   },
   {
@@ -4158,18 +4297,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4188,13 +4327,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4224,9 +4363,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4251,9 +4390,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4272,8 +4411,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4298,15 +4437,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -4326,17 +4465,17 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4365,9 +4504,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4393,13 +4532,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4419,12 +4558,12 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "adjacent_tech",
-      "ml_system"
+      "ml_system",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4446,8 +4585,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -4468,7 +4607,7 @@
     "state": "NY",
     "session": "2025-2026",
     "identifier": "A 9349",
-    "title": "Prohibits the use of algorithmically set prices and requires the disclosure of automated pricing systems",
+    "title": "Prohibits the use of surveillance pricing",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
@@ -4483,11 +4622,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9349",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9349A",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "REPORTED REFERRED TO CODES",
     "ncsl_status": ""
   },
   {
@@ -4497,24 +4636,24 @@
     "identifier": "A 9396",
     "title": "Establishes the \"protecting consumers and jobs from discriminatory pricing act\"",
     "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9396",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "REFERRED TO CONSUMER AFFAIRS AND PROTECTION",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9396A",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "REPORTED REFERRED TO CODES",
     "ncsl_status": ""
   },
   {
@@ -4527,14 +4666,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
       "automated_decision_system",
-      "ml_system"
+      "ml_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4583,21 +4722,21 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "foundation_model",
       "llm_variant",
       "ai_system_composite",
       "ai_model_variant",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "foundation_model"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4622,9 +4761,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4643,9 +4782,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
+      "automated_decision_system",
       "ai_system_composite",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4676,8 +4815,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4725,24 +4864,22 @@
     "title": "Enacts the automation displacement protection act",
     "updated": "",
     "core_ai_hits": 2,
-    "adjacent_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9533",
-    "latest_action_date": "2026-01-14",
-    "latest_action_description": "REFERRED TO LABOR",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9533A",
+    "latest_action_date": "2026-04-28",
+    "latest_action_description": "REPORTED REFERRED TO CODES",
     "ncsl_status": ""
   },
   {
@@ -4788,15 +4925,15 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9581A",
-    "latest_action_date": "2026-02-06",
-    "latest_action_description": "AMEND (T) AND RECOMMIT TO LABOR",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/A9581B",
+    "latest_action_date": "2026-04-28",
+    "latest_action_description": "REPORTED REFERRED TO CODES",
     "ncsl_status": ""
   },
   {
@@ -4838,8 +4975,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4861,13 +4998,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
+      "artificial_intelligence",
       "machine_learning",
-      "artificial_intelligence"
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4889,10 +5026,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -4918,18 +5055,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_decision_system",
       "artificial_intelligence",
-      "machine_learning",
-      "algorithmic_decision_system"
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5004,9 +5141,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5168,6 +5305,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/9791c067-338e-43fc-b2ba-fa7bc278c2d7",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "K 1111",
+    "title": "Commemorating the 25th Anniversary of Assured Information Security",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/K1111",
+    "latest_action_date": "2026-03-30",
+    "latest_action_description": "INTRODUCED",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/9276acac-c8b8-4ecb-a1fa-2ccadd0969a2",
     "state": "NY",
     "session": "2025-2026",
@@ -5202,13 +5364,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -5231,12 +5393,12 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "artificial_intelligence",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -5274,6 +5436,283 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/65542516-8262-4f77-b154-337dc97d41e6",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10025",
+    "title": "Relates to notification requirements of public employers regarding intentions to acquire or deploy any new application or technology that utilizes artificial intelligence",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10025",
+    "latest_action_date": "2026-05-18",
+    "latest_action_description": "REPORTED AND COMMITTED TO INTERNET AND TECHNOLOGY",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e7f186fd-5f1e-4ee7-b5c6-0c1d31c1f0c3",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10049",
+    "title": "Updates the definition of cyberbullying in the dignity for all students act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10049",
+    "latest_action_date": "2026-05-07",
+    "latest_action_description": "ADVANCED TO THIRD READING",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b7966cc4-95ec-4fb1-be68-ff07218db986",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10133",
+    "title": "Prohibits the use of most artificial intelligence in classrooms prior to high school",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10133",
+    "latest_action_date": "2026-04-30",
+    "latest_action_description": "REFERRED TO EDUCATION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f84ff790-31db-49d2-b663-4ba6249bca7f",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10241",
+    "title": "Relates to the use of artificial intelligence for utilization review",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10241",
+    "latest_action_date": "2026-05-08",
+    "latest_action_description": "REFERRED TO INSURANCE",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e9cbc464-3ee8-44b2-bb85-2c5bde18c0bc",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10249",
+    "title": "Enacts the student suicide prevention act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10249A",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "AMEND AND RECOMMIT TO EDUCATION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e74c1de5-56d4-4235-a9c6-d9ea1cc283f9",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10290",
+    "title": "Relates to restricting the use of electronic monitoring and automated employment decision tools",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10290",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/5f9d9eca-973a-41c7-ab29-6834939d7f9a",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10349",
+    "title": "Prohibits the department of corrections and community supervision from using artificial intelligence in parole determinations",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10349",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "REFERRED TO CRIME VICTIMS, CRIME AND CORRECTION",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/83ebb71e-7a83-49e8-be5e-10b3e000b4f0",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10373",
+    "title": "Relates to third party verification of compliance with transparency and safety requirements for developers of artificial intelligence models",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10373",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/06e7adc7-6537-45f4-9eac-6744059fe1c7",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10425",
+    "title": "Relates to disclosure of the use of artificial intelligence by law enforcement agencies",
+    "updated": "",
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "ai_system_composite",
+      "generative_ai_variant",
+      "generative_ai",
+      "ai_system",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10425",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "REFERRED TO CODES",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/37c54722-5453-4274-b840-576d57c0ef16",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 10456",
+    "title": "Relates to minimum standards for large frontier developer frontier AI frameworks",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "foundation_model",
+      "llm_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S10456",
+    "latest_action_date": "2026-05-15",
+    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/0457f136-bad5-4c41-9685-13e3a928cc37",
     "state": "NY",
     "session": "2025-2026",
@@ -5283,22 +5722,22 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "high_risk_ai_variant",
       "artificial_intelligence",
       "high_risk_ai",
       "ai_system",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "ai_system_composite",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5319,13 +5758,13 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -5374,13 +5813,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
+      "artificial_intelligence",
       "generative_ai_variant",
-      "machine_learning",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -5390,8 +5829,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S1815",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "REFERRED TO INTERNET AND TECHNOLOGY",
+    "latest_action_date": "2026-04-01",
+    "latest_action_description": "REPORTED AND COMMITTED TO CONSUMER PROTECTION",
     "ncsl_status": "Pending"
   },
   {
@@ -5433,8 +5872,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -5462,8 +5901,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -5483,22 +5922,22 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "algorithmic_tool",
       "high_risk_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5523,8 +5962,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -5553,9 +5992,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5577,8 +6016,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -5633,13 +6072,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5686,18 +6125,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5766,21 +6205,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
-      "ai_model_variant",
       "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "adjacent_tech",
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5887,8 +6326,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S3243A",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "DIED IN ASSEMBLY",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "1ST REPORT CAL.1203",
     "ncsl_status": "Pending"
   },
   {
@@ -5907,8 +6346,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -5928,10 +6367,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "ml_system",
       "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -5957,9 +6396,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "ai_governance",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -6060,9 +6499,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "ai_governance",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -6119,8 +6558,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6142,12 +6581,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6175,8 +6614,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -6202,9 +6641,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6223,12 +6662,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "automated_decision_system"
+      "automated_decision_system",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -6284,8 +6723,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -6309,8 +6748,8 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6333,18 +6772,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6369,9 +6808,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6391,13 +6830,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6425,13 +6864,13 @@
       "ai_model_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6450,21 +6889,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "deepfake_media",
+      "generative_ai_variant",
       "synthetic_media",
       "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant",
-      "deepfake_media",
-      "generative_ai_variant"
+      "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -6492,13 +6931,13 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6517,23 +6956,23 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
-      "adjacent_tech"
+      "adjacent_tech",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S7033",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
+    "latest_action_date": "2026-04-15",
+    "latest_action_description": "RECOMMIT, ENACTING CLAUSE STRICKEN",
     "ncsl_status": "Pending"
   },
   {
@@ -6577,8 +7016,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6659,13 +7098,13 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6684,8 +7123,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -6720,9 +7159,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6741,12 +7180,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6776,9 +7215,9 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6829,8 +7268,8 @@
       "ml_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6855,8 +7294,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -6879,17 +7318,17 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
+      "generative_ai_variant",
       "artificial_intelligence",
-      "adjacent_tech",
-      "generative_ai_variant"
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -6915,9 +7354,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6944,9 +7383,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -6969,12 +7408,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -6995,18 +7434,18 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7025,16 +7464,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7066,9 +7505,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8115B",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "REFERRED TO BANKS",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8115C",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "REPORTED AND COMMITTED TO INTERNET AND TECHNOLOGY",
     "ncsl_status": "Pending"
   },
   {
@@ -7087,8 +7526,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -7116,8 +7555,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -7137,13 +7576,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "algorithmic_tool",
-      "machine_learning",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -7196,21 +7635,21 @@
     "matched_concepts": [
       "ml_system",
       "automated_decision_system",
+      "machine_learning",
       "llm_variant",
       "ai_system_composite",
       "adjacent_tech",
       "large_language_model",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7234,8 +7673,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7257,17 +7696,17 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7286,16 +7725,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "ai_system_composite",
       "adjacent_tech",
       "generative_ai_variant",
-      "generative_ai"
+      "generative_ai",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -7350,9 +7789,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7371,16 +7810,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7399,9 +7838,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "synthetic_media",
-      "artificial_intelligence",
-      "deepfake_media"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -7429,17 +7868,17 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
+      "machine_learning",
       "llm_variant",
       "adjacent_tech",
       "large_language_model",
       "ai_system_composite",
       "artificial_intelligence",
-      "synthetic_media",
-      "machine_learning"
+      "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7461,12 +7900,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7488,20 +7927,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
+      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
       "ai_system_composite",
       "adjacent_tech",
-      "generative_ai_variant"
+      "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -7527,8 +7966,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -7561,8 +8000,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8484",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "REFERRED TO HIGHER EDUCATION",
+    "latest_action_date": "2026-05-07",
+    "latest_action_description": "ADVANCED TO THIRD READING",
     "ncsl_status": ""
   },
   {
@@ -7573,23 +8012,21 @@
     "title": "Enacts the automation displacement protection act",
     "updated": "",
     "core_ai_hits": 2,
-    "adjacent_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8589B",
-    "latest_action_date": "2026-01-16",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8589C",
+    "latest_action_date": "2026-05-14",
     "latest_action_description": "AMEND AND RECOMMIT TO LABOR",
     "ncsl_status": ""
   },
@@ -7600,38 +8037,11 @@
     "identifier": "S 8616",
     "title": "Establishes the \"protecting consumers and jobs from discriminatory pricing act\"",
     "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "algorithmic_tool",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8616",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/84afa36a-b542-4ddb-b1c0-849a26031f94",
-    "state": "NY",
-    "session": "2025-2026",
-    "identifier": "S 8623",
-    "title": "Prohibits the use of algorithmically set prices and requires the disclosure of automated pricing systems",
-    "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "algorithmic_tool"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -7642,9 +8052,36 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8623",
-    "latest_action_date": "2026-01-07",
-    "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8616A",
+    "latest_action_date": "2026-05-13",
+    "latest_action_description": "PASSED SENATE",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/84afa36a-b542-4ddb-b1c0-849a26031f94",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 8623",
+    "title": "Prohibits the use of surveillance pricing",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "algorithmic_tool",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8623A",
+    "latest_action_date": "2026-05-06",
+    "latest_action_description": "AMENDED ON THIRD READING (T) 8623A",
     "ncsl_status": ""
   },
   {
@@ -7713,15 +8150,15 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8706A",
-    "latest_action_date": "2026-01-15",
-    "latest_action_description": "AMEND (T) AND RECOMMIT TO LABOR",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S8706B",
+    "latest_action_date": "2026-04-28",
+    "latest_action_description": "REPORTED AND COMMITTED TO FINANCE",
     "ncsl_status": ""
   },
   {
@@ -7738,12 +8175,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -7765,16 +8202,16 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -7819,21 +8256,21 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
-      "adjacent_tech",
+      "llm_variant",
       "artificial_intelligence",
       "foundation_model",
-      "llm_variant"
+      "ai_system_composite",
+      "ai_model_variant",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7860,8 +8297,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -7881,9 +8318,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -7939,13 +8376,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -7964,12 +8401,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8019,8 +8456,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -8046,17 +8483,17 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "synthetic_media",
-      "artificial_intelligence",
+      "automated_decision_system",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
       "generative_ai_variant",
-      "automated_decision_system"
+      "synthetic_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -8079,8 +8516,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -8116,15 +8553,15 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9051",
-    "latest_action_date": "2026-02-25",
-    "latest_action_description": "REPORTED AND COMMITTED TO FINANCE",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9051A",
+    "latest_action_date": "2026-05-11",
+    "latest_action_description": "AMENDED ON THIRD READING 9051A",
     "ncsl_status": ""
   },
   {
@@ -8143,8 +8580,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8192,20 +8629,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "ml_system",
       "automated_decision_system",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -8230,8 +8667,8 @@
       "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8257,8 +8694,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8289,11 +8726,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9144",
-    "latest_action_date": "2026-02-06",
-    "latest_action_description": "REFERRED TO ENVIRONMENTAL CONSERVATION",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9144A",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "AMEND (T) AND RECOMMIT TO ENVIRONMENTAL CONSERVATION",
     "ncsl_status": ""
   },
   {
@@ -8313,9 +8750,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -8337,8 +8774,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8367,12 +8804,12 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -8392,23 +8829,23 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "generative_ai",
       "llm_variant",
       "machine_learning",
+      "generative_ai_variant",
       "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
       "large_language_model",
       "ai_model_variant",
-      "generative_ai_variant"
+      "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -8433,8 +8870,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8456,15 +8893,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -8490,9 +8927,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -8500,32 +8937,6 @@
     "latest_action_date": "2024-05-15",
     "latest_action_description": "REFERRED TO LABOR",
     "ncsl_status": "Pending"
-  },
-  {
-    "bill_id": "ocd-bill/381803b6-432a-4a22-a01a-bcdf8414f485",
-    "state": "NY",
-    "session": "2025-2026",
-    "identifier": "S 9408",
-    "title": "Relates to a prohibition on chatbot toys",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9408",
-    "latest_action_date": "2026-03-10",
-    "latest_action_description": "REFERRED TO CONSUMER PROTECTION",
-    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/b2f7a266-90e6-424b-a864-c1774f302a4c",
@@ -8543,9 +8954,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -8589,20 +9000,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "generative_ai_variant",
       "ai_system_composite",
       "adjacent_tech",
+      "generative_ai",
       "machine_learning",
       "artificial_intelligence",
-      "generative_ai"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -8627,12 +9038,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -8679,13 +9090,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
+      "artificial_intelligence",
       "generative_ai_variant",
-      "machine_learning",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -8700,6 +9111,91 @@
     "ncsl_status": "Pending"
   },
   {
+    "bill_id": "ocd-bill/acaf0d13-536a-4064-a8e5-5bcefaad4c1a",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9700",
+    "title": "Prohibits the use of an algorithmic device by a landlord for the purpose of determining the amount of rent to charge a residential tenant",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9700",
+    "latest_action_date": "2026-04-02",
+    "latest_action_description": "REFERRED TO JUDICIARY",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/4e2e32a5-ffd9-4609-b38c-a8b5d3a47582",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9794",
+    "title": "Relates to requiring disclosure of use of generative artificial intelligence in a civil action",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant",
+      "adjacent_tech",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9794",
+    "latest_action_date": "2026-04-27",
+    "latest_action_description": "ADVANCED TO THIRD READING",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/44e35dec-96d8-45e0-9cb2-2526819ce408",
+    "state": "NY",
+    "session": "2025-2026",
+    "identifier": "S 9819",
+    "title": "Directs the department of labor to conduct a study on the effects of artificial intelligence on job losses in the state",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legislation.nysenate.gov/pdf/bills/2025/S9819",
+    "latest_action_date": "2026-04-07",
+    "latest_action_description": "REFERRED TO LABOR",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/33aea26d-2e2b-4126-84d9-facbc6cdc1a0",
     "state": "NY",
     "session": "2023-2024",
@@ -8709,12 +9205,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
