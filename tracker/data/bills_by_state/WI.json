@@ -9,14 +9,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "automated_decision_system",
+      "machine_learning",
       "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -45,8 +45,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -65,8 +65,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "algorithmic_decision_system"
+      "algorithmic_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -143,8 +143,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -170,11 +170,11 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
+      "algorithmic_tool",
       "llm_variant",
       "artificial_intelligence",
       "machine_learning",
-      "algorithmic_tool",
+      "ml_system",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -182,8 +182,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -208,8 +208,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -234,8 +234,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -305,9 +305,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "adjacent_tech",
       "algorithmic_decision_system",
-      "artificial_intelligence",
-      "adjacent_tech"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -416,8 +416,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -461,11 +461,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
+      "synthetic_media",
       "generative_ai_variant",
       "ai_system_composite",
-      "adjacent_tech",
-      "artificial_intelligence",
-      "synthetic_media"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -498,8 +498,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -548,8 +548,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -601,11 +601,11 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "llm_variant",
-      "machine_learning",
-      "ml_system",
-      "artificial_intelligence",
       "ai_system_composite",
+      "llm_variant",
+      "ml_system",
+      "machine_learning",
+      "artificial_intelligence",
       "algorithmic_tool"
     ],
     "matched_tiers": [
@@ -637,8 +637,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -646,8 +646,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB1171.pdf",
-    "latest_action_date": "2026-03-23T05:00:00+00:00",
-    "latest_action_description": "Failed to pass pursuant to Senate Joint Resolution 1",
+    "latest_action_date": "2026-06-01T05:00:00+00:00",
+    "latest_action_description": "Senator Keyeski added as a coauthor",
     "ncsl_status": ""
   },
   {
@@ -692,8 +692,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -712,9 +712,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "artificial_intelligence",
       "synthetic_media",
+      "adjacent_tech",
       "generative_ai_variant"
     ],
     "matched_tiers": [
@@ -901,8 +901,8 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",

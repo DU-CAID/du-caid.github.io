@@ -28,8 +28,6 @@ jobs:
           cp -r assets/ staging/assets/
           cp -r tracker/. staging/tracker/
           cp -r reports/. staging/reports/
-          mkdir -p staging/tools
-          cp -r tools/. staging/tools/
           echo "=== staging/tracker/ after copy ==="
           ls -la staging/tracker/
           echo "=== Total staging size ==="

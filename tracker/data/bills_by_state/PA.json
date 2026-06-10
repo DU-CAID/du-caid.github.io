@@ -9,13 +9,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -427,8 +427,35 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2314/PN3066",
-    "latest_action_date": "2026-04-29T04:00:00+00:00",
-    "latest_action_description": "Reported as committed",
+    "latest_action_date": "2026-06-05T04:00:00+00:00",
+    "latest_action_description": "Referred to Communications & Technology",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/88449704-671d-41bd-8542-86d1c6ffe239",
+    "state": "PA",
+    "session": "2025-2026",
+    "identifier": "HB 2534",
+    "title": "An Act providing for artificial intelligence transparency, for duties of covered providers of generative artificial intelligence systems and for large online platforms and generative artificial intelligence system hosting platforms; and imposing a penalty.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.palegis.us/legislation/bills/text/PDF/2025/0/HB2534/PN3431",
+    "latest_action_date": "2026-05-26T04:00:00+00:00",
+    "latest_action_description": "Referred to Communications & Technology",
     "ncsl_status": ""
   },
   {
@@ -447,8 +474,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -467,8 +494,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -544,9 +571,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "adjacent_tech",
       "machine_learning",
-      "artificial_intelligence",
-      "adjacent_tech"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -727,13 +754,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -755,14 +782,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -834,10 +861,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
-      "adjacent_tech",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -863,13 +890,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -909,6 +936,61 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/487907c3-a07d-478b-a1b5-a588bdce5192",
+    "state": "PA",
+    "session": "2025-2026",
+    "identifier": "SB 1332",
+    "title": "An Act providing for notice of use of artificial intelligence or generative artificial intelligence in political advertisements.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB1332/PN1740",
+    "latest_action_date": "2026-05-21T04:00:00+00:00",
+    "latest_action_description": "Referred to State Government",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/4e146b80-deda-4463-a7f3-72cbd8043991",
+    "state": "PA",
+    "session": "2025-2026",
+    "identifier": "SB 1349",
+    "title": "An Act providing for transparency in use of generative artificial intelligence; requiring disclosure of synthetic content; providing for establishment of content verification tools; imposing duties on the Bureau of Consumer Protection in the Office of Attorney General; and imposing penalties.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "synthetic_media",
+      "adjacent_tech",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB1349/PN1767",
+    "latest_action_date": "2026-06-04T04:00:00+00:00",
+    "latest_action_description": "Referred to Communications & Technology",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/b58e9391-1a4f-4411-995b-e4a9112a462d",
     "state": "PA",
     "session": "2025-2026",
@@ -943,13 +1025,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1071,8 +1153,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1099,16 +1181,16 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "generative_ai",
-      "ai_system_composite"
+      "ai_system_composite",
+      "generative_ai"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

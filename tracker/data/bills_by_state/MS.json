@@ -111,9 +111,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
       "ai_system",
+      "ai_system_composite",
       "ai_governance"
     ],
     "matched_tiers": [
@@ -190,8 +190,8 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai_variant",
+      "artificial_intelligence",
       "ai_system_composite",
       "machine_learning"
     ],
@@ -200,8 +200,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -227,8 +227,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -323,8 +323,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -350,9 +350,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "ai_governance",
       "artificial_intelligence",
-      "ai_system_composite",
       "ai_system"
     ],
     "matched_tiers": [
@@ -380,9 +380,9 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
+      "ai_system_composite",
       "ai_system",
-      "algorithmic_tool",
-      "ai_system_composite"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -412,8 +412,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -537,9 +537,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system_composite",
       "ai_governance",
       "artificial_intelligence",
-      "ai_system_composite",
       "ai_system"
     ],
     "matched_tiers": [
@@ -617,11 +617,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "automated_decision_system",
       "artificial_intelligence",
-      "ai_system",
       "adjacent_tech",
       "ai_system_composite",
-      "automated_decision_system",
+      "ai_system",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -673,10 +673,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_governance",
       "artificial_intelligence",
-      "ai_system",
       "ai_system_composite",
-      "ai_governance"
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -754,8 +754,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -856,9 +856,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -884,8 +884,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
+      "artificial_intelligence",
       "ai_system"
     ],
     "matched_tiers": [
@@ -941,8 +941,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1123,14 +1123,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "ai_system",
+      "ai_system_composite",
       "artificial_intelligence",
       "ai_governance"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1153,9 +1153,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1181,14 +1181,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "morphed_image",
       "machine_learning",
       "artificial_intelligence",
+      "morphed_image",
       "deepfake_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1365,8 +1365,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1484,31 +1484,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/8e12c154-46fb-45f4-bea3-0e5e916fee4c",
-    "state": "MS",
-    "session": "2022",
-    "identifier": "SB 3002",
-    "title": "Appropriation; IHL - General support.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://billstatus.ls.state.ms.us/documents/2022/pdf/SB/3000-3099/SB3002SG.pdf",
-    "latest_action_date": "2022-04-26T05:00:00+00:00",
-    "latest_action_description": "Approved by Governor",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/95d30fe6-1816-4390-8ab2-2f0ff26cf134",
     "state": "MS",
     "session": "2025",
@@ -1531,6 +1506,31 @@
     "primary_url": "http://billstatus.ls.state.ms.us/documents/2025/pdf/SB/3000-3099/SB3002PS.pdf",
     "latest_action_date": "2025-03-29T05:00:00+00:00",
     "latest_action_description": "Died In Conference",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8e12c154-46fb-45f4-bea3-0e5e916fee4c",
+    "state": "MS",
+    "session": "2022",
+    "identifier": "SB 3002",
+    "title": "Appropriation; IHL - General support.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2022/pdf/SB/3000-3099/SB3002SG.pdf",
+    "latest_action_date": "2022-04-26T05:00:00+00:00",
+    "latest_action_description": "Approved by Governor",
     "ncsl_status": ""
   },
   {

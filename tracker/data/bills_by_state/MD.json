@@ -188,8 +188,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -415,8 +415,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title"
@@ -438,8 +438,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -517,9 +517,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
+      "artificial_intelligence",
       "machine_learning",
-      "artificial_intelligence"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -545,15 +545,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -727,8 +727,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -904,8 +904,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -977,8 +977,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1019,31 +1019,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/b129f1b6-2c99-466b-bc5f-db4a7d69b1e2",
-    "state": "MD",
-    "session": "2024",
-    "identifier": "HB 883",
-    "title": "Department of Information Technology - Evaluation of Emerging Technologies (Maryland Artificial Intelligence in Governmental Services Act)",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2024-02-13",
-    "latest_action_description": "Hearing 3/05 at 1:00 p.m.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/61fd8d70-ea6c-4b56-8e0a-adee39881718",
     "state": "MD",
     "session": "2026",
@@ -1066,6 +1041,31 @@
     "primary_url": null,
     "latest_action_date": "2026-03-25",
     "latest_action_description": "Hearing 4/01 at 1:00 p.m.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b129f1b6-2c99-466b-bc5f-db4a7d69b1e2",
+    "state": "MD",
+    "session": "2024",
+    "identifier": "HB 883",
+    "title": "Department of Information Technology - Evaluation of Emerging Technologies (Maryland Artificial Intelligence in Governmental Services Act)",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2024-02-13",
+    "latest_action_description": "Hearing 3/05 at 1:00 p.m.",
     "ncsl_status": ""
   },
   {
@@ -1395,8 +1395,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/sb/sb0198t.pdf",
-    "latest_action_date": "2026-04-10",
-    "latest_action_description": "Third Reading Passed",
+    "latest_action_date": "2026-05-26",
+    "latest_action_description": "Approved by the Governor - Chapter 784",
     "ncsl_status": ""
   },
   {
@@ -1461,8 +1461,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1488,8 +1488,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1603,8 +1603,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-04-13",
-    "latest_action_description": "Third Reading Passed",
+    "latest_action_date": "2026-05-26",
+    "latest_action_description": "Approved by the Governor - Chapter 633",
     "ncsl_status": ""
   },
   {
@@ -1703,8 +1703,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-04-13",
-    "latest_action_description": "Third Reading Passed",
+    "latest_action_date": "2026-05-26",
+    "latest_action_description": "Approved by the Governor - Chapter 634",
     "ncsl_status": ""
   },
   {
@@ -1721,8 +1721,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1744,15 +1744,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

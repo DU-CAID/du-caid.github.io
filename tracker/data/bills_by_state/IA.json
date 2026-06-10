@@ -41,8 +41,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -111,8 +111,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -176,7 +176,7 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HF2150.pdf",
     "latest_action_date": "2026-01-26",
-    "latest_action_description": "Introduced, referred to Economic Growth and Technology. H.J. 01/26.",
+    "latest_action_description": "Introduced, referred to Economic Growth and Technology.",
     "ncsl_status": ""
   },
   {
@@ -202,7 +202,7 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HF2153.pdf",
     "latest_action_date": "2026-01-26",
-    "latest_action_description": "Introduced, referred to Education. H.J. 01/26.",
+    "latest_action_description": "Introduced, referred to Education.",
     "ncsl_status": ""
   },
   {
@@ -223,8 +223,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -296,16 +296,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "synthetic_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -324,9 +324,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -383,8 +383,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -513,8 +513,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -558,8 +558,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -621,8 +621,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGR/91/HF2783.pdf",
-    "latest_action_date": "2026-05-18",
-    "latest_action_description": "Reported correctly enrolled, signed by Speaker and President, and sent to Governor. H.J. 05/18.",
+    "latest_action_date": "2026-06-02",
+    "latest_action_description": "Item vetoed, signed by Governor. H.J. 06/02.",
     "ncsl_status": ""
   },
   {
@@ -761,17 +761,17 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
-      "high_risk_ai",
       "ai_system",
       "algorithmic_tool",
+      "ai_system_composite",
+      "adjacent_tech",
       "artificial_intelligence",
+      "high_risk_ai",
       "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -947,9 +947,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1006,8 +1006,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1135,8 +1135,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ml_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ml_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1162,18 +1162,18 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "algorithmic_tool",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1253,8 +1253,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1403,11 +1403,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai_variant",
+      "artificial_intelligence",
       "machine_learning",
+      "generative_ai_variant",
       "ai_system_composite",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",

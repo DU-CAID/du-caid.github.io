@@ -1,32 +1,5 @@
 [
   {
-    "bill_id": "ocd-bill/f79deea5-a6fc-4f89-aa0f-7795db25ce3f",
-    "state": "HI",
-    "session": "2019 Regular Session",
-    "identifier": "HB 1080",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.capitol.hawaii.gov/session2019/bills/HB1080_.HTM",
-    "latest_action_date": "2019-01-28",
-    "latest_action_description": "Referred to TIA, FIN, referral sheet 6",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/cdb9b4a5-ee96-49df-a24a-106cb9c4d666",
     "state": "HI",
     "session": "2020 Regular Session",
@@ -53,16 +26,15 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/3d9eba4e-d75d-4d57-9bd5-34a076417dfb",
+    "bill_id": "ocd-bill/f79deea5-a6fc-4f89-aa0f-7795db25ce3f",
     "state": "HI",
     "session": "2019 Regular Session",
-    "identifier": "HB 1185",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE TASK FORCE.",
+    "identifier": "HB 1080",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
     "updated": "",
-    "core_ai_hits": 2,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -75,9 +47,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.capitol.hawaii.gov/session2019/bills/HB1185_.HTM",
+    "primary_url": "https://www.capitol.hawaii.gov/session2019/bills/HB1080_.HTM",
     "latest_action_date": "2019-01-28",
-    "latest_action_description": "Referred to EDB/LAB, FIN, referral sheet 6",
+    "latest_action_description": "Referred to TIA, FIN, referral sheet 6",
     "ncsl_status": ""
   },
   {
@@ -96,14 +68,42 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
     "latest_action_date": "2019-12-01",
     "latest_action_description": "Carried over to 2020 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3d9eba4e-d75d-4d57-9bd5-34a076417dfb",
+    "state": "HI",
+    "session": "2019 Regular Session",
+    "identifier": "HB 1185",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE TASK FORCE.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.capitol.hawaii.gov/session2019/bills/HB1185_.HTM",
+    "latest_action_date": "2019-01-28",
+    "latest_action_description": "Referred to EDB/LAB, FIN, referral sheet 6",
     "ncsl_status": ""
   },
   {
@@ -157,32 +157,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/277f577f-5f95-4f70-8148-063e857bb1de",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "HB 1384",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/49e0eb4a-536a-43a5-97dc-cf2fd78f1a4e",
     "state": "HI",
     "session": "2025",
@@ -209,6 +183,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/277f577f-5f95-4f70-8148-063e857bb1de",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 1384",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/5ea03ad1-d598-49aa-9b0f-62fc3fd30c2b",
     "state": "HI",
     "session": "2024",
@@ -225,8 +225,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -251,8 +251,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -303,8 +303,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -323,8 +323,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "synthetic_media"
+      "synthetic_media",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -533,8 +533,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -553,15 +553,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -758,9 +758,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_decision_system",
       "ai_system_composite",
       "generative_ai_variant",
+      "algorithmic_decision_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -793,8 +793,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -852,7 +852,7 @@
     "source_bucket": "regex_flagged",
     "primary_url": null,
     "latest_action_date": "2026-03-30",
-    "latest_action_description": "Reported from LBT/GVO (Stand. Com. Rep. No. 3358) with recommendation of passage on Second Reading, as amended (SD 1) and referral to WAM.",
+    "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.",
     "ncsl_status": ""
   },
   {
@@ -865,8 +865,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -907,31 +907,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/0536e818-1a43-4e8b-b284-3fd665cf330e",
-    "state": "HI",
-    "session": "2021 Regular Session",
-    "identifier": "HB 346",
-    "title": "RELATING TO PRIVACY.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "synthetic_media"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://capitol.hawaii.gov/session2021/bills/HB346_.HTM",
-    "latest_action_date": "2021-01-27",
-    "latest_action_description": "Referred to CPC, JHA, referral sheet 1",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/7141d38f-dab8-4cfe-ad8c-2c5d16475343",
     "state": "HI",
     "session": "2022 Regular Session",
@@ -954,6 +929,31 @@
     "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/HB346_.HTM",
     "latest_action_date": "2021-12-10",
     "latest_action_description": "Carried over to 2022 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/0536e818-1a43-4e8b-b284-3fd665cf330e",
+    "state": "HI",
+    "session": "2021 Regular Session",
+    "identifier": "HB 346",
+    "title": "RELATING TO PRIVACY.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "synthetic_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://capitol.hawaii.gov/session2021/bills/HB346_.HTM",
+    "latest_action_date": "2021-01-27",
+    "latest_action_description": "Referred to CPC, JHA, referral sheet 1",
     "ncsl_status": ""
   },
   {
@@ -1059,6 +1059,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/966eeb08-f319-4ee1-95e9-43c73289c97e",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 546",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/1cedb5e8-e477-4841-a1a6-00d46413af85",
     "state": "HI",
     "session": "2025",
@@ -1085,10 +1111,10 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/966eeb08-f319-4ee1-95e9-43c73289c97e",
+    "bill_id": "ocd-bill/17a8f9e5-8932-4360-89bc-f57b0cde925f",
     "state": "HI",
-    "session": "2026",
-    "identifier": "HB 546",
+    "session": "2025",
+    "identifier": "HB 639",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
     "updated": "",
     "core_ai_hits": 1,
@@ -1106,8 +1132,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "latest_action_date": "2025-02-05",
+    "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on CPC with none voting aye with reservations; none voting no (0) and Representative(s) Cochran, Ward excused (2).",
     "ncsl_status": ""
   },
   {
@@ -1134,32 +1160,6 @@
     "primary_url": null,
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/17a8f9e5-8932-4360-89bc-f57b0cde925f",
-    "state": "HI",
-    "session": "2025",
-    "identifier": "HB 639",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-02-05",
-    "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on CPC with none voting aye with reservations; none voting no (0) and Representative(s) Cochran, Ward excused (2).",
     "ncsl_status": ""
   },
   {
@@ -1267,31 +1267,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/4ee021c6-cc6f-4533-8742-3ac2a4a2899d",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "HB 824",
-    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/cc323f5e-4913-418f-9bb8-8b145c9f26c4",
     "state": "HI",
     "session": "2025",
@@ -1317,16 +1292,16 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/b2d2467b-f3c7-4dc9-a546-321bde728b02",
+    "bill_id": "ocd-bill/4ee021c6-cc6f-4533-8742-3ac2a4a2899d",
     "state": "HI",
-    "session": "2025",
-    "identifier": "HB 831",
-    "title": "RELATING TO ANTITRUST.",
+    "session": "2026",
+    "identifier": "HB 824",
+    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1337,8 +1312,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2025-01-23",
-    "latest_action_description": "Referred to CPC, JHA, FIN, referral sheet 3",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -1367,6 +1342,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/b2d2467b-f3c7-4dc9-a546-321bde728b02",
+    "state": "HI",
+    "session": "2025",
+    "identifier": "HB 831",
+    "title": "RELATING TO ANTITRUST.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-01-23",
+    "latest_action_description": "Referred to CPC, JHA, FIN, referral sheet 3",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/de6bfe36-091b-4dc8-94c9-df3dc9d13694",
     "state": "HI",
     "session": "2019 Regular Session",
@@ -1376,8 +1376,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1606,8 +1606,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1658,8 +1658,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1894,8 +1894,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2031,32 +2031,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/089702c3-869c-4034-aa95-591bde02c177",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "SB 1622",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/e03af1a8-60bf-447d-8532-0cb782e5c82e",
     "state": "HI",
     "session": "2025",
@@ -2080,6 +2054,32 @@
     "primary_url": null,
     "latest_action_date": "2025-03-06",
     "latest_action_description": "Referred to HED, ECD, FIN, referral sheet 19",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/089702c3-869c-4034-aa95-591bde02c177",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 1622",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -2195,9 +2195,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2352,16 +2352,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2431,8 +2431,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2513,8 +2513,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2533,8 +2533,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2653,6 +2653,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/56c9faeb-3eb3-4472-8707-fa76f0c6a79b",
+    "state": "HI",
+    "session": "2021 Regular Session",
+    "identifier": "SB 428",
+    "title": "RELATING TO FELONIES.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://capitol.hawaii.gov/session2021/bills/SB428_SD1_.HTM",
+    "latest_action_date": "2021-04-06",
+    "latest_action_description": "The committee(s) on JHA recommend(s) that the measure be deferred.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/5b8bb6ea-1670-486c-91b8-fa0976478a2e",
     "state": "HI",
     "session": "2022 Regular Session",
@@ -2678,11 +2703,11 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/56c9faeb-3eb3-4472-8707-fa76f0c6a79b",
+    "bill_id": "ocd-bill/af554ed1-087e-4927-b640-135a3cd61e69",
     "state": "HI",
-    "session": "2021 Regular Session",
-    "identifier": "SB 428",
-    "title": "RELATING TO FELONIES.",
+    "session": "2025",
+    "identifier": "SB 487",
+    "title": "RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -2693,13 +2718,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "abstract",
+      "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://capitol.hawaii.gov/session2021/bills/SB428_SD1_.HTM",
-    "latest_action_date": "2021-04-06",
-    "latest_action_description": "The committee(s) on JHA recommend(s) that the measure be deferred.",
+    "primary_url": null,
+    "latest_action_date": "2025-01-21",
+    "latest_action_description": "Referred to LBT, WAM.",
     "ncsl_status": ""
   },
   {
@@ -2729,32 +2755,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/af554ed1-087e-4927-b640-135a3cd61e69",
-    "state": "HI",
-    "session": "2025",
-    "identifier": "SB 487",
-    "title": "RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-01-21",
-    "latest_action_description": "Referred to LBT, WAM.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/e97556fa-bc6b-43ff-b09b-65123cbde895",
     "state": "HI",
     "session": "2026",
@@ -2771,8 +2771,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2798,8 +2798,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2824,8 +2824,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2850,8 +2850,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2874,8 +2874,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2897,8 +2897,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2924,15 +2924,15 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ai_system_composite",
+      "machine_learning",
       "clinical_algorithms",
       "ai_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3036,8 +3036,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3060,8 +3060,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3108,15 +3108,15 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ai_system_composite",
+      "machine_learning",
       "clinical_algorithms",
       "ai_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3139,8 +3139,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"

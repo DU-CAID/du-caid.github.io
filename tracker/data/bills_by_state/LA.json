@@ -40,8 +40,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -86,8 +86,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -136,7 +136,7 @@
     "state": "LA",
     "session": "2026",
     "identifier": "HB 119",
-    "title": "CRIME: Provides relative to unlawful conduct involving images of another person created by artificial intelligence (RE SEE FISC NOTE GF EX)",
+    "title": "CRIME: Provides relative to unlawful conduct involving images of another person created by artificial intelligence (EN SEE FISC NOTE GF EX)",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
@@ -154,8 +154,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1466672",
-    "latest_action_date": "2026-05-19",
-    "latest_action_description": "Senate floor amendments read and adopted.  Read by title, passed by a vote of 34 yeas and 0 nays, and ordered returned to the House.  Motion to reconsider tabled.",
+    "latest_action_date": "2026-06-04",
+    "latest_action_description": "Sent to the Governor for executive approval.",
     "ncsl_status": ""
   },
   {
@@ -168,8 +168,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
       "artificial_intelligence",
+      "digital_replica",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -177,8 +177,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -204,8 +204,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -224,8 +224,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -256,8 +256,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -305,8 +305,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "automated_decision_system"
     ],
     "matched_tiers": [
@@ -370,9 +370,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1468240",
-    "latest_action_date": "2026-05-07",
-    "latest_action_description": "Read second time by title and referred to the Committee on Senate and Governmental Affairs.",
+    "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1474782",
+    "latest_action_date": "2026-06-04",
+    "latest_action_description": "Sent to the Governor for executive approval.",
     "ncsl_status": ""
   },
   {
@@ -421,8 +421,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1467912",
-    "latest_action_date": "2026-05-19",
-    "latest_action_description": "Scheduled for concurrence on 05/20/2026.",
+    "latest_action_date": "2026-05-29",
+    "latest_action_description": "Effective date: 08/01/2026.",
     "ncsl_status": ""
   },
   {
@@ -494,8 +494,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -575,8 +575,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -657,14 +657,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1469365",
-    "latest_action_date": "2026-05-19",
-    "latest_action_description": "Reported favorably (11-0).",
+    "latest_action_date": "2026-05-28",
+    "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
     "ncsl_status": "Adopted"
   },
   {
@@ -677,8 +677,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -713,11 +713,11 @@
       "raw_text",
       "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1474078",
-    "latest_action_date": "2026-05-19",
-    "latest_action_description": "Read by title.  Lies over under the rules.",
+    "latest_action_date": "2026-06-03",
+    "latest_action_description": "Taken by the Clerk of the House and presented to the Secretary of State in accordance with the Rules of the House.",
     "ncsl_status": ""
   },
   {
@@ -730,14 +730,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
       "ai_system",
       "machine_learning",
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -788,8 +788,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -824,8 +824,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1449450",
-    "latest_action_date": "2026-05-13",
-    "latest_action_description": "Sent to the Governor by the Secretary of the Senate.",
+    "latest_action_date": "2026-05-14",
+    "latest_action_description": "Effective date 8/1/2026.",
     "ncsl_status": ""
   },
   {
@@ -838,10 +838,10 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "llm_variant",
-      "machine_learning",
       "foundation_model",
+      "llm_variant",
       "ml_system",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -932,8 +932,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1450362",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "Read by title and returned to the Calendar, subject to call.",
+    "latest_action_date": "2026-05-28",
+    "latest_action_description": "Read by title; withdrawn from the files of the Senate.",
     "ncsl_status": ""
   },
   {
@@ -952,14 +952,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1465021",
-    "latest_action_date": "2026-05-19",
-    "latest_action_description": "Received from the House without amendments.",
+    "latest_action_date": "2026-05-29",
+    "latest_action_description": "Effective date 8/1/2026.",
     "ncsl_status": ""
   },
   {
@@ -983,8 +983,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1465685",
-    "latest_action_date": "2026-05-19",
-    "latest_action_description": "Received from the House with amendments.",
+    "latest_action_date": "2026-05-29",
+    "latest_action_description": "Effective date 5/29/2026.",
     "ncsl_status": ""
   },
   {
@@ -997,8 +997,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "automated_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1035,8 +1035,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1450263",
-    "latest_action_date": "2026-05-19",
-    "latest_action_description": "Notice House Conference Committee members appointed.",
+    "latest_action_date": "2026-06-01",
+    "latest_action_description": "Sent to the Governor by the Secretary of the Senate.",
     "ncsl_status": ""
   },
   {
@@ -1074,9 +1074,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1136,8 +1136,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1191,8 +1191,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

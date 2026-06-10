@@ -95,8 +95,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -119,10 +119,10 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "llm_variant",
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence",
       "foundation_model"
     ],
     "matched_tiers": [
@@ -342,8 +342,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-5899.htm",
-    "latest_action_date": "2026-04-28",
-    "latest_action_description": "bill electronically reproduced 04/23/2026",
+    "latest_action_date": "2026-05-19",
+    "latest_action_description": "reported with recommendation for referral to Committee on Rules",
     "ncsl_status": ""
   },
   {
@@ -372,6 +372,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/dbffa0fb-2d94-4188-8c7d-786f5ed7ebd2",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "HR 324",
+    "title": "A resolution to call upon the United States Congress to propose and send to the states for ratification a constitutional amendment to clarify that the states and Congress may set reasonable limits on the spending of money to influence elections, including distinctions between natural persons and artificial entities.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/resolutionintroduced/House/htm/2026-HIR-0324.htm",
+    "latest_action_date": "2026-05-21",
+    "latest_action_description": "introduced by Representative Rep. Pat Outman",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/a02071bb-bd26-4e30-a486-c136c91d55ed",
     "state": "MI",
     "session": "2025-2026",
@@ -397,6 +422,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/5bb06f83-ed5d-4b79-9141-c92e97f48598",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "SB 991",
+    "title": "Trade: consumer goods and services; use of certain algorithms and protected class data to set prices; prohibit. Amends sec. 3 of 1976 PA 331 (MCL 445.903) & adds sec. 3j.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "algorithmic_tool",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-0991.htm",
+    "latest_action_date": "2026-05-20",
+    "latest_action_description": "INTRODUCED BY SENATOR MALLORY MCMORROW",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/11198232-f403-49cf-a2e5-eef1aff6ea4b",
     "state": "MI",
     "session": "2017-2018",
@@ -406,8 +458,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",

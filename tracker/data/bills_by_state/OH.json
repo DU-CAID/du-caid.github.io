@@ -39,8 +39,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -68,9 +68,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -143,14 +143,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ai_system_composite",
+      "machine_learning",
       "deepfake_media",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -249,8 +249,8 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "ai_system",
+      "ai_system_composite",
       "artificial_intelligence",
       "generative_ai_variant"
     ],
@@ -286,8 +286,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -307,16 +307,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "generative_ai_variant",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -342,8 +342,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -394,8 +394,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -430,8 +430,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb646/02_RH/pdf/",
-    "latest_action_date": "2026-03-25T04:00:00+00:00",
-    "latest_action_description": "Referred to committee",
+    "latest_action_date": "2026-06-02T04:00:00+00:00",
+    "latest_action_description": "Re-referred",
     "ncsl_status": ""
   },
   {
@@ -452,7 +452,7 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb650/01_RH/pdf/",
     "latest_action_date": "2026-03-25T04:00:00+00:00",
@@ -475,9 +475,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract",
-      "title",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -546,15 +546,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -604,8 +604,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -675,14 +675,17 @@
     "identifier": "SB 163",
     "title": "Regards AI images, simulated child porn, replica identity fraud",
     "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "adjacent_tech",
       "ai_system_composite",
-      "ai_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
@@ -690,8 +693,8 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb163/00_IN/pdf/",
-    "latest_action_date": "2025-04-02T04:00:00+00:00",
+    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb163/01_RS/pdf/",
+    "latest_action_date": "2026-05-27T04:00:00+00:00",
     "latest_action_description": "Referred to committee",
     "ncsl_status": ""
   },
@@ -711,9 +714,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -732,9 +735,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -819,8 +822,8 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb393/00_IN/pdf/",
-    "latest_action_date": "2026-03-24T04:00:00+00:00",
+    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb393/01_RS/pdf/",
+    "latest_action_date": "2026-05-27T04:00:00+00:00",
     "latest_action_description": "Referred to committee",
     "ncsl_status": ""
   },

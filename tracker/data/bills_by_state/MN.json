@@ -184,8 +184,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
       "machine_learning",
+      "automated_decision_system",
       "algorithmic_decision_system"
     ],
     "matched_tiers": [
@@ -294,8 +294,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -339,9 +339,9 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "algorithmic_decision_system",
       "artificial_intelligence",
+      "generative_ai_variant",
       "machine_learning",
       "ai_system_composite",
       "ai_model_variant"
@@ -456,8 +456,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4138/versions/5/",
-    "latest_action_date": "2026-05-16",
-    "latest_action_description": "Returned from Senate with amendment",
+    "latest_action_date": "2026-07-01",
+    "latest_action_description": "Effective date 07/01/2026",
     "ncsl_status": ""
   },
   {
@@ -497,9 +497,9 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "algorithmic_decision_system",
       "artificial_intelligence",
+      "generative_ai_variant",
       "machine_learning",
       "ai_system_composite",
       "ai_model_variant"
@@ -556,9 +556,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -585,9 +585,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "adjacent_tech",
       "automated_decision_system",
-      "artificial_intelligence",
-      "adjacent_tech"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -613,9 +613,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
+      "artificial_intelligence",
       "ai_system"
     ],
     "matched_tiers": [
@@ -695,9 +695,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -723,8 +723,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -776,10 +776,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai",
@@ -886,13 +886,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4808/versions/1/",
     "latest_action_date": "2026-05-16",
@@ -909,9 +909,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1041,8 +1041,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "deepfake_media"
+      "deepfake_media",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1393,9 +1393,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1521,9 +1521,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "machine_learning",
-      "algorithmic_decision_system",
-      "artificial_intelligence"
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1555,8 +1555,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1600,8 +1600,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1632,8 +1632,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1686,8 +1686,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1714,8 +1714,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1794,8 +1794,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1845,8 +1845,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1897,9 +1897,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "automated_decision_system",
       "artificial_intelligence",
-      "adjacent_tech",
-      "automated_decision_system"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1925,9 +1925,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1942,6 +1942,37 @@
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4689/versions/1/",
     "latest_action_date": "2026-04-09",
     "latest_action_description": "Comm report: To pass as amended and re-refer to Judiciary and Public Safety",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/5982d9ca-b93b-45e4-840b-05729be4e98f",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "SF 4696",
+    "title": "Prohibiting Social Media Manipulation Act",
+    "updated": "",
+    "core_ai_hits": 6,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "algorithmic_decision_system",
+      "ai_system_composite",
+      "ai_model_variant",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=SF4696&version=0&session=ls93&session_year=2024&session_number=0",
+    "latest_action_date": "2024-03-07",
+    "latest_action_description": "Introduction and first reading",
     "ncsl_status": ""
   },
   {
@@ -1962,42 +1993,11 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4696/versions/1/",
     "latest_action_date": "2026-05-14",
     "latest_action_description": "Rule 45-amend, subst. General Orders HF4138, SF indefinitely postponed",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/5982d9ca-b93b-45e4-840b-05729be4e98f",
-    "state": "MN",
-    "session": "2023-2024",
-    "identifier": "SF 4696",
-    "title": "Prohibiting Social Media Manipulation Act",
-    "updated": "",
-    "core_ai_hits": 6,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence",
-      "algorithmic_decision_system",
-      "generative_ai_variant",
-      "machine_learning"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=SF4696&version=0&session=ls93&session_year=2024&session_number=0",
-    "latest_action_date": "2024-03-07",
-    "latest_action_description": "Introduction and first reading",
     "ncsl_status": ""
   },
   {
@@ -2011,8 +2011,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "algorithmic_tool",
-      "ai_system_composite"
+      "ai_system_composite",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2087,9 +2087,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2115,14 +2115,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",

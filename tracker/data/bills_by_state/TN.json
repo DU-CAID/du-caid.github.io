@@ -62,8 +62,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -88,8 +88,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -136,7 +136,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "HB 1455",
-    "title": "Criminal Offenses - As introduced, creates a Class A felony offense of knowingly training artificial intelligence to encourage the act of suicide or criminal homicide, or act in specific manners, including developing an emotional relationship with an individual or simulating a human being, including in appearance, voice, or other mannerisms. - Amends TCA Title 29; Title 33; Title 39 and Title 47.",
+    "title": "Computers and Electronic Processing - As enacted, requires TACIR to study artificial intelligence and submit a report to the governor and both speakers by January 31, 2027. - Amends TCA Title 29; Title 33; Title 39 and Title 47.",
     "updated": "",
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
@@ -152,14 +152,14 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB1455.pdf",
-    "latest_action_date": "2026-04-23",
-    "latest_action_description": "Sponsor(s) Added.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Comp. became Pub. Ch. 1066",
     "ncsl_status": ""
   },
   {
@@ -202,8 +202,8 @@
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -233,8 +233,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -279,9 +279,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system_composite",
       "machine_learning",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -312,8 +312,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -336,11 +336,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
       "foundation_model",
+      "artificial_intelligence",
       "llm_variant"
     ],
     "matched_tiers": [
@@ -363,16 +363,16 @@
     "state": "TN",
     "session": "114",
     "identifier": "HB 1946",
-    "title": "Consumer Protection - As introduced, enacts the \"Curbing Harmful AI Technology (CHAT) Act.\" - Amends TCA Title 29; Title 37 and Title 47.",
+    "title": "Consumer Protection - As enacted, requires the Tennessee advisory commission on intergovernmental relations (TACIR) to conduct a study of the potential regulation of artificial intelligence systems and generative artificial intelligence chatbots in this state. - Amends TCA Title 29; Title 37 and Title 47.",
     "updated": "",
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
+      "generative_ai_variant",
       "ai_system_composite",
       "adjacent_tech",
-      "generative_ai_variant"
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai",
@@ -385,8 +385,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB1946.pdf",
-    "latest_action_date": "2026-04-21",
-    "latest_action_description": "Sponsor(s) Added.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Comp. became Pub. Ch. 1082",
     "ncsl_status": ""
   },
   {
@@ -394,7 +394,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "HB 1951",
-    "title": "Criminal Offenses - As introduced, creates a new offense of coercive suicide; specifies that a person or entity commits the offense of coercive suicide if such person or entity owns an artificial intelligence system and the artificial intelligence system advises or encourages a person to commit or attempt to commit suicide.  - Amends TCA Title 39.",
+    "title": "Criminal Offenses - As enacted, enacts the \"Grace Anne Sparks Coercive Suicide Prevention Law of 2026.\" - Amends TCA Title 39.",
     "updated": "",
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
@@ -407,14 +407,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB1951.pdf",
-    "latest_action_date": "2026-04-21",
-    "latest_action_description": "Sponsor(s) Added.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Comp. became Pub. Ch. 1098",
     "ncsl_status": ""
   },
   {
@@ -427,8 +426,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -461,8 +460,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -513,8 +512,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -540,8 +539,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -595,8 +594,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -625,8 +624,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -703,8 +702,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -732,8 +731,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -752,13 +751,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1008,7 +1007,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "HB 2631",
-    "title": "Appropriations - As introduced, makes appropriations for the fiscal years beginning July 1, 2025, and July 1, 2026. -",
+    "title": "Appropriations - As enacted, makes appropriations for the fiscal years beginning July 1, 2025, and July 1, 2026. -",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1024,8 +1023,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB2631.pdf",
-    "latest_action_date": "2026-04-17",
-    "latest_action_description": "Sponsor(s) Added.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Comp. became Pub. Ch. 1142",
     "ncsl_status": ""
   },
   {
@@ -1043,8 +1042,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1067,8 +1066,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1146,8 +1145,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1179,8 +1178,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1194,7 +1193,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "HB 545",
-    "title": "Education, Dept. of - As introduced, requires the department to provide at least one professional development course that provides asynchronous instruction on the use of artificial intelligence in the classroom and that is made available, at no cost, to teachers in grades 6-12; requires such teachers to complete at least one department-approved professional development course on the use of artificial intelligence in the classroom by August 1, 2027, or within two years of becoming licensed as a teacher in this state, whichever is later. - Amends TCA Title 49.",
+    "title": "Education, Dept. of - As enacted, requires the department to provide at least one professional development course that provides asynchronous instruction on the use of artificial intelligence in the classroom and that is made available, at no cost, to teachers in grades 6-12; requires such teachers to complete at least one department-approved professional development course on the use of artificial intelligence in the classroom by the later of August 1, 2028, or within two years of becoming licensed as a teacher in this state. - Amends TCA Title 49.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1211,8 +1210,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/HB0545.pdf",
-    "latest_action_date": "2026-04-21",
-    "latest_action_description": "Sponsor(s) Added.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Comp. became Pub. Ch. 1056",
     "ncsl_status": ""
   },
   {
@@ -1402,8 +1401,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1529,20 +1528,20 @@
     "state": "TN",
     "session": "114",
     "identifier": "SB 1493",
-    "title": "Criminal Offenses - As introduced, creates a Class A felony offense of knowingly training artificial intelligence to encourage the act of suicide or criminal homicide, or act in specific manners, including developing an emotional relationship with an individual or simulating a human being, including in appearance, voice, or other mannerisms. - Amends TCA Title 29; Title 33; Title 39 and Title 47.",
+    "title": "Computers and Electronic Processing - As enacted, requires TACIR to study artificial intelligence and submit a report to the governor and both speakers by January 31, 2027. - Amends TCA Title 29; Title 33; Title 39 and Title 47.",
     "updated": "",
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "llm_variant",
       "adjacent_tech",
       "large_language_model",
       "ai_system_composite",
-      "artificial_intelligence",
-      "llm_variant"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1551,8 +1550,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB1493.pdf",
-    "latest_action_date": "2026-05-11",
-    "latest_action_description": "Transmitted to Governor for action.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Effective date(s) 05/22/2026",
     "ncsl_status": ""
   },
   {
@@ -1572,8 +1571,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1598,8 +1597,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1639,7 +1638,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "SB 1700",
-    "title": "Consumer Protection - As introduced, enacts the \"Curbing Harmful AI Technology (CHAT) Act.\" - Amends TCA Title 29; Title 37 and Title 47.",
+    "title": "Consumer Protection - As enacted, requires the Tennessee advisory commission on intergovernmental relations (TACIR) to conduct a study of the potential regulation of artificial intelligence systems and generative artificial intelligence chatbots in this state. - Amends TCA Title 29; Title 37 and Title 47.",
     "updated": "",
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
@@ -1651,8 +1650,8 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1661,8 +1660,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB1700.pdf",
-    "latest_action_date": "2026-05-11",
-    "latest_action_description": "Transmitted to Governor for action.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Effective date(s) 05/22/2026",
     "ncsl_status": ""
   },
   {
@@ -1675,9 +1674,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
+      "machine_learning",
       "artificial_intelligence",
-      "machine_learning"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1712,8 +1711,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1727,27 +1726,26 @@
     "state": "TN",
     "session": "114",
     "identifier": "SB 1815",
-    "title": "Criminal Offenses - As introduced, creates a new offense of coercive suicide; specifies that a person or entity commits the offense of coercive suicide if such person or entity owns an artificial intelligence system and the artificial intelligence system advises or encourages a person to commit or attempt to commit suicide.  - Amends TCA Title 39.",
+    "title": "Criminal Offenses - As enacted, enacts the \"Grace Anne Sparks Coercive Suicide Prevention Law of 2026.\" - Amends TCA Title 39.",
     "updated": "",
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "generative_ai_variant",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB1815.pdf",
-    "latest_action_date": "2026-05-11",
-    "latest_action_description": "Transmitted to Governor for action.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Effective date(s) 07/01/2026",
     "ncsl_status": ""
   },
   {
@@ -1870,8 +1868,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1952,8 +1950,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1976,8 +1974,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2009,8 +2007,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2107,12 +2105,12 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "llm_variant",
-      "foundation_model",
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "foundation_model",
+      "llm_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2139,15 +2137,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2193,9 +2191,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "generative_ai_variant",
-      "adjacent_tech",
-      "artificial_intelligence"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2227,8 +2225,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -2260,8 +2258,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2312,8 +2310,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2338,8 +2336,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2415,8 +2413,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -2439,8 +2437,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2511,7 +2509,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "SB 2690",
-    "title": "Appropriations - As introduced, makes appropriations for the fiscal years beginning July 1, 2025, and July 1, 2026. -",
+    "title": "Appropriations - As enacted, makes appropriations for the fiscal years beginning July 1, 2025, and July 1, 2026. -",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -2527,8 +2525,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB2690.pdf",
-    "latest_action_date": "2026-05-11",
-    "latest_action_description": "Transmitted to Governor for action.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Effective date(s) 05/22/2026, 07/01/2026",
     "ncsl_status": ""
   },
   {
@@ -2600,8 +2598,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2615,7 +2613,7 @@
     "state": "TN",
     "session": "114",
     "identifier": "SB 677",
-    "title": "Education, Dept. of - As introduced, requires the department to provide at least one professional development course that provides asynchronous instruction on the use of artificial intelligence in the classroom and that is made available, at no cost, to teachers in grades 6-12; requires such teachers to complete at least one department-approved professional development course on the use of artificial intelligence in the classroom by August 1, 2027, or within two years of becoming licensed as a teacher in this state, whichever is later. - Amends TCA Title 49.",
+    "title": "Education, Dept. of - As enacted, requires the department to provide at least one professional development course that provides asynchronous instruction on the use of artificial intelligence in the classroom and that is made available, at no cost, to teachers in grades 6-12; requires such teachers to complete at least one department-approved professional development course on the use of artificial intelligence in the classroom by the later of August 1, 2028, or within two years of becoming licensed as a teacher in this state. - Amends TCA Title 49.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -2626,14 +2624,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://capitol.tn.gov/Bills/114/Bill/SB0677.pdf",
-    "latest_action_date": "2026-05-11",
-    "latest_action_description": "Transmitted to Governor for action.",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Effective date(s) 05/22/2026",
     "ncsl_status": ""
   },
   {
@@ -2677,8 +2675,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

@@ -59,17 +59,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
+      "artificial_intelligence",
       "generative_ai",
-      "artificial_intelligence"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -88,8 +88,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -104,6 +104,31 @@
     "primary_url": null,
     "latest_action_date": "2026-05-07",
     "latest_action_description": "Introduced and Assigned to Education Committee in House",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/1e4dd359-ee87-4f25-903b-e28f56411e1e",
+    "state": "DE",
+    "session": "153",
+    "identifier": "HB 453",
+    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO CONSUMER PROTECTION AND SURVEILLANCE BASED PRICING DISCRIMINATION.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-06-04",
+    "latest_action_description": "Introduced and Assigned to Economic Development/Banking/Insurance & Commerce Committee in House",
     "ncsl_status": ""
   },
   {
@@ -123,9 +148,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract",
-      "title",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

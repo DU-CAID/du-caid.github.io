@@ -9,9 +9,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
+      "machine_learning",
       "artificial_intelligence",
-      "machine_learning"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -65,8 +65,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -83,34 +83,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/d504b7b0-8dcf-4c5e-ae20-4f643fc2e7eb",
-    "state": "WV",
-    "session": "2022",
-    "identifier": "HB 2644",
-    "title": "West Virginia Innovation Free-Trade Business Technology Property Valuation Act and the West Virginia Innovation Free-Trade Tax Credit Act",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning",
-      "ml_system"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=HB2644%20INTR.htm&yr=2022&sesstype=RS&i=2644",
-    "latest_action_date": "2022-01-12",
-    "latest_action_description": "Filed for introduction",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/b59c1668-485b-4410-bcbf-48a0e633dd7f",
     "state": "WV",
     "session": "2021",
@@ -120,8 +92,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ml_system",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -135,6 +107,34 @@
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=HB2644%20INTR.htm&yr=2021&sesstype=RS&i=2644",
     "latest_action_date": "2021-02-23",
+    "latest_action_description": "Filed for introduction",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d504b7b0-8dcf-4c5e-ae20-4f643fc2e7eb",
+    "state": "WV",
+    "session": "2022",
+    "identifier": "HB 2644",
+    "title": "West Virginia Innovation Free-Trade Business Technology Property Valuation Act and the West Virginia Innovation Free-Trade Tax Credit Act",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence",
+      "ml_system"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=HB2644%20INTR.htm&yr=2022&sesstype=RS&i=2644",
+    "latest_action_date": "2022-01-12",
     "latest_action_description": "Filed for introduction",
     "ncsl_status": ""
   },
@@ -173,9 +173,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -201,13 +201,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ml_system",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -329,8 +329,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -355,13 +355,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -408,9 +408,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence",
       "generative_ai",
+      "artificial_intelligence",
+      "generative_ai_variant",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -488,8 +488,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -517,9 +517,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
+      "generative_ai",
       "artificial_intelligence",
-      "generative_ai"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -672,8 +672,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",

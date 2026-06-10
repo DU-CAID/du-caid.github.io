@@ -1,30 +1,5 @@
 [
   {
-    "bill_id": "ocd-bill/8c167de2-f680-45cc-be71-7dbf295fa4b6",
-    "state": "SC",
-    "session": "2025-2026",
-    "identifier": "H 3001",
-    "title": "House Rules",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/3001.htm",
-    "latest_action_date": "2026-01-29",
-    "latest_action_description": "Scrivener's error corrected",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/a0fbe35d-dfd6-4ee9-9e94-deb89073c789",
     "state": "SC",
     "session": "2023-2024",
@@ -50,6 +25,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/8c167de2-f680-45cc-be71-7dbf295fa4b6",
+    "state": "SC",
+    "session": "2025-2026",
+    "identifier": "H 3001",
+    "title": "House Rules",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/3001.htm",
+    "latest_action_date": "2026-01-29",
+    "latest_action_description": "Scrivener's error corrected",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/695d0b5a-e67a-4e3d-896f-c37337f5da7e",
     "state": "SC",
     "session": "2025-2026",
@@ -65,9 +65,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text",
-      "title",
-      "abstract"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -90,8 +90,8 @@
       "deepfake_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -99,8 +99,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/3049.htm",
-    "latest_action_date": "2026-05-15",
-    "latest_action_description": "Signed By Governor",
+    "latest_action_date": "2026-05-26",
+    "latest_action_description": "Effective date See Act for Effective Date",
     "ncsl_status": "Pending - Carryover"
   },
   {
@@ -350,9 +350,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -382,8 +382,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4591.htm",
-    "latest_action_date": "2026-05-19",
-    "latest_action_description": "Signed By Governor",
+    "latest_action_date": "2026-06-05",
+    "latest_action_description": "Effective date 01/01/27",
     "ncsl_status": ""
   },
   {
@@ -421,12 +421,12 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "deepfake_media",
-      "artificial_intelligence",
-      "synthetic_media",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "deepfake_media",
+      "machine_learning",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -485,8 +485,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -513,8 +513,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -572,8 +572,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4804.htm",
-    "latest_action_date": "2026-05-18",
-    "latest_action_description": "Signed By Governor",
+    "latest_action_date": "2026-06-02",
+    "latest_action_description": "Effective date 05/18/26",
     "ncsl_status": ""
   },
   {
@@ -617,8 +617,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -664,8 +664,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -715,8 +715,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -743,19 +743,19 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning",
       "automated_decision_system",
       "generative_ai_variant",
-      "machine_learning",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -774,8 +774,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -826,8 +826,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -903,11 +903,11 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
-      "artificial_intelligence",
       "large_language_model",
       "ai_system_composite",
       "ai_model_variant",
+      "ai_system",
+      "artificial_intelligence",
       "llm_variant"
     ],
     "matched_tiers": [
@@ -986,8 +986,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "automated_decision_system",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -1015,8 +1015,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1116,8 +1116,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ml_system",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -1176,8 +1176,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1224,8 +1224,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1252,19 +1252,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_tool",
       "ai_system_composite",
       "adjacent_tech",
-      "algorithmic_tool",
       "artificial_intelligence",
       "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,

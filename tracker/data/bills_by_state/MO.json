@@ -34,10 +34,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -166,9 +166,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
+      "artificial_intelligence",
       "ai_system"
     ],
     "matched_tiers": [
@@ -221,11 +221,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system",
       "generative_ai_variant",
+      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -333,8 +333,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -356,8 +356,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
+      "artificial_intelligence",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -409,9 +409,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -472,8 +472,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -542,10 +542,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
+      "deepfake_media",
       "ai_system_composite",
-      "deepfake_media"
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -570,13 +570,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -674,9 +674,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
       "ai_system_composite",
-      "ml_system"
+      "ml_system",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -760,8 +760,8 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -808,9 +808,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
+      "artificial_intelligence",
       "ai_system"
     ],
     "matched_tiers": [
@@ -818,8 +818,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -863,18 +863,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "synthetic_media",
       "artificial_intelligence",
+      "deepfake_media",
       "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract",
-      "title",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -893,8 +893,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system",
+      "artificial_intelligence",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -927,41 +927,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-01-27T06:00:00+00:00",
-    "latest_action_description": "Second Read and Referred S General Laws Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/c2570eb3-f466-4b0d-a55d-507b62984878",
-    "state": "MO",
-    "session": "2026",
-    "identifier": "SB 1444",
-    "title": "SCS/SB 1444 - The act provides that no person or entity that develops or deploys artificial intelligence (AI) shall advertise or represent to the public that the AI is or is able to act as a mental health professional, as defined in the act, or is capable of providing therapy services, psychotherapy services, or a mental health diagnosis.\r\n\r\n\tA violation under the act shall be considered an unlawful practice under the Missouri Merchandising Practices Act.\r\n\r\n\tThe Attorney General shall enforce the provisions of the act. Any individual may report violations of the act to the Attorney General. If the Attorney General finds that a violation occurred, the Attorney General shall commence a civil action. If the court finds that a violation occurred, the court may grant relief as described in the act. \r\n\r\n\tThe act is similar to HB 2368 (2026).  \r\nJULIA SHEVELEVA",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
       "title",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-04-07T05:00:00+00:00",
-    "latest_action_description": "SCS Voted Do Pass S General Laws Committee (5255S.04C)",
+    "latest_action_date": "2026-01-27T06:00:00+00:00",
+    "latest_action_description": "Second Read and Referred S General Laws Committee",
     "ncsl_status": ""
   },
   {
@@ -992,6 +965,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/c2570eb3-f466-4b0d-a55d-507b62984878",
+    "state": "MO",
+    "session": "2026",
+    "identifier": "SB 1444",
+    "title": "SCS/SB 1444 - The act provides that no person or entity that develops or deploys artificial intelligence (AI) shall advertise or represent to the public that the AI is or is able to act as a mental health professional, as defined in the act, or is capable of providing therapy services, psychotherapy services, or a mental health diagnosis.\r\n\r\n\tA violation under the act shall be considered an unlawful practice under the Missouri Merchandising Practices Act.\r\n\r\n\tThe Attorney General shall enforce the provisions of the act. Any individual may report violations of the act to the Attorney General. If the Attorney General finds that a violation occurred, the Attorney General shall commence a civil action. If the court finds that a violation occurred, the court may grant relief as described in the act. \r\n\r\n\tThe act is similar to HB 2368 (2026).  \r\nJULIA SHEVELEVA",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-04-07T05:00:00+00:00",
+    "latest_action_description": "SCS Voted Do Pass S General Laws Committee (5255S.04C)",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/6d6e2503-d80b-4593-b092-fb89b83504ce",
     "state": "MO",
     "session": "2026",
@@ -1007,8 +1007,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1027,8 +1027,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system",
+      "artificial_intelligence",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -1056,8 +1056,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1091,8 +1091,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1117,8 +1117,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1190,9 +1190,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1225,8 +1225,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
