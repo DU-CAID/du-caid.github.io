@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI's Infrastructure Bill: How States Are Regulating the Data Center Boom</title>
+  <meta name="description" content="State legislatures introduced more than 240 data center bills in 2025 alone, driven by AI compute demand straining power grids. This report maps three phases of data center policy: the tax-incentive era, ratepayer-protection reforms, and a growing moratorium movement.">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+  <style>
+    .post-header { margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border); }
+    .post-meta { font-size: .85rem; color: var(--muted); margin-bottom: .5rem; }
+    .post-tag {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 600;
+      padding: .15rem .5rem;
+      border-radius: 999px;
+      background: #fce8ec;
+      color: var(--du-crimson);
+      margin-right: .4rem;
+    }
+    .post-title { margin: .25rem 0 .5rem; font-size: 1.9rem; line-height: 1.2; }
+    .post-body p { line-height: 1.75; margin-bottom: 1.1rem; }
+    .post-body h2 { margin-top: 2.25rem; margin-bottom: .6rem; font-size: 1.25rem; border-bottom: 2px solid var(--du-crimson); padding-bottom: .3rem; display: inline-block; }
+    .post-body h3 { margin-top: 1.5rem; margin-bottom: .4rem; font-size: 1.05rem; color: var(--du-crimson); }
+    .post-body a { color: var(--du-crimson); }
+    .post-body ul { padding-left: 1.4rem; margin-bottom: 1.1rem; }
+    .post-body ul li { line-height: 1.7; margin-bottom: .3rem; }
+    .post-cta {
+      margin-top: 2rem;
+      padding: 1.25rem 1.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--du-crimson);
+      border-radius: .5rem;
+    }
+    .post-cta p { margin: 0 0 .75rem; font-weight: 600; }
+    .back-link { font-size: .88rem; color: var(--muted); text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
+    .back-link:hover { color: var(--du-crimson); }
+
+    .stat-row {
+      display: flex;
+      gap: 1rem;
+      margin: 1.5rem 0;
+      flex-wrap: wrap;
+    }
+    .stat-box {
+      flex: 1;
+      min-width: 130px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--du-crimson);
+      border-radius: .5rem;
+      padding: .85rem 1rem;
+      text-align: center;
+    }
+    .stat-box .stat-num {
+      display: block;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--du-crimson);
+      line-height: 1.1;
+    }
+    .stat-box .stat-label {
+      display: block;
+      font-size: .78rem;
+      color: var(--muted);
+      margin-top: .25rem;
+      line-height: 1.4;
+    }
+
+    .bill-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .85rem;
+      margin: 1rem 0 1.5rem;
+    }
+    .bill-table th {
+      text-align: left;
+      padding: .4rem .6rem;
+      background: var(--surface);
+      border-bottom: 2px solid var(--border);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .bill-table td {
+      padding: .4rem .6rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .bill-table tr:last-child td { border-bottom: none; }
+    .status-signed {
+      display: inline-block; font-size: .7rem; font-weight: 700;
+      padding: .1rem .45rem; border-radius: 999px;
+      background: #d1fae5; color: #065f46; white-space: nowrap;
+    }
+    .status-failed {
+      display: inline-block; font-size: .7rem; font-weight: 700;
+      padding: .1rem .45rem; border-radius: 999px;
+      background: #fee2e2; color: #991b1b; white-space: nowrap;
+    }
+    .status-vetoed {
+      display: inline-block; font-size: .7rem; font-weight: 700;
+      padding: .1rem .45rem; border-radius: 999px;
+      background: #ffedd5; color: #9a3412; white-space: nowrap;
+    }
+    .status-pending {
+      display: inline-block; font-size: .7rem; font-weight: 700;
+      padding: .1rem .45rem; border-radius: 999px;
+      background: #e0f2fe; color: #075985; white-space: nowrap;
+    }
+
+    .pull-quote {
+      margin: 1.75rem 0;
+      padding: 1rem 1.5rem;
+      border-left: 4px solid var(--du-gold);
+      background: #fdfaf3;
+      border-radius: 0 .4rem .4rem 0;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: #444;
+      line-height: 1.65;
+    }
+
+    .phase-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .phase-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: .5rem;
+      padding: 1rem 1.1rem;
+    }
+    .phase-card h4 {
+      margin: 0 0 .4rem;
+      font-size: .95rem;
+      color: var(--du-crimson);
+    }
+    .phase-card p {
+      margin: 0;
+      font-size: .83rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .data-note {
+      font-size: .8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 2.5rem;
+      padding-top: .75rem;
+    }
+
+    @media (max-width: 650px) {
+      .stat-row { flex-direction: column; }
+      .phase-grid { grid-template-columns: 1fr; }
+      .bill-table { font-size: .78rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container head-inner">
+    <a class="brand" href="/">
+      <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+      <span class="brand-text"></span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/reports/">Reports</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container prose">
+
+    <a class="back-link" href="/reports/">&larr; All Reports</a>
+
+    <div class="post-header">
+      <div class="post-meta">
+        <span class="post-tag">Data Centers</span>
+        <span class="post-tag">AI Policy</span>
+        &nbsp; June 2026 &nbsp;&middot;&nbsp; Stefani Langehennig
+      </div>
+      <h1 class="post-title">AI's Infrastructure Bill: How States Are Regulating the Data Center Boom</h1>
+      <p style="color:var(--muted); font-size:.92rem; margin-top:.5rem;">
+        A 50-state analysis of data center legislation since 2019, tracing the shift from tax-incentive competition to ratepayer-protection reform and a wave of moratorium proposals driven by AI-fueled electricity demand.
+      </p>
+    </div>
+
+    <div class="post-body">
+
+      <p>For two decades, data centers were treated as economic development wins: tech jobs, tax revenue, and the quiet hum of servers in converted warehouses. When state legislatures debated data centers at all, the debate was almost always about how many tax breaks to offer. That changed after 2022. The rapid growth of large language models and AI inference infrastructure triggered a surge in power demand that utility ratepayers are now being asked to absorb, and state legislators have taken notice in ways that would have been unimaginable just a few years ago.</p>
+
+      <p>In 2025 alone, state legislatures introduced more than 240 data center bills across the country, up from roughly 45 in 2024. By the first six weeks of 2026, more than 300 additional bills had been filed in 30 states. The policy agenda has shifted from incentives to accountability. For example, who pays when a data center's electricity demand requires a new transmission line? Who decides where a facility can be built? And when demand grows fast enough to strain a grid, can a state simply say no?</p>
+
+      <p>This report draws on legislative data compiled for the U.S. States AI Policy Tracker to map that landscape. I identify three distinct phases of state data center policy, trace the states driving the most legislative activity, and examine what the surge in ratepayer-protection and moratorium bills reveals about the politics of AI infrastructure.</p>
+
+      <h2>Numbers at a Glance</h2>
+
+      <div class="stat-row">
+        <div class="stat-box">
+          <span class="stat-num">770+</span>
+          <span class="stat-label">Data center bills in the CAID legislative database since 2019</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">240</span>
+          <span class="stat-label">Bills introduced in 2025 alone, up from roughly 45 in 2024</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">40+</span>
+          <span class="stat-label">Data center bills enacted across all states in 2025</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">12+</span>
+          <span class="stat-label">States with active moratorium proposals in 2026</span>
+        </div>
+      </div>
+
+      <h2>Why Data Centers Became a Policy Problem</h2>
+
+      <p>Data centers have consumed meaningful amounts of electricity for years, but AI changed the scale of the problem. Training a large language model requires sustained, high-density computing that would have been impossible without large clusters of GPUs drawing power around the clock. Inference (running those models in production) multiplies that demand as services scale. Analysts estimate that AI-driven data center growth could push demand to roughly 150 gigawatts by 2030, a figure that strains grid planning assumptions built around very different demand curves.</p>
+
+      <p>The strain is not evenly distributed. Data centers currently account for approximately 4 to 5 percent of all U.S. electricity, but the concentration in particular states is far higher. Virginia, which hosts roughly 14 percent of the world's data centers, now sees data centers consuming more than 25 percent of the state's total electricity. Northern Virginia alone holds more data center capacity than any other market in the world. When Dominion Energy or a comparable utility must build new generation and transmission to serve a 500-megawatt hyperscale campus, those costs do not disappear; they move through rate cases onto the bills of residential and commercial customers who had no role in the decision to build the facility.</p>
+
+      <p>That cost-shifting dynamic is what transformed data center policy. As long as data centers were modest consumers, spreading their costs across a large rate base was largely invisible. At the scale AI infrastructure now demands, it is neither invisible nor politically sustainable. A <a href="https://ccanactionfund.org/92-of-virginians-say-lawmakers-must-do-more-to-control-data-center-impacts/" target="_blank" rel="noopener">statewide poll by the Chesapeake Climate Action Network Action Fund</a> (conducted by Global Strategy Group) found that 73 percent of Virginia voters blame data centers for rising electricity costs and 92 percent say state lawmakers are failing to properly manage their growth. The legislative response has been correspondingly intense.</p>
+
+      <h2>Three Phases of Data Center Policy</h2>
+
+      <div class="phase-grid">
+        <div class="phase-card">
+          <h4>Phase 1 - The Incentive Era (pre-2024)</h4>
+          <p>States competed to attract data centers with sales and use tax exemptions, property tax breaks, and streamlined permitting. Nearly 300 bills in this period offered some form of tax incentive. The dominant legislative question was how generous to be, not whether to regulate.</p>
+        </div>
+        <div class="phase-card">
+          <h4>Phase 2 - Ratepayer Protection (2024&ndash;2025)</h4>
+          <p>As AI demand escalated, states began requiring large electricity users to pay the full cost of grid infrastructure upgrades rather than spreading those costs to residential ratepayers. Texas, Oregon, Minnesota, South Carolina, and Maryland all enacted cost-shifting laws in 2025.</p>
+        </div>
+        <div class="phase-card">
+          <h4>Phase 3 - Accountability and Resistance (2025&ndash;2026)</h4>
+          <p>A newer wave of bills demands environmental disclosures (water use, noise, emissions), imposes siting and permitting reforms, and in the boldest cases proposes temporary moratoriums on new construction. No moratorium has yet been enacted, but the legislative pressure is real.</p>
+        </div>
+      </div>
+
+      <p>These phases are not strictly sequential. States at different positions in the data center development cycle are pursuing different approaches simultaneously. For example, a state that never adopted generous incentives may go directly to environmental accountability; a state with massive existing data center capacity (Virginia, Texas) may be legislating across all three areas at once. But the overall trajectory - from competition to regulation to resistance - reflects a genuine change in how legislatures understand the bargain they struck when they first offered data center tax breaks.</p>
+
+      <h2>The Ratepayer Protection Model</h2>
+
+      <p>The most consequential enacted legislation of 2025 addressed a single question: should a hyperscale data center that requires hundreds of megawatts of new generating capacity pay for that infrastructure, or should the cost be spread across all ratepayers? Before 2025, the answer in most states was effectively the latter. Three laws enacted in 2025 changed that default.</p>
+
+      <table class="bill-table">
+        <thead>
+          <tr><th>State</th><th>Bill</th><th>Key Provisions</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>TX</td>
+            <td><a href="https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB6" target="_blank" rel="noopener">SB 6</a></td>
+            <td>Customers drawing 75+ MW pay for interconnection studies and infrastructure upgrades; remote disconnection capability; backup generator registration required</td>
+            <td><span class="status-signed">Signed Jun 2025</span></td>
+          </tr>
+          <tr>
+            <td>OR</td>
+            <td><a href="https://olis.oregonlegislature.gov/liz/2025R1/Measures/Overview/HB3546" target="_blank" rel="noopener">HB 3546</a></td>
+            <td>Creates separate rate class for large energy users (20+ MW); 10-year contracts; operators drawing 100+ MW pay a 1-cent-per-kWh surcharge supporting low-income customers</td>
+            <td><span class="status-signed">Signed Aug 2025</span></td>
+          </tr>
+          <tr>
+            <td>MN</td>
+            <td><a href="https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF0016&ssn=1&y=2025" target="_blank" rel="noopener">HF 16</a></td>
+            <td>Creates separate rate class; requires large data center customers to pay the full cost of service without cross-subsidization to other ratepayers</td>
+            <td><span class="status-signed">Signed Jun 2025</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Texas SB 6 is widely regarded as a policy bellwether. Signed by Governor Abbott on June 20, 2025, the law applies to customers drawing 75 megawatts or more (a threshold adjustable by the Public Utility Commission) and covers hyperscale data centers, cryptocurrency mines, and large manufacturers. Its core principle is simple in that if you need the grid to be expanded or upgraded to serve your facility, you pay for that expansion rather than your neighbors. The law also requires large-load customers to install remote-disconnection capability, allowing the grid operator to curtail their demand during emergencies, and to register backup generators to improve reliability planning.</p>
+
+      <p>Oregon's HB 3546, the POWER Act (Protecting Oregonians With Energy Responsibility), takes a similar principle further. Beyond requiring large users to pay their full cost of service, it commits operators drawing 100 megawatts or more to 10-year contracts, reducing the risk that a data center could rapidly ramp up demand and then go dark when market conditions shift. The 1-cent-per-kWh surcharge on the largest facilities, which is directed to energy efficiency and distributed resources for low-income Oregonians, reflects a judgment that the environmental and affordability costs of data center demand should be partially redistributed to those least able to absorb rate increases.</p>
+
+      <p>Minnesota's HF 16, passed in a June 2025 special session, has been described by analysts as the strongest ratepayer protection among the three because it creates a separate rate class that removes any ambiguity about cost allocation. Large data center customers pay what it costs to serve them, full stop. The political context matters: Minnesota had aggressively recruited data centers with sales tax exemptions for years, and the HF 16 debate forced a reckoning with how much that recruitment had cost the ratepayers who were never part of that deal.</p>
+
+      <p class="pull-quote">The ratepayer-protection model that emerged in 2025 - Texas, Oregon, and Minnesota first; 27 more states advancing versions in 2026 - is fast becoming the dominant regulatory template for AI infrastructure. It doesn't restrict where data centers can be built or how large they can grow. It just requires them to pay their own way.</p>
+
+      <p>Colorado has pursued a variant of this logic that uses incentives rather than mandates. The state's <a href="https://leg.colorado.gov/bills/sb25-280" target="_blank" rel="noopener">SB 25-280</a>, the Data Center Development and Grid Modernization Act, passed the legislature in 2025 with bipartisan support. Rather than imposing cost-shifting requirements, it created a voluntary certification program administered through the state's economic development office. Data center operators that meet the certification criteria - a minimum $250 million capital investment, 25 full-time jobs, breaking ground within five years, a water stewardship strategy, energy efficiency certification, and sourcing at least 50 percent of energy from renewable or clean sources - qualify for sales and use tax incentives and favorable utility rate treatment. Those that do not meet the standards get nothing. In 2026, the legislature continued in this vein with SB 26-102 and HB 26-1030, both addressing large-load data center utility relationships and grid modernization. Colorado's approach (carrot rather than stick, with the carrot tied to environmental performance) reflects a philosophy more consistent with the state's broader AI governance record: set a high standard, then offer meaningful rewards for meeting it.</p>
+
+      <h2>Virginia: Ground Zero</h2>
+
+      <p>No state illustrates the data center policy problem more vividly than Virginia. With approximately 14 percent of the world's data centers concentrated in its Northern Virginia corridor, the Commonwealth has spent years cultivating that position through aggressive tax incentives, including a sales tax exemption for data center equipment and electricity now worth an estimated $1.6 billion annually. Virginia is also the state where the contradictions of that policy are most visible. Data centers now account for more than 25 percent of state electricity demand. Dominion Energy, which serves most of the affected territory, has reported load growth that requires billions in new generation and transmission investment, with costs flowing through the rate base to residential customers.</p>
+
+      <p>The Virginia General Assembly's 2026 session produced the country's most ambitious state-level data center legislative package to date. Lawmakers considered 61 data center bills across siting, water use, energy cost-shifting, and tax incentive reform. Fifteen of those bills reached Governor Abigail Spanberger's desk; she signed most of them, with amendments to two major cost-shifting bills that critics argued diluted their effect. The enacted package includes new site assessment requirements for large-load facilities, sound profile disclosures for facilities near residential areas, water use reporting, and initial steps toward reforming how grid infrastructure costs are allocated to large customers.</p>
+
+      <p>The $1.6 billion tax exemption question remained unresolved at session's end. The Senate passed legislation to eliminate the exemption entirely; the House sought to tie it to environmental compliance benchmarks. Neither position prevailed, leaving the exemption intact but under more sustained legislative scrutiny than it has faced in years. Virginia's resolution of this question will influence how other data-center-dependent states approach their own incentive structures.</p>
+
+      <h2>The Moratorium Wave</h2>
+
+      <p>The most politically striking development of the 2025-2026 legislative cycle has been a wave of bills proposing temporary moratoriums on new data center construction, a tool that would have been essentially unthinkable in data center policy just five years ago. As of mid-2026, more than 12 states have introduced moratorium legislation. None has become law, but the attempts have generated the most intensive political debate in the data center space and produced the clearest signal yet of where legislative tolerance for unconstrained AI infrastructure growth may be reaching its limits.</p>
+
+      <table class="bill-table">
+        <thead>
+          <tr><th>State</th><th>Bill</th><th>What It Proposed</th><th>Outcome</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ME</td>
+            <td><a href="https://www.maine.gov/governor/mills/news/governor-mills-announces-decision-ld-307-2026-04-24" target="_blank" rel="noopener">LD 307</a></td>
+            <td>Temporary halt on facilities requiring 20+ MW; would have lasted until November 2027 while a new coordination council studied impacts</td>
+            <td><span class="status-vetoed">Vetoed Apr 2026</span></td>
+          </tr>
+          <tr>
+            <td>VT</td>
+            <td><a href="https://legislature.vermont.gov/bill/status/2026/S.205" target="_blank" rel="noopener">S 205</a></td>
+            <td>Moratorium on AI data centers (defined as facilities requiring 100+ MW for AI workloads) until July 1, 2030, while the Public Utility Commission studied grid and environmental impacts</td>
+            <td><span class="status-failed">Died in committee</span></td>
+          </tr>
+          <tr>
+            <td>MN</td>
+            <td><a href="https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF4888&ssn=0&y=2026" target="_blank" rel="noopener">HF 4888</a></td>
+            <td>Moratorium on new data centers until the Public Utility Commission submitted a comprehensive study of energy, water, and economic impacts (report due July 2027)</td>
+            <td><span class="status-failed">Died without hearing</span></td>
+          </tr>
+          <tr>
+            <td>MO</td>
+            <td>HB 3369</td>
+            <td>One-year moratorium on permits for new data center construction statewide</td>
+            <td><span class="status-pending">In progress 2026</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Maine came closest to enacting a moratorium. LD 307 passed the legislature with initial bipartisan support before Governor Janet Mills vetoed it in April 2026, citing concerns about a specific economic development project in Jay that would have been swept up in the moratorium's definition. An override attempt fell short: the House voted 72-65 in favor, well below the two-thirds threshold required. Mills indicated she would have signed the bill with an exemption for the Jay project, leaving open the possibility that a narrower version could advance.</p>
+
+      <p>Vermont's S 205 used the most precise AI-specific framing of any moratorium bill in the cycle. It defined "AI data center" as a facility requiring more than 100 megawatts of new electricity specifically for AI inference, training, simulation, or synthetic data generation, distinguishing it from conventional data centers and cryptocurrency mines. The bill would have paused construction until July 2030 while the Public Utility Commission conducted a comprehensive review. It died in the Senate Finance Committee, in part because Vermont has no significant existing data center presence: the commercial calculus for a moratorium is different in a state that has not yet experienced the growth it is trying to preempt.</p>
+
+      <p>The moratorium bills have not succeeded, but their introduction and near-passage in Maine represent a genuine shift in the political range of options on the table. In 2022, the idea of a state legislatively halting data center construction would have been treated as fringe opposition to economic development. By 2026, it is a mainstream legislative proposal with real majority support in multiple chambers. The practical effect, even where bills fail, may be to accelerate the negotiation of more modest accountability measures that data center operators find preferable to a moratorium.</p>
+
+      <h2>Environmental Accountability: Water, Siting, and Disclosure</h2>
+
+      <p>A third category of legislation, considered less dramatic than moratoriums but potentially more durable, focuses on environmental accountability. Data centers require large quantities of water for cooling, generate substantial noise, and require significant land. Before 2024, most states had no disclosure requirements for any of these impacts. That is changing quickly.</p>
+
+      <p>Water disclosure has become one of the most active legislative areas. California introduced three separate bills in 2025-2026 requiring data centers to report water consumption and develop conservation plans (<a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2469" target="_blank" rel="noopener">AB 2469</a>, <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2619" target="_blank" rel="noopener">AB 2619</a>, and <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB93" target="_blank" rel="noopener">AB 93</a>). Utah enacted a water transparency law in 2026 requiring data centers to disclose consumptive water use. Iowa, Indiana, and Virginia have all advanced water-use reporting requirements. Arkansas and Minnesota amended existing data center statutes to add water use constraints after experiences with cryptocurrency mining operations that strained local water supplies.</p>
+
+      <p>Siting reform is the other major accountability frontier. Virginia's 2026 legislative package included multiple bills establishing site assessment requirements for high-energy-use facilities, with provisions for local government input, sound profile disclosures, and review of water use estimates before approval. Georgia introduced <a href="https://www.legis.ga.gov/legislation/65901" target="_blank" rel="noopener">SB 421</a>, the Data Center Transparency Act, which would prohibit local governments from entering nondisclosure agreements covering a data center's electricity and water usage - addressing a practice that has kept ratepayer and community impact information out of the public record in several high-growth markets.</p>
+
+      <p>Missouri's <a href="https://house.mo.gov/bill.aspx?bill=HB2239&year=2026&code=R" target="_blank" rel="noopener">HB 2239</a>, the Artificial Intelligence Data Center Environmental Accountability Act, goes further still. The bill targets facilities with at least 100 megawatts of IT load capacity and would require closed-loop water cooling systems, continuous monitoring of water quality, annual environmental and public health reports submitted to the Department of Natural Resources, and public disclosure of cumulative statewide impacts. It is among the most comprehensive environmental accountability frameworks proposed for AI infrastructure anywhere in the country.</p>
+
+      <h2>What to Watch</h2>
+
+      <p><strong>The Virginia tax exemption.</strong> Virginia's annual $1.6 billion data center tax exemption is the largest single unresolved question in state data center policy. The Senate has now passed legislation to eliminate it; the House has insisted on tying it to environmental compliance. As long as the exemption exists in its current form, the state is in the position of subsidizing at scale the same infrastructure whose cost impacts are generating legislative backlash. The 2027 session will likely force a resolution.</p>
+
+      <p><strong>Whether any moratorium can survive a veto.</strong> Maine's near-miss established that a moratorium can pass a state legislature and generate enough political pressure to require a substantive governor's response. If Mills ultimately signs a modified version, or if another state's moratorium reaches a governor who signs it, the policy landscape changes significantly. The precedent of an enacted moratorium would immediately elevate the legislative strategy in every state with active data center growth concerns.</p>
+
+      <p><strong>Federal vs. state tension.</strong> The Trump administration's executive order promoting AI data center development has created a direct conflict with state-level regulatory ambitions. Federal policy is oriented toward accelerating data center construction, however many states are moving in the opposite direction. This tension has not yet produced a direct federal preemption argument, but the Sanders-Ocasio-Cortez federal Artificial Intelligence Data Center Moratorium Act, introduced in March 2026, signals that the federal policy space is also contested. How federal and state approaches ultimately interact will shape whether state laws remain the primary venue for data center accountability.</p>
+
+      <p><strong>AI-specific definitions.</strong> Vermont's S 205 was unusual in defining "AI data center" with precision, distinguishing AI compute loads from general data storage and other server workloads. If that framing gains traction, it could create a separate regulatory track for AI infrastructure specifically - one that would be harder for data center operators to navigate around by characterizing facilities as general-purpose compute. Missouri's HB 2239 uses a different threshold approach (100 MW IT load capacity) that is technology-neutral but catches large AI facilities. The definitional choices in pending bills will matter enormously for who is actually regulated.</p>
+
+      <p><strong>Water rights in arid states.</strong> The water disclosure bills in California, Utah, Iowa, and several other states reflect a concern that has not yet reached its regulatory peak. Western states with serious water constraints are beginning to evaluate data center water consumption the way they evaluate any major agricultural or industrial water use. Idaho's 2026 bill establishing limitations on consumptive water use by data center cooling systems is an early example of what may become a significant constraint on where hyperscale facilities can be sited in water-stressed regions.</p>
+
+      <div class="post-cta">
+        <p>Explore AI-related legislation across all 50 states in the CAID tracker:</p>
+        <a class="btn btn-primary" href="https://du-caid.github.io/tracker/" target="_blank" rel="noopener">Open Dashboard &rarr;</a>
+        &nbsp;
+        <a class="btn" href="/reports/" style="margin-left:.5rem;">All Reports &rarr;</a>
+      </div>
+
+      <p class="data-note">
+        <strong>Data note:</strong> Bill counts are drawn from the CAID legislative database as of June 2026, which compiles state legislative data from Plural Policy (OpenStates). Data center bills are identified by keyword matching in bill titles and text; not all are explicitly AI-focused, but the surge in introductions since 2022 correlates directly with the growth in AI compute demand. The count of 770+ bills reflects all bills referencing data centers in title or text across all ingested legislative sessions since 2019; the 240-bill figure for 2025 and the 40+ enacted figure are consistent with independent reporting from WilmerHale, MultiState, and ArentFox Schiff. Enacted law details for Texas SB 6, Oregon HB 3546, and Minnesota HF 16 are drawn from official state legislative sources and contemporaneous news coverage. Moratorium bill outcomes reflect status as of June 2026. Virginia figures on tax exemption value ($1.6 billion annually) and data center share of state electricity (25%+) are sourced from Virginia Mercury reporting on the 2026 legislative session.
+      </p>
+
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>&copy; <span id="year"></span> Center for Analytics and Innovation with Data &middot; University of Denver</small>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
