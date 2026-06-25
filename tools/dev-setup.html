@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Developer Setup Guide · DU CAID</title>
-<meta name="description" content="Set up VS Code, the terminal, and AI coding agents — Claude Code and Codex CLI.">
+<meta name="description" content="Set up VS Code, the terminal, and AI coding agents - Claude Code and Codex CLI.">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/css/styles.css">
 <script defer src="/assets/js/main.js"></script>
@@ -185,9 +185,9 @@
 
   <!-- Header -->
   <header class="site-header-guide">
-    <div class="course-label">Teaching &amp; Training · Developer Setup Guide</div>
+    <div class="course-label">Teaching &amp; Training | Developer Setup Guide</div>
     <h1>Getting started with AI coding tools</h1>
-    <p class="header-sub">Set up VS Code, the terminal, and two AI coding agents — Claude Code and Codex CLI — so you're ready to work with AI-assisted development.</p>
+    <p class="header-sub">Set up VS Code, the terminal, and two AI coding agents so you're ready to work with AI-assisted development.</p>
   </header>
 
   <!-- OS toggle -->
@@ -203,12 +203,12 @@
   <div class="mac-only os-banner mac">
     <div>
       <div class="os-banner-title">macOS path</div>
-      <div class="os-banner-body">You'll use <strong>Terminal</strong> (or the VS Code integrated terminal). Install commands use <code>curl</code>. Shell config lives in <code>~/.zshrc</code>. No extra setup layer needed — you can run both tools directly.</div>
+      <div class="os-banner-body">You'll use <strong>Terminal</strong> (or the VS Code integrated terminal). Install commands use <code>curl</code>. Shell config lives in <code>~/.zshrc</code>. No extra setup layer needed - you can run both tools directly.</div>
     </div>
   </div>
   <div class="win-only os-banner win">
     <div>
-      <div class="os-banner-title">Windows path — WSL2 required</div>
+      <div class="os-banner-title">Windows path - WSL2 required</div>
       <div class="os-banner-body">Both Claude Code and Codex work best through <strong>WSL2</strong> (Windows Subsystem for Linux). You'll install WSL2 first in Section 1, then run all tool installs inside the Ubuntu terminal. Install commands use PowerShell <code>irm</code> for WSL setup, then <code>curl</code> inside Ubuntu for the tools themselves. Keyboard shortcuts use <strong>Ctrl</strong> instead of Cmd.</div>
     </div>
   </div>
@@ -240,7 +240,7 @@
   <!-- Section 1: VS Code -->
   <div class="section">
     <div class="section-header">
-      <h2>1 · Install VS Code</h2>
+      <h2>1 Install VS Code</h2>
       <span class="section-tag tag-both">Both tools</span>
       <span class="win-section-note">+ WSL2 step required</span>
     </div>
@@ -251,7 +251,7 @@
         <div class="step-title">Download and install VS Code</div>
         <p>Go to <a href="https://code.visualstudio.com" target="_blank">code.visualstudio.com</a> and download the version for your operating system. Run the installer and accept all defaults.</p>
         <div class="note mac-only"><strong>Mac tip:</strong> After installing, open the Command Palette (<code>Cmd+Shift+P</code>) and run <em>Shell Command: Install 'code' command in PATH</em> so you can open projects from the terminal with <code>code .</code></div>
-        <div class="note win-only"><strong>Windows:</strong> During installation, check <em>"Add to PATH"</em> — this lets you open VS Code from the terminal by typing <code>code .</code>. Also check <em>"Register Code as an editor for supported file types."</em></div>
+        <div class="note win-only"><strong>Windows:</strong> During installation, check <em>"Add to PATH"</em> - this lets you open VS Code from the terminal by typing <code>code .</code>. Also check <em>"Register Code as an editor for supported file types."</em></div>
       </div>
     </div>
 
@@ -284,7 +284,7 @@
             <pre>wsl --install</pre>
             <button class="copy-btn" onclick="copyCode(this)">Copy</button>
           </div>
-          <p>Restart your computer when prompted. After restarting, open <strong>Ubuntu</strong> from the Start menu and set a username and password when asked. Then in VS Code, install the <strong>WSL</strong> extension and use <em>Remote → Connect to WSL</em> — your terminal will now behave like a Linux system.</p>
+          <p>Restart your computer when prompted. After restarting, open <strong>Ubuntu</strong> from the Start menu and set a username and password when asked. Then in VS Code, install the <strong>WSL</strong> extension and use <em>Remote → Connect to WSL</em> - your terminal will now behave like a Linux system.</p>
         </div>
       </div>
     </div>
@@ -293,7 +293,7 @@
   <!-- Section 2: CLI basics -->
   <div class="section">
     <div class="section-header">
-      <h2>2 · Terminal basics</h2>
+      <h2>2 Terminal basics</h2>
       <span class="section-tag tag-both">Both tools</span>
     </div>
     <p style="font-size:14px; color:var(--muted); margin-bottom:18px;">Before installing anything else, get comfortable with a few essential commands. These work in the VS Code terminal. <span class="win-only inline" style="color:#0a5230; font-weight:500;">Windows users: run these inside your Ubuntu (WSL2) terminal, not PowerShell.</span></p>
@@ -305,7 +305,7 @@
       <tbody>
         <tr>
           <td>pwd</td>
-          <td>Print working directory — shows where you are</td>
+          <td>Print working directory - shows where you are</td>
           <td><code>/Users/you/projects</code></td>
         </tr>
         <tr>
@@ -352,7 +352,7 @@
   <!-- Section 3: Claude Code -->
   <div class="section">
     <div class="section-header">
-      <h2>3 · Install Claude Code</h2>
+      <h2>3 Install Claude Code</h2>
       <span class="section-tag tag-claude">Claude Code</span>
     </div>
 
@@ -360,7 +360,7 @@
       <div class="step-num claude">1</div>
       <div class="step-body">
         <div class="step-title">Run the installer</div>
-        <p>The native installer is the easiest method — no Node.js required. Paste this into your terminal:</p>
+        <p>The native installer is the easiest method - no Node.js required. Paste this into your terminal:</p>
 
         <div class="mac-only">
           <div class="code-block">
@@ -400,7 +400,7 @@
       <div class="step-num claude">3</div>
       <div class="step-body">
         <div class="step-title">Authenticate</div>
-        <p>Run <code>claude</code> in your terminal. It will open a browser window to log in with your Anthropic account (Claude Pro, Max, or Teams). Complete the OAuth flow — you won't need to do this again.</p>
+        <p>Run <code>claude</code> in your terminal. It will open a browser window to log in with your Anthropic account (Claude Pro, Max, or Teams). Complete the OAuth flow - you won't need to do this again.</p>
         <div class="note"><strong>Using an API key instead?</strong> Set it as an environment variable: <code>export ANTHROPIC_API_KEY=your_key_here</code></div>
       </div>
     </div>
@@ -432,7 +432,7 @@ claude</pre>
   <!-- Section 4: Codex -->
   <div class="section">
     <div class="section-header">
-      <h2>4 · Install Codex CLI</h2>
+      <h2>4 Install Codex CLI</h2>
       <span class="section-tag tag-codex">Codex CLI</span>
     </div>
 
@@ -480,7 +480,7 @@ claude</pre>
 
         <div class="mac-only">
           <div class="code-block">
-            <div class="code-label">macOS — add to your shell profile so it persists</div>
+            <div class="code-label">macOS - add to your shell profile so it persists</div>
             <pre>echo 'export OPENAI_API_KEY="your_key_here"' >> ~/.zshrc
 source ~/.zshrc</pre>
             <button class="copy-btn" onclick="copyCode(this)">Copy</button>
@@ -489,7 +489,7 @@ source ~/.zshrc</pre>
 
         <div class="win-only">
           <div class="code-block">
-            <div class="code-label">Windows (PowerShell) — set for current session</div>
+            <div class="code-label">Windows (PowerShell) - set for current session</div>
             <pre>$env:OPENAI_API_KEY = "your_key_here"</pre>
             <button class="copy-btn" onclick="copyCode(this)">Copy</button>
           </div>
@@ -517,14 +517,14 @@ source ~/.zshrc</pre>
   <!-- Section 5: Side by side -->
   <div class="section">
     <div class="section-header">
-      <h2>5 · Using both tools: a quick comparison</h2>
+      <h2>5 Using both tools: a quick comparison</h2>
       <span class="section-tag tag-both">Both tools</span>
     </div>
-    <p style="font-size:14px; color:var(--muted); margin-bottom:18px;">Both tools do similar things — the difference is mostly in how they authenticate and who makes them. Using both helps you develop your own sense of their strengths.</p>
+    <p style="font-size:14px; color:var(--muted); margin-bottom:18px;">Both tools do similar things - the difference is mostly in how they authenticate and who makes them. Using both helps you develop your own sense of their strengths.</p>
 
     <div class="side-by">
       <div class="side-panel">
-        <div class="side-panel-head claude">Claude Code — start a session</div>
+        <div class="side-panel-head claude">Claude Code - start a session</div>
         <div class="code-block" style="margin:0; border-radius:0;">
           <div class="code-label">terminal</div>
           <pre>cd my-project
@@ -533,7 +533,7 @@ claude
         </div>
       </div>
       <div class="side-panel">
-        <div class="side-panel-head codex">Codex CLI — start a session</div>
+        <div class="side-panel-head codex">Codex CLI - start a session</div>
         <div class="code-block" style="margin:0; border-radius:0;">
           <div class="code-label">terminal</div>
           <pre>cd my-project
@@ -565,8 +565,8 @@ codex
         </tr>
         <tr>
           <td>Reads your files</td>
-          <td>Yes — full project context</td>
-          <td>Yes — full project context</td>
+          <td>Yes - full project context</td>
+          <td>Yes - full project context</td>
         </tr>
         <tr>
           <td>Runs code</td>
@@ -585,17 +585,17 @@ codex
   <!-- Section 6: Git -->
   <div class="section">
     <div class="section-header">
-      <h2>6 · Set up Git for your projects</h2>
+      <h2>6 Set up Git for your projects</h2>
       <span class="section-tag tag-both">Both tools</span>
     </div>
-    <p style="font-size:14px; color:var(--muted); margin-bottom:18px;">Both Claude Code and Codex work much better inside Git repositories. Git also gives you a safety net — if an AI makes a bad edit, you can roll back.</p>
+    <p style="font-size:14px; color:var(--muted); margin-bottom:18px;">Both Claude Code and Codex work much better inside Git repositories. Git also gives you a safety net - if an AI makes a bad edit, you can roll back.</p>
 
     <div class="step">
       <div class="step-num neutral">1</div>
       <div class="step-body">
         <div class="step-title">Configure Git with your name and email</div>
         <div class="code-block">
-          <div class="code-label">terminal — run once</div>
+          <div class="code-label">terminal - run once</div>
           <pre>git config --global user.name "Your Name"
 git config --global user.email "you@example.com"</pre>
           <button class="copy-btn" onclick="copyCode(this)">Copy</button>
@@ -636,7 +636,7 @@ git commit -m "baseline before AI edit"</pre>
   <!-- Section 7: Troubleshooting -->
   <div class="section">
     <div class="section-header">
-      <h2>7 · Common issues</h2>
+      <h2>7 Common issues</h2>
       <span class="section-tag tag-both">Both tools</span>
     </div>
 
@@ -676,7 +676,7 @@ git commit -m "baseline before AI edit"</pre>
   </div>
 
   <footer class="guide-footer">
-    <p>CAID · Teaching &amp; Training · Developer Setup Guide · Last updated June 2026</p>
+    <p>CAID | Teaching &amp; Training | Developer Setup Guide</p>
     <p style="margin-top:4px;">Claude Code docs: <a href="https://docs.anthropic.com/en/docs/claude-code/overview">docs.anthropic.com</a> · Codex CLI: <a href="https://github.com/openai/codex">github.com/openai/codex</a></p>
   </footer>
 
