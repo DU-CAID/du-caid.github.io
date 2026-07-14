@@ -15,8 +15,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -111,8 +111,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "automated_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -143,8 +143,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -219,8 +219,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -269,15 +269,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -324,9 +324,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -409,8 +409,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -460,8 +460,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -486,14 +486,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGR/91/HF2635.pdf",
+    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2635_GovLetter.pdf",
     "latest_action_date": "2026-05-13",
-    "latest_action_description": "Signed by Governor. H.J. 05/13.",
+    "latest_action_description": "Signed by Governor.",
     "ncsl_status": ""
   },
   {
@@ -509,8 +508,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -558,8 +557,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -598,31 +597,6 @@
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/89/HF277.pdf",
     "latest_action_date": "2021-01-28",
     "latest_action_description": "Introduced, referred to Public Safety.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/f00587b2-ff5d-4c0f-b591-60690954dffe",
-    "state": "IA",
-    "session": "2025-2026",
-    "identifier": "HF 2783",
-    "title": "A bill for an act relating to and making appropriations to the education system, including the funding and operation of the department for the blind, department of education, state board of regents, department of workforce development, and Iowa special education council.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGR/91/HF2783.pdf",
-    "latest_action_date": "2026-06-02",
-    "latest_action_description": "Item vetoed, signed by Governor. H.J. 06/02.",
     "ncsl_status": ""
   },
   {
@@ -666,8 +640,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -761,21 +735,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "high_risk_ai",
       "ai_system",
       "algorithmic_tool",
       "ai_system_composite",
       "adjacent_tech",
       "artificial_intelligence",
-      "high_risk_ai",
       "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -825,8 +799,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -902,12 +876,11 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HSB643.pdf",
+    "primary_url": null,
     "latest_action_date": "2026-02-19",
     "latest_action_description": "Committee report approving bill, renumbered as HF 2609.",
     "ncsl_status": ""
@@ -947,9 +920,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1026,9 +999,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_decision_system",
       "machine_learning",
       "artificial_intelligence",
+      "algorithmic_decision_system",
       "algorithmic_tool"
     ],
     "matched_tiers": [
@@ -1161,15 +1134,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_tool",
       "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant",
-      "algorithmic_tool"
+      "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1192,9 +1165,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "synthetic_media",
-      "artificial_intelligence",
-      "deepfake_media"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1249,8 +1222,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1261,33 +1234,6 @@
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SF2415.pdf",
     "latest_action_date": "2026-02-24",
     "latest_action_description": "Subcommittee: McClintock, Bennett, and Sires.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/9f756727-2a36-422e-a015-c7468e02c9bd",
-    "state": "IA",
-    "session": "2025-2026",
-    "identifier": "SF 2417",
-    "title": "A bill for an act establishing requirements and guidelines for conversational AI services, and providing civil penalties, and including applicability provisions.",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite",
-      "ai_model_variant"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SF2417.pdf",
-    "latest_action_date": "2026-05-02",
-    "latest_action_description": "Explanation of vote.",
     "ncsl_status": ""
   },
   {
@@ -1355,8 +1301,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1400,26 +1346,21 @@
     "identifier": "SSB 3014",
     "title": "A bill for an act relating to the use of artificial intelligence systems and related software by state agencies for employment and other purposes.",
     "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 2,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning",
-      "generative_ai_variant",
-      "ai_system_composite",
-      "adjacent_tech"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SSB3014.pdf",
+    "primary_url": null,
     "latest_action_date": "2026-01-27",
     "latest_action_description": "Subcommittee recommends passage.",
     "ncsl_status": ""

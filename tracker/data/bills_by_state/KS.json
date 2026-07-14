@@ -19,7 +19,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.kslegislature.gov/b2025_26/bills/download/?apn=b2025_26/year1/ready_for_publication/hb_2183/hb2183_02_0000.pdf",
+    "primary_url": "https://www.kslegislature.gov/b2025_26/bills/download/?apn=b2025_26/year2/ready_for_publication/hb_2183/hb2183_02_0000.pdf",
     "latest_action_date": "2026-02-06",
     "latest_action_description": "Law effective July 1, 2026",
     "ncsl_status": ""
@@ -34,9 +34,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -47,9 +47,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.kslegislature.gov/b2025_26/bills/download/?apn=b2025_26/year1/ready_for_publication/hb_2313/hb2313_01_0000.pdf",
+    "primary_url": "https://www.kslegislature.gov/b2025_26/bills/download/?apn=b2025_26/year2/ready_for_publication/hb_2313/hb2313_01_0000.pdf",
     "latest_action_date": "2025-04-10",
-    "latest_action_description": "Approved by Governor on Tuesday, April 8, 2025",
+    "latest_action_description": "Engrossed on Tuesday, April 1, 2025",
     "ncsl_status": ""
   },
   {
@@ -122,7 +122,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.kslegislature.gov/b2025_26/bills/download/?apn=b2025_26/year2/ready_for_publication/hb_2537/hb2537_enrolled.pdf",
+    "primary_url": "https://www.kslegislature.gov/b2025_26/bills/download/?apn=b2025_26/year2/ready_for_publication/hb_2537/hb2537_02_0000.pdf",
     "latest_action_date": "2026-04-09",
     "latest_action_description": "Approved by Governor on Monday, April 6, 2026",
     "ncsl_status": ""
@@ -222,8 +222,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -242,12 +242,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title"
@@ -319,9 +319,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -347,10 +347,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
       "large_language_model",
       "ai_system_composite",
-      "artificial_intelligence",
       "llm_variant"
     ],
     "matched_tiers": [
@@ -383,8 +383,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -431,11 +431,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "adjacent_tech",
       "machine_learning",
+      "generative_ai_variant",
       "artificial_intelligence",
       "algorithmic_tool",
-      "adjacent_tech",
-      "generative_ai_variant",
       "digital_replica"
     ],
     "matched_tiers": [

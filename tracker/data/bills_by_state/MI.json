@@ -85,22 +85,22 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "automated_decision_system",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "generative_ai_variant",
       "generative_ai",
       "ai_system",
+      "automated_decision_system",
+      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -120,9 +120,9 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "llm_variant",
       "ai_system_composite",
       "ai_model_variant",
+      "llm_variant",
       "foundation_model"
     ],
     "matched_tiers": [
@@ -228,8 +228,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -281,8 +281,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -329,8 +329,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -397,6 +397,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/b9f468a7-7d2a-4c66-90d9-7c1f2b22e5da",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "SB 1077",
+    "title": "Labor: fair employment practices; use of electronic monitoring or automated decisions tools by an employer; prohibit except for certain purposes. Creates new act.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-1077.htm",
+    "latest_action_date": "2026-06-24",
+    "latest_action_description": "INTRODUCED BY SENATOR DARRIN CAMILLERI",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/a02071bb-bd26-4e30-a486-c136c91d55ed",
     "state": "MI",
     "session": "2025-2026",
@@ -417,8 +444,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2026-SIB-0794.htm",
-    "latest_action_date": "2026-02-19",
-    "latest_action_description": "INTRODUCED BY SENATOR SARAH ANTHONY",
+    "latest_action_date": "2026-03-04",
+    "latest_action_description": "SENATE CO-SPONSOR(S) NAMED: JEREMY MOSS",
     "ncsl_status": ""
   },
   {
@@ -431,8 +458,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
-      "adjacent_tech"
+      "adjacent_tech",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai",

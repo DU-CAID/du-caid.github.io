@@ -9,20 +9,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "algorithmic_decision_system",
       "artificial_intelligence",
+      "algorithmic_decision_system",
       "machine_learning",
       "adjacent_tech",
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -44,13 +44,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -74,8 +74,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -130,8 +130,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -211,9 +211,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -282,11 +282,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "ml_system",
-      "machine_learning",
       "artificial_intelligence",
+      "ml_system",
       "ai_system"
     ],
     "matched_tiers": [
@@ -314,12 +314,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
       "ai_system_composite",
       "ai_model_variant",
+      "artificial_intelligence",
       "generative_ai_variant",
       "ml_system",
-      "machine_learning",
-      "artificial_intelligence",
       "generative_ai"
     ],
     "matched_tiers": [
@@ -347,11 +347,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "artificial_intelligence",
+      "automated_decision_system",
+      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "automated_decision_system",
-      "artificial_intelligence",
-      "machine_learning",
       "algorithmic_decision_system"
     ],
     "matched_tiers": [
@@ -382,8 +382,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -413,13 +413,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -469,14 +469,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "automated_decision_system",
       "adjacent_tech",
+      "automated_decision_system",
       "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -498,10 +498,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence",
-      "algorithmic_decision_system",
       "adjacent_tech",
+      "machine_learning",
+      "algorithmic_decision_system",
+      "artificial_intelligence",
       "automated_decision_system"
     ],
     "matched_tiers": [
@@ -532,8 +532,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -590,14 +590,14 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H7349A.pdf",
-    "latest_action_date": "2026-06-08",
-    "latest_action_description": "06/08/2026 House passed Sub A",
+    "latest_action_date": "2026-06-22",
+    "latest_action_description": "06/22/2026 Signed by Governor",
     "ncsl_status": ""
   },
   {
@@ -618,18 +618,18 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H7350Aaa.pdf",
-    "latest_action_date": "2026-06-08",
-    "latest_action_description": "06/08/2026 House passed Sub A as amended (floor amendment)",
+    "latest_action_date": "2026-06-22",
+    "latest_action_description": "06/22/2026 Signed by Governor",
     "ncsl_status": ""
   },
   {
@@ -637,7 +637,7 @@
     "state": "RI",
     "session": "2026",
     "identifier": "HB 7357",
-    "title": "AN ACT RELATING TO HEALTH AND SAFETY -- REPRODUCTIVE HEALTH AND GENDER-AFFIRMING HEALTHCARE DATA PRIVACY ACT",
+    "title": "AN ACT RELATING TO HEALTH AND SAFETY -- SENSITIVE HEALTHCARE INFORMATION PRIVACY ACT",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
@@ -645,17 +645,17 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H7357.pdf",
-    "latest_action_date": "2026-06-08",
-    "latest_action_description": "06/08/2026 Scheduled for consideration  (06/10/2026)",
+    "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H7357A.pdf",
+    "latest_action_date": "2026-06-11",
+    "latest_action_description": "06/11/2026 House passed Sub A",
     "ncsl_status": ""
   },
   {
@@ -676,8 +676,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -721,8 +721,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -749,17 +749,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "algorithmic_tool",
       "artificial_intelligence",
-      "ai_system_composite",
-      "algorithmic_tool"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -778,25 +778,25 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "ml_system",
       "artificial_intelligence",
       "machine_learning",
-      "ml_system",
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H7538.pdf",
-    "latest_action_date": "2026-06-08",
-    "latest_action_description": "06/08/2026 Proposed Substitute",
+    "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H7538A.pdf",
+    "latest_action_date": "2026-06-22",
+    "latest_action_description": "06/22/2026 Signed by Governor",
     "ncsl_status": ""
   },
   {
@@ -835,13 +835,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
       "machine_learning",
+      "algorithmic_tool",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -864,9 +864,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system_composite",
       "machine_learning",
       "artificial_intelligence",
-      "ai_system_composite",
       "automated_decision_system"
     ],
     "matched_tiers": [
@@ -895,12 +895,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "ai_system_composite",
       "machine_learning",
+      "high_risk_ai_variant",
       "artificial_intelligence",
       "high_risk_ai",
-      "ai_system",
-      "ai_system_composite",
-      "high_risk_ai_variant"
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -953,13 +953,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
+      "automated_decision_system",
       "adjacent_tech",
-      "artificial_intelligence",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1013,8 +1013,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1033,15 +1033,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1063,8 +1063,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1124,8 +1124,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H8501.pdf",
-    "latest_action_date": "2026-06-05",
-    "latest_action_description": "06/05/2026 Scheduled for hearing and/or consideration  (06/09/2026)",
+    "latest_action_date": "2026-06-23",
+    "latest_action_description": "06/23/2026 Signed by Governor",
     "ncsl_status": ""
   },
   {
@@ -1141,8 +1141,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1164,11 +1164,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "artificial_intelligence",
+      "automated_decision_system",
+      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "automated_decision_system",
-      "artificial_intelligence",
-      "machine_learning",
       "algorithmic_decision_system"
     ],
     "matched_tiers": [
@@ -1225,8 +1225,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1302,8 +1302,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1313,6 +1313,31 @@
     "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H8345A.pdf",
     "latest_action_date": "2026-06-02",
     "latest_action_description": "06/02/2026 House passed Sub A",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/1267b9ab-cf3f-4832-a01e-2ae7c79fc04a",
+    "state": "RI",
+    "session": "2026",
+    "identifier": "HR 8636",
+    "title": "HOUSE RESOLUTION HONORING REPRESENTATIVE JASON KNIGHT FOR HIS SERVICE TO THE PEOPLE OF THE STATE OF RHODE ISLAND",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/HouseText26/H8636.pdf",
+    "latest_action_date": "2026-06-11",
+    "latest_action_description": "06/11/2026 House read and passed",
     "ncsl_status": ""
   },
   {
@@ -1351,14 +1376,14 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "automated_decision_system",
+      "algorithmic_decision_system",
       "artificial_intelligence",
       "adjacent_tech",
-      "algorithmic_decision_system",
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1381,10 +1406,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1413,13 +1438,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
+      "automated_decision_system",
       "adjacent_tech",
-      "artificial_intelligence",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1452,14 +1477,14 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/SenateText26/S2010A.pdf",
-    "latest_action_date": "2026-06-04",
-    "latest_action_description": "06/04/2026 Placed on Senate Calendar  (06/09/2026)",
+    "latest_action_date": "2026-06-09",
+    "latest_action_description": "06/09/2026 Senate passed Sub A",
     "ncsl_status": ""
   },
   {
@@ -1475,8 +1500,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1506,18 +1531,18 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/SenateText26/S2195Aaa.pdf",
-    "latest_action_date": "2026-06-08",
-    "latest_action_description": "06/08/2026 House passed Sub A as amended in concurrence",
+    "latest_action_date": "2026-06-22",
+    "latest_action_description": "06/22/2026 Signed by Governor",
     "ncsl_status": ""
   },
   {
@@ -1538,14 +1563,14 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/SenateText26/S2197Aaa.pdf",
-    "latest_action_date": "2026-06-08",
-    "latest_action_description": "06/08/2026 House passed Sub A as amended in concurrence",
+    "latest_action_date": "2026-06-22",
+    "latest_action_description": "06/22/2026 Signed by Governor",
     "ncsl_status": ""
   },
   {
@@ -1563,8 +1588,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1587,8 +1612,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1643,10 +1668,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "automated_decision_system",
       "artificial_intelligence",
-      "machine_learning"
+      "automated_decision_system",
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1703,10 +1728,10 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
+      "adjacent_tech",
       "machine_learning",
       "automated_decision_system",
-      "algorithmic_decision_system",
-      "adjacent_tech"
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1760,25 +1785,25 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ml_system",
       "adjacent_tech",
+      "ml_system",
       "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://webserver.rilegislature.gov/BillText/BillText26/SenateText26/S2570A.pdf",
-    "latest_action_date": "2026-06-04",
-    "latest_action_description": "06/04/2026 Placed on Senate Calendar  (06/10/2026)",
+    "latest_action_date": "2026-06-22",
+    "latest_action_description": "06/22/2026 Signed by Governor",
     "ncsl_status": ""
   },
   {
@@ -1791,12 +1816,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "ai_system_composite",
       "machine_learning",
+      "high_risk_ai_variant",
       "artificial_intelligence",
       "high_risk_ai",
-      "ai_system",
-      "ai_system_composite",
-      "high_risk_ai_variant"
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1911,8 +1936,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1959,24 +1984,24 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "ai_system",
+      "algorithmic_tool",
       "automated_decision_system",
-      "high_risk_ai",
       "high_risk_ai_variant",
+      "high_risk_ai",
       "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
-      "ai_model_variant",
-      "ai_system",
-      "algorithmic_tool"
+      "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2002,9 +2027,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2026,8 +2051,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"

@@ -15,8 +15,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -42,8 +42,8 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -96,39 +96,14 @@
     ],
     "match_fields": [
       "abstract",
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.capitol.hawaii.gov/session2019/bills/HB1185_.HTM",
     "latest_action_date": "2019-01-28",
     "latest_action_description": "Referred to EDB/LAB, FIN, referral sheet 6",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/36d859aa-30d2-4037-a52c-9d0ad4535871",
-    "state": "HI",
-    "session": "2022 Regular Session",
-    "identifier": "HB 1189",
-    "title": "RELATING TO CORONAVIRUS TESTING AT AIRPORTS.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/HB1189_.HTM",
-    "latest_action_date": "2021-12-10",
-    "latest_action_description": "Carried over to 2022 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -157,6 +132,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/36d859aa-30d2-4037-a52c-9d0ad4535871",
+    "state": "HI",
+    "session": "2022 Regular Session",
+    "identifier": "HB 1189",
+    "title": "RELATING TO CORONAVIRUS TESTING AT AIRPORTS.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/HB1189_.HTM",
+    "latest_action_date": "2021-12-10",
+    "latest_action_description": "Carried over to 2022 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/49e0eb4a-536a-43a5-97dc-cf2fd78f1a4e",
     "state": "HI",
     "session": "2025",
@@ -172,8 +172,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -198,14 +198,40 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1384_HD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/bfa65729-273a-43ac-b814-0eefa232d4ab",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 1598",
+    "title": "RELATING TO THE HAWAII CLIMATE INSTITUTE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1598_HD1_.HTM",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "This measure has been deleted from the meeting scheduled on Tuesday 02-17-26 9:30AM in conference room 325 VIA VIDEOCONFERENCE.",
     "ncsl_status": ""
   },
   {
@@ -236,11 +262,11 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/9649139c-5eae-4b58-8945-8fc1a3031c76",
+    "bill_id": "ocd-bill/4419ffc2-20a7-4e83-9216-1ed59ab241d5",
     "state": "HI",
     "session": "2026",
-    "identifier": "HB 1676",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "identifier": "HB 1612",
+    "title": "RELATING TO ECONOMIC DEVELOPMENT.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -251,14 +277,69 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1612_HD1_.HTM",
+    "latest_action_date": "2026-03-17",
+    "latest_action_description": "The committee on EDT deferred the measure.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/9649139c-5eae-4b58-8945-8fc1a3031c76",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 1676",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1676_HD1_.HTM",
     "latest_action_date": "2026-03-23",
     "latest_action_description": "The committee on LBT deferred the measure.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/577d3e27-65d1-45df-88bb-8cebe4bc01a2",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 1682",
+    "title": "RELATING TO THE DISCLOSURE OF INTIMATE IMAGES.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "digital_replica",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1682_SD2_.HTM",
+    "latest_action_date": "2026-07-07",
+    "latest_action_description": "Act 195, on 07/07/2026 (Gov. Msg. No. 1297).",
     "ncsl_status": ""
   },
   {
@@ -346,21 +427,25 @@
     "identifier": "HB 1782",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE FOR THE PROTECTION OF MINORS.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "ai_system",
+      "artificial_intelligence",
+      "generative_ai_variant",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "raw_text",
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1782_SD2_.HTM",
     "latest_action_date": "2026-04-23",
     "latest_action_description": "Received notice of appointment of House conferees (Hse. Com. No. 810).",
     "ncsl_status": ""
@@ -373,19 +458,22 @@
     "title": "RELATING TO HEALTH CARE.",
     "updated": "",
     "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1787_.HTM",
     "latest_action_date": "2026-01-26",
     "latest_action_description": "Referred to HLT, ECD, CPC, referral sheet 1",
     "ncsl_status": ""
@@ -397,21 +485,25 @@
     "identifier": "HB 1887",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE LITERACY EDUCATION.",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system_composite",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1887_.HTM",
     "latest_action_date": "2026-02-03",
     "latest_action_description": "The committee(s) on EDN recommend(s) that the measure be deferred.",
     "ncsl_status": ""
@@ -448,6 +540,35 @@
     "identifier": "HB 1954",
     "title": "RELATING TO IDENTITY THEFT.",
     "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "adjacent_tech",
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1954_.HTM",
+    "latest_action_date": "2026-01-28",
+    "latest_action_description": "Referred to JHA, referral sheet 3",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/55f8efa9-fbca-41ee-9b3a-8d62ab62afff",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 1964",
+    "title": "RELATING TO THE STATE BUILDING CODE COUNCIL.",
+    "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
@@ -457,13 +578,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-01-28",
-    "latest_action_description": "Referred to JHA, referral sheet 3",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1964_SD1_.HTM",
+    "latest_action_date": "2026-03-30",
+    "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.",
     "ncsl_status": ""
   },
   {
@@ -482,11 +603,12 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1968_HD1_.HTM",
     "latest_action_date": "2026-02-11",
     "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on WAL with none voting aye with reservations; none voting no (0) and Representative(s) Holt excused (1).",
     "ncsl_status": ""
@@ -517,16 +639,50 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/3c15e0b0-a13a-4422-9f53-1d3a0f2bda9e",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 2136",
+    "title": "RELATING TO CONSUMER PROTECTION.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2136_.HTM",
+    "latest_action_date": "2026-01-30",
+    "latest_action_description": "Referred to CPC, JHA, referral sheet 5",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/3dd48e4c-2b1c-42ed-8fdb-31ff1cf28065",
     "state": "HI",
     "session": "2026",
     "identifier": "HB 2137",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 9,
+    "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "artificial_intelligence"
+      "machine_learning",
+      "adjacent_tech",
+      "large_language_model",
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence",
+      "synthetic_media",
+      "deepfake_media",
+      "generative_ai_variant",
+      "llm_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -534,11 +690,12 @@
     ],
     "match_fields": [
       "title",
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2137_SD2_.HTM",
     "latest_action_date": "2026-05-08",
     "latest_action_description": "Received notice of passage on Final Reading in House (Hse. Com. No. 888).",
     "ncsl_status": ""
@@ -612,11 +769,12 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2211_.HTM",
     "latest_action_date": "2026-01-30",
     "latest_action_description": "Referred to ECD/TOU, FIN, referral sheet 5",
     "ncsl_status": ""
@@ -647,6 +805,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/d77f8e38-888a-4e95-8ce7-562b75cdcc3e",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 2319",
+    "title": "RELATING TO THE STATE HEALTH PLANNING AND DEVELOPMENT AGENCY.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2319_SD1_.HTM",
+    "latest_action_date": "2026-05-27",
+    "latest_action_description": "Act 049, on 05/27/2026 (Gov. Msg. No. 1149).",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/deaee544-ee62-42c5-8c5c-41bf259ddb63",
     "state": "HI",
     "session": "2026",
@@ -662,14 +845,40 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2357_HD1_.HTM",
     "latest_action_date": "2026-02-18",
     "latest_action_description": "The committee(s) on JHA recommend(s) that the measure be deferred.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8469b13a-4507-4748-979b-f961601fe6c4",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 2379",
+    "title": "RELATING TO INSURANCE FRAUD.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2379_.HTM",
+    "latest_action_date": "2026-02-02",
+    "latest_action_description": "Referred to CPC, JHA, FIN, referral sheet 6",
     "ncsl_status": ""
   },
   {
@@ -698,11 +907,11 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/7041fec5-33ca-4fce-96b4-718acbe19a28",
+    "bill_id": "ocd-bill/5a90fbe1-8560-4570-99fd-f6a3adeab6ca",
     "state": "HI",
     "session": "2026",
-    "identifier": "HB 2466",
-    "title": "RELATING TO EDUCATION.",
+    "identifier": "HB 2410",
+    "title": "RELATING TO THE HAWAII TECHNOLOGY DEVELOPMENT CORPORATION.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -713,11 +922,40 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2410_HD1_.HTM",
+    "latest_action_date": "2026-02-20",
+    "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on FIN with none voting aye with reservations; Representative(s) Pierick voting no (1) and Representative(s) Quinlan excused (1).",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7041fec5-33ca-4fce-96b4-718acbe19a28",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 2466",
+    "title": "RELATING TO EDUCATION.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media",
+      "artificial_intelligence",
+      "synthetic_media",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2466_.HTM",
     "latest_action_date": "2026-02-02",
     "latest_action_description": "Referred to EDN, JHA, FIN, referral sheet 6",
     "ncsl_status": ""
@@ -739,11 +977,12 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2499_.HTM",
     "latest_action_date": "2026-02-06",
     "latest_action_description": "The committee(s) on ECD recommend(s) that the measure be deferred.",
     "ncsl_status": ""
@@ -755,24 +994,27 @@
     "identifier": "HB 2500",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
     "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "generative_ai_variant",
       "algorithmic_decision_system",
+      "ai_system_composite",
+      "machine_learning",
+      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2500_.HTM",
     "latest_action_date": "2026-02-06",
     "latest_action_description": "The committee(s) on ECD recommend(s) that the measure be deferred.",
     "ncsl_status": ""
@@ -784,31 +1026,34 @@
     "identifier": "HB 2502",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2502_HD1_.HTM",
     "latest_action_date": "2026-02-11",
     "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on CPC with none voting aye with reservations; none voting no (0) and Representative(s) Holt excused (1).",
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/22bf944f-b0c4-4936-8312-affd7da8b2bf",
+    "bill_id": "ocd-bill/e599d767-1bf2-4d4e-b2ca-a7d0d23d6ca4",
     "state": "HI",
     "session": "2026",
-    "identifier": "HB 2591",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "identifier": "HB 2537",
+    "title": "RELATING TO THE PATIENTS' BILL OF RIGHTS.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -819,12 +1064,64 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2537_.HTM",
+    "latest_action_date": "2026-02-02",
+    "latest_action_description": "Referred to HLT, CPC, referral sheet 6",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/33995101-eb13-4a2d-bb15-23fc18a2b879",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 2545",
+    "title": "RELATING TO THE HAWAII TECHNOLOGY DEVELOPMENT CORPORATION.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2545_SD1_.HTM",
+    "latest_action_date": "2026-03-25",
+    "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/22bf944f-b0c4-4936-8312-affd7da8b2bf",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 2591",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
       "abstract",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2591_.HTM",
     "latest_action_date": "2026-02-02",
     "latest_action_description": "Referred to ECD, FIN, referral sheet 6",
     "ncsl_status": ""
@@ -836,21 +1133,23 @@
     "identifier": "HB 2597",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2597_SD1_.HTM",
     "latest_action_date": "2026-03-30",
     "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.",
     "ncsl_status": ""
@@ -872,11 +1171,12 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2607_.HTM",
     "latest_action_date": "2026-02-06",
     "latest_action_description": "The committee(s) on ECD recommend(s) that the measure be deferred.",
     "ncsl_status": ""
@@ -897,11 +1197,12 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2611_.HTM",
     "latest_action_date": "2026-02-11",
     "latest_action_description": "The committee(s) on HSG recommend(s) that the measure be deferred.",
     "ncsl_status": ""
@@ -972,8 +1273,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1009,11 +1310,40 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/c703d14a-2e58-485c-a781-38262e258d6c",
+    "bill_id": "ocd-bill/40adb719-5671-49cc-88bc-3e117e2c963a",
     "state": "HI",
     "session": "2026",
-    "identifier": "HB 487",
-    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
+    "identifier": "HB 465",
+    "title": "RELATING TO DYNAMIC PRICING.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB465_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/fe3bddb7-1f83-4c47-bdb6-d77ee65f7faf",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 484",
+    "title": "RELATING TO TRANSITIONAL HOMES.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1024,11 +1354,38 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB484_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c703d14a-2e58-485c-a781-38262e258d6c",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 487",
+    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB487_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
@@ -1075,11 +1432,12 @@
     ],
     "match_fields": [
       "title",
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB546_SD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
@@ -1100,14 +1458,70 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
     "latest_action_date": "2025-03-20",
     "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/80860051-93ce-4977-b151-2b877868bd6a",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 62",
+    "title": "RELATING TO HEALTHCARE FACILITY NURSE STAFFING.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB62_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3ffd333f-af12-4c41-8717-2b703ccb52ab",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 639",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB639_HD1_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -1126,8 +1540,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1137,11 +1551,11 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/3ffd333f-af12-4c41-8717-2b703ccb52ab",
+    "bill_id": "ocd-bill/b44da23b-9aac-46d3-acfa-3b009141e865",
     "state": "HI",
     "session": "2026",
-    "identifier": "HB 639",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "identifier": "HB 665",
+    "title": "RELATING TO DATA SHARING.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1152,22 +1566,21 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB665_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/b9a81732-2885-4f6b-9aa9-ad70aecd5cb7",
+    "bill_id": "ocd-bill/1823c844-abaf-4d19-b039-f193b9e3c0ba",
     "state": "HI",
     "session": "2026",
-    "identifier": "HB 726",
-    "title": "RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.",
+    "identifier": "HB 716",
+    "title": "RELATING TO HEALTH.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -1178,14 +1591,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB716_SD1_.HTM",
+    "latest_action_date": "2026-03-20",
+    "latest_action_description": "Received notice of all Senate conferees being discharged (Sen. Com. No. 409).",
     "ncsl_status": ""
   },
   {
@@ -1212,6 +1624,37 @@
     "primary_url": null,
     "latest_action_date": "2025-01-21",
     "latest_action_description": "Referred to ECD, FIN, referral sheet 2",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b9a81732-2885-4f6b-9aa9-ad70aecd5cb7",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 726",
+    "title": "RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB726_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -1267,6 +1710,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/4ee021c6-cc6f-4533-8742-3ac2a4a2899d",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 824",
+    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB824_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/cc323f5e-4913-418f-9bb8-8b145c9f26c4",
     "state": "HI",
     "session": "2025",
@@ -1292,56 +1762,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/4ee021c6-cc6f-4533-8742-3ac2a4a2899d",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "HB 824",
-    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/a04fa41c-d38b-4eff-a3c4-42e709a32987",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "HB 831",
-    "title": "RELATING TO ANTITRUST.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "algorithmic_tool"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/b2d2467b-f3c7-4dc9-a546-321bde728b02",
     "state": "HI",
     "session": "2025",
@@ -1364,6 +1784,32 @@
     "primary_url": null,
     "latest_action_date": "2025-01-23",
     "latest_action_description": "Referred to CPC, JHA, FIN, referral sheet 3",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a04fa41c-d38b-4eff-a3c4-42e709a32987",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 831",
+    "title": "RELATING TO ANTITRUST.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB831_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -1477,20 +1923,23 @@
     "identifier": "HCR 192",
     "title": "REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "automated_decision_system"
+      "algorithmic_tool",
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HCR192_.HTM",
     "latest_action_date": "2026-04-10",
     "latest_action_description": "Referred to JDC.",
     "ncsl_status": ""
@@ -1518,6 +1967,31 @@
     "primary_url": "https://www.capitol.hawaii.gov/session2019/bills/HCR197_.HTM",
     "latest_action_date": "2019-03-27",
     "latest_action_description": "Reported from EEP/IAC (Stand. Com. Rep. No. 1748) as amended in HD 1, recommending referral to CPC.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/10bcbd19-79a7-436b-9265-57876adab8dd",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HCR 206",
+    "title": "REQUESTING THE HAWAII STATE ENERGY OFFICE TO CONVENE A WORKING GROUP TO STUDY THE POTENTIAL IMPACTS OF LARGE DATA CENTERS ON HAWAII'S ELECTRIC UTILITIES, RATEPAYERS, NATURAL RESOURCES, AND CLIMATE GOALS.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HCR206_HD1_.HTM",
+    "latest_action_date": "2026-04-27",
+    "latest_action_description": "Resolution adopted in final form.",
     "ncsl_status": ""
   },
   {
@@ -1554,19 +2028,22 @@
     "title": "URGING THE DEPARTMENT OF EDUCATION TO CO-DEVELOP A SIXTH TO TWELFTH GRADE ARTIFICIAL INTELLIGENCE LITERACY AND USAGE CURRICULUM WITH TEACHERS.",
     "updated": "",
     "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HCR44_.HTM",
     "latest_action_date": "2026-04-10",
     "latest_action_description": "Referred to EDU/LBT.",
     "ncsl_status": ""
@@ -1578,20 +2055,23 @@
     "identifier": "HCR 55",
     "title": "URGING THE DEPARTMENT OF TRANSPORTATION AND DEPARTMENT OF TRANSPORTATION SERVICES OF THE CITY AND COUNTY OF HONOLULU TO UTILIZE ARTIFICIAL INTELLIGENCE TO MITIGATE TRAFFIC AND IMPROVE ROAD SAFETY IN THE STATE.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "ai_system",
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HCR55_HD1_.HTM",
     "latest_action_date": "2026-04-08",
     "latest_action_description": "The committee(s) on ECD recommend(s) that the measure be deferred.",
     "ncsl_status": ""
@@ -1606,8 +2086,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1621,6 +2101,32 @@
     "latest_action_date": "2024-03-08",
     "latest_action_description": "Referred to JHA, FIN, referral sheet 18",
     "ncsl_status": "Failed - Adjourned"
+  },
+  {
+    "bill_id": "ocd-bill/07b7c3cc-811a-4f55-9683-92965c526e5f",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HCR 93",
+    "title": "REQUESTING THE HAWAII STATE COMMISSION ON THE STATUS OF WOMEN TO ESTABLISH A WORKING GROUP AND PROVIDE A REPORT TO THE LEGISLATURE ON WAYS TO STRENGTHEN PREVENTION, INTERVENTIONS, AND PROTECTIONS FOR SURVIVORS OF IMAGE-BASED SEXUAL ABUSE.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HCR93_HD2_.HTM",
+    "latest_action_date": "2026-04-10",
+    "latest_action_description": "Referred to JDC.",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/2dd07225-04b5-4059-bbb0-348024f533e4",
@@ -1658,8 +2164,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1758,20 +2264,48 @@
     "identifier": "HR 182",
     "title": "REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
+      "algorithmic_tool",
       "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HR182_.HTM",
+    "latest_action_date": "2026-04-09",
+    "latest_action_description": "Resolution adopted in final form.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b1f7826a-2e6f-40a1-8d70-1bc685c121de",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HR 196",
+    "title": "REQUESTING THE HAWAII STATE ENERGY OFFICE TO CONVENE A WORKING GROUP TO STUDY THE POTENTIAL IMPACTS OF LARGE DATA CENTERS ON HAWAII'S ELECTRIC UTILITIES, RATEPAYERS, NATURAL RESOURCES, AND CLIMATE GOALS.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HR196_HD1_.HTM",
     "latest_action_date": "2026-04-09",
     "latest_action_description": "Resolution adopted in final form.",
     "ncsl_status": ""
@@ -1792,8 +2326,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1810,19 +2344,22 @@
     "title": "URGING THE DEPARTMENT OF EDUCATION TO CO-DEVELOP A SIXTH TO TWELFTH GRADE ARTIFICIAL INTELLIGENCE LITERACY AND USAGE CURRICULUM WITH TEACHERS.",
     "updated": "",
     "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HR40_.HTM",
     "latest_action_date": "2026-04-02",
     "latest_action_description": "Resolution adopted in final form.",
     "ncsl_status": ""
@@ -1860,22 +2397,51 @@
     "identifier": "HR 51",
     "title": "URGING THE DEPARTMENT OF TRANSPORTATION AND DEPARTMENT OF TRANSPORTATION SERVICES OF THE CITY AND COUNTY OF HONOLULU TO UTILIZE ARTIFICIAL INTELLIGENCE TO MITIGATE TRAFFIC AND IMPROVE ROAD SAFETY IN THE STATE.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system",
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HR51_HD1_.HTM",
+    "latest_action_date": "2026-04-08",
+    "latest_action_description": "The committee(s) on ECD recommend(s) that the measure be deferred.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a03ecd03-933c-45df-bfc9-db28a951d899",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HR 85",
+    "title": "REQUESTING THE HAWAII STATE COMMISSION ON THE STATUS OF WOMEN TO ESTABLISH A WORKING GROUP AND PROVIDE A REPORT TO THE LEGISLATURE ON WAYS TO STRENGTHEN PREVENTION, INTERVENTIONS, AND PROTECTIONS FOR SURVIVORS OF IMAGE-BASED SEXUAL ABUSE.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media",
       "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-04-08",
-    "latest_action_description": "The committee(s) on ECD recommend(s) that the measure be deferred.",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HR85_HD2_.HTM",
+    "latest_action_date": "2026-04-09",
+    "latest_action_description": "Resolution adopted in final form.",
     "ncsl_status": ""
   },
   {
@@ -1895,11 +2461,12 @@
     ],
     "match_fields": [
       "title",
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1156_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
@@ -1928,6 +2495,82 @@
     "primary_url": null,
     "latest_action_date": "2025-02-07",
     "latest_action_description": "The committee on LBT deferred the measure.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e0571925-ddcc-40d2-9936-456a41999f31",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 1176",
+    "title": "RELATING TO STATE COMPUTER LANGUAGE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1176_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/08f65f6f-99b2-4ecd-bc0d-da23356595d2",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 1217",
+    "title": "RELATING TO POSITIONS AT THE JOHN A. BURNS SCHOOL OF MEDICINE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1217_SD1_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/673e331d-d652-4fbb-a34e-24295cb4d08f",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 1288",
+    "title": "RELATING TO TRANSITIONAL HOMES.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1288_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -1981,26 +2624,28 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/db56f17a-e022-4261-8779-7841df51b97f",
+    "bill_id": "ocd-bill/30165e08-7046-42d3-bb84-4f67fb4e6e60",
     "state": "HI",
     "session": "2026",
-    "identifier": "SB 157",
-    "title": "RELATING TO ANTITRUST.",
+    "identifier": "SB 1563",
+    "title": "RELATING TO INSURANCE.",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1563_SD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
@@ -2028,6 +2673,60 @@
     "primary_url": null,
     "latest_action_date": "2025-03-06",
     "latest_action_description": "Referred to CPC, JHA, FIN, referral sheet 19",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/db56f17a-e022-4261-8779-7841df51b97f",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 157",
+    "title": "RELATING TO ANTITRUST.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB157_SD2_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/2deb3818-0e1f-48dd-935a-7861b6e3eab3",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 1618",
+    "title": "RELATING TO JOURNALISM.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "generative_ai",
+      "deepfake_media",
+      "generative_ai_variant"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1618_.HTM",
+    "latest_action_date": "2026-01-21",
+    "latest_action_description": "Re-Referred to CPN/EDU, JDC/WAM.",
     "ncsl_status": ""
   },
   {
@@ -2073,11 +2772,12 @@
     ],
     "match_fields": [
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1622_SD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
@@ -2100,11 +2800,12 @@
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2076_SD1_.HTM",
     "latest_action_date": "2026-02-06",
     "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to CPN/JDC.",
     "ncsl_status": ""
@@ -2116,20 +2817,24 @@
     "identifier": "SB 2167",
     "title": "RELATING TO THE HAWAII PATIENTS' BILL OF RIGHTS AND RESPONSIBILITIES ACT.",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system"
+      "artificial_intelligence",
+      "automated_decision_system",
+      "ai_accountability"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2167_.HTM",
     "latest_action_date": "2026-01-26",
     "latest_action_description": "Referred to HHS, CPN.",
     "ncsl_status": ""
@@ -2166,6 +2871,36 @@
     "identifier": "SB 2212",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE LITERACY EDUCATION.",
     "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "ai_system_composite",
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2212_.HTM",
+    "latest_action_date": "2026-01-26",
+    "latest_action_description": "Referred to EDU/LBT, WAM.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/28ce1cd7-a3d4-44bd-b09d-781fcd0cb742",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 2263",
+    "title": "RELATING TO BUSINESS COMPETITIVENESS.",
+    "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
@@ -2175,14 +2910,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "raw_text"
     ],
-    "in_ncsl": true,
+    "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-01-26",
-    "latest_action_description": "Referred to EDU/LBT, WAM.",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2263_SD1_.HTM",
+    "latest_action_date": "2026-02-12",
+    "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.",
     "ncsl_status": ""
   },
   {
@@ -2195,21 +2929,22 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system",
-      "ai_system_composite"
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2281_SD1_.HTM",
     "latest_action_date": "2026-02-18",
     "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to CPN/WAM.",
     "ncsl_status": ""
@@ -2246,20 +2981,24 @@
     "identifier": "SB 2304",
     "title": "RELATING TO IDENTITY THEFT.",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2304_.HTM",
     "latest_action_date": "2026-01-30",
     "latest_action_description": "The committee on LBT deferred the measure.",
     "ncsl_status": ""
@@ -2287,6 +3026,31 @@
     "primary_url": null,
     "latest_action_date": "2024-02-09",
     "latest_action_description": "The committee on JDC deferred the measure.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/98963a53-03c3-4f6d-b3d7-daf3d0ac99af",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 2484",
+    "title": "RELATING TO THE HAWAII CLIMATE INSTITUTE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2484_.HTM",
+    "latest_action_date": "2026-01-28",
+    "latest_action_description": "Referred to EDU/AEN, WAM.",
     "ncsl_status": ""
   },
   {
@@ -2343,39 +3107,11 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/656bc7ae-4c1d-4593-b544-faf2842fbc91",
+    "bill_id": "ocd-bill/a8101aa2-0ef3-4254-83bb-da538741c90d",
     "state": "HI",
     "session": "2026",
-    "identifier": "SB 2585",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-01-28",
-    "latest_action_description": "Referred to HHS/LBT, WAM/JDC.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/e12dd12e-5a04-4baa-af6d-b43835bfd3ac",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "SB 2768",
-    "title": "RELATING TO HEALTH CARE.",
+    "identifier": "SB 2578",
+    "title": "RELATING TO THE FILM INDUSTRY.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -2386,11 +3122,97 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2578_SD1_.HTM",
+    "latest_action_date": "2026-04-22",
+    "latest_action_description": "Received notice of Senate conferees (Sen. Com. No. 723).",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/656bc7ae-4c1d-4593-b544-faf2842fbc91",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 2585",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2585_.HTM",
+    "latest_action_date": "2026-01-28",
+    "latest_action_description": "Referred to HHS/LBT, WAM/JDC.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/9b23cca2-fb2e-4eee-a80a-faf3a1f6f6b2",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 2669",
+    "title": "RELATING TO HUMAN SERVICES.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2669_.HTM",
+    "latest_action_date": "2026-01-28",
+    "latest_action_description": "Referred to GVO/HHS, WAM.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e12dd12e-5a04-4baa-af6d-b43835bfd3ac",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 2768",
+    "title": "RELATING TO HEALTH CARE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2768_.HTM",
     "latest_action_date": "2026-01-30",
     "latest_action_description": "Referred to HHS/LBT, CPN.",
     "ncsl_status": ""
@@ -2402,21 +3224,25 @@
     "identifier": "SB 2788",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE FOR THE PROTECTION OF MINORS.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant",
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2788_.HTM",
     "latest_action_date": "2026-01-30",
     "latest_action_description": "Referred to LBT/HHS, JDC.",
     "ncsl_status": ""
@@ -2431,8 +3257,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2488,21 +3314,22 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2908_SD1_.HTM",
     "latest_action_date": "2026-03-20",
     "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on WAL with none voting aye with reservations; none voting no (0) and Representative(s) Quinlan excused (1).",
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/bb55619e-36b9-4a1f-82d0-fb16f9902dbf",
+    "bill_id": "ocd-bill/7b646dd4-50e8-4652-8ea8-a107193a1337",
     "state": "HI",
     "session": "2026",
-    "identifier": "SB 2923",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "identifier": "SB 2910",
+    "title": "RELATING TO THE STATE BUILDING CODE COUNCIL.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -2513,14 +3340,66 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2910_.HTM",
+    "latest_action_date": "2026-01-30",
+    "latest_action_description": "Referred to PSM/EIG, WAM.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/bb55619e-36b9-4a1f-82d0-fb16f9902dbf",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 2923",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2923_.HTM",
     "latest_action_date": "2026-01-30",
     "latest_action_description": "Referred to CPN/LBT, WAM/JDC.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/57683b6c-66e1-4ef4-95fa-cfd9cd1461a6",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 2948",
+    "title": "RELATING TO INSURANCE FRAUD.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2948_SD2_.HTM",
+    "latest_action_date": "2026-03-30",
+    "latest_action_description": "Report adopted; referred to the committee(s) on FIN as amended in HD 2 with Representative(s) Garcia voting aye with reservations; none voting no (0) and Representative(s) Cochran, Lowen, Perruso, Quinlan excused (4).",
     "ncsl_status": ""
   },
   {
@@ -2530,21 +3409,26 @@
     "identifier": "SB 2953",
     "title": "RELATING TO INSURANCE.",
     "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "adjacent_tech",
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2953_.HTM",
     "latest_action_date": "2026-01-30",
     "latest_action_description": "Referred to CPN/LBT, WAM.",
     "ncsl_status": ""
@@ -2556,23 +3440,31 @@
     "identifier": "SB 2967",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
     "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 8,
+    "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "high_risk_ai",
       "ai_system_composite",
+      "adjacent_tech",
+      "ai_system",
+      "algorithmic_tool",
+      "machine_learning",
       "high_risk_ai_variant",
+      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB2967_.HTM",
     "latest_action_date": "2026-02-11",
     "latest_action_description": "The committee on LBT deferred the measure.",
     "ncsl_status": ""
@@ -2584,6 +3476,62 @@
     "identifier": "SB 3001",
     "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
     "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3001_SD2_.HTM",
+    "latest_action_date": "2026-05-08",
+    "latest_action_description": "Enrolled to Governor.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/613864b7-74d4-4d59-834a-91833539ba56",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 3015",
+    "title": "RELATING TO PERSONAL INFORMATION.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3015_SD1_.HTM",
+    "latest_action_date": "2026-02-20",
+    "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to JDC.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a5c84c32-4315-4fd0-aa5c-f452ec819f03",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 3027",
+    "title": "RELATING TO THE PATIENTS' BILL OF RIGHTS.",
+    "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
@@ -2593,13 +3541,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-05-08",
-    "latest_action_description": "Enrolled to Governor.",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3027_.HTM",
+    "latest_action_date": "2026-01-30",
+    "latest_action_description": "Referred to HHS, CPN/WAM.",
     "ncsl_status": ""
   },
   {
@@ -2625,6 +3573,131 @@
     "primary_url": "https://capitol.hawaii.gov/session2021/bills/SB309_SD1_.HTM",
     "latest_action_date": "2021-06-24",
     "latest_action_description": "Act 059, on 06/23/2021 (Gov. Msg. No. 1160).",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/81dffff9-6eb1-4b8e-940f-b604c3c6a9ab",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 3139",
+    "title": "RELATING TO THE STATE HEALTH PLANNING AND DEVELOPMENT AGENCY.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3139_SD1_.HTM",
+    "latest_action_date": "2026-03-10",
+    "latest_action_description": "Referred to HLT, CPC, referral sheet 16",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/4d2eaee4-f680-41d1-960b-140025a1ccb1",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 3227",
+    "title": "RELATING TO THE HAWAII TECHNOLOGY DEVELOPMENT CORPORATION.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3227_SD1_.HTM",
+    "latest_action_date": "2026-02-17",
+    "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/af234cd0-8116-490f-9e82-e13739e900a5",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 3271",
+    "title": "RELATING TO THE HAWAII TECHNOLOGY DEVELOPMENT CORPORATION.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3271_.HTM",
+    "latest_action_date": "2026-02-02",
+    "latest_action_description": "Referred to EDT, WAM.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/5a5d536c-1e5c-489b-b9e4-b43158b90178",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 3284",
+    "title": "RELATING TO THE HAWAII TECHNOLOGY DEVELOPMENT CORPORATION.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3284_.HTM",
+    "latest_action_date": "2026-02-02",
+    "latest_action_description": "Referred to EDT/EDU, WAM.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a37d6db7-2ca7-43a7-991f-1c906d7f07b3",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 3329",
+    "title": "RELATING TO PUBLIC TESTIMONY.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3329_.HTM",
+    "latest_action_date": "2026-02-02",
+    "latest_action_description": "Referred to GVO/EIG, JDC.",
     "ncsl_status": ""
   },
   {
@@ -2735,21 +3808,26 @@
     "identifier": "SB 487",
     "title": "RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB487_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
@@ -2761,22 +3839,25 @@
     "identifier": "SB 59",
     "title": "RELATING TO ALGORITHMIC DISCRIMINATION.",
     "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
       "algorithmic_tool",
+      "machine_learning",
       "algorithmic_decision_system"
     ],
     "matched_tiers": [
+      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB59_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
@@ -2809,6 +3890,35 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/f0a57e47-3f89-4fe5-a23e-b6297888a9be",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 640",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB640_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/799e082c-d873-45e1-9a1b-5906d70ea885",
     "state": "HI",
     "session": "2025",
@@ -2835,11 +3945,40 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/f0a57e47-3f89-4fe5-a23e-b6297888a9be",
+    "bill_id": "ocd-bill/f79dc355-4193-408c-bec3-edaa87a50f69",
     "state": "HI",
     "session": "2026",
-    "identifier": "SB 640",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "identifier": "SB 785",
+    "title": "RELATING TO DYNAMIC PRICING.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB785_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d358a21e-069a-449c-8a05-c775d83c8e85",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 959",
+    "title": "RELATING TO HEALTH.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -2850,12 +3989,11 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB959_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
@@ -2874,8 +4012,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2888,6 +4026,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/b7c73a87-d125-4ad2-b4fe-d5d28ed41700",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SCR 146",
+    "title": "REQUESTING THE DEPARTMENT OF HUMAN RESOURCES DEVELOPMENT TO UNDERTAKE A COMPREHENSIVE STATEWIDE REVIEW OF CIVIL SERVICE CLASS SPECIFICATIONS, MINIMUM QUALIFICATIONS, AND CLASSIFICATIONS AND DEVELOP RECOMMENDATIONS FOR A PHASED MODERNIZATION IMPLEMENTATION PLAN.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SCR146_SD1_.HTM",
+    "latest_action_date": "2026-04-10",
+    "latest_action_description": "Referred to LAB, FIN, referral sheet 27",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/f0e7bd4b-9c04-4c09-9739-112b3f4e65b3",
     "state": "HI",
     "session": "2019 Regular Session",
@@ -2897,8 +4060,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2925,18 +4088,18 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
+      "ai_system",
       "machine_learning",
       "clinical_algorithms",
-      "ai_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2952,22 +4115,25 @@
     "identifier": "SCR 184",
     "title": "REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "automated_decision_system"
+      "automated_decision_system",
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-04-27",
-    "latest_action_description": "Resolution adopted in final form.",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SCR184_.HTM",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Certified copies of resolutions sent, 05-12-26.",
     "ncsl_status": ""
   },
   {
@@ -3002,22 +4168,51 @@
     "identifier": "SCR 33",
     "title": "REQUESTING THE DEPARTMENT OF EDUCATION TO DEVELOP ARTIFICIAL INTELLIGENCE LITERACY CURRICULA PLANS AND PROGRAMS FOR USE IN PUBLIC SCHOOLS.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SCR33_.HTM",
+    "latest_action_date": "2026-03-19",
+    "latest_action_description": "Referred to EDU/LBT.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d2a9991a-36d6-4abe-b863-081a7783caed",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SCR 42",
+    "title": "REQUESTING THE DEPARTMENT OF THE ATTORNEY GENERAL TO CONVENE A YOUTH DIGITAL SAFETY AND PLATFORM ACCOUNTABILITY WORKING GROUP TO EXAMINE TECHNOLOGY-FACILITATED ABUSE IN THE STATE AND DEVELOP RECOMMENDATIONS FOR REGULATORY SAFEGUARDS.",
+    "updated": "",
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SCR42_.HTM",
     "latest_action_date": "2026-03-19",
-    "latest_action_description": "Referred to EDU/LBT.",
+    "latest_action_description": "Referred to GVO/LBT.",
     "ncsl_status": ""
   },
   {
@@ -3047,6 +4242,32 @@
     "ncsl_status": "Failed – Adjourned"
   },
   {
+    "bill_id": "ocd-bill/cf62f280-0a57-4921-96fc-be633d9f5dec",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SCR 81",
+    "title": "REQUESTING THE HAWAII STATE COMMISSION ON THE STATUS OF WOMEN, IN COLLABORATION WITH THE OFFICE OF THE LEGISLATIVE REFERENCE BUREAU AND DEPARTMENT OF THE ATTORNEY GENERAL, TO ESTABLISH A WORKING GROUP AND PROVIDE A REPORT TO THE LEGISLATURE ON WAYS TO STRENGTHEN PROTECTIONS FOR SURVIVORS OF IMAGE-BASED SEXUAL ABUSE.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SCR81_SD1_.HTM",
+    "latest_action_date": "2026-04-10",
+    "latest_action_description": "Referred to JHA, FIN, referral sheet 28",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/837b3fb0-b4db-4f00-96fc-e377c3c76fbe",
     "state": "HI",
     "session": "2021 Regular Session",
@@ -3060,8 +4281,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3072,6 +4293,31 @@
     "latest_action_date": "2021-03-11",
     "latest_action_description": "Referred to HRE/GVO.",
     "ncsl_status": "Failed – Adjourned"
+  },
+  {
+    "bill_id": "ocd-bill/3b4aa409-f39f-491e-8870-8003a6edf27e",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SCR 95",
+    "title": "REQUESTING THE HAWAII STATE ENERGY OFFICE TO CONVENE A WORKING GROUP TO STUDY THE POTENTIAL IMPACTS OF LARGE DATA CENTERS ON HAWAII'S ELECTRIC UTILITIES, RATEPAYERS, NATURAL RESOURCES, AND CLIMATE GOALS.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SCR95_SD1_.HTM",
+    "latest_action_date": "2026-04-10",
+    "latest_action_description": "Referred to EEP, FIN, referral sheet 28",
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/c390eb94-fb9a-4272-b710-b6f81cb76875",
@@ -3109,18 +4355,18 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
+      "ai_system",
       "machine_learning",
       "clinical_algorithms",
-      "ai_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3128,6 +4374,31 @@
     "latest_action_date": "2023-05-22",
     "latest_action_description": "Certified copies of resolutions sent.",
     "ncsl_status": "Adopted"
+  },
+  {
+    "bill_id": "ocd-bill/921154c9-295f-466f-b289-ed0a0e0c854c",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SR 138",
+    "title": "REQUESTING THE DEPARTMENT OF HUMAN RESOURCES DEVELOPMENT TO UNDERTAKE A COMPREHENSIVE STATEWIDE REVIEW OF CIVIL SERVICE CLASS SPECIFICATIONS, MINIMUM QUALIFICATIONS, AND CLASSIFICATIONS AND DEVELOP RECOMMENDATIONS FOR A PHASED MODERNIZATION IMPLEMENTATION PLAN.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SR138_SD1_.HTM",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Certified copies of resolutions sent, 05-12-26.",
+    "ncsl_status": ""
   },
   {
     "bill_id": "ocd-bill/5b6bf41c-eebe-4e20-bbaf-9505f9785afe",
@@ -3139,8 +4410,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3163,22 +4434,25 @@
     "identifier": "SR 165",
     "title": "REQUESTING THE HAWAIʻI CIVIL RIGHTS COMMISSION TO EXAMINE THE APPLICABILITY OF EXISTING STATE ANTI-DISCRIMINATION LAWS TO ALGORITHMIC AND AUTOMATED DECISION SYSTEMS.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "automated_decision_system"
+      "artificial_intelligence",
+      "automated_decision_system",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-04-09",
-    "latest_action_description": "Report and Resolution Adopted.",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SR165_.HTM",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Certified copies of resolutions sent, 05-12-26.",
     "ncsl_status": ""
   },
   {
@@ -3213,22 +4487,51 @@
     "identifier": "SR 32",
     "title": "REQUESTING THE DEPARTMENT OF EDUCATION TO DEVELOP ARTIFICIAL INTELLIGENCE LITERACY CURRICULA PLANS AND PROGRAMS FOR USE IN PUBLIC SCHOOLS.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SR32_.HTM",
+    "latest_action_date": "2026-03-19",
+    "latest_action_description": "Referred to EDU/LBT.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/bd0ac8ca-2fa1-48d5-846b-375d2517ca2e",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SR 41",
+    "title": "REQUESTING THE DEPARTMENT OF THE ATTORNEY GENERAL TO CONVENE A YOUTH DIGITAL SAFETY AND PLATFORM ACCOUNTABILITY WORKING GROUP TO EXAMINE TECHNOLOGY-FACILITATED ABUSE IN THE STATE AND DEVELOP RECOMMENDATIONS FOR REGULATORY SAFEGUARDS.",
+    "updated": "",
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": null,
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SR41_.HTM",
     "latest_action_date": "2026-03-19",
-    "latest_action_description": "Referred to EDU/LBT.",
+    "latest_action_description": "Referred to GVO/LBT.",
     "ncsl_status": ""
   },
   {
@@ -3283,6 +4586,32 @@
     "ncsl_status": "Failed – Adjourned"
   },
   {
+    "bill_id": "ocd-bill/d1cebaef-2248-4bb3-a685-98fc77c5e850",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SR 71",
+    "title": "REQUESTING THE HAWAII STATE COMMISSION ON THE STATUS OF WOMEN, IN COLLABORATION WITH THE OFFICE OF THE LEGISLATIVE REFERENCE BUREAU AND DEPARTMENT OF THE ATTORNEY GENERAL, TO ESTABLISH A WORKING GROUP AND PROVIDE A REPORT TO THE LEGISLATURE ON WAYS TO STRENGTHEN PROTECTIONS FOR SURVIVORS OF IMAGE-BASED SEXUAL ABUSE.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SR71_SD1_.HTM",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Certified copies of resolutions sent, 05-12-26.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/07f1cf11-04fa-4d09-8a88-9b0d42bce73e",
     "state": "HI",
     "session": "2024",
@@ -3306,5 +4635,30 @@
     "latest_action_date": "2024-03-25",
     "latest_action_description": "Report adopted, referred to JDC.",
     "ncsl_status": "Failed - Adjourned"
+  },
+  {
+    "bill_id": "ocd-bill/480dfbed-5afc-44ae-9c2f-2a1d2a1aa943",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SR 90",
+    "title": "REQUESTING THE HAWAII STATE ENERGY OFFICE TO CONVENE A WORKING GROUP TO STUDY THE POTENTIAL IMPACTS OF LARGE DATA CENTERS ON HAWAII'S ELECTRIC UTILITIES, RATEPAYERS, NATURAL RESOURCES, AND CLIMATE GOALS.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SR90_SD1_.HTM",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "Certified copies of resolutions sent, 05-12-26.",
+    "ncsl_status": ""
   }
 ]

@@ -59,9 +59,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai_variant",
       "artificial_intelligence",
-      "generative_ai",
-      "generative_ai_variant"
+      "generative_ai"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -88,22 +88,22 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-05-07",
-    "latest_action_description": "Introduced and Assigned to Education Committee in House",
+    "latest_action_date": "2026-06-30",
+    "latest_action_description": "Amendment HA 1 to HS 1 - Passed In House by Voice Vote",
     "ncsl_status": ""
   },
   {
@@ -127,8 +127,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-06-04",
-    "latest_action_description": "Introduced and Assigned to Economic Development/Banking/Insurance & Commerce Committee in House",
+    "latest_action_date": "2026-06-25",
+    "latest_action_description": "Amendment HA 2 to HS 1 - Introduced and Placed With Bill",
     "ncsl_status": ""
   },
   {
@@ -149,8 +149,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -175,8 +175,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

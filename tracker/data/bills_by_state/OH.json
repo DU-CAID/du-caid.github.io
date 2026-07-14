@@ -15,8 +15,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -39,8 +39,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -96,9 +96,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -149,17 +149,17 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb392/00_IN/pdf/",
-    "latest_action_date": "2025-09-15T04:00:00+00:00",
-    "latest_action_description": "Referred to committee",
+    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb392/01_RH/pdf/",
+    "latest_action_date": "2026-06-10T04:00:00+00:00",
+    "latest_action_description": "Reported - Amended",
     "ncsl_status": ""
   },
   {
@@ -178,8 +178,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -204,8 +204,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -234,9 +234,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/01_RH/pdf/",
-    "latest_action_date": "2026-02-11T05:00:00+00:00",
-    "latest_action_description": "Referred to committee",
+    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb455/03_RS/pdf/",
+    "latest_action_date": "2026-07-01T04:00:00+00:00",
+    "latest_action_description": "Sent To The Governor",
     "ncsl_status": ""
   },
   {
@@ -287,8 +287,8 @@
     ],
     "match_fields": [
       "abstract",
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -308,16 +308,16 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -343,8 +343,8 @@
     ],
     "match_fields": [
       "abstract",
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -394,44 +394,19 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb628/00_IN/pdf/",
     "latest_action_date": "2026-02-04T05:00:00+00:00",
     "latest_action_description": "Referred to committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/aa610bc3-6d93-4803-bd43-66ac5df64c05",
-    "state": "OH",
-    "session": "136",
-    "identifier": "HB 646",
-    "title": "Create the Data Center Study Commission",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb646/02_RH/pdf/",
-    "latest_action_date": "2026-06-02T04:00:00+00:00",
-    "latest_action_description": "Re-referred",
     "ncsl_status": ""
   },
   {
@@ -476,8 +451,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -554,8 +529,8 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -604,8 +579,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -633,8 +608,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -685,8 +660,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -735,9 +710,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "artificial_intelligence",
-      "ai_system",
-      "ai_system_composite"
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -772,9 +747,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/00_IN/pdf/",
-    "latest_action_date": "2025-11-18T05:00:00+00:00",
-    "latest_action_description": "Referred to committee",
+    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/01_RS/pdf/",
+    "latest_action_date": "2026-06-16T04:00:00+00:00",
+    "latest_action_description": "Introduced",
     "ncsl_status": ""
   },
   {
@@ -868,8 +843,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

@@ -20,8 +20,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2133S.htm",
-    "latest_action_date": "2026-04-08",
-    "latest_action_description": "DPA",
+    "latest_action_date": "2026-06-19",
+    "latest_action_description": "Vetoed by Governor",
     "ncsl_status": ""
   },
   {
@@ -83,22 +83,25 @@
     "identifier": "HB 2311",
     "title": "artificial intelligence service; disclosures; requirements",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/540632",
-    "latest_action_date": "2026-03-17",
-    "latest_action_description": "DP",
+    "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2311S.htm",
+    "latest_action_date": "2026-06-19",
+    "latest_action_description": "Vetoed by Governor",
     "ncsl_status": ""
   },
   {
@@ -265,17 +268,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
       "machine_learning",
+      "algorithmic_tool",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -299,8 +302,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -309,8 +312,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2592S.htm",
-    "latest_action_date": "2026-04-14",
-    "latest_action_description": "DPA",
+    "latest_action_date": "2026-06-19",
+    "latest_action_description": "Vetoed by Governor",
     "ncsl_status": ""
   },
   {
@@ -464,9 +467,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4005P.htm",
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "DP",
+    "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4005S.htm",
+    "latest_action_date": "2026-06-19",
+    "latest_action_description": "Vetoed by Governor",
     "ncsl_status": ""
   },
   {
@@ -540,8 +543,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4040P.htm",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "latest_action_date": "2026-06-13",
+    "latest_action_description": "House First Reading.",
     "ncsl_status": ""
   },
   {
@@ -568,8 +571,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB4080P.htm",
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "latest_action_date": "2026-06-13",
+    "latest_action_description": "House First Reading.",
     "ncsl_status": ""
   },
   {
@@ -583,11 +586,11 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system",
-      "llm_variant",
       "artificial_intelligence",
-      "high_risk_ai_variant",
       "foundation_model",
       "high_risk_ai",
+      "llm_variant",
+      "high_risk_ai_variant",
       "ai_system_composite",
       "ai_model_variant"
     ],
@@ -640,8 +643,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -696,8 +699,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -769,9 +772,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "artificial_intelligence",
-      "synthetic_media",
-      "deepfake_media"
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -905,8 +908,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -925,11 +928,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning",
       "generative_ai_variant",
+      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",

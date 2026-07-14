@@ -1,31 +1,5 @@
 [
   {
-    "bill_id": "ocd-bill/afacb6d5-2665-4a72-9e46-f64ea1d4f5e6",
-    "state": "OK",
-    "session": "2025",
-    "identifier": "HB 1304",
-    "title": "Schools; subject matter standards; computer science courses; curriculum; rules; effective date; emergency.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1304 INT.PDF",
-    "latest_action_date": "2025-02-25",
-    "latest_action_description": "Policy recommendation to the Education Oversight committee; Do Pass Common Education",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/cd1fba6b-88c9-42a1-90d7-7112a9a08419",
     "state": "OK",
     "session": "2026",
@@ -52,6 +26,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/afacb6d5-2665-4a72-9e46-f64ea1d4f5e6",
+    "state": "OK",
+    "session": "2025",
+    "identifier": "HB 1304",
+    "title": "Schools; subject matter standards; computer science courses; curriculum; rules; effective date; emergency.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1304 INT.PDF",
+    "latest_action_date": "2025-02-25",
+    "latest_action_description": "Policy recommendation to the Education Oversight committee; Do Pass Common Education",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/62aa8a61-3a31-4f0e-baed-6cf01d2cf4d0",
     "state": "OK",
     "session": "2025",
@@ -61,10 +61,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "synthetic_media",
       "adjacent_tech",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai",
@@ -96,8 +96,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -110,9 +110,9 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/b1dd8689-1020-4ee1-8f97-d70250dfebd6",
+    "bill_id": "ocd-bill/472abbcc-74a8-45e1-8959-1aaf6ef60333",
     "state": "OK",
-    "session": "2025",
+    "session": "2026",
     "identifier": "HB 1537",
     "title": "Amusements and sports; Supporting Affordability and Fairness with Every Bet Act of 2025; SAFE Bet Act; terms; prohibition; exceptions; Attorney General; civil action; jury; civil penalties; jurisdiction; application; information; notice; renew; standards; Indian Tribe; severability; codification; effective date.",
     "updated": "",
@@ -135,9 +135,9 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/472abbcc-74a8-45e1-8959-1aaf6ef60333",
+    "bill_id": "ocd-bill/b1dd8689-1020-4ee1-8f97-d70250dfebd6",
     "state": "OK",
-    "session": "2026",
+    "session": "2025",
     "identifier": "HB 1537",
     "title": "Amusements and sports; Supporting Affordability and Fairness with Every Bet Act of 2025; SAFE Bet Act; terms; prohibition; exceptions; Attorney General; civil action; jury; civil penalties; jurisdiction; application; information; notice; renew; standards; Indian Tribe; severability; codification; effective date.",
     "updated": "",
@@ -226,8 +226,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -246,13 +246,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "ai_governance",
       "artificial_intelligence",
-      "machine_learning",
-      "ai_governance"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -295,38 +295,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/3a7b387d-a6f5-4c72-b501-73576f68b77c",
-    "state": "OK",
-    "session": "2025",
-    "identifier": "HB 1916",
-    "title": "Artificial intelligence; Responsible Deployment of AI Systems Act; AI Council; AI Regulatory Sandbox Program; Artificial Intelligence Workforce Development Program; effective date.",
-    "updated": "",
-    "core_ai_hits": 6,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "deepfake_media",
-      "high_risk_ai_variant",
-      "ai_system_composite",
-      "ai_system",
-      "high_risk_ai",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1916 INT.PDF",
-    "latest_action_date": "2025-02-04",
-    "latest_action_description": "Second Reading referred to Rules",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/e2b6b72c-85e3-4255-84c2-24722cc2a783",
     "state": "OK",
     "session": "2026",
@@ -336,16 +304,48 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "high_risk_ai",
       "ai_system",
       "ai_system_composite",
       "artificial_intelligence",
-      "high_risk_ai",
       "deepfake_media",
       "high_risk_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1916 INT.PDF",
+    "latest_action_date": "2025-02-04",
+    "latest_action_description": "Second Reading referred to Rules",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/3a7b387d-a6f5-4c72-b501-73576f68b77c",
+    "state": "OK",
+    "session": "2025",
+    "identifier": "HB 1916",
+    "title": "Artificial intelligence; Responsible Deployment of AI Systems Act; AI Council; AI Regulatory Sandbox Program; Artificial Intelligence Workforce Development Program; effective date.",
+    "updated": "",
+    "core_ai_hits": 6,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "deepfake_media",
+      "high_risk_ai_variant",
+      "ai_system_composite",
+      "ai_system",
+      "high_risk_ai"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -374,8 +374,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -424,8 +424,8 @@
       "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -451,8 +451,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -480,8 +480,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -529,8 +529,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -555,8 +555,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -578,8 +578,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -633,8 +633,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -687,12 +687,12 @@
       "synthetic_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -768,12 +768,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -819,11 +819,11 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
+      "high_risk_ai",
+      "artificial_intelligence",
       "deepfake_media",
       "generative_ai_variant",
       "high_risk_ai_variant",
-      "high_risk_ai",
-      "artificial_intelligence",
       "generative_ai",
       "ai_system"
     ],
@@ -881,8 +881,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -933,8 +933,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -956,14 +956,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "automated_decision_system",
       "artificial_intelligence",
       "machine_learning",
-      "automated_decision_system",
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1018,8 +1018,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1069,12 +1069,12 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1093,8 +1093,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1123,8 +1123,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1186,8 +1186,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1467,8 +1467,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1595,8 +1595,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1698,9 +1698,9 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1732,8 +1732,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1743,32 +1743,6 @@
     "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 FLOOR AMENDMENTS/Senate/SB224 (3-13-25) (SEIFRIED) FS FA1.PDF",
     "latest_action_date": "2025-05-29",
     "latest_action_description": "Motion expired",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/7cf950fd-1e6e-4223-8a4c-a73429ccda04",
-    "state": "OK",
-    "session": "2025",
-    "identifier": "SB 611",
-    "title": "State government; creating the Citizen's Bill of Rights. Emergency.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB611 INT.PDF",
-    "latest_action_date": "2025-02-04",
-    "latest_action_description": "Second Reading referred to Judiciary",
     "ncsl_status": ""
   },
   {
@@ -1784,8 +1758,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1798,17 +1772,43 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/0040f16e-d348-4d21-8fc9-5a51e068455d",
+    "bill_id": "ocd-bill/7cf950fd-1e6e-4223-8a4c-a73429ccda04",
     "state": "OK",
     "session": "2025",
+    "identifier": "SB 611",
+    "title": "State government; creating the Citizen's Bill of Rights. Emergency.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB611 INT.PDF",
+    "latest_action_date": "2025-02-04",
+    "latest_action_description": "Second Reading referred to Judiciary",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/db8ff67e-ca0c-4022-9c5a-2b6ef0a98646",
+    "state": "OK",
+    "session": "2026",
     "identifier": "SB 746",
     "title": "Artificial intelligence; requiring certain disclosure for certain media. Effective date.",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1825,17 +1825,17 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/db8ff67e-ca0c-4022-9c5a-2b6ef0a98646",
+    "bill_id": "ocd-bill/0040f16e-d348-4d21-8fc9-5a51e068455d",
     "state": "OK",
-    "session": "2026",
+    "session": "2025",
     "identifier": "SB 746",
     "title": "Artificial intelligence; requiring certain disclosure for certain media. Effective date.",
     "updated": "",
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1915,9 +1915,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1943,9 +1943,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "artificial_intelligence",
-      "synthetic_media",
-      "deepfake_media"
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai"

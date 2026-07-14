@@ -75,31 +75,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/727b7d50-8b94-4c93-b8c3-358158f9b12b",
-    "state": "AL",
-    "session": "2023rs",
-    "identifier": "HB 169",
-    "title": "To make appropriations for the support, maintenance and development of public education in Alabama, for debt service, and for capital outlay for the fiscal year ending September 30, 2024.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legislature.state.al.us/pdf/SearchableInstruments/2023RS/HB169-int.pdf",
-    "latest_action_date": "2023-03-21T04:00:00+00:00",
-    "latest_action_description": "Introduced and Referred (Ways and Means Education)",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/dcd393fc-6737-4a55-b2cf-403ad61be52c",
     "state": "AL",
     "session": "2025rs",
@@ -122,6 +97,31 @@
     "primary_url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2025RS/HB169-int.pdf",
     "latest_action_date": "2025-02-05T05:00:00+00:00",
     "latest_action_description": "Pending Committee Action in House of Origin (Ways and Means Education)",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/727b7d50-8b94-4c93-b8c3-358158f9b12b",
+    "state": "AL",
+    "session": "2023rs",
+    "identifier": "HB 169",
+    "title": "To make appropriations for the support, maintenance and development of public education in Alabama, for debt service, and for capital outlay for the fiscal year ending September 30, 2024.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.legislature.state.al.us/pdf/SearchableInstruments/2023RS/HB169-int.pdf",
+    "latest_action_date": "2023-03-21T04:00:00+00:00",
+    "latest_action_description": "Introduced and Referred (Ways and Means Education)",
     "ncsl_status": ""
   },
   {
@@ -159,9 +159,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -313,11 +313,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
-      "ml_system",
       "artificial_intelligence",
-      "machine_learning"
+      "ml_system",
+      "machine_learning",
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai",
@@ -343,8 +343,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai_variant",
+      "artificial_intelligence",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -370,8 +370,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai_variant",
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite"
     ],
@@ -406,8 +406,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -429,16 +429,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -561,8 +561,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -868,10 +868,10 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
-      "generative_ai_variant",
       "foundation_model",
-      "llm_variant",
       "artificial_intelligence",
+      "generative_ai_variant",
+      "llm_variant",
       "ai_system"
     ],
     "matched_tiers": [
@@ -978,8 +978,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1033,8 +1033,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1107,8 +1107,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1210,8 +1210,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"

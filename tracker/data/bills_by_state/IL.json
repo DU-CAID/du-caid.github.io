@@ -15,8 +15,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -41,7 +41,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -83,17 +82,15 @@
     "identifier": "HB 1806",
     "title": "THERAPY RESOURCES OVERSIGHT",
     "updated": "",
-    "core_ai_hits": 2,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -113,12 +110,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -138,18 +135,16 @@
     "identifier": "HB 1859",
     "title": "COM COL-COURSE INSTRUCTOR-AI",
     "updated": "",
-    "core_ai_hits": 2,
+    "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -199,8 +194,7 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -219,10 +213,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -230,8 +224,7 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -283,8 +276,7 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -329,8 +321,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -356,15 +348,14 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -383,8 +374,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -397,31 +388,6 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201106&DocName=10400HB3041&DocNum=3041&DocTypeID=HB&LegID=161318&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/5feb05fa-70a5-4bcd-a83b-f912afeca690",
-    "state": "IL",
-    "session": "104th",
-    "identifier": "HB 31",
-    "title": "OMA-AUTOMATED REQUEST",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-03-21",
     "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
@@ -439,12 +405,11 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -569,8 +534,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -622,8 +587,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -633,33 +598,6 @@
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201955&DocName=10400HB3494&DocNum=3494&DocTypeID=HB&LegID=162167&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2026-05-30",
     "latest_action_description": "Added Co-Sponsor Rep. Daniel Didech",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/2c626e31-7019-4e5d-a73f-5386b6373fbb",
-    "state": "IL",
-    "session": "104th",
-    "identifier": "HB 35",
-    "title": "AI USE IN HEALTH INSURANCE ACT",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-06-02",
-    "latest_action_description": "Rule 3-9(a) / Re-referred to Assignments",
     "ncsl_status": ""
   },
   {
@@ -697,12 +635,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
       "foundation_model",
-      "artificial_intelligence",
       "llm_variant"
     ],
     "matched_tiers": [
@@ -711,8 +649,7 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -732,17 +669,16 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning",
       "ai_system",
-      "ai_governance",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning",
+      "ai_governance"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -768,8 +704,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -793,16 +729,15 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "machine_learning",
-      "artificial_intelligence",
+      "ml_system",
       "automated_decision_system",
-      "ml_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -847,9 +782,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "generative_ai_variant",
       "artificial_intelligence",
       "generative_ai",
-      "generative_ai_variant",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -857,7 +792,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -879,15 +813,14 @@
     "matched_concepts": [
       "artificial_intelligence",
       "machine_learning",
-      "automated_decision_system",
-      "ml_system"
+      "ml_system",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -933,8 +866,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -942,8 +875,7 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -959,20 +891,18 @@
     "identifier": "HB 3851",
     "title": "SCH CD-CYBER-BULLYING",
     "updated": "",
-    "core_ai_hits": 3,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "digital_replica",
-      "generative_ai_variant",
       "artificial_intelligence",
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1070,8 +1000,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1081,31 +1011,6 @@
     "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=188173&DocName=10300HB4093&DocNum=4093&DocTypeID=HB&LegID=150082&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
     "latest_action_date": "2024-04-19",
     "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/91bae58b-a8aa-4e8f-847d-bffa6304c58a",
-    "state": "IL",
-    "session": "104th",
-    "identifier": "HB 4248",
-    "title": "ALGORITHMIC PRICE TRANSPARENCY",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "algorithmic_tool"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=211425&DocName=10400HB4248sam001&DocNum=4248&DocTypeID=HB&LegID=164720&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-06-01",
-    "latest_action_description": "Added as Alternate Chief Co-Sponsor Sen. Michael W. Halpin",
     "ncsl_status": ""
   },
   {
@@ -1149,7 +1054,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1177,7 +1081,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
       "title"
     ],
@@ -1224,18 +1127,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
       "adjacent_tech",
+      "digital_replica",
       "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1281,8 +1184,8 @@
     "matched_concepts": [
       "ai_system_composite",
       "ai_model_variant",
-      "generative_ai_variant",
       "artificial_intelligence",
+      "generative_ai_variant",
       "generative_ai"
     ],
     "matched_tiers": [
@@ -1335,8 +1238,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1362,8 +1265,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -1372,8 +1275,8 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1392,21 +1295,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "foundation_model",
       "llm_variant",
+      "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "adjacent_tech",
-      "artificial_intelligence",
-      "foundation_model"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1433,11 +1335,10 @@
       "ai_model_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1457,8 +1358,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
-      "adjacent_tech"
+      "adjacent_tech",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1466,7 +1367,6 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
       "title"
     ],
     "in_ncsl": true,
@@ -1511,10 +1411,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "generative_ai_variant",
+      "artificial_intelligence",
       "digital_replica"
     ],
     "matched_tiers": [
@@ -1569,10 +1469,10 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "llm_variant",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
+      "llm_variant",
       "foundation_model"
     ],
     "matched_tiers": [
@@ -1580,7 +1480,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
       "title"
     ],
@@ -1608,7 +1507,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1637,8 +1535,8 @@
     ],
     "match_fields": [
       "abstract",
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1657,19 +1555,19 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "generative_ai_variant",
       "machine_learning",
+      "adjacent_tech",
       "synthetic_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1688,9 +1586,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "generative_ai_variant",
+      "artificial_intelligence",
       "digital_replica"
     ],
     "matched_tiers": [
@@ -1749,38 +1647,12 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207642&DocName=10400HB4945&DocNum=4945&DocTypeID=HB&LegID=166296&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2026-03-27",
-    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/3b1b95d7-a522-49c3-9ca8-fec7e0d42abe",
-    "state": "IL",
-    "session": "104th",
-    "identifier": "HB 496",
-    "title": "EMPLOYMENT-TECH",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-05-31",
     "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
@@ -1820,18 +1692,17 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning",
+      "ml_system",
       "automated_decision_system",
-      "ml_system"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1854,12 +1725,11 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1878,15 +1748,14 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1914,9 +1783,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1942,7 +1810,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -2016,8 +1883,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2025,8 +1892,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210707&DocName=10400HB5081sam001&DocNum=5081&DocTypeID=HB&LegID=166621&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-05-31",
-    "latest_action_description": "Senate Floor Amendment No. 1 House Concurs 116-001-000",
+    "latest_action_date": "2026-06-26",
+    "latest_action_description": "Sent to the Governor",
     "ncsl_status": ""
   },
   {
@@ -2075,8 +1942,7 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2095,8 +1961,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2121,9 +1987,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "adjacent_tech",
       "artificial_intelligence",
-      "algorithmic_tool",
-      "adjacent_tech"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2213,8 +2079,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=211151&DocName=10400HB5284sam004&DocNum=5284&DocTypeID=HB&LegID=167006&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-06-01",
-    "latest_action_description": "Added as Alternate Co-Sponsor Sen. Napoleon Harris, III",
+    "latest_action_date": "2026-06-26",
+    "latest_action_description": "Sent to the Governor",
     "ncsl_status": ""
   },
   {
@@ -2244,34 +2110,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/6f30fbe2-ef7e-4210-ac2f-16045e568bed",
-    "state": "IL",
-    "session": "103rd",
-    "identifier": "HB 5321",
-    "title": "CONSUMER FRAUD-AI LABELING",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant",
-      "ai_system_composite"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=191733&DocName=10300HB5321&DocNum=5321&DocTypeID=HB&LegID=153547&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2024-04-05",
-    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/4ff1cfac-e41c-453e-abff-a65cc396dc2a",
     "state": "IL",
     "session": "101st",
@@ -2298,6 +2136,34 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/6f30fbe2-ef7e-4210-ac2f-16045e568bed",
+    "state": "IL",
+    "session": "103rd",
+    "identifier": "HB 5321",
+    "title": "CONSUMER FRAUD-AI LABELING",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=191733&DocName=10300HB5321&DocNum=5321&DocTypeID=HB&LegID=153547&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2024-04-05",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/2f0e0b8a-acbc-4b51-88e2-bd5cb92adae6",
     "state": "IL",
     "session": "103rd",
@@ -2307,9 +2173,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "artificial_intelligence",
-      "algorithmic_tool",
-      "ai_system_composite"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2339,13 +2205,12 @@
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2364,15 +2229,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2417,16 +2282,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2445,10 +2310,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "generative_ai_variant",
       "adjacent_tech",
-      "generative_ai",
-      "artificial_intelligence"
+      "generative_ai"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2503,8 +2368,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2527,17 +2392,16 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "algorithmic_tool",
       "ml_system",
       "artificial_intelligence",
-      "ai_system_composite",
-      "algorithmic_tool"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
       "title",
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -2557,23 +2421,22 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai",
-      "llm_variant",
-      "artificial_intelligence",
-      "generative_ai_variant",
       "automated_decision_system",
+      "generative_ai",
+      "artificial_intelligence",
       "foundation_model",
-      "ai_system_composite",
+      "llm_variant",
+      "generative_ai_variant",
       "adjacent_tech",
+      "ai_system_composite",
       "ai_model_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2598,8 +2461,7 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2618,20 +2480,20 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "digital_replica",
       "adjacent_tech",
       "artificial_intelligence",
-      "digital_replica",
       "deepfake_media",
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2702,9 +2564,9 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning",
       "ai_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2764,14 +2626,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206441&DocName=10400HJ0050&DocNum=50&DocTypeID=HJR&LegID=165093&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-02-11",
-    "latest_action_description": "Assigned to Appropriations-Elementary & Secondary Education Committee",
+    "latest_action_date": "2026-07-01",
+    "latest_action_description": "Rule 19(b) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
   {
@@ -2950,6 +2811,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/5adec3b9-3e17-48b6-a2fe-8cfecd4b5c07",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "HR 981",
+    "title": "CONGRATS-ASSOCIATED RESEARCH",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=211487&DocName=10400HR0981&DocNum=981&DocTypeID=HR&LegID=168769&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-06-22",
+    "latest_action_description": "Filed with the Clerk by Rep. Bob Morgan",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/c6868ba7-e2b6-4187-a03a-54ebbf548151",
     "state": "IL",
     "session": "102nd",
@@ -2990,12 +2876,11 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3015,17 +2900,16 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
-      "machine_learning",
       "ai_system",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3050,8 +2934,7 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3101,7 +2984,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3121,10 +3003,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3132,8 +3014,7 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3158,7 +3039,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3212,7 +3092,6 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3235,16 +3114,15 @@
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3264,8 +3142,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3315,18 +3193,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai",
       "adjacent_tech",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "generative_ai"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3345,48 +3222,22 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "algorithmic_tool",
       "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201716&DocName=10400SB2203&DocNum=2203&DocTypeID=SB&LegID=161928&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2025-04-11",
     "latest_action_description": "Rule 3-9(a) / Re-referred to Assignments",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/bed392e3-3a8d-4a6d-8b02-18ebbcebfebf",
-    "state": "IL",
-    "session": "104th",
-    "identifier": "SB 2255",
-    "title": "SURVEILLANCE DISCRIMINATION",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "automated_decision_system"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209289&DocName=10400SB2255sam001&DocNum=2255&DocTypeID=SB&LegID=162026&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-05-26",
-    "latest_action_description": "Added as Co-Sponsor Sen. Javier L. Cervantes",
     "ncsl_status": ""
   },
   {
@@ -3399,17 +3250,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai",
       "generative_ai_variant",
-      "artificial_intelligence",
-      "generative_ai"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3432,8 +3282,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3486,7 +3336,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3506,8 +3355,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3639,9 +3488,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3691,8 +3540,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3717,14 +3566,39 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206157&DocName=10400SB2780&DocNum=2780&DocTypeID=SB&LegID=164809&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-05-15",
-    "latest_action_description": "Rule 2-10 Committee/3rd Reading Deadline Established As May 22, 2026",
+    "latest_action_date": "2026-07-02",
+    "latest_action_description": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a1d702e4-e42c-4bcd-8ce8-729242ecdbb8",
+    "state": "IL",
+    "session": "104th",
+    "identifier": "SB 2786",
+    "title": "PROCUREMENT-LOCAL GOV AI",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206170&DocName=10400SB2786&DocNum=2786&DocTypeID=SB&LegID=164822&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2026-01-13",
+    "latest_action_description": "Filed with Secretary by Sen. Lakesia Collins",
     "ncsl_status": ""
   },
   {
@@ -3751,33 +3625,6 @@
     "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=189819&DocName=10300SB2786&DocNum=2786&DocTypeID=SB&LegID=151558&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
     "latest_action_date": "2024-01-17",
     "latest_action_description": "Filed with Secretary by Sen. Mary Edly-Allen",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/a1d702e4-e42c-4bcd-8ce8-729242ecdbb8",
-    "state": "IL",
-    "session": "104th",
-    "identifier": "SB 2786",
-    "title": "PROCUREMENT-LOCAL GOV AI",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206170&DocName=10400SB2786&DocNum=2786&DocTypeID=SB&LegID=164822&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-01-13",
-    "latest_action_description": "Filed with Secretary by Sen. Lakesia Collins",
     "ncsl_status": ""
   },
   {
@@ -3847,8 +3694,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3873,14 +3720,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209124&DocName=10400SB2909sam001&DocNum=2909&DocTypeID=SB&LegID=165259&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-05-27",
-    "latest_action_description": "Third Reading - Short Debate - Passed 113-000-000",
+    "latest_action_date": "2026-07-10",
+    "latest_action_description": "Governor Approved",
     "ncsl_status": ""
   },
   {
@@ -3899,7 +3745,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3920,17 +3765,17 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "adjacent_tech",
+      "artificial_intelligence",
       "generative_ai_variant",
-      "digital_replica",
-      "artificial_intelligence"
+      "digital_replica"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3955,7 +3800,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -3981,7 +3825,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4007,7 +3850,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4033,8 +3875,7 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4091,8 +3932,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=211135&DocName=10400SB0317sam002&DocNum=317&DocTypeID=SB&LegID=157799&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-05-30",
-    "latest_action_description": "Added as Co-Sponsor Sen. Li Arellano, Jr.",
+    "latest_action_date": "2026-05-31",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
   {
@@ -4111,7 +3952,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4131,18 +3971,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
-      "deepfake_media",
       "machine_learning",
-      "artificial_intelligence"
+      "ai_system_composite",
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -4161,12 +4001,12 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "adjacent_tech",
       "foundation_model",
-      "llm_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "llm_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -4174,7 +4014,6 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4200,7 +4039,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4226,7 +4064,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4250,8 +4087,8 @@
       "ai_system_composite",
       "ai_model_variant",
       "foundation_model",
-      "llm_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "llm_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -4259,7 +4096,6 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4279,8 +4115,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4312,7 +4148,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4337,12 +4172,11 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4391,12 +4225,11 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4426,8 +4259,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=210931&DocName=10400SB0343sam001&DocNum=343&DocTypeID=SB&LegID=157836&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-06-01",
-    "latest_action_description": "3/5 Vote Required",
+    "latest_action_date": "2026-06-30",
+    "latest_action_description": "Sent to the Governor",
     "ncsl_status": ""
   },
   {
@@ -4449,7 +4282,6 @@
     ],
     "match_fields": [
       "title",
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4481,8 +4313,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207771&DocName=10400SB3454&DocNum=3454&DocTypeID=SB&LegID=166425&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-05-22",
-    "latest_action_description": "Rule 3-9(a) / Re-referred to Assignments",
+    "latest_action_date": "2026-06-29",
+    "latest_action_description": "Added as Co-Sponsor Sen. Jason Plummer",
     "ncsl_status": ""
   },
   {
@@ -4506,8 +4338,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209668&DocName=10400SB3484sam001&DocNum=3484&DocTypeID=SB&LegID=166485&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-06-01",
-    "latest_action_description": "House Floor Amendment No. 1 Adopted",
+    "latest_action_date": "2026-06-30",
+    "latest_action_description": "Sent to the Governor",
     "ncsl_status": ""
   },
   {
@@ -4526,8 +4358,7 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4571,18 +4402,17 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "adjacent_tech",
+      "ai_system_composite",
       "ai_model_variant",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4590,31 +4420,6 @@
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207853&DocName=10400SB3502&DocNum=3502&DocTypeID=SB&LegID=166507&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2026-05-22",
     "latest_action_description": "Rule 3-9(a) / Re-referred to Assignments",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/261a7581-b136-4cca-b620-e2b1e9c20857",
-    "state": "IL",
-    "session": "104th",
-    "identifier": "SB 3571",
-    "title": "WARN ACT-AI LAYOFFS",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209502&DocName=10400SB3571sam001&DocNum=3571&DocTypeID=SB&LegID=166631&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-05-22",
-    "latest_action_description": "Senate Committee Amendment No. 1 Rule 3-9(a) / Re-referred to Assignments",
     "ncsl_status": ""
   },
   {
@@ -4627,19 +4432,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "adjacent_tech",
+      "ai_system_composite",
       "ai_model_variant",
       "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4664,7 +4468,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4688,11 +4491,10 @@
       "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4744,7 +4546,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4764,15 +4565,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "digital_replica",
       "adjacent_tech",
       "ai_system_composite",
       "artificial_intelligence",
-      "digital_replica",
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract"
@@ -4819,48 +4620,22 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "digital_replica",
+      "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "adjacent_tech",
-      "artificial_intelligence",
-      "digital_replica"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208362&DocName=10400SB3735&DocNum=3735&DocTypeID=SB&LegID=167016&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-05-22",
-    "latest_action_description": "Rule 3-9(a) / Re-referred to Assignments",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/3c8fddfb-f85c-4dd9-932a-1172f955b71b",
-    "state": "IL",
-    "session": "104th",
-    "identifier": "SB 3901",
-    "title": "MARRIAGE ACT-EVIDENCE",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=209582&DocName=10400SB3901sam001&DocNum=3901&DocTypeID=SB&LegID=167344&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
     "latest_action_date": "2026-05-22",
     "latest_action_description": "Rule 3-9(a) / Re-referred to Assignments",
     "ncsl_status": ""
@@ -4939,8 +4714,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=211127&DocName=10400SB0416sam002&DocNum=416&DocTypeID=SB&LegID=158064&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2026-05-29",
-    "latest_action_description": "Added as Co-Sponsor Sen. Donald P. DeWitte",
+    "latest_action_date": "2026-05-31",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
     "ncsl_status": ""
   },
   {
@@ -4959,7 +4734,6 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -5035,8 +4809,7 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -5105,19 +4878,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "ai_system",
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

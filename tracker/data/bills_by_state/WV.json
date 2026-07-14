@@ -9,9 +9,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "adjacent_tech",
       "machine_learning",
-      "artificial_intelligence",
-      "adjacent_tech"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -42,8 +42,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -97,8 +97,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -164,34 +164,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/ad5bc783-f0cf-42ef-ace5-ce5126b5a214",
-    "state": "WV",
-    "session": "2019",
-    "identifier": "HB 3097",
-    "title": "West Virginia Innovation Free-Trade Business Technology Property Valuation Act and the West Virginia Innovation Free-Trade Tax Credit Act",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning",
-      "ml_system"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=hb3097%20intr.htm&yr=2019&sesstype=RS&i=3097",
-    "latest_action_date": "2019-02-12",
-    "latest_action_description": "Filed for introduction",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/041608f1-ce17-4851-b83b-e6d632561219",
     "state": "WV",
     "session": "2020",
@@ -206,8 +178,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -216,6 +188,34 @@
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=hb3097%20intr.htm&yr=2020&sesstype=RS&i=3097",
     "latest_action_date": "2020-01-08",
+    "latest_action_description": "Filed for introduction",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/ad5bc783-f0cf-42ef-ace5-ce5126b5a214",
+    "state": "WV",
+    "session": "2019",
+    "identifier": "HB 3097",
+    "title": "West Virginia Innovation Free-Trade Business Technology Property Valuation Act and the West Virginia Innovation Free-Trade Tax Credit Act",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "ml_system",
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=hb3097%20intr.htm&yr=2019&sesstype=RS&i=3097",
+    "latest_action_date": "2019-02-12",
     "latest_action_description": "Filed for introduction",
     "ncsl_status": ""
   },
@@ -329,8 +329,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -360,8 +360,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -414,8 +414,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -488,9 +488,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -522,8 +522,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -551,8 +551,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
