@@ -56,19 +56,21 @@
     "identifier": "HB 102",
     "title": "Protecting kids from deepfakes and exploitative images.",
     "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 5,
+    "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "ai_system",
       "machine_learning",
       "ai_system_composite",
       "artificial_intelligence",
       "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
       "raw_text"
     ],
@@ -95,6 +97,7 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -170,8 +173,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",

@@ -13,8 +13,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -36,12 +36,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -63,16 +63,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system",
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -91,15 +91,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -118,9 +118,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "algorithmic_decision_system",
-      "automated_decision_system",
-      "artificial_intelligence"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -133,6 +133,32 @@
     "primary_url": "https://lis.blob.core.windows.net/files/1087900.PDF",
     "latest_action_date": "2026-02-18",
     "latest_action_description": "Left in Committee Appropriations",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8c7f16c2-093d-4286-af3c-9c363c42c05e",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "HB 1252",
+    "title": "Virginia Residential Landlord and Tenant Act; algorithmic pricing device use by certain landlords.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1229416.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
     "ncsl_status": ""
   },
   {
@@ -162,6 +188,35 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/0a278c27-c870-4788-90a8-d1ad1aec7acd",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "HB 1257",
+    "title": "Law-enforcement agencies; use of certain technologies & interrogation practices; forensic lab.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "machine_learning",
+      "ml_system",
+      "generative_ai"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1231670.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/756c923f-3dd6-4ef9-b39d-22b2c9869702",
     "state": "VA",
     "session": "2026",
@@ -171,14 +226,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "generative_ai_variant",
       "generative_ai",
-      "ml_system",
       "machine_learning",
-      "generative_ai_variant"
+      "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract"
@@ -191,6 +246,35 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/4ac33e74-34db-4034-bb97-188f9204155e",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "HB 1261",
+    "title": "Law-enforcement agencies; use of certain technology & interrogation practices; forensic laboratory.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "machine_learning",
+      "ml_system",
+      "generative_ai"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1231148.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/b01e3190-0df4-44f7-8adf-a2de4b2a5573",
     "state": "VA",
     "session": "2026",
@@ -200,14 +284,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
       "generative_ai",
       "ml_system",
-      "generative_ai_variant",
-      "machine_learning"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract"
@@ -229,8 +313,62 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1088501.PDF",
+    "latest_action_date": "2026-02-02",
+    "latest_action_description": "Subcommittee recommends continuing to  (Voice Vote)",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/ddcc080c-e11a-4280-a243-c1aa415f2be7",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "HB 1294",
+    "title": "Use of artificial intelligence-based tools; covered artificial intelligence, disclosure of use.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "generative_ai_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1230642.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/fbe43231-2ad1-4ee2-8df3-310809d5879b",
+    "state": "VA",
+    "session": "2026",
+    "identifier": "HB 1295",
+    "title": "Law enforcement; artificial intelligence inventory, civil action.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -241,15 +379,15 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.blob.core.windows.net/files/1088501.PDF",
+    "primary_url": "https://lis.blob.core.windows.net/files/1088504.PDF",
     "latest_action_date": "2026-02-02",
     "latest_action_description": "Subcommittee recommends continuing to  (Voice Vote)",
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/fbe43231-2ad1-4ee2-8df3-310809d5879b",
+    "bill_id": "ocd-bill/594ebaa4-6f6a-4b2b-bc39-89e5deb2c135",
     "state": "VA",
-    "session": "2026",
+    "session": "2027",
     "identifier": "HB 1295",
     "title": "Law enforcement; artificial intelligence inventory, civil action.",
     "updated": "",
@@ -268,9 +406,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.blob.core.windows.net/files/1088504.PDF",
-    "latest_action_date": "2026-02-02",
-    "latest_action_description": "Subcommittee recommends continuing to  (Voice Vote)",
+    "primary_url": "https://lis.blob.core.windows.net/files/1229851.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
     "ncsl_status": ""
   },
   {
@@ -289,9 +427,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -316,9 +454,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -337,12 +475,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -364,12 +502,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -391,12 +529,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -418,12 +556,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -451,8 +589,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -471,8 +609,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -485,6 +623,32 @@
     "primary_url": "https://lis.blob.core.windows.net/files/1096174.PDF",
     "latest_action_date": "2026-02-02",
     "latest_action_description": "Subcommittee recommends continuing to  (Voice Vote)",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7e3dee52-895c-4bf4-88d8-433d7afd1bd4",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "HB 1521",
+    "title": "Digital innovation & infrastructure; establishing rights in digital property & technology resources.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1228722.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
     "ncsl_status": ""
   },
   {
@@ -503,8 +667,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -527,8 +691,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -554,8 +718,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -577,12 +741,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -610,8 +774,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -630,12 +794,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -682,12 +846,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -795,8 +959,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -821,8 +985,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -869,8 +1033,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -920,12 +1084,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -956,8 +1120,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -980,8 +1144,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1030,13 +1194,13 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "ml_system",
       "machine_learning",
+      "ml_system",
       "generative_ai"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract"
@@ -1058,12 +1222,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1092,8 +1256,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1112,21 +1276,21 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "generative_ai",
       "machine_learning",
+      "ml_system",
       "ai_system_composite",
       "artificial_intelligence",
-      "generative_ai_variant",
-      "ml_system",
-      "generative_ai"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1153,8 +1317,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1198,12 +1362,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1232,8 +1396,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1243,9 +1407,9 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/8ecd3b97-54e0-4bf7-bfbb-61d282e117bc",
+    "bill_id": "ocd-bill/16247f9e-8ca2-4016-a118-4ccf3737e361",
     "state": "VA",
-    "session": "2022",
+    "session": "2023",
     "identifier": "HB 330",
     "title": "Nursing homes & certified nursing facilities; minimum staffing standards, administrative sanctions.",
     "updated": "",
@@ -1264,15 +1428,15 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?221+ful+HB330",
-    "latest_action_date": "2022-02-10",
-    "latest_action_description": "Continued to 2023 in Health, Welfare and Institutions",
+    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?231+ful+HB330",
+    "latest_action_date": "2022-11-22",
+    "latest_action_description": "Left in Health, Welfare and Institutions",
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/16247f9e-8ca2-4016-a118-4ccf3737e361",
+    "bill_id": "ocd-bill/8ecd3b97-54e0-4bf7-bfbb-61d282e117bc",
     "state": "VA",
-    "session": "2023",
+    "session": "2022",
     "identifier": "HB 330",
     "title": "Nursing homes & certified nursing facilities; minimum staffing standards, administrative sanctions.",
     "updated": "",
@@ -1291,9 +1455,9 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?231+ful+HB330",
-    "latest_action_date": "2022-11-22",
-    "latest_action_description": "Left in Health, Welfare and Institutions",
+    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?221+ful+HB330",
+    "latest_action_date": "2022-02-10",
+    "latest_action_description": "Continued to 2023 in Health, Welfare and Institutions",
     "ncsl_status": ""
   },
   {
@@ -1306,12 +1470,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1358,12 +1522,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1385,12 +1549,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1412,35 +1576,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?221+ful+HB519",
-    "latest_action_date": "2022-02-15",
-    "latest_action_description": "Left in Health, Welfare and Institutions",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/2b5eae47-f011-4142-8c3f-26e739873565",
-    "state": "VA",
-    "session": "2023",
-    "identifier": "HB 538",
-    "title": "Perinatal health care providers; implicit bias training.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1451,8 +1588,8 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?231+ful+HB538",
-    "latest_action_date": "2022-11-22",
+    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?221+ful+HB519",
+    "latest_action_date": "2022-02-15",
     "latest_action_description": "Left in Health, Welfare and Institutions",
     "ncsl_status": ""
   },
@@ -1470,8 +1607,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1481,6 +1618,33 @@
     "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?221+ful+HB538",
     "latest_action_date": "2022-02-10",
     "latest_action_description": "Continued to 2023 in Health, Welfare and Institutions",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/2b5eae47-f011-4142-8c3f-26e739873565",
+    "state": "VA",
+    "session": "2023",
+    "identifier": "HB 538",
+    "title": "Perinatal health care providers; implicit bias training.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "adjacent_tech",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?231+ful+HB538",
+    "latest_action_date": "2022-11-22",
+    "latest_action_description": "Left in Health, Welfare and Institutions",
     "ncsl_status": ""
   },
   {
@@ -1509,9 +1673,9 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/496885be-2bc9-4ec1-929b-ae9dcc7d66cf",
+    "bill_id": "ocd-bill/fbcdd024-7927-4f6a-82c9-ff1df24b60a6",
     "state": "VA",
-    "session": "2026",
+    "session": "2027",
     "identifier": "HB 635",
     "title": "Artificial Intelligence Chatbots Act; established, prohibited practices, penalties.",
     "updated": "",
@@ -1529,36 +1693,35 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.blob.core.windows.net/files/1085273.PDF",
-    "latest_action_date": "2026-02-09",
-    "latest_action_description": "Continued to next session in Communications, Technology and Innovation (Voice Vote)",
+    "primary_url": "https://lis.blob.core.windows.net/files/1229263.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/385ddb18-3c5b-4763-989a-82f3d6217bed",
+    "bill_id": "ocd-bill/496885be-2bc9-4ec1-929b-ae9dcc7d66cf",
     "state": "VA",
-    "session": "2022",
-    "identifier": "HB 646",
-    "title": "Nursing homes; standards of care and staff requirements, regulations.",
+    "session": "2026",
+    "identifier": "HB 635",
+    "title": "Artificial Intelligence Chatbots Act; established, prohibited practices, penalties.",
     "updated": "",
     "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "title",
+      "abstract"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?221+ful+HB646",
-    "latest_action_date": "2022-02-10",
-    "latest_action_description": "Continued to 2023 in Health, Welfare and Institutions",
+    "primary_url": "https://lis.blob.core.windows.net/files/1085273.PDF",
+    "latest_action_date": "2026-02-09",
+    "latest_action_description": "Continued to next session in Communications, Technology and Innovation (Voice Vote)",
     "ncsl_status": ""
   },
   {
@@ -1575,8 +1738,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1589,6 +1752,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/385ddb18-3c5b-4763-989a-82f3d6217bed",
+    "state": "VA",
+    "session": "2022",
+    "identifier": "HB 646",
+    "title": "Nursing homes; standards of care and staff requirements, regulations.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?221+ful+HB646",
+    "latest_action_date": "2022-02-10",
+    "latest_action_description": "Continued to 2023 in Health, Welfare and Institutions",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/ff483716-366e-43b5-a642-394e402c0102",
     "state": "VA",
     "session": "2024",
@@ -1598,12 +1788,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1625,8 +1815,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1640,39 +1830,6 @@
     "primary_url": "https://lis.blob.core.windows.net/files/1085440.PDF",
     "latest_action_date": "2026-02-18",
     "latest_action_description": "Left in Committee Communications, Technology and Innovation",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/f9777aaf-f1ef-4c05-b412-52189a13bff7",
-    "state": "VA",
-    "session": "2024",
-    "identifier": "HB 697",
-    "title": "Synthetic media; use in furtherance of crimes involving fraud, etc., report.",
-    "updated": "",
-    "core_ai_hits": 7,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "synthetic_media",
-      "artificial_intelligence",
-      "foundation_model",
-      "llm_variant",
-      "deepfake_media",
-      "generative_ai_variant",
-      "ai_system_composite"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB697H1",
-    "latest_action_date": "2024-02-19",
-    "latest_action_description": "Continued to 2025 in Courts of Justice (11-Y 2-N)",
     "ncsl_status": ""
   },
   {
@@ -1692,14 +1849,47 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
     "latest_action_date": "2024-11-19",
     "latest_action_description": "Left in Courts of Justice",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/f9777aaf-f1ef-4c05-b412-52189a13bff7",
+    "state": "VA",
+    "session": "2024",
+    "identifier": "HB 697",
+    "title": "Synthetic media; use in furtherance of crimes involving fraud, etc., report.",
+    "updated": "",
+    "core_ai_hits": 7,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "foundation_model",
+      "synthetic_media",
+      "artificial_intelligence",
+      "deepfake_media",
+      "generative_ai_variant",
+      "llm_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB697H1",
+    "latest_action_date": "2024-02-19",
+    "latest_action_description": "Continued to 2025 in Courts of Justice (11-Y 2-N)",
     "ncsl_status": ""
   },
   {
@@ -1712,22 +1902,59 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://lis.blob.core.windows.net/files/1085610.PDF",
     "latest_action_date": "2026-02-18",
     "latest_action_description": "Left in Committee Appropriations",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/49301131-ba8f-47ab-ad09-0316618c3f26",
+    "state": "VA",
+    "session": "2024",
+    "identifier": "HB 747",
+    "title": "Artificial Intelligence Developer Act; established, civil penalty.",
+    "updated": "",
+    "core_ai_hits": 9,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "llm_variant",
+      "artificial_intelligence",
+      "foundation_model",
+      "generative_ai_variant",
+      "high_risk_ai_variant",
+      "machine_learning",
+      "ml_system",
+      "algorithmic_tool",
+      "adjacent_tech",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB747H1",
+    "latest_action_date": "2024-02-08",
+    "latest_action_description": "Impact statement from DPB (HB747H1)",
     "ncsl_status": ""
   },
   {
@@ -1746,51 +1973,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
     "latest_action_date": "2024-11-18",
     "latest_action_description": "Left in Communications, Technology and Innovation",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/49301131-ba8f-47ab-ad09-0316618c3f26",
-    "state": "VA",
-    "session": "2024",
-    "identifier": "HB 747",
-    "title": "Artificial Intelligence Developer Act; established, civil penalty.",
-    "updated": "",
-    "core_ai_hits": 9,
-    "adjacent_ai_hits": 2,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant",
-      "high_risk_ai_variant",
-      "ml_system",
-      "machine_learning",
-      "adjacent_tech",
-      "ai_system_composite",
-      "algorithmic_tool",
-      "foundation_model",
-      "llm_variant"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://lis.virginia.gov/cgi-bin/legp604.exe?241+ful+HB747H1",
-    "latest_action_date": "2024-02-08",
-    "latest_action_description": "Impact statement from DPB (HB747H1)",
     "ncsl_status": ""
   },
   {
@@ -1803,16 +1993,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1831,12 +2021,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1858,12 +2048,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1885,12 +2075,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1920,8 +2110,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1940,12 +2130,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1985,6 +2175,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/84ed6e57-5204-4ce4-abde-278c325c1a18",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "HB 868",
+    "title": "Political campaign advertisements; synthetic media, penalty.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "synthetic_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1228684.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/ad02ef58-b6c1-4992-ad30-8e23b7c77328",
     "state": "VA",
     "session": "2024",
@@ -1994,12 +2210,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2025,8 +2241,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2048,12 +2264,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2075,12 +2291,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2106,8 +2322,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2135,8 +2351,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2159,8 +2375,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2240,9 +2456,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2267,8 +2483,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -2290,8 +2506,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2338,16 +2554,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "generative_ai_variant",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2366,16 +2582,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
+      "artificial_intelligence",
       "high_risk_ai_variant",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2394,12 +2610,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2421,12 +2637,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2454,8 +2670,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2480,8 +2696,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2518,32 +2734,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/44f40154-ddb4-43b6-8001-23f3986c14da",
-    "state": "VA",
-    "session": "2025",
-    "identifier": "SB 164",
-    "title": "Virginia Consumer Protection Act; prohibited practices, artificial intelligence disclosure.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2024-11-19",
-    "latest_action_description": "Left in General Laws and Technology",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/3ec4848a-232e-4703-9aba-ff9abfc4ea45",
     "state": "VA",
     "session": "2024",
@@ -2572,6 +2762,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/44f40154-ddb4-43b6-8001-23f3986c14da",
+    "state": "VA",
+    "session": "2025",
+    "identifier": "SB 164",
+    "title": "Virginia Consumer Protection Act; prohibited practices, artificial intelligence disclosure.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2024-11-19",
+    "latest_action_description": "Left in General Laws and Technology",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/ccc09934-c5ee-4f29-a83e-aea7573303d6",
     "state": "VA",
     "session": "2024",
@@ -2585,8 +2801,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2599,6 +2815,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/192973ea-13b5-4db4-aedf-935fe52507ab",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "SB 269",
+    "title": "Mental health service providers;  definitions, use of artificial intelligence system, civil penalty.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1231140.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/669226ca-a7f7-4d50-837a-ebfcbbb3243e",
     "state": "VA",
     "session": "2026",
@@ -2608,15 +2851,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2635,12 +2878,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2662,12 +2905,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2680,6 +2923,34 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/6ee3bda3-b11c-48ff-965c-74ee04a10872",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "SB 365",
+    "title": "Fostering Access, Innovation, and Responsibility in Artificial Intelligence Act; established.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "ai_model_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1229231.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/d0e69774-a0c5-4ee7-ae30-bd1b6b9246f5",
     "state": "VA",
     "session": "2026",
@@ -2689,9 +2960,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2717,16 +2988,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2745,17 +3016,17 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2778,8 +3049,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2801,15 +3072,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2832,8 +3103,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2855,16 +3126,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2883,12 +3154,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2910,15 +3181,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "synthetic_media"
+      "synthetic_media",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2944,9 +3215,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2965,12 +3236,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3009,6 +3280,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/a31987ab-4179-42ee-a342-c0b667c15bef",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "SB 586",
+    "title": "Health carriers; use of artificial intelligence, disclosures.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1230735.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/fa5e8d89-de5a-4d65-a968-7c41e29af5dc",
     "state": "VA",
     "session": "2026",
@@ -3024,8 +3321,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3050,8 +3347,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3076,8 +3373,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3096,12 +3393,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3140,6 +3437,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/4d991f47-cdbc-436b-87de-be331e48625d",
+    "state": "VA",
+    "session": "2027",
+    "identifier": "SB 796",
+    "title": "Artificial Intelligence Companion Chatbots and Minors Act; established, enforcement, civil penalty.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://lis.blob.core.windows.net/files/1229935.PDF",
+    "latest_action_date": "2026-07-21",
+    "latest_action_description": "Continued from last session",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/7bd3b746-f008-4efc-92b6-ec98fa3ac59c",
     "state": "VA",
     "session": "2023",
@@ -3153,8 +3476,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3202,12 +3525,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3237,8 +3560,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -3286,8 +3609,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"

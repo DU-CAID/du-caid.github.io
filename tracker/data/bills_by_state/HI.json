@@ -1,31 +1,5 @@
 [
   {
-    "bill_id": "ocd-bill/cdb9b4a5-ee96-49df-a24a-106cb9c4d666",
-    "state": "HI",
-    "session": "2020 Regular Session",
-    "identifier": "HB 1080",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2019-12-01",
-    "latest_action_description": "Carried over to 2020 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/f79deea5-a6fc-4f89-aa0f-7795db25ce3f",
     "state": "HI",
     "session": "2019 Regular Session",
@@ -41,9 +15,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "raw_text",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -53,11 +27,11 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/afc29af0-2585-4d21-a2d2-cb7827324ec2",
+    "bill_id": "ocd-bill/cdb9b4a5-ee96-49df-a24a-106cb9c4d666",
     "state": "HI",
     "session": "2020 Regular Session",
-    "identifier": "HB 1185",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE TASK FORCE.",
+    "identifier": "HB 1080",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -88,16 +62,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -107,11 +81,11 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/8f6d9151-74da-422a-9b40-4ab8a037dee6",
+    "bill_id": "ocd-bill/afc29af0-2585-4d21-a2d2-cb7827324ec2",
     "state": "HI",
-    "session": "2021 Regular Session",
-    "identifier": "HB 1189",
-    "title": "RELATING TO CORONAVIRUS TESTING AT AIRPORTS.",
+    "session": "2020 Regular Session",
+    "identifier": "HB 1185",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE TASK FORCE.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -122,13 +96,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text"
+      "title",
+      "abstract"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://capitol.hawaii.gov/session2021/bills/HB1189_.HTM",
-    "latest_action_date": "2021-02-04",
-    "latest_action_description": "Re-referred to PDP/TRN, FIN, referral sheet 6",
+    "primary_url": null,
+    "latest_action_date": "2019-12-01",
+    "latest_action_description": "Carried over to 2020 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -154,6 +129,31 @@
     "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/HB1189_.HTM",
     "latest_action_date": "2021-12-10",
     "latest_action_description": "Carried over to 2022 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8f6d9151-74da-422a-9b40-4ab8a037dee6",
+    "state": "HI",
+    "session": "2021 Regular Session",
+    "identifier": "HB 1189",
+    "title": "RELATING TO CORONAVIRUS TESTING AT AIRPORTS.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://capitol.hawaii.gov/session2021/bills/HB1189_.HTM",
+    "latest_action_date": "2021-02-04",
+    "latest_action_description": "Re-referred to PDP/TRN, FIN, referral sheet 6",
     "ncsl_status": ""
   },
   {
@@ -244,15 +244,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_decision_system",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -296,17 +296,17 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -325,12 +325,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech"
+      "adjacent_tech",
+      "digital_replica"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -377,15 +377,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -430,18 +430,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "ai_system",
       "artificial_intelligence",
-      "generative_ai_variant",
-      "ai_system_composite"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -464,12 +464,12 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -488,18 +488,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "machine_learning",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -548,8 +548,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -680,24 +680,24 @@
       "ai_model_variant",
       "artificial_intelligence",
       "synthetic_media",
+      "llm_variant",
       "deepfake_media",
-      "generative_ai_variant",
-      "llm_variant"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2137_SD2_.HTM",
-    "latest_action_date": "2026-05-08",
-    "latest_action_description": "Received notice of passage on Final Reading in House (Hse. Com. No. 888).",
+    "latest_action_date": "2026-07-14",
+    "latest_action_description": "Act 247, on 07/14/2026 (Gov. Msg. No. 1349).",
     "ncsl_status": ""
   },
   {
@@ -717,8 +717,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -743,8 +743,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -846,8 +846,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -941,10 +941,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "deepfake_media",
       "artificial_intelligence",
-      "synthetic_media",
-      "ai_system_composite"
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -970,8 +970,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -997,20 +997,20 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "algorithmic_decision_system",
-      "ai_system_composite",
-      "machine_learning",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1037,9 +1037,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1116,8 +1116,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1258,32 +1258,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/798bc1ec-c7de-4afc-8bb4-c66ff027ad48",
-    "state": "HI",
-    "session": "2022 Regular Session",
-    "identifier": "HB 454",
-    "title": "RELATING TO TAXATION.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/HB454_.HTM",
-    "latest_action_date": "2021-12-10",
-    "latest_action_description": "Carried over to 2022 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/1c696246-dc9d-436e-9cce-37dd1aed39f7",
     "state": "HI",
     "session": "2021 Regular Session",
@@ -1310,6 +1284,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/798bc1ec-c7de-4afc-8bb4-c66ff027ad48",
+    "state": "HI",
+    "session": "2022 Regular Session",
+    "identifier": "HB 454",
+    "title": "RELATING TO TAXATION.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/HB454_.HTM",
+    "latest_action_date": "2021-12-10",
+    "latest_action_description": "Carried over to 2022 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/40adb719-5671-49cc-88bc-3e117e2c963a",
     "state": "HI",
     "session": "2026",
@@ -1323,13 +1323,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1364,33 +1364,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/c703d14a-2e58-485c-a781-38262e258d6c",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "HB 487",
-    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB487_.HTM",
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/4729136b-8b4c-4651-aa04-d517e3866079",
     "state": "HI",
     "session": "2025",
@@ -1416,6 +1389,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/c703d14a-2e58-485c-a781-38262e258d6c",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 487",
+    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB487_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/966eeb08-f319-4ee1-95e9-43c73289c97e",
     "state": "HI",
     "session": "2026",
@@ -1431,9 +1431,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1503,19 +1503,19 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "title",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1601,6 +1601,37 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/b9a81732-2885-4f6b-9aa9-ad70aecd5cb7",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 726",
+    "title": "RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB726_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/16607ce9-3a5d-4151-966c-02a1463f0e9f",
     "state": "HI",
     "session": "2025",
@@ -1616,45 +1647,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
     "latest_action_date": "2025-01-21",
     "latest_action_description": "Referred to ECD, FIN, referral sheet 2",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/b9a81732-2885-4f6b-9aa9-ad70aecd5cb7",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "HB 726",
-    "title": "RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.",
-    "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
-      "machine_learning",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB726_.HTM",
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -1696,8 +1696,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1707,33 +1707,6 @@
     "primary_url": "https://www.capitol.hawaii.gov/session2019/bills/HB821_HD2_.HTM",
     "latest_action_date": "2019-03-21",
     "latest_action_description": "Reported from TEC/EET (Stand. Com. Rep. No. 1299) with recommendation of passage on Second Reading, as amended (SD 1) and referral to WAM.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/4ee021c6-cc6f-4533-8742-3ac2a4a2899d",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "HB 824",
-    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB824_.HTM",
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -1759,6 +1732,33 @@
     "primary_url": null,
     "latest_action_date": "2025-01-23",
     "latest_action_description": "Referred to LMG, FIN, referral sheet 3",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/4ee021c6-cc6f-4533-8742-3ac2a4a2899d",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "HB 824",
+    "title": "RELATING TO GOVERNMENT EFFICIENCY.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB824_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -1934,8 +1934,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2030,16 +2030,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2058,16 +2058,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system_composite",
       "ai_system",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2267,9 +2267,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
+      "automated_decision_system",
       "algorithmic_tool",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2326,8 +2326,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2350,8 +2350,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2374,8 +2374,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2401,15 +2401,15 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2428,8 +2428,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2460,9 +2460,9 @@
       "core_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2487,8 +2487,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2510,8 +2510,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2633,12 +2633,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2646,6 +2646,32 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1563_SD1_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/db56f17a-e022-4261-8779-7841df51b97f",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 157",
+    "title": "RELATING TO ANTITRUST.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB157_SD2_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
@@ -2676,32 +2702,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/db56f17a-e022-4261-8779-7841df51b97f",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "SB 157",
-    "title": "RELATING TO ANTITRUST.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "algorithmic_tool"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB157_SD2_.HTM",
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/2deb3818-0e1f-48dd-935a-7861b6e3eab3",
     "state": "HI",
     "session": "2026",
@@ -2711,13 +2711,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai",
       "deepfake_media",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "generative_ai"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2727,32 +2727,6 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1618_.HTM",
     "latest_action_date": "2026-01-21",
     "latest_action_description": "Re-Referred to CPN/EDU, JDC/WAM.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/e03af1a8-60bf-447d-8532-0cb782e5c82e",
-    "state": "HI",
-    "session": "2025",
-    "identifier": "SB 1622",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-03-06",
-    "latest_action_description": "Referred to HED, ECD, FIN, referral sheet 19",
     "ncsl_status": ""
   },
   {
@@ -2771,15 +2745,41 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1622_SD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e03af1a8-60bf-447d-8532-0cb782e5c82e",
+    "state": "HI",
+    "session": "2025",
+    "identifier": "SB 1622",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-03-06",
+    "latest_action_description": "Referred to HED, ECD, FIN, referral sheet 19",
     "ncsl_status": ""
   },
   {
@@ -2792,12 +2792,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "digital_replica"
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2825,12 +2825,12 @@
       "ai_accountability"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2879,13 +2879,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2930,17 +2930,17 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "ai_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2984,13 +2984,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
+      "machine_learning",
       "adjacent_tech",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3070,8 +3070,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3096,8 +3096,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3147,13 +3147,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3176,8 +3176,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3203,8 +3203,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "abstract",
@@ -3229,8 +3229,8 @@
     "matched_concepts": [
       "artificial_intelligence",
       "generative_ai_variant",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3359,16 +3359,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "abstract",
-      "raw_text",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3415,16 +3415,16 @@
       "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech",
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3443,24 +3443,24 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "high_risk_ai",
-      "ai_system_composite",
-      "adjacent_tech",
-      "ai_system",
-      "algorithmic_tool",
-      "machine_learning",
+      "artificial_intelligence",
       "high_risk_ai_variant",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "high_risk_ai",
+      "ai_system",
+      "algorithmic_tool",
+      "ai_system_composite",
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3493,8 +3493,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB3001_SD2_.HTM",
-    "latest_action_date": "2026-05-08",
-    "latest_action_description": "Enrolled to Governor.",
+    "latest_action_date": "2026-07-14",
+    "latest_action_description": "Act 248, on 07/14/2026 (Gov. Msg. No. 1350).",
     "ncsl_status": ""
   },
   {
@@ -3507,13 +3507,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3776,6 +3776,37 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/305d8c83-0115-4a1e-9af4-173f0125dbb3",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SB 487",
+    "title": "RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB487_.HTM",
+    "latest_action_date": "2025-12-08",
+    "latest_action_description": "Carried over to 2026 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/af554ed1-087e-4927-b640-135a3cd61e69",
     "state": "HI",
     "session": "2025",
@@ -3791,45 +3822,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
     "latest_action_date": "2025-01-21",
     "latest_action_description": "Referred to LBT, WAM.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/305d8c83-0115-4a1e-9af4-173f0125dbb3",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "SB 487",
-    "title": "RELATING TO A STATEWIDE DATA AND ARTIFICIAL INTELLIGENCE GOVERNANCE AND DECISION INTELLIGENCE CENTER.",
-    "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
-      "machine_learning",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB487_.HTM",
-    "latest_action_date": "2025-12-08",
-    "latest_action_description": "Carried over to 2026 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -3842,18 +3842,18 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_decision_system",
       "algorithmic_tool",
-      "machine_learning",
-      "algorithmic_decision_system"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3879,8 +3879,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3903,13 +3903,13 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "raw_text",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3934,8 +3934,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -3958,13 +3958,13 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
+      "abstract",
       "title",
-      "raw_text",
-      "abstract"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4008,12 +4008,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4087,19 +4087,19 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_system",
-      "machine_learning",
+      "artificial_intelligence",
       "clinical_algorithms",
-      "artificial_intelligence"
+      "ai_system",
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4118,16 +4118,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "automated_decision_system",
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4175,8 +4175,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -4231,8 +4231,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4277,12 +4277,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4293,31 +4293,6 @@
     "latest_action_date": "2021-03-11",
     "latest_action_description": "Referred to HRE/GVO.",
     "ncsl_status": "Failed – Adjourned"
-  },
-  {
-    "bill_id": "ocd-bill/3b4aa409-f39f-491e-8870-8003a6edf27e",
-    "state": "HI",
-    "session": "2026",
-    "identifier": "SCR 95",
-    "title": "REQUESTING THE HAWAII STATE ENERGY OFFICE TO CONVENE A WORKING GROUP TO STUDY THE POTENTIAL IMPACTS OF LARGE DATA CENTERS ON HAWAII'S ELECTRIC UTILITIES, RATEPAYERS, NATURAL RESOURCES, AND CLIMATE GOALS.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SCR95_SD1_.HTM",
-    "latest_action_date": "2026-04-10",
-    "latest_action_description": "Referred to EEP, FIN, referral sheet 28",
-    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/c390eb94-fb9a-4272-b710-b6f81cb76875",
@@ -4345,6 +4320,31 @@
     "ncsl_status": "Failed - Adjourned"
   },
   {
+    "bill_id": "ocd-bill/3b4aa409-f39f-491e-8870-8003a6edf27e",
+    "state": "HI",
+    "session": "2026",
+    "identifier": "SCR 95",
+    "title": "REQUESTING THE HAWAII STATE ENERGY OFFICE TO CONVENE A WORKING GROUP TO STUDY THE POTENTIAL IMPACTS OF LARGE DATA CENTERS ON HAWAII'S ELECTRIC UTILITIES, RATEPAYERS, NATURAL RESOURCES, AND CLIMATE GOALS.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SCR95_SD1_.HTM",
+    "latest_action_date": "2026-04-10",
+    "latest_action_description": "Referred to EEP, FIN, referral sheet 28",
+    "ncsl_status": "Failed - Adjourned"
+  },
+  {
     "bill_id": "ocd-bill/ea9222bf-4de5-493d-a51c-82dcae81200a",
     "state": "HI",
     "session": "2023 Regular Session",
@@ -4354,19 +4354,19 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_system",
-      "machine_learning",
+      "artificial_intelligence",
       "clinical_algorithms",
-      "artificial_intelligence"
+      "ai_system",
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4494,8 +4494,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
