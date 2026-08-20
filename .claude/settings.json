@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git ls-remote *)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}\\\\n' -L https://du-caid.github.io/media.html?cb=__TRACKED_VAR__)",
+      "Bash(curl -sI -L https://du-caid.github.io/media.html)"
+    ]
+  }
+}
