@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media · DU CAID</title>
+  <meta name="description" content="News coverage and commentary featuring the CAID lab at the University of Denver and its State AI Policy Tracker.">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+  <style>
+    .media-list { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 1.5rem; }
+    .media-card {
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 1.25rem 1.5rem;
+      background: var(--surface);
+      text-decoration: none;
+      color: var(--text);
+      display: block;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    .media-card:hover { border-color: var(--du-crimson); box-shadow: 0 2px 12px rgba(186,12,47,.08); }
+    .media-meta { font-size: .8rem; color: var(--muted); margin-bottom: .35rem; }
+    .media-tag {
+      display: inline-block;
+      font-size: .72rem;
+      font-weight: 600;
+      padding: .15rem .5rem;
+      border-radius: 999px;
+      background: #fce8ec;
+      color: var(--du-crimson);
+      margin-right: .4rem;
+    }
+    .media-title { margin: 0 0 .4rem; font-size: 1.1rem; color: var(--du-crimson); }
+    .media-desc { margin: 0; font-size: .92rem; color: var(--muted); line-height: 1.5; }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container head-inner">
+<a class="brand" href="/">
+  <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+  <span class="brand-text"></span>
+</a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/reports/">Reports</a></li>
+        <li><a href="/media.html">Media</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container prose">
+    <h1>Media</h1>
+    <p>News coverage and commentary featuring CAID's research, including the <a href="/tracker/">State AI Policy Tracker</a>.</p>
+
+    <div class="media-list">
+
+      <a class="media-card" href="https://theconversation.com/why-colorado-replaced-its-ai-discrimination-law-with-a-transparency-requirement-that-the-feds-might-challenge-anyway-286517" target="_blank" rel="noopener">
+        <div class="media-meta">
+          <span class="media-tag">The Conversation</span>
+          <span class="media-tag">Commentary</span>
+          July 2026 &nbsp;·&nbsp; Stefani Langehennig
+        </div>
+        <h2 class="media-title">Why Colorado replaced its AI discrimination law with a transparency requirement that the feds might challenge anyway</h2>
+        <p class="media-desc">Drawing on tracker data, an analysis of Colorado's shift from an algorithmic discrimination standard to a narrower transparency requirement &mdash; and why that change may strengthen a federal First Amendment challenge.</p>
+      </a>
+
+      <a class="media-card" href="https://www.denver7.com/money/science-and-tech/university-of-denver-launches-tool-tracking-artificial-intelligence-laws-across-the-country" target="_blank" rel="noopener">
+        <div class="media-meta">
+          <span class="media-tag">Denver 7</span>
+          <span class="media-tag">Feature</span>
+          Ryan Fish
+        </div>
+        <h2 class="media-title">University of Denver launches tool tracking artificial intelligence laws across the country</h2>
+        <p class="media-desc">A feature on the launch of CAID's free public dashboard tracking AI-related legislation in all 50 states.</p>
+      </a>
+
+      <a class="media-card" href="https://insight.tveyes.com/public/media-center/be84219b-3074-4957-9e36-53758c539c23/939b98dc-8bdd-44e8-8873-85e6d395ec67" target="_blank" rel="noopener">
+        <div class="media-meta">
+          <span class="media-tag">9NEWS</span>
+          <span class="media-tag">Broadcast</span>
+        </div>
+        <h2 class="media-title">9NEWS feature on the CAID State AI Policy Tracker</h2>
+        <p class="media-desc">Broadcast coverage of the tracker and what it shows about the pace of state AI lawmaking.</p>
+      </a>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>© <span id="year"></span> Center for Analytics and Innovation with Data · University of Denver</small>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
