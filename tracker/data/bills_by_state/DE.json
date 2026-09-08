@@ -40,7 +40,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract"
+      "abstract",
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -59,22 +61,49 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "artificial_intelligence",
-      "generative_ai"
+      "generative_ai",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141577&legislationTypeId=5&docTypeId=2",
     "latest_action_date": "2024-07-17",
+    "latest_action_description": "Signed by Governor",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/66fe0bc0-ea35-40a4-8f78-5b5aa67f8059",
+    "state": "DE",
+    "session": "152",
+    "identifier": "HB 353",
+    "title": "AN ACT TO AMEND TITLES 10 AND 11 OF THE DELAWARE CODE RELATING TO DEEP FAKES.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=141299&legislationTypeId=5&docTypeId=2",
+    "latest_action_date": "2024-10-09",
     "latest_action_description": "Signed by Governor",
     "ncsl_status": ""
   },
@@ -88,16 +117,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -141,16 +170,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -175,8 +204,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

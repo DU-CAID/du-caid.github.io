@@ -25,6 +25,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/ce307625-7c04-478e-b91d-f5c9f339aff9",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "HF 1370",
+    "title": "Cause of action for nonconsensual dissemination of deep fake sexual images established, crime of using deep fake technology to influence an election established, and crime for nonconsensual dissemination of deep fake sexual images established.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=HF1370&version=3&session=ls93&session_year=2023&session_number=0",
+    "latest_action_date": "2023-08-01",
+    "latest_action_description": "Effective date 08/01/2023",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/5ea12dc7-afd9-48ea-9646-2b1d0c7a4aad",
     "state": "MN",
     "session": "2023-2024",
@@ -106,9 +132,10 @@
     "identifier": "HF 2890",
     "title": "Public safety finance and policy bill.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -185,8 +212,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "algorithmic_decision_system",
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -200,6 +227,32 @@
     "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=HF3619&version=0&session=ls90&session_year=2018&session_number=0",
     "latest_action_date": "2018-03-12",
     "latest_action_description": "Introduction and first reading, referred to Health and Human Services Reform",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d9e95121-4faf-45fe-a258-bd615dd19e82",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "HF 3625",
+    "title": "Deep fake election crime modified, and convicted person disqualified from holding elected office.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=HF3625&version=1&session=ls93&session_year=2024&session_number=0",
+    "latest_action_date": "2024-03-04",
+    "latest_action_description": "Committee report, to adopt and re-refer to Public Safety Finance and Policy",
     "ncsl_status": ""
   },
   {
@@ -287,15 +340,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -339,12 +392,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "machine_learning",
       "artificial_intelligence",
+      "algorithmic_decision_system",
       "generative_ai_variant",
-      "algorithmic_decision_system"
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -497,12 +550,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "machine_learning",
       "artificial_intelligence",
+      "algorithmic_decision_system",
       "generative_ai_variant",
-      "algorithmic_decision_system"
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -528,9 +581,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
-      "algorithmic_decision_system"
+      "algorithmic_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -556,9 +609,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "automated_decision_system",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -585,8 +638,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
       "adjacent_tech",
+      "automated_decision_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -613,10 +666,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -643,9 +696,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "algorithmic_tool",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -723,8 +776,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -776,10 +829,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -873,6 +926,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/9da1d4a5-f694-44e8-8579-144a766bcf7c",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "HF 4772",
+    "title": "Elections policy and finance bill.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=HF4772&version=3&session=ls93&session_year=2024&session_number=0",
+    "latest_action_date": "2024-05-17",
+    "latest_action_description": "Senate adopted conference committee report, bill repassed",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/b6b3a176-c37c-4b5d-97f0-6181e4d3dbfb",
     "state": "MN",
     "session": "2025-2026",
@@ -886,8 +964,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1013,9 +1091,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1106,6 +1184,57 @@
     "primary_url": null,
     "latest_action_date": "2025-02-10",
     "latest_action_description": "Author added Boldon",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/cf77ece8-04c8-43c9-9001-76f41d489341",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "SF 1267",
+    "title": "Miscellaneous Public Safety Provisions",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=SF1267&version=1&session=ls93&session_year=2023&session_number=0",
+    "latest_action_date": "2023-05-01",
+    "latest_action_description": "Comm report: Adopt previous comm report Jt rule 2.03 suspended",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b2a8e106-7c40-40af-8a8e-75a3e5e159c6",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "SF 1394",
+    "title": "Cause of action establishment for nonconsensual dissemination of deep fake sexual images",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=SF1394&version=2&session=ls93&session_year=2023&session_number=0",
+    "latest_action_date": "2023-04-04",
+    "latest_action_description": "Rule 45-amend, subst. General Orders HF1370, SF indefinitely postponed",
     "ncsl_status": ""
   },
   {
@@ -1359,6 +1488,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/dea75a80-6f88-4dda-9ec0-353444ad182b",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "SF 3550",
+    "title": "Deep fake election crimes modifications and disqualification of a convicted person from holding elected office provision",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=SF3550&version=0&session=ls93&session_year=2024&session_number=0",
+    "latest_action_date": "2024-04-02",
+    "latest_action_description": "Author added Lucero",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/b664006e-3068-41f6-866a-3bcaaa71b675",
     "state": "MN",
     "session": "2025-2026",
@@ -1487,6 +1642,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/a1614fa5-f00d-4f21-b466-492dfd4aed14",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "SF 4029",
+    "title": "Deep fake election crime modification",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=SF4029&version=0&session=ls93&session_year=2024&session_number=0",
+    "latest_action_date": "2024-03-21",
+    "latest_action_description": "Author added Lucero",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/4a3e375b-9215-49e1-8288-85c9f492fbc4",
     "state": "MN",
     "session": "2023-2024",
@@ -1521,8 +1702,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_decision_system",
       "artificial_intelligence",
+      "algorithmic_decision_system",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -1555,8 +1736,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1600,8 +1781,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1632,8 +1813,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1686,8 +1867,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1706,16 +1887,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1760,8 +1941,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1787,15 +1968,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1839,14 +2020,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1869,9 +2050,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "algorithmic_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1897,8 +2078,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "automated_decision_system",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -1925,9 +2106,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "automated_decision_system",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1979,12 +2160,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_model_variant",
       "machine_learning",
       "generative_ai_variant",
       "algorithmic_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2010,9 +2191,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2053,6 +2234,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/0d548694-e88a-4020-bf59-ffd70bf960ab",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "SF 4729",
+    "title": "Omnibus Elections policy bill",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=SF4729&version=2&session=ls93&session_year=2024&session_number=0",
+    "latest_action_date": "2024-04-11",
+    "latest_action_description": "Rule 45-amend, subst. General Orders HF4772, SF indefinitely postponed",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/d518b7f5-5af0-482b-89e5-c6a4399b43a9",
     "state": "MN",
     "session": "2025-2026",
@@ -2087,9 +2293,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant",
-      "artificial_intelligence"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2116,13 +2322,13 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
+      "ai_system",
       "adjacent_tech",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -2145,9 +2351,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "algorithmic_decision_system",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2224,9 +2430,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",

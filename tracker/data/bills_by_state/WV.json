@@ -9,9 +9,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -37,9 +37,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -92,9 +92,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ml_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -120,9 +120,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ml_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -173,9 +173,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ml_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -201,13 +201,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
+      "ml_system",
       "machine_learning",
-      "ml_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -329,8 +329,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -360,8 +360,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -371,6 +371,32 @@
     "primary_url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=HB4898%20INTR.htm&yr=2020&sesstype=RS&i=4898",
     "latest_action_date": "2020-02-11",
     "latest_action_description": "Filed for introduction",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/54b3e666-a8bd-449d-a2e3-d4bbb396ec48",
+    "state": "WV",
+    "session": "2024",
+    "identifier": "HB 4963",
+    "title": "Prohibiting the use of deep fake technology to influence an election",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb4963%20intr.htm&yr=2024&sesstype=RS&i=4963",
+    "latest_action_date": "2024-02-28",
+    "latest_action_description": "Introduced in Senate",
     "ncsl_status": ""
   },
   {
@@ -408,10 +434,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "generative_ai",
       "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -424,6 +450,56 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5490%20intr.htm&yr=2024&sesstype=RS&i=5490",
     "latest_action_date": "2024-02-06",
+    "latest_action_description": "Filed for introduction",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/99ee7768-c0c8-404f-86b7-37cd26054fdd",
+    "state": "WV",
+    "session": "2024",
+    "identifier": "HB 5516",
+    "title": "Relating to criminalizing the use of deep fakes",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2024-02-28",
+    "latest_action_description": "Introduced in Senate",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/162fd1c7-b779-4e0e-8e9e-21c875066dcd",
+    "state": "WV",
+    "session": "2026",
+    "identifier": "HB 5548",
+    "title": "Stop Non-Consensual Distribution of Intimate Deep Fake Media Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-02-16",
     "latest_action_description": "Filed for introduction",
     "ncsl_status": ""
   },
@@ -488,9 +564,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -562,6 +638,31 @@
     "ncsl_status": "Adopted"
   },
   {
+    "bill_id": "ocd-bill/d54ad168-fb3c-47c5-8026-fe3026b631d5",
+    "state": "WV",
+    "session": "2025",
+    "identifier": "SB 170",
+    "title": "Stop Non-Consensual Distribution of Intimate Deep Fake Media Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-02-12",
+    "latest_action_description": "Filed for introduction",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/179cb819-d886-4b0f-bad0-07fc1c126d87",
     "state": "WV",
     "session": "2021",
@@ -583,6 +684,31 @@
     "source_bucket": "regex_flagged",
     "primary_url": "http://www.legis.state.wv.us/Bill_Status/bills_text.cfm?billdoc=SB447%20INTR.htm&yr=2021&sesstype=RS&i=447",
     "latest_action_date": "2021-02-25",
+    "latest_action_description": "Filed for introduction",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/7879272c-b3c5-4f00-a2c6-991490fb61c7",
+    "state": "WV",
+    "session": "2026",
+    "identifier": "SB 454",
+    "title": "Stop Non-Consensual Distribution of Intimate Deep Fake Media Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-01-16",
     "latest_action_description": "Filed for introduction",
     "ncsl_status": ""
   },
@@ -634,6 +760,32 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb665%20intr.htm&yr=2026&sesstype=RS&i=665",
     "latest_action_date": "2026-01-29",
+    "latest_action_description": "Filed for introduction",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/edd42bb0-64a5-4ce0-9a41-751c6f09c3f3",
+    "state": "WV",
+    "session": "2024",
+    "identifier": "SB 720",
+    "title": "Stop Non-Consensual Distribution of Intimate Deep Fake Media Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb720%20intr.htm&yr=2024&sesstype=RS&i=720",
+    "latest_action_date": "2024-02-08",
     "latest_action_description": "Filed for introduction",
     "ncsl_status": ""
   },

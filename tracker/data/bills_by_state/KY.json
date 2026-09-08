@@ -15,15 +15,41 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/26RS/hb201/orig_bill.pdf",
     "latest_action_date": "2026-01-14T05:00:00+00:00",
     "latest_action_description": "to Judiciary (H)",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/a68ee859-a0fd-435f-ae76-e2fc8830f1ef",
+    "state": "KY",
+    "session": "2025RS",
+    "identifier": "HB 21",
+    "title": "AN ACT relating to privacy protection.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/hb21/orig_bill.pdf",
+    "latest_action_date": "2025-02-04T05:00:00+00:00",
+    "latest_action_description": "to Small Business & Information Technology (H)",
     "ncsl_status": ""
   },
   {
@@ -61,9 +87,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -88,9 +114,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai_variant",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -115,12 +141,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -175,15 +201,41 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/hb358/orig_bill.pdf",
     "latest_action_date": "2025-02-07T05:00:00+00:00",
     "latest_action_description": "to Local Government (H)",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/39866374-be43-4089-882e-3ae97d1cb05b",
+    "state": "KY",
+    "session": "2024RS",
+    "identifier": "HB 45",
+    "title": "AN ACT relating to privacy protection.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/24RS/hb45/orig_bill.pdf",
+    "latest_action_date": "2024-03-07T05:00:00+00:00",
+    "latest_action_description": "reassigned to Transportation (S)",
     "ncsl_status": ""
   },
   {
@@ -202,8 +254,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -275,21 +327,47 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/26RS/hb559/orig_bill.pdf",
     "latest_action_date": "2026-02-11T05:00:00+00:00",
     "latest_action_description": "to Small Business & Information Technology (H)",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/77edbdda-cdb0-4162-9c3a-a2588b28a995",
+    "state": "KY",
+    "session": "2026RS",
+    "identifier": "HB 63",
+    "title": "AN ACT relating to privacy protection.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://apps.legislature.ky.gov/recorddocuments/bill/26RS/hb63/orig_bill.pdf",
+    "latest_action_date": "2026-01-14T05:00:00+00:00",
+    "latest_action_description": "to Judiciary (H)",
     "ncsl_status": ""
   },
   {
@@ -308,8 +386,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -333,16 +411,16 @@
       "artificial_intelligence",
       "synthetic_media",
       "foundation_model",
-      "llm_variant",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "llm_variant"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -361,25 +439,25 @@
     "core_ai_hits": 10,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
+      "ml_system",
       "artificial_intelligence",
       "synthetic_media",
       "foundation_model",
-      "llm_variant",
       "generative_ai_variant",
-      "high_risk_ai_variant"
+      "high_risk_ai_variant",
+      "llm_variant",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -398,12 +476,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -500,15 +578,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
       "abstract",
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
@@ -534,8 +612,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -554,16 +632,16 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "raw_text"
+      "raw_text",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -659,25 +737,25 @@
     "core_ai_hits": 10,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
+      "ml_system",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "ml_system",
       "llm_variant",
       "generative_ai_variant",
       "high_risk_ai_variant",
+      "foundation_model",
       "artificial_intelligence",
       "synthetic_media",
-      "foundation_model"
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -702,8 +780,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -774,17 +852,17 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
+      "title",
       "abstract",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

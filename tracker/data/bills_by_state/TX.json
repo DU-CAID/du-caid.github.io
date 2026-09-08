@@ -1,30 +1,5 @@
 [
   {
-    "bill_id": "ocd-bill/6bb187d1-79cf-4209-b612-84ffaef9389f",
-    "state": "TX",
-    "session": "883",
-    "identifier": "HB 1",
-    "title": "Relating to primary and secondary education, including the certification, compensation, and health coverage of certain public school employees, the public school finance system, special education in public schools, the establishment of an education savings account program, measures to support the education of public school students that include certain educational grant programs, reading instruction, and early childhood education, the provision of virtual education, and public school accountability.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://capitol.texas.gov/tlodocs/883/billtext/html/HB00001I.HTM",
-    "latest_action_date": "2023-10-19",
-    "latest_action_description": "Filed",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/7a51e848-6241-4387-ad65-a67f5baef91e",
     "state": "TX",
     "session": "884",
@@ -50,6 +25,57 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/6bb187d1-79cf-4209-b612-84ffaef9389f",
+    "state": "TX",
+    "session": "883",
+    "identifier": "HB 1",
+    "title": "Relating to primary and secondary education, including the certification, compensation, and health coverage of certain public school employees, the public school finance system, special education in public schools, the establishment of an education savings account program, measures to support the education of public school students that include certain educational grant programs, reading instruction, and early childhood education, the provision of virtual education, and public school accountability.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/883/billtext/html/HB00001I.HTM",
+    "latest_action_date": "2023-10-19",
+    "latest_action_description": "Filed",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/93f0f7ab-d033-4575-a192-de30f02bf4ef",
+    "state": "TX",
+    "session": "89R",
+    "identifier": "HB 1092",
+    "title": "Relating to the unlawful production or distribution of sexually explicit images or videos using deep fake technology; increasing a criminal penalty.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB01092I.HTM",
+    "latest_action_date": "2025-03-25",
+    "latest_action_description": "Referred directly to subcommittee by chair",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/2d0aa24b-b6f0-4802-9313-1db8e5062194",
     "state": "TX",
     "session": "89R",
@@ -59,8 +85,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -139,9 +165,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -189,10 +215,11 @@
     "identifier": "HB 149",
     "title": "Relating to regulation of the use of artificial intelligence systems in this state; providing civil penalties.",
     "updated": "",
-    "core_ai_hits": 3,
+    "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
+      "deepfake_media",
       "generative_ai_variant",
       "artificial_intelligence"
     ],
@@ -200,8 +227,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -246,8 +273,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -323,14 +350,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
+      "automated_decision_system",
       "machine_learning",
-      "automated_decision_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -353,8 +380,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -386,8 +413,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -449,6 +476,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/a0263c66-d413-4643-b060-855c413d11de",
+    "state": "TX",
+    "session": "89R",
+    "identifier": "HB 2551",
+    "title": "Relating to sexually explicit visual material.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB02551I.HTM",
+    "latest_action_date": "2025-03-17",
+    "latest_action_description": "Read first time",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/d155c84b-fac2-4191-9223-9825cb9b1afd",
     "state": "TX",
     "session": "88",
@@ -475,6 +527,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/423c3b38-e963-43f1-801e-b719edb881fb",
+    "state": "TX",
+    "session": "89R",
+    "identifier": "HB 2795",
+    "title": "Relating to criminal offenses for creating and distributing certain misleading images and videos; creating a criminal offense.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB02795I.HTM",
+    "latest_action_date": "2025-03-19",
+    "latest_action_description": "Read first time",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/84a8c9a5-0655-4325-81a2-0f6bfea9c618",
     "state": "TX",
     "session": "89R",
@@ -492,8 +569,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -529,6 +606,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/4920fc76-ae13-407a-9a67-d70f9c1193e7",
+    "state": "TX",
+    "session": "89R",
+    "identifier": "HB 3133",
+    "title": "Relating to user reports of explicit deep fake material on social media platforms.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB03133S.HTM",
+    "latest_action_date": "2025-06-20",
+    "latest_action_description": "Signed by the Governor",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/ac62e635-5d36-43c0-96e5-2fbf0d0d6afa",
     "state": "TX",
     "session": "89R",
@@ -538,8 +641,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -592,9 +695,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -616,15 +719,16 @@
     "identifier": "HB 3694",
     "title": "Relating to the unlawful production or distribution of certain sexually explicit media and to the removal of certain intimate visual depictions published on online platforms without the consent of the person depicted; increasing criminal penalties.",
     "updated": "",
-    "core_ai_hits": 2,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -680,8 +784,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -716,6 +820,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/ae209050-f4aa-4b01-8bf3-6ec8f4cee7c8",
+    "state": "TX",
+    "session": "89R",
+    "identifier": "HB 387",
+    "title": "Relating to the unlawful production or distribution of sexually explicit images or videos using deep fake technology; increasing a criminal penalty.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB00387I.HTM",
+    "latest_action_date": "2025-03-25",
+    "latest_action_description": "Referred directly to subcommittee by chair",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/08b0043c-710d-43f1-bfb3-f1b06eb26d3f",
     "state": "TX",
     "session": "89R",
@@ -730,8 +859,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -754,8 +883,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -799,6 +928,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/f883693a-75a7-4df2-9595-a56a2696bcda",
+    "state": "TX",
+    "session": "89R",
+    "identifier": "HB 421",
+    "title": "Relating to the creation of certain explicit deep fake material; providing a private cause of action.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB00421I.HTM",
+    "latest_action_date": "2025-04-30",
+    "latest_action_description": "Read first time",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/704b278c-57fc-4ef9-90b7-a4057b03cdab",
     "state": "TX",
     "session": "86",
@@ -821,31 +976,6 @@
     "primary_url": "http://www.legis.state.tx.us/tlodocs/86R/billtext/html/HB04214I.HTM",
     "latest_action_date": "2019-05-01",
     "latest_action_description": "Read 3rd time",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/97145648-5ee5-420e-b4a9-97b69916b22f",
-    "state": "TX",
-    "session": "89R",
-    "identifier": "HB 4390",
-    "title": "Relating to parental rights regarding the use of machine grading to score certain portions of assessment instruments administered to public school students in this state.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB04390I.HTM",
-    "latest_action_date": "2025-04-01",
-    "latest_action_description": "Read first time",
     "ncsl_status": ""
   },
   {
@@ -875,6 +1005,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/97145648-5ee5-420e-b4a9-97b69916b22f",
+    "state": "TX",
+    "session": "89R",
+    "identifier": "HB 4390",
+    "title": "Relating to parental rights regarding the use of machine grading to score certain portions of assessment instruments administered to public school students in this state.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB04390I.HTM",
+    "latest_action_date": "2025-04-01",
+    "latest_action_description": "Read first time",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/6093e43e-81e0-41d0-89dd-10fc3a9ed087",
     "state": "TX",
     "session": "89R",
@@ -884,8 +1039,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -917,8 +1072,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -962,17 +1117,19 @@
     "identifier": "HB 449",
     "title": "Relating to the unlawful production or distribution of sexually explicit media using deep fake technology.",
     "updated": "",
-    "core_ai_hits": 2,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1069,9 +1226,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1200,10 +1357,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
-      "ai_system_composite",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1229,15 +1386,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1279,11 +1436,12 @@
     "identifier": "HB 5517",
     "title": "Relating to sexually explicit artificially generated images and videos.",
     "updated": "",
-    "core_ai_hits": 2,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1611,8 +1769,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1654,6 +1812,56 @@
     "ncsl_status": "Adopted"
   },
   {
+    "bill_id": "ocd-bill/e09cd0c5-d572-4c26-ad7e-c332cb729cb2",
+    "state": "TX",
+    "session": "88",
+    "identifier": "SB 1044",
+    "title": "Relating to criminal offenses for the creation or distribution of certain misleading images and videos; creating a criminal offense.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/88R/billtext/html/SB01044S.HTM",
+    "latest_action_date": "2023-04-28",
+    "latest_action_description": "Read first time",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/6abb0557-4b4c-492d-b7bd-f92a9d65a9db",
+    "state": "TX",
+    "session": "89R",
+    "identifier": "SB 1108",
+    "title": "Relating to sexually explicit visual material.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/SB01108I.HTM",
+    "latest_action_date": "2025-02-24",
+    "latest_action_description": "Read first time",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/0d1f0db7-890a-4c39-abfa-fa91b8fbad31",
     "state": "TX",
     "session": "89R",
@@ -1675,6 +1883,32 @@
     "source_bucket": "regex_flagged",
     "primary_url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/SB01188S.HTM",
     "latest_action_date": "2025-06-20",
+    "latest_action_description": "Signed by the Governor",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/e8e56405-b093-4687-b0c0-35c4953726c4",
+    "state": "TX",
+    "session": "88",
+    "identifier": "SB 1361",
+    "title": "Relating to the unlawful production or distribution of sexually explicit videos using deep fake technology; creating a criminal offense.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://capitol.texas.gov/tlodocs/88R/billtext/html/SB01361S.HTM",
+    "latest_action_date": "2023-06-02",
     "latest_action_description": "Signed by the Governor",
     "ncsl_status": ""
   },
@@ -1739,8 +1973,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1765,9 +1999,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai_variant",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1818,17 +2052,17 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
-      "digital_replica",
-      "artificial_intelligence"
+      "digital_replica"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1847,8 +2081,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1873,8 +2107,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1957,8 +2191,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1988,8 +2222,8 @@
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2008,9 +2242,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2035,8 +2269,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2061,17 +2295,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2117,8 +2351,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2140,11 +2374,12 @@
     "identifier": "SB 442",
     "title": "Relating to the prosecution and punishment of the offense of unlawful production or distribution of certain sexually explicit media; increasing a criminal penalty.",
     "updated": "",
-    "core_ai_hits": 2,
+    "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2192,9 +2427,10 @@
     "identifier": "SB 751",
     "title": "Relating to the creation of a criminal offense for fabricating a deceptive video with intent to influence the outcome of an election.",
     "updated": "",
-    "core_ai_hits": 1,
+    "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -2220,10 +2456,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
-      "ai_system_composite",
       "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "automated_decision_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",

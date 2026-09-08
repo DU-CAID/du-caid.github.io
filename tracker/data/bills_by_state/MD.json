@@ -50,6 +50,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/d6409a8d-3fdb-4cfa-92f0-68d6ca27c378",
+    "state": "MD",
+    "session": "2024",
+    "identifier": "HB 1062",
+    "title": "Deep Fake Representations and Revenge Porn",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2024-04-08",
+    "latest_action_description": "Motion Special Order until Later This Session  (Delegate Pippy)  Adopted",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/0f6ffa56-b8dc-40de-88a4-fdfdce187279",
     "state": "MD",
     "session": "2023",
@@ -188,8 +213,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -199,31 +224,6 @@
     "primary_url": "http://mgaleg.maryland.gov/2019RS/bills/hb/hb1293t.pdf",
     "latest_action_date": "2019-04-08",
     "latest_action_description": "Third Reading Passed (140-0)",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/9a5e3a99-2985-4de9-9bea-cf2a2afe3992",
-    "state": "MD",
-    "session": "2024",
-    "identifier": "HB 1294",
-    "title": "Artificial Intelligence Tools - Income Tax Credit and Sales and Use Tax",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2024-02-09",
-    "latest_action_description": "First Reading Ways and Means",
     "ncsl_status": ""
   },
   {
@@ -249,6 +249,31 @@
     "primary_url": null,
     "latest_action_date": "2026-03-20",
     "latest_action_description": "Hearing 3/26 at 1:00 p.m.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/9a5e3a99-2985-4de9-9bea-cf2a2afe3992",
+    "state": "MD",
+    "session": "2024",
+    "identifier": "HB 1294",
+    "title": "Artificial Intelligence Tools - Income Tax Credit and Sales and Use Tax",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2024-02-09",
+    "latest_action_description": "First Reading Ways and Means",
     "ncsl_status": ""
   },
   {
@@ -415,8 +440,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title"
@@ -438,8 +463,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -464,9 +489,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "deepfake_media",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -480,6 +505,31 @@
     "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/hb/hb0145t.pdf",
     "latest_action_date": "2026-04-10",
     "latest_action_description": "Third Reading Passed",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/8eb6e854-95d4-4ace-9751-51b9cb6423e2",
+    "state": "MD",
+    "session": "2024",
+    "identifier": "HB 145",
+    "title": "Criminal Law - Deep Fake Representations and Revenge Porn",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2024-03-20",
+    "latest_action_description": "Hearing 3/27 at 1:00 p.m.",
     "ncsl_status": ""
   },
   {
@@ -518,8 +568,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -552,8 +602,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -723,12 +773,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -825,8 +875,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -904,8 +954,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -977,8 +1027,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1019,31 +1069,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/b129f1b6-2c99-466b-bc5f-db4a7d69b1e2",
-    "state": "MD",
-    "session": "2024",
-    "identifier": "HB 883",
-    "title": "Department of Information Technology - Evaluation of Emerging Technologies (Maryland Artificial Intelligence in Governmental Services Act)",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2024-02-13",
-    "latest_action_description": "Hearing 3/05 at 1:00 p.m.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/61fd8d70-ea6c-4b56-8e0a-adee39881718",
     "state": "MD",
     "session": "2026",
@@ -1066,6 +1091,31 @@
     "primary_url": null,
     "latest_action_date": "2026-03-25",
     "latest_action_description": "Hearing 4/01 at 1:00 p.m.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/b129f1b6-2c99-466b-bc5f-db4a7d69b1e2",
+    "state": "MD",
+    "session": "2024",
+    "identifier": "HB 883",
+    "title": "Department of Information Technology - Evaluation of Emerging Technologies (Maryland Artificial Intelligence in Governmental Services Act)",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2024-02-13",
+    "latest_action_description": "Hearing 3/05 at 1:00 p.m.",
     "ncsl_status": ""
   },
   {
@@ -1330,8 +1380,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1356,9 +1406,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "deepfake_media",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1434,8 +1484,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1721,8 +1771,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1751,8 +1801,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1796,8 +1846,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"

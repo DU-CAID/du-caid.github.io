@@ -34,9 +34,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -145,8 +145,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -246,8 +246,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title"
@@ -319,9 +319,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media",
-      "generative_ai_variant"
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -347,11 +347,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "llm_variant",
-      "artificial_intelligence",
       "adjacent_tech",
       "large_language_model",
-      "ai_system_composite"
+      "ai_system_composite",
+      "llm_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -378,9 +378,9 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -431,12 +431,12 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "digital_replica",
-      "adjacent_tech",
-      "algorithmic_tool",
       "machine_learning",
+      "algorithmic_tool",
       "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "digital_replica",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -460,9 +460,10 @@
     "identifier": "SB 525",
     "title": "Creating the protection against deep fakes act to provide a cause of action for damages arising from the use of generative artificial intelligence to create an image or likeness of another person without such person's consent for use in obscene material.",
     "updated": "",
-    "core_ai_hits": 3,
+    "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media"
@@ -471,8 +472,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",

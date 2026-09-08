@@ -51,6 +51,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/6dcb90ae-9626-4409-b9ce-8a09fa641c00",
+    "state": "AR",
+    "session": "2025",
+    "identifier": "HB 1141",
+    "title": "TO CREATE CRIMINAL OFFENSES RELATED TO DECEPTIVE AND INJURIOUS MEDIA IN THE COURSE OF ELECTION CAMPAIGNS.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FAMEND%2F2025R%2FPublic%2FHB1141-H1.pdf",
+    "latest_action_date": "2025-05-05T14:56:04+00:00",
+    "latest_action_description": "Died in House Committee at Sine Die adjournment.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/568b14a0-6051-4530-b8e7-62bbf8c8e49c",
     "state": "AR",
     "session": "2025",
@@ -221,8 +246,8 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -250,8 +275,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

@@ -15,9 +15,9 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
+      "title",
       "abstract",
-      "title"
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -36,8 +36,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -70,15 +70,40 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
+      "raw_text",
       "abstract",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://ndlegis.gov/assembly/69-2025/regular/documents/25-0912-01000.pdf",
     "latest_action_date": "2025-01-21",
     "latest_action_description": "Second reading, failed to pass, yeas 17 nays 69",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/fdcbc38b-47c0-47d4-9f10-6a47f63b89f6",
+    "state": "ND",
+    "session": "69",
+    "identifier": "HB 1351",
+    "title": "AN ACT to amend and reenact subsection 13 of section 12.1-27.1-01 and section 12.1-27.1-03.3 of the North Dakota Century Code, relating to sexually expressive images; and to provide a penalty.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://ndlegis.gov/assembly/69-2025/regular/documents/25-0034-02000.pdf",
+    "latest_action_date": "2025-04-24",
+    "latest_action_description": "Filed with Secretary Of State 04/22",
     "ncsl_status": ""
   },
   {
@@ -166,8 +191,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",

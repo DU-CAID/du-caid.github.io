@@ -1,5 +1,31 @@
 [
   {
+    "bill_id": "ocd-bill/cd060ad4-cd38-4bc0-9ac1-ae4a02f28334",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "HB 4048",
+    "title": "Criminal procedure: sentencing guidelines; guidelines for dissemination of deep fake sexual images; enact. Amends sec. 17b, ch. XVII of 1927 PA 175 (MCL 777.17b).   TIE BAR WITH: HB 4047'25",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/publicact/htm/2025-PA-0012.htm",
+    "latest_action_date": "2025-08-26",
+    "latest_action_description": "approved by the Governor 08/26/2025 01:18 PM",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/55d815ed-89e5-4a20-aac9-ee69f3e8cd65",
     "state": "MI",
     "session": "2025-2026",
@@ -85,18 +111,18 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai_variant",
       "generative_ai",
       "ai_system",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -119,11 +145,11 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "foundation_model",
-      "llm_variant",
       "artificial_intelligence",
+      "llm_variant",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "foundation_model"
     ],
     "matched_tiers": [
       "core_ai"
@@ -215,6 +241,31 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/42e35c8e-d5d0-4c86-8733-2fdc1891d7e8",
+    "state": "MI",
+    "session": "2023-2024",
+    "identifier": "HB 5570",
+    "title": "Criminal procedure: sentencing guidelines; guidelines for dissemination of deep fake sexual images; enact. Amends sec. 17b, ch. XVII of 1927 PA 175 (MCL 777.17b).",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2023-2024/billintroduced/House/htm/2024-HIB-5570.htm",
+    "latest_action_date": "2024-12-20",
+    "latest_action_description": "DISCHARGE COMMITTEE APPROVED",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/275c2835-1787-4c0c-a5c3-14a4c23e57f1",
     "state": "MI",
     "session": "2025-2026",
@@ -224,8 +275,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -410,8 +461,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -458,8 +509,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
