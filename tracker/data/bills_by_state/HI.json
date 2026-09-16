@@ -1,5 +1,31 @@
 [
   {
+    "bill_id": "ocd-bill/cdb9b4a5-ee96-49df-a24a-106cb9c4d666",
+    "state": "HI",
+    "session": "2020 Regular Session",
+    "identifier": "HB 1080",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2019-12-01",
+    "latest_action_description": "Carried over to 2020 Regular Session.",
+    "ncsl_status": "Failed"
+  },
+  {
     "bill_id": "ocd-bill/f79deea5-a6fc-4f89-aa0f-7795db25ce3f",
     "state": "HI",
     "session": "2019 Regular Session",
@@ -24,33 +50,7 @@
     "primary_url": "https://www.capitol.hawaii.gov/session2019/bills/HB1080_.HTM",
     "latest_action_date": "2019-01-28",
     "latest_action_description": "Referred to TIA, FIN, referral sheet 6",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/cdb9b4a5-ee96-49df-a24a-106cb9c4d666",
-    "state": "HI",
-    "session": "2020 Regular Session",
-    "identifier": "HB 1080",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2019-12-01",
-    "latest_action_description": "Carried over to 2020 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Failed"
   },
   {
     "bill_id": "ocd-bill/3d9eba4e-d75d-4d57-9bd5-34a076417dfb",
@@ -78,7 +78,7 @@
     "primary_url": "https://www.capitol.hawaii.gov/session2019/bills/HB1185_.HTM",
     "latest_action_date": "2019-01-28",
     "latest_action_description": "Referred to EDB/LAB, FIN, referral sheet 6",
-    "ncsl_status": ""
+    "ncsl_status": "Failed"
   },
   {
     "bill_id": "ocd-bill/afc29af0-2585-4d21-a2d2-cb7827324ec2",
@@ -104,7 +104,7 @@
     "primary_url": null,
     "latest_action_date": "2019-12-01",
     "latest_action_description": "Carried over to 2020 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Failed"
   },
   {
     "bill_id": "ocd-bill/36d859aa-30d2-4037-a52c-9d0ad4535871",
@@ -157,6 +157,32 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/49e0eb4a-536a-43a5-97dc-cf2fd78f1a4e",
+    "state": "HI",
+    "session": "2025",
+    "identifier": "HB 1384",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-02-10",
+    "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on FIN with none voting aye with reservations; Representative(s) Pierick voting no (1) and Representative(s) Belatti, Cochran, Kila, Ward excused (4).",
+    "ncsl_status": "Pending - Carryover"
+  },
+  {
     "bill_id": "ocd-bill/277f577f-5f95-4f70-8148-063e857bb1de",
     "state": "HI",
     "session": "2026",
@@ -181,33 +207,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB1384_HD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/49e0eb4a-536a-43a5-97dc-cf2fd78f1a4e",
-    "state": "HI",
-    "session": "2025",
-    "identifier": "HB 1384",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-02-10",
-    "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on FIN with none voting aye with reservations; Representative(s) Pierick voting no (1) and Representative(s) Belatti, Cochran, Kila, Ward excused (4).",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/bfa65729-273a-43ac-b814-0eefa232d4ab",
@@ -259,7 +259,7 @@
     "primary_url": null,
     "latest_action_date": "2024-01-24",
     "latest_action_description": "Referred to HET/JHA, referral sheet 1",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/4419ffc2-20a7-4e83-9216-1ed59ab241d5",
@@ -365,7 +365,7 @@
     "primary_url": null,
     "latest_action_date": "2020-02-14",
     "latest_action_description": "Reported from EDB (Stand. Com. Rep. No. 635-20) as amended in HD 1, recommending passage on Second Reading and referral to FIN.",
-    "ncsl_status": ""
+    "ncsl_status": "Failed – Adjourned"
   },
   {
     "bill_id": "ocd-bill/16a93fcb-d9eb-4f4f-8703-78944c256961",
@@ -392,7 +392,7 @@
     "primary_url": null,
     "latest_action_date": "2024-01-24",
     "latest_action_description": "Referred to JHA, FIN, referral sheet 1",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/360a3153-5018-4d3a-a4fa-0a8268afae31",
@@ -531,7 +531,7 @@
     "primary_url": null,
     "latest_action_date": "2024-02-14",
     "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on FIN with none voting aye with reservations; none voting no (0) and Representative(s) Matayoshi, Takayama, Todd excused (3).",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/22828b3b-65c8-4296-a873-6455ac9f37bb",
@@ -725,7 +725,7 @@
     "primary_url": null,
     "latest_action_date": "2024-01-24",
     "latest_action_description": "Referred to HET/LGO, CPC, FIN, referral sheet 2",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/1195ea8b-8adf-45e5-bafa-aaa836cd7991",
@@ -751,7 +751,7 @@
     "primary_url": null,
     "latest_action_date": "2024-02-16",
     "latest_action_description": "Report adopted. referred to the committee(s) on FIN as amended in HD 2 with none voting aye with reservations; none voting no (0) and Representative(s) Aiu, Garrett, Perruso, Takayama, Todd excused (5).",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/f45154da-e20a-4199-b46b-aa63daafc900",
@@ -802,7 +802,7 @@
     "primary_url": null,
     "latest_action_date": "2024-01-26",
     "latest_action_description": "Referred to HET, FIN, referral sheet 3",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/d77f8e38-888a-4e95-8ce7-562b75cdcc3e",
@@ -1208,33 +1208,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/7141d38f-dab8-4cfe-ad8c-2c5d16475343",
-    "state": "HI",
-    "session": "2022 Regular Session",
-    "identifier": "HB 346",
-    "title": "RELATING TO PRIVACY.",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "deepfake_media",
-      "synthetic_media"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "abstract"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/HB346_.HTM",
-    "latest_action_date": "2021-12-10",
-    "latest_action_description": "Carried over to 2022 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/0536e818-1a43-4e8b-b284-3fd665cf330e",
     "state": "HI",
     "session": "2021 Regular Session",
@@ -1262,6 +1235,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/7141d38f-dab8-4cfe-ad8c-2c5d16475343",
+    "state": "HI",
+    "session": "2022 Regular Session",
+    "identifier": "HB 346",
+    "title": "RELATING TO PRIVACY.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media",
+      "synthetic_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "abstract"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/HB346_.HTM",
+    "latest_action_date": "2021-12-10",
+    "latest_action_description": "Carried over to 2022 Regular Session.",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/798bc1ec-c7de-4afc-8bb4-c66ff027ad48",
     "state": "HI",
     "session": "2022 Regular Session",
@@ -1285,7 +1285,7 @@
     "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/HB454_.HTM",
     "latest_action_date": "2021-12-10",
     "latest_action_description": "Carried over to 2022 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Failed – Adjourned"
   },
   {
     "bill_id": "ocd-bill/1c696246-dc9d-436e-9cce-37dd1aed39f7",
@@ -1311,7 +1311,7 @@
     "primary_url": "https://capitol.hawaii.gov/session2021/bills/HB454_.HTM",
     "latest_action_date": "2021-01-27",
     "latest_action_description": "Referred to ECD, CPC, FIN, referral sheet 1",
-    "ncsl_status": ""
+    "ncsl_status": "Failed – Adjourned"
   },
   {
     "bill_id": "ocd-bill/40adb719-5671-49cc-88bc-3e117e2c963a",
@@ -1340,7 +1340,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB465_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/fe3bddb7-1f83-4c47-bdb6-d77ee65f7faf",
@@ -1365,7 +1365,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB484_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/4729136b-8b4c-4651-aa04-d517e3866079",
@@ -1390,7 +1390,7 @@
     "primary_url": null,
     "latest_action_date": "2025-01-21",
     "latest_action_description": "Referred to LMG, FIN, referral sheet 2",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/c703d14a-2e58-485c-a781-38262e258d6c",
@@ -1417,7 +1417,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB487_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/966eeb08-f319-4ee1-95e9-43c73289c97e",
@@ -1444,7 +1444,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB546_SD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/1cedb5e8-e477-4841-a1a6-00d46413af85",
@@ -1470,7 +1470,7 @@
     "primary_url": null,
     "latest_action_date": "2025-03-20",
     "latest_action_description": "Report adopted; Passed Second Reading, as amended (SD 1) and referred to WAM.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/80860051-93ce-4977-b151-2b877868bd6a",
@@ -1495,7 +1495,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB62_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/17a8f9e5-8932-4360-89bc-f57b0cde925f",
@@ -1521,7 +1521,7 @@
     "primary_url": null,
     "latest_action_date": "2025-02-05",
     "latest_action_description": "Passed Second Reading as amended in HD 1 and referred to the committee(s) on CPC with none voting aye with reservations; none voting no (0) and Representative(s) Cochran, Ward excused (2).",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/3ffd333f-af12-4c41-8717-2b703ccb52ab",
@@ -1552,7 +1552,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB639_HD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/b44da23b-9aac-46d3-acfa-3b009141e865",
@@ -1577,7 +1577,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB665_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/1823c844-abaf-4d19-b039-f193b9e3c0ba",
@@ -1602,7 +1602,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB716_SD1_.HTM",
     "latest_action_date": "2026-03-20",
     "latest_action_description": "Received notice of all Senate conferees being discharged (Sen. Com. No. 409).",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/b9a81732-2885-4f6b-9aa9-ad70aecd5cb7",
@@ -1633,7 +1633,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB726_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/16607ce9-3a5d-4151-966c-02a1463f0e9f",
@@ -1659,7 +1659,7 @@
     "primary_url": null,
     "latest_action_date": "2025-01-21",
     "latest_action_description": "Referred to ECD, FIN, referral sheet 2",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/b45f6025-33a9-47fe-a259-4832f2e967da",
@@ -1738,7 +1738,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB824_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/cc323f5e-4913-418f-9bb8-8b145c9f26c4",
@@ -1763,7 +1763,7 @@
     "primary_url": null,
     "latest_action_date": "2025-01-23",
     "latest_action_description": "Referred to LMG, FIN, referral sheet 3",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/a04fa41c-d38b-4eff-a3c4-42e709a32987",
@@ -1789,7 +1789,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB831_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/b2d2467b-f3c7-4dc9-a546-321bde728b02",
@@ -1814,7 +1814,7 @@
     "primary_url": null,
     "latest_action_date": "2025-01-23",
     "latest_action_description": "Referred to CPC, JHA, FIN, referral sheet 3",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/de6bfe36-091b-4dc8-94c9-df3dc9d13694",
@@ -2449,31 +2449,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/c6ea9684-6912-4c19-b57c-7590ad9a9d1d",
-    "state": "HI",
-    "session": "2022 Regular Session",
-    "identifier": "SB 1009",
-    "title": "RELATING TO PRIVACY.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "deepfake_media"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/SB1009_.HTM",
-    "latest_action_date": "2021-12-10",
-    "latest_action_description": "Carried over to 2022 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/5d540733-0a5f-4593-9e86-ee78d28bcbd2",
     "state": "HI",
     "session": "2021 Regular Session",
@@ -2496,6 +2471,31 @@
     "primary_url": "https://capitol.hawaii.gov/session2021/bills/SB1009_.HTM",
     "latest_action_date": "2021-02-16",
     "latest_action_description": "The committee on GVO deferred the measure.",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/c6ea9684-6912-4c19-b57c-7590ad9a9d1d",
+    "state": "HI",
+    "session": "2022 Regular Session",
+    "identifier": "SB 1009",
+    "title": "RELATING TO PRIVACY.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://capitol.hawaii.gov/sessions/session2022/bills/SB1009_.HTM",
+    "latest_action_date": "2021-12-10",
+    "latest_action_description": "Carried over to 2022 Regular Session.",
     "ncsl_status": ""
   },
   {
@@ -2575,7 +2575,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1176_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/08f65f6f-99b2-4ecd-bc0d-da23356595d2",
@@ -2600,7 +2600,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1217_SD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/673e331d-d652-4fbb-a34e-24295cb4d08f",
@@ -2625,7 +2625,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1288_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/fb40c2df-a47c-4036-b6ac-2a0254d5b935",
@@ -2702,32 +2702,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1563_SD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/bf0cd1e4-00d0-499b-9f43-a42ac1439948",
-    "state": "HI",
-    "session": "2025",
-    "identifier": "SB 157",
-    "title": "RELATING TO ANTITRUST.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "algorithmic_tool"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-03-06",
-    "latest_action_description": "Referred to CPC, JHA, FIN, referral sheet 19",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/db56f17a-e022-4261-8779-7841df51b97f",
@@ -2753,7 +2728,32 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB157_SD2_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
+  },
+  {
+    "bill_id": "ocd-bill/bf0cd1e4-00d0-499b-9f43-a42ac1439948",
+    "state": "HI",
+    "session": "2025",
+    "identifier": "SB 157",
+    "title": "RELATING TO ANTITRUST.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-03-06",
+    "latest_action_description": "Referred to CPC, JHA, FIN, referral sheet 19",
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/2deb3818-0e1f-48dd-935a-7861b6e3eab3",
@@ -2784,32 +2784,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/e03af1a8-60bf-447d-8532-0cb782e5c82e",
-    "state": "HI",
-    "session": "2025",
-    "identifier": "SB 1622",
-    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-03-06",
-    "latest_action_description": "Referred to HED, ECD, FIN, referral sheet 19",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/089702c3-869c-4034-aa95-591bde02c177",
     "state": "HI",
     "session": "2026",
@@ -2834,7 +2808,33 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1622_SD1_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
+  },
+  {
+    "bill_id": "ocd-bill/e03af1a8-60bf-447d-8532-0cb782e5c82e",
+    "state": "HI",
+    "session": "2025",
+    "identifier": "SB 1622",
+    "title": "RELATING TO ARTIFICIAL INTELLIGENCE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-03-06",
+    "latest_action_description": "Referred to HED, ECD, FIN, referral sheet 19",
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/35d68e17-4ec8-4906-9886-d85c4bd85348",
@@ -3026,7 +3026,7 @@
     "primary_url": null,
     "latest_action_date": "2024-07-08",
     "latest_action_description": "Act 200, 07/05/2024 (Gov. Msg. No. 1301).",
-    "ncsl_status": ""
+    "ncsl_status": "Enacted"
   },
   {
     "bill_id": "ocd-bill/3f03e523-6c2f-4ce0-9cff-f4fa4a40f8c1",
@@ -3132,7 +3132,7 @@
     "primary_url": null,
     "latest_action_date": "2024-01-24",
     "latest_action_description": "Referred to LBT, CPN/JDC.",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/98adab1f-3c92-44f3-ae9a-c3ed3e435add",
@@ -3158,7 +3158,7 @@
     "primary_url": null,
     "latest_action_date": "2024-02-15",
     "latest_action_description": "The committee on CPN deferred the measure.",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/a8101aa2-0ef3-4254-83bb-da538741c90d",
@@ -3325,7 +3325,7 @@
     "primary_url": null,
     "latest_action_date": "2024-01-24",
     "latest_action_description": "Referred to PSM, WAM.",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/b5f95e6e-0eb3-4cf2-af4b-b6ef2833d0dd",
@@ -3350,7 +3350,7 @@
     "primary_url": null,
     "latest_action_date": "2024-02-05",
     "latest_action_description": "The committee on LBT deferred the measure.",
-    "ncsl_status": ""
+    "ncsl_status": "Failed - Adjourned"
   },
   {
     "bill_id": "ocd-bill/e4257c4d-5f9b-41f6-b0e3-bb824a38e6c0",
@@ -3860,7 +3860,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB487_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/af554ed1-087e-4927-b640-135a3cd61e69",
@@ -3886,34 +3886,7 @@
     "primary_url": null,
     "latest_action_date": "2025-01-21",
     "latest_action_description": "Referred to LBT, WAM.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/a813cbf5-b2f8-46df-be92-dbc23561ba1c",
-    "state": "HI",
-    "session": "2025",
-    "identifier": "SB 59",
-    "title": "RELATING TO ALGORITHMIC DISCRIMINATION.",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "algorithmic_decision_system",
-      "algorithmic_tool"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2025-01-16",
-    "latest_action_description": "Referred to LBT, CPN/JDC.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/e97556fa-bc6b-43ff-b09b-65123cbde895",
@@ -3943,7 +3916,34 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB59_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
+  },
+  {
+    "bill_id": "ocd-bill/a813cbf5-b2f8-46df-be92-dbc23561ba1c",
+    "state": "HI",
+    "session": "2025",
+    "identifier": "SB 59",
+    "title": "RELATING TO ALGORITHMIC DISCRIMINATION.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "algorithmic_decision_system",
+      "algorithmic_tool"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-01-16",
+    "latest_action_description": "Referred to LBT, CPN/JDC.",
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/f0a57e47-3f89-4fe5-a23e-b6297888a9be",
@@ -3972,7 +3972,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB640_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/799e082c-d873-45e1-9a1b-5906d70ea885",
@@ -3998,7 +3998,7 @@
     "primary_url": null,
     "latest_action_date": "2025-02-07",
     "latest_action_description": "The committee on CPN deferred the measure.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/f79dc355-4193-408c-bec3-edaa87a50f69",
@@ -4027,7 +4027,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB785_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/d358a21e-069a-449c-8a05-c775d83c8e85",
@@ -4052,7 +4052,7 @@
     "primary_url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB959_.HTM",
     "latest_action_date": "2025-12-08",
     "latest_action_description": "Carried over to 2026 Regular Session.",
-    "ncsl_status": ""
+    "ncsl_status": "Pending - Carryover"
   },
   {
     "bill_id": "ocd-bill/e2337164-8a6e-444e-b215-693303444fdb",
