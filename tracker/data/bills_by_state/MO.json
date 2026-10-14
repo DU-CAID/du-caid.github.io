@@ -34,9 +34,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -138,13 +138,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite",
-      "artificial_intelligence"
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -166,9 +166,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
       "ai_system"
     ],
     "matched_tiers": [
@@ -201,8 +201,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -221,15 +221,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
+      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
-      "generative_ai_variant",
-      "artificial_intelligence",
       "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -276,13 +276,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -333,8 +333,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -409,17 +409,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -463,13 +463,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -570,13 +570,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
+      "adjacent_tech",
       "machine_learning",
-      "adjacent_tech"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -674,9 +674,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system",
       "ml_system",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -701,12 +701,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -754,14 +754,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -808,9 +808,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
       "ai_system"
     ],
     "matched_tiers": [
@@ -863,9 +863,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "synthetic_media",
       "artificial_intelligence",
-      "deepfake_media",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -873,8 +873,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -901,8 +901,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -938,6 +938,33 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/c2570eb3-f466-4b0d-a55d-507b62984878",
+    "state": "MO",
+    "session": "2026",
+    "identifier": "SB 1444",
+    "title": "Creates provisions relating to artificial intelligence in mental health",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-04-07T05:00:00+00:00",
+    "latest_action_description": "SCS Voted Do Pass S General Laws Committee (5255S.04C)",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/b877f650-9b59-404d-b85b-daa81543fe69",
     "state": "MO",
     "session": "2024",
@@ -962,33 +989,6 @@
     "primary_url": "https://www.senate.mo.gov/24info/pdf-bill/intro/SB1444.pdf",
     "latest_action_date": "2024-03-07T06:00:00+00:00",
     "latest_action_description": "Second Read and Referred S Judiciary and Civil and Criminal Jurisprudence Committee",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/c2570eb3-f466-4b0d-a55d-507b62984878",
-    "state": "MO",
-    "session": "2026",
-    "identifier": "SB 1444",
-    "title": "Creates provisions relating to artificial intelligence in mental health",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-04-07T05:00:00+00:00",
-    "latest_action_description": "SCS Voted Do Pass S General Laws Committee (5255S.04C)",
     "ncsl_status": ""
   },
   {
@@ -1032,12 +1032,12 @@
       "ai_system_composite"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1065,8 +1065,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1141,8 +1141,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1196,8 +1196,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

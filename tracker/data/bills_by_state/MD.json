@@ -209,12 +209,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -440,8 +440,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title"
@@ -480,6 +480,34 @@
     "ncsl_status": "Failed - Adjourned"
   },
   {
+    "bill_id": "ocd-bill/90bcc07a-2711-424c-9809-dce3e0c1167b",
+    "state": "MD",
+    "session": "2026",
+    "identifier": "HB 145",
+    "title": "Election Law - Election Misinformation, Election Disinformation, and Deepfakes",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media",
+      "generative_ai_variant",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/hb/hb0145t.pdf",
+    "latest_action_date": "2026-04-10",
+    "latest_action_description": "Third Reading Passed",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/8eb6e854-95d4-4ace-9751-51b9cb6423e2",
     "state": "MD",
     "session": "2024",
@@ -502,34 +530,6 @@
     "primary_url": null,
     "latest_action_date": "2024-03-20",
     "latest_action_description": "Hearing 3/27 at 1:00 p.m.",
-    "ncsl_status": ""
-  },
-  {
-    "bill_id": "ocd-bill/90bcc07a-2711-424c-9809-dce3e0c1167b",
-    "state": "MD",
-    "session": "2026",
-    "identifier": "HB 145",
-    "title": "Election Law - Election Misinformation, Election Disinformation, and Deepfakes",
-    "updated": "",
-    "core_ai_hits": 3,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media",
-      "generative_ai_variant"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://mgaleg.maryland.gov/2026RS/bills/hb/hb0145t.pdf",
-    "latest_action_date": "2026-04-10",
-    "latest_action_description": "Third Reading Passed",
     "ncsl_status": ""
   },
   {
@@ -568,8 +568,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "machine_learning",
-      "automated_decision_system"
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -595,8 +595,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -777,8 +777,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -954,8 +954,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1069,31 +1069,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/61fd8d70-ea6c-4b56-8e0a-adee39881718",
-    "state": "MD",
-    "session": "2026",
-    "identifier": "HB 883",
-    "title": "Consumer Protection - Artificial Intelligence - Behavioral Health Care Prohibitions",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "title"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-03-25",
-    "latest_action_description": "Hearing 4/01 at 1:00 p.m.",
-    "ncsl_status": "Failed - Adjourned"
-  },
-  {
     "bill_id": "ocd-bill/b129f1b6-2c99-466b-bc5f-db4a7d69b1e2",
     "state": "MD",
     "session": "2024",
@@ -1116,6 +1091,31 @@
     "primary_url": null,
     "latest_action_date": "2024-02-13",
     "latest_action_description": "Hearing 3/05 at 1:00 p.m.",
+    "ncsl_status": "Failed - Adjourned"
+  },
+  {
+    "bill_id": "ocd-bill/61fd8d70-ea6c-4b56-8e0a-adee39881718",
+    "state": "MD",
+    "session": "2026",
+    "identifier": "HB 883",
+    "title": "Consumer Protection - Artificial Intelligence - Behavioral Health Care Prohibitions",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-03-25",
+    "latest_action_description": "Hearing 4/01 at 1:00 p.m.",
     "ncsl_status": "Failed - Adjourned"
   },
   {
@@ -1406,9 +1406,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "deepfake_media",
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1511,8 +1511,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1538,8 +1538,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1767,12 +1767,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1794,8 +1794,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1846,8 +1846,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"

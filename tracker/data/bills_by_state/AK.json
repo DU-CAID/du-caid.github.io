@@ -9,9 +9,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "synthetic_media",
       "artificial_intelligence",
+      "adjacent_tech",
       "deepfake_media",
       "machine_learning"
     ],
@@ -92,14 +92,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning",
       "adjacent_tech",
-      "deepfake_media"
+      "machine_learning",
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -180,8 +180,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -231,14 +231,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HCR012B",
-    "latest_action_date": "2026-03-23",
-    "latest_action_description": "(H) SPECIAL ORDER OF BUSINESS",
+    "latest_action_date": "2026-09-30",
+    "latest_action_description": "(H) ENGROSSED",
     "ncsl_status": ""
   },
   {
@@ -288,8 +288,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HJR028A",
-    "latest_action_date": "2026-06-17",
-    "latest_action_description": "(H) 10:45 A.M. 6/16/26 Transmitted to Governor",
+    "latest_action_date": "2026-09-30",
+    "latest_action_description": "(H) PERMANENTLY FILED 9/22 LEGIS RESOLVE 36",
     "ncsl_status": ""
   },
   {
@@ -327,14 +327,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning",
       "adjacent_tech",
-      "deepfake_media"
+      "machine_learning",
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -357,15 +357,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "deepfake_media",
-      "generative_ai_variant",
-      "adjacent_tech",
       "machine_learning",
-      "artificial_intelligence"
+      "adjacent_tech",
+      "artificial_intelligence",
+      "deepfake_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -388,15 +388,15 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -479,8 +479,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0064A",
-    "latest_action_date": "2026-05-04",
-    "latest_action_description": "(S) MOTION TO OVERRIDE VETO",
+    "latest_action_date": "2026-05-12",
+    "latest_action_description": "(H) STATE AFFAIRS at 03:15 PM GRUENBERG 120",
     "ncsl_status": "Pending - Carryover"
   },
   {

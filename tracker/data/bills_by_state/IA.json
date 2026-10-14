@@ -169,8 +169,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -219,8 +219,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -243,8 +243,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -269,8 +269,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "automated_decision_system"
+      "automated_decision_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -296,9 +296,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "deepfake_media",
       "synthetic_media",
-      "artificial_intelligence",
-      "deepfake_media"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -357,8 +357,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -508,8 +508,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -732,28 +732,21 @@
     "identifier": "HSB 294",
     "title": "A bill for an act relating to artificial intelligence, including the use of artificial intelligence to create materials related to elections and protections in interactions with artificial intelligence systems, and making penalties applicable.",
     "updated": "",
-    "core_ai_hits": 6,
-    "adjacent_ai_hits": 2,
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system",
-      "algorithmic_tool",
       "ai_system_composite",
-      "adjacent_tech",
-      "high_risk_ai_variant",
-      "high_risk_ai"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HSB294.pdf",
+    "primary_url": null,
     "latest_action_date": "2025-03-06",
     "latest_action_description": "Subcommittee recommends passage.",
     "ncsl_status": "Pending - Carryover"
@@ -885,31 +878,6 @@
     "ncsl_status": ""
   },
   {
-    "bill_id": "ocd-bill/bd6019a2-1105-4e12-8b79-4946cc5bed82",
-    "state": "IA",
-    "session": "2025-2026",
-    "identifier": "HSB 647",
-    "title": "A bill for an act relating to chatbots, including deployer requirements and interactions with minors.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.legis.iowa.gov/docs/publications/LGI/91/HSB647.pdf",
-    "latest_action_date": "2026-02-24",
-    "latest_action_description": "Committee report approving bill, renumbered as HF 2715.",
-    "ncsl_status": ""
-  },
-  {
     "bill_id": "ocd-bill/1d88a164-a37a-4b56-a52c-27bbde79a3f6",
     "state": "IA",
     "session": "2025-2026",
@@ -1011,8 +979,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1108,15 +1076,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence",
       "algorithmic_tool"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1196,8 +1164,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1226,8 +1194,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1275,8 +1243,8 @@
       "adjacent_tech"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1323,8 +1291,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1381,8 +1349,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

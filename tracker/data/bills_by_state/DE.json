@@ -41,8 +41,8 @@
     ],
     "match_fields": [
       "abstract",
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -125,14 +125,14 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-06-30",
-    "latest_action_description": "Amendment HA 1 to HS 1 - Passed In House by Voice Vote",
+    "latest_action_date": "2026-10-05",
+    "latest_action_description": "Assigned to Executive Committee in Senate",
     "ncsl_status": ""
   },
   {
@@ -178,8 +178,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -204,8 +204,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

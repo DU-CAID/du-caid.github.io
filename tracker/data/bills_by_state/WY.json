@@ -59,10 +59,10 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
-      "deepfake_media",
+      "ai_system_composite",
       "ai_system",
+      "deepfake_media",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -71,8 +71,8 @@
     ],
     "match_fields": [
       "title",
-      "raw_text",
-      "abstract"
+      "abstract",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",

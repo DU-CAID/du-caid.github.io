@@ -9,8 +9,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -111,9 +111,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_governance",
       "ai_system",
       "artificial_intelligence",
-      "ai_governance",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -190,14 +190,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "generative_ai_variant",
       "artificial_intelligence",
-      "machine_learning"
+      "generative_ai_variant",
+      "machine_learning",
+      "ai_system_composite"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -375,10 +375,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_governance",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system_composite",
+      "ai_system",
+      "ai_governance"
     ],
     "matched_tiers": [
       "core_ai"
@@ -404,8 +404,8 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
+      "ai_system_composite",
       "ai_system",
       "algorithmic_tool"
     ],
@@ -437,8 +437,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -563,10 +563,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_governance",
       "artificial_intelligence",
-      "ai_system"
+      "ai_system_composite",
+      "ai_system",
+      "ai_governance"
     ],
     "matched_tiers": [
       "core_ai",
@@ -644,15 +644,15 @@
     "adjacent_ai_hits": 3,
     "matched_concepts": [
       "automated_decision_system",
-      "adjacent_tech",
-      "ai_system_composite",
       "artificial_intelligence",
       "machine_learning",
+      "adjacent_tech",
+      "ai_system_composite",
       "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -700,13 +700,13 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_governance",
-      "ai_system_composite",
       "artificial_intelligence",
+      "ai_system_composite",
       "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -754,8 +754,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -911,8 +911,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "artificial_intelligence",
+      "ai_system_composite",
       "ai_system"
     ],
     "matched_tiers": [
@@ -942,8 +942,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -968,8 +968,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -995,8 +995,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1075,8 +1075,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1095,10 +1095,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "ai_system_composite",
-      "automated_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1150,14 +1150,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "ai_governance",
-      "ai_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title",
@@ -1199,6 +1199,36 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/76ae2e7d-7be0-428a-8742-d4543fc6e04c",
+    "state": "MS",
+    "session": "2025",
+    "identifier": "SB 2437",
+    "title": "\"Prohibition of Exploitation by Deepfakes Act\"; enact.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "deepfake_media",
+      "artificial_intelligence",
+      "morphed_image"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2025/pdf/SB/2400-2499/SB2437IN.pdf",
+    "latest_action_date": "2025-02-04T06:00:00+00:00",
+    "latest_action_description": "Died In Committee",
+    "ncsl_status": "Failed"
+  },
+  {
     "bill_id": "ocd-bill/87097027-b7a3-40b7-95bb-4dd469aca299",
     "state": "MS",
     "session": "2026",
@@ -1221,36 +1251,6 @@
     "primary_url": "http://billstatus.ls.state.ms.us/documents/2026/html/SB/2400-2499/SB2437PS.htm",
     "latest_action_date": "2026-03-11T05:00:00+00:00",
     "latest_action_description": "Died On Calendar",
-    "ncsl_status": "Failed"
-  },
-  {
-    "bill_id": "ocd-bill/76ae2e7d-7be0-428a-8742-d4543fc6e04c",
-    "state": "MS",
-    "session": "2025",
-    "identifier": "SB 2437",
-    "title": "\"Prohibition of Exploitation by Deepfakes Act\"; enact.",
-    "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning",
-      "deepfake_media",
-      "morphed_image"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://billstatus.ls.state.ms.us/documents/2025/pdf/SB/2400-2499/SB2437IN.pdf",
-    "latest_action_date": "2025-02-04T06:00:00+00:00",
-    "latest_action_description": "Died In Committee",
     "ncsl_status": "Failed"
   },
   {
@@ -1291,8 +1291,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1392,8 +1392,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1511,31 +1511,6 @@
     "ncsl_status": "Enacted"
   },
   {
-    "bill_id": "ocd-bill/95d30fe6-1816-4390-8ab2-2f0ff26cf134",
-    "state": "MS",
-    "session": "2025",
-    "identifier": "SB 3002",
-    "title": "Appropriation; IHL - General support.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://billstatus.ls.state.ms.us/documents/2025/pdf/SB/3000-3099/SB3002PS.pdf",
-    "latest_action_date": "2025-03-29T05:00:00+00:00",
-    "latest_action_description": "Died In Conference",
-    "ncsl_status": "Failed"
-  },
-  {
     "bill_id": "ocd-bill/8e12c154-46fb-45f4-bea3-0e5e916fee4c",
     "state": "MS",
     "session": "2022",
@@ -1558,6 +1533,31 @@
     "primary_url": "http://billstatus.ls.state.ms.us/documents/2022/pdf/SB/3000-3099/SB3002SG.pdf",
     "latest_action_date": "2022-04-26T05:00:00+00:00",
     "latest_action_description": "Approved by Governor",
+    "ncsl_status": "Failed"
+  },
+  {
+    "bill_id": "ocd-bill/95d30fe6-1816-4390-8ab2-2f0ff26cf134",
+    "state": "MS",
+    "session": "2025",
+    "identifier": "SB 3002",
+    "title": "Appropriation; IHL - General support.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2025/pdf/SB/3000-3099/SB3002PS.pdf",
+    "latest_action_date": "2025-03-29T05:00:00+00:00",
+    "latest_action_description": "Died In Conference",
     "ncsl_status": "Failed"
   },
   {

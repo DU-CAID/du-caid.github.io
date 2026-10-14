@@ -41,8 +41,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -111,18 +111,18 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai_variant",
       "generative_ai",
       "ai_system",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "automated_decision_system",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -145,18 +145,18 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "llm_variant",
       "ai_system_composite",
       "ai_model_variant",
-      "foundation_model"
+      "artificial_intelligence",
+      "foundation_model",
+      "llm_variant"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -279,8 +279,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -328,12 +328,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -398,6 +398,81 @@
     "ncsl_status": ""
   },
   {
+    "bill_id": "ocd-bill/1fdc2adb-6d95-46ce-b2fd-83c1e53f4c34",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "HB 6392",
+    "title": "Torts: liability; liability for artificial intelligence misidentification; establish. Amends 1961 PA 236 (MCL 600.101 - 600.9947) by adding sec. 2980.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/pdf/2026-HIB-6392.pdf",
+    "latest_action_date": "2026-09-29",
+    "latest_action_description": "bill electronically reproduced 09/24/2026",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/99e62362-47cc-484a-b4fb-429eeea82ec0",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "HB 6417",
+    "title": "Labor: other; community and worker economic transition activities; provide to workers who have employment tied to an industry affected by the adoption or implementation of artificial intelligence. Amends sec. 5 of 2023 PA 232 (MCL 408.915).",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/pdf/2026-HIB-6417.pdf",
+    "latest_action_date": "2026-09-29",
+    "latest_action_description": "bill electronically reproduced 09/24/2026",
+    "ncsl_status": ""
+  },
+  {
+    "bill_id": "ocd-bill/d6b2f37f-1856-4f8a-af2e-ff98b77a9e53",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "HB 6426",
+    "title": "Businesses: other; data center local decision protection act; create. Creates new act.   TIE BAR WITH: HB 6427'26",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6426.htm",
+    "latest_action_date": "2026-10-01",
+    "latest_action_description": "bill electronically reproduced 09/30/2026",
+    "ncsl_status": ""
+  },
+  {
     "bill_id": "ocd-bill/f8c032bd-a6ab-49c4-8008-023b93037e73",
     "state": "MI",
     "session": "2023-2024",
@@ -457,12 +532,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
