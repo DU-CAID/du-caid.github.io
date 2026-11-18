@@ -883,30 +883,56 @@ function renderLegislators(summary, legislators, navigateTo) {
     },
   });
 
-  // Democratic share: AI bills vs all bills vs seats (three series, legend + direct comparison in tooltip)
+  // Party share: AI bills vs all bills vs seats, for the party chosen in the Democrats | Republicans toggle
   const pb = summary.party_by_year;
-  new Chart(document.getElementById("legPartyChart"), {
+  const PARTY_R = "#D32F2F";  // Republican red; validated against PARTY_D for colour-vision separation
+  const PARTY_VIEW = {
+    D: { noun: "Democrats", adj: "Democratic", color: PARTY_D, key: "d" },
+    R: { noun: "Republicans", adj: "Republican", color: PARTY_R, key: "r" },
+  };
+  // y-axis: a 10-point grid that fits the chosen party's three lines with some room
+  const yRange = vals => ({ min: Math.max(0, Math.floor((Math.min(...vals) - 5) / 10) * 10),
+                            max: Math.min(100, Math.ceil((Math.max(...vals) + 5) / 10) * 10) });
+  function partyDatasets(p) {
+    const v = PARTY_VIEW[p];
+    return [
+      { label: `AI bills led by ${v.noun}`, data: pb.map(d => d["ai_" + v.key]), borderColor: v.color, backgroundColor: v.color,
+        borderWidth: 2, pointRadius: 4, tension: 0 },
+      { label: `All bills led by ${v.noun}`, data: pb.map(d => d["all_" + v.key]), borderColor: NEUTRAL, backgroundColor: NEUTRAL,
+        borderWidth: 2, pointRadius: 4, tension: 0, borderDash: [6, 4] },
+      { label: `${v.adj} share of seats`, data: pb.map(d => d["seats_" + v.key]), borderColor: GOLD, backgroundColor: GOLD,
+        borderWidth: 2, pointRadius: 4, tension: 0, borderDash: [2, 3] },
+    ];
+  }
+  const partyChart = new Chart(document.getElementById("legPartyChart"), {
     type: "line",
-    data: {
-      labels: pb.map(d => String(d.year) + (d.year >= thisYear ? "*" : "")),
-      datasets: [
-        { label: "AI bills led by Democrats", data: pb.map(d => d.ai_d), borderColor: PARTY_D, backgroundColor: PARTY_D,
-          borderWidth: 2, pointRadius: 4, tension: 0 },
-        { label: "All bills led by Democrats", data: pb.map(d => d.all_d), borderColor: NEUTRAL, backgroundColor: NEUTRAL,
-          borderWidth: 2, pointRadius: 4, tension: 0, borderDash: [6, 4] },
-        { label: "Democratic share of seats", data: pb.map(d => d.seats_d), borderColor: GOLD, backgroundColor: GOLD,
-          borderWidth: 2, pointRadius: 4, tension: 0, borderDash: [2, 3] },
-      ],
-    },
+    data: { labels: pb.map(d => String(d.year) + (d.year >= thisYear ? "*" : "")), datasets: partyDatasets("D") },
     options: {
       responsive: true, maintainAspectRatio: false,
       interaction: { mode: "index", intersect: false },
       plugins: { legend: { position: "bottom", labels: { usePointStyle: true, pointStyle: "line", boxWidth: 40 } },
                  tooltip: { callbacks: { label: c => `${c.dataset.label}: ${c.parsed.y}%` } } },
       scales: { x: { grid: { display: false } },
-                y: { min: 30, max: 80, ticks: { callback: v => v + "%" }, grid: { color: "#e5e7eb" } } },
+                y: { ...yRange(partyDatasets("D").flatMap(s => s.data)),
+                     ticks: { callback: v => v + "%" }, grid: { color: "#e5e7eb" } } },
     },
   });
+  function showParty(p) {
+    const v = PARTY_VIEW[p];
+    partyChart.data.datasets = partyDatasets(p);
+    Object.assign(partyChart.options.scales.y, yRange(partyChart.data.datasets.flatMap(s => s.data)));
+    partyChart.update();
+    document.getElementById("legPartyTitle").textContent = `${v.adj} Share: AI Bills, All Bills and Seats`;
+    document.getElementById("legPartyDesc").textContent =
+      `Share of bills whose lead (first-listed) sponsor is a ${v.noun.slice(0, -1)}, for core AI bills and for all state bills, ` +
+      `compared with ${v.noun}’ share of state legislative seats.`;
+    document.querySelectorAll(".seg-btn").forEach(b => {
+      const on = b.dataset.party === p;
+      b.classList.toggle("active", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+  }
+  document.querySelectorAll(".seg-btn").forEach(b => b.addEventListener("click", () => showParty(b.dataset.party)));
 
   // Searchable legislator table
   const stateSel = document.getElementById("legState");

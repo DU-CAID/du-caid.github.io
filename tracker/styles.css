@@ -568,7 +568,7 @@ a:hover { text-decoration: underline; }
 /* ── Sponsors & legislators ──────────────────────────────── */
 :root {
   --party-d: #1F6FB8;  /* validated with --party-r for colour-vision separation */
-  --party-r: #D1603D;
+  --party-r: #D32F2F;  /* Republican red: brighter than the DU crimson so the two are not confused */
   --party-o: #6b7280;
 }
 .party-badge {
@@ -602,6 +602,16 @@ a:hover { text-decoration: underline; }
   border-radius: 4px; padding: 0.2rem 0.7rem; cursor: pointer; font-size: 0.82rem;
 }
 .leg-scope { font-size: 0.87rem; color: var(--muted); margin: 0 0 1rem; }
+
+/* Two-option toggle (Democrats | Republicans) */
+.seg-toggle { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.seg-btn {
+  border: none; background: white; color: var(--text); font: inherit; font-size: 0.85rem;
+  padding: 0.35rem 0.9rem; cursor: pointer;
+}
+.seg-btn + .seg-btn { border-left: 1px solid var(--border); }
+.seg-btn.active { background: var(--text); color: white; font-weight: 600; }
+.seg-btn:focus-visible { outline: 2px solid var(--du-crimson); outline-offset: -2px; }
 #legTbody tr { cursor: pointer; }
 #legTbody tr:hover, #legTbody tr:focus { background: var(--surface); outline: none; }
 #legTbody td.num { text-align: right; font-variant-numeric: tabular-nums; }

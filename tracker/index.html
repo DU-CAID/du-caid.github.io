@@ -6,9 +6,9 @@
   <title>U.S. State AI Policy Tracker · CAID</title>
   <meta name="description" content="Track state-level AI legislation across all 50 U.S. states. Data from OpenStates/Plural, validated against the NCSL AI legislation database." />
   <link rel="icon" href="https://du-caid.github.io/assets/img/favicon.svg" type="image/svg+xml" />
-  <!-- ?v=202611181035 is replaced with the deploy time by scripts/deploy_to_caid_site.py,
+  <!-- ?v=202611181046 is replaced with the deploy time by scripts/deploy_to_caid_site.py,
        so browsers load the new script and styles after every update -->
-  <link rel="stylesheet" href="./styles.css?v=202611181035" />
+  <link rel="stylesheet" href="./styles.css?v=202611181046" />
 
   <!-- Chart.js for bar and line charts -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
@@ -253,12 +253,18 @@
     </div>
 
     <div class="panel">
-      <h2>Democratic Share: AI Bills, All Bills and Seats</h2>
-      <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem">
+        <h2 style="margin:0" id="legPartyTitle">Democratic Share: AI Bills, All Bills and Seats</h2>
+        <div class="seg-toggle" role="group" aria-label="Party shown in the chart">
+          <button type="button" class="seg-btn active" data-party="D" aria-pressed="true">Democrats</button>
+          <button type="button" class="seg-btn" data-party="R" aria-pressed="false">Republicans</button>
+        </div>
+      </div>
+      <p style="margin:0.5rem 0 1rem;font-size:0.87rem;color:var(--muted)" id="legPartyDesc">
         Share of bills whose lead (first-listed) sponsor is a Democrat, for core AI bills and for all state bills,
         compared with Democrats’ share of state legislative seats.
       </p>
-      <div class="chart-wrap" style="height:300px"><canvas id="legPartyChart" aria-label="Democratic share of AI bills, all bills and seats by year" role="img"></canvas></div>
+      <div class="chart-wrap" style="height:300px"><canvas id="legPartyChart" aria-label="Party share of AI bills, all bills and seats by year" role="img"></canvas></div>
     </div>
 
     <div class="panel">
@@ -547,6 +553,6 @@
 <!-- Map tooltip (appended to body so it floats freely) -->
 <div class="map-tooltip" id="mapTooltip"></div>
 
-<script src="./app.js?v=202611181035" defer></script>
+<script src="./app.js?v=202611181046" defer></script>
 </body>
 </html>
