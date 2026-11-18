@@ -712,8 +712,12 @@ function route(navigateTo) {
 
 /* ── Trends charts ───────────────────────────────────────── */
 function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
-  // Filter to 2019–present, drop unknown/implausible years
-  const recentYears = byYear.filter(d => d.year >= "2019" && d.year <= "2035");
+  // Filter to 2019 through the CURRENT calendar year. Some states pre-file bills for next year's
+  // session (e.g., Virginia's 2027 bills in November 2026); those stay in the Bill Browser but are
+  // left out of the trend charts until that year starts, so a few pre-filed bills from one state
+  // never show up as "the most recent year".
+  const MAX_YEAR = String(new Date().getFullYear());
+  const recentYears = byYear.filter(d => d.year >= "2019" && d.year <= MAX_YEAR);
   const yearLabels  = recentYears.map(d => d.year);
 
   // 1. Combined year chart - Core AI bills per year
@@ -749,7 +753,7 @@ function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
   });
 
   // 2. Top states for most recent year
-  const mostRecentYear = Object.keys(topStatesByYear || {}).sort().reverse()[0];
+  const mostRecentYear = Object.keys(topStatesByYear || {}).filter(y => y <= MAX_YEAR).sort().reverse()[0];
   if (mostRecentYear && topStatesByYear[mostRecentYear]) {
     const yearLabel = document.getElementById("trendsYearLabel");
     if (yearLabel) yearLabel.textContent = `(${mostRecentYear})`;
@@ -787,7 +791,7 @@ function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
 
   // Populate year dropdown from conceptsByYear data
   if (conceptsByYear && conceptsByYear.length) {
-    const allConceptYears = Object.keys(conceptsByYear[0].by_year).filter(y => y >= "2019").sort().reverse();
+    const allConceptYears = Object.keys(conceptsByYear[0].by_year).filter(y => y >= "2019" && y <= MAX_YEAR).sort().reverse();
     allConceptYears.forEach(y => {
       const opt = document.createElement("option");
       opt.value = y; opt.textContent = y;
