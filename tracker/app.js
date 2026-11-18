@@ -54,8 +54,12 @@ function yearFromSession(session) {
   return (y >= 1990 && y <= 2035) ? m[1] : null;
 }
 
+// "no-cache" = always ask the server whether a data file changed (a quick "not modified" reply
+// if it didn't). Without it, browsers can keep showing data from before an update.
+const FETCH_OPTS = { cache: "no-cache" };
+
 async function loadJSON(path) {
-  const res = await fetch(path);
+  const res = await fetch(path, FETCH_OPTS);
   if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`);
   return res.json();
 }
@@ -87,17 +91,31 @@ function sponsorHTML(s) {
 
 /* ── Tab switching ───────────────────────────────────────── */
 function initTabs() {
-  const btns   = document.querySelectorAll(".tab-btn");
-  const panels = document.querySelectorAll(".tab-panel");
-
-  btns.forEach(btn => {
+  // Each tab has its own address (#bills, #methods, ...) so the browser's Back button
+  // returns to the previous tab instead of leaving the tracker.
+  document.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      btns.forEach(b => b.classList.remove("active"));
-      panels.forEach(p => p.classList.add("hidden"));
-      btn.classList.add("active");
-      document.getElementById("tab-" + btn.dataset.tab).classList.remove("hidden");
+      showTab(btn.dataset.tab);
+      pushHash(btn.dataset.tab);
     });
   });
+}
+
+// Show one tab (no history change)
+function showTab(name) {
+  const panel = document.getElementById("tab-" + name);
+  const btn = document.querySelector(`.tab-btn[data-tab="${name}"]`);
+  if (!panel || !btn) return false;
+  document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+  document.querySelectorAll(".tab-panel").forEach(p => p.classList.add("hidden"));
+  btn.classList.add("active");
+  panel.classList.remove("hidden");
+  return true;
+}
+
+// Add a history entry (skipped if we are already there)
+function pushHash(hash) {
+  if (location.hash !== "#" + hash) history.pushState(null, "", "#" + hash);
 }
 
 /* ── Metric cards ────────────────────────────────────────── */
@@ -316,7 +334,7 @@ function initBillBrowser(manifest) {
       const states = Object.keys(byState);
       const results = await Promise.all(
         states.map(st =>
-          fetch("./data/bills_by_state/" + st + ".json")
+          fetch("./data/bills_by_state/" + st + ".json", FETCH_OPTS)
             .then(r => r.ok ? r.json() : [])
             .catch(() => [])
         )
@@ -326,7 +344,7 @@ function initBillBrowser(manifest) {
       return;
     }
     if (cache[abbr]) { currentBills = cache[abbr]; return; }
-    const res = await fetch("./data/bills_by_state/" + abbr + ".json");
+    const res = await fetch("./data/bills_by_state/" + abbr + ".json", FETCH_OPTS);
     if (!res.ok) throw new Error(`Could not load ${byState[abbr]}`);
     cache[abbr] = await res.json();
     currentBills = cache[abbr];
@@ -619,6 +637,7 @@ function initBillBrowser(manifest) {
   document.getElementById("sponsorChipClear")?.addEventListener("click", () => {
     setSponsorFilter(null);
     renderTable(applyFilters());
+    history.replaceState(null, "", "#bills");
   });
   // Clicking a sponsor's name (in a row or the detail panel) filters to that legislator's bills
   tbody.addEventListener("click", ev => {
@@ -628,21 +647,18 @@ function initBillBrowser(manifest) {
     expandedBillId = null;
     setSponsorFilter({ id: a.dataset.sponsorId, name: a.dataset.sponsorName });
     renderTable(applyFilters());
+    pushHash(sponsorHash(a.dataset.sponsorId, a.dataset.sponsorName));
   });
 
   // Load all bills immediately so the browser is populated on first visit
   selectState("");
 
-  function showBillsTab() {
-    document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
-    document.querySelectorAll(".tab-panel").forEach(p => p.classList.add("hidden"));
-    document.querySelector('[data-tab="bills"]').classList.add("active");
-    document.getElementById("tab-bills").classList.remove("hidden");
-  }
+  const showBillsTab = () => showTab("bills");
 
   // Expose navigation function for map click-through
   async function navigateTo(abbr, tier, year) {
     showBillsTab();
+    pushHash("bills");
     setSponsorFilter(null);
     await selectState(abbr);
 
@@ -657,8 +673,10 @@ function initBillBrowser(manifest) {
   }
 
   // From the Legislators tab: show one legislator's bills (all states, so Congress and moves are covered)
-  navigateTo.toSponsor = async function (id, name) {
+  // push = false when replaying history (Back/Forward or a shared link)
+  navigateTo.toSponsor = async function (id, name, push = true) {
     showBillsTab();
+    if (push) pushHash(sponsorHash(id, name));
     setSponsorFilter({ id, name });
     yearSelect.value = "";
     if (partySelect) partySelect.value = "";
@@ -666,7 +684,30 @@ function initBillBrowser(manifest) {
     await selectState("");
     document.getElementById("tab-bills").scrollIntoView({ behavior: "smooth", block: "start" });
   };
+  // Back to the plain Bill Browser (used when history returns to #bills)
+  navigateTo.clearSponsor = function () {
+    if (!sponsorFilter) return;
+    setSponsorFilter(null);
+    renderTable(applyFilters());
+  };
   return navigateTo;
+}
+
+// Address for "bills sponsored by one legislator", e.g. #bills/sponsor/<id>/<name>
+function sponsorHash(id, name) {
+  return `bills/sponsor/${encodeURIComponent(id)}/${encodeURIComponent(name || "")}`;
+}
+
+// Show whatever the address (#...) asks for: on first load, and on Back / Forward
+function route(navigateTo) {
+  const parts = location.hash.replace(/^#/, "").split("/");
+  const tab = parts[0] || "overview";
+  if (tab === "bills" && parts[1] === "sponsor" && parts[2]) {
+    navigateTo.toSponsor(decodeURIComponent(parts[2]), decodeURIComponent(parts[3] || "") || "selected legislator", false);
+    return;
+  }
+  if (tab === "bills") navigateTo.clearSponsor();
+  if (!showTab(tab)) showTab("overview");
 }
 
 /* ── Trends charts ───────────────────────────────────────── */
@@ -943,6 +984,10 @@ async function main() {
     } else {
       document.getElementById("legislatorsTabBtn")?.remove();
     }
+
+    // Open the tab named in the address (e.g. a shared link to #methods), and follow Back/Forward
+    route(navigateTo);
+    window.addEventListener("popstate", () => route(navigateTo));
 
   } catch (err) {
     console.error("Dashboard failed to load:", err);
