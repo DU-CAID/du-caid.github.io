@@ -58,6 +58,7 @@
   <div class="container tab-nav-inner">
     <button class="tab-btn active" data-tab="overview">Overview</button>
     <button class="tab-btn"        data-tab="bills">Bill Browser</button>
+    <button class="tab-btn"        data-tab="legislators" id="legislatorsTabBtn">Legislators</button>
     <button class="tab-btn"        data-tab="trends">Trends</button>
     <button class="tab-btn"        data-tab="methods">Methods</button>
   </div>
@@ -71,22 +72,22 @@
     <div class="metrics-grid" id="metricsGrid">
       <div class="metric-card">
         <div class="label">Core AI Bills</div>
-        <div class="value" id="m-core">—</div>
+        <div class="value" id="m-core">-</div>
         <div class="metric-sub">Primary subject is AI</div>
       </div>
       <div class="metric-card">
         <div class="label">Beyond NCSL</div>
-        <div class="value" id="m-adjacent">—</div>
+        <div class="value" id="m-adjacent">-</div>
         <div class="metric-sub">Core AI bills not tracked by NCSL</div>
       </div>
       <div class="metric-card">
         <div class="label">NCSL Matched</div>
-        <div class="value" id="m-ncsl">—</div>
+        <div class="value" id="m-ncsl">-</div>
         <div class="metric-sub">Confirmed in NCSL AI database</div>
       </div>
       <div class="metric-card">
         <div class="label">States &amp; Territories</div>
-        <div class="value" id="m-states">—</div>
+        <div class="value" id="m-states">-</div>
         <div class="metric-sub">With at least one flagged bill</div>
       </div>
     </div>
@@ -106,7 +107,7 @@
       </div>
     </div>
 
-    <!-- Top states — side by side -->
+    <!-- Top states - side by side -->
     <div class="panel">
       <h2>Top 15 States</h2>
       <div class="chart-wrap" style="height:320px"><canvas id="topStatesCoreChart"></canvas></div>
@@ -150,14 +151,29 @@
             <option value="year_asc">Year (oldest first)</option>
           </select>
         </div>
+        <div class="filter-group">
+          <label for="partyFilter">Lead sponsor’s party</label>
+          <select id="partyFilter">
+            <option value="">All parties</option>
+            <option value="D">Democrat</option>
+            <option value="R">Republican</option>
+            <option value="Other">Other / independent</option>
+          </select>
+        </div>
         <label class="filter-check">
           <input type="checkbox" id="ncslFilter" />
           NCSL only
         </label>
         <div class="filter-group" style="flex:1;min-width:200px">
-          <label for="searchInput">Search title / concepts</label>
-          <input type="search" id="searchInput" placeholder="e.g. deepfake, facial recognition…" />
+          <label for="searchInput">Search title / concepts / sponsors</label>
+          <input type="search" id="searchInput" placeholder="e.g. deepfake, facial recognition, Bauer-Kahan…" />
         </div>
+      </div>
+
+      <!-- Shown when the browser is filtered to one legislator (from the Legislators tab) -->
+      <div id="sponsorChip" class="sponsor-chip" style="display:none">
+        <span>Showing bills sponsored by <strong id="sponsorChipName"></strong></span>
+        <button type="button" id="sponsorChipClear" aria-label="Clear sponsor filter">Clear ✕</button>
       </div>
 
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.5rem">
@@ -177,6 +193,7 @@
               <th>Bill</th>
               <th>Session</th>
               <th>Title &amp; Concepts</th>
+              <th>Lead sponsor</th>
               <th>Core</th>
               <th>Adjacent</th>
               <th>NCSL</th>
@@ -192,11 +209,117 @@
   </div>
 </div>
 
+<!-- ── LEGISLATORS TAB ────────────────────────────────────── -->
+<div id="tab-legislators" class="tab-panel hidden">
+  <div class="container">
+
+    <p class="leg-scope" id="legScope">Loading…</p>
+
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="label">Legislators sponsoring AI bills</div>
+        <div class="value" id="lm-sponsors">-</div>
+        <div class="metric-sub">Primary sponsor of at least one core AI bill</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Share of legislators, <span id="lm-pct-year">-</span></div>
+        <div class="value" id="lm-pct">-</div>
+        <div class="metric-sub">Serving legislators who sponsored an AI bill that year</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">AI bills led by Democrats</div>
+        <div class="value" id="lm-dem">-</div>
+        <div class="metric-sub" id="lm-dem-sub">-</div>
+      </div>
+      <div class="metric-card">
+        <div class="label">Led by the most active 10%</div>
+        <div class="value" id="lm-top10">-</div>
+        <div class="metric-sub">Share of AI bills led by the top 10% of lead sponsors</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Legislators Sponsoring AI Bills per Year</h2>
+      <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
+        Legislators listed as a primary sponsor of at least one core AI bill introduced that year.
+        The current year is partial.
+      </p>
+      <div class="chart-wrap" style="height:300px"><canvas id="legGrowthChart" aria-label="Legislators sponsoring AI bills per year" role="img"></canvas></div>
+    </div>
+
+    <div class="panel">
+      <h2>Democratic Share: AI Bills, All Bills and Seats</h2>
+      <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
+        Share of bills whose lead (first-listed) sponsor is a Democrat, for core AI bills and for all state bills,
+        compared with Democrats’ share of state legislative seats.
+      </p>
+      <div class="chart-wrap" style="height:300px"><canvas id="legPartyChart" aria-label="Democratic share of AI bills, all bills and seats by year" role="img"></canvas></div>
+    </div>
+
+    <div class="panel">
+      <h2>Find a Legislator</h2>
+      <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
+        Every legislator who has sponsored a core AI bill tracked here, including members of Congress.
+        <strong>Bills led</strong> counts bills on which the legislator is the first-listed primary sponsor; in some
+        states leadership is listed first on priority bills, so a bill’s author may be credited only as a primary sponsor.
+        Click a row to see the legislator’s bills.
+      </p>
+      <div class="filters">
+        <div class="filter-group">
+          <label for="legState">State</label>
+          <select id="legState"><option value="">All</option></select>
+        </div>
+        <div class="filter-group">
+          <label for="legParty">Party</label>
+          <select id="legParty">
+            <option value="">All parties</option>
+            <option value="D">Democrat</option>
+            <option value="R">Republican</option>
+            <option value="Other">Other / independent</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="legChamber">Chamber</label>
+          <select id="legChamber">
+            <option value="">All chambers</option>
+            <option value="lower">House / Assembly</option>
+            <option value="upper">Senate</option>
+            <option value="legislature">Unicameral</option>
+          </select>
+        </div>
+        <div class="filter-group" style="flex:1;min-width:200px">
+          <label for="legSearch">Search name</label>
+          <input type="search" id="legSearch" placeholder="e.g. Maldonado" />
+        </div>
+      </div>
+      <p class="results-count" id="legCount">Loading…</p>
+      <div class="table-wrap">
+        <table id="legTable">
+          <thead>
+            <tr>
+              <th>Legislator</th>
+              <th>State</th>
+              <th>Party</th>
+              <th>Chamber</th>
+              <th style="text-align:right">Bills led</th>
+              <th style="text-align:right">Primary sponsor</th>
+              <th style="text-align:right">Co-sponsor</th>
+              <th>Years</th>
+            </tr>
+          </thead>
+          <tbody id="legTbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <!-- ── TRENDS TAB ─────────────────────────────────────────── -->
 <div id="tab-trends" class="tab-panel hidden">
   <div class="container">
 
-    <!-- Bills introduced per year — combined -->
+    <!-- Bills introduced per year - combined -->
     <div class="panel">
       <h2>Bills Introduced per Year <span style="font-size:0.8rem;font-weight:400;color:var(--muted)">(2019–present)</span></h2>
       <p style="margin:0 0 1rem;font-size:0.87rem;color:var(--muted)">
@@ -216,7 +339,7 @@
       <div class="chart-wrap" style="height:320px"><canvas id="topStatesYearChart"></canvas></div>
     </div>
 
-    <!-- Top concepts — core AI only -->
+    <!-- Top concepts - core AI only -->
     <div class="panel">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.75rem">
         <h2 style="margin:0">Top Matched Concepts in Core AI Bills</h2>
@@ -285,7 +408,7 @@
           <div class="tier-label tag tag-core">Core AI</div>
           <p>Bills whose primary subject is artificial intelligence, machine learning, large
             language models, generative AI, algorithmic decision-making, or closely related
-            technologies. These bills are unambiguously about AI — they name it by term
+            technologies. These bills are unambiguously about AI - they name it by term
             or by direct technical equivalent (e.g., <em>neural network</em>, <em>deepfake</em>,
             <em>automated decision system</em>).</p>
         </div>
@@ -344,6 +467,28 @@
     </div>
 
     <div class="panel">
+      <h2>Step 6 - Sponsors and Party</h2>
+      <p>Each bill’s sponsors come from the same Plural Policy bulk files as the bills. Those files list every
+        sponsor and say whether each one is a <strong>primary sponsor</strong> or a <strong>co-sponsor</strong>.
+        The <strong>lead sponsor</strong> is the first-listed primary sponsor.</p>
+      <p>Party, chamber and district come from the public
+        <a href="https://github.com/openstates/people" target="_blank" rel="noopener noreferrer">OpenStates legislator roster</a>
+        (current and former state legislators and members of Congress). Each sponsor name is matched to a legislator
+        serving in that state in that year: by full name first, then by surname with the first initial,
+        district or chamber used to tell people apart. Names that remain ambiguous are left unmatched rather than
+        guessed. <span id="matchRateNote"></span></p>
+      <ul class="methods-list" style="margin-top:0.5rem">
+        <li><strong>Party</strong> is the legislator’s party when the bill was introduced. Fusion labels such as
+          “Democratic/Working Families” are shown as their major party.</li>
+        <li><strong>Lead sponsor is not always the author.</strong> In some states leadership is listed first on
+          priority bills (for example, Connecticut’s SB 2), so the bill’s author appears only as a primary sponsor.</li>
+        <li><strong>Sponsorship norms differ by state.</strong> Some legislatures list most members as primary
+          sponsors or attach long co-sponsor lists, so raw sponsor counts are not comparable across states.</li>
+        <li>The Legislators tab statistics cover core AI state bills (not resolutions) introduced since 2019.</li>
+      </ul>
+    </div>
+
+    <div class="panel">
       <h2>Limitations</h2>
       <ul class="methods-list">
         <li><strong>Coverage depends on Plural Policy.</strong> If a state legislature is not
@@ -353,7 +498,7 @@
           titles and identifiers; others publish full text. Matching against titles alone may
           miss bills that use AI-related language only in the body of the bill.</li>
         <li><strong>Core-tier bills only.</strong> Adjacent-only bills are excluded from this
-          dashboard. A hand-coded validation sample found 0% precision for adjacent-only matches —
+          dashboard. A hand-coded validation sample found 0% precision for adjacent-only matches -
           every coded bill in that tier was a false positive. Core-tier bills carry an estimated
           precision of ~79%. Bills that match both core and adjacent patterns (co-tier) are
           included and have an estimated precision of ~53%.</li>

@@ -529,6 +529,47 @@ a:hover { text-decoration: underline; }
   font-size: 0.88rem;
 }
 
+/* ── Sponsors & legislators ──────────────────────────────── */
+:root {
+  --party-d: #1F6FB8;  /* validated with --party-r for colour-vision separation */
+  --party-r: #D1603D;
+  --party-o: #6b7280;
+}
+.party-badge {
+  display: inline-block;
+  min-width: 1.4em;
+  padding: 0 0.3em;
+  border-radius: 3px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  background: var(--party-o);
+  margin-left: 0.3em;
+  vertical-align: 0.1em;
+}
+.party-badge.pD { background: var(--party-d); }
+.party-badge.pR { background: var(--party-r); }
+.lead-cell { font-size: 0.85rem; min-width: 11rem; }
+.sp { white-space: nowrap; }
+.lead-cell .more { color: var(--muted); font-size: 0.78rem; }
+.sponsor-list { list-style: none; padding: 0; margin: 0.25rem 0 0; display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; font-size: 0.85rem; }
+.sponsor-list a, .sponsor-link { color: var(--text); text-decoration: underline; text-decoration-color: var(--border); cursor: pointer; }
+.sponsor-chip {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  margin: 0 0 0.75rem; padding: 0.5rem 0.85rem;
+  border: 1px solid var(--du-crimson); border-radius: 6px; background: #fff5f6; font-size: 0.9rem;
+}
+.sponsor-chip button {
+  border: 1px solid var(--du-crimson); background: white; color: var(--du-crimson);
+  border-radius: 4px; padding: 0.2rem 0.7rem; cursor: pointer; font-size: 0.82rem;
+}
+.leg-scope { font-size: 0.87rem; color: var(--muted); margin: 0 0 1rem; }
+#legTbody tr { cursor: pointer; }
+#legTbody tr:hover, #legTbody tr:focus { background: var(--surface); outline: none; }
+#legTbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
 /* ── Responsive ──────────────────────────────────────────── */
 @media (max-width: 900px) {
   .metrics-grid { grid-template-columns: repeat(2, 1fr); }

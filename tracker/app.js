@@ -1,5 +1,5 @@
 /* =============================================================
-   U.S. State AI Policy Dashboard — app.js
+   U.S. State AI Policy Dashboard - app.js
    Vanilla JS, no build step. CDN deps: Chart.js, D3, TopoJSON.
    ============================================================= */
 
@@ -50,7 +50,7 @@ function yearFromSession(session) {
   const m = s.match(/^(\d{4})/);
   if (!m) return null;
   const y = parseInt(m[1], 10);
-  // Reject implausible years — TX uses session numbers like 8496, 86, 87...
+  // Reject implausible years - TX uses session numbers like 8496, 86, 87...
   return (y >= 1990 && y <= 2035) ? m[1] : null;
 }
 
@@ -58,6 +58,31 @@ async function loadJSON(path) {
   const res = await fetch(path);
   if (!res.ok) throw new Error(`Failed to load ${path} (${res.status})`);
   return res.json();
+}
+
+/* ── Sponsor helpers ─────────────────────────────────────── */
+// Escape text before putting it into HTML (sponsor names come from external data)
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+const PARTY_NAMES = { D: "Democrat", R: "Republican", Other: "Other / independent" };
+
+// Party shown as a letter AND a colour, so it never relies on colour alone
+function partyBadge(p) {
+  if (!p) return "";
+  const letter = p === "Other" ? "O" : p;
+  return `<span class="party-badge p${letter}" title="${esc(PARTY_NAMES[p] || p)}">${letter}</span>`;
+}
+
+// A sponsor entry is [name, party, id]; matched legislators get a link to their bills
+function sponsorHTML(s) {
+  if (!s) return "-";
+  const [name, party, id] = s;
+  const label = id
+    ? `<a href="#" class="sponsor-link" title="Show this legislator’s bills" data-sponsor-id="${esc(id)}" data-sponsor-name="${esc(name)}">${esc(name)}</a>`
+    : esc(name);
+  return `<span class="sp">${label}${partyBadge(party)}</span>`;  // keeps the badge on the name's line
 }
 
 /* ── Tab switching ───────────────────────────────────────── */
@@ -112,7 +137,7 @@ async function renderHeroMap(usTopoJson) {
     .attr("viewBox", `0 0 ${w} ${h}`)
     .attr("preserveAspectRatio", "xMidYMid slice");
 
-  // State fills — very subtle lighter crimson
+  // State fills - very subtle lighter crimson
   svg.selectAll("path.hero-state")
     .data(states.features)
     .join("path")
@@ -203,7 +228,7 @@ async function renderMap(stateData, navigateTo, usTopoJson) {
       tooltip.style.opacity = "1";
       tooltip.style.left    = (event.clientX + 14) + "px";
       tooltip.style.top     = (event.clientY - 32) + "px";
-      tooltip.textContent   = `${name} — ${fmt(count)} ${kind} bills (click to browse)`;
+      tooltip.textContent   = `${name} - ${fmt(count)} ${kind} bills (click to browse)`;
     })
     .on("mouseleave", () => { tooltip.style.opacity = "0"; })
     .on("click", (event, d) => {
@@ -230,7 +255,7 @@ function renderTopStates(stateData) {
     },
   });
 
-  // Core AI — sorted by core count
+  // Core AI - sorted by core count
   const topCore = [...stateData].sort((a, b) => b.core - a.core).slice(0, 15);
   new Chart(document.getElementById("topStatesCoreChart"), {
     type: "bar",
@@ -251,8 +276,22 @@ function initBillBrowser(manifest) {
   const sortSelect    = document.getElementById("sortSelect");
   const ncslCheck     = document.getElementById("ncslFilter");
   const searchInput   = document.getElementById("searchInput");
+  const partySelect   = document.getElementById("partyFilter");
   const tbody         = document.getElementById("billsTbody");
   const countEl       = document.getElementById("resultsCount");
+
+  // Sponsor filter: set from the Legislators tab or by clicking a sponsor's name
+  let sponsorFilter = null;  // { id, name }
+  const sponsorChip     = document.getElementById("sponsorChip");
+  const sponsorChipName = document.getElementById("sponsorChipName");
+  function setSponsorFilter(f) {
+    sponsorFilter = f;
+    if (sponsorChip) {
+      sponsorChip.style.display = f ? "flex" : "none";
+      sponsorChipName.textContent = f ? f.name : "";
+    }
+  }
+  const sponsorsOf = b => [...(b.primary || []), ...(b.co || [])];
 
   // Build state → path lookup
   const byState = {};
@@ -262,7 +301,7 @@ function initBillBrowser(manifest) {
   Object.keys(byState).sort().forEach(abbr => {
     const opt = document.createElement("option");
     opt.value = abbr;
-    opt.textContent = `${abbr} — ${STATE_NAMES[abbr] || abbr}`;
+    opt.textContent = `${abbr} - ${STATE_NAMES[abbr] || abbr}`;
     stateSelect.appendChild(opt);
   });
 
@@ -272,7 +311,7 @@ function initBillBrowser(manifest) {
 
   async function loadState(abbr) {
     if (!abbr) {
-      // "All States" — fetch all state files in parallel
+      // "All States" - fetch all state files in parallel
       if (cache["__ALL__"]) { currentBills = cache["__ALL__"]; return; }
       const states = Object.keys(byState);
       const results = await Promise.all(
@@ -314,15 +353,19 @@ function initBillBrowser(manifest) {
     const chamber = chamberSelect.value;
     const ncsl    = ncslCheck.checked;
     const sort    = sortSelect.value;
+    const party   = partySelect ? partySelect.value : "";
 
     let result = currentBills.filter(b => {
       if (year && yearFromSession(b.session) !== year) return false;
       if (chamber === "house"  && !/^H/i.test(b.identifier))                       return false;
       if (chamber === "senate" && !/^S/i.test(b.identifier))                       return false;
       if (ncsl && !b.in_ncsl) return false;
+      if (party && b.lead_party !== party) return false;
+      if (sponsorFilter && !sponsorsOf(b).some(s => s[2] === sponsorFilter.id)) return false;
       if (q) {
         const hay = [b.identifier, b.title, b.session,
-                     ...(b.matched_concepts || [])].join(" ").toLowerCase();
+                     ...(b.matched_concepts || []),
+                     ...sponsorsOf(b).map(s => s[0])].join(" ").toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
@@ -355,8 +398,10 @@ function initBillBrowser(manifest) {
       "in_ncsl", "ncsl_status",
       "latest_action_date", "latest_action_description",
       "matched_concepts", "primary_url",
+      "lead_sponsor", "lead_sponsor_party", "primary_sponsors", "cosponsor_count",
     ];
     const escape = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
+    const named = s => s[1] ? `${s[0]} (${s[1]})` : s[0];
     const rows = [cols.join(",")];
     lastFilteredBills.forEach(b => {
       rows.push([
@@ -366,6 +411,8 @@ function initBillBrowser(manifest) {
         b.latest_action_date, b.latest_action_description,
         (b.matched_concepts || []).join("; "),
         b.primary_url,
+        b.lead ? b.lead[0] : "", b.lead_party || "",
+        (b.primary || []).map(named).join("; "), b.co_n ?? "",
       ].map(escape).join(","));
     });
     const blob = new Blob([rows.join("\n")], { type: "text/csv;charset=utf-8;" });
@@ -409,8 +456,8 @@ function initBillBrowser(manifest) {
       billRow.dataset.billId = b.bill_id;
 
       const billLink = b.primary_url
-        ? `<a href="${b.primary_url}" target="_blank" rel="noopener noreferrer">${b.identifier || "—"}</a>`
-        : (b.identifier || "—");
+        ? `<a href="${b.primary_url}" target="_blank" rel="noopener noreferrer">${b.identifier || "-"}</a>`
+        : (b.identifier || "-");
 
       const ncslBadge = b.in_ncsl ? '<span class="tag tag-ncsl">NCSL</span>' : "";
       const concepts  = (b.matched_concepts || []).slice(0, 3).join(", ");
@@ -442,9 +489,13 @@ function initBillBrowser(manifest) {
           </span>
           ${ncslBadge}
           <br>
-          <strong>${b.title || (b.source_bucket === "ncsl_only" ? '<em style="color:var(--muted);font-weight:400">NCSL record — title not available</em>' : '<em style="color:var(--muted);font-weight:400">(no title)</em>')}</strong>
+          <strong>${b.title || (b.source_bucket === "ncsl_only" ? '<em style="color:var(--muted);font-weight:400">NCSL record - title not available</em>' : '<em style="color:var(--muted);font-weight:400">(no title)</em>')}</strong>
           ${concepts ? `<br><span style="color:var(--muted);font-size:0.82rem">${concepts}</span>` : ""}
         </td>
+        <td class="lead-cell">${sponsorHTML(b.lead)}${(() => {
+          const others = (b.primary || []).length - (b.lead ? 1 : 0) + (b.co_n || 0);
+          return others > 0 ? `<br><span class="more">+ ${fmt(others)} more</span>` : "";
+        })()}</td>
         <td style="text-align:center">${b.core_ai_hits || 0}</td>
         <td style="text-align:center">${b.adjacent_ai_hits || 0}</td>
         <td style="text-align:center">${b.in_ncsl ? "✓" : ""}</td>
@@ -458,7 +509,8 @@ function initBillBrowser(manifest) {
         tbody.appendChild(buildDetailRow(b));
       }
 
-      billRow.addEventListener("click", () => {
+      billRow.addEventListener("click", (ev) => {
+        if (ev.target.closest("a")) return;  // links (bill text, sponsor names) do their own thing
         if (expandedBillId === b.bill_id) {
           expandedBillId = null;
         } else {
@@ -477,23 +529,39 @@ function initBillBrowser(manifest) {
       .map(c => `<li class="concept-tag">${c}</li>`).join("") || "<li class='concept-tag' style='color:var(--muted)'>none</li>";
 
     const latestAction = (b.latest_action_date || b.latest_action_description)
-      ? `${b.latest_action_date ? b.latest_action_date + " — " : ""}${b.latest_action_description || ""}`
-      : "—";
+      ? `${b.latest_action_date ? b.latest_action_date + " - " : ""}${b.latest_action_description || ""}`
+      : "-";
+
+    const primaries = (b.primary || []).map(s => `<li>${sponsorHTML(s)}</li>`).join("");
+    const cos = (b.co || []).map(s => `<li>${sponsorHTML(s)}</li>`).join("");
+    const coMore = (b.co_n || 0) > (b.co || []).length
+      ? `<li style="color:var(--muted)">… and ${fmt(b.co_n - b.co.length)} more</li>` : "";
+    const sponsorBlock = (b.primary || b.co) ? `
+          <div class="detail-field" style="grid-column:1/-1">
+            <div class="field-label">Primary sponsors</div>
+            <ul class="sponsor-list">${primaries || "<li style='color:var(--muted)'>none listed</li>"}</ul>
+          </div>
+          ${b.co_n ? `
+          <div class="detail-field" style="grid-column:1/-1">
+            <div class="field-label">Co-sponsors (${fmt(b.co_n)})</div>
+            <ul class="sponsor-list">${cos}${coMore}</ul>
+          </div>` : ""}` : "";
 
     detailRow.innerHTML = `
-      <td colspan="8">
+      <td colspan="9">
         <div class="bill-detail">
+          ${sponsorBlock}
           <div class="detail-field">
             <div class="field-label">Bill ID</div>
-            <div class="field-value" style="font-size:0.8rem;color:var(--muted)">${b.bill_id || "—"}</div>
+            <div class="field-value" style="font-size:0.8rem;color:var(--muted)">${b.bill_id || "-"}</div>
           </div>
           <div class="detail-field">
             <div class="field-label">Source</div>
-            <div class="field-value">${b.source_bucket || "—"}</div>
+            <div class="field-value">${b.source_bucket || "-"}</div>
           </div>
           <div class="detail-field">
             <div class="field-label">Last updated</div>
-            <div class="field-value">${b.updated || "—"}</div>
+            <div class="field-value">${b.updated || "-"}</div>
           </div>
           <div class="detail-field">
             <div class="field-label">Latest action</div>
@@ -501,7 +569,7 @@ function initBillBrowser(manifest) {
           </div>
           <div class="detail-field">
             <div class="field-label">NCSL</div>
-            <div class="field-value">${b.in_ncsl ? "Yes — matched to NCSL AI legislation database" : "Not in NCSL database"}</div>
+            <div class="field-value">${b.in_ncsl ? "Yes - matched to NCSL AI legislation database" : "Not in NCSL database"}</div>
           </div>
           ${b.ncsl_status ? `
           <div class="detail-field">
@@ -547,18 +615,35 @@ function initBillBrowser(manifest) {
   sortSelect.addEventListener("change", runFilters);
   ncslCheck.addEventListener("change", runFilters);
   searchInput.addEventListener("input", runFilters);
+  partySelect?.addEventListener("change", runFilters);
+  document.getElementById("sponsorChipClear")?.addEventListener("click", () => {
+    setSponsorFilter(null);
+    renderTable(applyFilters());
+  });
+  // Clicking a sponsor's name (in a row or the detail panel) filters to that legislator's bills
+  tbody.addEventListener("click", ev => {
+    const a = ev.target.closest("a.sponsor-link");
+    if (!a) return;
+    ev.preventDefault();
+    expandedBillId = null;
+    setSponsorFilter({ id: a.dataset.sponsorId, name: a.dataset.sponsorName });
+    renderTable(applyFilters());
+  });
 
   // Load all bills immediately so the browser is populated on first visit
   selectState("");
 
-  // Expose navigation function for map click-through
-  return async function navigateTo(abbr, tier, year) {
-    // Switch to bills tab
+  function showBillsTab() {
     document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
     document.querySelectorAll(".tab-panel").forEach(p => p.classList.add("hidden"));
     document.querySelector('[data-tab="bills"]').classList.add("active");
     document.getElementById("tab-bills").classList.remove("hidden");
+  }
 
+  // Expose navigation function for map click-through
+  async function navigateTo(abbr, tier, year) {
+    showBillsTab();
+    setSponsorFilter(null);
     await selectState(abbr);
 
     // Set year after populateYears() has rebuilt the dropdown
@@ -569,7 +654,19 @@ function initBillBrowser(manifest) {
 
     // Scroll bill browser into view
     document.getElementById("tab-bills").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  // From the Legislators tab: show one legislator's bills (all states, so Congress and moves are covered)
+  navigateTo.toSponsor = async function (id, name) {
+    showBillsTab();
+    setSponsorFilter({ id, name });
+    yearSelect.value = "";
+    if (partySelect) partySelect.value = "";
+    searchInput.value = "";
+    await selectState("");
+    document.getElementById("tab-bills").scrollIntoView({ behavior: "smooth", block: "start" });
   };
+  return navigateTo;
 }
 
 /* ── Trends charts ───────────────────────────────────────── */
@@ -578,7 +675,7 @@ function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
   const recentYears = byYear.filter(d => d.year >= "2019" && d.year <= "2035");
   const yearLabels  = recentYears.map(d => d.year);
 
-  // 1. Combined year chart — Core AI bills per year
+  // 1. Combined year chart - Core AI bills per year
   new Chart(document.getElementById("yearCombinedChart"), {
     type: "line",
     data: {
@@ -644,7 +741,7 @@ function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
     });
   }
 
-  // 3. Core AI concepts — horizontal bar with year filter
+  // 3. Core AI concepts - horizontal bar with year filter
   const conceptsYearSelect = document.getElementById("conceptsYearSelect");
 
   // Populate year dropdown from conceptsByYear data
@@ -697,6 +794,121 @@ function renderTrends(byYear, concepts, topStatesByYear, conceptsByYear) {
   updateConceptsChart();
 }
 
+/* ── Legislators tab ─────────────────────────────────────── */
+function renderLegislators(summary, legislators, navigateTo) {
+  const PARTY_D = "#1F6FB8";
+  const NEUTRAL = "#8A8F98";
+
+  // Scope line and headline cards
+  document.getElementById("legScope").textContent =
+    `Statistics cover core AI state bills (not resolutions) introduced since 2019. Sponsors matched to a legislator: ` +
+    `${(100 * summary.match_rate_ai).toFixed(1)}% of AI-bill sponsorships. Legislator roster updated ${summary.roster_downloaded}.`;
+  const note = document.getElementById("matchRateNote");
+  if (note) note.textContent = `For core AI state bills since 2019, ${(100 * summary.match_rate_ai).toFixed(1)}% of sponsorships are matched to a legislator.`;
+
+  const years = summary.by_year;
+  const thisYear = new Date().getFullYear();
+  const fullYears = years.filter(d => d.year < thisYear);
+  const latest = fullYears[fullYears.length - 1] || years[years.length - 1];
+  const pooledSeats = summary.party_by_year.reduce((a, d) => a + d.seats_d, 0) / Math.max(1, summary.party_by_year.length);
+  document.getElementById("lm-sponsors").textContent = fmt(summary.ai_sponsors_total);
+  document.getElementById("lm-pct-year").textContent = latest ? latest.year : "-";
+  document.getElementById("lm-pct").textContent = latest ? `${latest.pct_of_legislators}%` : "-";
+  document.getElementById("lm-dem").textContent = `${summary.pooled_ai_lead_d}%`;
+  document.getElementById("lm-dem-sub").textContent = `Democrats held about ${pooledSeats.toFixed(0)}% of seats over the same years`;
+  document.getElementById("lm-top10").textContent = `${summary.top10pct_lead_share}%`;
+
+  // Growth: one series, so no legend; the title names it
+  new Chart(document.getElementById("legGrowthChart"), {
+    type: "bar",
+    data: {
+      labels: years.map(d => String(d.year) + (d.year >= thisYear ? "*" : "")),
+      datasets: [{ label: "Legislators sponsoring AI bills", data: years.map(d => d.ai_sponsors),
+                   backgroundColor: CRIMSON, borderRadius: 4, maxBarThickness: 56 }],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false },
+                 tooltip: { callbacks: { label: c => {
+                   const d = years[c.dataIndex];
+                   return `${fmt(d.ai_sponsors)} legislators (${d.pct_of_legislators}% of those serving) · ${fmt(d.ai_bills)} AI bills`;
+                 } } } },
+      scales: { x: { grid: { display: false } },
+                y: { beginAtZero: true, ticks: { callback: v => fmt(v) }, grid: { color: "#e5e7eb" } } },
+    },
+  });
+
+  // Democratic share: AI bills vs all bills vs seats (three series, legend + direct comparison in tooltip)
+  const pb = summary.party_by_year;
+  new Chart(document.getElementById("legPartyChart"), {
+    type: "line",
+    data: {
+      labels: pb.map(d => String(d.year) + (d.year >= thisYear ? "*" : "")),
+      datasets: [
+        { label: "AI bills led by Democrats", data: pb.map(d => d.ai_d), borderColor: PARTY_D, backgroundColor: PARTY_D,
+          borderWidth: 2, pointRadius: 4, tension: 0 },
+        { label: "All bills led by Democrats", data: pb.map(d => d.all_d), borderColor: NEUTRAL, backgroundColor: NEUTRAL,
+          borderWidth: 2, pointRadius: 4, tension: 0, borderDash: [6, 4] },
+        { label: "Democratic share of seats", data: pb.map(d => d.seats_d), borderColor: GOLD, backgroundColor: GOLD,
+          borderWidth: 2, pointRadius: 4, tension: 0, borderDash: [2, 3] },
+      ],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: { legend: { position: "bottom", labels: { usePointStyle: true, pointStyle: "line", boxWidth: 40 } },
+                 tooltip: { callbacks: { label: c => `${c.dataset.label}: ${c.parsed.y}%` } } },
+      scales: { x: { grid: { display: false } },
+                y: { min: 30, max: 80, ticks: { callback: v => v + "%" }, grid: { color: "#e5e7eb" } } },
+    },
+  });
+
+  // Searchable legislator table
+  const stateSel = document.getElementById("legState");
+  const partySel = document.getElementById("legParty");
+  const chamSel  = document.getElementById("legChamber");
+  const search   = document.getElementById("legSearch");
+  const tbody    = document.getElementById("legTbody");
+  const countEl  = document.getElementById("legCount");
+  [...new Set(legislators.map(l => l.state))].sort().forEach(s => {
+    const o = document.createElement("option");
+    o.value = s;
+    o.textContent = s === "US" ? "US - Congress" : `${s} - ${STATE_NAMES[s] || s}`;
+    stateSel.appendChild(o);
+  });
+  const CHAMBER = { lower: "House / Assembly", upper: "Senate", legislature: "Unicameral" };
+
+  function render() {
+    const q = search.value.trim().toLowerCase();
+    const rows = legislators.filter(l =>
+      (!stateSel.value || l.state === stateSel.value) &&
+      (!partySel.value || l.party === partySel.value) &&
+      (!chamSel.value || l.chamber === chamSel.value) &&
+      (!q || (l.name || "").toLowerCase().includes(q)));
+    const shown = rows.slice(0, 300);
+    countEl.textContent = rows.length > 300
+      ? `Showing the first 300 of ${fmt(rows.length)} legislators. Filter by state or search to narrow.`
+      : `${fmt(rows.length)} legislators`;
+    tbody.innerHTML = shown.map(l => `
+      <tr tabindex="0" data-id="${esc(l.id)}" data-name="${esc(l.name)}">
+        <td><strong>${esc(l.name)}</strong></td>
+        <td>${esc(l.state)}</td>
+        <td>${partyBadge(l.party)} <span style="font-size:0.8rem;color:var(--muted)">${esc(l.party_label || "")}</span></td>
+        <td>${esc(CHAMBER[l.chamber] || l.chamber || "")}</td>
+        <td class="num">${fmt(l.ai_lead)}</td>
+        <td class="num">${fmt(l.ai_primary)}</td>
+        <td class="num">${fmt(l.ai_cosponsor)}</td>
+        <td>${l.first_year ?? ""}${l.last_year && l.last_year !== l.first_year ? "–" + l.last_year : ""}</td>
+      </tr>`).join("");
+  }
+  const go = tr => tr && navigateTo.toSponsor(tr.dataset.id, tr.dataset.name);
+  tbody.addEventListener("click", ev => go(ev.target.closest("tr")));
+  tbody.addEventListener("keydown", ev => { if (ev.key === "Enter") go(ev.target.closest("tr")); });
+  [stateSel, partySel, chamSel].forEach(el => el.addEventListener("change", render));
+  search.addEventListener("input", debounce(render, 180));
+  render();
+}
+
 /* ── Main entry point ────────────────────────────────────── */
 async function main() {
   initTabs();
@@ -720,6 +932,17 @@ async function main() {
     const navigateTo = initBillBrowser(manifest);
     renderMap(stateData, navigateTo, usTopoJson);
     renderTrends(byYear, concepts, topStatesByYear, conceptsByYear);
+
+    // Legislators tab (optional data: hidden if the sponsor files were not built)
+    const [legSummary, legislators] = await Promise.all([
+      loadJSON("./data/legislators_summary.json").catch(() => null),
+      loadJSON("./data/legislators.json").catch(() => null),
+    ]);
+    if (legSummary && legislators) {
+      renderLegislators(legSummary, legislators, navigateTo);
+    } else {
+      document.getElementById("legislatorsTabBtn")?.remove();
+    }
 
   } catch (err) {
     console.error("Dashboard failed to load:", err);
