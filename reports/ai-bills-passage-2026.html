@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Do AI Bills Become Law?</title>
+  <meta name="description" content="We compared about 1,000 state bills about artificial intelligence with more than 800,000 other bills introduced in the same legislatures. AI bills become law less often than the average bill, but no less often than other technology bills on privacy, data, and social media.">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script defer src="/assets/js/main.js"></script>
+  <style>
+    .post-header { margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid var(--border); }
+    .post-meta { font-size: .85rem; color: var(--muted); margin-bottom: .5rem; }
+    .post-tag {
+      display: inline-block; font-size: .72rem; font-weight: 600;
+      padding: .15rem .5rem; border-radius: 999px;
+      background: #fce8ec; color: var(--du-crimson); margin-right: .4rem;
+    }
+    .post-title { margin: .25rem 0 .5rem; font-size: 1.9rem; line-height: 1.2; }
+    .post-body p { line-height: 1.75; margin-bottom: 1.1rem; }
+    .post-body h2 { margin-top: 2.25rem; margin-bottom: .6rem; font-size: 1.25rem; border-bottom: 2px solid var(--du-crimson); padding-bottom: .3rem; display: inline-block; }
+    .post-body h3 { margin-top: 1.5rem; margin-bottom: .4rem; font-size: 1.05rem; color: var(--du-crimson); }
+    .post-body a { color: var(--du-crimson); }
+    .post-body ul, .post-body ol { padding-left: 1.4rem; margin-bottom: 1.1rem; }
+    .post-body li { line-height: 1.7; margin-bottom: .3rem; }
+    .post-cta {
+      margin-top: 2rem; padding: 1.25rem 1.5rem; background: var(--surface);
+      border: 1px solid var(--border); border-left: 4px solid var(--du-crimson); border-radius: .5rem;
+    }
+    .post-cta p { margin: 0 0 .75rem; font-weight: 600; }
+    .back-link { font-size: .88rem; color: var(--muted); text-decoration: none; display: inline-block; margin-bottom: 1.5rem; }
+    .back-link:hover { color: var(--du-crimson); }
+
+    .stat-row { display: flex; gap: 1rem; margin: 1.5rem 0; flex-wrap: wrap; }
+    .stat-box {
+      flex: 1; min-width: 130px; background: var(--surface); border: 1px solid var(--border);
+      border-top: 3px solid var(--du-crimson); border-radius: .5rem; padding: .85rem 1rem; text-align: center;
+    }
+    .stat-box .stat-num { display: block; font-size: 2rem; font-weight: 700; color: var(--du-crimson); line-height: 1.1; }
+    .stat-box .stat-label { display: block; font-size: .78rem; color: var(--muted); margin-top: .25rem; line-height: 1.4; }
+
+    .table-wrap { overflow-x: auto; margin: 1rem 0 1.5rem; }
+    .bill-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    .bill-table th {
+      text-align: left; padding: .4rem .6rem; background: var(--surface);
+      border-bottom: 2px solid var(--border); font-weight: 600;
+    }
+    .bill-table td { padding: .4rem .6rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    .bill-table td.num, .bill-table th.num { text-align: right; white-space: nowrap; }
+    .bill-table tr:last-child td { border-bottom: none; }
+    .bill-table tr.highlight td { background: #fdf3f5; font-weight: 600; }
+    .table-caption { font-size: .8rem; color: var(--muted); margin-top: -.9rem; margin-bottom: 1.5rem; line-height: 1.5; }
+
+    .pull-quote {
+      margin: 1.75rem 0; padding: 1rem 1.5rem; border-left: 4px solid var(--du-gold);
+      background: #fdfaf3; border-radius: 0 .4rem .4rem 0; font-size: 1.05rem;
+      font-style: italic; color: #444; line-height: 1.65;
+    }
+
+    .confidence-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0; }
+    .confidence-card { background: var(--surface); border: 1px solid var(--border); border-radius: .5rem; padding: 1rem 1.1rem; }
+    .confidence-card h4 { margin: 0 0 .5rem; font-size: .95rem; }
+    .confidence-card.solid { border-top: 3px solid #065f46; }
+    .confidence-card.solid h4 { color: #065f46; }
+    .confidence-card.careful { border-top: 3px solid var(--du-gold); }
+    .confidence-card.careful h4 { color: #7a6a3a; }
+    .confidence-card ul { margin: 0; padding-left: 1.1rem; }
+    .confidence-card li { font-size: .86rem; line-height: 1.55; margin-bottom: .35rem; }
+
+    details.methods {
+      margin: 1rem 0 1.25rem; border: 1px solid var(--border); border-radius: .5rem;
+      background: var(--surface); padding: .75rem 1.1rem;
+    }
+    details.methods summary { cursor: pointer; font-weight: 600; color: var(--du-crimson); }
+    details.methods[open] summary { margin-bottom: .75rem; }
+    details.methods p, details.methods li { font-size: .9rem; }
+
+    .data-note { font-size: .8rem; color: var(--muted); border-top: 1px solid var(--border); margin-top: 2.5rem; padding-top: .75rem; }
+
+    @media (max-width: 650px) {
+      .stat-row { flex-direction: column; }
+      .confidence-grid { grid-template-columns: 1fr; }
+      .bill-table { font-size: .78rem; }
+      .post-title { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container head-inner">
+    <a class="brand" href="/">
+      <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+      <span class="brand-text"></span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/reports/">Reports</a></li>
+        <li><a href="/media.html">Media</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container prose">
+
+    <a class="back-link" href="/reports/">&larr; All Reports</a>
+
+    <div class="post-header">
+      <div class="post-meta">
+        <span class="post-tag">Legislative Process</span>
+        <span class="post-tag">AI Policy</span>
+        &nbsp; November 2026 &nbsp;|&nbsp; Stefani Langehennig
+      </div>
+      <h1 class="post-title">Do AI Bills Become Law? How AI Legislation Compares With Everything Else States Consider</h1>
+      <p style="color:var(--muted); font-size:.92rem; margin-top:.5rem;">
+        We compared about 1,000 state bills about artificial intelligence with more than 800,000 other bills introduced in the same legislatures. AI bills become law less often than the average bill, but no less often than other technology bills on privacy, data, and social media.
+      </p>
+    </div>
+
+    <div class="post-body">
+
+      <p>State legislatures have introduced a wave of artificial intelligence bills since 2023, and the <a href="https://du-caid.github.io/tracker/" target="_blank" rel="noopener">CAID State AI Legislation Tracker</a> follows them closely. A count of AI bills on its own doesn't say much, though. Is a few hundred bills a lot for a state legislature? Is it normal for most of them to fail? To answer questions like these, AI bills need to be compared with everything else legislators are working on.</p>
+
+      <p>That's what this report does. Using the full record of state legislation behind our tracker, we compared bills about AI with all other bills introduced in the same states during the same legislative sessions. We asked two questions: how much of the legislative agenda AI takes up, and whether AI bills move through the lawmaking process differently from other bills.</p>
+
+      <h2>Key Findings</h2>
+
+      <div class="stat-row">
+        <div class="stat-box">
+          <span class="stat-num">~1 in 250</span>
+          <span class="stat-label">State bills introduced in 2024-25 that were about AI</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">14%</span>
+          <span class="stat-label">Bills about AI that became law, 2017-2025</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">18%</span>
+          <span class="stat-label">Expected rate, based on other bills in the same sessions</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">2nd</span>
+          <span class="stat-label">Chamber where AI bills most often stall</span>
+        </div>
+      </div>
+
+      <ul>
+        <li><strong>AI is a small but fast-growing part of state lawmaking.</strong> About 1 in 250 bills introduced in 2024 and 2025 was about AI, up from roughly 1 in 4,000 before 2023.</li>
+        <li><strong>Bills about AI become law somewhat less often than the average bill.</strong> About 14 in 100 were enacted. Based on how other bills fared in the same legislatures, we would expect about 18.</li>
+        <li><strong>The gap opens late in the process.</strong> AI bills get out of committee and pass their first chamber at normal rates. They are more likely to stall in the second chamber.</li>
+        <li><strong>This isn't unique to AI.</strong> Other technology bills, on privacy, data security, and social media, show the same pattern. AI bills do about as well as those bills.</li>
+      </ul>
+
+      <h2>How Much of the Agenda Is AI?</h2>
+
+      <p>State legislatures introduce a great many bills: in our data, between about 65,000 and 130,000 a year across the 50 states. Against that backdrop, AI remains a niche topic, even after its recent growth.</p>
+
+      <div class="table-wrap">
+        <table class="bill-table">
+          <thead>
+            <tr><th>Year introduced</th><th class="num">All bills</th><th class="num">Bills about AI</th><th class="num">Share</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2019</td><td class="num">116,147</td><td class="num">25</td><td class="num">0.02%</td></tr>
+            <tr><td>2020</td><td class="num">71,594</td><td class="num">22</td><td class="num">0.03%</td></tr>
+            <tr><td>2021</td><td class="num">117,046</td><td class="num">28</td><td class="num">0.02%</td></tr>
+            <tr><td>2022</td><td class="num">76,092</td><td class="num">24</td><td class="num">0.03%</td></tr>
+            <tr><td>2023</td><td class="num">121,575</td><td class="num">95</td><td class="num">0.08%</td></tr>
+            <tr><td>2024</td><td class="num">79,876</td><td class="num">350</td><td class="num">0.44%</td></tr>
+            <tr><td>2025</td><td class="num">129,524</td><td class="num">501</td><td class="num">0.39%</td></tr>
+            <tr><td>2026 (through mid-October)</td><td class="num">70,962</td><td class="num">517</td><td class="num">0.73%</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-caption">Regular bills only (not resolutions), 50 states. Odd-numbered years have more bills because many legislatures hold longer sessions then. "About AI" means a core AI term appears in the bill's title or official summary; see <a href="#methods">How We Did This</a>.</p>
+
+      <p>The jump in 2023 and 2024 is clear: bills about AI went from a rounding error to roughly 1 in 250 bills. In 2026 so far, the share has almost doubled again. Still, AI accounts for well under 1% of what legislatures consider. In 2023-2025, California gave the largest share of its agenda to bills about AI (about 1 in 100 bills), followed by Colorado, Alaska, Ohio, Vermont, and Maryland (about 1 in 150).</p>
+
+      <h2>Do AI Bills Become Law?</h2>
+
+      <p>Most bills in any legislature never become law, so a low passage rate on its own doesn't mean much. What matters is how AI bills compare with other bills in the same legislature at the same time. Some legislatures pass most of what they consider, and others pass very little. Arkansas enacted roughly two-thirds of the bills introduced in our data, while Minnesota enacted fewer than 2 in 100. We therefore compared each AI bill only with other bills from its own state and session.</p>
+
+      <p>We followed bills through each major step of the lawmaking process:</p>
+
+      <div class="table-wrap">
+        <table class="bill-table">
+          <thead>
+            <tr><th>Step</th><th class="num">Bills about AI</th><th class="num">Expected, based on other bills in the same sessions</th><th class="num">Difference</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Approved by a committee</td><td class="num">43%</td><td class="num">42%</td><td class="num">about the same</td></tr>
+            <tr><td>Passed the first chamber</td><td class="num">29%</td><td class="num">31%</td><td class="num">about the same</td></tr>
+            <tr class="highlight"><td>Passed the second chamber (of bills that passed the first)</td><td class="num">60%</td><td class="num">67%</td><td class="num">8 points lower</td></tr>
+            <tr class="highlight"><td>Became law</td><td class="num">14%</td><td class="num">18%</td><td class="num">4 points lower</td></tr>
+            <tr><td>Vetoed by the governor (of bills sent to the governor)</td><td class="num">11%</td><td class="num">7%</td><td class="num">4 points higher*</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-caption">Bills introduced 2017-2025. "Became law" means signed by the governor or enacted without a signature. *Based on only 20 vetoes, 7 of them in California; treat as suggestive.</p>
+
+      <p>Bills about AI keep pace through the early steps. Committees approve them and first chambers pass them at about the usual rate. The difference shows up when a bill moves to the second chamber, where AI bills are noticeably more likely to stall. In the end, about 14 of every 100 bills about AI became law, compared with about 18 we would expect from other bills in the same legislatures. Put another way, AI bills became law at about four-fifths the usual rate.</p>
+
+      <p>Governors also appear to veto AI bills somewhat more often, though there are too few vetoes to be confident. The vetoed bills include some of the most closely watched AI proposals in the country, such as California's <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1047" target="_blank" rel="noopener">SB 1047</a> (2024), which would have set safety requirements for developers of the largest AI models, and Virginia's <a href="https://lis.virginia.gov/bill-details/20251/HB2094" target="_blank" rel="noopener">HB 2094</a> (2025), which would have regulated high-risk AI systems.</p>
+
+      <h2>Is AI Different, or Is This Just Tech Policy?</h2>
+
+      <p>Comparing AI bills with every other bill sets a low bar. Many bills are routine: technical corrections, local matters, renewals of existing programs. These pass easily because nobody objects to them. A fairer test compares AI bills with bills that also try to regulate new technology.</p>
+
+      <p>So we built a second comparison group of about 3,800 non-AI bills whose titles deal with privacy, personal or consumer data, social media, cybersecurity, data brokers, biometrics, or online safety. Here is what we found:</p>
+
+      <div class="table-wrap">
+        <table class="bill-table">
+          <thead>
+            <tr><th>Comparison</th><th class="num">Becoming law</th><th class="num">Passing the second chamber</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Other tech bills vs. all remaining bills</td><td class="num">3 points lower</td><td class="num">6 points lower</td></tr>
+            <tr class="highlight"><td>AI bills vs. other tech bills</td><td class="num">no clear difference</td><td class="num">no clear difference</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-caption">Same-session comparisons, bills introduced 2017-2025.</p>
+
+      <p>Technology bills in general follow the same pattern as AI bills: they hold steady early in the process and fall behind in the second chamber. Compared with technology bills, AI bills don't stand out.</p>
+
+      <p class="pull-quote">The evidence doesn't show that AI bills are uniquely hard to pass. It shows that AI legislation is following the familiar path of technology regulation, which tends to get through one chamber and then stall in the other.</p>
+
+      <p>Our data can't tell us <em>why</em> technology bills stall in the second chamber. Plausible explanations include organized industry opposition, the difficulty of writing rules for fast-changing technology, and differences in priorities between chambers, especially where different parties control them. These are questions for future work.</p>
+
+      <h2>Why the Definition of "AI Bill" Matters</h2>
+
+      <p>Counting AI bills is harder than it sounds. Our tracker flags any bill that mentions AI-related terms, because researchers and journalists want to see every bill that touches the topic. Many of those bills aren't <em>about</em> AI, though. A state budget might fund an AI pilot program, or a long education bill might mention AI in one clause.</p>
+
+      <p>That distinction changes the answer. Bills that merely <em>mention</em> AI actually pass somewhat <em>more</em> often than average, largely because about 17% of them are budget or spending bills, which legislatures must pass. Counting them as "AI legislation" would make AI policy look more successful than it is. For this report we used the narrower definition: bills with a core AI term in their title or official summary.</p>
+
+      <h2>What This Analysis Can and Can't Tell Us</h2>
+
+      <div class="confidence-grid">
+        <div class="confidence-card solid">
+          <h4>We're confident that&hellip;</h4>
+          <ul>
+            <li>AI is a small but fast-growing share of state legislation.</li>
+            <li>Bills about AI become law somewhat less often than the average bill in the same legislature. This held in every alternative way we ran the analysis.</li>
+            <li>Other technology bills show the same pattern, and AI bills are not clearly different from them.</li>
+            <li>Bills that are <em>about</em> AI behave differently from bills that only <em>mention</em> it.</li>
+          </ul>
+        </div>
+        <div class="confidence-card careful">
+          <h4>Treat with caution&hellip;</h4>
+          <ul>
+            <li><strong>Exact sizes.</strong> The 4-point gap is an estimate; a reasonable range is roughly 0.5 to 7.5 points.</li>
+            <li><strong>Vetoes.</strong> There are only 20 vetoes, and the result depends heavily on California.</li>
+            <li><strong>Causes.</strong> The data shows where AI bills stall, not why.</li>
+            <li><strong>2025 bills.</strong> Some are still pending in legislatures with two-year sessions. Leaving those sessions out makes the gap slightly larger, not smaller.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2 id="methods">How We Did This</h2>
+
+      <p><strong>The data.</strong> We used the complete legislative record that powers the CAID tracker: every bill, with its full history of legislative actions, from <a href="https://pluralpolicy.com/" target="_blank" rel="noopener">Plural Policy</a> (built on the open-source <a href="https://openstates.org/" target="_blank" rel="noopener">Open States</a> project). The analysis covers about 804,000 regular bills introduced between 2017 and 2025 in all 50 states. We left out resolutions and memorials, because they do not become law, along with Washington, D.C., Puerto Rico, and Congress.</p>
+
+      <p><strong>Identifying bills about AI.</strong> A bill counts as "about AI" if its title or official summary contains a core AI term, such as "artificial intelligence," "machine learning," "generative AI," "deepfake," "synthetic media," or "automated decision system," from the same keyword list our tracker uses. That gives about 1,000 bills in 2017-2025. This is narrower than the dashboard's count, which includes any bill mentioning AI anywhere in its text. Each AI bill is compared with bills that have no AI terms at all.</p>
+
+      <p><strong>Following bills through the process.</strong> State legislatures publish a history of each bill's steps, such as referral to a committee, a committee vote, a floor vote, or the governor's signature. Open States tags these steps using a common set of labels, which lets us track bills the same way across states. Because the tagging is done state by state, it is more complete in some states than others. We checked every state and session and set aside those where key steps were missing (see the technical details below).</p>
+
+      <p><strong>Comparing like with like.</strong> Legislatures differ enormously in how many bills they pass. A raw comparison would mostly show which states AI bills happen to be introduced in, so we compared each AI bill with other bills from its own state and session.</p>
+
+      <details class="methods">
+        <summary>Technical details for researchers</summary>
+        <ul>
+          <li><strong>Estimation.</strong> The differences in the tables come from linear probability models with session fixed effects and standard errors clustered by state (50 clusters). The "expected" rate is the average, across AI bills, of the non-AI rate in each bill's own session. The enactment gap is −4.0 percentage points (95% CI −7.6 to −0.4). The second-chamber gap is −7.6 points (−14.5 to −0.7).</li>
+          <li><strong>Outcome coding.</strong> Enacted = an Open States <code>became-law</code> or <code>executive-signature</code> action. Passed a chamber = a <code>passage</code> action by a legislative chamber. Passed both = passage in two chambers or enacted (one chamber for Nebraska). Committee approval = <code>committee-passage</code>. We used the most recent bulk snapshot of each state-session.</li>
+          <li><strong>Data-quality screens.</strong> We dropped 65 state-sessions (9% of bills) where fewer than 90% of bills had labeled actions or no enactments were recorded. These were mainly Massachusetts, Hawaii 2021-22, Connecticut 2017, and Montana 2025. Committee measures also exclude states that don't record committee votes in a usable way (New York, Ohio, Arizona, North Dakota, Vermont).</li>
+          <li><strong>Validation.</strong> For AI bills that the <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database" target="_blank" rel="noopener">National Conference of State Legislatures</a> lists with a final status, our coding of whether a bill became law agreed with NCSL's for 96% of bills (755 of 790). Most disagreements were the same bill number reused in a different session.</li>
+          <li><strong>Accuracy of the AI definition.</strong> In a random sample of 40 bills classified as about AI, roughly 35 clearly were. The errors were mostly bills with vague titles and one budget bill. Budget bills pass easily, so these errors, if anything, make AI bills look more successful than they are.</li>
+          <li><strong>Robustness.</strong> The enactment gap ranged from −3.1 to −6.0 points across these checks: 2023-2025 bills only; finished sessions only; excluding appropriations and ceremonial bills from the comparison group; counting identical companion bills once; dropping New York, New Jersey, and Minnesota, which file many duplicate companion bills; and dropping each state in turn.</li>
+          <li><strong>Tech-policy comparison group.</strong> These are non-AI bills whose titles mention privacy, personal or consumer data, social media, cybersecurity, data brokers, biometrics, online platforms, or online or internet safety (3,835 bills). It's a keyword definition, not a hand-coded one. A spot check found it mostly on target, with some public-records bills about personal information mixed in. AI vs. tech bills: −1.1 points enacted (−4.5 to 2.3). Tech bills vs. all other bills: −2.7 enacted (−4.4 to −1.1) and −5.6 at the second chamber (−8.5 to −2.8).</li>
+          <li><strong>Known limits.</strong> Companion bills are counted separately. Bills addressing AI harms without using AI vocabulary (for example, "forged digital likeness") are missed. Results describe patterns, not causes.</li>
+        </ul>
+      </details>
+
+      <p>Researchers who would like the analysis code or full results tables can <a href="/contact.html">contact the CAID team</a>.</p>
+
+      <div class="post-cta">
+        <p>Explore every AI bill we track, filtering by state, year, or keyword, in the CAID tracker:</p>
+        <a class="btn btn-primary" href="https://du-caid.github.io/tracker/" target="_blank" rel="noopener">Open Dashboard &rarr;</a>
+        &nbsp;
+        <a class="btn" href="/reports/" style="margin-left:.5rem;">All Reports &rarr;</a>
+      </div>
+
+      <p class="data-note">
+        <strong>Data note:</strong> Legislative data from Plural Policy (Open States) bulk session files, most recent snapshot of each state-session, retrieved through October 13, 2026. AI classification uses the CAID tracker's core keyword patterns applied to bill titles and official summaries. Bills introduced in 2026 are included in the agenda-share figures only, because most 2026 sessions had not finished when the data was collected. Figures may differ from the tracker dashboard, which counts any bill mentioning AI anywhere in its text.
+      </p>
+
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>&copy; <span id="year"></span> Center for Analytics and Innovation with Data &middot; University of Denver</small>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
