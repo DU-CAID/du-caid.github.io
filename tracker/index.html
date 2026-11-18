@@ -6,9 +6,9 @@
   <title>U.S. State AI Policy Tracker · CAID</title>
   <meta name="description" content="Track state-level AI legislation across all 50 U.S. states. Data from OpenStates/Plural, validated against the NCSL AI legislation database." />
   <link rel="icon" href="https://du-caid.github.io/assets/img/favicon.svg" type="image/svg+xml" />
-  <!-- ?v=202611181027 is replaced with the deploy time by scripts/deploy_to_caid_site.py,
+  <!-- ?v=202611181035 is replaced with the deploy time by scripts/deploy_to_caid_site.py,
        so browsers load the new script and styles after every update -->
-  <link rel="stylesheet" href="./styles.css?v=202611181027" />
+  <link rel="stylesheet" href="./styles.css?v=202611181035" />
 
   <!-- Chart.js for bar and line charts -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
@@ -33,11 +33,14 @@
              style="vertical-align:middle" />
       </a>
     </div>
-    <nav>
-      <ul class="nav-links">
+    <!-- Same menu as the main CAID pages: on narrow screens the links collapse behind "Menu" -->
+    <nav class="nav">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
         <li><a href="https://du-caid.github.io/about.html">About</a></li>
         <li><a href="https://du-caid.github.io/projects.html">Projects</a></li>
         <li><a href="https://du-caid.github.io/reports/">Reports</a></li>
+        <li><a href="https://du-caid.github.io/media.html">Media</a></li>
         <li><a href="https://du-caid.github.io/people.html">People</a></li>
         <li><a href="https://du-caid.github.io/contact.html">Contact</a></li>
       </ul>
@@ -544,6 +547,6 @@
 <!-- Map tooltip (appended to body so it floats freely) -->
 <div class="map-tooltip" id="mapTooltip"></div>
 
-<script src="./app.js?v=202611181027" defer></script>
+<script src="./app.js?v=202611181035" defer></script>
 </body>
 </html>

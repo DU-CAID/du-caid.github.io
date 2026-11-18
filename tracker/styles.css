@@ -73,6 +73,37 @@ body {
 
 .nav-links a:hover { background: var(--surface); }
 
+/* Mobile menu (matches the main CAID site): links collapse behind a "Menu" button */
+.head-inner { position: relative; }
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  font: inherit;
+  color: var(--text);
+  cursor: pointer;
+}
+@media (max-width: 760px) {
+  .nav-toggle { display: inline-block; }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 0.25rem;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    min-width: 200px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+  .nav-links.open { display: flex; }
+}
+
 /* ── Hero ────────────────────────────────────────────────── */
 .hero {
   position: relative;
@@ -130,7 +161,12 @@ body {
 .tab-nav-inner {
   display: flex;
   gap: 0;
+  /* On narrow screens the tabs scroll sideways inside the bar instead of widening the page */
+  overflow-x: auto;
+  scrollbar-width: none;
 }
+.tab-nav-inner::-webkit-scrollbar { display: none; }
+.tab-btn { white-space: nowrap; flex-shrink: 0; }
 
 .tab-btn {
   padding: 0.8rem 1.25rem;

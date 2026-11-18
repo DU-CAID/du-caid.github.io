@@ -954,8 +954,24 @@ function renderLegislators(summary, legislators, navigateTo) {
   render();
 }
 
+/* ── Mobile site menu ────────────────────────────────────── */
+function initSiteMenu() {
+  const btn = document.querySelector(".nav-toggle");
+  const links = document.getElementById("nav-links");
+  if (!btn || !links) return;
+  const setOpen = open => {
+    links.classList.toggle("open", open);
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  };
+  btn.addEventListener("click", () => setOpen(!links.classList.contains("open")));
+  // Close when clicking elsewhere or pressing Escape
+  document.addEventListener("click", ev => { if (!ev.target.closest(".nav")) setOpen(false); });
+  document.addEventListener("keydown", ev => { if (ev.key === "Escape") setOpen(false); });
+}
+
 /* ── Main entry point ────────────────────────────────────── */
 async function main() {
+  initSiteMenu();
   initTabs();
 
   try {
