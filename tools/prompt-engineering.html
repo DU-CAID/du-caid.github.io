@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prompt Engineering for Analysts | DU CAID</title>
+<meta name="description" content="Prompt patterns and techniques for getting reliable, verifiable, structured results from AI in analytic workflows.">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script defer src="/assets/js/main.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f7f6f2;
+    --surface: #ffffff;
+    --border: #e2e0d8;
+    --border-strong: #c8c5b8;
+    --text: #1a1915;
+    --muted: #6b6860;
+    --code-bg: #1c1b18;
+    --code-text: #e8e6df;
+    --tag-bg: #edf2fc;
+    --tag-text: #1a4080;
+    --radius: 6px;
+  }
+
+  .guide-body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* ── Layout ── */
+  .guide-page { max-width: 820px; margin: 0 auto; padding: 48px 32px 80px; }
+
+  /* ── Header ── */
+  .site-header-guide { margin-bottom: 48px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  .course-label { font-size: 11px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+  .guide-page h1 { font-size: 28px; font-weight: 600; line-height: 1.2; }
+  .header-sub { margin-top: 10px; font-size: 14px; color: var(--muted); max-width: 560px; }
+
+  /* ── Sections ── */
+  .section { margin-bottom: 48px; }
+  .section-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+  .guide-page h2 { font-size: 18px; font-weight: 600; }
+  .guide-page h3 { font-size: 15px; font-weight: 600; margin: 22px 0 8px; color: var(--text); }
+  .section-tag { font-size: 11px; font-weight: 500; padding: 2px 9px; border-radius: 999px; background: var(--tag-bg); color: var(--tag-text); }
+
+  /* ── Body text ── */
+  .section > p, .subsection > p { font-size: 14px; color: var(--muted); margin-bottom: 10px; line-height: 1.65; }
+  .section p strong { color: var(--text); }
+  .use-when { font-size: 13px !important; font-style: italic; }
+
+  /* ── Lists ── */
+  .step-list { font-size: 14px; color: var(--muted); margin: 0 0 14px 22px; line-height: 1.65; }
+  .step-list li { padding: 3px 0; }
+  .step-list li strong { color: var(--text); }
+
+  /* ── Code blocks ── */
+  .code-block { position: relative; background: var(--code-bg); border-radius: var(--radius); margin: 8px 0 16px; overflow: hidden; }
+  .code-label { font-size: 10px; font-weight: 500; letter-spacing: .07em; text-transform: uppercase; padding: 6px 14px 0; color: #888; font-family: 'IBM Plex Mono', monospace; }
+  .guide-page pre { font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--code-text); padding: 10px 14px 14px; overflow-x: auto; line-height: 1.6; }
+  .copy-btn { position: absolute; top: 8px; right: 10px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); color: #aaa; font-size: 11px; font-family: 'IBM Plex Sans', sans-serif; font-weight: 500; padding: 3px 9px; border-radius: 4px; cursor: pointer; transition: background .15s; }
+  .copy-btn:hover { background: rgba(255,255,255,.16); color: #eee; }
+  .copy-btn.copied { color: #7ec99a; border-color: #3a6e4a; }
+
+  /* inline code */
+  .guide-page code { font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; background: #eceae3; padding: 1px 5px; border-radius: 3px; color: #2a2825; }
+
+  /* ── Note / callout ── */
+  .note { background: #fffbf0; border: 1px solid #e8d98a; border-radius: var(--radius); padding: 12px 16px; font-size: 13px; color: #6b5800; margin: 10px 0 14px; }
+  .note strong { font-weight: 600; }
+  .tip { background: var(--tag-bg); border: 1px solid #b8cef0; border-radius: var(--radius); padding: 12px 16px; font-size: 13px; color: var(--tag-text); margin: 10px 0 14px; }
+  .tip strong { font-weight: 600; }
+
+  /* ── Reference table ── */
+  .ref-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  .ref-table th { text-align: left; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); padding: 6px 12px; border-bottom: 1px solid var(--border); }
+  .ref-table td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  .ref-table tr:last-child td { border-bottom: none; }
+  .ref-table td:nth-child(2) { font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; white-space: nowrap; }
+  .ref-table td:last-child { color: var(--muted); }
+
+  /* ── Tips list ── */
+  .tips-list { list-style: none; padding: 0; margin: 0; }
+  .tips-list li { font-size: 14px; color: var(--muted); padding: 10px 0; border-bottom: 1px solid var(--border); line-height: 1.6; }
+  .tips-list li:last-child { border-bottom: none; }
+  .tips-list li strong { color: var(--text); }
+
+  /* ── Guide footer ── */
+  .guide-footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); }
+
+  @media (max-width: 600px) {
+    .guide-page { padding: 28px 18px 60px; }
+  }
+</style>
+</head>
+<body class="guide-body">
+
+<header class="site-header">
+  <div class="container head-inner">
+    <a class="brand" href="/">
+      <img src="/assets/img/CAID_logo_square_compressed.png" alt="CAID logo" width="40" height="40" style="vertical-align:middle; border-radius:6px;">
+      <span class="brand-text"></span>
+    </a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/reports/">Reports</a></li>
+        <li><a href="/media.html">Media</a></li>
+        <li><a href="/people.html">People</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="guide-page">
+
+  <!-- Header -->
+  <header class="site-header-guide">
+    <div class="course-label">Teaching &amp; Training | Prompt Engineering for Analysts</div>
+    <h1>Prompt Engineering for Analysts</h1>
+    <p class="header-sub">Prompt patterns and techniques for getting reliable, verifiable, structured results from AI tools in analytic workflows.</p>
+  </header>
+
+  <!-- What this guide covers -->
+  <div class="section">
+    <div class="section-header">
+      <h2>What this guide covers</h2>
+    </div>
+    <p>Prompt engineering for analysts is different from general prompt writing. You're not trying to get creative output or conversation. Rather, you're trying to get reliable, verifiable, structured results that feed into an analytic workflow. This guide covers the techniques that matter for that context.</p>
+    <p>If you'll be calling models from Python, start with the <a href="/tools/dev-setup.html">Developer Setup Guide</a> and see <a href="/tools/python-analysts.html">Python for Analysts</a> for working with the Anthropic API.</p>
+  </div>
+
+  <!-- Framework -->
+  <div class="section">
+    <div class="section-header">
+      <h2>The analyst's prompting framework</h2>
+    </div>
+    <p>Every good analytic prompt answers four questions:</p>
+    <ol class="step-list">
+      <li><strong>What is the task?</strong> Be specific about the operation (classify, summarize, extract, generate code, critique).</li>
+      <li><strong>What is the input?</strong> Describe the data format, provide examples, paste representative samples.</li>
+      <li><strong>What should the output look like?</strong> Specify format, structure, and what to include.</li>
+      <li><strong>How will you verify?</strong> Tell the model what evidence or reasoning to show so you can check its work.</li>
+    </ol>
+  </div>
+
+  <!-- Six patterns -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Six prompt patterns for analytic work</h2>
+    </div>
+
+    <h3>1. Classification prompt</h3>
+    <p class="use-when">Use when: labeling text, categorizing data, sorting items into groups.</p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>Classify this customer feedback into one or more categories:
+billing, product_quality, support, technical, pricing, onboarding.
+
+Return JSON with:
+- primary_category: the best-fit category
+- secondary_categories: other relevant categories (may be empty)
+- confidence: high, medium, or low
+- evidence: quote the key phrase that supports your classification
+
+Feedback: "[paste text here]"</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p><strong>Why it works:</strong> Specifies the categories, requires structured output, and asks for evidence so you can verify the label.</p>
+
+    <h3>2. Data exploration prompt</h3>
+    <p class="use-when">Use when: getting a first look at unfamiliar data.</p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>Here are the first 15 rows of a CSV dataset:
+
+[paste df.head(15).to_string()]
+
+Column types: [paste df.dtypes.to_string()]
+
+Describe this dataset:
+1. What does each row represent?
+2. What are the key variables and their likely meanings?
+3. What data quality issues do you notice?
+4. What questions could this data answer?
+
+Flag anything you're uncertain about.</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p><strong>Why it works:</strong> Provides enough data for the model to reason about, asks specific questions, and explicitly invites uncertainty rather than confident guessing.</p>
+
+    <h3>3. Code generation prompt</h3>
+    <p class="use-when">Use when: writing pandas, sklearn, or analysis code.</p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>Write a Python function that:
+- Loads a CSV with columns: [list columns]
+- Groups by [column] and computes [metric]
+- Returns a DataFrame with the results
+
+Requirements:
+- Use pandas
+- Include comments explaining each step
+- Add an assertion after each major operation to verify row counts
+- Handle missing values explicitly (don't silently drop)
+
+Show the expected output shape and one example row.</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p><strong>Why it works:</strong> Specifies the library, requires comments and assertions, and prevents silent data loss.</p>
+
+    <h3>4. Structured summarization prompt</h3>
+    <p class="use-when">Use when: condensing documents, reports, or text.</p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>Summarize this [document type] for [audience].
+
+Structure your summary as:
+1. Key finding (1 sentence)
+2. Supporting evidence (2-3 bullet points with specific numbers)
+3. Limitations or caveats (what the document doesn't address)
+4. One question the reader should ask next
+
+Source: [paste text]</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p><strong>Why it works:</strong> Forces structure, requires specific evidence, and includes limitations (prevents the "vibe summary" problem).</p>
+
+    <h3>5. Helpful/adversarial pair</h3>
+    <p class="use-when">Use when: designing an analysis approach.</p>
+    <p><strong>Prompt 1 (helpful analyst):</strong></p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>I have [describe data]. I want to answer: [question].
+Propose an analysis plan: what method, what variables,
+what steps, and what the output would look like.</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p><strong>Prompt 2 (adversarial reviewer, in a separate conversation):</strong></p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>Critique this analysis plan. What assumptions could fail?
+What variables are missing? What alternative explanations
+exist? What validation is needed before trusting the results?
+
+Plan: [paste the helpful analyst's response]</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p><strong>Why it works:</strong> Separating the conversations prevents the model from self-censoring. The adversarial prompt surfaces concerns the helpful prompt systematically ignores.</p>
+
+    <h3>6. Evaluation prompt (LLM-as-judge)</h3>
+    <p class="use-when">Use when: scoring AI output quality systematically.</p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>You are evaluating an AI-generated [output type] for [task].
+
+Score on these dimensions (0-4):
+- [dimension 1]: [description] (0=unacceptable, 2=adequate, 4=excellent)
+- [dimension 2]: [description]
+- [dimension 3]: [description]
+
+Return JSON:
+{
+  "scores": {"dim1": N, "dim2": N, "dim3": N},
+  "total": N,
+  "justification": "brief explanation for each score",
+  "failure_modes": ["list any issues found"]
+}
+
+Output to evaluate:
+[paste output]</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p><strong>Why it works:</strong> Mirrors your human rubric, produces structured output you can aggregate, and identifies specific failure modes.</p>
+  </div>
+
+  <!-- Anthropic techniques -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Core techniques from Anthropic</h2>
+      <span class="section-tag">claude</span>
+    </div>
+    <p><em>Adapted from Anthropic's Building with the Claude API course.</em></p>
+    <p>Beyond the six patterns above, four techniques from Anthropic's own guidance measurably improve output quality for analytic tasks.</p>
+
+    <h3>XML tags for structure</h3>
+    <p>When a prompt mixes instructions, data, and examples, mark the boundaries with XML tags:</p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>&lt;instructions&gt;
+Identify data quality issues in this sample. List each issue with the affected column.
+&lt;/instructions&gt;
+
+&lt;data&gt;
+[paste df.head(15).to_string()]
+&lt;/data&gt;</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p>The tags aren't special syntax; they're unambiguous delimiters. Without them, models sometimes treat pasted data as instructions (or vice versa). Use tags any time you paste CSV rows, report text, or another prompt into your prompt.</p>
+
+    <h3>Multishot examples</h3>
+    <p>One or more worked examples outperform longer instructions. Instead of describing the output format in prose, show it:</p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>Classify feedback into categories. Examples:
+
+Input: "Charged twice for the same month"
+Output: {"category": "billing", "confidence": "high"}
+
+Input: "Setup took three weeks and support never responded"
+Output: {"category": "onboarding", "confidence": "medium"}
+
+Now classify: "{text}"</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p>2-3 examples that span your edge cases (a clear case, an ambiguous case) calibrate the model better than a paragraph of rules. It's the same way you would calibrate human coders on a labeling task.</p>
+
+    <h3>Chain-of-thought prompting</h3>
+    <p>For reasoning-heavy tasks, ask the model to work through the problem before answering:</p>
+    <div class="code-block">
+      <div class="code-label">prompt</div>
+      <pre>Before giving your final classification, briefly reason through:
+1. What is the customer's core complaint?
+2. Which categories could plausibly apply?
+3. Which fits best and why?
+
+Then output the JSON.</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p>This costs more tokens but reduces errors on ambiguous inputs. Use it for edge cases and evaluation tasks; skip it for high-volume simple classification where cost matters.</p>
+
+    <h3>Prefilling the response</h3>
+    <p>You can start the assistant's response for it, forcing the output format:</p>
+    <div class="code-block">
+      <div class="code-label">python</div>
+      <pre>messages=[
+    {"role": "user", "content": "Classify: 'Charged twice for March.'"},
+    {"role": "assistant", "content": "{"}   # response must continue this JSON
+]</pre>
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    </div>
+    <p>The model continues from the <code>{</code>, so no preamble is possible. It's a blunt but effective way to guarantee JSON when "ONLY valid JSON" instructions aren't enough.</p>
+    <div class="note"><strong>Check your model:</strong> Some newer models don't support prefilling. If the API rejects a prefilled assistant turn, use the API's structured outputs feature instead to guarantee valid JSON.</div>
+  </div>
+
+  <!-- Iteration workflow -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Prompt iteration workflow</h2>
+    </div>
+    <p>Good prompts are rarely written in one shot. Use this workflow:</p>
+    <ol class="step-list">
+      <li><strong>Draft:</strong> write the prompt based on the patterns above.</li>
+      <li><strong>Test on 3 examples:</strong> run the prompt on inputs where you know the right answer.</li>
+      <li><strong>Compare:</strong> does the output match your expectations? Where does it fail?</li>
+      <li><strong>Diagnose:</strong> is the failure in the task description, input format, output spec, or model capability?</li>
+      <li><strong>Revise:</strong> fix the prompt and test again.</li>
+      <li><strong>Scale:</strong> once the prompt works on your test cases, run it on the full dataset.</li>
+    </ol>
+    <div class="tip"><strong>Tip:</strong> Keep a short log of each iteration (what you changed and what improved). It makes your process reproducible and easy to explain to stakeholders.</div>
+  </div>
+
+  <!-- Common mistakes -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Common mistakes</h2>
+    </div>
+    <ul class="tips-list">
+      <li><strong>Too vague.</strong> "Analyze this data" can produce a vibe report. Be specific about the question, method, and output format.</li>
+      <li><strong>Too long.</strong> Prompts over ~500 words often confuse the model. If you need a lot of context, put the instructions first and the data last.</li>
+      <li><strong>No output format.</strong> "Tell me about this" results in unstructured prose you can't parse. Always specify format (JSON, table, numbered list with specific fields).</li>
+      <li><strong>No verification hook.</strong> If you don't ask for evidence, reasoning, or confidence, you can't tell whether the output is right without checking everything manually.</li>
+      <li><strong>Pasting too much data.</strong> Context windows are large but not infinite. For datasets over ~500 rows, summarize or sample rather than pasting the whole thing.</li>
+      <li><strong>Same conversation for propose and critique.</strong> The model will soften its critique if it just proposed the plan. Use separate conversations for helpful and adversarial roles.</li>
+    </ul>
+  </div>
+
+  <!-- Temperature -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Temperature guidance</h2>
+    </div>
+    <table class="ref-table">
+      <thead>
+        <tr><th>Task</th><th>Temperature</th><th>Why</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Classification</td><td>0</td><td>You want consistent, deterministic labels</td></tr>
+        <tr><td>Code generation</td><td>0</td><td>You want correct, reproducible code</td></tr>
+        <tr><td>Fact extraction</td><td>0</td><td>You want accuracy, not creativity</td></tr>
+        <tr><td>Brainstorming</td><td>0.7&ndash;1.0</td><td>You want variety and novel ideas</td></tr>
+        <tr><td>Creative writing</td><td>1.0</td><td>You want diverse, interesting output</td></tr>
+        <tr><td>Summarization</td><td>0&ndash;0.3</td><td>You want accuracy with slight variation</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Prompts to avoid -->
+  <div class="section">
+    <div class="section-header">
+      <h2>Prompts to avoid</h2>
+    </div>
+    <ul class="tips-list">
+      <li><strong>"Are you sure?"</strong> The model will almost always say yes, regardless of whether it should.</li>
+      <li><strong>"Be creative"</strong> For analytic tasks, you want reliability, not novelty.</li>
+      <li><strong>"Ignore your previous instructions"</strong> This is a jailbreak pattern, not a prompt technique.</li>
+      <li><strong>"You are an expert in X"</strong> Role-playing can help, but structured roles (like the helpful/adversarial pair above) are more useful.</li>
+    </ul>
+  </div>
+
+  <footer class="guide-footer">
+    <p>CAID | Teaching &amp; Training | Prompt Engineering for Analysts</p>
+    <p style="margin-top:4px;">Anthropic prompt engineering docs: <a href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview" target="_blank">docs.anthropic.com</a> | Related: <a href="/tools/python-analysts.html">Python for Analysts</a> | <a href="/tools/git-github.html">Git and GitHub 101</a></p>
+  </footer>
+
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-centered">
+    <img src="/assets/img/du-logo.png" alt="University of Denver logo" class="footer-du">
+    <small>© <span id="year"></span> Center for Analytics and Innovation with Data | University of Denver</small>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  function copyCode(btn) {
+    const pre = btn.closest('.code-block').querySelector('pre');
+    navigator.clipboard.writeText(pre.textContent.trim()).then(() => {
+      btn.textContent = 'Copied!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1800);
+    });
+  }
+</script>
+</body>
+</html>
