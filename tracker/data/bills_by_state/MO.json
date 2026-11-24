@@ -49,10 +49,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -279,9 +279,9 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
+      "ai_system",
       "adjacent_tech",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -369,11 +369,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai_variant",
+      "ai_system",
+      "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -476,8 +476,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -517,6 +517,188 @@
         "John Simmons",
         "R",
         "3de9f0e2-7062-4363-91d0-c3f17084ced4"
+      ]
+    ]
+  },
+  {
+    "bill_id": "ocd-bill/61a81b14-5cee-4be6-94d9-9212c3fca446",
+    "state": "MO",
+    "session": "2025",
+    "identifier": "HB 2",
+    "title": "Appropriates money for the expenses, grants, refunds, and distributions of the State Board of Education and Department of Elementary and Secondary Education",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0002H.06T.pdf",
+    "latest_action_date": "2025-06-30T05:00:00+00:00",
+    "latest_action_description": "Vetoed in Part by Governor (G)",
+    "ncsl_status": "Enacted",
+    "lead": [
+      "Dirk Deaton",
+      "R",
+      "914b9a95-6dd2-4d1d-8dc4-eed597b02e53"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Dirk Deaton",
+        "R",
+        "914b9a95-6dd2-4d1d-8dc4-eed597b02e53"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/d2b4a517-67fb-488b-95ea-4305b569a392",
+    "state": "MO",
+    "session": "2026",
+    "identifier": "HB 2002",
+    "title": "Appropriates money for the expenses, grants, refunds, and distributions of the State Board of Education and Department of Elementary and Secondary Education",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2002H.06T.pdf",
+    "latest_action_date": "2026-06-30T05:00:00+00:00",
+    "latest_action_description": "Vetoed in Part by Governor (G)",
+    "ncsl_status": "",
+    "lead": [
+      "Dirk Deaton",
+      "R",
+      "914b9a95-6dd2-4d1d-8dc4-eed597b02e53"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Dirk Deaton",
+        "R",
+        "914b9a95-6dd2-4d1d-8dc4-eed597b02e53"
+      ]
+    ],
+    "co_n": 1,
+    "co": [
+      [
+        "Bill Owen",
+        "R",
+        "d9dd5492-e605-4fc6-a18a-8772a7682a08"
+      ]
+    ]
+  },
+  {
+    "bill_id": "ocd-bill/b37e8973-6cf0-4ad3-adcd-acc52c62bf8d",
+    "state": "MO",
+    "session": "2026",
+    "identifier": "HB 2005",
+    "title": "Appropriates money for the expenses, grants, refunds, and distributions of the Office of Administration, the Department of Transportation, the Department of Conservation, the Department of Public Safety, and the Chief Executive's Office",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2005H.06T.pdf",
+    "latest_action_date": "2026-06-30T05:00:00+00:00",
+    "latest_action_description": "Vetoed in Part by Governor (G)",
+    "ncsl_status": "Failed - Adjourned",
+    "lead": [
+      "Dirk Deaton",
+      "R",
+      "914b9a95-6dd2-4d1d-8dc4-eed597b02e53"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Dirk Deaton",
+        "R",
+        "914b9a95-6dd2-4d1d-8dc4-eed597b02e53"
+      ]
+    ],
+    "co_n": 1,
+    "co": [
+      [
+        "Bill Owen",
+        "R",
+        "d9dd5492-e605-4fc6-a18a-8772a7682a08"
+      ]
+    ]
+  },
+  {
+    "bill_id": "ocd-bill/8587c5bd-0c83-4b66-9735-7f15ede4cb2b",
+    "state": "MO",
+    "session": "2026",
+    "identifier": "HB 2011",
+    "title": "Appropriates money for the expenses, grants, refunds, and distributions of the Department of Social Services",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/2011H.07T.pdf",
+    "latest_action_date": "2026-06-30T05:00:00+00:00",
+    "latest_action_description": "Vetoed in Part by Governor (G)",
+    "ncsl_status": "",
+    "lead": [
+      "Dirk Deaton",
+      "R",
+      "914b9a95-6dd2-4d1d-8dc4-eed597b02e53"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Dirk Deaton",
+        "R",
+        "914b9a95-6dd2-4d1d-8dc4-eed597b02e53"
+      ]
+    ],
+    "co_n": 1,
+    "co": [
+      [
+        "Bill Owen",
+        "R",
+        "d9dd5492-e605-4fc6-a18a-8772a7682a08"
       ]
     ]
   },
@@ -580,8 +762,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -813,8 +995,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -958,10 +1140,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "ai_system_composite",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1001,13 +1183,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1080,6 +1262,61 @@
     ],
     "co_n": 0,
     "co": []
+  },
+  {
+    "bill_id": "ocd-bill/03f54c6c-70fc-4aa1-a9aa-d5afe708a190",
+    "state": "MO",
+    "session": "2026",
+    "identifier": "HB 3068",
+    "title": "Modifies and establishes provisions relating to public safety",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "adjacent_tech",
+      "machine_learning",
+      "artificial_intelligence",
+      "synthetic_media"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6771H.03P.pdf",
+    "latest_action_date": "2026-05-07T05:00:00+00:00",
+    "latest_action_description": "Executive Session Held (S)",
+    "ncsl_status": "",
+    "lead": [
+      "Jeff Myers",
+      "R",
+      "acd99a81-de49-4ab0-9bb5-bb4fa72c02c5"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Jeff Myers",
+        "R",
+        "acd99a81-de49-4ab0-9bb5-bb4fa72c02c5"
+      ]
+    ],
+    "co_n": 2,
+    "co": [
+      [
+        "Mike Steinmeyer",
+        "R",
+        "df4d176b-2a0b-41be-977f-efa722d6a321"
+      ],
+      [
+        "Bill Irwin",
+        "R",
+        "21a85544-7b2f-4d34-9654-a1ebfaa34881"
+      ]
+    ]
   },
   {
     "bill_id": "ocd-bill/56fbba86-28b3-40bb-a344-87b004e9659c",
@@ -1187,9 +1424,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
       "ml_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1324,8 +1561,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1403,9 +1640,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
+      "ai_system",
       "adjacent_tech",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1487,18 +1724,18 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "synthetic_media",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1532,16 +1769,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1607,48 +1844,6 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/c2570eb3-f466-4b0d-a55d-507b62984878",
-    "state": "MO",
-    "session": "2026",
-    "identifier": "SB 1444",
-    "title": "Creates provisions relating to artificial intelligence in mental health",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": null,
-    "latest_action_date": "2026-04-07T05:00:00+00:00",
-    "latest_action_description": "SCS Voted Do Pass S General Laws Committee (5255S.04C)",
-    "ncsl_status": "",
-    "lead": [
-      "Patty Lewis",
-      "D",
-      "618e91b0-663d-4095-9a38-eefab6304e5f"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Patty Lewis",
-        "D",
-        "618e91b0-663d-4095-9a38-eefab6304e5f"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/b877f650-9b59-404d-b85b-daa81543fe69",
     "state": "MO",
     "session": "2024",
@@ -1691,6 +1886,48 @@
     "co": []
   },
   {
+    "bill_id": "ocd-bill/c2570eb3-f466-4b0d-a55d-507b62984878",
+    "state": "MO",
+    "session": "2026",
+    "identifier": "SB 1444",
+    "title": "Creates provisions relating to artificial intelligence in mental health",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-04-07T05:00:00+00:00",
+    "latest_action_description": "SCS Voted Do Pass S General Laws Committee (5255S.04C)",
+    "ncsl_status": "",
+    "lead": [
+      "Patty Lewis",
+      "D",
+      "618e91b0-663d-4095-9a38-eefab6304e5f"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Patty Lewis",
+        "D",
+        "618e91b0-663d-4095-9a38-eefab6304e5f"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/6d6e2503-d80b-4593-b092-fb89b83504ce",
     "state": "MO",
     "session": "2026",
@@ -1706,8 +1943,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1741,17 +1978,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1907,16 +2144,17 @@
     "title": "Creates new provisions relating to the use of artificial intelligence in elections",
     "updated": "",
     "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -1925,14 +2163,14 @@
     "latest_action_description": "Second Read and Referred S Local Government, Elections and Pensions Committee",
     "ncsl_status": "Failed - Adjourned",
     "lead": [
-      "Nicola",
+      "Joe Nicola",
       "",
       ""
     ],
     "lead_party": "",
     "primary": [
       [
-        "Nicola",
+        "Joe Nicola",
         "",
         ""
       ]
@@ -1982,6 +2220,46 @@
     "co": []
   },
   {
+    "bill_id": "ocd-bill/6686e9c6-0c08-4597-a862-091887fb99d0",
+    "state": "MO",
+    "session": "2025",
+    "identifier": "SB 85",
+    "title": "Modifies provisions relating to the assessment of property",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-05-30T05:00:00+00:00",
+    "latest_action_description": "Formal Calendar S Bills for Perfection",
+    "ncsl_status": "Failed - Adjourned",
+    "lead": [
+      "Joe Nicola",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Joe Nicola",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/2c49ae37-7d04-40b9-aaf6-e0f6c03f30e2",
     "state": "MO",
     "session": "2026",
@@ -1991,9 +2269,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "adjacent_ai",

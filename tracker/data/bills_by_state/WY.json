@@ -1,10 +1,53 @@
 [
   {
-    "bill_id": "ocd-bill/75d99a1e-f9ae-480b-a2ea-2f816c02e568",
+    "bill_id": "ocd-bill/d746ed48-6fc5-4e56-a456-bda14f44639d",
     "state": "WY",
-    "session": "2024",
-    "identifier": "HB 1",
-    "title": "General government appropriations.",
+    "session": "2027",
+    "identifier": "27LSO-0034",
+    "title": "Regulation of AI automated decision-making systems.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "automated_decision_system",
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/InterimCommittee/2026/S19-2026092827LSO-0034v0.4.pdf",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "",
+    "lead": [
+      "Select Committee on Blockchain, Financial Technology and Digital Innovation Technology",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Select Committee on Blockchain, Financial Technology and Digital Innovation Technology",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/008387f7-98c8-449f-89ef-97c0dd4b18e3",
+    "state": "WY",
+    "session": "2027",
+    "identifier": "27LSO-0140",
+    "title": "Wyoming Personal Data Ownership Act.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -17,21 +60,62 @@
     "match_fields": [
       "raw_text"
     ],
-    "in_ncsl": true,
+    "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2024/Introduced/HB0001.pdf",
-    "latest_action_date": "2024-03-22T19:07:49+00:00",
-    "latest_action_description": "Assigned Chapter Number 118",
-    "ncsl_status": "Failed - Adjourned",
+    "primary_url": "https://wyoleg.gov/InterimCommittee/2026/S19-2026111927LSO-0140v0.9.pdf",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "",
     "lead": [
-      "Appropriations",
+      "Select Committee on Blockchain, Financial Technology and Digital Innovation Technology",
       "",
       ""
     ],
     "lead_party": "",
     "primary": [
       [
-        "Appropriations",
+        "Select Committee on Blockchain, Financial Technology and Digital Innovation Technology",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/dac19759-907c-422d-965c-f8c8ef64962e",
+    "state": "WY",
+    "session": "2027",
+    "identifier": "27LSO-0159",
+    "title": "Sexually based offenses-penalty amendments.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/InterimCommittee/2026/01-2026102627LSO-0159v0.3.pdf",
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "",
+    "lead": [
+      "Judiciary",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Judiciary",
         "",
         ""
       ]
@@ -80,6 +164,46 @@
     "co": []
   },
   {
+    "bill_id": "ocd-bill/75d99a1e-f9ae-480b-a2ea-2f816c02e568",
+    "state": "WY",
+    "session": "2024",
+    "identifier": "HB 1",
+    "title": "General government appropriations.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2024/Introduced/HB0001.pdf",
+    "latest_action_date": "2024-03-22T19:07:49+00:00",
+    "latest_action_description": "Assigned Chapter Number 118",
+    "ncsl_status": "Failed - Adjourned",
+    "lead": [
+      "Appropriations",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Appropriations",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/9dd57518-aebd-419f-8784-99fd40384460",
     "state": "WY",
     "session": "2026",
@@ -90,10 +214,10 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
-      "ai_system",
       "deepfake_media",
-      "machine_learning"
+      "ai_system",
+      "machine_learning",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -290,46 +414,6 @@
     ]
   },
   {
-    "bill_id": "ocd-bill/ea7dba43-78d0-433f-bb32-1556827b7627",
-    "state": "WY",
-    "session": "2024",
-    "identifier": "SF 1",
-    "title": "General government appropriations-2.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://wyoleg.gov/2024/Introduced/SF0001.pdf",
-    "latest_action_date": "2024-03-05T03:05:12+00:00",
-    "latest_action_description": "S See Mirror Bill HB0001",
-    "ncsl_status": "Failed - Adjourned",
-    "lead": [
-      "Appropriations",
-      "",
-      ""
-    ],
-    "lead_party": "",
-    "primary": [
-      [
-        "Appropriations",
-        "",
-        ""
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/46456777-3e81-4f35-86b2-2ae9a86cca12",
     "state": "WY",
     "session": "2025",
@@ -352,6 +436,46 @@
     "primary_url": "https://wyoleg.gov/2025/Introduced/SF0001.pdf",
     "latest_action_date": "2025-03-06T22:01:00+00:00",
     "latest_action_description": "S postponed indefinitely",
+    "ncsl_status": "Failed - Adjourned",
+    "lead": [
+      "Appropriations",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Appropriations",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/ea7dba43-78d0-433f-bb32-1556827b7627",
+    "state": "WY",
+    "session": "2024",
+    "identifier": "SF 1",
+    "title": "General government appropriations-2.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://wyoleg.gov/2024/Introduced/SF0001.pdf",
+    "latest_action_date": "2024-03-05T03:05:12+00:00",
+    "latest_action_description": "S See Mirror Bill HB0001",
     "ncsl_status": "Failed - Adjourned",
     "lead": [
       "Appropriations",

@@ -163,7 +163,7 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://flsenate.gov/Session/Bill/2026/1279/BillText/er/PDF",
     "latest_action_date": "2026-05-05",
-    "latest_action_description": "Chapter No. 2026-59; Companion bill(s) passed, see CS/HB 453 (Ch. 2026-70)",
+    "latest_action_description": "Chapter No. 2026-59",
     "ncsl_status": "",
     "lead": [
       "Education & Employment Committee",
@@ -331,11 +331,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai",
@@ -343,8 +343,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -378,14 +378,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ai_system_composite",
+      "ml_system",
       "artificial_intelligence",
-      "ml_system"
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -433,15 +433,15 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
-      "ai_system_composite",
       "machine_learning",
+      "automated_decision_system",
       "generative_ai_variant",
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -679,9 +679,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "ml_system",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -730,8 +730,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -898,8 +898,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -937,8 +937,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -1044,9 +1044,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "ml_system",
       "artificial_intelligence",
-      "machine_learning",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -1133,8 +1133,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1285,8 +1285,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1368,9 +1368,9 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
+      "generative_ai_variant",
       "ai_system_composite",
-      "automated_decision_system",
-      "generative_ai_variant"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1713,17 +1713,17 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "adjacent_tech",
+      "generative_ai_variant",
       "artificial_intelligence",
-      "synthetic_media",
-      "generative_ai_variant"
+      "synthetic_media"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -2051,8 +2051,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -2105,8 +2105,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "automated_decision_system",
-      "ai_system_composite",
       "generative_ai_variant",
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -2301,8 +2301,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -2541,8 +2541,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -2587,8 +2587,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2623,8 +2623,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "adjacent_tech",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2756,10 +2756,10 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
-      "automated_decision_system",
       "generative_ai_variant",
-      "machine_learning"
+      "machine_learning",
+      "ai_system_composite",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2905,10 +2905,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ml_system",
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2960,8 +2960,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3007,9 +3007,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "ml_system",
       "artificial_intelligence",
-      "machine_learning",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -3128,16 +3128,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "ai_system_composite",
-      "adjacent_tech",
       "machine_learning",
       "generative_ai_variant",
+      "ai_system_composite",
+      "adjacent_tech",
       "artificial_intelligence",
       "synthetic_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -3299,9 +3299,9 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
+      "generative_ai_variant",
       "artificial_intelligence",
-      "automated_decision_system",
-      "generative_ai_variant"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3352,11 +3352,11 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "machine_learning",
       "artificial_intelligence",
       "synthetic_media",
       "ai_system_composite",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3580,8 +3580,8 @@
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -3625,8 +3625,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "automated_decision_system",
-      "ai_system_composite",
       "generative_ai_variant",
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -3814,8 +3814,8 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ml_system",
+      "machine_learning",
       "ai_system_composite",
       "artificial_intelligence"
     ],
@@ -3864,10 +3864,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "adjacent_tech",
       "artificial_intelligence",
-      "synthetic_media"
+      "synthetic_media",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3875,8 +3875,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4003,17 +4003,17 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_system_composite",
+      "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system",
-      "machine_learning"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -4049,8 +4049,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "generative_ai_variant",
-      "automated_decision_system",
       "artificial_intelligence",
+      "automated_decision_system",
       "ai_system_composite"
     ],
     "matched_tiers": [

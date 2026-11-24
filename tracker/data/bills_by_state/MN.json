@@ -330,8 +330,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -559,9 +559,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "automated_decision_system",
-      "algorithmic_decision_system",
-      "machine_learning"
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -972,12 +972,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "artificial_intelligence",
+      "algorithmic_decision_system",
       "ai_system_composite",
       "ai_model_variant",
-      "machine_learning",
-      "algorithmic_decision_system"
+      "generative_ai_variant",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1525,12 +1525,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "artificial_intelligence",
+      "algorithmic_decision_system",
       "ai_system_composite",
       "ai_model_variant",
-      "machine_learning",
-      "algorithmic_decision_system"
+      "generative_ai_variant",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1578,8 +1578,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "algorithmic_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1739,9 +1739,9 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
+      "ai_system",
       "adjacent_tech",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1824,8 +1824,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
       "ai_system_composite",
+      "algorithmic_tool",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -2011,8 +2011,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2353,8 +2353,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2632,8 +2632,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "deepfake_media",
-      "adjacent_tech"
+      "adjacent_tech",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -3894,9 +3894,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "artificial_intelligence",
-      "algorithmic_decision_system",
-      "machine_learning"
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -4104,8 +4104,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -4497,8 +4497,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -4543,8 +4543,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "algorithmic_decision_system",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -4696,52 +4696,6 @@
     ]
   },
   {
-    "bill_id": "ocd-bill/5982d9ca-b93b-45e4-840b-05729be4e98f",
-    "state": "MN",
-    "session": "2023-2024",
-    "identifier": "SF 4696",
-    "title": "Prohibiting Social Media Manipulation Act",
-    "updated": "",
-    "core_ai_hits": 6,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "generative_ai_variant",
-      "machine_learning",
-      "algorithmic_decision_system",
-      "artificial_intelligence",
-      "ai_system_composite",
-      "ai_model_variant"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=SF4696&version=0&session=ls93&session_year=2024&session_number=0",
-    "latest_action_date": "2024-03-07",
-    "latest_action_description": "Introduction and first reading",
-    "ncsl_status": "",
-    "lead": [
-      "Judy Seeberger",
-      "D",
-      "4ca681ca-58ab-4d75-b7ef-8d255f858d62"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Judy Seeberger",
-        "D",
-        "4ca681ca-58ab-4d75-b7ef-8d255f858d62"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/28d1f49f-5a7b-4311-b20f-f1bb0447aca9",
     "state": "MN",
     "session": "2025-2026",
@@ -4803,6 +4757,52 @@
     ]
   },
   {
+    "bill_id": "ocd-bill/5982d9ca-b93b-45e4-840b-05729be4e98f",
+    "state": "MN",
+    "session": "2023-2024",
+    "identifier": "SF 4696",
+    "title": "Prohibiting Social Media Manipulation Act",
+    "updated": "",
+    "core_ai_hits": 6,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "algorithmic_decision_system",
+      "generative_ai_variant",
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.revisor.mn.gov/bills/text.php?number=SF4696&version=0&session=ls93&session_year=2024&session_number=0",
+    "latest_action_date": "2024-03-07",
+    "latest_action_description": "Introduction and first reading",
+    "ncsl_status": "",
+    "lead": [
+      "Judy Seeberger",
+      "D",
+      "4ca681ca-58ab-4d75-b7ef-8d255f858d62"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Judy Seeberger",
+        "D",
+        "4ca681ca-58ab-4d75-b7ef-8d255f858d62"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/f3b8808b-3c90-4e9e-a8df-aa2782307607",
     "state": "MN",
     "session": "2025-2026",
@@ -4812,9 +4812,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "algorithmic_tool",
       "artificial_intelligence",
-      "ai_system_composite",
-      "algorithmic_tool"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -5076,14 +5076,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",

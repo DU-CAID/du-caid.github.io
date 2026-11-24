@@ -9,8 +9,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -61,7 +61,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/240208.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/240208",
     "latest_action_date": "2026-01-29",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "",
@@ -111,7 +111,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/244537.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/244537",
     "latest_action_date": "2026-03-03",
     "latest_action_description": "House Committee Favorably Reported By Substitute",
     "ncsl_status": "",
@@ -166,12 +166,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -180,7 +180,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/242856.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/242856",
     "latest_action_date": "2026-02-19",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "",
@@ -296,26 +296,26 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "generative_ai_variant",
+      "deepfake_media",
+      "generative_ai",
       "digital_replica",
       "artificial_intelligence",
       "synthetic_media",
-      "generative_ai_variant",
-      "deepfake_media",
-      "adjacent_tech",
-      "generative_ai"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/243313.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/243313",
     "latest_action_date": "2026-02-24",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "",
@@ -365,7 +365,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/243792.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/243792",
     "latest_action_date": "2026-02-26",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "",
@@ -426,13 +426,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/246183.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/246183",
     "latest_action_date": "2026-03-18",
     "latest_action_description": "Senate Committee Favorably Reported  By Substitute",
     "ncsl_status": "Pending - Carryover",
@@ -487,12 +487,12 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
       "adjacent_tech",
       "ai_system_composite",
-      "digital_replica"
+      "digital_replica",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai",
@@ -500,12 +500,12 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/247399.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/247399",
     "latest_action_date": "2026-03-31",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "",
@@ -535,10 +535,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "automated_decision_system",
       "artificial_intelligence",
-      "adjacent_tech"
+      "automated_decision_system",
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -593,7 +593,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/238218.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/238218",
     "latest_action_date": "2026-03-27",
     "latest_action_description": "Senate Committee Favorably Reported  By Substitute",
     "ncsl_status": "Pending - Carryover",
@@ -720,7 +720,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232639.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232639",
     "latest_action_date": "2025-02-20",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "Pending - Carryover",
@@ -760,7 +760,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232701.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232701",
     "latest_action_date": "2025-02-20",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "Pending - Carryover",
@@ -824,7 +824,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/243959.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/243959",
     "latest_action_date": "2026-02-25",
     "latest_action_description": "House Committee Favorably Reported By Substitute",
     "ncsl_status": "Pending - Carryover",
@@ -879,8 +879,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -891,7 +891,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/234445.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/234445",
     "latest_action_date": "2025-03-03",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "Pending - Carryover",
@@ -957,7 +957,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/234930.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/234930",
     "latest_action_date": "2025-03-06",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "Pending - Carryover",
@@ -1091,16 +1091,16 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
       "deepfake_media",
+      "artificial_intelligence",
       "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -1166,8 +1166,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -1227,8 +1227,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "machine_learning"
+      "machine_learning",
+      "ml_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1239,7 +1239,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/230846.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/230846",
     "latest_action_date": "2025-01-30",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -1304,7 +1304,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/242620.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/242620",
     "latest_action_date": "2026-02-12",
     "latest_action_description": "House Hopper",
     "ncsl_status": "",
@@ -1359,8 +1359,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1370,7 +1370,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/243522.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/243522",
     "latest_action_date": "2026-02-20",
     "latest_action_description": "House Hopper",
     "ncsl_status": "",
@@ -1435,7 +1435,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/244986.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/244986",
     "latest_action_date": "2026-03-18",
     "latest_action_description": "House Committee Favorably Reported",
     "ncsl_status": "",
@@ -1482,13 +1482,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/246405.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/246405",
     "latest_action_date": "2026-03-20",
     "latest_action_description": "House Second Readers",
     "ncsl_status": "",
@@ -1553,7 +1553,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/247932.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/247932",
     "latest_action_date": "2026-03-27",
     "latest_action_description": "House Hopper",
     "ncsl_status": "",
@@ -1598,8 +1598,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1610,7 +1610,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232796.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232796",
     "latest_action_date": "2025-02-18",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -1650,7 +1650,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232797.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232797",
     "latest_action_date": "2025-02-18",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -1690,7 +1690,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232802.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232802",
     "latest_action_date": "2025-02-18",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -1730,7 +1730,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232801.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232801",
     "latest_action_date": "2025-02-18",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -1770,7 +1770,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232804.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232804",
     "latest_action_date": "2025-02-18",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -1810,7 +1810,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232806.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232806",
     "latest_action_date": "2025-02-18",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -1850,7 +1850,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232807.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232807",
     "latest_action_date": "2025-02-18",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -1890,7 +1890,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232808.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232808",
     "latest_action_date": "2025-02-18",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -1930,7 +1930,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232809.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232809",
     "latest_action_date": "2025-02-18",
     "latest_action_description": "House Hopper",
     "ncsl_status": "Adopted",
@@ -2025,8 +2025,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2065,16 +2065,16 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2142,12 +2142,12 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/237739.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/237739",
     "latest_action_date": "2025-04-04",
     "latest_action_description": "House Withdrawn, Recommitted",
     "ncsl_status": "Pending - Carryover",
@@ -2280,7 +2280,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/231551.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/231551",
     "latest_action_date": "2025-02-06",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "Pending - Carryover",
@@ -2366,8 +2366,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2378,7 +2378,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232348.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232348",
     "latest_action_date": "2025-02-13",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "Pending - Carryover",
@@ -2468,26 +2468,26 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
+      "ai_system",
+      "algorithmic_tool",
       "automated_decision_system",
       "artificial_intelligence",
-      "machine_learning",
       "ai_system_composite",
-      "adjacent_tech",
-      "ai_system",
-      "algorithmic_tool"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/232350.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/232350",
     "latest_action_date": "2025-02-13",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "Pending - Carryover",
@@ -2572,7 +2572,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/233730.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/233730",
     "latest_action_date": "2025-02-26",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "Pending - Carryover",
@@ -2627,19 +2627,19 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/234766.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/234766",
     "latest_action_date": "2025-03-04",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "Pending - Carryover",
@@ -2714,12 +2714,12 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -2728,7 +2728,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/236904.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/236904",
     "latest_action_date": "2025-03-25",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "Pending - Carryover",
@@ -2889,22 +2889,22 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system",
       "ai_system_composite",
       "artificial_intelligence",
-      "ai_accountability",
-      "ai_system"
+      "ai_accountability"
     ],
     "matched_tiers": [
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/230409.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/230409",
     "latest_action_date": "2025-01-28",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "Pending - Carryover",
@@ -3064,9 +3064,9 @@
     "matched_concepts": [
       "artificial_intelligence",
       "synthetic_media",
+      "generative_ai_variant",
       "ai_system_composite",
-      "adjacent_tech",
-      "generative_ai_variant"
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3078,7 +3078,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/247813.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/247813",
     "latest_action_date": "2026-03-31",
     "latest_action_description": "House Third Readers",
     "ncsl_status": "",
@@ -3225,13 +3225,13 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/247655.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/247655",
     "latest_action_date": "2027-01-01",
     "latest_action_description": "Effective Date",
     "ncsl_status": "",
@@ -3281,9 +3281,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3295,7 +3295,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/241342.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/241342",
     "latest_action_date": "2026-02-04",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "",
@@ -3385,14 +3385,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "machine_learning",
       "generative_ai_variant",
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -3401,7 +3401,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/242170.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/242170",
     "latest_action_date": "2026-03-06",
     "latest_action_description": "Senate Tabled",
     "ncsl_status": "",
@@ -3461,7 +3461,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/242364.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/242364",
     "latest_action_date": "2026-02-12",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "",
@@ -3686,14 +3686,14 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media",
+      "llm_variant",
       "adjacent_tech",
       "large_language_model",
       "ai_system_composite",
-      "machine_learning",
-      "llm_variant"
+      "generative_ai_variant",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3704,7 +3704,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/248169.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/248169",
     "latest_action_date": "2027-07-01",
     "latest_action_description": "Effective Date",
     "ncsl_status": "",
@@ -3780,7 +3780,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/243722.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/243722",
     "latest_action_date": "2026-02-25",
     "latest_action_description": "Senate Read and Referred",
     "ncsl_status": "",
@@ -3931,7 +3931,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/247525.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/247525",
     "latest_action_date": "2026-03-25",
     "latest_action_description": "House Third Readers",
     "ncsl_status": "",
@@ -4003,7 +4003,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/237446.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/237446",
     "latest_action_date": "2026-01-28",
     "latest_action_description": "Senate Disagreed House Amend or Sub",
     "ncsl_status": "Pending - Carryover",
@@ -4085,7 +4085,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/247302.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/247302",
     "latest_action_date": "2026-03-25",
     "latest_action_description": "Senate Read and Adopted",
     "ncsl_status": "",
@@ -4125,12 +4125,12 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/236820.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/236820",
     "latest_action_date": "2025-04-02",
     "latest_action_description": "Senate Passed/Adopted By Substitute",
     "ncsl_status": "Adopted",
@@ -4197,7 +4197,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/238194.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/238194",
     "latest_action_date": "2025-04-02",
     "latest_action_description": "Senate Passed/Adopted By Substitute",
     "ncsl_status": "Adopted",
@@ -4300,8 +4300,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -4400,7 +4400,7 @@
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/241600.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/241600",
     "latest_action_date": "2026-02-06",
     "latest_action_description": "Senate Read and Adopted",
     "ncsl_status": "",
@@ -4487,7 +4487,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://www.legis.ga.gov/Legislation/20252026/245723.pdf",
+    "primary_url": "https://www.legis.ga.gov/api/legislation/document/20252026/245723",
     "latest_action_date": "2026-03-31",
     "latest_action_description": "Senate Third Read",
     "ncsl_status": "",

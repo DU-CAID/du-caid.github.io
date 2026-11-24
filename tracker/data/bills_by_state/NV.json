@@ -9,15 +9,15 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "synthetic_media",
+      "machine_learning",
       "deepfake_media",
       "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -116,29 +116,9 @@
         "Tracy Brown-May",
         "D",
         "fc07db44-bc3c-412b-a15e-dd013220411a"
-      ],
-      [
-        "Edgar Flores",
-        "D",
-        "e5b06346-f5ee-4e1d-baed-342cc4a8ff36"
-      ],
-      [
-        "Dina Neal",
-        "D",
-        "6da4be55-c493-4b72-b436-5257259247d2"
-      ],
-      [
-        "Rochelle Nguyen",
-        "D",
-        "d84ad99c-617a-4d33-a351-8bde19868746"
-      ],
-      [
-        "Angie Taylor",
-        "D",
-        "d95b3a70-9bb4-43b8-a376-9d3151f9c44d"
       ]
     ],
-    "co_n": 12,
+    "co_n": 14,
     "co": [
       [
         "Natha Anderson",
@@ -196,9 +176,19 @@
         "e5b06346-f5ee-4e1d-baed-342cc4a8ff36"
       ],
       [
+        "Dina Neal",
+        "D",
+        "6da4be55-c493-4b72-b436-5257259247d2"
+      ],
+      [
         "Rochelle Nguyen",
         "D",
         "d84ad99c-617a-4d33-a351-8bde19868746"
+      ],
+      [
+        "Angie Taylor",
+        "D",
+        "d95b3a70-9bb4-43b8-a376-9d3151f9c44d"
       ]
     ]
   },
@@ -336,6 +326,166 @@
     "co": []
   },
   {
+    "bill_id": "ocd-bill/9b16e283-06e7-4f65-8edd-959e25181343",
+    "state": "NV",
+    "session": "83",
+    "identifier": "BDR 143",
+    "title": "Revises provisions relating to artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2024-07-26",
+    "latest_action_description": "Filed",
+    "ncsl_status": "",
+    "lead": [
+      "Nguyen",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Nguyen",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/bc8718a4-b020-41dc-872f-187e033a51fd",
+    "state": "NV",
+    "session": "84",
+    "identifier": "BDR 504",
+    "title": "Revises provisions relating to artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-08-27",
+    "latest_action_description": "Filed",
+    "ncsl_status": "",
+    "lead": [
+      "Joint Interim Standing Committee on Government Affairs (NRS 218E.320)",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Joint Interim Standing Committee on Government Affairs (NRS 218E.320)",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/d2735f30-8297-4658-94ec-1cbf82a96be2",
+    "state": "NV",
+    "session": "84",
+    "identifier": "BDR 52-376",
+    "title": "Revises provisions relating to artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-08-02",
+    "latest_action_description": "Filed",
+    "ncsl_status": "",
+    "lead": [
+      "Dina Neal",
+      "D",
+      "6da4be55-c493-4b72-b436-5257259247d2"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Dina Neal",
+        "D",
+        "6da4be55-c493-4b72-b436-5257259247d2"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/cf7c9620-3884-4251-b47a-7acb5f771ba9",
+    "state": "NV",
+    "session": "84",
+    "identifier": "BDR 52-635",
+    "title": "Revises provisions relating to artificial intelligence.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-11-06",
+    "latest_action_description": "Filed",
+    "ncsl_status": "",
+    "lead": [
+      "Selena La Rue Hatch",
+      "D",
+      "99f4f903-1c4f-49f0-835f-c0b9b1aa0317"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Selena La Rue Hatch",
+        "D",
+        "99f4f903-1c4f-49f0-835f-c0b9b1aa0317"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/29127bc8-3025-4cbe-9a94-8401cd24466e",
     "state": "NV",
     "session": "82",
@@ -462,14 +612,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "adjacent_tech",
       "generative_ai_variant",
+      "adjacent_tech",
       "artificial_intelligence",
       "synthetic_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",

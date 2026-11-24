@@ -104,8 +104,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -313,8 +313,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -623,8 +623,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1093,12 +1093,12 @@
     "adjacent_ai_hits": 4,
     "matched_concepts": [
       "machine_learning",
-      "generative_ai_variant",
-      "generative_ai",
-      "ai_system",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant",
+      "generative_ai",
+      "ai_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1321,14 +1321,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1454,9 +1454,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "generative_ai_variant",
-      "machine_learning",
       "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1849,29 +1849,24 @@
     "state": "NJ",
     "session": "222",
     "identifier": "A 3058",
-    "title": "Establishes Deepfake Technology Unit in DLPS; appropriates $2 million.",
+    "title": "Establishes Deepfake Technology Unit in DLPS. *",
     "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ml_system",
-      "deepfake_media",
-      "machine_learning"
+      "deepfake_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "title"
     ],
-    "in_ncsl": false,
+    "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3058_I1.HTM",
-    "latest_action_date": "2026-01-13T05:00:00+00:00",
-    "latest_action_description": "Introduced, Referred to Assembly Public Safety and Preparedness Committee",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3058_S1.PDF",
+    "latest_action_date": "2026-10-19T04:00:00+00:00",
+    "latest_action_description": "Reported out of Assembly Comm. with Amendments, 2nd Reading",
     "ncsl_status": "",
     "lead": [
       "Chris Tully",
@@ -2221,9 +2216,9 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3076_I1.HTM",
-    "latest_action_date": "2026-01-13T05:00:00+00:00",
-    "latest_action_description": "Introduced, Referred to Assembly Public Safety and Preparedness Committee",
+    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A3500/3076_T1.HTM",
+    "latest_action_date": "2026-10-19T04:00:00+00:00",
+    "latest_action_description": "Reported out of Assembly Committee, 2nd Reading",
     "ncsl_status": "",
     "lead": [
       "Chris Tully",
@@ -2344,12 +2339,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2407,13 +2402,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "generative_ai",
       "generative_ai_variant",
-      "artificial_intelligence",
-      "generative_ai"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -2654,8 +2649,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2873,11 +2868,11 @@
     "adjacent_ai_hits": 3,
     "matched_concepts": [
       "artificial_intelligence",
-      "adjacent_tech",
-      "ai_system_composite",
       "ai_system",
       "algorithmic_tool",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai",
@@ -2980,8 +2975,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3022,8 +3017,8 @@
     "adjacent_ai_hits": 3,
     "matched_concepts": [
       "artificial_intelligence",
-      "adjacent_tech",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -3722,8 +3717,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4728_S1.PDF",
-    "latest_action_date": "2026-05-14T04:00:00+00:00",
-    "latest_action_description": "Reported out of Asm. Comm. with Amendments, and Referred to Assembly Appropriations Committee",
+    "latest_action_date": "2026-10-22T04:00:00+00:00",
+    "latest_action_description": "Reported out of Assembly Comm. with Amendments, 2nd Reading",
     "ncsl_status": "",
     "lead": [
       "Carmen Morales",
@@ -3748,7 +3743,7 @@
         "d358cf84-b9ae-4bce-bb28-aa083fe082b4"
       ]
     ],
-    "co_n": 4,
+    "co_n": 5,
     "co": [
       [
         "Sterley Stanley",
@@ -3769,6 +3764,11 @@
         "Maureen Rowan",
         "D",
         "af1dfa82-2c03-4b0c-bf63-1eef9e8b6616"
+      ],
+      [
+        "Ravi Bhalla",
+        "D",
+        "27b085de-d164-466e-845b-fc1de27a2da9"
       ]
     ]
   },
@@ -3782,8 +3782,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -3995,7 +3995,7 @@
         "199dd5c8-3ef1-4a2c-9585-9de5def27e98"
       ]
     ],
-    "co_n": 7,
+    "co_n": 8,
     "co": [
       [
         "Mike Venezia",
@@ -4031,6 +4031,11 @@
         "Will Sampson",
         "D",
         "d624fdfb-366e-41f1-83a7-2a8421350d3c"
+      ],
+      [
+        "Anthony Angelozzi",
+        "D",
+        "21b098a3-5f30-40c7-9169-1d4b92402a99"
       ]
     ]
   },
@@ -4275,8 +4280,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -4603,9 +4608,14 @@
         "Carol Murphy",
         "D",
         "c33b5f2b-0494-414f-aa84-d2286ae46095"
+      ],
+      [
+        "Anthony Verrelli",
+        "D",
+        "c6d61a12-eeb5-4400-943d-68a81b0728f0"
       ]
     ],
-    "co_n": 13,
+    "co_n": 16,
     "co": [
       [
         "Verlina Reynolds-Jackson",
@@ -4668,9 +4678,24 @@
         "93a1a3ce-eb52-4e71-b01c-346f41b6bde4"
       ],
       [
-        "Anthony Verrelli",
+        "Lisa Swain",
         "D",
-        "c6d61a12-eeb5-4400-943d-68a81b0728f0"
+        "28b4c7d2-d1c3-4735-b321-0f348ec27299"
+      ],
+      [
+        "Chris Tully",
+        "D",
+        "934c3022-709b-4768-b2df-635d25579128"
+      ],
+      [
+        "Sterley Stanley",
+        "D",
+        "901f85af-77c2-4cff-8626-ac510fdc425f"
+      ],
+      [
+        "Roy Freiman",
+        "D",
+        "77b80e3f-bfdd-4c81-b92e-866c17abd398"
       ]
     ]
   },
@@ -4861,6 +4886,11 @@
         "Ellen Park",
         "D",
         "e5da04d8-e25f-4ab3-a453-84e692fe89c4"
+      ],
+      [
+        "Balvir Singh",
+        "D",
+        "a189187b-df3f-4f10-8e5c-744ad7071787"
       ]
     ],
     "co_n": 0,
@@ -4877,13 +4907,13 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_accountability",
-      "adjacent_tech",
       "generative_ai_variant",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title"
@@ -4910,6 +4940,11 @@
         "Ellen Park",
         "D",
         "e5da04d8-e25f-4ab3-a453-84e692fe89c4"
+      ],
+      [
+        "Balvir Singh",
+        "D",
+        "a189187b-df3f-4f10-8e5c-744ad7071787"
       ]
     ],
     "co_n": 1,
@@ -5302,6 +5337,11 @@
         "Cody Miller",
         "D",
         "fab6547d-4f37-4c02-a738-dc4fb0b707e7"
+      ],
+      [
+        "Clinton Calabrese",
+        "D",
+        "5475b510-25ec-4354-abb5-f1f03c3ea2c3"
       ]
     ],
     "co_n": 0,
@@ -5492,8 +5532,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "automated_decision_system",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -5570,6 +5610,11 @@
         "Annette Quijano",
         "D",
         "ec370db8-c51e-4022-9868-5cad9c38e97d"
+      ],
+      [
+        "Balvir Singh",
+        "D",
+        "a189187b-df3f-4f10-8e5c-744ad7071787"
       ]
     ],
     "co_n": 1,
@@ -5602,8 +5647,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-09-14T04:00:00+00:00",
-    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "latest_action_date": "2026-11-16T05:00:00+00:00",
+    "latest_action_description": "Reported and Referred to Assembly Financial Institutions and Insurance Committee",
     "ncsl_status": "",
     "lead": [
       "Chris Tully",
@@ -5626,7 +5671,7 @@
     "state": "NJ",
     "session": "222",
     "identifier": "A 5496",
-    "title": "Regulates use of artificial intelligence in certain mortgage lending tools to minimize discrimination in lending.",
+    "title": "Regulates use of artificial intelligence in certain mortgage lending decision tools to minimize discrimination in lending.",
     "updated": "",
     "core_ai_hits": 1,
     "adjacent_ai_hits": 0,
@@ -5642,8 +5687,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-09-14T04:00:00+00:00",
-    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "latest_action_date": "2026-11-16T05:00:00+00:00",
+    "latest_action_description": "Reported and Referred to Assembly Housing Committee",
     "ncsl_status": "",
     "lead": [
       "Maureen Rowan",
@@ -6001,57 +6046,6 @@
     ]
   },
   {
-    "bill_id": "ocd-bill/a591b0e6-3608-4842-b5b5-c0c1e01b0076",
-    "state": "NJ",
-    "session": "222",
-    "identifier": "A 5607",
-    "title": "Establishes content and data privacy requirements for chatbot providers.",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://pub.njleg.state.nj.us/Bills/2026/A6000/5607_I1.HTM",
-    "latest_action_date": "2026-10-05T04:00:00+00:00",
-    "latest_action_description": "Introduced, Referred to Assembly Public Safety and Preparedness Committee",
-    "ncsl_status": "",
-    "lead": [
-      "Cody Miller",
-      "D",
-      "fab6547d-4f37-4c02-a738-dc4fb0b707e7"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Cody Miller",
-        "D",
-        "fab6547d-4f37-4c02-a738-dc4fb0b707e7"
-      ],
-      [
-        "Marisa Sweeney",
-        "D",
-        "028a440f-10cb-49cc-9417-1dfd0cff83e2"
-      ],
-      [
-        "Joe Danielsen",
-        "D",
-        "03acbfd3-a81b-4461-aff4-db7ecf5e8e48"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/a958882b-1827-49d3-8da6-30b308536367",
     "state": "NJ",
     "session": "221",
@@ -6096,6 +6090,46 @@
         "Balvir Singh",
         "D",
         "a189187b-df3f-4f10-8e5c-744ad7071787"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/27fa136a-05be-48c7-a27e-ae9115e9b81d",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 5643",
+    "title": "Establishes Division of Artificial Intelligence Learning in DOE and prohibits use of artificial intelligence in curriculum of school districts for students in preschool through 10th grade.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-10-19T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": "",
+    "lead": [
+      "Robert Karabinchak",
+      "D",
+      "d6732f77-1c72-4ee6-8d52-5c9b79987976"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Robert Karabinchak",
+        "D",
+        "d6732f77-1c72-4ee6-8d52-5c9b79987976"
       ]
     ],
     "co_n": 0,
@@ -6156,6 +6190,172 @@
         "c6d61a12-eeb5-4400-943d-68a81b0728f0"
       ]
     ]
+  },
+  {
+    "bill_id": "ocd-bill/f5f90a57-80a0-4e04-9995-6c958144ff74",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 5676",
+    "title": "Imposes 10 percent tax on computer processing for certain artificial intelligence systems and dedicates revenue to \"AI Workforce Impact Transition Fund.\"",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-10-19T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": "",
+    "lead": [
+      "Anthony Verrelli",
+      "D",
+      "c6d61a12-eeb5-4400-943d-68a81b0728f0"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Anthony Verrelli",
+        "D",
+        "c6d61a12-eeb5-4400-943d-68a81b0728f0"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/94c5b887-9886-443f-a67f-2e778a301986",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 5711",
+    "title": "Prohibits defendant from asserting autonomous behavior of artificial intelligence as defense in certain civil actions and criminal prosecutions.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-10-22T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Judiciary Committee",
+    "ncsl_status": "",
+    "lead": [
+      "Andrew Macurdy",
+      "D",
+      "bd2c37cd-6c84-406e-9e38-95bd83f20f0f"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Andrew Macurdy",
+        "D",
+        "bd2c37cd-6c84-406e-9e38-95bd83f20f0f"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/f488ac0b-be95-4e2a-9ab3-37452d80256a",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 5729",
+    "title": "Requires certain State agencies to establish expedited approval and permitting procedures for artificial intelligence data centers that bring their own power.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-10-29T04:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": "",
+    "lead": [
+      "Greg Myhre",
+      "R",
+      "85863833-b5e6-40f2-aafc-5a0fc5f790d0"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Greg Myhre",
+        "R",
+        "85863833-b5e6-40f2-aafc-5a0fc5f790d0"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/ee85c201-1429-4a71-a772-b567f2643ff0",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 5800",
+    "title": "Establishes public-private partnerships to develop artificial intelligence job training.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-11-16T05:00:00+00:00",
+    "latest_action_description": "Introduced, Referred to Assembly Science, Innovation and Technology Committee",
+    "ncsl_status": "",
+    "lead": [
+      "Cody Miller",
+      "D",
+      "fab6547d-4f37-4c02-a738-dc4fb0b707e7"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Cody Miller",
+        "D",
+        "fab6547d-4f37-4c02-a738-dc4fb0b707e7"
+      ],
+      [
+        "Chris Tully",
+        "D",
+        "934c3022-709b-4768-b2df-635d25579128"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
   },
   {
     "bill_id": "ocd-bill/99d7f814-c65b-48ea-bd5f-786a36d9f35b",
@@ -6254,6 +6454,48 @@
     ]
   },
   {
+    "bill_id": "ocd-bill/e3eadd37-ff95-4a7d-9dcd-6058569ecdf2",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "A 5864",
+    "title": "\"Frontier AI Safety Act\"; requires certain artificial intelligence developers to follow certain safety standards.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "",
+    "lead": [
+      "Tully, Chris",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Tully, Chris",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/d9e9cf79-5104-4a80-9f94-e2f2809bd97b",
     "state": "NJ",
     "session": "219",
@@ -6318,8 +6560,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "ai_system_composite",
       "adjacent_tech"
     ],
@@ -6809,8 +7051,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "generative_ai_variant",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -6998,9 +7240,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
+      "machine_learning",
       "artificial_intelligence",
-      "automated_decision_system",
-      "machine_learning"
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -7147,8 +7389,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -7191,10 +7433,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -7241,12 +7483,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "artificial_intelligence",
       "high_risk_ai",
+      "ai_system_composite",
       "ai_system",
       "generative_ai_variant",
-      "high_risk_ai_variant",
-      "artificial_intelligence",
-      "ai_system_composite"
+      "high_risk_ai_variant"
     ],
     "matched_tiers": [
       "core_ai"
@@ -7297,12 +7539,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7345,8 +7587,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -7388,12 +7630,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7430,9 +7672,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -7472,10 +7714,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ml_system",
-      "artificial_intelligence",
       "deepfake_media",
-      "machine_learning"
+      "machine_learning",
+      "ml_system",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -7673,8 +7915,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "automated_decision_system"
+      "automated_decision_system",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -7817,12 +8059,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7891,8 +8133,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -7976,13 +8218,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8238,8 +8480,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -8479,16 +8721,16 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
+      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
-      "machine_learning",
-      "generative_ai_variant",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -8572,8 +8814,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -8665,12 +8907,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -9353,7 +9595,7 @@
         "4d47b297-b5f4-4d83-94e6-bb95eb91ecd7"
       ]
     ],
-    "co_n": 7,
+    "co_n": 10,
     "co": [
       [
         "Troy Singleton",
@@ -9389,6 +9631,21 @@
         "Angela McKnight",
         "D",
         "d8c826c4-95c7-465b-8448-1f05495bfc45"
+      ],
+      [
+        "Nilsa Cruz-Perez",
+        "D",
+        "b656905a-de58-4d36-b433-276788233b1f"
+      ],
+      [
+        "Linda Greenstein",
+        "D",
+        "27646653-40e2-4c79-b608-0f2edcaa0322"
+      ],
+      [
+        "Renee Burgess",
+        "D",
+        "b8495630-20f7-4f9e-bf84-2a13a6da3794"
       ]
     ]
   },
@@ -9858,13 +10115,13 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "adjacent_tech",
+      "ai_accountability",
       "artificial_intelligence",
-      "generative_ai_variant",
-      "ai_accountability"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title"
@@ -10079,20 +10336,20 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "",
-    "latest_action_description": "",
+    "latest_action_date": "2026-10-15T04:00:00+00:00",
+    "latest_action_description": "Introduced in the Senate, Referred to Senate Judiciary Committee",
     "ncsl_status": "",
     "lead": [
-      "Zwicker, Andrew",
-      "",
-      ""
+      "Andrew Zwicker",
+      "D",
+      "7782ffcd-73df-41b5-9857-fd7b10953bf3"
     ],
-    "lead_party": "",
+    "lead_party": "D",
     "primary": [
       [
-        "Zwicker, Andrew",
-        "",
-        ""
+        "Andrew Zwicker",
+        "D",
+        "7782ffcd-73df-41b5-9857-fd7b10953bf3"
       ]
     ],
     "co_n": 0,
@@ -10148,6 +10405,128 @@
         "16048732-130c-4102-b6e7-2d8faa0c3f52"
       ]
     ]
+  },
+  {
+    "bill_id": "ocd-bill/16a0defd-c482-4d0b-823e-a01abb97742c",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 4888",
+    "title": "Establishes Artificial Intelligence in Education Youth Advisory Council in DOE.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "",
+    "lead": [
+      "Greenstein, Linda R.",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Greenstein, Linda R.",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/b42cf9e7-b974-4405-ad1d-b8e911246533",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 4934",
+    "title": "Requires Chief Innovation Officer to conduct study and issue report on certain artificial intelligence model safety.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "ai_system_composite",
+      "ai_model_variant"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "",
+    "lead": [
+      "Cryan, Joseph P.",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Cryan, Joseph P.",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/df669973-4aa4-4ad6-824e-27356520415b",
+    "state": "NJ",
+    "session": "222",
+    "identifier": "S 4959",
+    "title": "Requires AG to study use of artificial intelligence for certain law enforcement purposes and issue report.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "",
+    "latest_action_description": "",
+    "ncsl_status": "",
+    "lead": [
+      "Wimberly, Benjie E.",
+      "",
+      ""
+    ],
+    "lead_party": "",
+    "primary": [
+      [
+        "Wimberly, Benjie E.",
+        "",
+        ""
+      ]
+    ],
+    "co_n": 0,
+    "co": []
   },
   {
     "bill_id": "ocd-bill/055a5e84-30f8-4305-b16e-60040db8a8be",
@@ -10292,14 +10671,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "ai_system_composite",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -10451,8 +10830,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -10630,8 +11009,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
       "generative_ai_variant",
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [

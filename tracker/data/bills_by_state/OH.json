@@ -17,14 +17,14 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1000/00_IN/pdf/",
-    "latest_action_date": "2026-09-02T04:00:00+00:00",
-    "latest_action_description": "Introduced",
+    "latest_action_date": "2026-11-10T05:00:00+00:00",
+    "latest_action_description": "Referred to committee",
     "ncsl_status": "",
     "lead": [
       "Jim Hoops",
@@ -41,6 +41,122 @@
     ],
     "co_n": 0,
     "co": []
+  },
+  {
+    "bill_id": "ocd-bill/4022f17a-4694-4483-ba43-1b4b7bd3fb36",
+    "state": "OH",
+    "session": "136",
+    "identifier": "HB 1032",
+    "title": "Regards AI use by state agencies and in labor and employment",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "ai_system_composite",
+      "adjacent_tech",
+      "machine_learning",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1032/00_IN/pdf/",
+    "latest_action_date": "2026-11-10T05:00:00+00:00",
+    "latest_action_description": "Referred to committee",
+    "ncsl_status": "",
+    "lead": [
+      "Tristan Rader",
+      "D",
+      "18864718-3e48-4236-9afb-b1a61e4c52e2"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Tristan Rader",
+        "D",
+        "18864718-3e48-4236-9afb-b1a61e4c52e2"
+      ],
+      [
+        "Christine Cockley",
+        "D",
+        "b76c6e1e-8b9d-42bf-b615-73270b132773"
+      ]
+    ],
+    "co_n": 13,
+    "co": [
+      [
+        "Munira Abdullahi",
+        "D",
+        "538fefb8-d8ae-48f5-bb07-4161e2ccac55"
+      ],
+      [
+        "Rachel Baker",
+        "D",
+        "36f320a8-be34-43c2-ac73-ee87fbce6b0c"
+      ],
+      [
+        "Sean Brennan",
+        "D",
+        "993f089c-60bf-418d-9704-fa92e4f01c71"
+      ],
+      [
+        "Karen Brownlee",
+        "D",
+        "a13af74a-5ade-4769-8a76-db942fe71002"
+      ],
+      [
+        "Ashley Bryant Bailey",
+        "D",
+        "6d39391d-7068-4ad3-866d-4ee59890ce6e"
+      ],
+      [
+        "Crystal Lett",
+        "D",
+        "aede29b6-7798-45b7-8401-5004cf1c29f9"
+      ],
+      [
+        "Lauren McNally",
+        "D",
+        "19cbe255-2cdb-47c4-b70a-693b6bf6665b"
+      ],
+      [
+        "Joe Miller",
+        "D",
+        "9b5a9ff9-b35a-49aa-aa64-5d2bab574843"
+      ],
+      [
+        "Beryl Piccolantonio",
+        "D",
+        "dc1a25bf-ebf6-4d5c-b5c3-32f9fdb8b2ed"
+      ],
+      [
+        "Anita Somani",
+        "D",
+        "3bfe0748-5423-4fcf-9962-905d2b747f23"
+      ],
+      [
+        "Eric Synenberg",
+        "D",
+        "1ebfe182-1b49-4e69-b7f3-2fd528c70d73"
+      ],
+      [
+        "Dan Troy",
+        "D",
+        "04d4dc4f-a38a-4d50-8962-ea961550b2ff"
+      ],
+      [
+        "Terrence Upchurch",
+        "D",
+        "a4c53220-d4a7-4591-b2d8-109516dc9401"
+      ]
+    ]
   },
   {
     "bill_id": "ocd-bill/b2c93b54-e177-46d2-a79b-3dfd0ccc2c72",
@@ -128,8 +244,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -433,8 +549,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -482,8 +598,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -609,14 +725,14 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ai_system_composite",
       "artificial_intelligence",
+      "machine_learning",
       "deepfake_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -624,8 +740,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb392/01_RH/pdf/",
-    "latest_action_date": "2026-06-10T04:00:00+00:00",
-    "latest_action_description": "Reported - Amended",
+    "latest_action_date": "2026-11-10T05:00:00+00:00",
+    "latest_action_description": "Re-referred",
     "ncsl_status": "",
     "lead": [
       "Tex Fischer",
@@ -1054,10 +1170,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
+      "ai_system",
       "generative_ai_variant",
-      "artificial_intelligence",
-      "ai_system"
+      "ai_system_composite",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1239,8 +1355,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1502,8 +1618,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -1771,8 +1887,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -2249,8 +2365,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2467,7 +2583,7 @@
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr11/00_IN/pdf/",
     "latest_action_date": "2025-01-28T05:00:00+00:00",
     "latest_action_description": "Introduced and Referred to Committee",
-    "ncsl_status": "",
+    "ncsl_status": "Pending",
     "lead": [
       "Ty Mathews",
       "R",
@@ -2512,7 +2628,7 @@
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hr11/00_IN/pdf/",
     "latest_action_date": "2025-01-28T05:00:00+00:00",
     "latest_action_description": "Introduced and Referred to Committee",
-    "ncsl_status": "Pending",
+    "ncsl_status": "",
     "lead": [
       "Ty Mathews",
       "R",
@@ -2544,15 +2660,15 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "generative_ai_variant",
       "adjacent_tech",
       "ai_system_composite",
-      "generative_ai_variant",
       "artificial_intelligence",
       "synthetic_media"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2611,8 +2727,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": true,
@@ -2647,9 +2763,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2711,8 +2827,8 @@
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
     "primary_url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb326/01_RS/pdf/",
-    "latest_action_date": "2026-06-16T04:00:00+00:00",
-    "latest_action_description": "Introduced",
+    "latest_action_date": "2026-11-10T05:00:00+00:00",
+    "latest_action_description": "Referred to committee",
     "ncsl_status": "",
     "lead": [
       "Jerry Cirino",

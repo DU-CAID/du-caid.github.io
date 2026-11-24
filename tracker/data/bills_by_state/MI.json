@@ -540,18 +540,18 @@
     "core_ai_hits": 7,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "generative_ai",
-      "ai_system",
       "adjacent_tech",
       "ai_system_composite",
       "ai_model_variant",
+      "generative_ai",
+      "ai_system",
+      "automated_decision_system",
       "artificial_intelligence",
-      "generative_ai_variant",
-      "automated_decision_system"
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -591,8 +591,8 @@
     "matched_concepts": [
       "ai_system_composite",
       "ai_model_variant",
-      "artificial_intelligence",
       "foundation_model",
+      "artificial_intelligence",
       "llm_variant"
     ],
     "matched_tiers": [
@@ -1258,8 +1258,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2087,6 +2087,46 @@
     "co": []
   },
   {
+    "bill_id": "ocd-bill/5a4ce171-3864-4fa0-8704-bf8259845a01",
+    "state": "MI",
+    "session": "2025-2026",
+    "identifier": "HB 6470",
+    "title": "Mental health: other; oversight of behavioral health systems; provide for. Amends 1974 PA 258 (MCL 330.1001 - 330.2106) by adding secs. 232c, 232d, 232e,\n232f, 232g, 232h, 232k, 232n & 232o.\n  TIE BAR WITH: HB 6473'26",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2026-HIB-6470.htm",
+    "latest_action_date": "2026-11-12",
+    "latest_action_description": "bill electronically reproduced 11/10/2026",
+    "ncsl_status": "",
+    "lead": [
+      "Sharon MacDonell",
+      "D",
+      "55a6fa48-006b-48ee-bffd-655ed7e56fce"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Sharon MacDonell",
+        "D",
+        "55a6fa48-006b-48ee-bffd-655ed7e56fce"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/f8c032bd-a6ab-49c4-8008-023b93037e73",
     "state": "MI",
     "session": "2023-2024",
@@ -2287,8 +2327,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2482,8 +2522,8 @@
     "core_ai_hits": 1,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
-      "adjacent_tech"
+      "adjacent_tech",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2585,8 +2625,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",

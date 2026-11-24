@@ -34,16 +34,19 @@
         "Krista Griffith",
         "D",
         "0dc99b9c-115c-4da0-81b1-22aa5b6750e0"
+      ]
+    ],
+    "co_n": 7,
+    "co": [
+      [
+        "Jeff Spiegelman",
+        "R",
+        "ef94fe15-3a43-405c-8ec6-d446784dfb32"
       ],
       [
-        "Bryan Townsend",
+        "Stephanie Hansen",
         "D",
-        "f35b571a-d734-4086-b358-ff21382d802f"
-      ],
-      [
-        "Melanie Ross Levin",
-        "D",
-        "ec594c77-7bbe-45c5-9ffd-0f6a3aad1e36"
+        "24e001be-be7a-4110-8488-2e385315ff5b"
       ],
       [
         "Brian Pettyjohn",
@@ -51,9 +54,9 @@
         "8b5f6201-6c2f-4847-8d69-737ae776c44b"
       ],
       [
-        "Ray Seigfried",
+        "Kendra Johnson",
         "D",
-        "e841e17b-6ea1-4401-b3d3-9b99237b6366"
+        "b24cb06f-0cb1-4682-8038-d31b8ebc76fb"
       ],
       [
         "Cyndie Romer",
@@ -66,13 +69,11 @@
         "6c816294-3378-48c1-b2fd-bb5cd57a9deb"
       ],
       [
-        "Josue Ortega",
+        "Tizzy Lockman",
         "D",
-        "d020ca16-1926-4279-adc8-c0a6cddeac6e"
+        "ca88dc3b-bbc6-4eb8-af32-9821268ebda5"
       ]
-    ],
-    "co_n": 0,
-    "co": []
+    ]
   },
   {
     "bill_id": "ocd-bill/a4a4f618-4ef1-4257-8bb5-b8027de1d1b2",
@@ -90,8 +91,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -171,17 +172,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -291,8 +292,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -410,8 +411,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "abstract",
-      "title"
+      "title",
+      "abstract"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -430,11 +431,14 @@
         "Jeff Hilovsky",
         "R",
         "aa0846e8-7d8d-46ed-b4c9-54c9c2243d16"
-      ],
+      ]
+    ],
+    "co_n": 8,
+    "co": [
       [
-        "Frank Cooke",
-        "D",
-        "0cac3293-534b-4188-93e3-37ef6cd333ae"
+        "Eric Buckson",
+        "R",
+        "fb743246-9c86-45f5-95eb-34bc1e11bef1"
       ],
       [
         "Danny Short",
@@ -442,9 +446,9 @@
         "947a912f-49e7-4697-896e-fbcd1bcf41d3"
       ],
       [
-        "Dave Lawson",
-        "R",
-        "44e38555-6698-43cb-aa8b-f47de87ba4e3"
+        "Kam Smith",
+        "D",
+        "5b43a977-2fe9-49e8-b3de-6873eab0692c"
       ],
       [
         "Mike Smith",
@@ -452,14 +456,14 @@
         "c9f1393e-01c8-4597-a6e5-6d43330264dc"
       ],
       [
-        "Dave Sokola",
+        "Rae Moore",
         "D",
-        "25071aeb-2a5c-4e8b-b166-4a313b3ac22d"
+        "6a8995a4-deab-416f-89ce-987c8c6557aa"
       ],
       [
-        "Marie Pinkney",
+        "DeShanna Neal",
         "D",
-        "eee736fd-ee29-403a-9bbc-713961c734b7"
+        "5c5f5bf8-d155-4911-8e06-eb6cc664859e"
       ],
       [
         "Josue Ortega",
@@ -471,9 +475,7 @@
         "R",
         "0b53dd28-648e-4fe1-a05a-36a21ec12e63"
       ]
-    ],
-    "co_n": 0,
-    "co": []
+    ]
   },
   {
     "bill_id": "ocd-bill/1e4dd359-ee87-4f25-903b-e28f56411e1e",
@@ -510,25 +512,31 @@
         "Nnamdi Chukwuocha",
         "D",
         "fdf8cd7b-933f-469b-b1b7-119b39ba5e86"
-      ],
-      [
-        "Stell Parker Selby",
-        "",
-        ""
-      ],
+      ]
+    ],
+    "co_n": 4,
+    "co": [
       [
         "Spiros Mantzavinos",
         "D",
         "a42132e6-9070-44a4-81be-70797c4ea2bb"
       ],
       [
+        "Alonna Berry",
+        "D",
+        "e9301c44-8042-4031-8ed0-4731c64a5a66"
+      ],
+      [
+        "Larry Lambert",
+        "D",
+        "1e6f6e97-5c95-4351-afe2-d8843f7897bc"
+      ],
+      [
         "Madinah Wilson-Anton",
         "D",
         "6c816294-3378-48c1-b2fd-bb5cd57a9deb"
       ]
-    ],
-    "co_n": 0,
-    "co": []
+    ]
   },
   {
     "bill_id": "ocd-bill/4bd8dd3a-7f21-4c95-9ad6-31bfe9ff8390",
@@ -548,8 +556,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -594,8 +602,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -614,29 +622,30 @@
         "Krista Griffith",
         "D",
         "0dc99b9c-115c-4da0-81b1-22aa5b6750e0"
-      ],
+      ]
+    ],
+    "co_n": 4,
+    "co": [
       [
         "Cyndie Romer",
         "D",
         "d187436c-b3d3-4512-9172-b7a868942fe4"
       ],
       [
-        "Bryan Townsend",
-        "D",
-        "f35b571a-d734-4086-b358-ff21382d802f"
+        "Jeff Spiegelman",
+        "R",
+        "ef94fe15-3a43-405c-8ec6-d446784dfb32"
       ],
       [
-        "Melanie Ross Levin",
+        "Stephanie Hansen",
         "D",
-        "ec594c77-7bbe-45c5-9ffd-0f6a3aad1e36"
+        "24e001be-be7a-4110-8488-2e385315ff5b"
       ],
       [
         "Brian Pettyjohn",
         "R",
         "8b5f6201-6c2f-4847-8d69-737ae776c44b"
       ]
-    ],
-    "co_n": 0,
-    "co": []
+    ]
   }
 ]

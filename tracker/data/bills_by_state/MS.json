@@ -72,16 +72,16 @@
     "latest_action_description": "Died In Committee",
     "ncsl_status": "",
     "lead": [
-      "Ford",
-      "",
-      ""
+      "Jill Ford",
+      "R",
+      "922a1ebe-1f17-497b-af99-5f14b6b0f66a"
     ],
-    "lead_party": "",
+    "lead_party": "R",
     "primary": [
       [
-        "Ford",
-        "",
-        ""
+        "Jill Ford",
+        "R",
+        "922a1ebe-1f17-497b-af99-5f14b6b0f66a"
       ]
     ],
     "co_n": 0,
@@ -177,10 +177,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_governance",
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_governance",
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -312,9 +312,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai_variant",
       "machine_learning",
+      "artificial_intelligence",
       "ai_system_composite"
     ],
     "matched_tiers": [
@@ -563,48 +563,6 @@
     ]
   },
   {
-    "bill_id": "ocd-bill/3383e167-7af2-402f-adbe-c88d68464759",
-    "state": "MS",
-    "session": "2026",
-    "identifier": "HB 1504",
-    "title": "Mississippians' Right to Name, Likeness and Voice Act; enact.",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://billstatus.ls.state.ms.us/documents/2026/pdf/HB/1500-1599/HB1504IN.pdf",
-    "latest_action_date": "2026-02-03T06:00:00+00:00",
-    "latest_action_description": "Died In Committee",
-    "ncsl_status": "",
-    "lead": [
-      "Bryant Clark",
-      "D",
-      "0d191683-0d9c-408f-812b-5d986a3030a6"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Bryant Clark",
-        "D",
-        "0d191683-0d9c-408f-812b-5d986a3030a6"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/147e9ad6-7ab4-4fcf-b07f-221db4b88e62",
     "state": "MS",
     "session": "2024",
@@ -645,6 +603,48 @@
     "co": []
   },
   {
+    "bill_id": "ocd-bill/3383e167-7af2-402f-adbe-c88d68464759",
+    "state": "MS",
+    "session": "2026",
+    "identifier": "HB 1504",
+    "title": "Mississippians' Right to Name, Likeness and Voice Act; enact.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2026/pdf/HB/1500-1599/HB1504IN.pdf",
+    "latest_action_date": "2026-02-03T06:00:00+00:00",
+    "latest_action_description": "Died In Committee",
+    "ncsl_status": "",
+    "lead": [
+      "Bryant Clark",
+      "D",
+      "0d191683-0d9c-408f-812b-5d986a3030a6"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Bryant Clark",
+        "D",
+        "0d191683-0d9c-408f-812b-5d986a3030a6"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/88a95e0a-5a72-4f0e-bc44-2fab1b8daffb",
     "state": "MS",
     "session": "2025",
@@ -655,8 +655,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
       "ai_system",
+      "ai_system_composite",
       "ai_governance"
     ],
     "matched_tiers": [
@@ -704,10 +704,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "ai_system_composite",
       "ai_system",
-      "algorithmic_tool"
+      "algorithmic_tool",
+      "artificial_intelligence",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -752,8 +752,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -960,8 +960,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
       "ai_system",
+      "ai_system_composite",
       "ai_governance"
     ],
     "matched_tiers": [
@@ -1059,16 +1059,16 @@
     "latest_action_description": "Approved by Governor",
     "ncsl_status": "",
     "lead": [
-      "Ford",
-      "",
-      ""
+      "Jill Ford",
+      "R",
+      "922a1ebe-1f17-497b-af99-5f14b6b0f66a"
     ],
-    "lead_party": "",
+    "lead_party": "R",
     "primary": [
       [
-        "Ford",
-        "",
-        ""
+        "Jill Ford",
+        "R",
+        "922a1ebe-1f17-497b-af99-5f14b6b0f66a"
       ]
     ],
     "co_n": 1,
@@ -1090,12 +1090,12 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
+      "machine_learning",
+      "ai_system",
       "automated_decision_system",
       "artificial_intelligence",
-      "machine_learning",
       "adjacent_tech",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1121,6 +1121,46 @@
         "Daryl Porter",
         "D",
         "da9d953d-a95f-4166-9b94-e6c5e5b40c86"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/5586a0c6-be79-4c99-ac94-89a8d5cb7a04",
+    "state": "MS",
+    "session": "2026",
+    "identifier": "HB 4074",
+    "title": "Mississippi Mobile Sports Wagering Act; create.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2026/pdf/HB/4000-4099/HB4074PS.pdf",
+    "latest_action_date": "2026-03-17T05:00:00+00:00",
+    "latest_action_description": "Died In Committee",
+    "ncsl_status": "",
+    "lead": [
+      "Casey Eure",
+      "R",
+      "7f1357e0-62b5-412c-b121-6cb5a5aced0e"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Casey Eure",
+        "R",
+        "7f1357e0-62b5-412c-b121-6cb5a5aced0e"
       ]
     ],
     "co_n": 0,
@@ -1176,10 +1216,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system",
       "ai_governance",
       "artificial_intelligence",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1334,8 +1374,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1397,16 +1437,16 @@
     "latest_action_description": "Died In Committee",
     "ncsl_status": "",
     "lead": [
-      "Ford",
-      "",
-      ""
+      "Jill Ford",
+      "R",
+      "922a1ebe-1f17-497b-af99-5f14b6b0f66a"
     ],
-    "lead_party": "",
+    "lead_party": "R",
     "primary": [
       [
-        "Ford",
-        "",
-        ""
+        "Jill Ford",
+        "R",
+        "922a1ebe-1f17-497b-af99-5f14b6b0f66a"
       ]
     ],
     "co_n": 0,
@@ -1479,6 +1519,96 @@
     ]
   },
   {
+    "bill_id": "ocd-bill/ef6af509-7636-4ef4-a4b3-b28b374662df",
+    "state": "MS",
+    "session": "2026",
+    "identifier": "SB 2046",
+    "title": "Mississippians' Right to Name, Likeness and Voice Act; enact.",
+    "updated": "",
+    "core_ai_hits": 3,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "digital_replica",
+      "adjacent_tech",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2001-2099/SB2046PS.pdf",
+    "latest_action_date": "2026-03-03T06:00:00+00:00",
+    "latest_action_description": "Died In Committee",
+    "ncsl_status": "",
+    "lead": [
+      "Bradford Blackmon",
+      "D",
+      "3b2b3cb2-3ef8-400d-b395-6b0895ea7631"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Bradford Blackmon",
+        "D",
+        "3b2b3cb2-3ef8-400d-b395-6b0895ea7631"
+      ]
+    ],
+    "co_n": 9,
+    "co": [
+      [
+        "Daniel Sparks",
+        "R",
+        "32153f0b-aa40-4989-9787-e2608c55a87e"
+      ],
+      [
+        "Jeremy England",
+        "R",
+        "33ffa85f-af2b-41bc-89ce-3c59341d17ab"
+      ],
+      [
+        "Scott DeLano",
+        "R",
+        "8467b994-f651-446b-b77f-0632ff790ff8"
+      ],
+      [
+        "Shane Barnett",
+        "R",
+        "9b8df60b-26ba-4cdc-b862-87b15f81fdc1"
+      ],
+      [
+        "Reginald Jackson",
+        "D",
+        "0fde8bcf-e43a-4b39-a9a5-b7869424e2d9"
+      ],
+      [
+        "Justin Pope",
+        "D",
+        "78171f60-d4f8-470f-85ef-0636656eb0d5"
+      ],
+      [
+        "Sollie Norwood",
+        "D",
+        "4b5fb3d4-b284-4886-bb0b-4c00febb1724"
+      ],
+      [
+        "Derrick Simmons",
+        "D",
+        "3ea1bab4-64f2-4ff3-b0a9-e04a8caa3e9f"
+      ],
+      [
+        "Sarita Simmons",
+        "D",
+        "f1012c43-9559-4f7a-8b70-8dd9cf88bab1"
+      ]
+    ]
+  },
+  {
     "bill_id": "ocd-bill/bd1f452c-2a7a-4ae6-b7fd-8a4d9be1682e",
     "state": "MS",
     "session": "2026",
@@ -1494,11 +1624,12 @@
       "core_ai"
     ],
     "match_fields": [
+      "raw_text",
       "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "http://billstatus.ls.state.ms.us/documents/2026/html/SB/2001-2099/SB2050PS.htm",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2001-2099/SB2050PS.pdf",
     "latest_action_date": "2026-03-03T06:00:00+00:00",
     "latest_action_description": "Died In Committee",
     "ncsl_status": "",
@@ -1549,9 +1680,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1593,8 +1724,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -1679,8 +1810,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -1728,8 +1859,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -1900,6 +2031,54 @@
     ]
   },
   {
+    "bill_id": "ocd-bill/754470f5-b705-4b96-aaeb-361e8900a4fc",
+    "state": "MS",
+    "session": "2026",
+    "identifier": "SB 2294",
+    "title": "Education; institute initiatives to promote literacy in math, reading, finance, computer science, and civics.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2026/pdf/SB/2200-2299/SB2294SG.pdf",
+    "latest_action_date": "2026-04-08T05:00:00+00:00",
+    "latest_action_description": "Approved by Governor",
+    "ncsl_status": "",
+    "lead": [
+      "Chris Johnson",
+      "R",
+      "20510bb3-edcd-4cb8-a41a-e0114e6215c9"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Chris Johnson",
+        "R",
+        "20510bb3-edcd-4cb8-a41a-e0114e6215c9"
+      ]
+    ],
+    "co_n": 1,
+    "co": [
+      [
+        "Sarita Simmons",
+        "D",
+        "f1012c43-9559-4f7a-8b70-8dd9cf88bab1"
+      ]
+    ]
+  },
+  {
     "bill_id": "ocd-bill/82db56e1-f37f-4acc-b529-17dc767034ac",
     "state": "MS",
     "session": "2025",
@@ -1957,9 +2136,9 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "ai_system_composite",
+      "automated_decision_system",
       "artificial_intelligence",
-      "deepfake_media",
-      "automated_decision_system"
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2042,13 +2221,13 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "ai_governance",
+      "ai_system",
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -2086,9 +2265,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2114,51 +2293,6 @@
         "Chris Johnson",
         "R",
         "20510bb3-edcd-4cb8-a41a-e0114e6215c9"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
-    "bill_id": "ocd-bill/76ae2e7d-7be0-428a-8742-d4543fc6e04c",
-    "state": "MS",
-    "session": "2025",
-    "identifier": "SB 2437",
-    "title": "\"Prohibition of Exploitation by Deepfakes Act\"; enact.",
-    "updated": "",
-    "core_ai_hits": 4,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "machine_learning",
-      "deepfake_media",
-      "artificial_intelligence",
-      "morphed_image"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://billstatus.ls.state.ms.us/documents/2025/pdf/SB/2400-2499/SB2437IN.pdf",
-    "latest_action_date": "2025-02-04T06:00:00+00:00",
-    "latest_action_description": "Died In Committee",
-    "ncsl_status": "Failed",
-    "lead": [
-      "Angela Hill",
-      "R",
-      "4004cf9a-6d23-4323-b158-00f22078d2b4"
-    ],
-    "lead_party": "R",
-    "primary": [
-      [
-        "Angela Hill",
-        "R",
-        "4004cf9a-6d23-4323-b158-00f22078d2b4"
       ]
     ],
     "co_n": 0,
@@ -2209,6 +2343,51 @@
         "b58c7115-6f1d-4de3-9327-eef3b6f0c83c"
       ]
     ]
+  },
+  {
+    "bill_id": "ocd-bill/76ae2e7d-7be0-428a-8742-d4543fc6e04c",
+    "state": "MS",
+    "session": "2025",
+    "identifier": "SB 2437",
+    "title": "\"Prohibition of Exploitation by Deepfakes Act\"; enact.",
+    "updated": "",
+    "core_ai_hits": 4,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "machine_learning",
+      "deepfake_media",
+      "morphed_image",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2025/pdf/SB/2400-2499/SB2437IN.pdf",
+    "latest_action_date": "2025-02-04T06:00:00+00:00",
+    "latest_action_description": "Died In Committee",
+    "ncsl_status": "Failed",
+    "lead": [
+      "Angela Hill",
+      "R",
+      "4004cf9a-6d23-4323-b158-00f22078d2b4"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Angela Hill",
+        "R",
+        "4004cf9a-6d23-4323-b158-00f22078d2b4"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
   },
   {
     "bill_id": "ocd-bill/2b4859db-cc62-40d7-b137-ca39c060b840",
@@ -2471,8 +2650,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -2885,6 +3064,77 @@
         "Scott DeLano",
         "R",
         "8467b994-f651-446b-b77f-0632ff790ff8"
+      ]
+    ]
+  },
+  {
+    "bill_id": "ocd-bill/c57dd3fe-a961-46d5-8d3d-af614b3bd1b8",
+    "state": "MS",
+    "session": "2026",
+    "identifier": "SB 3053",
+    "title": "Appropriation; IHL - General support.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://billstatus.ls.state.ms.us/documents/2026/pdf/SB/3000-3099/SB3053SG.pdf",
+    "latest_action_date": "2026-04-09T05:00:00+00:00",
+    "latest_action_description": "Approved by Governor",
+    "ncsl_status": "",
+    "lead": [
+      "Briggs Hopson",
+      "R",
+      "f275881b-1096-4a6a-a607-b417eae41f2e"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Briggs Hopson",
+        "R",
+        "f275881b-1096-4a6a-a607-b417eae41f2e"
+      ]
+    ],
+    "co_n": 6,
+    "co": [
+      [
+        "Dennis DeBar",
+        "R",
+        "8c139a04-43ed-48c5-98cc-e2d308efa65b"
+      ],
+      [
+        "Rita Parks",
+        "R",
+        "d618a68e-ed3a-47a5-be24-852af75d9ab3"
+      ],
+      [
+        "Nicole Boyd",
+        "R",
+        "befe53fc-f95d-49df-93f4-9985e00151e6"
+      ],
+      [
+        "Albert Butler",
+        "D",
+        "c012fed5-c753-4a01-9c3c-9924d178c24d"
+      ],
+      [
+        "Scott DeLano",
+        "R",
+        "8467b994-f651-446b-b77f-0632ff790ff8"
+      ],
+      [
+        "Ben Suber",
+        "R",
+        "ba13036f-790b-4745-b008-eeb74f1c86a1"
       ]
     ]
   }

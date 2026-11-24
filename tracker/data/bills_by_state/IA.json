@@ -441,9 +441,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "deepfake_media",
       "synthetic_media",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "core_ai"
@@ -817,7 +817,7 @@
     "source_bucket": "regex_flagged",
     "primary_url": "https://www.legis.iowa.gov/docs/publications/LGE/91/Attachments/HF2635_GovLetter.pdf",
     "latest_action_date": "2026-05-13",
-    "latest_action_description": "Signed by Governor. H.J. 05/13.",
+    "latest_action_description": "Signed by Governor.",
     "ncsl_status": "",
     "lead": [
       "COMMITTEE ON HEALTH AND HUMAN SERVICES",
@@ -1537,9 +1537,9 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "algorithmic_decision_system",
       "algorithmic_tool",
-      "machine_learning"
+      "machine_learning",
+      "algorithmic_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -1796,11 +1796,11 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "algorithmic_tool",
       "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite",
-      "ai_model_variant",
-      "algorithmic_tool"
+      "ai_model_variant"
     ],
     "matched_tiers": [
       "adjacent_ai",

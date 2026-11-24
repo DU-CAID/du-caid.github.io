@@ -13,8 +13,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -462,8 +462,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -1683,8 +1683,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2029,8 +2029,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -2274,8 +2274,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-09-16T04:00:00+00:00",
-    "latest_action_description": "Referred to the House Committee on Veterans' Affairs.",
+    "latest_action_date": "2026-09-23T04:00:00+00:00",
+    "latest_action_description": "Referred to the Subcommittee on Oversight and Investigations.",
     "ncsl_status": "",
     "lead": [
       "Tom Barrett",
@@ -2303,10 +2303,10 @@
     "core_ai_hits": 5,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "deepfake_media",
       "artificial_intelligence",
       "ai_system_composite",
       "ai_model_variant",
+      "deepfake_media",
       "machine_learning"
     ],
     "matched_tiers": [
@@ -2358,8 +2358,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2589,8 +2589,8 @@
       "digital_replica"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "title"
@@ -2649,8 +2649,8 @@
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
     "primary_url": null,
-    "latest_action_date": "2026-09-24T04:00:00+00:00",
-    "latest_action_description": "Referred to the House Committee on Homeland Security.",
+    "latest_action_date": "2026-09-25T04:00:00+00:00",
+    "latest_action_description": "Referred to the Subcommittee on Cybersecurity and Infrastructure Protection.",
     "ncsl_status": "",
     "lead": [
       "August Pfluger",
@@ -2665,7 +2665,7 @@
         "2519c079-f97e-532b-b53e-167398fd7398"
       ]
     ],
-    "co_n": 5,
+    "co_n": 7,
     "co": [
       [
         "Josh Harder",
@@ -2691,6 +2691,16 @@
         "Dan Newhouse",
         "R",
         "c2de8671-10f6-5eb3-8624-a9fd877464b5"
+      ],
+      [
+        "Josh Gottheimer",
+        "D",
+        "8ce4e2db-be5a-5493-a399-b2e6061301ba"
+      ],
+      [
+        "Seth Magaziner",
+        "D",
+        "2b7e8cfa-f37a-5155-ac79-e769b3cf71da"
       ]
     ]
   },
@@ -2729,6 +2739,138 @@
         "Tom Barrett",
         "R",
         "4651a84b-e450-46d2-abd0-3778a7c9912a"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/5c0a700f-ab74-475a-a17e-a9b47a4a4600",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 11046",
+    "title": "To amend the Homeland Security Act of 2002 to establish within the Cybersecurity and Infrastructure Security Agency the National Cyber and AI Investigations Board to investigate significant cyber incidents, cyber incidents involving terrorism, and cyber incidents involving artificial intelligence, to determine root causes and develop recommendations to prevent similar incidents and address terrorism threats to the United States, including threats relating to the malicious use of information systems or artificial intelligence by covered foreign adversaries, including terrorist organizations, and for other purposes.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-11-17T05:00:00+00:00",
+    "latest_action_description": "Referred to the House Committee on Homeland Security.",
+    "ncsl_status": "",
+    "lead": [
+      "Morgan Luttrell",
+      "R",
+      "868d6300-e9e7-5df4-bfe1-2e7fd1a632ac"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Morgan Luttrell",
+        "R",
+        "868d6300-e9e7-5df4-bfe1-2e7fd1a632ac"
+      ]
+    ],
+    "co_n": 1,
+    "co": [
+      [
+        "Ritchie Torres",
+        "D",
+        "3a4aef6c-28c5-5cb7-a664-0e8c9d0c4fd2"
+      ]
+    ]
+  },
+  {
+    "bill_id": "ocd-bill/9fc97e1e-114e-4110-b7fe-fd64b83f605d",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 11055",
+    "title": "To amend the Homeland Security Act of 2002 to establish within the Cybersecurity and Infrastructure Security Agency a pilot program to be known as the \"BRIDGE AI Mission Program\" to recruit and manage artificial intelligence and emerging technology professionals on a temporary basis to support the core mission of the Agency, and for other purposes.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-11-18T05:00:00+00:00",
+    "latest_action_description": "Referred to the House Committee on Homeland Security.",
+    "ncsl_status": "",
+    "lead": [
+      "Vince Fong",
+      "R",
+      "2d6b7f7f-a241-5064-9812-9506beb2b76e"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Vince Fong",
+        "R",
+        "2d6b7f7f-a241-5064-9812-9506beb2b76e"
+      ]
+    ],
+    "co_n": 1,
+    "co": [
+      [
+        "Josh Gottheimer",
+        "D",
+        "8ce4e2db-be5a-5493-a399-b2e6061301ba"
+      ]
+    ]
+  },
+  {
+    "bill_id": "ocd-bill/e9f79d97-2c33-4165-bdb9-485a65ca4e5d",
+    "state": "US",
+    "session": "119",
+    "identifier": "HR 11076",
+    "title": "To amend the Homeland Security Act of 2002 to require the Director of the Cybersecurity and Infrastructure Security Agency to lead cybersecurity efforts relating to the secure adoption, discovery, identification, authorization, monitoring, accountability, and risk management of artificial intelligence agents operating on executive agency information systems, and for other purposes.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-11-18T05:00:00+00:00",
+    "latest_action_description": "Referred to the Committee on Homeland Security, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "ncsl_status": "",
+    "lead": [
+      "Matt Van Epps",
+      "R",
+      "c0c63ecc-b8fe-42d9-97a5-63f5d65c9c7d"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Matt Van Epps",
+        "R",
+        "c0c63ecc-b8fe-42d9-97a5-63f5d65c9c7d"
       ]
     ],
     "co_n": 0,
@@ -5366,12 +5508,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai_variant",
-      "generative_ai"
+      "generative_ai",
+      "generative_ai_variant"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title"
@@ -6502,8 +6644,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -7457,9 +7599,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "machine_learning",
       "automated_decision_system",
-      "artificial_intelligence",
-      "machine_learning"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -7905,8 +8047,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -7953,8 +8095,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech"
     ],
     "matched_tiers": [
@@ -8002,12 +8144,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -8055,8 +8197,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -8445,8 +8587,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -8862,9 +9004,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "generative_ai_variant",
-      "generative_ai",
-      "artificial_intelligence"
+      "generative_ai"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -8908,8 +9050,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -9748,8 +9890,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -10374,13 +10516,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -10458,8 +10600,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -10763,8 +10905,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -10846,8 +10988,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -10931,10 +11073,10 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "algorithmic_tool",
       "artificial_intelligence",
-      "machine_learning",
-      "ml_system"
+      "ml_system",
+      "algorithmic_tool",
+      "machine_learning"
     ],
     "matched_tiers": [
       "core_ai",
@@ -11172,9 +11314,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "deepfake_media",
-      "machine_learning",
       "artificial_intelligence",
-      "adjacent_tech"
+      "adjacent_tech",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -11844,8 +11986,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -12135,13 +12277,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -12179,8 +12321,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "adjacent_tech",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -12292,8 +12434,8 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -12340,14 +12482,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
       "artificial_intelligence",
+      "machine_learning",
       "deepfake_media"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -12548,8 +12690,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -12895,9 +13037,9 @@
     "core_ai_hits": 4,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
       "ai_system_composite",
       "ai_model_variant",
+      "ai_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -14144,8 +14286,8 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "adjacent_tech",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -14659,8 +14801,8 @@
     "adjacent_ai_hits": 1,
     "matched_concepts": [
       "artificial_intelligence",
-      "automated_decision_system",
-      "machine_learning"
+      "machine_learning",
+      "automated_decision_system"
     ],
     "matched_tiers": [
       "core_ai",
@@ -15010,12 +15152,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -15114,17 +15256,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "deepfake_media",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
-      "title",
       "abstract",
+      "title",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -15261,14 +15403,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text",
@@ -15466,8 +15608,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -15623,8 +15765,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -17480,10 +17622,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -18208,8 +18350,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -18948,8 +19090,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "deepfake_media",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -20409,12 +20551,12 @@
     "core_ai_hits": 6,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "ai_system",
       "ai_governance",
       "ml_system",
+      "machine_learning",
       "ai_system_composite",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "ai_system"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -20542,14 +20684,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
+      "machine_learning",
       "adjacent_tech",
       "ai_system_composite",
-      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -20909,8 +21051,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -20947,8 +21089,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "generative_ai"
     ],
     "matched_tiers": [
       "core_ai",
@@ -21267,8 +21409,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "foundation_model",
-      "llm_variant"
+      "llm_variant",
+      "foundation_model"
     ],
     "matched_tiers": [
       "core_ai"
@@ -22109,8 +22251,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -22378,8 +22520,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -22626,8 +22768,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system_composite",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -23019,8 +23161,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -23671,7 +23813,7 @@
         "7c181af1-a048-53f0-a16c-833ffd27aef4"
       ]
     ],
-    "co_n": 3,
+    "co_n": 4,
     "co": [
       [
         "Valerie Foushee",
@@ -23687,6 +23829,11 @@
         "James Walkinshaw",
         "D",
         "1e692f82-663e-46f8-aa96-88207dab107f"
+      ],
+      [
+        "George Whitesides",
+        "D",
+        "b7094a5e-a819-465f-a716-54ad6cad5207"
       ]
     ]
   },
@@ -24206,7 +24353,7 @@
         "d2a8d710-a781-5a40-b6f2-e46bffcf40d2"
       ]
     ],
-    "co_n": 19,
+    "co_n": 20,
     "co": [
       [
         "Jim McGovern",
@@ -24302,6 +24449,11 @@
         "Maxwell Frost",
         "D",
         "f0bef4bc-bb68-55ca-afb8-9104567b2f17"
+      ],
+      [
+        "Jared Huffman",
+        "D",
+        "c2b08e7d-2372-5af6-b333-7ea2787cb3ca"
       ]
     ]
   },
@@ -25480,17 +25632,17 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system",
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
       "adjacent_ai"
     ],
     "match_fields": [
-      "abstract",
       "title",
+      "abstract",
       "raw_text"
     ],
     "in_ncsl": false,
@@ -25613,6 +25765,112 @@
     ]
   },
   {
+    "bill_id": "ocd-bill/7409951d-4ab2-4e4f-b50a-03d60b886ded",
+    "state": "US",
+    "session": "119",
+    "identifier": "HRES 1642",
+    "title": "Expressing the sense of the House of Representatives that Congress must refuse to provide any additional funds or exceptional regulatory support to companies or financial institutions facing insolvency or financial collapse due to exposures to acute stress within the artificial intelligence market and must provide support to all harmed Americans instead.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-10-29T04:00:00+00:00",
+    "latest_action_description": "Referred to the Committee on Financial Services, and in addition to the Committees on the Judiciary, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "ncsl_status": "",
+    "lead": [
+      "Greg Casar",
+      "D",
+      "3b0de391-3f75-564b-9b1c-c793300ff1a9"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Greg Casar",
+        "D",
+        "3b0de391-3f75-564b-9b1c-c793300ff1a9"
+      ]
+    ],
+    "co_n": 13,
+    "co": [
+      [
+        "Maxine Waters",
+        "D",
+        "fc7a4a9e-9274-546f-ae5c-bcf46f3fe0f2"
+      ],
+      [
+        "Jan Schakowsky",
+        "D",
+        "c5e8693c-dca3-5ff7-b456-e71d944e4fb0"
+      ],
+      [
+        "Chuy García",
+        "D",
+        "f89c416f-c08d-5251-9a31-201a5265e283"
+      ],
+      [
+        "Rashida Tlaib",
+        "D",
+        "e7497932-512f-5b6f-8830-aa4b6737cd2e"
+      ],
+      [
+        "Delia Ramirez",
+        "D",
+        "34d76857-187b-5f62-a2d1-ddfcd13494cf"
+      ],
+      [
+        "André Carson",
+        "D",
+        "ef4b4ed3-1808-548d-8625-2cea913c2e4a"
+      ],
+      [
+        "Danny Davis",
+        "D",
+        "a494987e-6674-5df8-a8b2-de4b5a99de86"
+      ],
+      [
+        "Chris Deluzio",
+        "D",
+        "06299567-cfd4-5679-ad04-893e9f980275"
+      ],
+      [
+        "Brad Sherman",
+        "D",
+        "4015098b-d823-5776-9b47-ceb09bf523a9"
+      ],
+      [
+        "Valerie Foushee",
+        "D",
+        "2b138e95-2a83-5c51-a3f4-397017c9210e"
+      ],
+      [
+        "Pramila Jayapal",
+        "D",
+        "7849cc06-924b-5f36-a446-1f97d9fbdc63"
+      ],
+      [
+        "Analilia Mejía",
+        "D",
+        "76235fec-99b2-46b9-8632-d4ef1ad24466"
+      ],
+      [
+        "Mark Pocan",
+        "D",
+        "50093b91-c03b-5dbf-acb8-e5881dd576e4"
+      ]
+    ]
+  },
+  {
     "bill_id": "ocd-bill/2917e92c-018e-4172-b541-84b3643d467d",
     "state": "US",
     "session": "118",
@@ -25622,9 +25880,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
       "artificial_intelligence",
-      "ai_system_composite"
+      "ai_system_composite",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -26655,8 +26913,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "algorithmic_tool",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "algorithmic_tool"
     ],
     "matched_tiers": [
       "core_ai"
@@ -27310,12 +27568,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -27527,8 +27785,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -27571,8 +27829,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
       "automated_decision_system",
+      "machine_learning",
       "artificial_intelligence"
     ],
     "matched_tiers": [
@@ -27692,8 +27950,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -27937,9 +28195,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
+      "ai_system",
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai"
@@ -27985,14 +28243,14 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system",
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
-      "ai_system"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -28145,8 +28403,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -28471,9 +28729,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
+      "machine_learning",
       "ai_system_composite",
-      "ai_governance",
-      "machine_learning"
+      "ai_governance"
     ],
     "matched_tiers": [
       "core_ai",
@@ -29174,8 +29432,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -29350,8 +29608,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -29476,54 +29734,6 @@
     ]
   },
   {
-    "bill_id": "ocd-bill/51967659-ff63-4c91-b1a0-7e733cecf525",
-    "state": "US",
-    "session": "116",
-    "identifier": "S 1471",
-    "title": "Armed Forces Digital Advantage Act",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s1471is/pdf/BILLS-116s1471is.pdf",
-    "latest_action_date": "2019-05-15T04:00:00+00:00",
-    "latest_action_description": "Read twice and referred to the Committee on Armed Services.",
-    "ncsl_status": "",
-    "lead": [
-      "Martin Heinrich",
-      "D",
-      "fb46b038-d2a8-5824-bb36-deb07f8d9f54"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Martin Heinrich",
-        "D",
-        "fb46b038-d2a8-5824-bb36-deb07f8d9f54"
-      ]
-    ],
-    "co_n": 1,
-    "co": [
-      [
-        "Rob Portman",
-        "R",
-        "68b92607-9467-5706-a019-640dd3cf8901"
-      ]
-    ]
-  },
-  {
     "bill_id": "ocd-bill/433d8d20-3d5a-488c-a4da-edfd880d75cf",
     "state": "US",
     "session": "118",
@@ -29571,6 +29781,54 @@
         "Joni Ernst",
         "R",
         "86133add-b3ff-52c2-a71e-442b9afeff6b"
+      ]
+    ]
+  },
+  {
+    "bill_id": "ocd-bill/51967659-ff63-4c91-b1a0-7e733cecf525",
+    "state": "US",
+    "session": "116",
+    "identifier": "S 1471",
+    "title": "Armed Forces Digital Advantage Act",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s1471is/pdf/BILLS-116s1471is.pdf",
+    "latest_action_date": "2019-05-15T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Armed Services.",
+    "ncsl_status": "",
+    "lead": [
+      "Martin Heinrich",
+      "D",
+      "fb46b038-d2a8-5824-bb36-deb07f8d9f54"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Martin Heinrich",
+        "D",
+        "fb46b038-d2a8-5824-bb36-deb07f8d9f54"
+      ]
+    ],
+    "co_n": 1,
+    "co": [
+      [
+        "Rob Portman",
+        "R",
+        "68b92607-9467-5706-a019-640dd3cf8901"
       ]
     ]
   },
@@ -29633,8 +29891,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -29813,8 +30071,8 @@
     "adjacent_ai_hits": 0,
     "matched_concepts": [
       "artificial_intelligence",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system",
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "core_ai"
@@ -29860,12 +30118,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -29902,9 +30160,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "artificial_intelligence",
       "generative_ai_variant",
-      "generative_ai",
-      "artificial_intelligence"
+      "generative_ai"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -30298,9 +30556,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "artificial_intelligence",
       "generative_ai_variant",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -30334,67 +30592,6 @@
         "Peter Welch",
         "D",
         "8addb5a8-a569-54b2-811b-b5d091350411"
-      ]
-    ]
-  },
-  {
-    "bill_id": "ocd-bill/3d871160-b8c2-4313-b4b4-7c502bb04aa4",
-    "state": "US",
-    "session": "118",
-    "identifier": "S 1699",
-    "title": "Tech to Save Moms Act",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-118s1699is/pdf/BILLS-118s1699is.pdf",
-    "latest_action_date": "2023-05-18T04:00:00+00:00",
-    "latest_action_description": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
-    "ncsl_status": "",
-    "lead": [
-      "Robert Menendez",
-      "D",
-      "cf399eb8-e1d0-58b8-ac90-fd10441d660b"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Robert Menendez",
-        "D",
-        "cf399eb8-e1d0-58b8-ac90-fd10441d660b"
-      ]
-    ],
-    "co_n": 4,
-    "co": [
-      [
-        "Cory Booker",
-        "D",
-        "d0bb2662-40b6-52d2-94e6-2bf9d588c954"
-      ],
-      [
-        "Dan Sullivan",
-        "R",
-        "a6b5e853-563f-5b87-a14a-a1427f56b262"
-      ],
-      [
-        "Chris Murphy",
-        "D",
-        "ef439b89-0461-56c7-aec5-93b6369e18a7"
-      ],
-      [
-        "Kirsten Gillibrand",
-        "D",
-        "d3f90fd1-5f64-5d18-a658-bdd021b89f46"
       ]
     ]
   },
@@ -30470,6 +30667,67 @@
     ]
   },
   {
+    "bill_id": "ocd-bill/3d871160-b8c2-4313-b4b4-7c502bb04aa4",
+    "state": "US",
+    "session": "118",
+    "identifier": "S 1699",
+    "title": "Tech to Save Moms Act",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-118s1699is/pdf/BILLS-118s1699is.pdf",
+    "latest_action_date": "2023-05-18T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+    "ncsl_status": "",
+    "lead": [
+      "Robert Menendez",
+      "D",
+      "cf399eb8-e1d0-58b8-ac90-fd10441d660b"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Robert Menendez",
+        "D",
+        "cf399eb8-e1d0-58b8-ac90-fd10441d660b"
+      ]
+    ],
+    "co_n": 4,
+    "co": [
+      [
+        "Cory Booker",
+        "D",
+        "d0bb2662-40b6-52d2-94e6-2bf9d588c954"
+      ],
+      [
+        "Dan Sullivan",
+        "R",
+        "a6b5e853-563f-5b87-a14a-a1427f56b262"
+      ],
+      [
+        "Chris Murphy",
+        "D",
+        "ef439b89-0461-56c7-aec5-93b6369e18a7"
+      ],
+      [
+        "Kirsten Gillibrand",
+        "D",
+        "d3f90fd1-5f64-5d18-a658-bdd021b89f46"
+      ]
+    ]
+  },
+  {
     "bill_id": "ocd-bill/13430805-a7be-46d2-99cb-43bbe454c394",
     "state": "US",
     "session": "117",
@@ -30479,10 +30737,10 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 3,
     "matched_concepts": [
-      "machine_learning",
       "artificial_intelligence",
       "adjacent_tech",
-      "ai_system_composite"
+      "ai_system_composite",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -30577,8 +30835,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -30943,8 +31201,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -31360,8 +31618,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -31440,9 +31698,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "artificial_intelligence",
-      "adjacent_tech",
       "deepfake_media",
-      "machine_learning"
+      "machine_learning",
+      "adjacent_tech"
     ],
     "matched_tiers": [
       "core_ai",
@@ -31663,13 +31921,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "adjacent_tech",
       "machine_learning",
+      "adjacent_tech",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -31794,15 +32052,15 @@
     "core_ai_hits": 8,
     "adjacent_ai_hits": 4,
     "matched_concepts": [
-      "generative_ai_variant",
-      "machine_learning",
       "llm_variant",
-      "generative_ai",
+      "generative_ai_variant",
       "artificial_intelligence",
       "adjacent_tech",
       "large_language_model",
       "ai_system_composite",
-      "ai_model_variant"
+      "ai_model_variant",
+      "machine_learning",
+      "generative_ai"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -31905,8 +32163,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -32441,8 +32699,8 @@
       "machine_learning"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -32738,13 +32996,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "automated_decision_system",
       "machine_learning",
+      "automated_decision_system",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -33056,8 +33314,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -33120,8 +33378,8 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "artificial_intelligence",
       "machine_learning",
+      "artificial_intelligence",
       "adjacent_tech",
       "ai_system_composite"
     ],
@@ -33245,9 +33503,9 @@
     "adjacent_ai_hits": 2,
     "matched_concepts": [
       "machine_learning",
-      "deepfake_media",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "deepfake_media"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -33337,9 +33595,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
+      "artificial_intelligence",
       "automated_decision_system",
-      "artificial_intelligence"
+      "machine_learning"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -33383,6 +33641,72 @@
         "Cory Booker",
         "D",
         "d0bb2662-40b6-52d2-94e6-2bf9d588c954"
+      ]
+    ]
+  },
+  {
+    "bill_id": "ocd-bill/4ed50839-81d1-47a3-a441-55d99e674131",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 2937",
+    "title": "A bill to establish legal standards for advanced artificial intelligence products.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2025-09-29T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on the Judiciary. (text: CR S6836-6838)",
+    "ncsl_status": "",
+    "lead": [
+      "Dick Durbin",
+      "D",
+      "7d0c4665-2bcf-5e53-b450-25461cd13d85"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Dick Durbin",
+        "D",
+        "7d0c4665-2bcf-5e53-b450-25461cd13d85"
+      ]
+    ],
+    "co_n": 5,
+    "co": [
+      [
+        "Josh Hawley",
+        "R",
+        "0a7d370e-88bd-5b83-9b93-c8607c036d7a"
+      ],
+      [
+        "Peter Welch",
+        "D",
+        "8addb5a8-a569-54b2-811b-b5d091350411"
+      ],
+      [
+        "Angus King",
+        "Other",
+        "273dd641-da15-5fc0-bdc9-496cc9b65fbd"
+      ],
+      [
+        "Marsha Blackburn",
+        "R",
+        "fad2ab8c-d191-5eb8-9bd8-5bbc44a35f0d"
+      ],
+      [
+        "Tim Kaine",
+        "D",
+        "4d537f5f-04fd-578a-a8d2-61dd4972e758"
       ]
     ]
   },
@@ -34394,12 +34718,12 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "machine_learning",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -35860,9 +36184,9 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system",
       "artificial_intelligence",
-      "ai_system_composite",
-      "ai_system"
+      "ai_system_composite"
     ],
     "matched_tiers": [
       "adjacent_ai",
@@ -36057,8 +36381,8 @@
     "matched_concepts": [
       "adjacent_tech",
       "ai_system_composite",
-      "artificial_intelligence",
-      "machine_learning"
+      "machine_learning",
+      "artificial_intelligence"
     ],
     "matched_tiers": [
       "core_ai",
@@ -36107,8 +36431,8 @@
     ],
     "match_fields": [
       "raw_text",
-      "title",
-      "abstract"
+      "abstract",
+      "title"
     ],
     "in_ncsl": false,
     "source_bucket": "regex_flagged",
@@ -37313,13 +37637,13 @@
     "core_ai_hits": 3,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "ai_system_composite",
       "machine_learning",
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "abstract",
@@ -37566,8 +37890,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 1,
     "matched_concepts": [
-      "generative_ai",
-      "generative_ai_variant"
+      "generative_ai_variant",
+      "generative_ai"
     ],
     "matched_tiers": [
       "core_ai",
@@ -38677,8 +39001,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "foundation_model",
-      "llm_variant"
+      "llm_variant",
+      "foundation_model"
     ],
     "matched_tiers": [
       "core_ai"
@@ -38724,8 +39048,8 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "ai_system",
-      "ai_system_composite"
+      "ai_system_composite",
+      "ai_system"
     ],
     "matched_tiers": [
       "core_ai"
@@ -39053,6 +39377,62 @@
     ]
   },
   {
+    "bill_id": "ocd-bill/c5c08e8e-f3fa-48eb-937b-8fa08d8d9d18",
+    "state": "US",
+    "session": "119",
+    "identifier": "S 5785",
+    "title": "A bill to require the Securities and Exchange Commission to issue rules relating to the use of artificial intelligence by public companies, and for other purposes.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": null,
+    "latest_action_date": "2026-11-19T05:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+    "ncsl_status": "",
+    "lead": [
+      "Mark Warner",
+      "D",
+      "0149412b-3e52-5743-bf11-a11ef4a98856"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Mark Warner",
+        "D",
+        "0149412b-3e52-5743-bf11-a11ef4a98856"
+      ]
+    ],
+    "co_n": 3,
+    "co": [
+      [
+        "John Neely Kennedy",
+        "R",
+        "7a996578-ee76-59c8-856c-4f63861a62da"
+      ],
+      [
+        "Angela Alsobrooks",
+        "D",
+        "93f7b243-f3e6-4fec-b65a-42f7a19939e3"
+      ],
+      [
+        "Mike Rounds",
+        "R",
+        "bfd392c5-2d61-56fa-94c6-ea12aaee7ea6"
+      ]
+    ]
+  },
+  {
     "bill_id": "ocd-bill/695d34d4-b5b5-4795-8cf6-1c88aebcd242",
     "state": "US",
     "session": "117",
@@ -39062,13 +39442,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -39589,13 +39969,13 @@
     "core_ai_hits": 2,
     "adjacent_ai_hits": 2,
     "matched_concepts": [
-      "machine_learning",
       "adjacent_tech",
-      "artificial_intelligence"
+      "artificial_intelligence",
+      "machine_learning"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -39902,8 +40282,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
