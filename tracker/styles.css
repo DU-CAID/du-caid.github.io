@@ -602,7 +602,8 @@ a:hover { text-decoration: underline; }
   vertical-align: 0.1em;
   white-space: nowrap;
 }
-.lead-cell { font-size: 0.85rem; min-width: 11rem; }
+.lead-cell { font-size: 0.85rem; min-width: 11rem; max-width: 15rem; }
+.sp.np { white-space: normal; }  /* long committee names wrap instead of widening the table */
 .sp { white-space: nowrap; }
 .lead-cell .more { color: var(--muted); font-size: 0.78rem; }
 .sponsor-list { list-style: none; padding: 0; margin: 0.25rem 0 0; display: flex; flex-wrap: wrap; gap: 0.3rem 1rem; font-size: 0.85rem; }

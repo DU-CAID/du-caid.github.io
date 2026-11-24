@@ -90,7 +90,8 @@ function sponsorHTML(s) {
   const tag = kind
     ? `<span class="sponsor-kind" title="This bill is sponsored by a ${esc(kind.toLowerCase())}, not an individual legislator">${esc(kind)}</span>`
     : partyBadge(party);
-  return `<span class="sp">${label}${tag}</span>`;  // keeps the badge on the name's line
+  // "sp" keeps a legislator's name and party badge on one line; long committee names ("sp np") may wrap
+  return `<span class="sp${kind ? " np" : ""}">${label}${tag}</span>`;
 }
 
 /* ── Tab switching ───────────────────────────────────────── */
