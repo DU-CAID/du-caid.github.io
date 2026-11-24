@@ -3310,6 +3310,51 @@
     ]
   },
   {
+    "bill_id": "ocd-bill/7e332a97-f016-4ace-b167-47e20f29b489",
+    "state": "IL",
+    "session": "103rd",
+    "identifier": "HB 4705",
+    "title": "ARTIFICIAL INTELLIGENCE REPORT",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 2,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning",
+      "adjacent_tech"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "title",
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=190448&DocName=10300HB4705&DocNum=4705&DocTypeID=HB&LegID=152258&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
+    "latest_action_date": "2024-04-05",
+    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
+    "ncsl_status": "Pending",
+    "lead": [
+      "Abdelnasser Rashid",
+      "D",
+      "4101db1f-a913-4d16-88fb-001f120bb092"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Abdelnasser Rashid",
+        "D",
+        "4101db1f-a913-4d16-88fb-001f120bb092"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/73312aad-ac06-4aef-8d34-5133fe33b2a3",
     "state": "IL",
     "session": "104th",
@@ -3421,51 +3466,6 @@
         "ceb7f558-3a2c-4041-bf3b-f5a9a511e8b3"
       ]
     ]
-  },
-  {
-    "bill_id": "ocd-bill/7e332a97-f016-4ace-b167-47e20f29b489",
-    "state": "IL",
-    "session": "103rd",
-    "identifier": "HB 4705",
-    "title": "ARTIFICIAL INTELLIGENCE REPORT",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 2,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning",
-      "adjacent_tech"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://beta.ilga.gov/Legislation/BillStatus/FullText?LegDocId=190448&DocName=10300HB4705&DocNum=4705&DocTypeID=HB&LegID=152258&GAID=17&SessionID=112&SpecSess=&Session=&Print=1",
-    "latest_action_date": "2024-04-05",
-    "latest_action_description": "Rule 19(a) / Re-referred to Rules Committee",
-    "ncsl_status": "Pending",
-    "lead": [
-      "Abdelnasser Rashid",
-      "D",
-      "4101db1f-a913-4d16-88fb-001f120bb092"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Abdelnasser Rashid",
-        "D",
-        "4101db1f-a913-4d16-88fb-001f120bb092"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
   },
   {
     "bill_id": "ocd-bill/de889434-ae64-4a92-8431-f35fc582a103",
@@ -5566,48 +5566,6 @@
     ]
   },
   {
-    "bill_id": "ocd-bill/4ff1cfac-e41c-453e-abff-a65cc396dc2a",
-    "state": "IL",
-    "session": "101st",
-    "identifier": "HB 5321",
-    "title": "ELECT CODE-FAKE MEDIA",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "deepfake_media",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "abstract",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://ilga.gov/legislation/fulltext.asp?DocName=10100HB5321&GA=101&SessionId=108&DocTypeId=HB&LegID=125899&DocNum=5321&GAID=15&SpecSess=&Session=&print=true",
-    "latest_action_date": "2020-06-23",
-    "latest_action_description": "Rule 19(b) / Re-referred to Rules Committee",
-    "ncsl_status": "Pending",
-    "lead": [
-      "Anne Stava",
-      "D",
-      "8dfe2e37-8a40-4be0-b44d-0bf65861f4e0"
-    ],
-    "lead_party": "D",
-    "primary": [],
-    "co_n": 1,
-    "co": [
-      [
-        "Anne Stava",
-        "D",
-        "8dfe2e37-8a40-4be0-b44d-0bf65861f4e0"
-      ]
-    ]
-  },
-  {
     "bill_id": "ocd-bill/6f30fbe2-ef7e-4210-ac2f-16045e568bed",
     "state": "IL",
     "session": "103rd",
@@ -5649,6 +5607,48 @@
     ],
     "co_n": 0,
     "co": []
+  },
+  {
+    "bill_id": "ocd-bill/4ff1cfac-e41c-453e-abff-a65cc396dc2a",
+    "state": "IL",
+    "session": "101st",
+    "identifier": "HB 5321",
+    "title": "ELECT CODE-FAKE MEDIA",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "deepfake_media",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "abstract",
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://ilga.gov/legislation/fulltext.asp?DocName=10100HB5321&GA=101&SessionId=108&DocTypeId=HB&LegID=125899&DocNum=5321&GAID=15&SpecSess=&Session=&print=true",
+    "latest_action_date": "2020-06-23",
+    "latest_action_description": "Rule 19(b) / Re-referred to Rules Committee",
+    "ncsl_status": "Pending",
+    "lead": [
+      "Anne Stava",
+      "D",
+      "8dfe2e37-8a40-4be0-b44d-0bf65861f4e0"
+    ],
+    "lead_party": "D",
+    "primary": [],
+    "co_n": 1,
+    "co": [
+      [
+        "Anne Stava",
+        "D",
+        "8dfe2e37-8a40-4be0-b44d-0bf65861f4e0"
+      ]
+    ]
   },
   {
     "bill_id": "ocd-bill/2f0e0b8a-acbc-4b51-88e2-bd5cb92adae6",

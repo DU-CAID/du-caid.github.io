@@ -29734,6 +29734,54 @@
     ]
   },
   {
+    "bill_id": "ocd-bill/51967659-ff63-4c91-b1a0-7e733cecf525",
+    "state": "US",
+    "session": "116",
+    "identifier": "S 1471",
+    "title": "Armed Forces Digital Advantage Act",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "machine_learning"
+    ],
+    "matched_tiers": [
+      "core_ai",
+      "adjacent_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s1471is/pdf/BILLS-116s1471is.pdf",
+    "latest_action_date": "2019-05-15T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Armed Services.",
+    "ncsl_status": "",
+    "lead": [
+      "Martin Heinrich",
+      "D",
+      "fb46b038-d2a8-5824-bb36-deb07f8d9f54"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Martin Heinrich",
+        "D",
+        "fb46b038-d2a8-5824-bb36-deb07f8d9f54"
+      ]
+    ],
+    "co_n": 1,
+    "co": [
+      [
+        "Rob Portman",
+        "R",
+        "68b92607-9467-5706-a019-640dd3cf8901"
+      ]
+    ]
+  },
+  {
     "bill_id": "ocd-bill/433d8d20-3d5a-488c-a4da-edfd880d75cf",
     "state": "US",
     "session": "118",
@@ -29781,54 +29829,6 @@
         "Joni Ernst",
         "R",
         "86133add-b3ff-52c2-a71e-442b9afeff6b"
-      ]
-    ]
-  },
-  {
-    "bill_id": "ocd-bill/51967659-ff63-4c91-b1a0-7e733cecf525",
-    "state": "US",
-    "session": "116",
-    "identifier": "S 1471",
-    "title": "Armed Forces Digital Advantage Act",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence",
-      "machine_learning"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-116s1471is/pdf/BILLS-116s1471is.pdf",
-    "latest_action_date": "2019-05-15T04:00:00+00:00",
-    "latest_action_description": "Read twice and referred to the Committee on Armed Services.",
-    "ncsl_status": "",
-    "lead": [
-      "Martin Heinrich",
-      "D",
-      "fb46b038-d2a8-5824-bb36-deb07f8d9f54"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Martin Heinrich",
-        "D",
-        "fb46b038-d2a8-5824-bb36-deb07f8d9f54"
-      ]
-    ],
-    "co_n": 1,
-    "co": [
-      [
-        "Rob Portman",
-        "R",
-        "68b92607-9467-5706-a019-640dd3cf8901"
       ]
     ]
   },
@@ -33493,6 +33493,48 @@
     "co": []
   },
   {
+    "bill_id": "ocd-bill/eca43ce5-a109-4483-a885-610583ffe07b",
+    "state": "US",
+    "session": "117",
+    "identifier": "S 2904",
+    "title": "Department of Defense Artificial Intelligence Metrics Act of 2021",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "ai_system_composite",
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text",
+      "title"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-117s2904is/pdf/BILLS-117s2904is.pdf",
+    "latest_action_date": "2021-09-30T04:00:00+00:00",
+    "latest_action_description": "Read twice and referred to the Committee on Armed Services.",
+    "ncsl_status": "",
+    "lead": [
+      "Mike Rounds",
+      "R",
+      "bfd392c5-2d61-56fa-94c6-ea12aaee7ea6"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Mike Rounds",
+        "R",
+        "bfd392c5-2d61-56fa-94c6-ea12aaee7ea6"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/de48f6e9-5a51-46c1-9fc9-2675e538147d",
     "state": "US",
     "session": "116",
@@ -33542,48 +33584,6 @@
         "00c39487-8eec-5494-af5e-96e9b025a39b"
       ]
     ]
-  },
-  {
-    "bill_id": "ocd-bill/eca43ce5-a109-4483-a885-610583ffe07b",
-    "state": "US",
-    "session": "117",
-    "identifier": "S 2904",
-    "title": "Department of Defense Artificial Intelligence Metrics Act of 2021",
-    "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "ai_system_composite",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text",
-      "title"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.govinfo.gov/content/pkg/BILLS-117s2904is/pdf/BILLS-117s2904is.pdf",
-    "latest_action_date": "2021-09-30T04:00:00+00:00",
-    "latest_action_description": "Read twice and referred to the Committee on Armed Services.",
-    "ncsl_status": "",
-    "lead": [
-      "Mike Rounds",
-      "R",
-      "bfd392c5-2d61-56fa-94c6-ea12aaee7ea6"
-    ],
-    "lead_party": "R",
-    "primary": [
-      [
-        "Mike Rounds",
-        "R",
-        "bfd392c5-2d61-56fa-94c6-ea12aaee7ea6"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
   },
   {
     "bill_id": "ocd-bill/47954443-cad5-4cc5-ab7f-4eed33239c7b",

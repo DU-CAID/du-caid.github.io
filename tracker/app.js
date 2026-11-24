@@ -79,14 +79,18 @@ function partyBadge(p) {
   return `<span class="party-badge p${letter}" title="${esc(PARTY_NAMES[p] || p)}">${letter}</span>`;
 }
 
-// A sponsor entry is [name, party, id]; matched legislators get a link to their bills
+// A sponsor entry is [name, party, id] for a person; matched legislators get a link to their bills.
+// A committee, the governor or a state agency is [name, "", "", kind] and gets a grey tag instead.
 function sponsorHTML(s) {
   if (!s) return "-";
-  const [name, party, id] = s;
+  const [name, party, id, kind] = s;
   const label = id
     ? `<a href="#" class="sponsor-link" title="Show this legislator’s bills" data-sponsor-id="${esc(id)}" data-sponsor-name="${esc(name)}">${esc(name)}</a>`
     : esc(name);
-  return `<span class="sp">${label}${partyBadge(party)}</span>`;  // keeps the badge on the name's line
+  const tag = kind
+    ? `<span class="sponsor-kind" title="This bill is sponsored by a ${esc(kind.toLowerCase())}, not an individual legislator">${esc(kind)}</span>`
+    : partyBadge(party);
+  return `<span class="sp">${label}${tag}</span>`;  // keeps the badge on the name's line
 }
 
 /* ── Tab switching ───────────────────────────────────────── */

@@ -1,51 +1,5 @@
 [
   {
-    "bill_id": "ocd-bill/afacb6d5-2665-4a72-9e46-f64ea1d4f5e6",
-    "state": "OK",
-    "session": "2025",
-    "identifier": "HB 1304",
-    "title": "Schools; subject matter standards; computer science courses; curriculum; rules; effective date; emergency.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1304 INT.PDF",
-    "latest_action_date": "2025-02-25",
-    "latest_action_description": "Policy recommendation to the Education Oversight committee; Do Pass Common Education",
-    "ncsl_status": "Pending - Carryover",
-    "lead": [
-      "Dick Lowe",
-      "R",
-      "dc094bcd-66c1-47f4-b9b0-94272636a7fe"
-    ],
-    "lead_party": "R",
-    "primary": [
-      [
-        "Dick Lowe",
-        "R",
-        "dc094bcd-66c1-47f4-b9b0-94272636a7fe"
-      ],
-      [
-        "Brenda Stanley",
-        "R",
-        "55b572a7-2951-4597-b70c-e37b51163b03"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/cd1fba6b-88c9-42a1-90d7-7112a9a08419",
     "state": "OK",
     "session": "2026",
@@ -81,6 +35,52 @@
         "Lowe",
         "",
         ""
+      ],
+      [
+        "Brenda Stanley",
+        "R",
+        "55b572a7-2951-4597-b70c-e37b51163b03"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/afacb6d5-2665-4a72-9e46-f64ea1d4f5e6",
+    "state": "OK",
+    "session": "2025",
+    "identifier": "HB 1304",
+    "title": "Schools; subject matter standards; computer science courses; curriculum; rules; effective date; emergency.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1304 INT.PDF",
+    "latest_action_date": "2025-02-25",
+    "latest_action_description": "Policy recommendation to the Education Oversight committee; Do Pass Common Education",
+    "ncsl_status": "Pending - Carryover",
+    "lead": [
+      "Dick Lowe",
+      "R",
+      "dc094bcd-66c1-47f4-b9b0-94272636a7fe"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Dick Lowe",
+        "R",
+        "dc094bcd-66c1-47f4-b9b0-94272636a7fe"
       ],
       [
         "Brenda Stanley",
@@ -315,9 +315,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/f71677d2-88f8-4497-97bf-d644472a6954",
+    "bill_id": "ocd-bill/3d1bf21c-b5d4-42e6-9cf2-0388f0980154",
     "state": "OK",
-    "session": "2026",
+    "session": "2025",
     "identifier": "HB 1899",
     "title": "Artificial intelligence; Artificial Intelligence Act of 2025; effective date.",
     "updated": "",
@@ -330,8 +330,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "raw_text",
-      "title"
+      "title",
+      "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -356,9 +356,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/3d1bf21c-b5d4-42e6-9cf2-0388f0980154",
+    "bill_id": "ocd-bill/f71677d2-88f8-4497-97bf-d644472a6954",
     "state": "OK",
-    "session": "2025",
+    "session": "2026",
     "identifier": "HB 1899",
     "title": "Artificial intelligence; Artificial Intelligence Act of 2025; effective date.",
     "updated": "",
@@ -371,8 +371,8 @@
       "core_ai"
     ],
     "match_fields": [
-      "title",
-      "raw_text"
+      "raw_text",
+      "title"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
@@ -485,53 +485,6 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/e2b6b72c-85e3-4255-84c2-24722cc2a783",
-    "state": "OK",
-    "session": "2026",
-    "identifier": "HB 1916",
-    "title": "Artificial intelligence; Responsible Deployment of AI Systems Act; AI Council; AI Regulatory Sandbox Program; Artificial Intelligence Workforce Development Program; effective date.",
-    "updated": "",
-    "core_ai_hits": 6,
-    "adjacent_ai_hits": 1,
-    "matched_concepts": [
-      "ai_system",
-      "deepfake_media",
-      "high_risk_ai_variant",
-      "high_risk_ai",
-      "ai_system_composite",
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
-    ],
-    "match_fields": [
-      "title",
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1916 INT.PDF",
-    "latest_action_date": "2025-02-04",
-    "latest_action_description": "Second Reading referred to Rules",
-    "ncsl_status": "Pending - Carryover",
-    "lead": [
-      "Arturo Alonso",
-      "D",
-      "4d0b52d3-ad1f-45c9-b46e-3676194ef82c"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Arturo Alonso",
-        "D",
-        "4d0b52d3-ad1f-45c9-b46e-3676194ef82c"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/3a7b387d-a6f5-4c72-b501-73576f68b77c",
     "state": "OK",
     "session": "2025",
@@ -579,19 +532,25 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/dbdc72aa-63fc-4f82-aa4f-6cc48ce8d91c",
+    "bill_id": "ocd-bill/e2b6b72c-85e3-4255-84c2-24722cc2a783",
     "state": "OK",
     "session": "2026",
-    "identifier": "HB 1917",
-    "title": "Artificial intelligence; Artificial Intelligence Act of 2025; effective date.",
+    "identifier": "HB 1916",
+    "title": "Artificial intelligence; Responsible Deployment of AI Systems Act; AI Council; AI Regulatory Sandbox Program; Artificial Intelligence Workforce Development Program; effective date.",
     "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
+    "core_ai_hits": 6,
+    "adjacent_ai_hits": 1,
     "matched_concepts": [
+      "ai_system",
+      "deepfake_media",
+      "high_risk_ai_variant",
+      "high_risk_ai",
+      "ai_system_composite",
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "title",
@@ -599,7 +558,7 @@
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1917 INT.PDF",
+    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1916 INT.PDF",
     "latest_action_date": "2025-02-04",
     "latest_action_description": "Second Reading referred to Rules",
     "ncsl_status": "Pending - Carryover",
@@ -661,42 +620,41 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/70a036f2-3ea0-4ca1-956a-e6e3d6a7b1a4",
+    "bill_id": "ocd-bill/dbdc72aa-63fc-4f82-aa4f-6cc48ce8d91c",
     "state": "OK",
     "session": "2026",
-    "identifier": "HB 1983",
-    "title": "Schools; media literacy and cybersecurity to be taught in sixth, seventh, or eighth grades; State Department of Education to adopt curriculum standards; effective date.",
+    "identifier": "HB 1917",
+    "title": "Artificial intelligence; Artificial Intelligence Act of 2025; effective date.",
     "updated": "",
-    "core_ai_hits": 2,
-    "adjacent_ai_hits": 1,
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
     "matched_concepts": [
-      "artificial_intelligence",
-      "deepfake_media"
+      "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
       "core_ai"
     ],
     "match_fields": [
+      "title",
       "raw_text"
     ],
     "in_ncsl": true,
     "source_bucket": "regex_flagged",
-    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1983 INT.PDF",
-    "latest_action_date": "2025-02-10",
-    "latest_action_description": "Recommendation to the full committee; Do Pass Appropriations and Budget Education Subcommittee",
+    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1917 INT.PDF",
+    "latest_action_date": "2025-02-04",
+    "latest_action_description": "Second Reading referred to Rules",
     "ncsl_status": "Pending - Carryover",
     "lead": [
-      "Trish Ranson",
+      "Arturo Alonso",
       "D",
-      "d3a66cdd-0469-4c20-90da-620f60c4b4be"
+      "4d0b52d3-ad1f-45c9-b46e-3676194ef82c"
     ],
     "lead_party": "D",
     "primary": [
       [
-        "Trish Ranson",
+        "Arturo Alonso",
         "D",
-        "d3a66cdd-0469-4c20-90da-620f60c4b4be"
+        "4d0b52d3-ad1f-45c9-b46e-3676194ef82c"
       ]
     ],
     "co_n": 0,
@@ -744,6 +702,48 @@
         "Darrell Weaver",
         "R",
         "bea1fd3e-9a8e-4cd6-bdb8-abedd9f8a888"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/70a036f2-3ea0-4ca1-956a-e6e3d6a7b1a4",
+    "state": "OK",
+    "session": "2026",
+    "identifier": "HB 1983",
+    "title": "Schools; media literacy and cybersecurity to be taught in sixth, seventh, or eighth grades; State Department of Education to adopt curriculum standards; effective date.",
+    "updated": "",
+    "core_ai_hits": 2,
+    "adjacent_ai_hits": 1,
+    "matched_concepts": [
+      "artificial_intelligence",
+      "deepfake_media"
+    ],
+    "matched_tiers": [
+      "adjacent_ai",
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/hB/HB1983 INT.PDF",
+    "latest_action_date": "2025-02-10",
+    "latest_action_description": "Recommendation to the full committee; Do Pass Appropriations and Budget Education Subcommittee",
+    "ncsl_status": "Pending - Carryover",
+    "lead": [
+      "Trish Ranson",
+      "D",
+      "d3a66cdd-0469-4c20-90da-620f60c4b4be"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Trish Ranson",
+        "D",
+        "d3a66cdd-0469-4c20-90da-620f60c4b4be"
       ]
     ],
     "co_n": 0,
@@ -832,9 +832,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/be0b9908-5483-47b7-a317-2d6b2fae4ff6",
+    "bill_id": "ocd-bill/8761ae42-d80e-47b0-bb67-5b9afc49d932",
     "state": "OK",
-    "session": "2025",
+    "session": "2026",
     "identifier": "HB 2371",
     "title": "Schools; mental health; pilot programs; revolving fund; effective date.",
     "updated": "",
@@ -844,8 +844,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -873,9 +873,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/8761ae42-d80e-47b0-bb67-5b9afc49d932",
+    "bill_id": "ocd-bill/be0b9908-5483-47b7-a317-2d6b2fae4ff6",
     "state": "OK",
-    "session": "2026",
+    "session": "2025",
     "identifier": "HB 2371",
     "title": "Schools; mental health; pilot programs; revolving fund; effective date.",
     "updated": "",
@@ -885,8 +885,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -2192,51 +2192,6 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/79beb86f-f83b-4b53-989e-10f3d9845cc2",
-    "state": "OK",
-    "session": "2019-2020",
-    "identifier": "SB 100",
-    "title": "Practice of optometry; revocation of licenses; unprofessional or unethical conduct; providing optometrists may rent areas within retail stores; prescriptions. Effective date.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "http://webserver1.lsb.state.ok.us/cf_pdf/2019-20 COMMITTEE SUBS/SCCS/SB100 CCS.PDF",
-    "latest_action_date": "2019-05-21",
-    "latest_action_description": "Approved by Governor 05/21/2019",
-    "ncsl_status": "",
-    "lead": [
-      "Carl Newton",
-      "R",
-      "6cfaac2f-52af-4aad-8ec4-6373bb45bf24"
-    ],
-    "lead_party": "R",
-    "primary": [
-      [
-        "Carl Newton",
-        "R",
-        "6cfaac2f-52af-4aad-8ec4-6373bb45bf24"
-      ],
-      [
-        "Kim David",
-        "R",
-        "b9481541-4d34-4c68-aaa0-658d95bc2101"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/588b9967-57f3-4d03-bb2d-0fe1e6f47bee",
     "state": "OK",
     "session": "2020",
@@ -2276,6 +2231,51 @@
         "Carl Newton",
         "R",
         "6cfaac2f-52af-4aad-8ec4-6373bb45bf24"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/79beb86f-f83b-4b53-989e-10f3d9845cc2",
+    "state": "OK",
+    "session": "2019-2020",
+    "identifier": "SB 100",
+    "title": "Practice of optometry; revocation of licenses; unprofessional or unethical conduct; providing optometrists may rent areas within retail stores; prescriptions. Effective date.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "http://webserver1.lsb.state.ok.us/cf_pdf/2019-20 COMMITTEE SUBS/SCCS/SB100 CCS.PDF",
+    "latest_action_date": "2019-05-21",
+    "latest_action_description": "Approved by Governor 05/21/2019",
+    "ncsl_status": "",
+    "lead": [
+      "Carl Newton",
+      "R",
+      "6cfaac2f-52af-4aad-8ec4-6373bb45bf24"
+    ],
+    "lead_party": "R",
+    "primary": [
+      [
+        "Carl Newton",
+        "R",
+        "6cfaac2f-52af-4aad-8ec4-6373bb45bf24"
+      ],
+      [
+        "Kim David",
+        "R",
+        "b9481541-4d34-4c68-aaa0-658d95bc2101"
       ]
     ],
     "co_n": 0,
@@ -2846,9 +2846,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/c4f4982c-b661-4ec0-b1a3-e47c22b87606",
+    "bill_id": "ocd-bill/7cf950fd-1e6e-4223-8a4c-a73429ccda04",
     "state": "OK",
-    "session": "2026",
+    "session": "2025",
     "identifier": "SB 611",
     "title": "State government; creating the Citizen's Bill of Rights. Emergency.",
     "updated": "",
@@ -2887,9 +2887,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/7cf950fd-1e6e-4223-8a4c-a73429ccda04",
+    "bill_id": "ocd-bill/c4f4982c-b661-4ec0-b1a3-e47c22b87606",
     "state": "OK",
-    "session": "2025",
+    "session": "2026",
     "identifier": "SB 611",
     "title": "State government; creating the Citizen's Bill of Rights. Emergency.",
     "updated": "",
@@ -3012,9 +3012,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/051518c5-0bef-44df-9ea4-f9b6136651d4",
+    "bill_id": "ocd-bill/e2d1e4ed-6613-47f1-b54b-28df16a81827",
     "state": "OK",
-    "session": "2026",
+    "session": "2025",
     "identifier": "SB 885",
     "title": "Social media; creating the Safe Screens for Kids Act. Effective date.",
     "updated": "",
@@ -3025,8 +3025,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "adjacent_ai",
-      "core_ai"
+      "core_ai",
+      "adjacent_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3059,9 +3059,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/e2d1e4ed-6613-47f1-b54b-28df16a81827",
+    "bill_id": "ocd-bill/051518c5-0bef-44df-9ea4-f9b6136651d4",
     "state": "OK",
-    "session": "2025",
+    "session": "2026",
     "identifier": "SB 885",
     "title": "Social media; creating the Safe Screens for Kids Act. Effective date.",
     "updated": "",
@@ -3072,8 +3072,8 @@
       "artificial_intelligence"
     ],
     "matched_tiers": [
-      "core_ai",
-      "adjacent_ai"
+      "adjacent_ai",
+      "core_ai"
     ],
     "match_fields": [
       "raw_text"
@@ -3202,9 +3202,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/8ed1a06c-7ac7-4776-8934-75df70e60e96",
+    "bill_id": "ocd-bill/c52cc893-30ff-45e7-be59-2abc4999591e",
     "state": "OK",
-    "session": "2026",
+    "session": "2025",
     "identifier": "SCR 3",
     "title": "Concurrent Resolution; expressing support for partnership with Taiwan; supporting tax agreement; celebrating the 46th anniversary of Taiwan Relations Act of 1979.",
     "updated": "",
@@ -3247,9 +3247,9 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/c52cc893-30ff-45e7-be59-2abc4999591e",
+    "bill_id": "ocd-bill/8ed1a06c-7ac7-4776-8934-75df70e60e96",
     "state": "OK",
-    "session": "2025",
+    "session": "2026",
     "identifier": "SCR 3",
     "title": "Concurrent Resolution; expressing support for partnership with Taiwan; supporting tax agreement; celebrating the 46th anniversary of Taiwan Relations Act of 1979.",
     "updated": "",

@@ -274,46 +274,6 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/bb87e0d5-70ff-4881-be3a-0f39865148e6",
-    "state": "CA",
-    "session": "20232024",
-    "identifier": "AB 104",
-    "title": "Budget Acts of 2022 and 2023.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202320240AB104&version=20230AB10497AMD",
-    "latest_action_date": "2023-09-13",
-    "latest_action_description": "Re-referred to Com. on B. & F.R.",
-    "ncsl_status": "",
-    "lead": [
-      "Phil Ting",
-      "D",
-      "bf88659d-b2dd-462e-84b3-82ead47ff360"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Phil Ting",
-        "D",
-        "bf88659d-b2dd-462e-84b3-82ead47ff360"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/72df098c-23f2-4190-9f09-21f4d1a8e70a",
     "state": "CA",
     "session": "20252026",
@@ -348,6 +308,46 @@
         "Jesse Gabriel",
         "D",
         "407f6fda-8638-4cca-9704-7aa8df7de26e"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/bb87e0d5-70ff-4881-be3a-0f39865148e6",
+    "state": "CA",
+    "session": "20232024",
+    "identifier": "AB 104",
+    "title": "Budget Acts of 2022 and 2023.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202320240AB104&version=20230AB10497AMD",
+    "latest_action_date": "2023-09-13",
+    "latest_action_description": "Re-referred to Com. on B. & F.R.",
+    "ncsl_status": "",
+    "lead": [
+      "Phil Ting",
+      "D",
+      "bf88659d-b2dd-462e-84b3-82ead47ff360"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Phil Ting",
+        "D",
+        "bf88659d-b2dd-462e-84b3-82ead47ff360"
       ]
     ],
     "co_n": 0,
@@ -1100,14 +1100,16 @@
     "lead": [
       "Committee on Natural Resources",
       "",
-      ""
+      "",
+      "Committee"
     ],
     "lead_party": "",
     "primary": [
       [
         "Committee on Natural Resources",
         "",
-        ""
+        "",
+        "Committee"
       ]
     ],
     "co_n": 0,
@@ -1197,6 +1199,46 @@
     "co": []
   },
   {
+    "bill_id": "ocd-bill/0e6e6f8c-5992-4725-b42a-b89a03410a60",
+    "state": "CA",
+    "session": "20212022",
+    "identifier": "AB 1651",
+    "title": "Worker rights: Workplace Technology Accountability Act.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "automated_decision_system"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": true,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202120220AB1651&version=20210AB165198AMD",
+    "latest_action_date": "2022-04-21",
+    "latest_action_description": "From committee: Do pass and re-refer to Com. on P. & C.P. (Ayes 5. Noes 2.) (April 20). Re-referred to Com. on P. & C.P.",
+    "ncsl_status": "Failed – Adjourned",
+    "lead": [
+      "Ash Kalra",
+      "D",
+      "820619fd-d053-4915-b099-1d134a880228"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Ash Kalra",
+        "D",
+        "820619fd-d053-4915-b099-1d134a880228"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
     "bill_id": "ocd-bill/613de7f6-2621-440f-82e1-6d7d440fb664",
     "state": "CA",
     "session": "20252026",
@@ -1232,46 +1274,6 @@
         "Diane Dixon",
         "R",
         "0c4e1b43-c3d7-4a13-87c4-92e29903cb73"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
-    "bill_id": "ocd-bill/0e6e6f8c-5992-4725-b42a-b89a03410a60",
-    "state": "CA",
-    "session": "20212022",
-    "identifier": "AB 1651",
-    "title": "Worker rights: Workplace Technology Accountability Act.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "automated_decision_system"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": true,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202120220AB1651&version=20210AB165198AMD",
-    "latest_action_date": "2022-04-21",
-    "latest_action_description": "From committee: Do pass and re-refer to Com. on P. & C.P. (Ayes 5. Noes 2.) (April 20). Re-referred to Com. on P. & C.P.",
-    "ncsl_status": "Failed – Adjourned",
-    "lead": [
-      "Ash Kalra",
-      "D",
-      "820619fd-d053-4915-b099-1d134a880228"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Ash Kalra",
-        "D",
-        "820619fd-d053-4915-b099-1d134a880228"
       ]
     ],
     "co_n": 0,
@@ -1344,14 +1346,16 @@
     "lead": [
       "Committee on Judiciary",
       "",
-      ""
+      "",
+      "Committee"
     ],
     "lead_party": "",
     "primary": [
       [
         "Committee on Judiciary",
         "",
-        ""
+        "",
+        "Committee"
       ]
     ],
     "co_n": 0,
@@ -4487,14 +4491,16 @@
     "lead": [
       "Committee on Privacy and Consumer Protection",
       "",
-      ""
+      "",
+      "Committee"
     ],
     "lead_party": "",
     "primary": [
       [
         "Committee on Privacy and Consumer Protection",
         "",
-        ""
+        "",
+        "Committee"
       ]
     ],
     "co_n": 0,
@@ -6668,46 +6674,6 @@
     "co": []
   },
   {
-    "bill_id": "ocd-bill/0d9d605f-a45a-4e1a-9042-c10e99e5c182",
-    "state": "CA",
-    "session": "20252026",
-    "identifier": "SB 104",
-    "title": "Budget Act of 2025.",
-    "updated": "",
-    "core_ai_hits": 1,
-    "adjacent_ai_hits": 0,
-    "matched_concepts": [
-      "artificial_intelligence"
-    ],
-    "matched_tiers": [
-      "core_ai"
-    ],
-    "match_fields": [
-      "raw_text"
-    ],
-    "in_ncsl": false,
-    "source_bucket": "regex_flagged",
-    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB104&version=20250SB10498AMD",
-    "latest_action_date": "2025-07-17",
-    "latest_action_description": "Re-referred to Com. on BUDGET pursuant to Assembly Rule 97.",
-    "ncsl_status": "",
-    "lead": [
-      "Scott Wiener",
-      "D",
-      "de84277e-1c23-4036-bd64-b27c310a1c0e"
-    ],
-    "lead_party": "D",
-    "primary": [
-      [
-        "Scott Wiener",
-        "D",
-        "de84277e-1c23-4036-bd64-b27c310a1c0e"
-      ]
-    ],
-    "co_n": 0,
-    "co": []
-  },
-  {
     "bill_id": "ocd-bill/e425c43e-8c54-4d5f-a2a0-b0ddcdac2661",
     "state": "CA",
     "session": "20232024",
@@ -6742,6 +6708,46 @@
         "Nancy Skinner",
         "D",
         "da008178-5da9-4adb-a690-1360a9bce2db"
+      ]
+    ],
+    "co_n": 0,
+    "co": []
+  },
+  {
+    "bill_id": "ocd-bill/0d9d605f-a45a-4e1a-9042-c10e99e5c182",
+    "state": "CA",
+    "session": "20252026",
+    "identifier": "SB 104",
+    "title": "Budget Act of 2025.",
+    "updated": "",
+    "core_ai_hits": 1,
+    "adjacent_ai_hits": 0,
+    "matched_concepts": [
+      "artificial_intelligence"
+    ],
+    "matched_tiers": [
+      "core_ai"
+    ],
+    "match_fields": [
+      "raw_text"
+    ],
+    "in_ncsl": false,
+    "source_bucket": "regex_flagged",
+    "primary_url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260SB104&version=20250SB10498AMD",
+    "latest_action_date": "2025-07-17",
+    "latest_action_description": "Re-referred to Com. on BUDGET pursuant to Assembly Rule 97.",
+    "ncsl_status": "",
+    "lead": [
+      "Scott Wiener",
+      "D",
+      "de84277e-1c23-4036-bd64-b27c310a1c0e"
+    ],
+    "lead_party": "D",
+    "primary": [
+      [
+        "Scott Wiener",
+        "D",
+        "de84277e-1c23-4036-bd64-b27c310a1c0e"
       ]
     ],
     "co_n": 0,

@@ -587,6 +587,21 @@ a:hover { text-decoration: underline; }
 }
 .party-badge.pD { background: var(--party-d); }
 .party-badge.pR { background: var(--party-r); }
+/* Grey tag for sponsors that are not people (committee, governor, agency) */
+.sponsor-kind {
+  display: inline-block;
+  padding: 0 0.4em;
+  border-radius: 3px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  margin-left: 0.35em;
+  vertical-align: 0.1em;
+  white-space: nowrap;
+}
 .lead-cell { font-size: 0.85rem; min-width: 11rem; }
 .sp { white-space: nowrap; }
 .lead-cell .more { color: var(--muted); font-size: 0.78rem; }

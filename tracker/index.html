@@ -6,9 +6,9 @@
   <title>U.S. State AI Policy Tracker · CAID</title>
   <meta name="description" content="Track state-level AI legislation across all 50 U.S. states. Data from OpenStates/Plural, validated against the NCSL AI legislation database." />
   <link rel="icon" href="https://du-caid.github.io/assets/img/favicon.svg" type="image/svg+xml" />
-  <!-- ?v=202611241049 is replaced with the deploy time by scripts/deploy_to_caid_site.py,
+  <!-- ?v=202611241243 is replaced with the deploy time by scripts/deploy_to_caid_site.py,
        so browsers load the new script and styles after every update -->
-  <link rel="stylesheet" href="./styles.css?v=202611241049" />
+  <link rel="stylesheet" href="./styles.css?v=202611241243" />
 
   <!-- Chart.js for bar and line charts -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
@@ -493,6 +493,14 @@
           “Democratic/Working Families” are shown as their major party.</li>
         <li><strong>Lead sponsor is not always the author.</strong> In some states leadership is listed first on
           priority bills (for example, Connecticut’s SB 2), so the bill’s author appears only as a primary sponsor.</li>
+        <li><strong>Some bills are sponsored by a committee, not a person.</strong> Committees, the governor or a
+          state agency are occasionally the official sponsor, for example Wyoming’s interim committee drafts for the
+          next session or bills introduced “by the Judiciary Committee”. These sponsors are shown with a grey
+          <span class="sponsor-kind" style="margin-left:0">Committee</span>,
+          <span class="sponsor-kind" style="margin-left:0">Governor</span> or
+          <span class="sponsor-kind" style="margin-left:0">Agency</span> tag instead of a party, are not counted in the
+          party charts and do not appear on the Legislators tab. Individual legislators who sit on that committee are
+          not credited unless the bill also lists them.</li>
         <li><strong>Sponsorship norms differ by state.</strong> Some legislatures list most members as primary
           sponsors or attach long co-sponsor lists, so raw sponsor counts are not comparable across states.</li>
         <li>The Legislators tab statistics cover core AI state bills (not resolutions) introduced since 2019.</li>
@@ -553,6 +561,6 @@
 <!-- Map tooltip (appended to body so it floats freely) -->
 <div class="map-tooltip" id="mapTooltip"></div>
 
-<script src="./app.js?v=202611241049" defer></script>
+<script src="./app.js?v=202611241243" defer></script>
 </body>
 </html>
